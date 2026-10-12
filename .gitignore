@@ -1,0 +1,21 @@
+# dependencies
+/node_modules
+
+# build output
+/dist
+*.tsbuildinfo
+
+# secrets — never commit
+.env
+.env.*
+!.env.example
+
+# local database & uploads
+prisma/*.db
+prisma/*.db-journal
+/uploads
+
+# test & tooling
+/coverage
+.DS_Store
+npm-debug.log*

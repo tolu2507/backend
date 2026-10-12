@@ -1,0 +1,116 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model School {
+  id        String   @id @default(uuid())
+  name      String
+  address   String?
+  status    String   @default("PENDING") // PENDING, APPROVED
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  users     User[]
+}
+
+model User {
+  id        String   @id @default(uuid())
+  email     String?  @unique
+  password  String?
+  name      String
+  role      String   // SUPER_ADMIN, PRINCIPAL, TEACHER, PARENT, STUDENT
+  studentId String?  @unique // Custom 4/5 digit ID for students
+  photoUrl  String?
+  
+  schoolId  String?
+  school    School?  @relation(fields: [schoolId], references: [id])
+
+  classId   String?
+  class     Class?   @relation("StudentClass", fields: [classId], references: [id])
+
+  taughtClasses Class[] @relation("TeacherClasses")
+
+  wallet    Wallet?
+
+  // Relations for transactions
+  processedTransactions Transaction[] @relation("ProcessedTransactions")
+  studentTransactions   Transaction[] @relation("StudentTransactions")
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model SchoolSettings {
+  id              String   @id @default("global")
+  schoolName      String   @default("Nexus International School")
+  contactEmail    String   @default("admin@nexus.com")
+  address         String   @default("123 Education Blvd")
+  geminiApiKey    String?  @default("")
+  gtsquadPubKey   String?  @default("")
+  gtsquadSecKey   String?  @default("")
+  updatedAt       DateTime @updatedAt
+}
+
+model Wallet {
+  id        String   @id @default(cuid())
+  balance   Float    @default(0)
+  
+  userId    String   @unique
+  user      User     @relation(fields: [userId], references: [id])
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Transaction {
+  id            String   @id @default(uuid())
+  amount        Float
+  type          String   // WALLET_DEDUCTION, WALLET_FUNDING, CASH_SALE
+  description   String?
+  
+  studentId     String?
+  student       User?    @relation("StudentTransactions", fields: [studentId], references: [id])
+
+  teacherId     String?
+  teacher       User?    @relation("ProcessedTransactions", fields: [teacherId], references: [id])
+
+  createdAt     DateTime @default(now())
+}
+
+model Class {
+  id          String   @id @default(uuid())
+  name        String
+  schoolId    String
+  
+  teacherId   String?
+  teacher     User?    @relation("TeacherClasses", fields: [teacherId], references: [id])
+  
+  students    User[]   @relation("StudentClass")
+  curriculums Curriculum[]
+
+  createdAt   DateTime @default(now())
+}
+
+model Asset {
+  id          String   @id @default(uuid())
+  name        String
+  quantity    Int      @default(1)
+  status      String   @default("GOOD") // GOOD, MAINTENANCE, BROKEN
+  schoolId    String
+
+  createdAt   DateTime @default(now())
+}
+
+model Curriculum {
+  id          String   @id @default(uuid())
+  title       String
+  description String?
+  classId     String
+  class       Class    @relation(fields: [classId], references: [id])
+
+  createdAt   DateTime @default(now())
+}

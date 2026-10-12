@@ -1,0 +1,1272 @@
+// Nexus — schema v2
+//
+// Four products share one database:
+//   1. School CRM       (schools, classes, attendance, results, fees)
+//   2. Parent insights  (guardianship, consent, weekly AI reports)
+//   3. Gamified learning (XP, streaks, badges, leagues)
+//   4. Lesson-teacher marketplace (tutor profiles, parent requests, matching, sessions)
+//
+// Conventions:
+//   - A person is ONE `User`. What they can do comes from `Membership` rows,
+//     so a parent can also be a tutor, a teacher can also be a parent, etc.
+//   - All money is stored in kobo as BigInt (₦1 = 100 kobo). Never Float.
+//   - Every money movement is a `LedgerEntry` tagged with a `RevenueStream`,
+//     so school revenue share can exclude TUTORING cleanly.
+//   - Third-party API keys live in environment variables, never in the DB.
+//   - The previous schema is kept in schema.v1-backup.prisma.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ─────────────────────────────────────────────────────────────
+// Enums
+// ─────────────────────────────────────────────────────────────
+
+enum Role {
+  PLATFORM_ADMIN
+  SCHOOL_OWNER
+  SCHOOL_ADMIN
+  TEACHER
+  STUDENT
+  PARENT
+  TUTOR
+}
+
+enum MembershipStatus {
+  INVITED
+  ACTIVE
+  SUSPENDED
+  LEFT
+}
+
+enum SchoolStatus {
+  PENDING
+  ACTIVE
+  SUSPENDED
+}
+
+enum EducationLevel {
+  NURSERY
+  PRIMARY
+  JUNIOR_SECONDARY
+  SENIOR_SECONDARY
+}
+
+enum TermName {
+  FIRST
+  SECOND
+  THIRD
+}
+
+enum AttendanceStatus {
+  PRESENT
+  ABSENT
+  LATE
+  EXCUSED
+}
+
+enum AssessmentType {
+  CLASSWORK
+  ASSIGNMENT
+  QUIZ
+  TEST
+  EXAM
+}
+
+enum ConsentType {
+  DATA_PROCESSING
+  AI_REPORTS
+  TUTOR_MATCHING
+  MARKETING
+}
+
+enum ReportStatus {
+  DRAFT
+  READY
+  SENT
+  FAILED
+}
+
+enum DeliveryChannel {
+  APP
+  EMAIL
+  WHATSAPP
+  SMS
+}
+
+enum ActivityType {
+  QUIZ
+  PRACTICE
+  READING
+  CHALLENGE
+  GAME
+}
+
+enum XpReason {
+  ACTIVITY
+  STREAK
+  ATTENDANCE
+  BADGE
+  TEACHER_AWARD
+  ADJUSTMENT
+}
+
+enum LeagueTier {
+  BRONZE
+  SILVER
+  GOLD
+  DIAMOND
+}
+
+enum TeachingMode {
+  IN_PERSON
+  ONLINE
+  BOTH
+}
+
+enum VerificationStatus {
+  PENDING
+  VERIFIED // shown to parents as "Nexus approved"
+  REJECTED
+}
+
+enum TutorApplicationStatus {
+  SUBMITTED
+  DOCUMENTS_REVIEW
+  TEST_ASSIGNED
+  TEST_SUBMITTED
+  INTERVIEW
+  APPROVED
+  REJECTED
+}
+
+enum TestAttemptStatus {
+  ASSIGNED
+  IN_PROGRESS
+  SUBMITTED
+  GRADED
+  EXPIRED
+}
+
+enum TutorRequestStatus {
+  OPEN
+  MATCHED
+  CLOSED
+}
+
+enum MatchStatus {
+  SUGGESTED
+  VIEWED
+  DECLINED
+  BOOKED
+}
+
+enum BookingStatus {
+  PENDING
+  ACTIVE
+  PAUSED
+  ENDED
+}
+
+enum EscrowStatus {
+  FREE // trial lesson, nothing to pay
+  UNPAID
+  HELD // parent paid; money waits in escrow
+  RELEASED // paid out to tutor after the lesson quiz / parent confirmation
+  REFUNDED
+  DISPUTED
+}
+
+enum QuizStatus {
+  PENDING // waiting for the student
+  COMPLETED
+  EXPIRED
+}
+
+enum DataRequestType {
+  EXPORT
+  DELETE
+}
+
+enum SessionStatus {
+  SCHEDULED
+  COMPLETED
+  CANCELLED
+  NO_SHOW
+}
+
+enum WalletType {
+  STUDENT_SPEND // tuck shop / pocket money
+  TUTOR_EARNINGS
+  SCHOOL_REVENUE
+  PLATFORM_REVENUE
+  ESCROW // parent payments held until a tutor session happens
+}
+
+enum RevenueStream {
+  SCHOOL_FEES
+  TUCK_SHOP
+  SUBSCRIPTION
+  TUTORING // excluded from school revenue share
+  OTHER
+}
+
+enum LedgerEntryType {
+  TOPUP
+  PURCHASE
+  FEE_PAYMENT
+  ESCROW_HOLD
+  ESCROW_RELEASE
+  PLATFORM_FEE
+  PAYOUT
+  REFUND
+  ADJUSTMENT
+}
+
+enum PaymentPurpose {
+  WALLET_TOPUP
+  SCHOOL_FEE
+  TUTOR_SESSION
+  SUBSCRIPTION
+}
+
+enum PaymentStatus {
+  PENDING
+  SUCCESS
+  FAILED
+  REFUNDED
+}
+
+enum InvoiceStatus {
+  UNPAID
+  PART_PAID
+  PAID
+  VOID
+}
+
+enum AgreementStatus {
+  DRAFT
+  ACTIVE
+  ENDED
+}
+
+enum StatementStatus {
+  DRAFT
+  APPROVED
+  PAID
+}
+
+enum AssetStatus {
+  GOOD
+  MAINTENANCE
+  BROKEN
+}
+
+// ─────────────────────────────────────────────────────────────
+// Identity & access
+// ─────────────────────────────────────────────────────────────
+
+model User {
+  id           String    @id @default(uuid())
+  email        String?   @unique
+  phone        String?   @unique
+  username     String?   @unique // for young students without email
+  passwordHash String?
+  pinHash      String? // 4–6 digit PIN for students on shared/parent devices
+  firstName    String
+  lastName     String
+  otherNames   String?
+  dateOfBirth  DateTime?
+  photoUrl     String?
+  lastLoginAt  DateTime?
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+
+  memberships          Membership[]
+  studentProfile       StudentProfile?
+  tutorProfile         TutorProfile?
+  wallets              Wallet[]
+  childrenLinks        Guardianship[]     @relation("ParentLinks")
+  consentsGiven        Consent[]          @relation("ConsentGiver")
+  taughtSubjects       ClassSubject[]
+  formClasses          Class[]            @relation("FormTeacher")
+  attendanceTaken      Attendance[]       @relation("AttendanceRecorder")
+  notesWritten         TeacherNote[]
+  lessonNotes          LessonNote[]
+  tutorRequests        TutorRequest[]
+  bookingsAsParent     TutorBooking[]     @relation("BookingParent")
+  reviewsWritten       TutorReview[]
+  reportDeliveries     ReportDelivery[]
+  payments             Payment[]
+  ledgerEntriesMade    LedgerEntry[]      @relation("LedgerActor")
+  auditLogs            AuditLog[]
+  refreshTokens        RefreshToken[]
+  passwordResets       PasswordReset[]
+  pushTokens           PushToken[]
+  dataRequests         DataRequest[]
+  notificationPrefs    Json? // { weeklyReport: true, lessonReminders: true, ... }
+  tutorApplications    TutorApplication[] @relation("Applicant")
+  applicationsReviewed TutorApplication[] @relation("ApplicationReviewer")
+  testsGraded          TutorTestAttempt[] @relation("TestGrader")
+  vettingTestsAuthored VettingTest[]
+}
+
+/// What a user can do, and where. One row per (user, role, school).
+/// schoolId is null for platform-wide roles (PLATFORM_ADMIN, PARENT, TUTOR).
+model Membership {
+  id        String           @id @default(uuid())
+  userId    String
+  role      Role
+  schoolId  String?
+  status    MembershipStatus @default(ACTIVE)
+  createdAt DateTime         @default(now())
+
+  user   User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  school School? @relation(fields: [schoolId], references: [id])
+
+  // Note: Postgres treats NULLs as distinct, so enforce uniqueness of
+  // platform-wide roles (schoolId = null) in the service layer.
+  @@unique([userId, role, schoolId])
+  @@index([schoolId, role])
+}
+
+/// Parent ↔ child link. A parent may have children in several schools.
+model Guardianship {
+  id           String    @id @default(uuid())
+  parentId     String
+  studentId    String
+  relationship String // MOTHER, FATHER, GUARDIAN, ...
+  isPrimary    Boolean   @default(false)
+  verifiedAt   DateTime? // set when the school confirms the link
+  createdAt    DateTime  @default(now())
+
+  parent  User           @relation("ParentLinks", fields: [parentId], references: [id], onDelete: Cascade)
+  student StudentProfile @relation(fields: [studentId], references: [id], onDelete: Cascade)
+
+  @@unique([parentId, studentId])
+}
+
+/// Parental consent for processing a child's data (NDPA 2023). Revoking sets revokedAt.
+model Consent {
+  id        String      @id @default(uuid())
+  givenById String
+  studentId String
+  type      ConsentType
+  version   String // version of the policy text the parent agreed to
+  grantedAt DateTime    @default(now())
+  revokedAt DateTime?
+
+  givenBy User           @relation("ConsentGiver", fields: [givenById], references: [id])
+  student StudentProfile @relation(fields: [studentId], references: [id], onDelete: Cascade)
+
+  @@index([studentId, type])
+}
+
+// ─────────────────────────────────────────────────────────────
+// Schools & agreements
+// ─────────────────────────────────────────────────────────────
+
+model School {
+  id         String       @id @default(uuid())
+  name       String
+  slug       String       @unique
+  address    String?
+  state      String?
+  lga        String?
+  email      String?
+  phone      String?
+  logoUrl    String?
+  brandColor String? // hex, drives per-school theming
+  status     SchoolStatus @default(PENDING)
+  createdAt  DateTime     @default(now())
+  updatedAt  DateTime     @updatedAt
+
+  memberships   Membership[]
+  students      StudentProfile[]
+  academicYears AcademicYear[]
+  classes       Class[]
+  subjects      Subject[]
+  activities    LearningActivity[]
+  invoices      FeeInvoice[]
+  wallets       Wallet[]
+  agreements    SchoolAgreement[]
+  statements    RevenueShareStatement[]
+  assets        Asset[]
+  ledgerEntries LedgerEntry[]
+  payments      Payment[]
+}
+
+/// A "book a demo" request from the marketing site. Overwatch follows up and, if it converts, creates the School.
+model SchoolEnquiry {
+  id           String           @id @default(uuid())
+  contactName  String
+  role         String // Proprietor, Principal, Administrator, ...
+  schoolName   String
+  email        String
+  phone        String
+  state        String?
+  studentCount String? // band from the form, e.g. "200-500"
+  levels       EducationLevel[]
+  message      String?
+  handled      Boolean          @default(false)
+  createdAt    DateTime         @default(now())
+
+  @@index([handled, createdAt])
+}
+
+/// The commercial deal with a school: what share of school-generated revenue it receives.
+model SchoolAgreement {
+  id             String          @id @default(uuid())
+  schoolId       String
+  planName       String
+  revenueShareBp Int // basis points: 2500 = 25.00%
+  sharedStreams  RevenueStream[] // which streams count; TUTORING should never be here
+  startsAt       DateTime
+  endsAt         DateTime?
+  status         AgreementStatus @default(DRAFT)
+  signedAt       DateTime?
+  signedByName   String?
+  documentUrl    String?
+  createdAt      DateTime        @default(now())
+
+  school     School                  @relation(fields: [schoolId], references: [id])
+  statements RevenueShareStatement[]
+
+  @@index([schoolId, status])
+}
+
+/// A periodic payout calculation for a school, generated from LedgerEntry rows.
+model RevenueShareStatement {
+  id             String          @id @default(uuid())
+  schoolId       String
+  agreementId    String
+  periodStart    DateTime
+  periodEnd      DateTime
+  grossKobo      BigInt
+  revenueShareBp Int // copied from the agreement at calculation time
+  schoolKobo     BigInt
+  breakdown      Json // per-stream totals
+  status         StatementStatus @default(DRAFT)
+  paidAt         DateTime?
+  payoutRef      String?
+  createdAt      DateTime        @default(now())
+
+  school    School          @relation(fields: [schoolId], references: [id])
+  agreement SchoolAgreement @relation(fields: [agreementId], references: [id])
+
+  @@unique([schoolId, periodStart, periodEnd])
+}
+
+// ─────────────────────────────────────────────────────────────
+// Academic structure
+// ─────────────────────────────────────────────────────────────
+
+model AcademicYear {
+  id        String   @id @default(uuid())
+  schoolId  String
+  name      String // "2026/2027"
+  startDate DateTime
+  endDate   DateTime
+  isCurrent Boolean  @default(false)
+
+  school      School       @relation(fields: [schoolId], references: [id])
+  terms       Term[]
+  enrollments Enrollment[]
+
+  @@unique([schoolId, name])
+}
+
+model Term {
+  id             String   @id @default(uuid())
+  academicYearId String
+  name           TermName
+  startDate      DateTime
+  endDate        DateTime
+
+  academicYear AcademicYear @relation(fields: [academicYearId], references: [id], onDelete: Cascade)
+  assessments  Assessment[]
+  lessonNotes  LessonNote[]
+  invoices     FeeInvoice[]
+
+  @@unique([academicYearId, name])
+}
+
+model Class {
+  id            String         @id @default(uuid())
+  schoolId      String
+  level         EducationLevel
+  gradeName     String // "JSS2", "Primary 3"
+  armName       String? // "Gold", "B"
+  formTeacherId String?
+  createdAt     DateTime       @default(now())
+
+  school      School         @relation(fields: [schoolId], references: [id])
+  formTeacher User?          @relation("FormTeacher", fields: [formTeacherId], references: [id])
+  subjects    ClassSubject[]
+  enrollments Enrollment[]
+  attendance  Attendance[]
+
+  @@unique([schoolId, gradeName, armName])
+}
+
+model Subject {
+  id       String  @id @default(uuid())
+  schoolId String
+  name     String
+  code     String?
+
+  school  School         @relation(fields: [schoolId], references: [id])
+  classes ClassSubject[]
+
+  @@unique([schoolId, name])
+}
+
+/// "Mrs. Adeyemi teaches English to SS2 Gold."
+model ClassSubject {
+  id        String  @id @default(uuid())
+  classId   String
+  subjectId String
+  teacherId String?
+
+  class       Class        @relation(fields: [classId], references: [id], onDelete: Cascade)
+  subject     Subject      @relation(fields: [subjectId], references: [id])
+  teacher     User?        @relation(fields: [teacherId], references: [id])
+  assessments Assessment[]
+  lessonNotes LessonNote[]
+
+  @@unique([classId, subjectId])
+}
+
+// ─────────────────────────────────────────────────────────────
+// Students
+// ─────────────────────────────────────────────────────────────
+
+model StudentProfile {
+  id          String         @id @default(uuid())
+  userId      String         @unique
+  schoolId    String? // null for a child whose parent joined without a school
+  admissionNo String? // the school's own number
+  level       EducationLevel
+  gradeName   String? // "Primary 3", "JSS2" — set by the parent when there's no school
+
+  // Gamification counters (derived from XpEvent; cached for fast reads)
+  xpTotal        Int       @default(0)
+  currentStreak  Int       @default(0)
+  longestStreak  Int       @default(0)
+  lastActiveDate DateTime? @db.Date
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  user          User               @relation(fields: [userId], references: [id], onDelete: Cascade)
+  school        School?            @relation(fields: [schoolId], references: [id])
+  guardians     Guardianship[]
+  consents      Consent[]
+  enrollments   Enrollment[]
+  attendance    Attendance[]
+  results       AssessmentResult[]
+  teacherNotes  TeacherNote[]
+  attempts      ActivityAttempt[]
+  xpEvents      XpEvent[]
+  badges        StudentBadge[]
+  leagueEntries LeagueEntry[]
+  weeklyReports WeeklyReport[]
+  invoices      FeeInvoice[]
+  tutorRequests TutorRequest[]
+  tutorBookings TutorBooking[]
+  lessonQuizzes LessonQuiz[]
+
+  @@unique([schoolId, admissionNo])
+}
+
+/// Which class a student is in for a given academic year (keeps history).
+model Enrollment {
+  id             String @id @default(uuid())
+  studentId      String
+  classId        String
+  academicYearId String
+
+  student      StudentProfile @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  class        Class          @relation(fields: [classId], references: [id])
+  academicYear AcademicYear   @relation(fields: [academicYearId], references: [id])
+
+  @@unique([studentId, academicYearId])
+  @@index([classId])
+}
+
+model Attendance {
+  id           String           @id @default(uuid())
+  studentId    String
+  classId      String
+  date         DateTime         @db.Date
+  status       AttendanceStatus
+  note         String?
+  recordedById String
+  createdAt    DateTime         @default(now())
+
+  student    StudentProfile @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  class      Class          @relation(fields: [classId], references: [id])
+  recordedBy User           @relation("AttendanceRecorder", fields: [recordedById], references: [id])
+
+  @@unique([studentId, date])
+  @@index([classId, date])
+}
+
+model Assessment {
+  id             String         @id @default(uuid())
+  classSubjectId String
+  termId         String
+  title          String
+  type           AssessmentType
+  maxScore       Float
+  weight         Float          @default(1) // contribution to term total
+  topics         String[] // lets the AI see *what* a student struggles with
+  heldOn         DateTime       @db.Date
+  createdAt      DateTime       @default(now())
+
+  classSubject ClassSubject       @relation(fields: [classSubjectId], references: [id], onDelete: Cascade)
+  term         Term               @relation(fields: [termId], references: [id])
+  results      AssessmentResult[]
+}
+
+model AssessmentResult {
+  id           String   @id @default(uuid())
+  assessmentId String
+  studentId    String
+  score        Float
+  remark       String?
+  createdAt    DateTime @default(now())
+
+  assessment Assessment     @relation(fields: [assessmentId], references: [id], onDelete: Cascade)
+  student    StudentProfile @relation(fields: [studentId], references: [id], onDelete: Cascade)
+
+  @@unique([assessmentId, studentId])
+}
+
+/// Teacher observations (behaviour, effort, wellbeing). Feeds the AI reports.
+model TeacherNote {
+  id              String   @id @default(uuid())
+  studentId       String
+  authorId        String
+  category        String // BEHAVIOUR, EFFORT, WELLBEING, ACHIEVEMENT
+  body            String
+  visibleToParent Boolean  @default(false)
+  createdAt       DateTime @default(now())
+
+  student StudentProfile @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  author  User           @relation(fields: [authorId], references: [id])
+
+  @@index([studentId, createdAt])
+}
+
+/// AI-assisted lesson notes for teachers (replaces the old Curriculum model).
+model LessonNote {
+  id             String   @id @default(uuid())
+  classSubjectId String
+  termId         String
+  week           Int
+  title          String
+  content        String // markdown
+  sourceFileUrl  String?
+  aiGenerated    Boolean  @default(false)
+  authorId       String
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  classSubject ClassSubject @relation(fields: [classSubjectId], references: [id], onDelete: Cascade)
+  term         Term         @relation(fields: [termId], references: [id])
+  author       User         @relation(fields: [authorId], references: [id])
+}
+
+// ─────────────────────────────────────────────────────────────
+// Parent insights (AI weekly reports)
+// ─────────────────────────────────────────────────────────────
+
+model WeeklyReport {
+  id          String       @id @default(uuid())
+  studentId   String
+  weekStart   DateTime     @db.Date
+  headline    String?
+  summary     String? // markdown shown to the parent
+  metrics     Json // attendance, scores, XP, streak — the facts the AI was given
+  suggestions Json // home-help tips, recommended activities, tutor suggestion
+  model       String? // which AI model wrote it
+  status      ReportStatus @default(DRAFT)
+  generatedAt DateTime?
+  createdAt   DateTime     @default(now())
+
+  student    StudentProfile   @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  deliveries ReportDelivery[]
+
+  @@unique([studentId, weekStart])
+}
+
+model ReportDelivery {
+  id       String          @id @default(uuid())
+  reportId String
+  parentId String
+  channel  DeliveryChannel
+  sentAt   DateTime?
+  openedAt DateTime?
+  error    String?
+
+  report WeeklyReport @relation(fields: [reportId], references: [id], onDelete: Cascade)
+  parent User         @relation(fields: [parentId], references: [id])
+
+  @@unique([reportId, parentId, channel])
+}
+
+// ─────────────────────────────────────────────────────────────
+// Gamified learning
+// ─────────────────────────────────────────────────────────────
+
+/// A quest/quiz/game. schoolId null = platform content available to everyone.
+model LearningActivity {
+  id          String         @id @default(uuid())
+  schoolId    String?
+  subject     String
+  level       EducationLevel
+  gradeName   String? // narrow to "JSS2" etc.
+  topic       String?
+  title       String
+  type        ActivityType
+  xpReward    Int            @default(10)
+  content     Json // questions, steps, media
+  isPublished Boolean        @default(false)
+  createdAt   DateTime       @default(now())
+
+  school   School?           @relation(fields: [schoolId], references: [id])
+  attempts ActivityAttempt[]
+
+  @@index([level, subject])
+}
+
+model ActivityAttempt {
+  id          String    @id @default(uuid())
+  studentId   String
+  activityId  String
+  startedAt   DateTime  @default(now())
+  completedAt DateTime?
+  score       Float? // 0–1
+  answers     Json?
+  xpEarned    Int       @default(0)
+
+  student  StudentProfile   @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  activity LearningActivity @relation(fields: [activityId], references: [id])
+
+  @@index([studentId, startedAt])
+}
+
+/// Append-only XP ledger. StudentProfile.xpTotal is a cache of SUM(amount).
+model XpEvent {
+  id        String   @id @default(uuid())
+  studentId String
+  amount    Int
+  reason    XpReason
+  refId     String? // attempt id, badge id, ...
+  createdAt DateTime @default(now())
+
+  student StudentProfile @relation(fields: [studentId], references: [id], onDelete: Cascade)
+
+  @@index([studentId, createdAt])
+}
+
+model Badge {
+  id          String  @id @default(uuid())
+  code        String  @unique // "STREAK_30", "MATHS_MASTER_JSS"
+  name        String
+  description String
+  iconUrl     String?
+  criteria    Json
+
+  awards StudentBadge[]
+}
+
+model StudentBadge {
+  id        String   @id @default(uuid())
+  studentId String
+  badgeId   String
+  awardedAt DateTime @default(now())
+
+  student StudentProfile @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  badge   Badge          @relation(fields: [badgeId], references: [id])
+
+  @@unique([studentId, badgeId])
+}
+
+/// Weekly league of ~30 students of a similar level (Duolingo-style).
+model LeagueGroup {
+  id        String         @id @default(uuid())
+  tier      LeagueTier
+  level     EducationLevel
+  weekStart DateTime       @db.Date
+
+  entries LeagueEntry[]
+
+  @@index([weekStart, tier, level])
+}
+
+model LeagueEntry {
+  id        String @id @default(uuid())
+  groupId   String
+  studentId String
+  weeklyXp  Int    @default(0)
+  finalRank Int? // set when the week closes
+
+  group   LeagueGroup    @relation(fields: [groupId], references: [id], onDelete: Cascade)
+  student StudentProfile @relation(fields: [studentId], references: [id], onDelete: Cascade)
+
+  @@unique([groupId, studentId])
+}
+
+// ─────────────────────────────────────────────────────────────
+// Lesson-teacher marketplace
+// ─────────────────────────────────────────────────────────────
+
+model TutorProfile {
+  id                  String             @id @default(uuid())
+  userId              String             @unique
+  headline            String?
+  bio                 String?
+  yearsExperience     Int?
+  qualifications      String[]
+  mode                TeachingMode       @default(BOTH)
+  state               String?
+  lga                 String?
+  latitude            Float?
+  longitude           Float?
+  travelRadiusKm      Int?
+  rateKobo            BigInt // tutor's own price per hour, before platform fee
+  verificationStatus  VerificationStatus @default(PENDING)
+  verifiedAt          DateTime?
+  ratingAvg           Float              @default(0)
+  ratingCount         Int                @default(0)
+  isAcceptingStudents Boolean            @default(true)
+  createdAt           DateTime           @default(now())
+  updatedAt           DateTime           @updatedAt
+
+  user         User                @relation(fields: [userId], references: [id], onDelete: Cascade)
+  subjects     TutorSubject[]
+  availability TutorAvailability[]
+  matches      TutorMatch[]
+  bookings     TutorBooking[]
+  reviews      TutorReview[]
+  applications TutorApplication[]
+}
+
+/// A subject/level the tutor may be suggested for. Only rows with
+/// approvedAt set (i.e. they passed the vetting test) are used in matching.
+model TutorSubject {
+  id         String         @id @default(uuid())
+  tutorId    String
+  subject    String
+  level      EducationLevel
+  exams      String[] // WAEC, NECO, JAMB, Common Entrance
+  testScore  Float? // best vetting score for this subject/level, 0–1
+  approvedAt DateTime?
+  attemptId  String?        @unique // the passing attempt that unlocked it
+
+  tutor   TutorProfile      @relation(fields: [tutorId], references: [id], onDelete: Cascade)
+  attempt TutorTestAttempt? @relation(fields: [attemptId], references: [id])
+
+  @@unique([tutorId, subject, level])
+}
+
+/// One application to become a lesson teacher. Re-applying creates a new row.
+model TutorApplication {
+  id                String                 @id @default(uuid())
+  applicantId       String
+  tutorProfileId    String
+  status            TutorApplicationStatus @default(SUBMITTED)
+  subjectsApplied   Json // [{ subject, level }] the tutor wants to teach
+  ninNumber         String? // National Identification Number, checked by Overwatch
+  idDocumentUrl     String?
+  certificateUrls   String[]
+  referees          Json? // [{ name, phone, relationship }]
+  backgroundCheckAt DateTime?
+  interviewAt       DateTime?
+  interviewNotes    String?
+  reviewerId        String?
+  decisionAt        DateTime?
+  decisionReason    String? // internal; not shown to the applicant verbatim
+  createdAt         DateTime               @default(now())
+  updatedAt         DateTime               @updatedAt
+
+  applicant    User               @relation("Applicant", fields: [applicantId], references: [id])
+  tutorProfile TutorProfile       @relation(fields: [tutorProfileId], references: [id], onDelete: Cascade)
+  reviewer     User?              @relation("ApplicationReviewer", fields: [reviewerId], references: [id])
+  attempts     TutorTestAttempt[]
+
+  @@index([status, createdAt])
+}
+
+/// A subject competency test set by the Nexus team (platform admins).
+model VettingTest {
+  id              String         @id @default(uuid())
+  subject         String
+  level           EducationLevel
+  title           String
+  version         Int            @default(1)
+  passMark        Float // 0–1, e.g. 0.7
+  durationMinutes Int
+  questions       Json // MCQ auto-marked + written/teach-back answers marked by a reviewer
+  isActive        Boolean        @default(true)
+  authorId        String
+  createdAt       DateTime       @default(now())
+
+  author   User               @relation(fields: [authorId], references: [id])
+  attempts TutorTestAttempt[]
+
+  @@unique([subject, level, version])
+}
+
+model TutorTestAttempt {
+  id             String            @id @default(uuid())
+  applicationId  String
+  testId         String
+  status         TestAttemptStatus @default(ASSIGNED)
+  expiresAt      DateTime
+  startedAt      DateTime?
+  submittedAt    DateTime?
+  answers        Json?
+  autoScore      Float? // objective section
+  manualScore    Float? // written section, set by grader
+  finalScore     Float?
+  passed         Boolean?
+  graderId       String?
+  gradedAt       DateTime?
+  feedback       String?
+  integrityFlags Json? // tab switches, time anomalies, etc.
+
+  application  TutorApplication @relation(fields: [applicationId], references: [id], onDelete: Cascade)
+  test         VettingTest      @relation(fields: [testId], references: [id])
+  grader       User?            @relation("TestGrader", fields: [graderId], references: [id])
+  tutorSubject TutorSubject?
+
+  @@index([status])
+}
+
+model TutorAvailability {
+  id          String @id @default(uuid())
+  tutorId     String
+  dayOfWeek   Int // 0 = Sunday
+  startMinute Int // minutes from midnight
+  endMinute   Int
+
+  tutor TutorProfile @relation(fields: [tutorId], references: [id], onDelete: Cascade)
+}
+
+/// What a parent wants. This is the matching criteria.
+model TutorRequest {
+  id            String             @id @default(uuid())
+  parentId      String
+  studentId     String
+  subject       String
+  level         EducationLevel
+  goals         String? // free text: "pass WAEC chemistry"
+  mode          TeachingMode
+  state         String?
+  lga           String?
+  budgetMinKobo BigInt?
+  budgetMaxKobo BigInt?
+  schedule      Json // preferred days/times
+  preferences   Json // "patient", "female tutor", ...
+  status        TutorRequestStatus @default(OPEN)
+  createdAt     DateTime           @default(now())
+
+  parent   User           @relation(fields: [parentId], references: [id])
+  student  StudentProfile @relation(fields: [studentId], references: [id])
+  matches  TutorMatch[]
+  bookings TutorBooking[]
+}
+
+model TutorMatch {
+  id        String      @id @default(uuid())
+  requestId String
+  tutorId   String
+  score     Float // 0–1
+  reasons   Json // why we matched — shown to the parent
+  status    MatchStatus @default(SUGGESTED)
+  createdAt DateTime    @default(now())
+
+  request TutorRequest @relation(fields: [requestId], references: [id], onDelete: Cascade)
+  tutor   TutorProfile @relation(fields: [tutorId], references: [id])
+
+  @@unique([requestId, tutorId])
+}
+
+/// An ongoing tutor ↔ family arrangement.
+model TutorBooking {
+  id            String        @id @default(uuid())
+  parentId      String
+  studentId     String
+  tutorId       String
+  requestId     String?
+  // Pricing snapshot at booking time
+  tutorRateKobo BigInt
+  platformFeeBp Int // your service charge on top, in basis points
+  status        BookingStatus @default(PENDING)
+  createdAt     DateTime      @default(now())
+
+  parent   User           @relation("BookingParent", fields: [parentId], references: [id])
+  student  StudentProfile @relation(fields: [studentId], references: [id])
+  tutor    TutorProfile   @relation(fields: [tutorId], references: [id])
+  request  TutorRequest?  @relation(fields: [requestId], references: [id])
+  sessions TutorSession[]
+  reviews  TutorReview[]
+}
+
+model TutorSession {
+  id                String        @id @default(uuid())
+  bookingId         String
+  scheduledAt       DateTime
+  durationMinutes   Int
+  status            SessionStatus @default(SCHEDULED)
+  tutorFeeKobo      BigInt // goes to the tutor
+  platformFeeKobo   BigInt // goes to you
+  totalKobo         BigInt // what the parent pays
+  paymentId         String?
+  completedAt       DateTime?
+  tutorNotes        String? // what was covered — also feeds weekly reports
+  topicsCovered     String[]
+  isTrial           Boolean       @default(false)
+  escrowStatus      EscrowStatus  @default(UNPAID)
+  parentConfirmedAt DateTime? // parent confirmed the lesson happened (fallback when no quiz is done)
+  reminderDayAt     DateTime? // "lesson tomorrow" reminder sent
+  reminderHourAt    DateTime? // "lesson in an hour" reminder sent
+  disputedAt        DateTime?
+  disputeReason     String?
+
+  booking       TutorBooking  @relation(fields: [bookingId], references: [id], onDelete: Cascade)
+  payment       Payment?      @relation(fields: [paymentId], references: [id])
+  ledgerEntries LedgerEntry[]
+  quiz          LessonQuiz?
+
+  @@index([bookingId, scheduledAt])
+}
+
+/// Short quiz the student takes after each tutor lesson. Completing it is proof the lesson
+/// happened: it releases the session's escrow to the tutor and feeds the parent's weekly report.
+model LessonQuiz {
+  id          String     @id @default(uuid())
+  sessionId   String     @unique
+  studentId   String
+  title       String
+  questions   Json // [{ id, prompt, options: [{id,label}], answerId }]
+  generatedBy String // model name, or "tutor"
+  status      QuizStatus @default(PENDING)
+  answers     Json?
+  score       Float? // 0–1
+  xpEarned    Int        @default(0)
+  dueAt       DateTime
+  completedAt DateTime?
+  createdAt   DateTime   @default(now())
+
+  session TutorSession   @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  student StudentProfile @relation(fields: [studentId], references: [id], onDelete: Cascade)
+
+  @@index([studentId, status])
+}
+
+model TutorReview {
+  id        String   @id @default(uuid())
+  bookingId String
+  authorId  String
+  tutorId   String
+  rating    Int // 1–5
+  comment   String?
+  createdAt DateTime @default(now())
+
+  booking TutorBooking @relation(fields: [bookingId], references: [id], onDelete: Cascade)
+  author  User         @relation(fields: [authorId], references: [id])
+  tutor   TutorProfile @relation(fields: [tutorId], references: [id])
+
+  @@unique([bookingId, authorId])
+}
+
+// ─────────────────────────────────────────────────────────────
+// Money
+// ─────────────────────────────────────────────────────────────
+
+model Wallet {
+  id          String     @id @default(uuid())
+  type        WalletType
+  userId      String? // student, tutor
+  schoolId    String? // school revenue wallet
+  balanceKobo BigInt     @default(0) // cache of SUM(LedgerEntry.amountKobo)
+  currency    String     @default("NGN")
+  isFrozen    Boolean    @default(false)
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @updatedAt
+
+  user    User?         @relation(fields: [userId], references: [id])
+  school  School?       @relation(fields: [schoolId], references: [id])
+  entries LedgerEntry[]
+
+  @@unique([userId, type])
+  @@unique([schoolId, type])
+}
+
+/// Every money movement. Never update or delete rows; reverse with a new entry.
+/// Write the entry and update Wallet.balanceKobo in ONE transaction, with a
+/// conditional update (balance >= amount) to prevent double-spend.
+model LedgerEntry {
+  id             String          @id @default(uuid())
+  walletId       String
+  amountKobo     BigInt // + credit, − debit
+  balanceAfter   BigInt
+  type           LedgerEntryType
+  stream         RevenueStream
+  schoolId       String? // the school this money is attributed to, for revenue share
+  paymentId      String?
+  tutorSessionId String?
+  actorId        String? // who did it (e.g. tuck-shop staff)
+  description    String?
+  idempotencyKey String?         @unique
+  createdAt      DateTime        @default(now())
+
+  wallet       Wallet        @relation(fields: [walletId], references: [id])
+  school       School?       @relation(fields: [schoolId], references: [id])
+  payment      Payment?      @relation(fields: [paymentId], references: [id])
+  tutorSession TutorSession? @relation(fields: [tutorSessionId], references: [id])
+  actor        User?         @relation("LedgerActor", fields: [actorId], references: [id])
+
+  @@index([walletId, createdAt])
+  @@index([schoolId, stream, createdAt])
+}
+
+/// A payment through Squad (or another provider). Created PENDING, confirmed by webhook + verify.
+model Payment {
+  id          String         @id @default(uuid())
+  reference   String         @unique // our ref sent to Squad
+  provider    String         @default("SQUAD")
+  providerRef String?
+  payerId     String
+  schoolId    String?
+  purpose     PaymentPurpose
+  amountKobo  BigInt
+  status      PaymentStatus  @default(PENDING)
+  metadata    Json? // e.g. { walletId } or { invoiceId }
+  rawWebhook  Json?
+  paidAt      DateTime?
+  createdAt   DateTime       @default(now())
+
+  payer         User           @relation(fields: [payerId], references: [id])
+  school        School?        @relation(fields: [schoolId], references: [id])
+  ledgerEntries LedgerEntry[]
+  tutorSessions TutorSession[]
+}
+
+model FeeInvoice {
+  id        String        @id @default(uuid())
+  schoolId  String
+  studentId String
+  termId    String
+  items     Json // [{ label: "Tuition", amountKobo: "..." }]
+  totalKobo BigInt
+  paidKobo  BigInt        @default(0)
+  dueDate   DateTime      @db.Date
+  status    InvoiceStatus @default(UNPAID)
+  createdAt DateTime      @default(now())
+
+  school  School         @relation(fields: [schoolId], references: [id])
+  student StudentProfile @relation(fields: [studentId], references: [id])
+  term    Term           @relation(fields: [termId], references: [id])
+
+  @@unique([studentId, termId])
+}
+
+// ─────────────────────────────────────────────────────────────
+// Operations
+// ─────────────────────────────────────────────────────────────
+
+model Asset {
+  id        String      @id @default(uuid())
+  schoolId  String
+  name      String
+  quantity  Int         @default(1)
+  status    AssetStatus @default(GOOD)
+  createdAt DateTime    @default(now())
+
+  school School @relation(fields: [schoolId], references: [id])
+}
+
+/// Who viewed/changed sensitive data (children's records, money). Required for trust with schools.
+model AuditLog {
+  id         String   @id @default(uuid())
+  actorId    String?
+  action     String // "student.view", "wallet.debit", ...
+  entityType String
+  entityId   String
+  schoolId   String?
+  meta       Json?
+  ip         String?
+  createdAt  DateTime @default(now())
+
+  actor User? @relation(fields: [actorId], references: [id])
+
+  @@index([entityType, entityId])
+  @@index([schoolId, createdAt])
+}
+
+// ─────────────────────────────────────────────────────────────
+// Sessions & privacy
+// ─────────────────────────────────────────────────────────────
+
+/// Long-lived login. Only the SHA-256 hash is stored; rotated on every refresh.
+model RefreshToken {
+  id        String    @id @default(uuid())
+  userId    String
+  tokenHash String    @unique
+  expiresAt DateTime
+  revokedAt DateTime?
+  createdAt DateTime  @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+}
+
+/// A phone that can receive push notifications (Expo push token). Removed on logout or when Expo says it's dead.
+model PushToken {
+  id         String   @id @default(uuid())
+  userId     String
+  token      String   @unique
+  platform   String // android | ios
+  createdAt  DateTime @default(now())
+  lastSeenAt DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+}
+
+model PasswordReset {
+  id        String    @id @default(uuid())
+  userId    String
+  tokenHash String    @unique
+  expiresAt DateTime
+  usedAt    DateTime?
+  createdAt DateTime  @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+/// A parent or adult asking for their (or their child's) data to be exported or deleted.
+model DataRequest {
+  id          String          @id @default(uuid())
+  userId      String
+  subjectId   String? // child's StudentProfile id when the request is about a child
+  type        DataRequestType
+  status      String          @default("RECEIVED") // RECEIVED, PROCESSING, DONE
+  createdAt   DateTime        @default(now())
+  completedAt DateTime?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
