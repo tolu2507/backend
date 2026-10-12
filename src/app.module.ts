@@ -16,6 +16,7 @@ import { PrismaModule } from './prisma/prisma.module.js';
 import { ReportsModule } from './reports/reports.module.js';
 import { SchoolModule } from './school/school.module.js';
 import { StudentModule } from './student/student.module.js';
+import { TuckShopModule } from './tuckshop/tuckshop.module.js';
 import { TutorModule } from './tutor/tutor.module.js';
 import { HealthController } from './health.controller.js';
 
@@ -36,6 +37,7 @@ import { HealthController } from './health.controller.js';
     TutorModule,
     AdminModule,
     SchoolModule,
+    TuckShopModule,
   ],
   controllers: [CatalogController, EnquiriesController, HealthController],
 })

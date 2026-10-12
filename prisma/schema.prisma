@@ -36,6 +36,7 @@ enum Role {
   STUDENT
   PARENT
   TUTOR
+  TUCK_SHOP // school staff who sell at the counter; mobile app only
 }
 
 enum MembershipStatus {
@@ -273,20 +274,22 @@ enum AssetStatus {
 // ─────────────────────────────────────────────────────────────
 
 model User {
-  id           String    @id @default(uuid())
-  email        String?   @unique
-  phone        String?   @unique
-  username     String?   @unique // for young students without email
-  passwordHash String?
-  pinHash      String? // 4–6 digit PIN for students on shared/parent devices
-  firstName    String
-  lastName     String
-  otherNames   String?
-  dateOfBirth  DateTime?
-  photoUrl     String?
-  lastLoginAt  DateTime?
-  createdAt    DateTime  @default(now())
-  updatedAt    DateTime  @updatedAt
+  id             String    @id @default(uuid())
+  email          String?   @unique
+  phone          String?   @unique
+  username       String?   @unique // for young students without email
+  passwordHash   String?
+  pinHash        String? // 4–6 digit PIN for students on shared/parent devices
+  pinFailures    Int       @default(0) // wrong PINs in a row at the tuck shop
+  pinLockedUntil DateTime? // set after too many wrong PINs; the tuck shop refuses until then
+  firstName      String
+  lastName       String
+  otherNames     String?
+  dateOfBirth    DateTime?
+  photoUrl       String?
+  lastLoginAt    DateTime?
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
 
   memberships          Membership[]
   studentProfile       StudentProfile?

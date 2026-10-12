@@ -71,7 +71,7 @@ export class InviteStaffDto {
   @Transform(trim) @IsString() @Length(1, 60) lastName: string;
   @Transform(lower) @IsEmail({}, { message: 'Enter a valid email. The invite is sent there.' }) email: string;
   @IsOptional() @Transform(trim) @Matches(PHONE, { message: 'Enter a valid phone number.' }) phone?: string;
-  @IsIn(['SCHOOL_ADMIN', 'TEACHER']) role: 'SCHOOL_ADMIN' | 'TEACHER';
+  @IsIn(['SCHOOL_ADMIN', 'TEACHER', 'TUCK_SHOP']) role: 'SCHOOL_ADMIN' | 'TEACHER' | 'TUCK_SHOP';
 }
 
 export class ParentInputDto {

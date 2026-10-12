@@ -18,7 +18,7 @@ export class InvitesService {
     private readonly messaging: MessagingService,
   ) {}
 
-  async invite(userId: string, opts: { schoolName: string; role: 'staff' | 'parent'; extra?: { text: string; html: string } }) {
+  async invite(userId: string, opts: { schoolName: string; /** staff: web dashboard. app: the Nexus phone app (parents, tuck-shop staff). */ role: 'staff' | 'app'; extra?: { text: string; html: string } }) {
     const user = await this.prisma.user.findUniqueOrThrow({ where: { id: userId } });
     const identifier = user.email ?? user.phone;
     if (!identifier) return { sent: false };

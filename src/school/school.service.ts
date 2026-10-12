@@ -232,7 +232,7 @@ export class SchoolService {
 
   async staff(a: SchoolActor) {
     const rows = await this.prisma.membership.findMany({
-      where: { schoolId: a.schoolId, role: { in: ['SCHOOL_OWNER', 'SCHOOL_ADMIN', 'TEACHER'] }, status: { not: 'LEFT' } },
+      where: { schoolId: a.schoolId, role: { in: ['SCHOOL_OWNER', 'SCHOOL_ADMIN', 'TEACHER', 'TUCK_SHOP'] }, status: { not: 'LEFT' } },
       include: { user: { select: { id: true, firstName: true, lastName: true, email: true, phone: true, lastLoginAt: true } } },
       orderBy: { createdAt: 'asc' },
     });
@@ -254,7 +254,7 @@ export class SchoolService {
     else await this.prisma.membership.create({ data: { userId: user.id, schoolId: a.schoolId, role: dto.role } });
 
     // People who already have a password just sign in; new people get a code to set one.
-    const result = user.passwordHash ? { sent: false, code: undefined as string | undefined, hasAccount: true } : { ...(await this.invites.invite(user.id, { schoolName: school.name, role: 'staff' })), hasAccount: false };
+    const result = user.passwordHash ? { sent: false, code: undefined as string | undefined, hasAccount: true } : { ...(await this.invites.invite(user.id, { schoolName: school.name, role: dto.role === 'TUCK_SHOP' ? 'app' : 'staff' })), hasAccount: false };
     return { userId: user.id, inviteSent: result.sent, hasAccount: result.hasAccount, code: result.sent ? undefined : result.code };
   }
 
@@ -263,7 +263,7 @@ export class SchoolService {
     const m = await this.prisma.membership.findFirst({ where: { id: membershipId, schoolId: a.schoolId }, include: { user: true, school: true } });
     if (!m) throw new NotFoundException('Staff member not found.');
     if (m.user.passwordHash) return { inviteSent: false, hasAccount: true };
-    const r = await this.invites.invite(m.userId, { schoolName: m.school!.name, role: 'staff' });
+    const r = await this.invites.invite(m.userId, { schoolName: m.school!.name, role: m.role === 'TUCK_SHOP' ? 'app' : 'staff' });
     return { inviteSent: r.sent, hasAccount: false, code: r.sent ? undefined : r.code };
   }
 
@@ -391,7 +391,7 @@ export class SchoolService {
       text: `${childName} can sign in to the Nexus app with username ${username} and PIN ${pin}. You can change the PIN in your app.\n\nIn the app, open Privacy to switch on weekly AI progress reports for ${childName}.`,
       html: `<p style="background:#F4F2FF;padding:12px;border-radius:12px"><b>${esc(childName)}</b> signs in with username <b>${username}</b> and PIN <b>${pin}</b>. You can change the PIN in your app.</p><p>Then open <b>Privacy</b> in the app to switch on weekly AI progress reports.</p>`,
     };
-    if (isNew) return this.invites.invite(parentId, { schoolName: school.name, role: 'parent', extra });
+    if (isNew) return this.invites.invite(parentId, { schoolName: school.name, role: 'app', extra });
     return { sent: false };
   }
 
@@ -502,7 +502,7 @@ export class SchoolService {
     });
     // Existing parents can see the child straight away; new ones get a code. The PIN isn't resent.
     const invite = p.isNew
-      ? await this.invites.invite(p.user.id, { schoolName: (await this.prisma.school.findUniqueOrThrow({ where: { id: a.schoolId } })).name, role: 'parent', extra: { text: `${s.user.firstName} is now linked to your account.`, html: `<p><b>${esc(s.user.firstName)}</b> is now linked to your account.</p>` } })
+      ? await this.invites.invite(p.user.id, { schoolName: (await this.prisma.school.findUniqueOrThrow({ where: { id: a.schoolId } })).name, role: 'app', extra: { text: `${s.user.firstName} is now linked to your account.`, html: `<p><b>${esc(s.user.firstName)}</b> is now linked to your account.</p>` } })
       : { sent: false };
     return { parentId: p.user.id, invited: invite.sent };
   }
