@@ -2,7 +2,7 @@ import { BadRequestException, ForbiddenException, Injectable, NotFoundException 
 import type { Prisma } from '@prisma/client';
 import * as bcrypt from 'bcrypt';
 
-import { lagosDay, lagosMidnightInstant } from '../common/dates.js';
+import { addDays, lagosDay, lagosMidnightInstant } from '../common/dates.js';
 import { formatNaira } from '../common/money.js';
 import { LedgerService } from '../ledger/ledger.service.js';
 import { MessagingService } from '../messaging/messaging.service.js';
@@ -133,12 +133,17 @@ export class TuckShopService {
     return { id: entry.id, studentName: `${firstName} ${lastName}`, amountKobo: -entry.amountKobo, balanceKobo: entry.balanceAfter, note: noteOf(entry.description), createdAt: entry.createdAt };
   }
 
-  /** What this person sold today (Lagos time). Admins see the whole counter. */
-  async todaysSales(s: Seller) {
-    const since = lagosMidnightInstant(lagosDay());
+  /**
+   * What this person sold today (Lagos time). Owners and admins see everyone's sales, for any day
+   * (`date` is YYYY-MM-DD); counter staff only ever see their own sales today.
+   */
+  async sales(s: Seller, date?: string) {
+    const day = s.isAdmin && date && /^\d{4}-\d{2}-\d{2}$/.test(date) ? new Date(`${date}T00:00:00Z`) : lagosDay();
+    if (Number.isNaN(day.getTime())) throw new BadRequestException('Pick a valid date.');
+    const since = lagosMidnightInstant(day);
     const sales = await this.prisma.ledgerEntry.findMany({
-      where: { schoolId: s.schoolId, stream: 'TUCK_SHOP', type: 'PURCHASE', amountKobo: { lt: 0 }, createdAt: { gte: since }, ...(s.isAdmin ? {} : { actorId: s.userId }) },
-      include: { wallet: { include: { user: { select: { firstName: true, lastName: true } } } } },
+      where: { schoolId: s.schoolId, stream: 'TUCK_SHOP', type: 'PURCHASE', amountKobo: { lt: 0 }, createdAt: { gte: since, lt: addDays(since, 1) }, ...(s.isAdmin ? {} : { actorId: s.userId }) },
+      include: { wallet: { include: { user: { select: { firstName: true, lastName: true } } } }, actor: { select: { firstName: true, lastName: true } } },
       orderBy: { createdAt: 'desc' },
     });
     const refunded = new Set(
@@ -151,6 +156,7 @@ export class TuckShopService {
       note: noteOf(e.description),
       createdAt: e.createdAt,
       refunded: refunded.has(e.id),
+      soldBy: e.actor ? `${e.actor.firstName} ${e.actor.lastName}` : null,
     }));
     const kept = items.filter((i) => !i.refunded);
     return { totalKobo: kept.reduce((sum, i) => sum + i.amountKobo, 0n), count: kept.length, items };

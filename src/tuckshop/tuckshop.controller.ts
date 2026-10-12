@@ -22,8 +22,8 @@ export class TuckShopController {
     return this.shop.charge(s, dto);
   }
 
-  @Get('sales') sales(@CurrentSeller() s: Seller) {
-    return this.shop.todaysSales(s);
+  @Get('sales') sales(@CurrentSeller() s: Seller, @Query('date') date?: string) {
+    return this.shop.sales(s, date);
   }
 
   @HttpCode(200) @Post('sales/:id/refund') refund(@CurrentSeller() s: Seller, @Param('id') id: string) {
