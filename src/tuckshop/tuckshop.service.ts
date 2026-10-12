@@ -50,6 +50,7 @@ export class TuckShopService {
       orderBy: [{ user: { firstName: 'asc' } }, { user: { lastName: 'asc' } }],
       take: 60,
     });
+    const needsPin = !!(await this.prisma.school.findUnique({ where: { id: s.schoolId }, select: { tuckShopRequirePin: true } }))?.tuckShopRequirePin;
     return rows.map((p) => ({
       id: p.id,
       firstName: p.user.firstName,
@@ -59,6 +60,7 @@ export class TuckShopService {
       className: className(p.enrollments[0]?.class),
       shopCode: formatShopCode(p.shopCode),
       hasPin: !!p.user.pinHash,
+      needsPin,
     }));
   }
 
