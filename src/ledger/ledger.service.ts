@@ -1,6 +1,7 @@
 import { BadRequestException, Injectable } from '@nestjs/common';
 import type { LedgerEntryType, Prisma, RevenueStream, WalletType } from '@prisma/client';
 
+import { lagosDay, lagosMidnightInstant } from '../common/dates.js';
 import { PrismaService } from '../prisma/prisma.service.js';
 
 type Tx = Prisma.TransactionClient;
@@ -68,6 +69,15 @@ export class LedgerService {
       });
     }
     return { paidKobo: paid, status: paid >= inv.totalKobo ? 'PAID' : 'PART_PAID' };
+  }
+
+  /** Tuck-shop money spent from a child's wallet today (Lagos time), after refunds. Checked against the parent's daily limit. */
+  async tuckShopSpentToday(tx: Tx | PrismaService, walletId: string) {
+    const sum = await tx.ledgerEntry.aggregate({
+      where: { walletId, stream: 'TUCK_SHOP', type: { in: ['PURCHASE', 'REFUND'] }, createdAt: { gte: lagosMidnightInstant(lagosDay()) } },
+      _sum: { amountKobo: true },
+    });
+    return -(sum._sum.amountKobo ?? 0n);
   }
 
   /** The single ESCROW / PLATFORM_REVENUE wallet. Created by the seed; created here if missing. */

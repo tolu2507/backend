@@ -5,6 +5,7 @@ import { randomInt } from 'node:crypto';
 
 import { addDays, lagosDay, weekStart } from '../common/dates.js';
 import { esc } from '../messaging/messaging.service.js';
+import { formatShopCode, newShopCode } from '../common/shop-code.js';
 import { PrismaService } from '../prisma/prisma.service.js';
 import { InvitesService } from './invites.service.js';
 import { requireAdmin, type SchoolActor } from './school.context.js';
@@ -74,7 +75,7 @@ export class SchoolService {
     const present = todayAttendance.filter((g) => g.status === 'PRESENT' || g.status === 'LATE').reduce((n, g) => n + g._count, 0);
 
     return {
-      school: { id: school.id, name: school.name, status: school.status, logoUrl: school.logoUrl, brandColor: school.brandColor, address: school.address, state: school.state, lga: school.lga, email: school.email, phone: school.phone },
+      school: { id: school.id, name: school.name, status: school.status, logoUrl: school.logoUrl, brandColor: school.brandColor, address: school.address, state: school.state, lga: school.lga, email: school.email, phone: school.phone, tuckShopRequirePin: school.tuckShopRequirePin },
       me: { role: a.role, isAdmin: a.isAdmin },
       year: year ? { id: year.id, name: year.name } : null,
       term: term ? { id: term.id, name: term.name, startDate: term.startDate, endDate: term.endDate } : null,
@@ -306,6 +307,7 @@ export class SchoolService {
         firstName: e.student.user.firstName,
         lastName: e.student.user.lastName,
         admissionNo: e.student.admissionNo,
+        shopCode: formatShopCode(e.student.shopCode),
         username: e.student.user.username,
         className: className(e.class),
         classId: e.classId,
@@ -367,7 +369,7 @@ export class SchoolService {
           memberships: { create: { role: 'STUDENT', schoolId: a.schoolId } },
         },
       });
-      const profile = await tx.studentProfile.create({ data: { userId: user.id, schoolId: a.schoolId, admissionNo: dto.admissionNo || null, level: cls.level, gradeName: cls.gradeName } });
+      const profile = await tx.studentProfile.create({ data: { userId: user.id, schoolId: a.schoolId, admissionNo: dto.admissionNo || null, level: cls.level, gradeName: cls.gradeName, shopCode: await newShopCode(tx, dto.firstName) } });
       await tx.enrollment.create({ data: { studentId: profile.id, classId: cls.id, academicYearId: year.id } });
       await tx.wallet.create({ data: { userId: user.id, type: 'STUDENT_SPEND' } });
       let parent: { id: string; isNew: boolean } | null = null;
@@ -381,7 +383,7 @@ export class SchoolService {
 
     let parentInvite: { sent: boolean } | null = null;
     if (created.parent && opts.notify !== false) parentInvite = await this.notifyParent(a.schoolId, created.parent.id, created.parent.isNew, `${dto.firstName} ${dto.lastName}`, created.username, pin);
-    return { id: created.profile.id, username: created.username, pin, parentInvited: parentInvite?.sent ?? false };
+    return { id: created.profile.id, username: created.username, pin, shopCode: formatShopCode(created.profile.shopCode), parentInvited: parentInvite?.sent ?? false };
   }
 
   /** New parents get a code to set their password; existing ones just learn their child was added. */
@@ -397,11 +399,11 @@ export class SchoolService {
 
   async importStudents(a: SchoolActor, rows: StudentDto[]) {
     requireAdmin(a);
-    const results: { row: number; ok: boolean; name: string; username?: string; pin?: string; error?: string }[] = [];
+    const results: { row: number; ok: boolean; name: string; username?: string; pin?: string; shopCode?: string; error?: string }[] = [];
     for (const [i, row] of rows.entries()) {
       try {
         const r = await this.addStudent(a, row);
-        results.push({ row: i + 1, ok: true, name: `${row.firstName} ${row.lastName}`, username: r.username, pin: r.pin });
+        results.push({ row: i + 1, ok: true, name: `${row.firstName} ${row.lastName}`, username: r.username, pin: r.pin, shopCode: r.shopCode });
       } catch (e) {
         results.push({ row: i + 1, ok: false, name: `${row.firstName} ${row.lastName}`, error: (e as Error).message });
       }
@@ -443,6 +445,7 @@ export class SchoolService {
       otherNames: s.user.otherNames,
       username: s.user.username,
       admissionNo: s.admissionNo,
+      shopCode: formatShopCode(s.shopCode),
       level: s.level,
       class: enrollment ? { id: enrollment.classId, name: className(enrollment.class) } : null,
       xp: s.xpTotal,

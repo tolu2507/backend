@@ -7,6 +7,7 @@ import { formatNaira } from '../common/money.js';
 import { LedgerService } from '../ledger/ledger.service.js';
 import { PaymentsService } from '../payments/payments.service.js';
 import { MessagingService } from '../messaging/messaging.service.js';
+import { formatShopCode, newShopCode } from '../common/shop-code.js';
 import { PrismaService } from '../prisma/prisma.service.js';
 import { ReportsService } from '../reports/reports.service.js';
 import { scoreMatch } from './matching.js';
@@ -74,7 +75,7 @@ export class ParentService {
           memberships: { create: { role: 'STUDENT' } },
         },
       });
-      const profile = await tx.studentProfile.create({ data: { userId: user.id, level: dto.level, gradeName: dto.gradeName } });
+      const profile = await tx.studentProfile.create({ data: { userId: user.id, level: dto.level, gradeName: dto.gradeName, shopCode: await newShopCode(tx, dto.firstName) } });
       await tx.guardianship.create({ data: { parentId, studentId: profile.id, relationship: 'PARENT', isPrimary: true } });
       const consents = [
         dto.consentDataProcessing && 'DATA_PROCESSING',
@@ -132,8 +133,18 @@ export class ParentService {
     });
     return {
       balanceKobo: wallet?.balanceKobo ?? 0n,
+      shopCode: formatShopCode(child.shopCode),
+      dailyLimitKobo: child.dailySpendLimitKobo,
+      spentTodayKobo: wallet ? await this.ledger.tuckShopSpentToday(this.prisma, wallet.id) : 0n,
       entries: (wallet?.entries ?? []).map((e) => ({ id: e.id, amountKobo: e.amountKobo, description: e.description ?? '', createdAt: e.createdAt })),
     };
+  }
+
+  /** How much the child can spend at the tuck shop each day. `null` = no limit. */
+  async setDailyLimit(parentId: string, studentId: string, dailyLimitKobo: number | null) {
+    const child = await this.ownChild(parentId, studentId);
+    await this.prisma.studentProfile.update({ where: { id: child.id }, data: { dailySpendLimitKobo: dailyLimitKobo === null ? null : BigInt(dailyLimitKobo) } });
+    return { dailyLimitKobo: dailyLimitKobo === null ? null : String(dailyLimitKobo) };
   }
 
   topup(origin: string, parentId: string, studentId: string, amountKobo: number) {

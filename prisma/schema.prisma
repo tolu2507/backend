@@ -376,19 +376,20 @@ model Consent {
 // ─────────────────────────────────────────────────────────────
 
 model School {
-  id         String       @id @default(uuid())
-  name       String
-  slug       String       @unique
-  address    String?
-  state      String?
-  lga        String?
-  email      String?
-  phone      String?
-  logoUrl    String?
-  brandColor String? // hex, drives per-school theming
-  status     SchoolStatus @default(PENDING)
-  createdAt  DateTime     @default(now())
-  updatedAt  DateTime     @updatedAt
+  id                 String       @id @default(uuid())
+  name               String
+  slug               String       @unique
+  address            String?
+  state              String?
+  lga                String?
+  email              String?
+  phone              String?
+  logoUrl            String?
+  brandColor         String? // hex, drives per-school theming
+  tuckShopRequirePin Boolean      @default(false) // children also type their PIN at the counter
+  status             SchoolStatus @default(PENDING)
+  createdAt          DateTime     @default(now())
+  updatedAt          DateTime     @updatedAt
 
   memberships   Membership[]
   students      StudentProfile[]
@@ -551,12 +552,14 @@ model ClassSubject {
 // ─────────────────────────────────────────────────────────────
 
 model StudentProfile {
-  id          String         @id @default(uuid())
-  userId      String         @unique
-  schoolId    String? // null for a child whose parent joined without a school
-  admissionNo String? // the school's own number
-  level       EducationLevel
-  gradeName   String? // "Primary 3", "JSS2" — set by the parent when there's no school
+  id                  String         @id @default(uuid())
+  userId              String         @unique
+  schoolId            String? // null for a child whose parent joined without a school
+  admissionNo         String? // the school's own number
+  level               EducationLevel
+  gradeName           String? // "Primary 3", "JSS2" — set by the parent when there's no school
+  shopCode            String         @unique // tuck-shop ID typed at the counter, e.g. ADAK7M2 (shown as ADA-K7M2)
+  dailySpendLimitKobo BigInt?        @default(150000) // tuck-shop spend per Lagos day, set by a parent; null = no limit
 
   // Gamification counters (derived from XpEvent; cached for fast reads)
   xpTotal        Int       @default(0)

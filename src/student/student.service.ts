@@ -3,6 +3,7 @@ import { BadRequestException, ForbiddenException, Injectable, NotFoundException 
 import { subjectStyle } from '../catalog/catalog.js';
 import { lagosDay, lagosMidnightInstant } from '../common/dates.js';
 import { grade, publicQuestions, type StoredQuestion } from '../common/quiz.js';
+import { formatShopCode } from '../common/shop-code.js';
 import { GamificationService } from '../gamification/gamification.service.js';
 import { levelFor, starsFor } from '../gamification/levels.js';
 import { LedgerService } from '../ledger/ledger.service.js';
@@ -176,8 +177,13 @@ export class StudentService {
       where: { userId_type: { userId, type: 'STUDENT_SPEND' } },
       include: { entries: { orderBy: { createdAt: 'desc' }, take: 30 } },
     });
+    const profile = await this.prisma.studentProfile.findUniqueOrThrow({ where: { userId }, include: { school: { select: { id: true, name: true } } } });
     return {
       balanceKobo: wallet?.balanceKobo ?? 0n,
+      shopCode: formatShopCode(profile.shopCode),
+      school: profile.school,
+      dailyLimitKobo: profile.dailySpendLimitKobo,
+      spentTodayKobo: wallet ? await this.ledger.tuckShopSpentToday(this.prisma, wallet.id) : 0n,
       entries: (wallet?.entries ?? []).map((e) => ({ id: e.id, amountKobo: e.amountKobo, description: e.description ?? '', createdAt: e.createdAt })),
     };
   }

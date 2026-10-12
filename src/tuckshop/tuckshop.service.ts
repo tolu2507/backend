@@ -4,11 +4,12 @@ import * as bcrypt from 'bcrypt';
 
 import { addDays, lagosDay, lagosMidnightInstant } from '../common/dates.js';
 import { formatNaira } from '../common/money.js';
+import { formatShopCode, normaliseShopCode } from '../common/shop-code.js';
 import { LedgerService } from '../ledger/ledger.service.js';
 import { MessagingService } from '../messaging/messaging.service.js';
 import { PrismaService } from '../prisma/prisma.service.js';
 import type { Seller } from './tuckshop.context.js';
-import type { ChargeDto } from './tuckshop.dto.js';
+import type { ChargeDto, PhonepayDto } from './tuckshop.dto.js';
 
 const MAX_WRONG_PINS = 5;
 const LOCK_MINUTES = 15;
@@ -56,47 +57,120 @@ export class TuckShopService {
       photoUrl: p.user.photoUrl,
       admissionNo: p.admissionNo,
       className: className(p.enrollments[0]?.class),
+      shopCode: formatShopCode(p.shopCode),
       hasPin: !!p.user.pinHash,
     }));
   }
 
+  /** The counter types the ID printed on the child's slip: their tuck-shop ID or the school's admission number. */
+  async lookup(s: Seller, code: string) {
+    const typed = code.trim();
+    if (!typed) throw new BadRequestException('Type the child’s tuck-shop ID or admission number.');
+    const student = await this.prisma.studentProfile.findFirst({
+      where: { schoolId: s.schoolId, OR: [{ shopCode: normaliseShopCode(typed) }, { admissionNo: { equals: typed, mode: 'insensitive' } }] },
+      include: { user: true, school: true, enrollments: { where: { academicYear: { isCurrent: true } }, include: { class: true }, take: 1 } },
+    });
+    if (!student) throw new NotFoundException(`No child in your school has the ID “${typed}”. Check it, or search by name.`);
+    return {
+      id: student.id,
+      firstName: student.user.firstName,
+      lastName: student.user.lastName,
+      photoUrl: student.user.photoUrl,
+      admissionNo: student.admissionNo,
+      shopCode: formatShopCode(student.shopCode),
+      className: className(student.enrollments[0]?.class),
+      hasPin: !!student.user.pinHash,
+      needsPin: !!student.school?.tuckShopRequirePin,
+    };
+  }
+
+  /** Counter sale. The PIN is only asked for when the school has switched that on. */
   async charge(s: Seller, dto: ChargeDto) {
-    const student = await this.prisma.studentProfile.findFirst({ where: { id: dto.studentId, schoolId: s.schoolId }, include: { user: true, guardians: true } });
+    const student = await this.prisma.studentProfile.findFirst({ where: { id: dto.studentId, schoolId: s.schoolId }, include: { user: true, guardians: true, school: true } });
     if (!student) throw new NotFoundException('We couldn’t find that child in your school.');
-    const { user } = student;
-    const key = `tuck:${dto.requestId}`;
-
-    // The phone retried a sale that already went through (e.g. the reply was lost on bad Wi-Fi).
-    const done = await this.prisma.ledgerEntry.findUnique({ where: { idempotencyKey: `${key}:child` }, include: { wallet: true } });
-    if (done) {
-      if (done.wallet.userId !== user.id || done.actorId !== s.userId) throw new BadRequestException('Start a new sale and try again.');
-      return this.receipt(done, user.firstName, user.lastName);
+    const done = await this.alreadyDone(dto.requestId, student.userId, s.userId);
+    if (done) return done;
+    if (student.school?.tuckShopRequirePin) {
+      if (!dto.pin) throw new BadRequestException(`Your school asks for ${student.user.firstName}’s PIN too.`);
+      await this.checkPin(student.user, dto.pin);
     }
+    return this.spend({ student, schoolId: s.schoolId, actorId: s.userId, amount: BigInt(dto.amountKobo), note: dto.note, requestId: dto.requestId });
+  }
 
-    await this.checkPin(user, dto.pin);
+  /** A child pays the tuck shop from their own phone: amount, send. Their own sign-in is the security. */
+  async payFromPhone(userId: string, dto: PhonepayDto) {
+    const student = await this.prisma.studentProfile.findUnique({ where: { userId }, include: { user: true, guardians: true, school: true } });
+    if (!student) throw new NotFoundException('Student account not found.');
+    const schoolId = student.schoolId ?? dto.schoolId;
+    if (!schoolId) throw new BadRequestException('Pick the school you’re paying.');
+    if (student.schoolId && dto.schoolId && dto.schoolId !== student.schoolId) throw new BadRequestException('You can only pay your own school’s tuck shop.');
+    const school = student.schoolId ? student.school : await this.prisma.school.findUnique({ where: { id: schoolId } });
+    if (!school || school.status !== 'ACTIVE') throw new BadRequestException('That school isn’t taking payments on Nexus.');
+    const done = await this.alreadyDone(dto.requestId, userId, userId);
+    if (done) return { ...done, schoolName: school.name };
+    const receipt = await this.spend({ student, schoolId, actorId: userId, amount: BigInt(dto.amountKobo), note: dto.note, requestId: dto.requestId });
+    return { ...receipt, schoolName: school.name };
+  }
 
-    const amount = BigInt(dto.amountKobo);
-    const note = dto.note?.trim();
+  /** Schools a child without a school can pay. Active schools only. */
+  async payableSchools(q?: string) {
+    const search = q?.trim();
+    const rows = await this.prisma.school.findMany({
+      where: { status: 'ACTIVE', ...(search ? { name: { contains: search, mode: 'insensitive' } } : {}) },
+      orderBy: { name: 'asc' },
+      take: 30,
+    });
+    return rows.map((r) => ({ id: r.id, name: r.name, state: r.state }));
+  }
+
+  /** The same sale sent twice (lost reply on bad Wi-Fi): hand back the first receipt instead of charging again. */
+  private async alreadyDone(requestId: string, childUserId: string, actorId: string) {
+    const done = await this.prisma.ledgerEntry.findUnique({ where: { idempotencyKey: `tuck:${requestId}:child` }, include: { wallet: { include: { user: true } } } });
+    if (!done) return null;
+    if (done.wallet.userId !== childUserId || done.actorId !== actorId) throw new BadRequestException('Start a new payment and try again.');
+    return this.receipt(done, done.wallet.user!.firstName, done.wallet.user!.lastName);
+  }
+
+  private async spend(input: { student: { userId: string; dailySpendLimitKobo: bigint | null; user: { firstName: string; lastName: string }; guardians: { parentId: string }[] }; schoolId: string; actorId: string; amount: bigint; note?: string; requestId: string }) {
+    const { student, schoolId, actorId, amount } = input;
+    const { firstName, lastName } = student.user;
+    const note = input.note?.trim();
+    const key = `tuck:${input.requestId}`;
+    const fromPhone = actorId === student.userId;
     const entry = await this.prisma.$transaction(async (tx) => {
-      const wallet = await this.ledger.userWallet(tx, user.id, 'STUDENT_SPEND');
-      if (wallet.isFrozen) throw new BadRequestException(`${user.firstName}’s wallet is paused. A parent or the school can explain why.`);
-      if (wallet.balanceKobo < amount) {
-        throw new BadRequestException(`${user.firstName} only has ${formatNaira(wallet.balanceKobo)}. Pick something cheaper, or ask a parent to top up.`);
+      const wallet = await this.ledger.userWallet(tx, student.userId, 'STUDENT_SPEND');
+      // One sale at a time per wallet, so two payments at once can't both slip under the daily limit.
+      await tx.$executeRaw`SELECT 1 FROM "Wallet" WHERE id = ${wallet.id} FOR UPDATE`;
+      if (wallet.isFrozen) throw new BadRequestException(`${firstName}’s wallet is paused. A parent or the school can explain why.`);
+      const limit = student.dailySpendLimitKobo;
+      if (limit !== null) {
+        const left = limit - (await this.ledger.tuckShopSpentToday(tx, wallet.id));
+        if (amount > left) {
+          throw new BadRequestException(
+            left <= 0n
+              ? `${fromPhone ? 'You’ve' : `${firstName} has`} reached today’s limit of ${formatNaira(limit)}. A parent can change it in the Nexus app.`
+              : `${fromPhone ? 'You' : firstName} can spend ${formatNaira(left)} more today (daily limit ${formatNaira(limit)}).`,
+          );
+        }
       }
-      const school = await this.ledger.schoolWallet(tx, s.schoolId);
-      const base = { type: 'PURCHASE' as const, stream: 'TUCK_SHOP' as const, schoolId: s.schoolId, actorId: s.userId };
+      const balance = (await tx.wallet.findUniqueOrThrow({ where: { id: wallet.id } })).balanceKobo;
+      if (balance < amount) {
+        throw new BadRequestException(fromPhone ? `You only have ${formatNaira(balance)}. Ask a parent to top up.` : `${firstName} only has ${formatNaira(balance)}. Pick something cheaper, or ask a parent to top up.`);
+      }
+      const school = await this.ledger.schoolWallet(tx, schoolId);
+      const base = { type: 'PURCHASE' as const, stream: 'TUCK_SHOP' as const, schoolId, actorId };
       const description = note ? `Tuck shop: ${note}` : 'Tuck shop';
       const child = await this.ledger.post(tx, { ...base, walletId: wallet.id, amountKobo: -amount, description, idempotencyKey: `${key}:child` });
-      await this.ledger.post(tx, { ...base, walletId: school.id, amountKobo: amount, description: `${description} (${user.firstName} ${user.lastName})`, idempotencyKey: `${key}:school` });
+      await this.ledger.post(tx, { ...base, walletId: school.id, amountKobo: amount, description: `${description} (${firstName} ${lastName}${fromPhone ? ', from phone' : ''})`, idempotencyKey: `${key}:school` });
       return child;
     });
 
     this.messaging.notify(
       student.guardians.map((g) => g.parentId),
       'payments',
-      { title: `${user.firstName} spent ${formatNaira(amount)} at the tuck shop`, body: `${note ? `${note}. ` : ''}${formatNaira(entry.balanceAfter)} left in the wallet.`, url: '/parent/wallet' },
+      { title: `${firstName} spent ${formatNaira(amount)} at the tuck shop`, body: `${note ? `${note}. ` : ''}${formatNaira(entry.balanceAfter)} left in the wallet.`, url: '/parent/wallet' },
     );
-    return this.receipt(entry, user.firstName, user.lastName);
+    return this.receipt(entry, firstName, lastName);
   }
 
   /**
@@ -134,16 +208,16 @@ export class TuckShopService {
   }
 
   /**
-   * What this person sold today (Lagos time). Owners and admins see everyone's sales, for any day
-   * (`date` is YYYY-MM-DD); counter staff only ever see their own sales today.
+   * The counter's sales for a day (Lagos time): every staff member's, plus children paying from their
+   * phones, so staff can see a phone payment arrive. Only owners and admins can look at other days.
    */
   async sales(s: Seller, date?: string) {
     const day = s.isAdmin && date && /^\d{4}-\d{2}-\d{2}$/.test(date) ? new Date(`${date}T00:00:00Z`) : lagosDay();
     if (Number.isNaN(day.getTime())) throw new BadRequestException('Pick a valid date.');
     const since = lagosMidnightInstant(day);
     const sales = await this.prisma.ledgerEntry.findMany({
-      where: { schoolId: s.schoolId, stream: 'TUCK_SHOP', type: 'PURCHASE', amountKobo: { lt: 0 }, createdAt: { gte: since, lt: addDays(since, 1) }, ...(s.isAdmin ? {} : { actorId: s.userId }) },
-      include: { wallet: { include: { user: { select: { firstName: true, lastName: true } } } }, actor: { select: { firstName: true, lastName: true } } },
+      where: { schoolId: s.schoolId, stream: 'TUCK_SHOP', type: 'PURCHASE', amountKobo: { lt: 0 }, createdAt: { gte: since, lt: addDays(since, 1) } },
+      include: { wallet: { include: { user: { select: { id: true, firstName: true, lastName: true } } } }, actor: { select: { firstName: true, lastName: true } } },
       orderBy: { createdAt: 'desc' },
     });
     const refunded = new Set(
@@ -156,19 +230,25 @@ export class TuckShopService {
       note: noteOf(e.description),
       createdAt: e.createdAt,
       refunded: refunded.has(e.id),
-      soldBy: e.actor ? `${e.actor.firstName} ${e.actor.lastName}` : null,
+      fromPhone: e.actorId === e.wallet.user?.id,
+      soldBy: e.actorId === e.wallet.user?.id ? 'Paid from phone' : e.actor ? `${e.actor.firstName} ${e.actor.lastName}` : null,
+      mine: e.actorId === s.userId,
     }));
     const kept = items.filter((i) => !i.refunded);
     return { totalKobo: kept.reduce((sum, i) => sum + i.amountKobo, 0n), count: kept.length, items };
   }
 
-  /** Undo a sale made by mistake: same day, by the person who made it (or an admin). Safe to tap twice. */
+  /**
+   * Undo a sale made by mistake, the same day. Staff undo their own sales and any phone payment
+   * (a child who paid the wrong amount); admins can undo any. Safe to tap twice.
+   */
   async refund(s: Seller, entryId: string) {
     const sale = await this.prisma.ledgerEntry.findUnique({ where: { id: entryId }, include: { wallet: { include: { user: true } } } });
     if (!sale || sale.schoolId !== s.schoolId || sale.stream !== 'TUCK_SHOP' || sale.type !== 'PURCHASE' || sale.amountKobo >= 0n || !sale.idempotencyKey) {
       throw new NotFoundException('Sale not found.');
     }
-    if (!s.isAdmin && sale.actorId !== s.userId) throw new ForbiddenException('Only the person who made this sale can undo it.');
+    const fromPhone = sale.actorId === sale.wallet.userId;
+    if (!s.isAdmin && !fromPhone && sale.actorId !== s.userId) throw new ForbiddenException('Only the person who made this sale can undo it.');
     if (sale.createdAt < lagosMidnightInstant(lagosDay())) throw new BadRequestException('Sales can only be undone on the day they were made. Ask the school office.');
 
     const amount = -sale.amountKobo;

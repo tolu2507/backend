@@ -2,7 +2,7 @@ import { Body, Controller, Get, HttpCode, Param, Patch, Post, Put } from '@nestj
 
 import { CurrentUser, Roles, type AuthUser } from '../common/auth.js';
 import { RequestOrigin } from '../common/origin.js';
-import { BookDto, ChangePinDto, CreateChildDto, DisputeDto, PayInvoiceDto, TopupDto, TutorRequestDto } from './parent.dto.js';
+import { BookDto, ChangePinDto, CreateChildDto, DailyLimitDto, DisputeDto, PayInvoiceDto, TopupDto, TutorRequestDto } from './parent.dto.js';
 import { ParentService } from './parent.service.js';
 
 @Roles('PARENT')
@@ -36,6 +36,10 @@ export class ParentController {
 
   @Post('invoices/:id/pay') payInvoice(@RequestOrigin() origin: string, @CurrentUser() u: AuthUser, @Param('id') id: string, @Body() dto: PayInvoiceDto) {
     return this.parents.payInvoice(origin, u.id, id, dto.amountKobo);
+  }
+
+  @Put('children/:id/wallet/limit') limit(@CurrentUser() u: AuthUser, @Param('id') id: string, @Body() dto: DailyLimitDto) {
+    return this.parents.setDailyLimit(u.id, id, dto.dailyLimitKobo ?? null);
   }
 
   @Post('children/:id/wallet/topup') topup(@RequestOrigin() origin: string, @CurrentUser() u: AuthUser, @Param('id') id: string, @Body() dto: TopupDto) {

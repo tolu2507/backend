@@ -243,47 +243,70 @@ describe('A school on Nexus', () => {
     await http().patch(`/admin/schools/${schoolId}`).set(auth(admin)).send({ status: 'ACTIVE' }).expect(200);
   });
 
-  it('tuck-shop staff sell to a child with the child’s PIN; wrong PINs lock it', async () => {
+  it('tuck shop: staff type the child’s ID and charge; the child can also pay from their phone', async () => {
     const invite = await http().post('/school/staff').set(auth(owner)).send({ firstName: 'Mama', lastName: 'Chi', email: `mama.${stamp}@test.ng`, role: 'TUCK_SHOP' }).expect(201);
     const staff = (await http().post('/auth/reset-password').send({ identifier: `mama.${stamp}@test.ng`, code: invite.body.code, password: 'tuck-pass-1' }).expect(200)).body.accessToken;
     await http().get('/school').set(auth(staff)).expect(403); // counter staff don't get the school dashboard
     await http().get('/tuckshop/students').set(auth(teacher)).expect(403);
 
-    const found = await http().get(`/tuckshop/students?q=ada&classId=${classA}`).set(auth(staff)).expect(200);
-    expect(found.body.map((s: { id: string }) => s.id)).toContain(studentId);
-    expect(found.body[0]).not.toHaveProperty('balanceKobo'); // no peeking at balances before the PIN
+    // Every child has a tuck-shop ID; the counter finds them by it (any case, dash optional) or by admission number.
+    const detail = await http().get(`/school/students/${studentId}`).set(auth(owner)).expect(200);
+    const code: string = detail.body.shopCode;
+    expect(code).toMatch(/^ADA-[A-Z0-9]{4}$/);
+    const byCode = await http().get(`/tuckshop/lookup?code=${code.replace('-', '').toLowerCase()}`).set(auth(staff)).expect(200);
+    expect(byCode.body).toMatchObject({ id: studentId, firstName: 'Ada', needsPin: false });
+    expect(byCode.body).not.toHaveProperty('balanceKobo');
+    expect((await http().get(`/tuckshop/lookup?code=A-${stamp}`).set(auth(staff)).expect(200)).body.id).toBe(studentId);
+    await http().get('/tuckshop/lookup?code=NOPE-0000').set(auth(staff)).expect(404);
 
-    const sale = (extra: object) => ({ studentId, amountKobo: 50_000, pin: adaPin, note: 'Jollof rice', requestId: crypto.randomUUID(), ...extra });
+    const sale = (extra: object) => ({ studentId, amountKobo: 50_000, note: 'Jollof rice', requestId: crypto.randomUUID(), ...extra });
     const broke = await http().post('/tuckshop/charge').set(auth(staff)).send(sale({})).expect(400);
     expect(broke.body.message).toMatch(/only has ₦0/);
 
-    const top = await http().post(`/parent/children/${studentId}/wallet/topup`).set(auth(parent)).send({ amountKobo: 200_000 }).expect(201);
+    const top = await http().post(`/parent/children/${studentId}/wallet/topup`).set(auth(parent)).send({ amountKobo: 500_000 }).expect(201);
     await http().post(`/payments/${top.body.reference}/verify`).set(auth(parent)).expect(200);
 
+    // No PIN needed by default; a retry after a lost reply returns the same sale.
     const req = sale({});
     const paid = await http().post('/tuckshop/charge').set(auth(staff)).send(req).expect(200);
-    expect(paid.body).toMatchObject({ amountKobo: '50000', balanceKobo: '150000', note: 'Jollof rice' });
-    const retried = await http().post('/tuckshop/charge').set(auth(staff)).send(req).expect(200); // lost reply, phone retries
-    expect(retried.body.id).toBe(paid.body.id);
+    expect(paid.body).toMatchObject({ amountKobo: '50000', balanceKobo: '450000', note: 'Jollof rice' });
+    expect((await http().post('/tuckshop/charge').set(auth(staff)).send(req).expect(200)).body.id).toBe(paid.body.id);
     const school = await prisma.wallet.findUniqueOrThrow({ where: { schoolId_type: { schoolId, type: 'SCHOOL_REVENUE' } } });
     expect(school.balanceKobo).toBe(10_050_000n); // ₦100,000 fees + ₦500 lunch, charged once
 
-    const sales = await http().get('/tuckshop/sales').set(auth(staff)).expect(200);
-    expect(sales.body).toMatchObject({ count: 1, totalKobo: '50000' });
-    const undone = await http().post(`/tuckshop/sales/${paid.body.id}/refund`).set(auth(staff)).expect(200);
-    expect(undone.body.balanceKobo).toBe('200000');
-    await http().post(`/tuckshop/sales/${paid.body.id}/refund`).set(auth(staff)).expect(200); // second tap does nothing
-    expect((await http().get('/tuckshop/sales').set(auth(staff)).expect(200)).body).toMatchObject({ count: 0, totalKobo: '0' });
+    // The child pays from their own phone: their school is picked for them.
+    const kid = (await http().post('/auth/student-login').send({ username: detail.body.username, pin: adaPin }).expect(200)).body.accessToken;
+    const fromPhone = await http().post('/tuckshop/pay').set(auth(kid)).send({ amountKobo: 70_000, requestId: crypto.randomUUID() }).expect(200);
+    expect(fromPhone.body).toMatchObject({ amountKobo: '70000', balanceKobo: '380000' });
+    await http().post('/tuckshop/pay').set(auth(staff)).send({ amountKobo: 70_000, requestId: crypto.randomUUID() }).expect(403);
 
+    // Staff see the phone payment arrive on their Today list, and can undo it.
+    const today = await http().get('/tuckshop/sales').set(auth(staff)).expect(200);
+    expect(today.body).toMatchObject({ count: 2, totalKobo: '120000' });
+    const phoneSale = today.body.items.find((i: { fromPhone: boolean }) => i.fromPhone);
+    expect(phoneSale.soldBy).toBe('Paid from phone');
+    await http().post(`/tuckshop/sales/${phoneSale.id}/refund`).set(auth(staff)).expect(200);
+    await http().post(`/tuckshop/sales/${phoneSale.id}/refund`).set(auth(staff)).expect(200); // second tap does nothing
+
+    // Daily limit: ₦1,500 by default. ₦500 spent (the phone payment was undone), so ₦1,000 is left.
+    const over = await http().post('/tuckshop/charge').set(auth(staff)).send(sale({ amountKobo: 100_100 })).expect(400);
+    expect(over.body.message).toMatch(/₦1,000 more today/);
+    await http().put(`/parent/children/${studentId}/wallet/limit`).set(auth(parent)).send({ dailyLimitKobo: 300_000 }).expect(200);
+    await http().post('/tuckshop/charge').set(auth(staff)).send(sale({ amountKobo: 100_100 })).expect(200);
+    const wallet = await http().get(`/parent/children/${studentId}/wallet`).set(auth(parent)).expect(200);
+    expect(wallet.body).toMatchObject({ shopCode: code, dailyLimitKobo: '300000', spentTodayKobo: '150100', balanceKobo: '349900' });
+
+    // A school can ask for the PIN too; then wrong PINs count and five lock it.
+    await http().patch('/school').set(auth(owner)).send({ tuckShopRequirePin: true }).expect(200);
+    expect((await http().get(`/tuckshop/lookup?code=${code}`).set(auth(staff)).expect(200)).body.needsPin).toBe(true);
+    await http().post('/tuckshop/charge').set(auth(staff)).send(sale({})).expect(400); // no PIN sent
     const wrong = String((Number(adaPin) + 1) % 10_000).padStart(4, '0');
     for (let i = 1; i <= 4; i++) {
       const r = await http().post('/tuckshop/charge').set(auth(staff)).send(sale({ pin: wrong })).expect(400);
       expect(r.body.message).toMatch(`${5 - i} tr`);
     }
     await http().post('/tuckshop/charge').set(auth(staff)).send(sale({ pin: wrong })).expect(403);
-    const locked = await http().post('/tuckshop/charge').set(auth(staff)).send(sale({})).expect(403); // even the right PIN, for now
-    expect(locked.body.message).toMatch(/Too many wrong PINs/);
-    const wallet = await http().get(`/parent/children/${studentId}/wallet`).set(auth(parent)).expect(200);
-    expect(wallet.body.balanceKobo).toBe('200000');
+    expect((await http().post('/tuckshop/charge').set(auth(staff)).send(sale({ pin: adaPin })).expect(403)).body.message).toMatch(/Too many wrong PINs/);
+    await http().patch('/school').set(auth(owner)).send({ tuckShopRequirePin: false }).expect(200);
   });
 });

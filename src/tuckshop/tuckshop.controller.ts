@@ -1,8 +1,8 @@
 import { Body, Controller, Get, HttpCode, Param, Post, Query } from '@nestjs/common';
 
-import { Roles } from '../common/auth.js';
+import { CurrentUser, Roles, type AuthUser } from '../common/auth.js';
 import { CurrentSeller, TUCK_SHOP_ROLES, type Seller } from './tuckshop.context.js';
-import { ChargeDto } from './tuckshop.dto.js';
+import { ChargeDto, PhonepayDto } from './tuckshop.dto.js';
 import { TuckShopService } from './tuckshop.service.js';
 
 @Roles(...TUCK_SHOP_ROLES)
@@ -18,6 +18,10 @@ export class TuckShopController {
     return this.shop.students(s, { q, classId });
   }
 
+  @Get('lookup') lookup(@CurrentSeller() s: Seller, @Query('code') code = '') {
+    return this.shop.lookup(s, code);
+  }
+
   @HttpCode(200) @Post('charge') charge(@CurrentSeller() s: Seller, @Body() dto: ChargeDto) {
     return this.shop.charge(s, dto);
   }
@@ -28,5 +32,15 @@ export class TuckShopController {
 
   @HttpCode(200) @Post('sales/:id/refund') refund(@CurrentSeller() s: Seller, @Param('id') id: string) {
     return this.shop.refund(s, id);
+  }
+
+  // ── Children paying from their own phone (overrides the class-level staff roles) ──
+
+  @Roles('STUDENT') @Get('schools') schools(@Query('q') q?: string) {
+    return this.shop.payableSchools(q);
+  }
+
+  @Roles('STUDENT') @HttpCode(200) @Post('pay') pay(@CurrentUser() u: AuthUser, @Body() dto: PhonepayDto) {
+    return this.shop.payFromPhone(u.id, dto);
   }
 }

@@ -44,6 +44,11 @@ export class TopupDto {
   @Type(() => Number) @IsInt() @Min(10_000) @Max(10_000_000) amountKobo: number;
 }
 
+export class DailyLimitDto {
+  /** Kobo per Lagos day, ₦100 to ₦100,000; null removes the limit. */
+  @IsOptional() @Type(() => Number) @IsInt() @Min(10_000, { message: 'Set at least ₦100 a day, or no limit.' }) @Max(10_000_000, { message: 'The most you can set is ₦100,000 a day.' }) dailyLimitKobo: number | null;
+}
+
 export class DisputeDto {
   @Transform(trim) @IsString() @Length(5, 500) reason: string;
 }

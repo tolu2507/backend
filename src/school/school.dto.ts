@@ -33,6 +33,8 @@ export class SchoolProfileDto {
   @IsOptional() @Transform(lower) @IsEmail() email?: string;
   @IsOptional() @Transform(trim) @Matches(PHONE, { message: 'Enter a valid phone number.' }) phone?: string;
   @IsOptional() @Matches(/^#[0-9a-fA-F]{6}$/, { message: 'Use a colour like #5B3DF5.' }) brandColor?: string;
+  /** Children also type their PIN at the tuck-shop counter. */
+  @IsOptional() @IsBoolean() tuckShopRequirePin?: boolean;
 }
 
 export class TermDatesDto {
