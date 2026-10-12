@@ -1,6 +1,7 @@
 import { Body, Controller, Get, HttpCode, Param, Patch, Post, Put } from '@nestjs/common';
 
 import { CurrentUser, Roles, type AuthUser } from '../common/auth.js';
+import { RequestOrigin } from '../common/origin.js';
 import { BookDto, ChangePinDto, CreateChildDto, DisputeDto, PayInvoiceDto, TopupDto, TutorRequestDto } from './parent.dto.js';
 import { ParentService } from './parent.service.js';
 
@@ -33,12 +34,12 @@ export class ParentController {
     return this.parents.invoices(u.id, id);
   }
 
-  @Post('invoices/:id/pay') payInvoice(@CurrentUser() u: AuthUser, @Param('id') id: string, @Body() dto: PayInvoiceDto) {
-    return this.parents.payInvoice(u.id, id, dto.amountKobo);
+  @Post('invoices/:id/pay') payInvoice(@RequestOrigin() origin: string, @CurrentUser() u: AuthUser, @Param('id') id: string, @Body() dto: PayInvoiceDto) {
+    return this.parents.payInvoice(origin, u.id, id, dto.amountKobo);
   }
 
-  @Post('children/:id/wallet/topup') topup(@CurrentUser() u: AuthUser, @Param('id') id: string, @Body() dto: TopupDto) {
-    return this.parents.topup(u.id, id, dto.amountKobo);
+  @Post('children/:id/wallet/topup') topup(@RequestOrigin() origin: string, @CurrentUser() u: AuthUser, @Param('id') id: string, @Body() dto: TopupDto) {
+    return this.parents.topup(origin, u.id, id, dto.amountKobo);
   }
 
   @Get('children/:id/tutor-request') currentRequest(@CurrentUser() u: AuthUser, @Param('id') id: string) {
@@ -65,8 +66,8 @@ export class ParentController {
     return this.parents.book(u.id, dto.matchId);
   }
 
-  @Post('sessions/:id/pay') pay(@CurrentUser() u: AuthUser, @Param('id') id: string) {
-    return this.parents.payForSession(u.id, id);
+  @Post('sessions/:id/pay') pay(@RequestOrigin() origin: string, @CurrentUser() u: AuthUser, @Param('id') id: string) {
+    return this.parents.payForSession(origin, u.id, id);
   }
 
   @HttpCode(200) @Post('sessions/:id/confirm') confirm(@CurrentUser() u: AuthUser, @Param('id') id: string) {

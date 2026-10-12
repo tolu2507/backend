@@ -15,8 +15,12 @@ import { AppModule } from '../src/app.module.js';
 import { SquadService } from '../src/payments/squad.service.js';
 
 const prisma = new PrismaClient();
+let lastCallbackUrl = '';
 const squad = {
-  initiate: async () => 'https://sandbox-pay.squadco.com/fake-checkout',
+  initiate: async (input: { callbackUrl: string }) => {
+    lastCallbackUrl = input.callbackUrl;
+    return 'https://sandbox-pay.squadco.com/fake-checkout';
+  },
   verify: async () => ({ success: true, status: 'success', raw: { test: true } }),
   isValidSignature: () => false,
 };
@@ -181,8 +185,10 @@ describe('Nexus journey', () => {
   it('the parent pays into escrow; the kid’s lesson quiz releases it to the tutor', async () => {
     await http().post(`/tutor/sessions/${sessionId}/complete`).set(auth(tutor)).send({ topics: ['Titration'] }).expect(400); // not paid / not started
 
-    const pay = await http().post(`/parent/sessions/${sessionId}/pay`).set(auth(parent)).expect(201);
+    // Behind ngrok the phone reaches us on the tunnel's address, so Squad must send it back there, not to localhost.
+    const pay = await http().post(`/parent/sessions/${sessionId}/pay`).set(auth(parent)).set('X-Forwarded-Proto', 'https').set('X-Forwarded-Host', 'abcd.ngrok-free.app').expect(201);
     expect(pay.body.checkoutUrl).toContain('squadco');
+    expect(lastCallbackUrl).toBe(`https://abcd.ngrok-free.app/payments/return?ref=${pay.body.reference}`);
     const verified = await http().post(`/payments/${pay.body.reference}/verify`).set(auth(parent)).expect(200);
     expect(verified.body.status).toBe('SUCCESS');
     await http().post(`/payments/${pay.body.reference}/verify`).set(auth(parent)).expect(200); // idempotent

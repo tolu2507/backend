@@ -26,8 +26,9 @@ export class PaymentsService {
     return `NX-${prefix}-${randomBytes(6).toString('hex').toUpperCase()}`;
   }
 
-  private callbackUrl(reference: string) {
-    return `${process.env.APP_PUBLIC_URL ?? 'http://localhost:3001'}/payments/return?ref=${reference}`;
+  /** `origin` is the address the phone used to reach us (see RequestOrigin), so it can come back. */
+  private callbackUrl(origin: string, reference: string) {
+    return `${origin}/payments/return?ref=${reference}`;
   }
 
   private async payerEmail(userId: string) {
@@ -36,7 +37,7 @@ export class PaymentsService {
     return user.email;
   }
 
-  async startTopup(parentId: string, studentId: string, amountKobo: bigint) {
+  async startTopup(origin: string, parentId: string, studentId: string, amountKobo: bigint) {
     if (amountKobo < MIN_TOPUP || amountKobo > MAX_TOPUP) throw new BadRequestException('Top up between ₦100 and ₦100,000.');
     const link = await this.prisma.guardianship.findUnique({ where: { parentId_studentId: { parentId, studentId } }, include: { student: true } });
     if (!link) throw new ForbiddenException('You can only top up your own children.');
@@ -46,12 +47,12 @@ export class PaymentsService {
     await this.prisma.payment.create({
       data: { reference, payerId: parentId, schoolId: link.student.schoolId, purpose: 'WALLET_TOPUP', amountKobo, metadata: { walletId: wallet.id, studentId } },
     });
-    const checkoutUrl = await this.squad.initiate({ amountKobo, email: await this.payerEmail(parentId), reference, callbackUrl: this.callbackUrl(reference) });
+    const checkoutUrl = await this.squad.initiate({ amountKobo, email: await this.payerEmail(parentId), reference, callbackUrl: this.callbackUrl(origin, reference) });
     return { reference, checkoutUrl };
   }
 
   /** Pays a school fee invoice: the whole balance, or part of it (at least ₦1,000). */
-  async startFeePayment(parentId: string, invoiceId: string, amountKobo?: bigint) {
+  async startFeePayment(origin: string, parentId: string, invoiceId: string, amountKobo?: bigint) {
     const inv = await this.prisma.feeInvoice.findUnique({ where: { id: invoiceId } });
     const link = inv && (await this.prisma.guardianship.findUnique({ where: { parentId_studentId: { parentId, studentId: inv.studentId } } }));
     if (!inv || !link) throw new NotFoundException('Invoice not found.');
@@ -66,11 +67,11 @@ export class PaymentsService {
     await this.prisma.payment.create({
       data: { reference, payerId: parentId, schoolId: inv.schoolId, purpose: 'SCHOOL_FEE', amountKobo: amount, metadata: { invoiceId: inv.id, studentId: inv.studentId } },
     });
-    const checkoutUrl = await this.squad.initiate({ amountKobo: amount, email: await this.payerEmail(parentId), reference, callbackUrl: this.callbackUrl(reference) });
+    const checkoutUrl = await this.squad.initiate({ amountKobo: amount, email: await this.payerEmail(parentId), reference, callbackUrl: this.callbackUrl(origin, reference) });
     return { reference, checkoutUrl };
   }
 
-  async startSessionPayment(parentId: string, sessionId: string) {
+  async startSessionPayment(origin: string, parentId: string, sessionId: string) {
     const session = await this.prisma.tutorSession.findUnique({ where: { id: sessionId }, include: { booking: true } });
     if (!session || session.booking.parentId !== parentId) throw new NotFoundException('Lesson not found.');
     if (session.escrowStatus !== 'UNPAID') throw new BadRequestException(session.escrowStatus === 'FREE' ? 'This trial lesson is free.' : 'This lesson is already paid.');
@@ -79,7 +80,7 @@ export class PaymentsService {
     await this.prisma.payment.create({
       data: { reference, payerId: parentId, purpose: 'TUTOR_SESSION', amountKobo: session.totalKobo, metadata: { sessionId } },
     });
-    const checkoutUrl = await this.squad.initiate({ amountKobo: session.totalKobo, email: await this.payerEmail(parentId), reference, callbackUrl: this.callbackUrl(reference) });
+    const checkoutUrl = await this.squad.initiate({ amountKobo: session.totalKobo, email: await this.payerEmail(parentId), reference, callbackUrl: this.callbackUrl(origin, reference) });
     return { reference, checkoutUrl };
   }
 

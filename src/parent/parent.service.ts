@@ -107,8 +107,8 @@ export class ParentService {
     }));
   }
 
-  payInvoice(parentId: string, invoiceId: string, amountKobo?: number) {
-    return this.payments.startFeePayment(parentId, invoiceId, amountKobo !== undefined ? BigInt(amountKobo) : undefined);
+  payInvoice(origin: string, parentId: string, invoiceId: string, amountKobo?: number) {
+    return this.payments.startFeePayment(origin, parentId, invoiceId, amountKobo !== undefined ? BigInt(amountKobo) : undefined);
   }
 
   async changePin(parentId: string, studentId: string, pin: string) {
@@ -136,8 +136,8 @@ export class ParentService {
     };
   }
 
-  topup(parentId: string, studentId: string, amountKobo: number) {
-    return this.payments.startTopup(parentId, studentId, BigInt(amountKobo));
+  topup(origin: string, parentId: string, studentId: string, amountKobo: number) {
+    return this.payments.startTopup(origin, parentId, studentId, BigInt(amountKobo));
   }
 
   // ── Lesson teachers ───────────────────────────────────────
@@ -310,8 +310,8 @@ export class ParentService {
     return s;
   }
 
-  payForSession(parentId: string, sessionId: string) {
-    return this.payments.startSessionPayment(parentId, sessionId);
+  payForSession(origin: string, parentId: string, sessionId: string) {
+    return this.payments.startSessionPayment(origin, parentId, sessionId);
   }
 
   /** Parent confirms the lesson happened (used when the child hasn't done the quiz). */
