@@ -269,13 +269,10 @@ export class TutorService {
 
     const subject = s.booking.request?.subject ?? 'Lesson';
     const student = s.booking.student;
-    let questions: QuizQuestion[] | null = await this.ai.lessonQuiz({
-      subject,
-      levelLabel: LEVEL_LABEL[student.level],
-      grade: student.gradeName,
-      topics: dto.topics,
-      notes: dto.notes,
-    });
+    let questions: QuizQuestion[] | null = await this.ai.lessonQuiz(
+      { subject, level: student.level, grade: student.gradeName, topics: dto.topics, notes: dto.notes },
+      { schoolId: student.schoolId, userId: student.userId },
+    );
     let generatedBy = this.ai.model;
     if (!questions) {
       questions = await this.fallbackQuestions(subject, student.level);

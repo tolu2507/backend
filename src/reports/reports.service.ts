@@ -96,13 +96,13 @@ export class ReportsService {
   async generate(studentId: string, week = weekStart()) {
     const m = await this.metrics(studentId, week);
     if (!m) return null;
-    const ai = await this.ai.weeklySummary({ ...m, subjects: m.subjects.map(({ name, score }) => ({ name, score })) });
+    const student = await this.prisma.studentProfile.findUniqueOrThrow({ where: { id: studentId } });
+    const ai = await this.ai.weeklySummary({ ...m, subjects: m.subjects.map(({ name, score }) => ({ name, score })) }, { schoolId: student.schoolId, userId: student.userId });
     const text = ai ?? this.fallbackText(m);
 
     const weakest = m.subjects.length ? m.subjects[m.subjects.length - 1] : null;
     let tutorSuggestion: { subject: string; count: number } | null = null;
     if (weakest && weakest.score < 55) {
-      const student = await this.prisma.studentProfile.findUniqueOrThrow({ where: { id: studentId } });
       const count = await this.prisma.tutorSubject.count({
         where: { subject: weakest.name, level: student.level, approvedAt: { not: null }, tutor: { verificationStatus: 'VERIFIED', isAcceptingStudents: true } },
       });
@@ -151,8 +151,8 @@ export class ReportsService {
   @Cron('0 16 * * 5', { timeZone: 'Africa/Lagos' })
   async weeklyRun() {
     const students = await this.prisma.studentProfile.findMany({
-      where: { guardians: { some: {} }, consents: { some: { type: 'AI_REPORTS', revokedAt: null } } },
-      include: { guardians: true },
+      where: { guardians: { some: { confirmedAt: { not: null } } }, consents: { some: { type: 'AI_REPORTS', revokedAt: null } } },
+      include: { guardians: { where: { confirmedAt: { not: null } } } },
     });
     let made = 0;
     for (const s of students) {

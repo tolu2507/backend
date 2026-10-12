@@ -4,7 +4,7 @@ import * as bcrypt from 'bcrypt';
 import { randomInt } from 'node:crypto';
 
 import { addDays, lagosDay, weekStart } from '../common/dates.js';
-import { esc } from '../messaging/messaging.service.js';
+import { esc, MessagingService } from '../messaging/messaging.service.js';
 import { formatShopCode, newShopCode } from '../common/shop-code.js';
 import { PrismaService } from '../prisma/prisma.service.js';
 import { InvitesService } from './invites.service.js';
@@ -15,6 +15,9 @@ type Tx = Prisma.TransactionClient;
 const day = (iso: string) => lagosDay(new Date(iso));
 const className = (c: { gradeName: string; armName: string | null }) => (c.armName ? `${c.gradeName} ${c.armName}` : c.gradeName);
 /** PINs kids can remember that aren't trivially guessable. */
+/** What happened to a parent after the school linked them. `code` is only set when it couldn't be sent. */
+export type ParentNotice = { status: 'INVITED' | 'AWAITING_PARENT'; sent: boolean; code?: string; signInWith?: string };
+
 const WEAK_PINS = new Set(['0000', '1111', '1234', '4321', '2222', '9999', '1212', '0123']);
 
 @Injectable()
@@ -22,6 +25,7 @@ export class SchoolService {
   constructor(
     private readonly prisma: PrismaService,
     private readonly invites: InvitesService,
+    private readonly messaging: MessagingService,
   ) {}
 
   // ── Overview ────────────────────────────────────────────
@@ -332,17 +336,21 @@ export class SchoolService {
     return p;
   }
 
-  /** Finds the parent by email or phone, or creates their account. Returns whether they're new. */
+  /**
+   * Finds the parent by email or phone, or creates their account.
+   * `claimed` = someone already signs in to that account. The school can't vouch that this is the
+   * child's parent, so such a link waits for the account holder to accept it in the app.
+   */
   private async parentAccount(tx: Tx, p: ParentInputDto) {
     if (!p.email && !p.phone) throw new BadRequestException(`Add an email or phone number for ${p.firstName}.`);
     const found = await tx.user.findFirst({ where: { OR: [...(p.email ? [{ email: p.email }] : []), ...(p.phone ? [{ phone: p.phone }] : [])] } });
     if (found) {
       // Platform-wide roles have schoolId NULL, which a unique lookup can't match, so check first.
       if (!(await tx.membership.findFirst({ where: { userId: found.id, role: 'PARENT', schoolId: null } }))) await tx.membership.create({ data: { userId: found.id, role: 'PARENT' } });
-      return { user: found, isNew: false };
+      return { user: found, isNew: false, claimed: !!found.passwordHash };
     }
     const user = await tx.user.create({ data: { firstName: p.firstName, lastName: p.lastName, email: p.email, phone: p.phone, memberships: { create: { role: 'PARENT' } } } });
-    return { user, isNew: true };
+    return { user, isNew: true, claimed: false };
   }
 
   /** Enrols one student: their login (username + PIN), their class this session, and their parent. */
@@ -372,38 +380,59 @@ export class SchoolService {
       const profile = await tx.studentProfile.create({ data: { userId: user.id, schoolId: a.schoolId, admissionNo: dto.admissionNo || null, level: cls.level, gradeName: cls.gradeName, shopCode: await newShopCode(tx, dto.firstName) } });
       await tx.enrollment.create({ data: { studentId: profile.id, classId: cls.id, academicYearId: year.id } });
       await tx.wallet.create({ data: { userId: user.id, type: 'STUDENT_SPEND' } });
-      let parent: { id: string; isNew: boolean } | null = null;
+      let parent: { id: string; claimed: boolean } | null = null;
       if (dto.parent) {
         const p = await this.parentAccount(tx, dto.parent);
-        await tx.guardianship.create({ data: { parentId: p.user.id, studentId: profile.id, relationship: dto.parent.relationship ?? 'GUARDIAN', isPrimary: true, verifiedAt: new Date() } });
-        parent = { id: p.user.id, isNew: p.isNew };
+        await tx.guardianship.create({ data: { parentId: p.user.id, studentId: profile.id, relationship: dto.parent.relationship ?? 'GUARDIAN', isPrimary: true, verifiedAt: new Date(), confirmedAt: p.claimed ? null : new Date() } });
+        parent = { id: p.user.id, claimed: p.claimed };
       }
       return { profile, username, parent };
     });
 
-    let parentInvite: { sent: boolean } | null = null;
-    if (created.parent && opts.notify !== false) parentInvite = await this.notifyParent(a.schoolId, created.parent.id, created.parent.isNew, `${dto.firstName} ${dto.lastName}`, created.username, pin);
-    return { id: created.profile.id, username: created.username, pin, shopCode: formatShopCode(created.profile.shopCode), parentInvited: parentInvite?.sent ?? false };
+    const parent = created.parent && opts.notify !== false ? await this.notifyParent(a.schoolId, created.parent.id, created.parent.claimed, dto.firstName, `${dto.firstName} ${dto.lastName}`, created.username, pin) : null;
+    return { id: created.profile.id, username: created.username, pin, shopCode: formatShopCode(created.profile.shopCode), parentInvited: parent?.sent ?? false, parent };
   }
 
-  /** New parents get a code to set their password; existing ones just learn their child was added. */
-  private async notifyParent(schoolId: string, parentId: string, isNew: boolean, childName: string, username: string, pin: string) {
+  /**
+   * Tells the parent what happened. A parent who hasn't set a password yet gets a code to claim the
+   * account (shown to the school too when it couldn't be sent). A parent who already uses the app is
+   * asked to accept the link; until then they can't see the child.
+   */
+  private async notifyParent(schoolId: string, parentId: string, claimed: boolean, firstName: string, childName: string, username?: string, pin?: string): Promise<ParentNotice> {
     const school = await this.prisma.school.findUniqueOrThrow({ where: { id: schoolId } });
-    const extra = {
-      text: `${childName} can sign in to the Nexus app with username ${username} and PIN ${pin}. You can change the PIN in your app.\n\nIn the app, open Privacy to switch on weekly AI progress reports for ${childName}.`,
-      html: `<p style="background:#F4F2FF;padding:12px;border-radius:12px"><b>${esc(childName)}</b> signs in with username <b>${username}</b> and PIN <b>${pin}</b>. You can change the PIN in your app.</p><p>Then open <b>Privacy</b> in the app to switch on weekly AI progress reports.</p>`,
-    };
-    if (isNew) return this.invites.invite(parentId, { schoolName: school.name, role: 'app', extra });
-    return { sent: false };
+    if (claimed) {
+      await this.messaging.push([parentId], { title: `${school.name} added you as ${firstName}’s parent`, body: 'Open Nexus to accept, or tell us it isn’t you.', url: '/parent' });
+      return { status: 'AWAITING_PARENT', sent: false };
+    }
+    const extra =
+      username && pin
+        ? {
+            text: `${childName} can sign in to the Nexus app with username ${username} and PIN ${pin}. You can change the PIN in your app.\n\nIn the app, open Privacy to switch on weekly AI progress reports for ${firstName}.`,
+            html: `<p style="background:#F4F2FF;padding:12px;border-radius:12px"><b>${esc(childName)}</b> signs in with username <b>${username}</b> and PIN <b>${pin}</b>. You can change the PIN in your app.</p><p>Then open <b>Privacy</b> in the app to switch on weekly AI progress reports.</p>`,
+          }
+        : { text: `${firstName} is now linked to your account.`, html: `<p><b>${esc(firstName)}</b> is now linked to your account.</p>` };
+    const r = await this.invites.invite(parentId, { schoolName: school.name, role: 'app', extra });
+    const parent = await this.prisma.user.findUniqueOrThrow({ where: { id: parentId }, select: { email: true, phone: true } });
+    return { status: 'INVITED', sent: r.sent, code: r.sent ? undefined : r.code, signInWith: parent.email ?? parent.phone ?? undefined };
+  }
+
+  /** A new code for a parent who hasn't set their password yet (the old one stops mattering). */
+  async resendParentInvite(a: SchoolActor, studentId: string, parentId: string): Promise<ParentNotice> {
+    requireAdmin(a);
+    const s = await this.assertStudent(a, studentId);
+    const link = await this.prisma.guardianship.findUnique({ where: { parentId_studentId: { parentId, studentId } }, include: { parent: true } });
+    if (!link) throw new NotFoundException('That parent isn’t linked to this student.');
+    if (link.parent.passwordHash && link.confirmedAt) throw new BadRequestException(`${link.parent.firstName} already uses the Nexus app. They can reset their password from the sign-in screen.`);
+    return this.notifyParent(a.schoolId, parentId, !!link.parent.passwordHash, s.user.firstName, `${s.user.firstName} ${s.user.lastName}`);
   }
 
   async importStudents(a: SchoolActor, rows: StudentDto[]) {
     requireAdmin(a);
-    const results: { row: number; ok: boolean; name: string; username?: string; pin?: string; shopCode?: string; error?: string }[] = [];
+    const results: { row: number; ok: boolean; name: string; username?: string; pin?: string; shopCode?: string; parent?: ParentNotice | null; error?: string }[] = [];
     for (const [i, row] of rows.entries()) {
       try {
         const r = await this.addStudent(a, row);
-        results.push({ row: i + 1, ok: true, name: `${row.firstName} ${row.lastName}`, username: r.username, pin: r.pin, shopCode: r.shopCode });
+        results.push({ row: i + 1, ok: true, name: `${row.firstName} ${row.lastName}`, username: r.username, pin: r.pin, shopCode: r.shopCode, parent: r.parent });
       } catch (e) {
         results.push({ row: i + 1, ok: false, name: `${row.firstName} ${row.lastName}`, error: (e as Error).message });
       }
@@ -428,7 +457,7 @@ export class SchoolService {
     const { year, term } = await this.currentTerm(a.schoolId);
     const [enrollment, guardians, attendance, results, notes, invoices, report] = await Promise.all([
       this.prisma.enrollment.findFirst({ where: { studentId, academicYearId: year?.id ?? '-' }, include: { class: true } }),
-      this.prisma.guardianship.findMany({ where: { studentId }, include: { parent: { select: { id: true, firstName: true, lastName: true, email: true, phone: true, lastLoginAt: true } } } }),
+      this.prisma.guardianship.findMany({ where: { studentId }, include: { parent: { select: { id: true, firstName: true, lastName: true, email: true, phone: true, lastLoginAt: true, passwordHash: true } } } }),
       term ? this.prisma.attendance.groupBy({ by: ['status'], where: { studentId, date: { gte: term.startDate, lte: term.endDate } }, _count: true }) : [],
       term
         ? this.prisma.assessmentResult.findMany({ where: { studentId, assessment: { termId: term.id } }, include: { assessment: { include: { classSubject: { include: { subject: true } } } } }, orderBy: { assessment: { heldOn: 'desc' } } })
@@ -450,7 +479,13 @@ export class SchoolService {
       class: enrollment ? { id: enrollment.classId, name: className(enrollment.class) } : null,
       xp: s.xpTotal,
       streak: s.currentStreak,
-      parents: guardians.map((g) => ({ ...g.parent, relationship: g.relationship, hasSignedIn: !!g.parent.lastLoginAt })),
+      parents: guardians.map(({ parent: { passwordHash, ...p }, ...g }) => ({
+        ...p,
+        relationship: g.relationship,
+        hasSignedIn: !!p.lastLoginAt,
+        // INVITED: hasn't set a password yet (resend the code). AWAITING_PARENT: has an account, hasn't accepted this child yet.
+        status: !g.confirmedAt ? 'AWAITING_PARENT' : !passwordHash ? 'INVITED' : 'ACTIVE',
+      })),
       attendance: { present: att.PRESENT ?? 0, late: att.LATE ?? 0, absent: att.ABSENT ?? 0, excused: att.EXCUSED ?? 0 },
       results: results.map((r) => ({
         id: r.id,
@@ -500,14 +535,12 @@ export class SchoolService {
       const acc = await this.parentAccount(tx, dto);
       const linked = await tx.guardianship.findUnique({ where: { parentId_studentId: { parentId: acc.user.id, studentId } } });
       if (linked) throw new ConflictException('That parent is already linked.');
-      await tx.guardianship.create({ data: { parentId: acc.user.id, studentId, relationship: dto.relationship ?? 'GUARDIAN', verifiedAt: new Date() } });
+      await tx.guardianship.create({ data: { parentId: acc.user.id, studentId, relationship: dto.relationship ?? 'GUARDIAN', verifiedAt: new Date(), confirmedAt: acc.claimed ? null : new Date() } });
       return acc;
     });
-    // Existing parents can see the child straight away; new ones get a code. The PIN isn't resent.
-    const invite = p.isNew
-      ? await this.invites.invite(p.user.id, { schoolName: (await this.prisma.school.findUniqueOrThrow({ where: { id: a.schoolId } })).name, role: 'app', extra: { text: `${s.user.firstName} is now linked to your account.`, html: `<p><b>${esc(s.user.firstName)}</b> is now linked to your account.</p>` } })
-      : { sent: false };
-    return { parentId: p.user.id, invited: invite.sent };
+    // The PIN isn't resent here; the school can reset it if the parent needs it.
+    const notice = await this.notifyParent(a.schoolId, p.user.id, p.claimed, s.user.firstName, `${s.user.firstName} ${s.user.lastName}`);
+    return { parentId: p.user.id, invited: notice.sent, ...notice };
   }
 
   async unlinkParent(a: SchoolActor, studentId: string, parentId: string) {

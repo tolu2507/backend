@@ -33,8 +33,8 @@ export class ParentService {
 
   /** Throws unless this parent is linked to this child. */
   async ownChild(parentId: string, studentId: string) {
-    const link = await this.prisma.guardianship.findUnique({
-      where: { parentId_studentId: { parentId, studentId } },
+    const link = await this.prisma.guardianship.findFirst({
+      where: { parentId, studentId, confirmedAt: { not: null } },
       include: { student: { include: { user: true, school: true, consents: { where: { revokedAt: null } } } } },
     });
     if (!link) throw new NotFoundException('Child not found on your account.');
@@ -43,7 +43,7 @@ export class ParentService {
 
   async children(parentId: string) {
     const links = await this.prisma.guardianship.findMany({
-      where: { parentId },
+      where: { parentId, confirmedAt: { not: null } },
       orderBy: { createdAt: 'asc' },
       include: { student: { include: { user: true, school: true } } },
     });
@@ -57,6 +57,33 @@ export class ParentService {
       className: s.gradeName ?? LEVEL_LABEL[s.level],
       schoolName: s.school?.name ?? null,
     }));
+  }
+
+  /** Children a school says belong to this parent, waiting for the parent to accept. They give no access yet. */
+  async pendingChildren(parentId: string) {
+    const links = await this.prisma.guardianship.findMany({
+      where: { parentId, confirmedAt: null },
+      orderBy: { createdAt: 'asc' },
+      include: { student: { include: { user: true, school: true } } },
+    });
+    return links.map(({ student: s, relationship, createdAt }) => ({
+      studentId: s.id,
+      firstName: s.user.firstName,
+      lastName: s.user.lastName,
+      className: s.gradeName ?? LEVEL_LABEL[s.level],
+      schoolName: s.school?.name ?? null,
+      relationship,
+      addedAt: createdAt,
+    }));
+  }
+
+  /** Accept → the child appears on the parent's account. Decline → the school's link is removed. */
+  async respondToChild(parentId: string, studentId: string, accept: boolean) {
+    const link = await this.prisma.guardianship.findUnique({ where: { parentId_studentId: { parentId, studentId } } });
+    if (!link || link.confirmedAt) throw new NotFoundException('There’s nothing waiting for you to accept.');
+    if (accept) await this.prisma.guardianship.update({ where: { id: link.id }, data: { confirmedAt: new Date() } });
+    else await this.prisma.guardianship.delete({ where: { id: link.id } });
+    return { ok: true, accepted: accept };
   }
 
   /** A parent creates a child account directly — no school needed. */
@@ -76,7 +103,7 @@ export class ParentService {
         },
       });
       const profile = await tx.studentProfile.create({ data: { userId: user.id, level: dto.level, gradeName: dto.gradeName, shopCode: await newShopCode(tx, dto.firstName) } });
-      await tx.guardianship.create({ data: { parentId, studentId: profile.id, relationship: 'PARENT', isPrimary: true } });
+      await tx.guardianship.create({ data: { parentId, studentId: profile.id, relationship: 'PARENT', isPrimary: true, confirmedAt: new Date() } });
       const consents = [
         dto.consentDataProcessing && 'DATA_PROCESSING',
         dto.consentAiReports && 'AI_REPORTS',

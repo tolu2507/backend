@@ -1,9 +1,11 @@
 import { Module } from '@nestjs/common';
+import { APP_INTERCEPTOR } from '@nestjs/core';
 import { ScheduleModule } from '@nestjs/schedule';
 
 import { AdminModule } from './admin/admin.module.js';
 import { AiModule } from './ai/ai.module.js';
 import { AuthModule } from './auth/auth.module.js';
+import { ActivityLogInterceptor } from './common/activity.interceptor.js';
 import { CatalogController } from './catalog/catalog.controller.js';
 import { EnquiriesController } from './enquiries/enquiries.controller.js';
 import { GamificationModule } from './gamification/gamification.module.js';
@@ -40,5 +42,6 @@ import { HealthController } from './health.controller.js';
     TuckShopModule,
   ],
   controllers: [CatalogController, EnquiriesController, HealthController],
+  providers: [{ provide: APP_INTERCEPTOR, useClass: ActivityLogInterceptor }],
 })
 export class AppModule {}

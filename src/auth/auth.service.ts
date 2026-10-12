@@ -60,6 +60,10 @@ export class AuthService {
     const clash = await this.prisma.user.findFirst({
       where: { OR: [{ email: dto.email }, ...(dto.phone ? [{ phone: dto.phone }] : [])] },
     });
+    if (clash && !clash.passwordHash) {
+      // A school set this account up; the parent claims it with the school's code rather than a second account.
+      throw new ConflictException('Your school has already set up an account for you. On the sign-in screen, tap "Got a code from your school?" and enter the code from your school. If you don’t have it, ask the school to resend it.');
+    }
     if (clash) throw new ConflictException('An account with that email or phone already exists. Try signing in.');
 
     const user = await this.prisma.$transaction(async (tx) => {
@@ -90,7 +94,7 @@ export class AuthService {
     if (!user?.passwordHash || !(await bcrypt.compare(dto.password, user.passwordHash))) {
       throw new UnauthorizedException("That email/phone and password don't match.");
     }
-    return this.issueSession(user.id);
+    return this.signedIn(user.id, 'password');
   }
 
   async studentLogin(dto: StudentLoginDto) {
@@ -105,7 +109,17 @@ export class AuthService {
       throw new UnauthorizedException("That username and PIN don't match.");
     }
     pinFailures.delete(dto.username);
-    return this.issueSession(user.id);
+    return this.signedIn(user.id, 'pin');
+  }
+
+  /** Issues the session and records the sign-in in the activity log (refreshes are not logged). */
+  private async signedIn(userId: string, method: 'password' | 'pin') {
+    const session = await this.issueSession(userId);
+    const schools = [...new Set(session.user.memberships.map((m) => m.schoolId).filter(Boolean))];
+    await this.prisma.auditLog
+      .create({ data: { actorId: userId, action: 'auth.login', entityType: 'User', entityId: userId, schoolId: schools.length === 1 ? schools[0] : null, meta: { method } } })
+      .catch(() => undefined);
+    return session;
   }
 
   /** Rotates the refresh token: the old one stops working the moment a new one is issued. */

@@ -14,6 +14,18 @@ export class ParentController {
     return this.parents.children(u.id);
   }
 
+  @Get('children/pending') pendingChildren(@CurrentUser() u: AuthUser) {
+    return this.parents.pendingChildren(u.id);
+  }
+
+  @HttpCode(200) @Post('children/pending/:studentId/accept') acceptChild(@CurrentUser() u: AuthUser, @Param('studentId') id: string) {
+    return this.parents.respondToChild(u.id, id, true);
+  }
+
+  @HttpCode(200) @Post('children/pending/:studentId/decline') declineChild(@CurrentUser() u: AuthUser, @Param('studentId') id: string) {
+    return this.parents.respondToChild(u.id, id, false);
+  }
+
   @Post('children') createChild(@CurrentUser() u: AuthUser, @Body() dto: CreateChildDto) {
     return this.parents.createChild(u.id, dto);
   }

@@ -137,6 +137,10 @@ export class SchoolController {
   @HttpCode(200) @Post('students/:id/reset-pin') resetPin(@Actor() a: SchoolActor, @Param('id') id: string) {
     return this.school.resetStudentPin(a, id);
   }
+  @HttpCode(200) @Post('students/:id/parents/:parentId/invite') resendParentInvite(@Actor() a: SchoolActor, @Param('id') id: string, @Param('parentId') parentId: string) {
+    return this.school.resendParentInvite(a, id, parentId);
+  }
+
   @Post('students/:id/parents') addParent(@Actor() a: SchoolActor, @Param('id') id: string, @Body() dto: ParentInputDto) {
     return this.school.addParent(a, id, dto);
   }

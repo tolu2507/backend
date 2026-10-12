@@ -66,7 +66,7 @@ export class MeService {
 
   async privacy(userId: string) {
     const [links, requests] = await Promise.all([
-      this.prisma.guardianship.findMany({ where: { parentId: userId }, include: { student: { include: { user: true, consents: { where: { revokedAt: null } } } } } }),
+      this.prisma.guardianship.findMany({ where: { parentId: userId, confirmedAt: { not: null } }, include: { student: { include: { user: true, consents: { where: { revokedAt: null } } } } } }),
       this.prisma.dataRequest.findMany({ where: { userId }, orderBy: { createdAt: 'desc' } }),
     ]);
     return {
@@ -84,7 +84,7 @@ export class MeService {
   }
 
   async setConsent(userId: string, studentId: string, type: ConsentType, granted: boolean) {
-    const link = await this.prisma.guardianship.findUnique({ where: { parentId_studentId: { parentId: userId, studentId } } });
+    const link = await this.prisma.guardianship.findFirst({ where: { parentId: userId, studentId, confirmedAt: { not: null } } });
     if (!link) throw new NotFoundException('Child not found on your account.');
     if (type === 'DATA_PROCESSING' && !granted) throw new BadRequestException('To stop all data processing, request deletion of your child’s account instead.');
     if (granted) {
@@ -98,7 +98,7 @@ export class MeService {
 
   async requestData(userId: string, type: DataRequestType, studentId?: string) {
     if (studentId) {
-      const link = await this.prisma.guardianship.findUnique({ where: { parentId_studentId: { parentId: userId, studentId } } });
+      const link = await this.prisma.guardianship.findFirst({ where: { parentId: userId, studentId, confirmedAt: { not: null } } });
       if (!link) throw new NotFoundException('Child not found on your account.');
     }
     const open = await this.prisma.dataRequest.findFirst({ where: { userId, type, subjectId: studentId ?? null, status: { not: 'DONE' } } });

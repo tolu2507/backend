@@ -39,7 +39,7 @@ export class PaymentsService {
 
   async startTopup(origin: string, parentId: string, studentId: string, amountKobo: bigint) {
     if (amountKobo < MIN_TOPUP || amountKobo > MAX_TOPUP) throw new BadRequestException('Top up between ₦100 and ₦100,000.');
-    const link = await this.prisma.guardianship.findUnique({ where: { parentId_studentId: { parentId, studentId } }, include: { student: true } });
+    const link = await this.prisma.guardianship.findFirst({ where: { parentId, studentId, confirmedAt: { not: null } }, include: { student: true } });
     if (!link) throw new ForbiddenException('You can only top up your own children.');
     const wallet = await this.prisma.$transaction((tx) => this.ledger.userWallet(tx, link.student.userId, 'STUDENT_SPEND'));
 
@@ -54,7 +54,7 @@ export class PaymentsService {
   /** Pays a school fee invoice: the whole balance, or part of it (at least ₦1,000). */
   async startFeePayment(origin: string, parentId: string, invoiceId: string, amountKobo?: bigint) {
     const inv = await this.prisma.feeInvoice.findUnique({ where: { id: invoiceId } });
-    const link = inv && (await this.prisma.guardianship.findUnique({ where: { parentId_studentId: { parentId, studentId: inv.studentId } } }));
+    const link = inv && (await this.prisma.guardianship.findFirst({ where: { parentId, studentId: inv.studentId, confirmedAt: { not: null } } }));
     if (!inv || !link) throw new NotFoundException('Invoice not found.');
     if (inv.status === 'VOID') throw new BadRequestException('This invoice was cancelled by the school.');
     const outstanding = inv.totalKobo - inv.paidKobo;

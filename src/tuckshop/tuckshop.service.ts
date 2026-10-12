@@ -88,7 +88,7 @@ export class TuckShopService {
 
   /** Counter sale. The PIN is only asked for when the school has switched that on. */
   async charge(s: Seller, dto: ChargeDto) {
-    const student = await this.prisma.studentProfile.findFirst({ where: { id: dto.studentId, schoolId: s.schoolId }, include: { user: true, guardians: true, school: true } });
+    const student = await this.prisma.studentProfile.findFirst({ where: { id: dto.studentId, schoolId: s.schoolId }, include: { user: true, guardians: { where: { confirmedAt: { not: null } } }, school: true } });
     if (!student) throw new NotFoundException('We couldn’t find that child in your school.');
     const done = await this.alreadyDone(dto.requestId, student.userId, s.userId);
     if (done) return done;
@@ -101,7 +101,7 @@ export class TuckShopService {
 
   /** A child pays the tuck shop from their own phone: amount, send. Their own sign-in is the security. */
   async payFromPhone(userId: string, dto: PhonepayDto) {
-    const student = await this.prisma.studentProfile.findUnique({ where: { userId }, include: { user: true, guardians: true, school: true } });
+    const student = await this.prisma.studentProfile.findUnique({ where: { userId }, include: { user: true, guardians: { where: { confirmedAt: { not: null } } }, school: true } });
     if (!student) throw new NotFoundException('Student account not found.');
     const schoolId = student.schoolId ?? dto.schoolId;
     if (!schoolId) throw new BadRequestException('Pick the school you’re paying.');
@@ -196,7 +196,7 @@ export class TuckShopService {
       throw new BadRequestException(`Wrong PIN. ${left} ${left === 1 ? 'try' : 'tries'} left.`);
     }
     await this.prisma.user.update({ where: { id: user.id }, data: { pinFailures: 0, pinLockedUntil: new Date(Date.now() + LOCK_MINUTES * 60_000) } });
-    const parents = await this.prisma.guardianship.findMany({ where: { student: { userId: user.id } }, select: { parentId: true } });
+    const parents = await this.prisma.guardianship.findMany({ where: { student: { userId: user.id }, confirmedAt: { not: null } }, select: { parentId: true } });
     this.messaging.notify(
       parents.map((p) => p.parentId),
       'payments',

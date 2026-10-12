@@ -81,7 +81,7 @@ export class FeesService {
     });
 
     // Tell parents a bill is waiting (push, if they allow payment notifications).
-    const parents = await this.prisma.guardianship.findMany({ where: { studentId: { in: enrolments.map((e) => e.studentId) } }, select: { parentId: true } });
+    const parents = await this.prisma.guardianship.findMany({ where: { studentId: { in: enrolments.map((e) => e.studentId) }, confirmedAt: { not: null } }, select: { parentId: true } });
     const school = await this.prisma.school.findUniqueOrThrow({ where: { id: a.schoolId } });
     if (created.count) this.messaging.notify([...new Set(parents.map((p) => p.parentId))], 'payments', { title: `${school.name} school fees`, body: `This term’s fees (${formatNaira(total)}) are ready. Pay in the app.`, url: '/parent/wallet' });
 

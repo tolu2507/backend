@@ -263,6 +263,21 @@ enum StatementStatus {
   PAID
 }
 
+enum Curriculum {
+  NIGERIAN // NERDC / UBE national curriculum
+  BRITISH
+  AMERICAN
+  MONTESSORI
+  IB
+  BLENDED // Nigerian + British, common in Lagos private schools
+}
+
+enum AiFeature {
+  LESSON_QUIZ
+  WEEKLY_REPORT
+  ACTIVITY_DRAFT
+}
+
 enum AssetStatus {
   GOOD
   MAINTENANCE
@@ -347,6 +362,9 @@ model Guardianship {
   relationship String // MOTHER, FATHER, GUARDIAN, ...
   isPrimary    Boolean   @default(false)
   verifiedAt   DateTime? // set when the school confirms the link
+  /// Set when the parent's side is settled: they added the child themselves, the school created their
+  /// account, or they accepted the link in the app. Until then the link gives NO access to the child.
+  confirmedAt  DateTime?
   createdAt    DateTime  @default(now())
 
   parent  User           @relation("ParentLinks", fields: [parentId], references: [id], onDelete: Cascade)
@@ -404,6 +422,9 @@ model School {
   assets        Asset[]
   ledgerEntries LedgerEntry[]
   payments      Payment[]
+  aiProfile     SchoolAiProfile?
+  topics        CurriculumTopic[]
+  aiUsage       AiUsage[]
 }
 
 /// A "book a demo" request from the marketing site. Overwatch follows up and, if it converts, creates the School.
@@ -1275,4 +1296,60 @@ model DataRequest {
   completedAt DateTime?
 
   user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+// ─────────────────────────────────────────────────────────────
+// AI: per-school setup and cost tracking
+// ─────────────────────────────────────────────────────────────
+
+/// How the AI behaves for one school. Injected into every prompt made for that school's students.
+model SchoolAiProfile {
+  schoolId          String     @id
+  curriculum        Curriculum @default(NIGERIAN)
+  instructions      String? // house rules, e.g. "Use British spelling. Our maths uses the Singapore method."
+  aiEnabled         Boolean    @default(true) // off → the app uses the non-AI fallbacks for this school
+  monthlyBudgetKobo BigInt? // AI spend cap per Lagos month; over it → fallbacks. null = no cap
+  updatedById       String?
+  updatedAt         DateTime   @updatedAt
+
+  school School @relation(fields: [schoolId], references: [id], onDelete: Cascade)
+}
+
+/// One line of a school's scheme of work. The AI keeps quizzes and reports to these topics.
+model CurriculumTopic {
+  id         String         @id @default(uuid())
+  schoolId   String
+  level      EducationLevel
+  gradeName  String? // "JSS2"; null = whole level
+  subject    String
+  term       TermName
+  week       Int?
+  topic      String
+  objectives String?
+  createdAt  DateTime       @default(now())
+
+  school School @relation(fields: [schoolId], references: [id], onDelete: Cascade)
+
+  @@index([schoolId, subject, level])
+}
+
+/// Every AI call, so Overwatch can see what it costs and for which school.
+model AiUsage {
+  id           String    @id @default(uuid())
+  feature      AiFeature
+  model        String
+  schoolId     String?
+  userId       String? // whose data it was for (student, parent)
+  inputTokens  Int       @default(0)
+  outputTokens Int       @default(0)
+  costMicroUsd Int       @default(0) // millionths of a US dollar
+  ok           Boolean
+  latencyMs    Int
+  error        String?
+  createdAt    DateTime  @default(now())
+
+  school School? @relation(fields: [schoolId], references: [id], onDelete: SetNull)
+
+  @@index([createdAt])
+  @@index([schoolId, createdAt])
 }
