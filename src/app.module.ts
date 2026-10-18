@@ -16,6 +16,7 @@ import { MessagingModule } from './messaging/messaging.module.js';
 import { ParentModule } from './parent/parent.module.js';
 import { PaymentsModule } from './payments/payments.module.js';
 import { PrismaModule } from './prisma/prisma.module.js';
+import { QuestionBankModule } from './question-bank/question-bank.module.js';
 import { ReportsModule } from './reports/reports.module.js';
 import { SchoolModule } from './school/school.module.js';
 import { StudentModule } from './student/student.module.js';
@@ -37,6 +38,7 @@ import { HealthController } from './health.controller.js';
     MeModule,
     StudentModule,
     ExamsModule,
+    QuestionBankModule,
     ParentModule,
     TutorModule,
     AdminModule,
