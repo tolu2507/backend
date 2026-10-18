@@ -20,6 +20,7 @@ class PasswordDto {
 }
 class PrefsDto {
   @IsOptional() @IsBoolean() weeklyReport?: boolean;
+  @IsOptional() @IsBoolean() examResults?: boolean;
   @IsOptional() @IsBoolean() whatsAppReports?: boolean;
   @IsOptional() @IsBoolean() lessonReminders?: boolean;
   @IsOptional() @IsBoolean() payments?: boolean;

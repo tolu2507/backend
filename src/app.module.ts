@@ -13,9 +13,11 @@ import { GamificationModule } from './gamification/gamification.module.js';
 import { LedgerModule } from './ledger/ledger.module.js';
 import { MeModule } from './me/me.module.js';
 import { MessagingModule } from './messaging/messaging.module.js';
+import { MocksModule } from './mocks/mocks.module.js';
 import { ParentModule } from './parent/parent.module.js';
 import { PaymentsModule } from './payments/payments.module.js';
 import { PrismaModule } from './prisma/prisma.module.js';
+import { ProgressModule } from './progress/progress.module.js';
 import { QuestionBankModule } from './question-bank/question-bank.module.js';
 import { ReportsModule } from './reports/reports.module.js';
 import { SchoolModule } from './school/school.module.js';
@@ -39,6 +41,8 @@ import { HealthController } from './health.controller.js';
     StudentModule,
     ExamsModule,
     QuestionBankModule,
+    MocksModule,
+    ProgressModule,
     ParentModule,
     TutorModule,
     AdminModule,
