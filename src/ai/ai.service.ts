@@ -10,7 +10,7 @@ export type QuizQuestion = { id: string; prompt: string; options: { id: string; 
 
 /** Who an AI call is for. `schoolId` picks the school's AI profile and is what the cost is charged to. */
 export type AiContext = { schoolId?: string | null; userId?: string | null };
-type CallContext = AiContext & { feature: AiFeature; subject?: string; level?: EducationLevel; grade?: string | null };
+export type CallContext = AiContext & { feature: AiFeature; subject?: string; level?: EducationLevel; grade?: string | null };
 
 export const CURRICULUM_LABEL: Record<Curriculum, string> = {
   NIGERIAN: 'Nigerian national curriculum (NERDC / UBE)',
@@ -92,7 +92,8 @@ export class AiService {
     return lines.length ? `SCHOOL CONTEXT\n${lines.join('\n\n')}\n\nTASK\n` : '';
   }
 
-  private async json<T>(prompt: string, ctx: CallContext): Promise<T | null> {
+  /** One JSON-mode call. Returns null on any failure; every call that reaches Gemini is recorded. */
+  async json<T>(prompt: string, ctx: CallContext, { temperature = 0.6 }: { temperature?: number } = {}): Promise<T | null> {
     if (!this.client) return null;
     const blocked = await this.blockedReason(ctx.schoolId);
     if (blocked) {
@@ -100,19 +101,29 @@ export class AiService {
       return null;
     }
     const guidance = await this.schoolGuidance(ctx);
-    const started = Date.now();
-    let usage: { promptTokenCount?: number; candidatesTokenCount?: number; thoughtsTokenCount?: number } | undefined;
-    try {
-      const model = this.client.getGenerativeModel({ model: this.model, generationConfig: { responseMimeType: 'application/json', temperature: 0.6 } });
-      const result = await model.generateContent(guidance + prompt);
-      usage = result.response.usageMetadata as typeof usage;
-      const parsed = JSON.parse(result.response.text()) as T;
-      await this.record(ctx, usage, Date.now() - started, null);
-      return parsed;
-    } catch (e) {
-      this.logger.warn(`Gemini call failed: ${(e as Error).message}`);
-      await this.record(ctx, usage, Date.now() - started, (e as Error).message);
-      return null;
+    const model = this.client.getGenerativeModel({ model: this.model, generationConfig: { responseMimeType: 'application/json', temperature } });
+    for (let attempt = 1; ; attempt++) {
+      const started = Date.now();
+      let usage: { promptTokenCount?: number; candidatesTokenCount?: number; thoughtsTokenCount?: number } | undefined;
+      try {
+        const result = await model.generateContent(guidance + prompt);
+        usage = result.response.usageMetadata as typeof usage;
+        const parsed = JSON.parse(result.response.text()) as T;
+        await this.record(ctx, usage, Date.now() - started, null);
+        return parsed;
+      } catch (e) {
+        const message = (e as Error).message;
+        // Rate limited: wait as long as Google asks (a minute at most), then try again.
+        const wait = /429/.test(message) ? Number(message.match(/retry in ([\d.]+)s/i)?.[1] ?? 30) : null;
+        if (wait !== null && attempt < 4) {
+          this.logger.log(`Gemini rate limit; retrying in ${Math.ceil(wait)}s`);
+          await new Promise((r) => setTimeout(r, Math.min(wait, 60) * 1000 + 500));
+          continue;
+        }
+        this.logger.warn(`Gemini call failed: ${message.slice(0, 300)}`);
+        await this.record(ctx, usage, Date.now() - started, message);
+        return null;
+      }
     }
   }
 

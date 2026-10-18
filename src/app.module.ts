@@ -8,6 +8,7 @@ import { AuthModule } from './auth/auth.module.js';
 import { ActivityLogInterceptor } from './common/activity.interceptor.js';
 import { CatalogController } from './catalog/catalog.controller.js';
 import { EnquiriesController } from './enquiries/enquiries.controller.js';
+import { ExamsModule } from './exams/exams.module.js';
 import { GamificationModule } from './gamification/gamification.module.js';
 import { LedgerModule } from './ledger/ledger.module.js';
 import { MeModule } from './me/me.module.js';
@@ -35,6 +36,7 @@ import { HealthController } from './health.controller.js';
     ReportsModule,
     MeModule,
     StudentModule,
+    ExamsModule,
     ParentModule,
     TutorModule,
     AdminModule,

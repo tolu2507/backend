@@ -17,7 +17,7 @@ export class CreateChildDto {
   @Matches(/^[0-9]{4}$/, { message: 'The PIN must be 4 numbers.' }) pin: string;
   @IsBoolean() consentDataProcessing: boolean;
   @IsBoolean() consentAiReports: boolean;
-  @IsBoolean() consentTutorMatching: boolean;
+  @IsOptional() @IsBoolean() consentTutorMatching?: boolean; // tutor matching is paused; the app no longer asks
 }
 
 export class ChangePinDto {

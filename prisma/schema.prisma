@@ -276,6 +276,9 @@ enum AiFeature {
   LESSON_QUIZ
   WEEKLY_REPORT
   ACTIVITY_DRAFT
+  QUESTION_TAGGING // labelling past questions with topic and difficulty
+  QUESTION_WRITING // writing our own exam questions
+  QUESTION_CHECK // solving them blind to check the answer
 }
 
 enum AssetStatus {
@@ -333,6 +336,9 @@ model User {
   applicationsReviewed TutorApplication[] @relation("ApplicationReviewer")
   testsGraded          TutorTestAttempt[] @relation("TestGrader")
   vettingTestsAuthored VettingTest[]
+  questionsReviewed    ExamQuestion[]     @relation("QuestionReviewer")
+  supportTickets       SupportTicket[]    @relation("SupportRequester")
+  supportMessages      SupportMessage[]   @relation("SupportAuthor")
 }
 
 /// What a user can do, and where. One row per (user, role, school).
@@ -591,23 +597,28 @@ model StudentProfile {
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 
-  user          User               @relation(fields: [userId], references: [id], onDelete: Cascade)
-  school        School?            @relation(fields: [schoolId], references: [id])
-  guardians     Guardianship[]
-  consents      Consent[]
-  enrollments   Enrollment[]
-  attendance    Attendance[]
-  results       AssessmentResult[]
-  teacherNotes  TeacherNote[]
-  attempts      ActivityAttempt[]
-  xpEvents      XpEvent[]
-  badges        StudentBadge[]
-  leagueEntries LeagueEntry[]
-  weeklyReports WeeklyReport[]
-  invoices      FeeInvoice[]
-  tutorRequests TutorRequest[]
-  tutorBookings TutorBooking[]
-  lessonQuizzes LessonQuiz[]
+  user            User               @relation(fields: [userId], references: [id], onDelete: Cascade)
+  school          School?            @relation(fields: [schoolId], references: [id])
+  guardians       Guardianship[]
+  consents        Consent[]
+  enrollments     Enrollment[]
+  attendance      Attendance[]
+  results         AssessmentResult[]
+  teacherNotes    TeacherNote[]
+  attempts        ActivityAttempt[]
+  xpEvents        XpEvent[]
+  badges          StudentBadge[]
+  leagueEntries   LeagueEntry[]
+  weeklyReports   WeeklyReport[]
+  invoices        FeeInvoice[]
+  tutorRequests   TutorRequest[]
+  tutorBookings   TutorBooking[]
+  lessonQuizzes   LessonQuiz[]
+  exams           StudentExam[]
+  questionsSeen   QuestionSeen[]
+  topicProgress   TopicProgress[]
+  mockSittings    MockSitting[]
+  questionReports QuestionReport[]
 
   @@unique([schoolId, admissionNo])
 }
@@ -1352,4 +1363,303 @@ model AiUsage {
 
   @@index([createdAt])
   @@index([schoolId, createdAt])
+}
+
+// ─────────────────────────────────────────────────────────────
+// Exam prep: JAMB, WAEC, NECO, BECE
+// ─────────────────────────────────────────────────────────────
+
+enum ExamBody {
+  JAMB // UTME
+  WAEC // WASSCE, including the GCE (private candidates) sitting
+  NECO // SSCE
+  BECE // junior WAEC / NECO BECE at the end of JSS3
+  COMMON_ENTRANCE // NCEE into unity schools, and private secondary school entrance exams (Primary 5–6)
+}
+
+enum QuestionOrigin {
+  GENERATED // written by AI from the exam's pattern, then checked
+  TEMPLATE // numbers and names filled in from a QuestionTemplate
+  AUTHORED // written by the Nexus team
+}
+
+enum QuestionStatus {
+  DRAFT
+  IN_REVIEW // passed the automatic answer check; waiting for a person
+  APPROVED // students can get it
+  RETIRED // reported or replaced; kept so old attempts still make sense
+}
+
+enum MockStatus {
+  SCHEDULED
+  OPEN
+  CLOSED // window over, results being worked out
+  RESULTS_OUT
+}
+
+enum SupportStatus {
+  OPEN
+  WAITING_ON_USER
+  RESOLVED
+}
+
+/// A subject as one exam body sets it ("JAMB Physics" and "WAEC Physics" are different rows).
+model ExamSubject {
+  id            String   @id @default(uuid())
+  exam          ExamBody
+  slug          String // "physics", "english-language"
+  name          String
+  isCompulsory  Boolean  @default(false) // JAMB Use of English
+  mockQuestions Int? // questions per subject in a full mock (JAMB: English 60, others 40)
+  isActive      Boolean  @default(true)
+  createdAt     DateTime @default(now())
+
+  topics          SyllabusTopic[]
+  pastQuestions   PastQuestion[]
+  questions       ExamQuestion[]
+  templates       QuestionTemplate[]
+  studentSubjects StudentExamSubject[]
+
+  @@unique([exam, slug])
+}
+
+/// Syllabus topics, nested (topic → subtopic). `weight` and `yearsSeen` come from the past-paper analysis.
+model SyllabusTopic {
+  id            String  @id @default(uuid())
+  examSubjectId String
+  parentId      String?
+  name          String
+  order         Int     @default(0)
+  weight        Float? // share of past-paper questions on this topic, 0–1
+  yearsSeen     Int? // in how many of the analysed years it appeared
+  examinerNotes String? // what Chief Examiners said students get wrong
+
+  examSubject   ExamSubject        @relation(fields: [examSubjectId], references: [id], onDelete: Cascade)
+  parent        SyllabusTopic?     @relation("TopicTree", fields: [parentId], references: [id], onDelete: Cascade)
+  children      SyllabusTopic[]    @relation("TopicTree")
+  pastQuestions PastQuestion[]
+  questions     ExamQuestion[]
+  templates     QuestionTemplate[]
+  progress      TopicProgress[]
+
+  @@unique([examSubjectId, parentId, name])
+  @@index([examSubjectId])
+}
+
+/// A question from a real past paper. INTERNAL ONLY: used to learn each exam's pattern, never shown to students.
+model PastQuestion {
+  id            String   @id @default(uuid())
+  examSubjectId String
+  topicId       String?
+  year          Int
+  paper         String? // "Paper 1", "Objective"
+  source        String // "schoolngr", "waec-elearning"
+  sourceId      String
+  stem          String // as published (HTML)
+  options       Json? // [{ label, html }]; null for theory questions
+  answer        String? // option label
+  explanation   String?
+  examinerNote  String? // Chief Examiner's observation on how candidates did
+  difficulty    Int? // 1 (easy) – 5 (hard), estimated during analysis
+  questionType  String? // "calculation", "definition", "diagram", "comprehension", …
+  brokenReason  String? // set when the source lost something (symbols, a diagram) and the question can't be used as an example
+  createdAt     DateTime @default(now())
+
+  examSubject ExamSubject    @relation(fields: [examSubjectId], references: [id], onDelete: Cascade)
+  topic       SyllabusTopic? @relation(fields: [topicId], references: [id], onDelete: SetNull)
+  derived     ExamQuestion[]
+
+  @@unique([source, sourceId])
+  @@index([examSubjectId, year])
+}
+
+/// A question students actually get. Ours, never a copy of a past question.
+model ExamQuestion {
+  id            String         @id @default(uuid())
+  examSubjectId String
+  topicId       String
+  difficulty    Int // 1 (easy) – 5 (hard)
+  stem          String // Markdown, with $…$ for maths
+  options       Json // [{ id, label }]
+  answerId      String
+  explanation   String
+  origin        QuestionOrigin
+  status        QuestionStatus @default(DRAFT)
+  templateId    String?
+  modelledOnId  String? // the past question whose pattern it follows
+  checkNotes    String? // the automatic answer check's verdict
+  reviewedById  String?
+  reviewedAt    DateTime?
+  timesServed   Int            @default(0)
+  timesCorrect  Int            @default(0)
+  createdAt     DateTime       @default(now())
+  updatedAt     DateTime       @updatedAt
+
+  examSubject ExamSubject       @relation(fields: [examSubjectId], references: [id], onDelete: Cascade)
+  topic       SyllabusTopic     @relation(fields: [topicId], references: [id])
+  template    QuestionTemplate? @relation(fields: [templateId], references: [id], onDelete: SetNull)
+  modelledOn  PastQuestion?     @relation(fields: [modelledOnId], references: [id], onDelete: SetNull)
+  reviewedBy  User?             @relation("QuestionReviewer", fields: [reviewedById], references: [id], onDelete: SetNull)
+  seen        QuestionSeen[]
+  reports     QuestionReport[]
+
+  @@index([examSubjectId, topicId, difficulty, status])
+  @@index([status, createdAt])
+}
+
+/// A pattern for maths-style questions: variables, how to work out the answer, and how to make wrong options.
+model QuestionTemplate {
+  id            String         @id @default(uuid())
+  examSubjectId String
+  topicId       String
+  difficulty    Int
+  spec          Json // { stem, variables, answer, distractors, explanation }
+  status        QuestionStatus @default(DRAFT)
+  createdAt     DateTime       @default(now())
+
+  examSubject ExamSubject    @relation(fields: [examSubjectId], references: [id], onDelete: Cascade)
+  topic       SyllabusTopic  @relation(fields: [topicId], references: [id])
+  questions   ExamQuestion[]
+}
+
+/// Which exam a student is preparing for, and their subject combination.
+model StudentExam {
+  id         String   @id @default(uuid())
+  studentId  String
+  exam       ExamBody
+  targetYear Int? // the year they sit it
+  createdAt  DateTime @default(now())
+
+  student  StudentProfile       @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  subjects StudentExamSubject[]
+
+  @@unique([studentId, exam])
+}
+
+model StudentExamSubject {
+  studentExamId String
+  examSubjectId String
+
+  studentExam StudentExam @relation(fields: [studentExamId], references: [id], onDelete: Cascade)
+  examSubject ExamSubject @relation(fields: [examSubjectId], references: [id])
+
+  @@id([studentExamId, examSubjectId])
+}
+
+/// Every question a student has had, so they never get it again (except on purpose, as a review).
+model QuestionSeen {
+  studentId   String
+  questionId  String
+  firstSeenAt DateTime  @default(now())
+  lastSeenAt  DateTime  @default(now())
+  timesSeen   Int       @default(1)
+  lastCorrect Boolean
+  reviewDueAt DateTime? // set when they got it wrong; cleared once they get it right
+
+  student  StudentProfile @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  question ExamQuestion   @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@id([studentId, questionId])
+  @@index([studentId, reviewDueAt])
+}
+
+/// How far a student has climbed a topic's levels (easy → hard).
+model TopicProgress {
+  studentId  String
+  topicId    String
+  level      Int      @default(1) // current difficulty they're working at, 1–5
+  mastery    Float    @default(0) // 0–1, recent accuracy weighted towards harder questions
+  answered   Int      @default(0)
+  correct    Int      @default(0)
+  bossBeaten Boolean  @default(false)
+  updatedAt  DateTime @updatedAt
+
+  student StudentProfile @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  topic   SyllabusTopic  @relation(fields: [topicId], references: [id], onDelete: Cascade)
+
+  @@id([studentId, topicId])
+}
+
+/// The Friday mock: everyone sits it in the same window so national rankings are fair.
+model MockExam {
+  id              String     @id @default(uuid())
+  exam            ExamBody
+  title           String // "JAMB Friday Mock · 24 Oct"
+  opensAt         DateTime
+  closesAt        DateTime
+  durationMinutes Int // from when a student starts (JAMB: 120)
+  status          MockStatus @default(SCHEDULED)
+  createdAt       DateTime   @default(now())
+
+  sittings MockSitting[]
+
+  @@unique([exam, opensAt])
+  @@index([status, opensAt])
+}
+
+model MockSitting {
+  id            String    @id @default(uuid())
+  mockId        String
+  studentId     String
+  startedAt     DateTime  @default(now())
+  deadlineAt    DateTime // startedAt + duration, capped at the window's close
+  submittedAt   DateTime?
+  questions     Json // { [examSubjectId]: questionId[] }, fixed when they start
+  answers       Json      @default("{}") // { [questionId]: optionId }
+  score         Int? // JAMB: out of 400; others: percentage
+  subjectScores Json? // { [examSubjectId]: { correct, total, score } }
+  nationalRank  Int?
+  percentile    Float?
+
+  mock    MockExam       @relation(fields: [mockId], references: [id], onDelete: Cascade)
+  student StudentProfile @relation(fields: [studentId], references: [id], onDelete: Cascade)
+
+  @@unique([mockId, studentId])
+  @@index([mockId, score])
+}
+
+/// "Report this question" from a student. Overwatch fixes or retires the question.
+model QuestionReport {
+  id         String        @id @default(uuid())
+  questionId String
+  studentId  String
+  reason     String // "wrong answer", "typo", "unclear", "other"
+  note       String?
+  status     SupportStatus @default(OPEN)
+  createdAt  DateTime      @default(now())
+
+  question ExamQuestion   @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  student  StudentProfile @relation(fields: [studentId], references: [id], onDelete: Cascade)
+
+  @@index([status, createdAt])
+}
+
+/// Help requests from parents (and students), answered from Overwatch.
+model SupportTicket {
+  id        String        @id @default(uuid())
+  userId    String
+  studentId String? // the child it's about, if any
+  subject   String
+  status    SupportStatus @default(OPEN)
+  createdAt DateTime      @default(now())
+  updatedAt DateTime      @updatedAt
+
+  user     User             @relation("SupportRequester", fields: [userId], references: [id], onDelete: Cascade)
+  messages SupportMessage[]
+
+  @@index([status, updatedAt])
+}
+
+model SupportMessage {
+  id        String   @id @default(uuid())
+  ticketId  String
+  authorId  String
+  fromStaff Boolean // true when Overwatch replied
+  body      String
+  createdAt DateTime @default(now())
+
+  ticket SupportTicket @relation(fields: [ticketId], references: [id], onDelete: Cascade)
+  author User          @relation("SupportAuthor", fields: [authorId], references: [id], onDelete: Cascade)
+
+  @@index([ticketId, createdAt])
 }
