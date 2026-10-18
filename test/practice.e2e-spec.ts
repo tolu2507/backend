@@ -58,6 +58,7 @@ beforeAll(async () => {
 
 afterAll(async () => {
   await prisma.examQuestion.deleteMany({ where: { topicId: { in: [first, second] } } }); // seen rows and reports cascade
+  await prisma.questionTemplate.deleteMany({ where: { topicId: { in: [first, second] } } });
   await prisma.syllabusTopic.deleteMany({ where: { id: topicId } });
   // The accounts this run made: Overwatch admin, parent and child.
   const users = await prisma.user.findMany({ where: { OR: [{ email: { endsWith: `${stamp}@test.ng` } }, { username: `tobi${stamp}`.slice(0, 20) }] }, select: { id: true } });
@@ -174,6 +175,21 @@ describe('Topic practice', () => {
     await http().patch(`/admin/question-bank/questions/${wrongId}`).set(auth(admin)).send({ topicId: second, difficulty: 2 }).expect(200);
     const after = await http().get(`/admin/question-bank/questions?reported=true&subjectId=${physicsId}`).set(auth(admin)).expect(200);
     expect(after.body.total).toBe(0);
+  });
+
+  it('approving a template approves its questions, but not ones retired on their own', async () => {
+    const t = await prisma.questionTemplate.create({ data: { examSubjectId: physicsId, topicId: second, difficulty: 2, spec: { key: `test/${stamp}` }, status: 'IN_REVIEW' } });
+    const make = (i: number, status: 'IN_REVIEW' | 'RETIRED') => ({ examSubjectId: physicsId, topicId: second, difficulty: 2, stem: `Template ${stamp} ${i}`, options: [{ id: 'a', label: '1' }, { id: 'b', label: '2' }], answerId: 'a', explanation: 'Worked out.', origin: 'TEMPLATE' as const, status, templateId: t.id });
+    await prisma.examQuestion.createMany({ data: [make(1, 'IN_REVIEW'), make(2, 'IN_REVIEW'), make(3, 'RETIRED')] });
+
+    const list = await http().get(`/admin/question-bank/questions?q=Template ${stamp}&status=IN_REVIEW`).set(auth(admin)).expect(200);
+    expect(list.body.items[0].template).toMatchObject({ id: t.id, key: `test/${stamp}`, status: 'IN_REVIEW', questions: 3 });
+
+    const res = await http().post(`/admin/question-bank/templates/${t.id}/status`).set(auth(admin)).send({ status: 'APPROVED' }).expect(200);
+    expect(res.body.updated).toBe(2);
+    const rows = await prisma.examQuestion.findMany({ where: { templateId: t.id }, orderBy: { stem: 'asc' }, select: { status: true } });
+    expect(rows.map((q) => q.status)).toEqual(['APPROVED', 'APPROVED', 'RETIRED']);
+    expect((await prisma.questionTemplate.findUniqueOrThrow({ where: { id: t.id } })).status).toBe('APPROVED');
   });
 
   it('retired questions are never served, and students can’t reach Overwatch', async () => {

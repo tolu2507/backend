@@ -1,7 +1,7 @@
 import { Body, Controller, Get, HttpCode, Param, ParseUUIDPipe, Patch, Post, Query } from '@nestjs/common';
 import { Transform, Type } from 'class-transformer';
 import { ArrayMaxSize, ArrayMinSize, IsArray, IsBoolean, IsIn, IsInt, IsObject, IsOptional, IsString, IsUUID, Length, Max, Min, ValidateNested } from 'class-validator';
-import { ExamBody, QuestionStatus } from '@prisma/client';
+import { ExamBody, QuestionOrigin, QuestionStatus } from '@prisma/client';
 
 import { CurrentUser, Roles, type AuthUser } from '../common/auth.js';
 import { PracticeService } from './practice.service.js';
@@ -49,11 +49,15 @@ class QuestionQuery {
   @IsOptional() @IsUUID() subjectId?: string;
   @IsOptional() @IsUUID() topicId?: string;
   @IsOptional() @IsIn(Object.values(QuestionStatus)) status?: QuestionStatus;
+  @IsOptional() @IsIn(Object.values(QuestionOrigin)) origin?: QuestionOrigin;
   @IsOptional() @Type(() => Number) @IsInt() @Min(1) @Max(5) difficulty?: number;
   @IsOptional() @Transform(bool) @IsBoolean() reported?: boolean;
   @IsOptional() @IsString() @Length(0, 100) q?: string;
   @IsOptional() @Type(() => Number) @IsInt() @Min(1) page?: number;
   @IsOptional() @Type(() => Number) @IsInt() @Min(1) @Max(100) pageSize?: number;
+}
+class TemplateStatusDto {
+  @IsIn(Object.values(QuestionStatus)) status: QuestionStatus;
 }
 class StatusDto {
   @IsArray() @ArrayMinSize(1) @ArrayMaxSize(200) @IsUUID('4', { each: true }) ids: string[];
@@ -92,6 +96,10 @@ export class QuestionBankController {
 
   @HttpCode(200) @Post('questions/status') status(@CurrentUser() u: AuthUser, @Body() dto: StatusDto) {
     return this.bank.setStatus(u.id, dto.ids, dto.status);
+  }
+
+  @HttpCode(200) @Post('templates/:id/status') templateStatus(@CurrentUser() u: AuthUser, @Param('id', ParseUUIDPipe) id: string, @Body() dto: TemplateStatusDto) {
+    return this.bank.setTemplateStatus(u.id, id, dto.status);
   }
 
   @Patch('questions/:id') edit(@CurrentUser() u: AuthUser, @Param('id', ParseUUIDPipe) id: string, @Body() dto: EditDto) {

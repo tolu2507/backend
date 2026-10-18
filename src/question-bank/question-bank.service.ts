@@ -1,5 +1,5 @@
 import { BadRequestException, Injectable, NotFoundException } from '@nestjs/common';
-import type { ExamBody, Prisma, QuestionStatus } from '@prisma/client';
+import type { ExamBody, Prisma, QuestionOrigin, QuestionStatus } from '@prisma/client';
 
 import { PrismaService } from '../prisma/prisma.service.js';
 
@@ -8,6 +8,7 @@ export type QuestionFilter = {
   subjectId?: string;
   topicId?: string;
   status?: QuestionStatus;
+  origin?: QuestionOrigin;
   difficulty?: number;
   reported?: boolean;
   q?: string;
@@ -80,6 +81,7 @@ export class QuestionBankService {
       ...(f.subjectId ? { examSubjectId: f.subjectId } : f.exam ? { examSubject: { exam: f.exam } } : {}),
       ...(f.topicId ? { OR: [{ topicId: f.topicId }, { topic: { parentId: f.topicId } }] } : {}),
       ...(f.status ? { status: f.status } : {}),
+      ...(f.origin ? { origin: f.origin } : {}),
       ...(f.difficulty ? { difficulty: f.difficulty } : {}),
       ...(f.reported ? { reports: { some: { status: 'OPEN' } } } : {}),
       ...(f.q ? { stem: { contains: f.q, mode: 'insensitive' as const } } : {}),
@@ -102,6 +104,7 @@ export class QuestionBankService {
           topic: { select: { id: true, name: true, parent: { select: { name: true } } } },
           reviewedBy: { select: { firstName: true, lastName: true } },
           reports: { where: { status: 'OPEN' }, select: { id: true, reason: true, note: true, createdAt: true } },
+          template: { select: { id: true, spec: true, status: true, _count: { select: { questions: true } } } },
         },
       }),
     ]);
@@ -128,6 +131,7 @@ export class QuestionBankService {
         timesServed: q.timesServed,
         timesCorrect: q.timesCorrect,
         reports: q.reports,
+        template: q.template ? { id: q.template.id, key: (q.template.spec as { key?: string }).key ?? null, status: q.template.status, questions: q.template._count.questions } : null,
         createdAt: q.createdAt,
       })),
     };
@@ -149,6 +153,26 @@ export class QuestionBankService {
       });
     });
     return { updated: ids.length };
+  }
+
+  /**
+   * Approve, send back or retire a whole template. Its questions follow (except ones retired on their own),
+   * and questions generated later take the template's status.
+   */
+  async setTemplateStatus(adminId: string, templateId: string, status: QuestionStatus) {
+    const t = await this.prisma.questionTemplate.findUnique({ where: { id: templateId } });
+    if (!t) throw new NotFoundException('Template not found.');
+    const reviewed = status === 'APPROVED' || status === 'RETIRED';
+    const { count } = await this.prisma.$transaction(async (tx) => {
+      await tx.questionTemplate.update({ where: { id: templateId }, data: { status } });
+      const res = await tx.examQuestion.updateMany({
+        where: { templateId, ...(status === 'RETIRED' ? {} : { status: { not: 'RETIRED' } }) },
+        data: { status, ...(reviewed ? { reviewedById: adminId, reviewedAt: new Date() } : {}) },
+      });
+      await tx.auditLog.create({ data: { actorId: adminId, action: `template.${status.toLowerCase()}`, entityType: 'QuestionTemplate', entityId: templateId, meta: { key: (t.spec as { key?: string }).key ?? null, questions: res.count } } });
+      return res;
+    });
+    return { updated: count };
   }
 
   /** Fix a question's wording, options, answer, explanation, difficulty or topic. Fixing it closes its open reports. */

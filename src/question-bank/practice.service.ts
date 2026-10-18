@@ -158,7 +158,8 @@ export class PracticeService {
     });
 
     const picked = reviews.map((r) => ({ q: r.question, review: true }));
-    const want = boss ? [5, 4] : [node.level, node.level - 1, node.level + 1, node.level - 2, node.level + 2].filter((d) => d >= 1 && d <= TOP_LEVEL);
+    // The boss round uses the hardest questions the topic has; 3s only when there are no 4s or 5s yet.
+    const want = boss ? [5, 4, 3] : [node.level, node.level - 1, node.level + 1, node.level - 2, node.level + 2].filter((d) => d >= 1 && d <= TOP_LEVEL);
     for (const difficulty of want) {
       if (picked.length >= ROUND_SIZE) break;
       const rows = await this.prisma.examQuestion.findMany({
