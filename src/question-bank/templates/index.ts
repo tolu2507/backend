@@ -20,6 +20,7 @@ import { beceMathematics, ceMathematics } from './junior-maths.js';
 import { beceScience, ceScience } from './junior-science.js';
 import { quantitative, verbal } from './reasoning.js';
 import { socialStudies } from './social-studies.js';
+import { nurseryLetters, nurseryNumbers, nurseryWorld } from './nursery/index.js';
 import { primaryEnglish, primaryScience } from './primary/english-science.js';
 import { primaryMaths } from './primary/maths.js';
 import { ssceFurtherMathematics, ssceMathematics } from './ssce-mathematics.js';
@@ -84,4 +85,12 @@ for (const n of [1, 2, 3, 4, 5] as const) {
   p[`primary-${n}-mathematics`] = forExam(`primary-${n}`, primaryMaths(n));
   p[`primary-${n}-english-language`] = forExam(`primary-${n}`, primaryEnglish(n));
   p[`primary-${n}-basic-science`] = forExam(`primary-${n}`, primaryScience(n));
+}
+
+// Class practice for Nursery 1–2: picture questions, read aloud by the app.
+for (const n of [1, 2] as const) {
+  const p = (TEMPLATES.NURSERY ??= {});
+  p[`nursery-${n}-numbers`] = forExam(`nursery-${n}`, nurseryNumbers(n));
+  p[`nursery-${n}-letters-and-sounds`] = forExam(`nursery-${n}`, nurseryLetters(n));
+  p[`nursery-${n}-my-world`] = forExam(`nursery-${n}`, nurseryWorld(n));
 }

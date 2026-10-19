@@ -3,7 +3,7 @@ import { ArrayMaxSize, IsArray, IsBoolean, IsIn, IsInt, IsOptional, IsString, Le
 import type { EducationLevel, TeachingMode } from '@prisma/client';
 
 const trim = ({ value }: { value: unknown }) => (typeof value === 'string' ? value.trim() : value);
-const LEVELS = ['PRIMARY', 'JUNIOR_SECONDARY', 'SENIOR_SECONDARY'];
+const LEVELS = ['NURSERY', 'PRIMARY', 'JUNIOR_SECONDARY', 'SENIOR_SECONDARY'];
 const MODES = ['IN_PERSON', 'ONLINE', 'BOTH'];
 
 export class CreateChildDto {

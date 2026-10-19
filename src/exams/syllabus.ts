@@ -265,5 +265,7 @@ for (const [slug, { exams, templates }] of Object.entries(ELECTIVES)) {
   for (const exam of exams) (OFFICIAL_SYLLABUS[exam] ??= {})[slug] ??= fromTemplates(templates);
 }
 
-// Primary class practice follows NERDC topics, as its templates are organised.
-for (const [slug, list] of Object.entries(TEMPLATES.PRIMARY ?? {})) (OFFICIAL_SYLLABUS.PRIMARY ??= {})[slug] ??= fromTemplates(list);
+// Primary and nursery class practice follow NERDC topics, as their templates are organised.
+for (const exam of ['PRIMARY', 'NURSERY'] as const) {
+  for (const [slug, list] of Object.entries(TEMPLATES[exam] ?? {})) (OFFICIAL_SYLLABUS[exam] ??= {})[slug] ??= fromTemplates(list);
+}

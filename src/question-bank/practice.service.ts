@@ -7,6 +7,8 @@ import { PrismaService } from '../prisma/prisma.service.js';
 export const ROUND_SIZE = 10;
 const MAX_REVIEWS = 3; // wrong answers that come back in a round, labelled "Review"
 const REVIEW_AFTER_DAYS = 2;
+/** Nursery children learn by repetition: a question they've had comes back (and counts) after this long. */
+const NURSERY_AGAIN_AFTER_DAYS = 1;
 const MIN_TO_LEVEL = 5; // a round with fewer counted answers doesn't move the level
 const LEVEL_UP = 0.8;
 const LEVEL_DOWN = 0.4;
@@ -141,14 +143,16 @@ export class PracticeService {
     const node = m.topics.flatMap((t) => t.subtopics).find((s) => s.id === topicId);
     if (!node) throw new BadRequestException('Pick a subtopic to practise.');
     if (!node.unlocked) throw new BadRequestException('Finish level 1 of the subtopic before this one to unlock it.');
-    return { node, examSubjectId: topic.examSubjectId };
+    return { node, examSubjectId: topic.examSubjectId, exam: m.subject.exam };
   }
 
   /** A round of up to 10: due reviews first, then unseen questions at the student's level (nearby levels if those run out). */
   async round(studentId: string, topicId: string) {
-    const { node } = await this.node(studentId, topicId);
+    const { node, exam } = await this.node(studentId, topicId);
     const boss = node.level === TOP_LEVEL && !node.bossBeaten;
     const now = new Date();
+    // Nursery children hear "Well done!" the moment they tap, so their rounds carry the answers.
+    const reveal = exam === 'NURSERY';
 
     const reviews = await this.prisma.questionSeen.findMany({
       where: { studentId, reviewDueAt: { lte: now }, question: { topicId, status: 'APPROVED' } },
@@ -169,7 +173,18 @@ export class PracticeService {
       });
       picked.push(...shuffle(rows).slice(0, ROUND_SIZE - picked.length).map((q) => ({ q, review: false })));
     }
+    if (reveal && picked.length < ROUND_SIZE) {
+      // Out of new ones: bring back what they had longest ago.
+      const again = await this.prisma.questionSeen.findMany({
+        where: { studentId, lastSeenAt: { lte: this.againBefore(now) }, questionId: { notIn: picked.map((p) => p.q.id) }, question: { topicId, status: 'APPROVED' } },
+        orderBy: { lastSeenAt: 'asc' },
+        take: ROUND_SIZE - picked.length,
+        include: { question: true },
+      });
+      picked.push(...again.map((s) => ({ q: s.question, review: false })));
+    }
     if (!picked.length) {
+      if (reveal && node.answered) throw new BadRequestException('You’ve played them all today! Come back tomorrow to play again.');
       throw new BadRequestException(node.answered ? 'You’ve done every question we have on this topic. New ones are on the way.' : 'We’re still writing questions for this topic.');
     }
 
@@ -177,12 +192,14 @@ export class PracticeService {
       topicId,
       level: node.level,
       boss,
+      nursery: reveal,
       questions: shuffle(picked).map(({ q, review }) => ({
         id: q.id,
         prompt: q.stem,
         options: shuffle(q.options as Option[]),
         difficulty: q.difficulty,
         review,
+        ...(reveal ? { answerId: q.answerId, explanation: q.explanation } : {}),
       })),
     };
   }
@@ -191,7 +208,7 @@ export class PracticeService {
     const ids = Object.keys(answers);
     if (!ids.length) throw new BadRequestException('Answer at least one question.');
     if (ids.length > ROUND_SIZE) throw new BadRequestException('Too many answers for one round.');
-    const { node } = await this.node(studentId, topicId);
+    const { node, exam } = await this.node(studentId, topicId);
     const boss = node.level === TOP_LEVEL && !node.bossBeaten;
     const now = new Date();
 
@@ -202,11 +219,13 @@ export class PracticeService {
     const seenBy = new Map(seenRows.map((s) => [s.questionId, s]));
 
     // Only new questions and due reviews count, so replaying a round can't farm XP or levels.
+    // Nursery questions come back after a day on purpose, and count again then.
     const results = questions.map((q) => {
       const chosen = answers[q.id] ?? null;
       const correct = chosen === q.answerId;
       const seen = seenBy.get(q.id);
-      const kind = !seen ? 'new' : seen.reviewDueAt && seen.reviewDueAt <= now ? 'review' : 'repeat';
+      const again = exam === 'NURSERY' && seen && seen.lastSeenAt <= this.againBefore(now);
+      const kind = !seen ? 'new' : (seen.reviewDueAt && seen.reviewDueAt <= now) || again ? 'review' : 'repeat';
       return { q, chosen, correct, kind };
     });
     const counted = results.filter((r) => r.kind !== 'repeat');
@@ -259,6 +278,10 @@ export class PracticeService {
       rewards,
       results: results.map((r) => ({ questionId: r.q.id, chosen: r.chosen, answerId: r.q.answerId, correct: r.correct, explanation: r.q.explanation, counted: r.kind !== 'repeat' })),
     };
+  }
+
+  private againBefore(now: Date) {
+    return new Date(now.getTime() - NURSERY_AGAIN_AFTER_DAYS * 86_400_000);
   }
 
   /** "Report this question": Overwatch sees it in the question bank. */

@@ -165,6 +165,20 @@ export const EXAM_CATALOG: Record<ExamBody, ExamRules> = {
       s(`primary-${n}-basic-science`, `Basic Science (Primary ${n})`),
     ]),
   },
+  NURSERY: {
+    label: 'Class',
+    fullName: 'Class practice (Nursery 1–2)',
+    level: 'NURSERY',
+    compulsory: [],
+    pick: { min: 1, max: 3 }, // the child's own class: Numbers, Letters and Sounds, My World
+    fridayMock: false,
+    mockMinutes: 15,
+    subjects: ([1, 2] as const).flatMap((n) => [
+      s(`nursery-${n}-numbers`, `Numbers (Nursery ${n})`),
+      s(`nursery-${n}-letters-and-sounds`, `Letters and Sounds (Nursery ${n})`),
+      s(`nursery-${n}-my-world`, `My World (Nursery ${n})`),
+    ]),
+  },
 };
 
 export const EXAM_BODIES = Object.keys(EXAM_CATALOG) as ExamBody[];

@@ -10,11 +10,12 @@ export class CatalogController {
   @Get()
   get() {
     return {
-      levels: (Object.keys(SUBJECTS) as (keyof typeof SUBJECTS)[]).map((level) => ({
+      // Nursery has no subject list (nothing for tutors to pick), but parents can add nursery children.
+      levels: (Object.keys(GRADES) as (keyof typeof GRADES)[]).map((level) => ({
         level,
         label: LEVEL_LABEL[level],
         grades: GRADES[level],
-        subjects: SUBJECTS[level],
+        subjects: level === 'NURSERY' ? [] : SUBJECTS[level],
       })),
       exams: EXAMS,
     };
