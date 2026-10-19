@@ -38,12 +38,51 @@ const SSCE_MATHEMATICS: TopicTree = [
   { name: 'Vectors and Transformation', subtopics: ['Vectors', 'Transformations'] },
 ];
 
+/** BECE (JSS3) Mathematics. */
+const BECE_MATHEMATICS: TopicTree = [
+  { name: 'Number and Numeration', subtopics: ['Whole numbers and place value', 'Fractions, decimals and percentages', 'Number bases', 'Approximation', 'Ratio, proportion and rates', 'Commercial arithmetic', 'Sets'] },
+  { name: 'Algebraic Processes', subtopics: ['Simplifying expressions', 'Linear equations', 'Linear inequalities'] },
+  { name: 'Geometry and Mensuration', subtopics: ['Angles and polygons', 'Perimeter and area', 'Volume', "Pythagoras' rule"] },
+  { name: 'Everyday Statistics', subtopics: ['Mean, median and mode', 'Data presentation', 'Probability'] },
+];
+
+/** Common Entrance (primary 6) Mathematics. */
+const CE_MATHEMATICS: TopicTree = [
+  { name: 'Number', subtopics: ['Place value and rounding', 'Factors, multiples and primes', 'Fractions', 'Percentages', 'Roman numerals'] },
+  { name: 'Operations', subtopics: ['Order of operations'] },
+  { name: 'Measurement', subtopics: ['Money', 'Time', 'Length, mass and capacity', 'Perimeter and area'] },
+  { name: 'Everyday Statistics', subtopics: ['Averages'] },
+];
+
+/** Basic Science (BECE Basic Science and Technology; Common Entrance Basic Science). */
+const BASIC_SCIENCE: TopicTree = [
+  { name: 'Living Things', subtopics: ['Characteristics of living things', 'The human body', 'Food and nutrition', 'Health and diseases'] },
+  { name: 'Matter and Materials', subtopics: ['States of matter', 'Mixtures and separation', 'Conductors, insulators and magnets'] },
+  { name: 'Energy and Forces', subtopics: ['Forms of energy', 'Simple machines', 'Motion and measurement'] },
+  { name: 'Earth and Space', subtopics: ['The solar system', 'Weather and the environment'] },
+];
+
+const QUANTITATIVE: TopicTree = [
+  { name: 'Number Patterns', subtopics: ['Sequences', 'Number machines'] },
+  { name: 'Number Relationships', subtopics: ['Missing numbers', 'Odd one out'] },
+];
+const VERBAL: TopicTree = [
+  { name: 'Word Relationships', subtopics: ['Analogies', 'Opposites', 'Odd one out'] },
+  { name: 'Letters and Codes', subtopics: ['Alphabet positions', 'Letter codes', 'Alphabetical order'] },
+];
+const SOCIAL_STUDIES: TopicTree = [
+  { name: 'Nigeria', subtopics: ['States and capitals', 'National symbols'] },
+  { name: 'Government', subtopics: ['Arms of government'] },
+];
+
 /**
  * Syllabuses we type in from the exam body's own brochure, so we don't pay the AI to guess them.
  * scripts/past-papers/tag.ts uses these when a subject has no syllabus yet, and only asks the AI
  * for subjects that aren't listed here.
  */
 export const OFFICIAL_SYLLABUS: Partial<Record<ExamBody, Record<string, TopicTree>>> = {
+  BECE: { mathematics: BECE_MATHEMATICS, 'english-language': ENGLISH, 'basic-science-and-technology': BASIC_SCIENCE },
+  COMMON_ENTRANCE: { mathematics: CE_MATHEMATICS, 'english-language': ENGLISH, 'basic-science': BASIC_SCIENCE, 'quantitative-reasoning': QUANTITATIVE, 'verbal-reasoning': VERBAL, 'social-studies': SOCIAL_STUDIES },
   WAEC: { mathematics: SSCE_MATHEMATICS, biology: BIOLOGY, 'english-language': ENGLISH },
   NECO: { mathematics: SSCE_MATHEMATICS, biology: BIOLOGY, 'english-language': ENGLISH },
   JAMB: {

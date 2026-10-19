@@ -249,3 +249,9 @@ export function forExam(exam: string, list: Template[], topic?: (t: Template) =>
 
 /** Values from the other rows of a fact table, for wrong options (the engine drops repeats). */
 export const otherValues = <T>(r: Rng, rows: readonly T[], row: T, get: (x: T) => string) => r.shuffle(rows.filter((x) => get(x) !== get(row)).map(get));
+
+/** A hand-written question: for facts that don't vary, written once and checked. */
+export type Item = { stem: string; answer: string; wrong: string[]; explanation: string };
+
+/** A template made of hand-written questions; options are shuffled each time. */
+export const itemSet = (key: string, topic: Template['topic'], difficulty: Template['difficulty'], list: Item[]): Template => ({ key, topic, difficulty, variety: list.length, make: (r) => r.pick(list) });
