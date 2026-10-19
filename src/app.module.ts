@@ -18,10 +18,12 @@ import { ParentModule } from './parent/parent.module.js';
 import { PaymentsModule } from './payments/payments.module.js';
 import { PrismaModule } from './prisma/prisma.module.js';
 import { ProgressModule } from './progress/progress.module.js';
+import { RankingsModule } from './rankings/rankings.module.js';
 import { QuestionBankModule } from './question-bank/question-bank.module.js';
 import { ReportsModule } from './reports/reports.module.js';
 import { SchoolModule } from './school/school.module.js';
 import { StudentModule } from './student/student.module.js';
+import { SupportModule } from './support/support.module.js';
 import { TuckShopModule } from './tuckshop/tuckshop.module.js';
 import { TutorModule } from './tutor/tutor.module.js';
 import { HealthController } from './health.controller.js';
@@ -48,6 +50,8 @@ import { HealthController } from './health.controller.js';
     AdminModule,
     SchoolModule,
     TuckShopModule,
+    SupportModule,
+    RankingsModule,
   ],
   controllers: [CatalogController, EnquiriesController, HealthController],
   providers: [{ provide: APP_INTERCEPTOR, useClass: ActivityLogInterceptor }],
