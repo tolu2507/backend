@@ -1,6 +1,22 @@
 import type { ExamBody } from '@prisma/client';
 
 import type { TopicTree } from '../question-bank/question-ai.js';
+import { ELECTIVES } from '../question-bank/templates/electives/index.js';
+import type { Template } from '../question-bank/templates/engine.js';
+
+/**
+ * For electives we haven't typed a brochure syllabus in for yet: the topics their templates use,
+ * in order. Replace with the exam body's own list when it's typed in.
+ */
+function fromTemplates(list: Template[]): TopicTree {
+  const tree = new Map<string, string[]>();
+  for (const { topic: [t, sub] } of list) {
+    const subs = tree.get(t) ?? [];
+    if (!subs.includes(sub)) subs.push(sub);
+    tree.set(t, subs);
+  }
+  return [...tree].map(([name, subtopics]) => ({ name, subtopics }));
+}
 
 /** Biology is set from one shared body of content by JAMB, WAEC and NECO; the topic tree is the same. */
 const BIOLOGY: TopicTree = [
@@ -243,3 +259,7 @@ export const OFFICIAL_SYLLABUS: Partial<Record<ExamBody, Record<string, TopicTre
     chemistry: CHEMISTRY,
   },
 };
+
+for (const [slug, { exams, templates }] of Object.entries(ELECTIVES)) {
+  for (const exam of exams) (OFFICIAL_SYLLABUS[exam] ??= {})[slug] ??= fromTemplates(templates);
+}

@@ -282,3 +282,29 @@ export function factPairs(
     },
   };
 }
+
+/**
+ * "Which of these is a <group>?" from a few groups of examples: the answer comes from one group and
+ * the wrong options from the others, so exactly one option is right.
+ */
+export function groupPick(
+  key: string,
+  topic: Template['topic'],
+  difficulty: Template['difficulty'],
+  groups: Record<string, string[]>,
+  ask: { stem: (group: string) => string; why: (answer: string, group: string) => string },
+): Template {
+  const names = Object.keys(groups);
+  return {
+    key,
+    topic,
+    difficulty,
+    variety: Math.min(40, Object.values(groups).flat().length),
+    make: (r) => {
+      const group = r.pick(names);
+      const answer = r.pick(groups[group]);
+      const wrong = r.shuffle(names.filter((n) => n !== group).flatMap((n) => groups[n])).slice(0, 3);
+      return { stem: ask.stem(group), answer, wrong, explanation: ask.why(answer, group) };
+    },
+  };
+}

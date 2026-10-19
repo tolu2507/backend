@@ -11,6 +11,7 @@ import { biology as biologyCore } from './biology/index.js';
 import { english } from './english/index.js';
 import { juniorPassages, seniorPassages } from './english/passages.js';
 import { simpleEnglish } from './english/simple.js';
+import { ELECTIVES } from './electives/index.js';
 import { forExam, type Template } from './engine.js';
 import { jambChemistry } from './jamb-chemistry/index.js';
 import { jambMathematics } from './jamb-mathematics/index.js';
@@ -68,3 +69,9 @@ export const TEMPLATES: Partial<Record<ExamBody, Record<string, Template[]>>> = 
     'social-studies': forExam('ce', socialStudies),
   },
 };
+
+// Senior electives: add each to the exams that set it.
+for (const [slug, { exams, templates }] of Object.entries(ELECTIVES)) {
+  // The subject goes in the key too: several electives share templates (e.g. the food ones).
+  for (const exam of exams) (TEMPLATES[exam] ??= {})[slug] = forExam(`${exam.toLowerCase()}-${slug}`, templates);
+}
