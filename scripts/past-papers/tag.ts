@@ -3,8 +3,10 @@
  * works out the exam's pattern: how much of the paper each topic takes and in how many years it appeared.
  * Each exam is analysed on its own: JAMB Physics and WAEC Physics get separate syllabuses and patterns.
  *
- *   pnpm tsx scripts/past-papers/tag.ts [EXAM] [subject-slug]     e.g.  tag.ts JAMB mathematics
+ *   pnpm tsx scripts/past-papers/tag.ts [EXAM] [subject-slug] [--syllabus-only]     e.g.  tag.ts JAMB mathematics
  *
+ * Subjects in src/exams/syllabus.ts get the official syllabus for free; others ask the AI.
+ * --syllabus-only stops after the syllabus, with no AI calls for typed-in subjects.
  * Safe to re-run: only untagged questions are sent to the AI.
  */
 import type { ExamBody } from '@prisma/client';
@@ -12,6 +14,7 @@ import { existsSync } from 'node:fs';
 
 import { AiService, aiPricing } from '../../src/ai/ai.service.js';
 import { EXAM_CATALOG } from '../../src/exams/exam-catalog.js';
+import { OFFICIAL_SYLLABUS } from '../../src/exams/syllabus.js';
 import { PrismaService } from '../../src/prisma/prisma.service.js';
 import { QuestionAi, type PastForAi, type TopicTree } from '../../src/question-bank/question-ai.js';
 
@@ -21,6 +24,7 @@ const ai = new QuestionAi(new AiService(prisma));
 const BATCH = 20;
 const PARALLEL = 6; // Gemini takes 20 s – 3 min per batch, so several run at once
 const startedAt = new Date();
+const syllabusOnly = process.argv.includes('--syllabus-only');
 
 const forAi = (q: { id: string; stem: string; options: unknown; answer: string | null }): PastForAi => ({
   id: q.id,
@@ -38,11 +42,14 @@ function spread<T extends { year: number }>(rows: T[], n: number): T[] {
   return out;
 }
 
-async function ensureTopics(examSubjectId: string, label: string, subject: string): Promise<Map<string, string> | null> {
+async function ensureTopics(exam: ExamBody, slug: string, examSubjectId: string, label: string, subject: string): Promise<Map<string, string> | null> {
   let rows = await prisma.syllabusTopic.findMany({ where: { examSubjectId } });
   if (!rows.length) {
-    const past = await prisma.pastQuestion.findMany({ where: { examSubjectId, brokenReason: null }, select: { id: true, stem: true, options: true, answer: true, year: true } });
-    const tree = await ai.proposeTopics({ exam: label, subject, samples: spread(past, 60).map(forAi) });
+    let tree = OFFICIAL_SYLLABUS[exam]?.[slug] ?? null;
+    if (!tree) {
+      const past = await prisma.pastQuestion.findMany({ where: { examSubjectId, brokenReason: null }, select: { id: true, stem: true, options: true, answer: true, year: true } });
+      tree = await ai.proposeTopics({ exam: label, subject, samples: spread(past, 60).map(forAi) });
+    }
     if (!tree) return null;
     for (const [i, t] of tree.entries()) {
       const parent = await prisma.syllabusTopic.create({ data: { examSubjectId, name: t.name, order: i } });
@@ -65,11 +72,12 @@ function treeOf(index: Map<string, string>): TopicTree {
   return [...tree].map(([name, subtopics]) => ({ name, subtopics }));
 }
 
-async function tagSubject(exam: ExamBody, examSubjectId: string, subject: string) {
+async function tagSubject(exam: ExamBody, slug: string, examSubjectId: string, subject: string) {
   const label = EXAM_CATALOG[exam].fullName;
   console.log(`${exam} ${subject}`);
-  const index = await ensureTopics(examSubjectId, label, subject);
+  const index = await ensureTopics(exam, slug, examSubjectId, label, subject);
   if (!index) return console.log('  could not build the syllabus (AI unavailable?)');
+  if (syllabusOnly) return;
   const topics = treeOf(index);
 
   const todo = await prisma.pastQuestion.findMany({ where: { examSubjectId, questionType: null }, select: { id: true, stem: true, options: true, answer: true } });
@@ -122,9 +130,9 @@ async function pattern(examSubjectId: string) {
 }
 
 async function main() {
-  const [exam, slug] = process.argv.slice(2) as [ExamBody | undefined, string | undefined];
+  const [exam, slug] = process.argv.slice(2).filter((a) => !a.startsWith('--')) as [ExamBody | undefined, string | undefined];
   const subjects = await prisma.examSubject.findMany({ where: { ...(exam ? { exam } : {}), ...(slug ? { slug } : {}), pastQuestions: { some: {} } }, orderBy: [{ exam: 'asc' }, { slug: 'asc' }] });
-  for (const s of subjects) await tagSubject(s.exam, s.id, s.name);
+  for (const s of subjects) await tagSubject(s.exam, s.slug, s.id, s.name);
 
   const usage = await prisma.aiUsage.aggregate({ where: { createdAt: { gte: startedAt }, feature: 'QUESTION_TAGGING' }, _sum: { costMicroUsd: true, inputTokens: true, outputTokens: true }, _count: true });
   const usd = (usage._sum.costMicroUsd ?? 0) / 1e6;

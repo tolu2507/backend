@@ -42,7 +42,7 @@ describe('question templates', () => {
     it('never shows broken numbers or bad maths', () => {
       for (const q of made) {
         const text = [q.stem, q.explanation, ...q.options.map((o) => o.label)].join('\n');
-        expect(text).not.toMatch(/NaN|Infinity|undefined|null|\[object/);
+        expect(text).not.toMatch(/\bNaN\b|Infinity|undefined|\bnull\b|\[object/); // \b: NaNO₃ is sodium nitrate, not a broken number
         expect(text).not.toMatch(/\.\d*([1-9])\1{5,}|\.\d*0{6,}[1-9]/); // floating-point noise like 0.30000000000000004 or 38.333333333
         expect(text).not.toMatch(/\+ -|- -|\+-/); // "x + -3"
         for (const part of [q.stem, q.explanation, ...q.options.map((o) => o.label)]) {
