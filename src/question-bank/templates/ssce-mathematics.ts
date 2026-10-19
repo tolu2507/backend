@@ -140,3 +140,27 @@ export function ssceMathematics(exam: 'waec' | 'neco'): Template[] {
   const refiled = jambMathematics.flatMap((t) => (SSCE_TOPIC[shortKey(t)] ? [{ ...t, key: `${exam}-maths/${shortKey(t)}`, topic: SSCE_TOPIC[shortKey(t)] }] : []));
   return [...refiled, ...forExam(exam, modular)];
 }
+
+/** The JAMB templates that belong to SSCE Further Mathematics rather than the core paper. */
+const FURTHER_TOPIC: Record<string, [string, string]> = {
+  'binary-operation': ['Pure Mathematics', 'Binary operations'],
+  'identity-element': ['Pure Mathematics', 'Binary operations'],
+  'remainder-theorem': ['Pure Mathematics', 'Polynomials'],
+  'factor-theorem': ['Pure Mathematics', 'Polynomials'],
+  'quadratic-inequality': ['Pure Mathematics', 'Quadratic inequalities'],
+  'arrange-letters': ['Pure Mathematics', 'Permutations and combinations'],
+  'arrange-or-choose': ['Pure Mathematics', 'Permutations and combinations'],
+  'choose-committee': ['Pure Mathematics', 'Permutations and combinations'],
+  determinant: ['Pure Mathematics', 'Matrices and determinants'],
+  'inverse-matrix': ['Pure Mathematics', 'Matrices and determinants'],
+  'differentiate-polynomial': ['Calculus', 'Differentiation'],
+  'rate-of-change': ['Calculus', 'Applications of differentiation'],
+  'turning-point': ['Calculus', 'Applications of differentiation'],
+  'tangent-line': ['Calculus', 'Applications of differentiation'],
+  'integrate-polynomial': ['Calculus', 'Integration'],
+};
+
+/** Further Mathematics templates for one SSCE exam. */
+export function ssceFurtherMathematics(exam: 'waec' | 'neco'): Template[] {
+  return jambMathematics.flatMap((t) => (FURTHER_TOPIC[shortKey(t)] ? [{ ...t, key: `${exam}-fmaths/${shortKey(t)}`, topic: FURTHER_TOPIC[shortKey(t)] }] : []));
+}

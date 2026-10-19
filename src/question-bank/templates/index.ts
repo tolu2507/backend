@@ -3,6 +3,10 @@ import type { ExamBody } from '@prisma/client';
 import { business, creativeArts, french, prevocational } from './bece/practical.js';
 import { civic, crs, history, irs } from './bece/religion-history.js';
 import { biologyTopics } from './biology/topics.js';
+import { accounting, geography } from './senior/accounts-geography.js';
+import { agriculture, crsSenior, irsSenior } from './senior/agric-religion.js';
+import { economics } from './senior/economics.js';
+import { commerce, government } from './senior/government-commerce.js';
 import { biology as biologyCore } from './biology/index.js';
 import { english } from './english/index.js';
 import { juniorPassages, seniorPassages } from './english/passages.js';
@@ -15,18 +19,33 @@ import { beceMathematics, ceMathematics } from './junior-maths.js';
 import { beceScience, ceScience } from './junior-science.js';
 import { quantitative, verbal } from './reasoning.js';
 import { socialStudies } from './social-studies.js';
-import { ssceMathematics } from './ssce-mathematics.js';
+import { ssceFurtherMathematics, ssceMathematics } from './ssce-mathematics.js';
 
 const biology = [...biologyCore, ...biologyTopics];
 const seniorEnglish = [...english, ...seniorPassages];
+
+/** Senior arts and commercial subjects, the same for JAMB, WAEC and NECO (each exam gets its own keys). */
+const seniorSubjects = (exam: string): Record<string, Template[]> => ({
+  economics: forExam(exam, economics),
+  government: forExam(exam, government),
+  commerce: forExam(exam, commerce),
+  'accounts-principles-of-accounts': forExam(exam, accounting),
+  geography: forExam(exam, geography),
+  'agricultural-science': forExam(exam, agriculture),
+  'christian-religious-studies-crs': forExam(exam, [...crs, ...crsSenior]),
+  'islamic-religious-studies-irs': forExam(exam, [...irs, ...irsSenior]),
+  history: forExam(exam, history),
+});
+/** Civic Education (WAEC and NECO only): national values and citizenship, plus government and national symbols. */
+const civicEducation = (exam: string) => forExam(exam, [...civic, ...socialStudies.filter((t) => t.key !== 'social/states-capitals')]);
 /** The English templates pitched low enough for primary 6. */
 const CE_ENGLISH = new Set(['english/plurals', 'english/prepositions', 'english/verb-forms', 'english/concord', 'english/spelling', 'english/rhymes']);
 
 /** Templates by exam and subject slug. Shared subjects get an exam prefix on each key, so every exam has its own questions. */
 export const TEMPLATES: Partial<Record<ExamBody, Record<string, Template[]>>> = {
-  JAMB: { mathematics: jambMathematics, physics: jambPhysics, chemistry: jambChemistry, biology: forExam('jamb', biology), 'english-language': forExam('jamb', seniorEnglish) },
-  WAEC: { mathematics: ssceMathematics('waec'), biology: forExam('waec', biology), 'english-language': forExam('waec', seniorEnglish) },
-  NECO: { mathematics: ssceMathematics('neco'), biology: forExam('neco', biology), 'english-language': forExam('neco', seniorEnglish) },
+  JAMB: { ...seniorSubjects('jamb'), mathematics: jambMathematics, physics: jambPhysics, chemistry: jambChemistry, biology: forExam('jamb', biology), 'english-language': forExam('jamb', seniorEnglish) },
+  WAEC: { ...seniorSubjects('waec'), 'civic-education': civicEducation('waec'), mathematics: ssceMathematics('waec'), 'further-mathematics': ssceFurtherMathematics('waec'), physics: forExam('waec', jambPhysics), chemistry: forExam('waec', jambChemistry), biology: forExam('waec', biology), 'english-language': forExam('waec', seniorEnglish) },
+  NECO: { ...seniorSubjects('neco'), 'civic-education': civicEducation('neco'), mathematics: ssceMathematics('neco'), 'further-mathematics': ssceFurtherMathematics('neco'), physics: forExam('neco', jambPhysics), chemistry: forExam('neco', jambChemistry), biology: forExam('neco', biology), 'english-language': forExam('neco', seniorEnglish) },
   BECE: {
     mathematics: beceMathematics(),
     'english-language': forExam('bece', [...english, ...simpleEnglish, ...juniorPassages]),
