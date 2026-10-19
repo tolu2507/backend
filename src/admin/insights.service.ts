@@ -563,7 +563,7 @@ export class InsightsService {
     const since = addDays(new Date(), -days);
     const month = lagosMonthStart();
     const where = { createdAt: { gte: since } };
-    const [totals, failures, daily, byFeature, bySchool, monthBySchool, schools, recent] = await Promise.all([
+    const [totals, failures, daily, byFeature, bySchool, monthBySchool, schools, recent, monthTotal] = await Promise.all([
       this.prisma.aiUsage.aggregate({ where, _sum: { costMicroUsd: true, inputTokens: true, outputTokens: true }, _count: true, _avg: { latencyMs: true } }),
       this.prisma.aiUsage.count({ where: { ...where, ok: false } }),
       this.prisma.$queryRaw<{ day: string; costMicroUsd: bigint; calls: number; failed: number; tokens: bigint }[]>`
@@ -575,13 +575,14 @@ export class InsightsService {
       this.prisma.aiUsage.groupBy({ by: ['schoolId'], where: { createdAt: { gte: month } }, _sum: { costMicroUsd: true } }),
       this.prisma.school.findMany({ select: { id: true, name: true, status: true, aiProfile: true, _count: { select: { topics: true, students: true } } }, orderBy: { name: 'asc' } }),
       this.prisma.aiUsage.findMany({ where, orderBy: { createdAt: 'desc' }, take: 40, include: { school: { select: { name: true } } } }),
+      this.prisma.aiUsage.aggregate({ where: { createdAt: { gte: month } }, _sum: { costMicroUsd: true } }),
     ]);
     const usage = new Map(bySchool.map((r) => [r.schoolId, r]));
     const monthCost = new Map(monthBySchool.map((r) => [r.schoolId, r._sum.costMicroUsd ?? 0]));
     const kobo = (micro: number | null | undefined) => n(microUsdToKobo(micro ?? 0));
     const noSchool = usage.get(null);
     return {
-      config: { model: this.ai.model, configured: this.ai.configured, ...aiPricing() },
+      config: { model: this.ai.model, configured: this.ai.configured, ...aiPricing(), monthCostMicroUsd: monthTotal._sum.costMicroUsd ?? 0 },
       totals: {
         calls: totals._count,
         failed: failures,

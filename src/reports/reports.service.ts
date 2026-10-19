@@ -9,6 +9,10 @@ import { PrismaService } from '../prisma/prisma.service.js';
 
 const STALE_AFTER_MS = 3 * 60 * 60 * 1000; // a week-to-date report refreshes at most every 3 hours
 
+/** JSON with keys sorted, because Postgres stores JSON objects with its own key order. */
+const stable = (v: unknown): string =>
+  Array.isArray(v) ? `[${v.map(stable).join(',')}]` : v && typeof v === 'object' ? `{${Object.keys(v).sort().map((k) => `${JSON.stringify(k)}:${stable((v as Record<string, unknown>)[k])}`).join(',')}}` : JSON.stringify(v ?? null);
+
 type Metrics = {
   childName: string;
   grade: string | null;
@@ -97,7 +101,13 @@ export class ReportsService {
     const m = await this.metrics(studentId, week);
     if (!m) return null;
     const student = await this.prisma.studentProfile.findUniqueOrThrow({ where: { id: studentId } });
-    const ai = await this.ai.weeklySummary({ ...m, subjects: m.subjects.map(({ name, score }) => ({ name, score })) }, { schoolId: student.schoolId, userId: student.userId });
+    // AI costs money, so it only writes when there's something new to say: the facts changed since the
+    // last AI-written note this week. A quiet week, or a refresh with nothing new, keeps what's there.
+    const prev = await this.prisma.weeklyReport.findUnique({ where: { studentId_weekStart: { studentId, weekStart: week } } });
+    const active = m.subjects.length > 0 || m.xpEarned > 0 || m.lessons.length > 0 || m.teacherNotes.length > 0;
+    const unchanged = prev && prev.model !== 'summary' && stable(prev.metrics) === stable(m);
+    if (unchanged) return this.prisma.weeklyReport.update({ where: { id: prev.id }, data: { generatedAt: new Date() } });
+    const ai = active ? await this.ai.weeklySummary({ ...m, subjects: m.subjects.map(({ name, score }) => ({ name, score })) }, { schoolId: student.schoolId, userId: student.userId }) : null;
     const text = ai ?? this.fallbackText(m);
 
     const weakest = m.subjects.length ? m.subjects[m.subjects.length - 1] : null;

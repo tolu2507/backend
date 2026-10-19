@@ -30,6 +30,8 @@ export const aiPricing = () => ({
   inputPerM: Number(process.env.AI_PRICE_INPUT_PER_M || 0.3),
   outputPerM: Number(process.env.AI_PRICE_OUTPUT_PER_M || 2.5),
   ngnPerUsd: Number(process.env.AI_NGN_PER_USD || 1550),
+  /** Hard ceiling on all AI spend in a Lagos calendar month, in dollars. Unset or 0 = no ceiling. */
+  monthlyBudgetUsd: Number(process.env.AI_MONTHLY_BUDGET_USD || 0),
 });
 /** Millionths of a dollar → kobo, at the configured rate. */
 export const microUsdToKobo = (micro: number) => BigInt(Math.round((micro * aiPricing().ngnPerUsd) / 10_000));
@@ -57,6 +59,11 @@ export class AiService {
   /** Why AI won't run for this school right now, or null if it will. */
   async blockedReason(schoolId?: string | null): Promise<string | null> {
     if (!this.client) return 'No GEMINI_API_KEY is set on the server.';
+    const { monthlyBudgetUsd } = aiPricing();
+    if (monthlyBudgetUsd > 0) {
+      const spent = await this.prisma.aiUsage.aggregate({ where: { createdAt: { gte: lagosMonthStart() } }, _sum: { costMicroUsd: true } });
+      if ((spent._sum.costMicroUsd ?? 0) >= monthlyBudgetUsd * 1_000_000) return 'Nexus has used its AI budget for the month (AI_MONTHLY_BUDGET_USD).';
+    }
     if (!schoolId) return null;
     const profile = await this.prisma.schoolAiProfile.findUnique({ where: { schoolId } });
     if (!profile) return null;
