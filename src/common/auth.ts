@@ -23,6 +23,12 @@ export const Public = () => SetMetadata(IS_PUBLIC, true);
 /** Route needs one of these roles. */
 export const Roles = (...roles: Role[]) => SetMetadata(ROLES, roles);
 
+/**
+ * Who can use the parent side: parents, and Overwatch admins so they can use the app as a parent with their own
+ * test children. Everything on that side is scoped to the signed-in user's own children, so admins see no one else's.
+ */
+export const PARENT_ROLES: Role[] = ['PARENT', 'PLATFORM_ADMIN'];
+
 export const CurrentUser = createParamDecorator((_: unknown, ctx: ExecutionContext): AuthUser => {
   return ctx.switchToHttp().getRequest().user;
 });

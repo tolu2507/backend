@@ -3,7 +3,7 @@ import { Transform } from 'class-transformer';
 import { IsBoolean, IsEmail, IsIn, IsOptional, IsString, Length, Matches, MinLength } from 'class-validator';
 import type { ConsentType, DataRequestType } from '@prisma/client';
 
-import { CurrentUser, Roles, type AuthUser } from '../common/auth.js';
+import { CurrentUser, PARENT_ROLES, Roles, type AuthUser } from '../common/auth.js';
 import { MeService } from './me.service.js';
 
 const trim = ({ value }: { value: unknown }) => (typeof value === 'string' ? value.trim() : value);
@@ -76,11 +76,11 @@ export class MeController {
     return this.me.addRole(u.id, dto.role);
   }
 
-  @Roles('PARENT') @Get('privacy') privacy(@CurrentUser() u: AuthUser) {
+  @Roles(...PARENT_ROLES) @Get('privacy') privacy(@CurrentUser() u: AuthUser) {
     return this.me.privacy(u.id);
   }
 
-  @Roles('PARENT') @Put('privacy/children/:id') consent(@CurrentUser() u: AuthUser, @Param('id') id: string, @Body() dto: ConsentDto) {
+  @Roles(...PARENT_ROLES) @Put('privacy/children/:id') consent(@CurrentUser() u: AuthUser, @Param('id') id: string, @Body() dto: ConsentDto) {
     return this.me.setConsent(u.id, id, dto.type, dto.granted);
   }
 

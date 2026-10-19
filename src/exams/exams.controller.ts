@@ -2,7 +2,7 @@ import { Body, Controller, Delete, Get, Param, ParseEnumPipe, Put } from '@nestj
 import { ExamBody } from '@prisma/client';
 import { ArrayMaxSize, ArrayMinSize, IsArray, IsInt, IsOptional, IsUUID } from 'class-validator';
 
-import { CurrentUser, Public, Roles, type AuthUser } from '../common/auth.js';
+import { CurrentUser, Public, PARENT_ROLES, Roles, type AuthUser } from '../common/auth.js';
 import { ExamsService } from './exams.service.js';
 
 class ChooseExamDto {
@@ -41,7 +41,7 @@ export class StudentExamsController {
 }
 
 /** Parents can set up exams for a child (handy for younger children, or before the child first signs in). */
-@Roles('PARENT')
+@Roles(...PARENT_ROLES)
 @Controller('parent/children/:studentId/exams')
 export class ParentExamsController {
   constructor(private readonly exams: ExamsService) {}

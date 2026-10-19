@@ -1,11 +1,11 @@
 import { Body, Controller, Get, HttpCode, Param, Patch, Post, Put } from '@nestjs/common';
 
-import { CurrentUser, Roles, type AuthUser } from '../common/auth.js';
+import { CurrentUser, PARENT_ROLES, Roles, type AuthUser } from '../common/auth.js';
 import { RequestOrigin } from '../common/origin.js';
 import { BookDto, ChangePinDto, CreateChildDto, DailyLimitDto, DisputeDto, PayInvoiceDto, TopupDto, TutorRequestDto } from './parent.dto.js';
 import { ParentService } from './parent.service.js';
 
-@Roles('PARENT')
+@Roles(...PARENT_ROLES)
 @Controller('parent')
 export class ParentController {
   constructor(private readonly parents: ParentService) {}

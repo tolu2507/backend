@@ -180,6 +180,27 @@ export class QuestionBankService {
   }
 
   /**
+   * Approve every question waiting review that matches the filter, however many pages that is. A template
+   * with nothing left waiting is approved too, so questions it makes later go straight to students.
+   */
+  async approveMatching(adminId: string, f: QuestionFilter) {
+    const where = this.where({ ...f, status: 'IN_REVIEW' });
+    return this.prisma.$transaction(
+      async (tx) => {
+        const templateIds = (await tx.examQuestion.findMany({ where: { ...where, templateId: { not: null } }, distinct: ['templateId'], select: { templateId: true } })).map((r) => r.templateId!);
+        const { count } = await tx.examQuestion.updateMany({ where, data: { status: 'APPROVED', reviewedById: adminId, reviewedAt: new Date() } });
+        const { count: templates } = await tx.questionTemplate.updateMany({
+          where: { id: { in: templateIds }, status: { in: ['IN_REVIEW', 'DRAFT'] }, questions: { none: { status: { in: ['IN_REVIEW', 'DRAFT'] } } } },
+          data: { status: 'APPROVED' },
+        });
+        await tx.auditLog.create({ data: { actorId: adminId, action: 'question.approve_matching', entityType: 'ExamQuestion', entityId: f.subjectId ?? f.exam ?? 'all', meta: { filter: { ...f }, count, templates } } });
+        return { updated: count, templates };
+      },
+      { timeout: 120_000 },
+    );
+  }
+
+  /**
    * Approve, send back or retire a whole template. Its questions follow (except ones retired on their own),
    * and questions generated later take the template's status.
    */

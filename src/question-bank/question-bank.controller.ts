@@ -102,6 +102,11 @@ export class QuestionBankController {
     return this.bank.setStatus(u.id, dto.ids, dto.status);
   }
 
+  /** Approve everything waiting review that matches these filters (the status filter is ignored). */
+  @HttpCode(200) @Post('questions/approve-matching') approveMatching(@CurrentUser() u: AuthUser, @Body() f: QuestionQuery) {
+    return this.bank.approveMatching(u.id, f);
+  }
+
   @HttpCode(200) @Post('templates/:id/status') templateStatus(@CurrentUser() u: AuthUser, @Param('id', ParseUUIDPipe) id: string, @Body() dto: TemplateStatusDto) {
     return this.bank.setTemplateStatus(u.id, id, dto.status);
   }

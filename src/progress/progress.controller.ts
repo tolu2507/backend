@@ -1,12 +1,12 @@
 import { Controller, Get, Param, ParseUUIDPipe } from '@nestjs/common';
 
-import { CurrentUser, Roles, type AuthUser } from '../common/auth.js';
+import { CurrentUser, PARENT_ROLES, Roles, type AuthUser } from '../common/auth.js';
 import { ExamsService } from '../exams/exams.service.js';
 import { PrismaService } from '../prisma/prisma.service.js';
 import { ProgressService } from './progress.service.js';
 
 /** Parents: how each child is doing, from their own practice and Friday mocks. */
-@Roles('PARENT')
+@Roles(...PARENT_ROLES)
 @Controller('parent')
 export class ProgressController {
   constructor(
