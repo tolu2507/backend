@@ -20,6 +20,8 @@ import { beceMathematics, ceMathematics } from './junior-maths.js';
 import { beceScience, ceScience } from './junior-science.js';
 import { quantitative, verbal } from './reasoning.js';
 import { socialStudies } from './social-studies.js';
+import { primaryEnglish, primaryScience } from './primary/english-science.js';
+import { primaryMaths } from './primary/maths.js';
 import { ssceFurtherMathematics, ssceMathematics } from './ssce-mathematics.js';
 
 const biology = [...biologyCore, ...biologyTopics];
@@ -74,4 +76,12 @@ export const TEMPLATES: Partial<Record<ExamBody, Record<string, Template[]>>> = 
 for (const [slug, { exams, templates }] of Object.entries(ELECTIVES)) {
   // The subject goes in the key too: several electives share templates (e.g. the food ones).
   for (const exam of exams) (TEMPLATES[exam] ??= {})[slug] = forExam(`${exam.toLowerCase()}-${slug}`, templates);
+}
+
+// Class practice for Primary 1–5: each class has its own Mathematics, English and Basic Science.
+for (const n of [1, 2, 3, 4, 5] as const) {
+  const p = (TEMPLATES.PRIMARY ??= {});
+  p[`primary-${n}-mathematics`] = forExam(`primary-${n}`, primaryMaths(n));
+  p[`primary-${n}-english-language`] = forExam(`primary-${n}`, primaryEnglish(n));
+  p[`primary-${n}-basic-science`] = forExam(`primary-${n}`, primaryScience(n));
 }

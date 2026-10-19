@@ -1375,6 +1375,7 @@ enum ExamBody {
   NECO // SSCE
   BECE // junior WAEC / NECO BECE at the end of JSS3
   COMMON_ENTRANCE // NCEE into unity schools, and private secondary school entrance exams (Primary 5–6)
+  PRIMARY // class practice for Primary 1–5: no exam, the child's own class subjects
 }
 
 enum QuestionOrigin {

@@ -3,6 +3,7 @@ import type { ExamBody } from '@prisma/client';
 import type { TopicTree } from '../question-bank/question-ai.js';
 import { ELECTIVES } from '../question-bank/templates/electives/index.js';
 import type { Template } from '../question-bank/templates/engine.js';
+import { TEMPLATES } from '../question-bank/templates/index.js';
 
 /**
  * For electives we haven't typed a brochure syllabus in for yet: the topics their templates use,
@@ -263,3 +264,6 @@ export const OFFICIAL_SYLLABUS: Partial<Record<ExamBody, Record<string, TopicTre
 for (const [slug, { exams, templates }] of Object.entries(ELECTIVES)) {
   for (const exam of exams) (OFFICIAL_SYLLABUS[exam] ??= {})[slug] ??= fromTemplates(templates);
 }
+
+// Primary class practice follows NERDC topics, as its templates are organised.
+for (const [slug, list] of Object.entries(TEMPLATES.PRIMARY ?? {})) (OFFICIAL_SYLLABUS.PRIMARY ??= {})[slug] ??= fromTemplates(list);
