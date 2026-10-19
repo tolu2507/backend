@@ -255,3 +255,30 @@ export type Item = { stem: string; answer: string; wrong: string[]; explanation:
 
 /** A template made of hand-written questions; options are shuffled each time. */
 export const itemSet = (key: string, topic: Template['topic'], difficulty: Template['difficulty'], list: Item[]): Template => ({ key, topic, difficulty, variety: list.length, make: (r) => r.pick(list) });
+
+/**
+ * A two-column fact table, asked both ways ("What does X do?" / "Which one does Y?").
+ * A value shared by several rows is only asked forwards, so there's never more than one right answer.
+ */
+export function factPairs(
+  key: string,
+  topic: Template['topic'],
+  difficulty: Template['difficulty'],
+  rows: [string, string][],
+  ask: { forward: (a: string) => string; backward?: (b: string) => string; why: (a: string, b: string) => string },
+): Template {
+  return {
+    key,
+    topic,
+    difficulty,
+    variety: rows.length * (ask.backward ? 2 : 1),
+    make: (r) => {
+      const row = r.pick(rows);
+      const [a, b] = row;
+      if (ask.backward && r.chance(0.5) && rows.filter((x) => x[1] === b).length === 1) {
+        return { stem: ask.backward(b), answer: a, wrong: otherValues(r, rows, row, (x) => x[0]), explanation: ask.why(a, b) };
+      }
+      return { stem: ask.forward(a), answer: b, wrong: otherValues(r, rows, row, (x) => x[1]), explanation: ask.why(a, b) };
+    },
+  };
+}

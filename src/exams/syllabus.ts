@@ -75,13 +75,57 @@ const SOCIAL_STUDIES: TopicTree = [
   { name: 'Government', subtopics: ['Arms of government'] },
 ];
 
+/** The other BECE subjects. */
+const BECE_OTHER: Record<string, TopicTree> = {
+  'business-studies': [
+    { name: 'Commerce', subtopics: ['Trade', 'Aids to trade'] },
+    { name: 'Office Practice', subtopics: ['Office equipment', 'Keyboarding'] },
+    { name: 'Book-keeping', subtopics: ['Source documents', 'Books of original entry', 'Trading account'] },
+    { name: 'Consumer Education', subtopics: ['Consumer rights and protection'] },
+  ],
+  'christian-religious-studies': [
+    { name: 'The Old Testament', subtopics: ['Creation and the patriarchs', 'Moses and the Exodus'] },
+    { name: 'The Life of Jesus', subtopics: ['Birth and ministry', 'Miracles and parables'] },
+    { name: 'The Early Church', subtopics: ['Pentecost and the apostles'] },
+  ],
+  'islamic-religion-studies': [
+    { name: "Qur'an and Hadith", subtopics: ["The Qur'an"] },
+    { name: 'Tawhid and Fiqh', subtopics: ['Pillars of Islam', 'Salat'] },
+    { name: 'Sirah', subtopics: ['Life of the Prophet'] },
+    { name: 'Festivals', subtopics: ['Islamic festivals'] },
+  ],
+  history: [
+    { name: 'Pre-colonial Nigeria', subtopics: ['Ancient kingdoms and empires'] },
+    { name: 'Colonial Nigeria', subtopics: ['Colonial rule'] },
+    { name: 'Independent Nigeria', subtopics: ['Independence and the republics'] },
+  ],
+  'national-value-education': [
+    { name: 'Values', subtopics: ['National values'] },
+    { name: 'Citizenship', subtopics: ['Citizenship, rights and duties'] },
+    { name: 'Security and Safety', subtopics: ['Security agencies', 'Safety and emergencies'] },
+  ],
+  'pre-vocational-studies': [
+    { name: 'Agriculture', subtopics: ['Farm tools', 'Crops'] },
+    { name: 'Home Economics', subtopics: ['Food and cooking'] },
+  ],
+  'cultural-and-creative-arts': [
+    { name: 'Visual Arts', subtopics: ['Colour', 'Art tools and crafts'] },
+    { name: 'Music', subtopics: ['Note values', 'Musical instruments'] },
+    { name: 'Drama', subtopics: ['Elements of drama'] },
+  ],
+  french: [
+    { name: 'Vocabulary', subtopics: ['Greetings', 'Numbers', 'Days and months', 'Colours', 'Family'] },
+    { name: 'Grammar', subtopics: ['The verbs être and avoir'] },
+  ],
+};
+
 /**
  * Syllabuses we type in from the exam body's own brochure, so we don't pay the AI to guess them.
  * scripts/past-papers/tag.ts uses these when a subject has no syllabus yet, and only asks the AI
  * for subjects that aren't listed here.
  */
 export const OFFICIAL_SYLLABUS: Partial<Record<ExamBody, Record<string, TopicTree>>> = {
-  BECE: { mathematics: BECE_MATHEMATICS, 'english-language': ENGLISH, 'basic-science-and-technology': BASIC_SCIENCE },
+  BECE: { mathematics: BECE_MATHEMATICS, 'english-language': ENGLISH, 'basic-science-and-technology': BASIC_SCIENCE, ...BECE_OTHER },
   COMMON_ENTRANCE: { mathematics: CE_MATHEMATICS, 'english-language': ENGLISH, 'basic-science': BASIC_SCIENCE, 'quantitative-reasoning': QUANTITATIVE, 'verbal-reasoning': VERBAL, 'social-studies': SOCIAL_STUDIES },
   WAEC: { mathematics: SSCE_MATHEMATICS, biology: BIOLOGY, 'english-language': ENGLISH },
   NECO: { mathematics: SSCE_MATHEMATICS, biology: BIOLOGY, 'english-language': ENGLISH },

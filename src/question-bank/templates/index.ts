@@ -1,5 +1,7 @@
 import type { ExamBody } from '@prisma/client';
 
+import { business, creativeArts, french, prevocational } from './bece/practical.js';
+import { civic, crs, history, irs } from './bece/religion-history.js';
 import { biologyTopics } from './biology/topics.js';
 import { biology as biologyCore } from './biology/index.js';
 import { english } from './english/index.js';
@@ -23,7 +25,19 @@ export const TEMPLATES: Partial<Record<ExamBody, Record<string, Template[]>>> = 
   JAMB: { mathematics: jambMathematics, physics: jambPhysics, chemistry: jambChemistry, biology: forExam('jamb', biology), 'english-language': forExam('jamb', english) },
   WAEC: { mathematics: ssceMathematics('waec'), biology: forExam('waec', biology), 'english-language': forExam('waec', english) },
   NECO: { mathematics: ssceMathematics('neco'), biology: forExam('neco', biology), 'english-language': forExam('neco', english) },
-  BECE: { mathematics: beceMathematics(), 'english-language': forExam('bece', [...english, ...simpleEnglish]), 'basic-science-and-technology': beceScience() },
+  BECE: {
+    mathematics: beceMathematics(),
+    'english-language': forExam('bece', [...english, ...simpleEnglish]),
+    'basic-science-and-technology': beceScience(),
+    'business-studies': forExam('bece', business),
+    'christian-religious-studies': forExam('bece', crs),
+    'islamic-religion-studies': forExam('bece', irs),
+    history: forExam('bece', history),
+    'national-value-education': forExam('bece', civic),
+    'pre-vocational-studies': forExam('bece', prevocational),
+    'cultural-and-creative-arts': forExam('bece', creativeArts),
+    french: forExam('bece', french),
+  },
   COMMON_ENTRANCE: {
     mathematics: ceMathematics(),
     'english-language': forExam('ce', [...english.filter((t) => CE_ENGLISH.has(t.key)), ...simpleEnglish]),
