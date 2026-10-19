@@ -234,3 +234,18 @@ export const WORDS = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'sev
 /** Nigerian names and places, so questions feel local. */
 export const NAMES = ['Ada', 'Chidi', 'Tunde', 'Ngozi', 'Bola', 'Emeka', 'Aisha', 'Musa', 'Funke', 'Ifeanyi', 'Zainab', 'Kemi', 'Obinna', 'Halima', 'Segun', 'Amaka', 'Yusuf', 'Bisi', 'Uche', 'Femi'];
 export const TOWNS = ['Lagos', 'Kano', 'Ibadan', 'Enugu', 'Abuja', 'Kaduna', 'Onitsha', 'Benin', 'Jos', 'Owerri', 'Abeokuta', 'Calabar', 'Ilorin', 'Warri', 'Aba', 'Akure', 'Sokoto', 'Uyo'];
+
+/**
+ * The same templates for another exam. Keys get the exam's prefix ("waec-maths/…"), so each exam
+ * draws its own numbers and a student preparing for two exams never meets the same question.
+ * `topic` re-files a template under that exam's syllabus, or drops it (null) when the exam doesn't test it.
+ */
+export function forExam(exam: string, list: Template[], topic?: (t: Template) => Template['topic'] | null): Template[] {
+  return list.flatMap((t) => {
+    const tp = topic ? topic(t) : t.topic;
+    return tp ? [{ ...t, key: `${exam}-${t.key.replace(/^jamb-/, '')}`, topic: tp }] : [];
+  });
+}
+
+/** Values from the other rows of a fact table, for wrong options (the engine drops repeats). */
+export const otherValues = <T>(r: Rng, rows: readonly T[], row: T, get: (x: T) => string) => r.shuffle(rows.filter((x) => get(x) !== get(row)).map(get));

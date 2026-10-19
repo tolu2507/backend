@@ -131,7 +131,8 @@ async function pattern(examSubjectId: string) {
 
 async function main() {
   const [exam, slug] = process.argv.slice(2).filter((a) => !a.startsWith('--')) as [ExamBody | undefined, string | undefined];
-  const subjects = await prisma.examSubject.findMany({ where: { ...(exam ? { exam } : {}), ...(slug ? { slug } : {}), pastQuestions: { some: {} } }, orderBy: [{ exam: 'asc' }, { slug: 'asc' }] });
+  // Tagging needs past questions; a typed-in syllabus doesn't.
+  const subjects = await prisma.examSubject.findMany({ where: { ...(exam ? { exam } : {}), ...(slug ? { slug } : {}), ...(syllabusOnly ? {} : { pastQuestions: { some: {} } }) }, orderBy: [{ exam: 'asc' }, { slug: 'asc' }] });
   for (const s of subjects) await tagSubject(s.exam, s.slug, s.id, s.name);
 
   const usage = await prisma.aiUsage.aggregate({ where: { createdAt: { gte: startedAt }, feature: 'QUESTION_TAGGING' }, _sum: { costMicroUsd: true, inputTokens: true, outputTokens: true }, _count: true });
