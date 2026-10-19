@@ -3,8 +3,12 @@
  *   pnpm overwatch list                       applications and their test results
  *   pnpm overwatch approve <email> [note]     approve a tutor (after their interview)
  *   pnpm overwatch reject <email> [note]
+ *   pnpm overwatch admins                     who can sign in to Overwatch
+ *   pnpm overwatch reset-password <email>     give an Overwatch admin a new password (printed once)
  */
 import { PrismaClient } from '@prisma/client';
+import * as bcrypt from 'bcrypt';
+import { randomBytes } from 'node:crypto';
 import { existsSync } from 'node:fs';
 
 if (existsSync('.env')) process.loadEnvFile('.env');
@@ -37,7 +41,20 @@ async function main() {
     console.log(`${cmd === 'approve' ? 'Approved' : 'Rejected'} ${email}`);
     return;
   }
-  console.log('Usage: pnpm overwatch list | approve <email> [note] | reject <email> [note]');
+  if (cmd === 'admins') {
+    const admins = await prisma.user.findMany({ where: { memberships: { some: { role: 'PLATFORM_ADMIN' } } }, orderBy: { createdAt: 'asc' } });
+    for (const a of admins) console.log(`${a.email ?? a.phone}  ${a.firstName} ${a.lastName}  last sign-in: ${a.lastLoginAt?.toISOString() ?? 'never'}`);
+    return;
+  }
+  if (cmd === 'reset-password') {
+    const user = await prisma.user.findFirst({ where: { email: email?.toLowerCase(), memberships: { some: { role: 'PLATFORM_ADMIN' } } } });
+    if (!user) throw new Error(`${email} is not an Overwatch admin. Run "pnpm overwatch admins" to see who is.`);
+    const password = randomBytes(9).toString('base64url');
+    await prisma.user.update({ where: { id: user.id }, data: { passwordHash: await bcrypt.hash(password, 12) } });
+    console.log(`New password for ${user.email}: ${password}\n(It is not shown again. Sign in and change it from your profile.)`);
+    return;
+  }
+  console.log('Usage: pnpm overwatch list | approve <email> [note] | reject <email> [note] | admins | reset-password <email>');
 }
 
 main()

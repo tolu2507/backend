@@ -76,6 +76,30 @@ export class QuestionBankService {
     }));
   }
 
+  /** A subject's templates, each with one sample question, so a whole template can be checked and decided at once. */
+  async templates(subjectId: string) {
+    const rows = await this.prisma.questionTemplate.findMany({
+      where: { examSubjectId: subjectId },
+      include: {
+        topic: { select: { name: true, parent: { select: { name: true } } } },
+        _count: { select: { questions: true } },
+        questions: { take: 1, orderBy: { createdAt: 'asc' }, select: { stem: true, options: true, answerId: true, explanation: true } },
+      },
+    });
+    const order = { IN_REVIEW: 0, DRAFT: 1, APPROVED: 2, RETIRED: 3 };
+    return rows
+      .map((t) => ({
+        id: t.id,
+        key: (t.spec as { key?: string }).key ?? t.id,
+        status: t.status,
+        difficulty: t.difficulty,
+        topic: t.topic.parent ? `${t.topic.parent.name} › ${t.topic.name}` : t.topic.name,
+        questions: t._count.questions,
+        sample: t.questions[0] ? { ...t.questions[0], options: t.questions[0].options as { id: string; label: string }[] } : null,
+      }))
+      .sort((a, b) => order[a.status] - order[b.status] || a.topic.localeCompare(b.topic) || a.key.localeCompare(b.key));
+  }
+
   private where(f: QuestionFilter): Prisma.ExamQuestionWhereInput {
     return {
       ...(f.subjectId ? { examSubjectId: f.subjectId } : f.exam ? { examSubject: { exam: f.exam } } : {}),

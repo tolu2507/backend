@@ -90,6 +90,10 @@ export class QuestionBankController {
     return this.bank.topics(id);
   }
 
+  @Get('subjects/:id/templates') templates(@Param('id', ParseUUIDPipe) id: string) {
+    return this.bank.templates(id);
+  }
+
   @Get('questions') list(@Query() q: QuestionQuery) {
     return this.bank.list(q);
   }
