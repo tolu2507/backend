@@ -7,15 +7,15 @@ import { formatNaira } from '../common/money.js';
 import { LedgerService } from '../ledger/ledger.service.js';
 import { MessagingService } from '../messaging/messaging.service.js';
 import { SquadService, type DataPlan, type VendResult } from '../payments/squad.service.js';
-import { COINS_PER_REWARD, PLAN_PRICE_KOBO, REWARD_KOBO } from '../plan/plan.js';
+import { GamificationService } from '../gamification/gamification.service.js';
 import { PlanRequiredException, PlanService } from '../plan/plan.service.js';
 import { PrismaService } from '../prisma/prisma.service.js';
+import { planPriceKobo, rewardKobo, rewardsBudgetKobo, stickerCoins } from '../settings/settings.js';
+import { SettingsService } from '../settings/settings.service.js';
 
 export const NETWORKS = ['MTN', 'GLO', 'AIRTEL', '9MOBILE'] as const;
 const AIRTIME_OPTIONS_KOBO = [50_000n, 100_000n, 200_000n, 500_000n]; // ₦500, ₦1,000, ₦2,000, ₦5,000
 const PLANS_CACHE_MS = 30 * 60_000;
-/** Most BrainBox pays out in airtime and data per Lagos month. Change it with REWARDS_MONTHLY_BUDGET_NAIRA. */
-const monthlyBudgetKobo = () => BigInt(Math.round(Number(process.env.REWARDS_MONTHLY_BUDGET_NAIRA ?? 30_000) * 100));
 const OPEN: RedemptionStatus[] = ['SENDING', 'PENDING', 'SUCCESS', 'CHECK']; // count against the budget
 
 /** 08031234567 or +2348031234567 → 08031234567. null if it isn't a Nigerian mobile number. */
@@ -46,6 +46,8 @@ export class RewardsService {
     private readonly squad: SquadService,
     private readonly plan: PlanService,
     private readonly messaging: MessagingService,
+    private readonly settings: SettingsService,
+    private readonly game: GamificationService,
   ) {}
 
   private wallet(parentId: string) {
@@ -53,32 +55,35 @@ export class RewardsService {
   }
 
   async overview(parentId: string) {
-    const [wallet, plan, links] = await Promise.all([
+    const [wallet, plan, links, s] = await Promise.all([
       this.wallet(parentId),
       this.plan.status(parentId),
       this.prisma.guardianship.findMany({ where: { parentId, confirmedAt: { not: null } }, orderBy: { createdAt: 'asc' }, include: { student: { include: { user: { select: { firstName: true } } } } } }),
+      this.settings.get(),
     ]);
-    const [entries, redemptions, converted] = await Promise.all([
+    const [entries, redemptions, earned] = await Promise.all([
       this.prisma.ledgerEntry.findMany({ where: { walletId: wallet.id }, orderBy: { createdAt: 'desc' }, take: 20 }),
       this.prisma.rewardRedemption.findMany({ where: { parentId }, orderBy: { createdAt: 'desc' }, take: 20 }),
-      this.prisma.coinEvent.groupBy({ by: ['studentId'], where: { studentId: { in: links.map((l) => l.studentId) }, reason: 'CONVERTED' }, _count: true }),
+      this.game.earnedKobo(links.map((l) => l.studentId)),
     ]);
-    const convertedBy = new Map(converted.map((c) => [c.studentId, c._count]));
     return {
       balanceKobo: wallet.balanceKobo.toString(),
       planState: plan.state,
       // Children earn on the trial and the plan; collecting needs the paid plan (so free trials can't be farmed for airtime).
-      earning: plan.state === 'TRIAL' || plan.state === 'ACTIVE',
-      canCollect: plan.state === 'ACTIVE',
-      coinsPerReward: COINS_PER_REWARD,
-      rewardKobo: REWARD_KOBO.toString(),
+      earning: s.rewardsEnabled && (plan.state === 'TRIAL' || plan.state === 'ACTIVE'),
+      canCollect: s.rewardsEnabled && plan.state === 'ACTIVE',
+      rewardsEnabled: s.rewardsEnabled,
+      coinsPerReward: s.coinsPerReward,
+      rewardKobo: rewardKobo(s).toString(),
+      // How children earn, for the "How your children earn" card (all Overwatch settings).
+      rates: { perCorrect: s.coinsPerCorrect, practicePerDay: s.practiceCoinsPerDay, perMock: s.coinsPerMock, stickers: stickerCoins(s) },
       airtimeOptionsKobo: AIRTIME_OPTIONS_KOBO.map(String),
       networks: NETWORKS,
       children: links.map((l) => ({
         studentId: l.studentId,
         firstName: l.student.user.firstName,
         coins: l.student.coins,
-        earnedKobo: (BigInt(convertedBy.get(l.studentId) ?? 0) * REWARD_KOBO).toString(),
+        earnedKobo: (earned.get(l.studentId) ?? 0n).toString(),
       })),
       activity: entries.map((e) => ({ id: e.id, description: e.description, amountKobo: e.amountKobo.toString(), createdAt: e.createdAt })),
       redemptions: redemptions.map(publicRedemption),
@@ -94,9 +99,10 @@ export class RewardsService {
 
   /** Sends airtime or data to the parent's phone. Money leaves the rewards wallet first and comes back if Squad says no. */
   async redeem(parentId: string, input: { kind: RewardKind; network: string; phone: string; amountKobo?: string; planCode?: string }) {
-    const plan = await this.plan.status(parentId);
+    const [plan, s] = await Promise.all([this.plan.status(parentId), this.settings.get()]);
+    if (!s.rewardsEnabled) throw new ServiceUnavailableException('Rewards are paused for now. Your balance is safe.');
     if (plan.state !== 'ACTIVE') {
-      throw new PlanRequiredException(`Collecting rewards is part of the ${formatNaira(PLAN_PRICE_KOBO)} plan. Everything your children earn stays in your rewards balance until then.`);
+      throw new PlanRequiredException(`Collecting rewards is part of the ${formatNaira(planPriceKobo(s))} plan. Everything your children earn stays in your rewards balance until then.`);
     }
     const phone = nigerianMobile(input.phone);
     if (!phone) throw new BadRequestException('Enter an 11-digit Nigerian mobile number, like 08031234567.');
@@ -117,7 +123,7 @@ export class RewardsService {
     const wallet = await this.wallet(parentId);
     if (wallet.balanceKobo < amountKobo) throw new BadRequestException(`You have ${formatNaira(wallet.balanceKobo)} in rewards. Pick something up to that amount.`);
     const spent = await this.prisma.rewardRedemption.aggregate({ where: { status: { in: OPEN }, createdAt: { gte: monthStart() } }, _sum: { amountKobo: true } });
-    if ((spent._sum.amountKobo ?? 0n) + amountKobo > monthlyBudgetKobo()) {
+    if ((spent._sum.amountKobo ?? 0n) + amountKobo > rewardsBudgetKobo(s)) {
       this.logger.warn(`Rewards budget for the month reached; ${parentId} asked for ${formatNaira(amountKobo)}`);
       throw new ServiceUnavailableException('We’ve sent out all of this month’s rewards. Please try again on the 1st: your balance is safe.');
     }
@@ -194,7 +200,7 @@ export class RewardsService {
 
   async adminOverview(status?: RedemptionStatus) {
     const since = monthStart();
-    const [spent, liability, byStatus, rows] = await Promise.all([
+    const [spent, liability, byStatus, rows, s] = await Promise.all([
       this.prisma.rewardRedemption.aggregate({ where: { status: { in: OPEN }, createdAt: { gte: since } }, _sum: { amountKobo: true } }),
       this.prisma.wallet.aggregate({ where: { type: 'REWARDS' }, _sum: { balanceKobo: true } }),
       this.prisma.rewardRedemption.groupBy({ by: ['status'], _count: true }),
@@ -204,9 +210,10 @@ export class RewardsService {
         take: 100,
         include: { parent: { select: { firstName: true, lastName: true, email: true } } },
       }),
+      this.settings.get(),
     ]);
     return {
-      month: { spentKobo: (spent._sum.amountKobo ?? 0n).toString(), budgetKobo: monthlyBudgetKobo().toString() },
+      month: { spentKobo: (spent._sum.amountKobo ?? 0n).toString(), budgetKobo: rewardsBudgetKobo(s).toString() },
       // Earned by children but not collected yet: what BrainBox owes parents.
       unclaimedKobo: (liability._sum.balanceKobo ?? 0n).toString(),
       counts: Object.fromEntries(byStatus.map((b) => [b.status, b._count])),

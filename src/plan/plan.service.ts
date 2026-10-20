@@ -6,10 +6,11 @@ import { formatNaira } from '../common/money.js';
 import { MessagingService } from '../messaging/messaging.service.js';
 import { PaymentsService } from '../payments/payments.service.js';
 import { PrismaService } from '../prisma/prisma.service.js';
-import { FREE_DAILY_QUESTIONS, PLAN_DAYS, PLAN_PRICE_KOBO, TRIAL_DAYS, accessUntil } from './plan.js';
+import { planPriceKobo } from '../settings/settings.js';
+import { SettingsService } from '../settings/settings.service.js';
+import { accessUntil } from './plan.js';
 
 const DAY = 86_400_000;
-const PRICE = formatNaira(PLAN_PRICE_KOBO);
 
 /** Thrown when a parent's view needs the paid plan. The apps show `message` as is. */
 export class PlanRequiredException extends HttpException {
@@ -20,9 +21,9 @@ export class PlanRequiredException extends HttpException {
 
 /** A child on the free plan has used today's questions. Children are never asked to pay: this only says "come back tomorrow". */
 export class DailyLimitException extends HttpException {
-  constructor() {
+  constructor(perDay: number) {
     super(
-      { statusCode: HttpStatus.TOO_MANY_REQUESTS, code: 'DAILY_LIMIT', message: `That’s your ${FREE_DAILY_QUESTIONS} questions for today. Great work! Come back tomorrow for more.` },
+      { statusCode: HttpStatus.TOO_MANY_REQUESTS, code: 'DAILY_LIMIT', message: `That’s your ${perDay} questions for today. Great work! Come back tomorrow for more.` },
       HttpStatus.TOO_MANY_REQUESTS,
     );
   }
@@ -36,6 +37,7 @@ export class PlanService {
     private readonly prisma: PrismaService,
     private readonly payments: PaymentsService,
     private readonly messaging: MessagingService,
+    private readonly settings: SettingsService,
   ) {}
 
   /**
@@ -43,11 +45,12 @@ export class PlanService {
    * however the child got there (added by the parent, accepted from a school, or created by a school).
    */
   async status(parentId: string, now = new Date()) {
+    const s = await this.settings.get();
     let user = await this.prisma.user.findUniqueOrThrow({ where: { id: parentId }, select: { trialEndsAt: true, paidUntil: true } });
     const hasChildren = (await this.prisma.guardianship.count({ where: { parentId, confirmedAt: { not: null } } })) > 0;
     if (!user.trialEndsAt && hasChildren) {
       // Conditional so two requests at once can't both start (and lengthen) the trial.
-      await this.prisma.user.updateMany({ where: { id: parentId, trialEndsAt: null }, data: { trialEndsAt: addDays(now, TRIAL_DAYS) } });
+      await this.prisma.user.updateMany({ where: { id: parentId, trialEndsAt: null }, data: { trialEndsAt: addDays(now, s.trialDays) } });
       user = await this.prisma.user.findUniqueOrThrow({ where: { id: parentId }, select: { trialEndsAt: true, paidUntil: true } });
     }
     const until = accessUntil(user);
@@ -60,10 +63,10 @@ export class PlanService {
       paidUntil: user.paidUntil,
       accessUntil: until,
       daysLeft: active ? Math.ceil((until.getTime() - now.getTime()) / DAY) : 0,
-      priceKobo: PLAN_PRICE_KOBO.toString(),
-      planDays: PLAN_DAYS,
-      trialDays: TRIAL_DAYS,
-      freeDailyQuestions: FREE_DAILY_QUESTIONS,
+      priceKobo: planPriceKobo(s).toString(),
+      planDays: s.planDays,
+      trialDays: s.trialDays,
+      freeDailyQuestions: s.freeDailyQuestions,
     } as const;
   }
 
@@ -83,14 +86,17 @@ export class PlanService {
   /** The child's practice today: no limit (null) on the trial or plan, otherwise the free 10 and what's left. */
   async practiceToday(studentId: string): Promise<{ limit: number | null; left: number | null }> {
     if (await this.studentHasAccess(studentId)) return { limit: null, left: null };
-    const today = await this.prisma.questionSeen.count({ where: { studentId, lastSeenAt: { gte: lagosMidnightInstant(lagosDay()) } } });
-    return { limit: FREE_DAILY_QUESTIONS, left: Math.max(0, FREE_DAILY_QUESTIONS - today) };
+    const [{ freeDailyQuestions: limit }, today] = await Promise.all([
+      this.settings.get(),
+      this.prisma.questionSeen.count({ where: { studentId, lastSeenAt: { gte: lagosMidnightInstant(lagosDay()) } } }),
+    ]);
+    return { limit, left: Math.max(0, limit - today) };
   }
 
   /** How many questions the next round may have: null for no limit. Throws once the free 10 are used. */
   async practiceAllowance(studentId: string): Promise<number | null> {
-    const { left } = await this.practiceToday(studentId);
-    if (left === 0) throw new DailyLimitException();
+    const { limit, left } = await this.practiceToday(studentId);
+    if (left === 0) throw new DailyLimitException(limit ?? 0);
     return left;
   }
 
@@ -106,7 +112,7 @@ export class PlanService {
 
   async assertParentAccess(parentId: string) {
     if (!(await this.parentHasAccess(parentId))) {
-      throw new PlanRequiredException(`Weekly reports are part of the ${PRICE} plan. Upgrade to see them again.`);
+      throw new PlanRequiredException(`Weekly reports are part of the ${formatNaira(planPriceKobo(await this.settings.get()))} plan. Upgrade to see them again.`);
     }
   }
 
@@ -117,6 +123,8 @@ export class PlanService {
   /** 9am Lagos: a reminder 3 days before access ends, and one on the day it ends. Each falls in exactly one daily window. */
   @Cron('0 9 * * *', { timeZone: 'Africa/Lagos' })
   async remind(now = new Date()) {
+    const s = await this.settings.get();
+    const price = formatNaira(planPriceKobo(s));
     const parents = await this.prisma.user.findMany({
       where: {
         childrenLinks: { some: { confirmedAt: { not: null } } },
@@ -132,14 +140,14 @@ export class PlanService {
       if (left > 2 * DAY && left <= 3 * DAY) {
         this.messaging.notify([p.id], 'payments', {
           title: paid ? 'Your BrainBox plan ends in 3 days' : 'Your free trial ends in 3 days',
-          body: `Keep unlimited practice, reports and rewards: ${PRICE} for the next 30 days, for all your children.`,
+          body: `Keep unlimited practice, reports and rewards: ${price} for the next ${s.planDays} days, for all your children.`,
           url: '/parent/plan',
         });
         sent++;
       } else if (left <= 0 && left > -DAY) {
         this.messaging.notify([p.id], 'payments', {
           title: paid ? 'Your BrainBox plan has ended' : 'Your free trial has ended',
-          body: `You’re on the free plan now: ${FREE_DAILY_QUESTIONS} questions a day, no reports or rewards. Upgrade for ${PRICE} to get everything back.`,
+          body: `You’re on the free plan now: ${s.freeDailyQuestions} questions a day, no reports or rewards. Upgrade for ${price} to get everything back.`,
           url: '/parent/plan',
         });
         sent++;

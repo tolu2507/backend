@@ -67,6 +67,7 @@ afterAll(async () => {
   await prisma.ledgerEntry.deleteMany({ where: { walletId: { in: wallets.map((w) => w.id) } } });
   await prisma.wallet.deleteMany({ where: { id: { in: wallets.map((w) => w.id) } } });
   await prisma.rewardRedemption.deleteMany({ where: { parentId: { in: ids } } });
+  await prisma.platformSetting.deleteMany({ where: { key: { in: ['rewardsMonthlyBudgetNaira', 'rewardsEnabled'] } } }); // back to the defaults
   await prisma.auditLog.deleteMany({ where: { actorId: { in: ids } } });
   await prisma.leagueEntry.deleteMany({ where: { student: { userId: { in: ids } } } });
   await prisma.studentProfile.deleteMany({ where: { userId: { in: ids } } });
@@ -101,7 +102,7 @@ describe('Earn while you learn', () => {
     await http().put(`/parent/children/${childId}/exams/JAMB`).set(auth(parent)).send({ subjectIds: pick }).expect(200);
 
     const home = await http().get('/me/student/home').set(auth(kid)).expect(200);
-    expect(home.body.coins).toEqual({ balance: 0, target: 10_000, rewardKobo: '100000', earnedKobo: '0' });
+    expect(home.body.coins).toEqual({ balance: 0, target: 10_000, rewardKobo: '100000', earnedKobo: '0', perCorrect: 10 });
 
     const round = await http().post('/me/student/practice/rounds').set(auth(kid)).send({ topicId: subtopicId }).expect(200);
     expect(round.body.questions).toHaveLength(10);
@@ -218,15 +219,25 @@ describe('Earn while you learn', () => {
   });
 
   it('stops at the monthly budget, keeping the parent’s balance safe', async () => {
-    const before = process.env.REWARDS_MONTHLY_BUDGET_NAIRA;
-    process.env.REWARDS_MONTHLY_BUDGET_NAIRA = '0';
+    await http().put('/admin/settings').set(auth(admin)).send({ changes: { rewardsMonthlyBudgetNaira: 0 } }).expect(200);
     try {
       const res = await http().post('/parent/rewards/redeem').set(auth(parent)).send({ kind: 'AIRTIME', network: 'MTN', phone: '08031234567', amountKobo: '100000' }).expect(503);
       expect(res.body.message).toMatch(/your balance is safe/);
       expect(await balance()).toBe('100000');
     } finally {
-      if (before === undefined) delete process.env.REWARDS_MONTHLY_BUDGET_NAIRA;
-      else process.env.REWARDS_MONTHLY_BUDGET_NAIRA = before;
+      await http().put('/admin/settings').set(auth(admin)).send({ changes: { rewardsMonthlyBudgetNaira: 30_000 } }).expect(200);
+    }
+  });
+
+  it('switching rewards off stops earning and collecting, and keeps the balance', async () => {
+    await http().put('/admin/settings').set(auth(admin)).send({ changes: { rewardsEnabled: false } }).expect(200);
+    try {
+      expect(await give(500)).toBeNull();
+      const res = await http().post('/parent/rewards/redeem').set(auth(parent)).send({ kind: 'AIRTIME', network: 'MTN', phone: '08031234567', amountKobo: '100000' }).expect(503);
+      expect(res.body.message).toMatch(/paused/);
+      expect((await http().get('/parent/rewards').set(auth(parent)).expect(200)).body).toMatchObject({ balanceKobo: '100000', rewardsEnabled: false, canCollect: false });
+    } finally {
+      await http().put('/admin/settings').set(auth(admin)).send({ changes: { rewardsEnabled: true } }).expect(200);
     }
   });
 

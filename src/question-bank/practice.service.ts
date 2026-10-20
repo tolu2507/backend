@@ -2,7 +2,7 @@ import { BadRequestException, ForbiddenException, Injectable, NotFoundException 
 import type { Prisma } from '@prisma/client';
 
 import { GamificationService } from '../gamification/gamification.service.js';
-import { COINS } from '../plan/plan.js';
+import { SettingsService } from '../settings/settings.service.js';
 import { PrismaService } from '../prisma/prisma.service.js';
 
 export const ROUND_SIZE = 10;
@@ -48,6 +48,7 @@ export class PracticeService {
   constructor(
     private readonly prisma: PrismaService,
     private readonly game: GamificationService,
+    private readonly settings: SettingsService,
   ) {}
 
   async studentByUser(userId: string) {
@@ -252,6 +253,7 @@ export class PracticeService {
       (bossBeatenNow ? XP.boss : 0);
 
     const reviewDue = new Date(now.getTime() + REVIEW_AFTER_DAYS * 86_400_000);
+    const { coinsPerCorrect } = await this.settings.get();
     const rewards = await this.prisma.$transaction(async (tx) => {
       for (const r of counted) {
         const data: Prisma.QuestionSeenUncheckedUpdateInput = { lastSeenAt: now, lastCorrect: r.correct, reviewDueAt: r.correct ? null : reviewDue };
@@ -271,7 +273,7 @@ export class PracticeService {
       }
       if (counted.length >= MIN_TO_LEVEL && right === counted.length) await tx.studentProfile.update({ where: { id: studentId }, data: { perfectRounds: { increment: 1 } } });
       const newRight = results.filter((r) => r.correct && r.kind === 'new').length;
-      return this.game.awardXp(tx, studentId, xpEarned, 'ACTIVITY', topicId, { amount: newRight * COINS.correct, reason: 'PRACTICE' });
+      return this.game.awardXp(tx, studentId, xpEarned, 'ACTIVITY', topicId, { amount: newRight * coinsPerCorrect, reason: 'PRACTICE' });
     });
 
     return {

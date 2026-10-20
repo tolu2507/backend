@@ -5,7 +5,9 @@ import { randomBytes } from 'node:crypto';
 import { formatNaira } from '../common/money.js';
 import { LedgerService } from '../ledger/ledger.service.js';
 import { MessagingService } from '../messaging/messaging.service.js';
-import { PLAN_PRICE_KOBO, extendedPaidUntil } from '../plan/plan.js';
+import { extendedPaidUntil } from '../plan/plan.js';
+import { planPriceKobo } from '../settings/settings.js';
+import { SettingsService } from '../settings/settings.service.js';
 import { PrismaService } from '../prisma/prisma.service.js';
 import { SquadService } from './squad.service.js';
 
@@ -21,6 +23,7 @@ export class PaymentsService {
     private readonly squad: SquadService,
     private readonly ledger: LedgerService,
     private readonly messaging: MessagingService,
+    private readonly settings: SettingsService,
   ) {}
 
   private reference(prefix: string) {
@@ -85,13 +88,15 @@ export class PaymentsService {
     return { reference, checkoutUrl };
   }
 
-  /** The parent's BrainBox plan: ₦1,500 for 30 days, covering all their children. */
+  /** The parent's BrainBox plan for all their children. The price and days are fixed on the payment, so a later settings change can't alter it. */
   async startSubscription(origin: string, parentId: string) {
+    const s = await this.settings.get();
+    const amountKobo = planPriceKobo(s);
     const reference = this.reference('SUB');
     await this.prisma.payment.create({
-      data: { reference, payerId: parentId, purpose: 'SUBSCRIPTION', amountKobo: PLAN_PRICE_KOBO, metadata: { plan: 'MONTHLY' } },
+      data: { reference, payerId: parentId, purpose: 'SUBSCRIPTION', amountKobo, metadata: { plan: 'MONTHLY', days: String(s.planDays) } },
     });
-    const checkoutUrl = await this.squad.initiate({ amountKobo: PLAN_PRICE_KOBO, email: await this.payerEmail(parentId), reference, callbackUrl: this.callbackUrl(origin, reference) });
+    const checkoutUrl = await this.squad.initiate({ amountKobo, email: await this.payerEmail(parentId), reference, callbackUrl: this.callbackUrl(origin, reference) });
     return { reference, checkoutUrl };
   }
 
@@ -167,14 +172,14 @@ export class PaymentsService {
           amountKobo: payment.amountKobo,
           type: 'PURCHASE',
           stream: 'SUBSCRIPTION',
-          description: 'BrainBox plan, 30 days',
+          description: `BrainBox plan, ${meta.days ?? '30'} days`,
           paymentId: payment.id,
           actorId: payment.payerId,
           idempotencyKey: `payment:${payment.id}`,
         });
         // Lock the parent row so two payments clearing at once each add their own 30 days.
         const [parent] = await tx.$queryRaw<{ trialEndsAt: Date | null; paidUntil: Date | null }[]>`SELECT "trialEndsAt", "paidUntil" FROM "User" WHERE id = ${payment.payerId} FOR UPDATE`;
-        await tx.user.update({ where: { id: payment.payerId }, data: { paidUntil: extendedPaidUntil(parent) } });
+        await tx.user.update({ where: { id: payment.payerId }, data: { paidUntil: extendedPaidUntil(parent, Number(meta.days ?? 30)) } });
       }
     });
     this.logger.log(`Payment ${payment.reference} applied (${payment.purpose})`);

@@ -7,8 +7,9 @@ import { formatShopCode } from '../common/shop-code.js';
 import { GamificationService } from '../gamification/gamification.service.js';
 import { levelFor, starsFor } from '../gamification/levels.js';
 import { LedgerService } from '../ledger/ledger.service.js';
-import { COINS_PER_REWARD, REWARD_KOBO } from '../plan/plan.js';
 import { PlanService } from '../plan/plan.service.js';
+import { rewardKobo } from '../settings/settings.js';
+import { SettingsService } from '../settings/settings.service.js';
 import { PrismaService } from '../prisma/prisma.service.js';
 
 const LESSON_QUIZ_XP = 50;
@@ -20,6 +21,7 @@ export class StudentService {
     private readonly game: GamificationService,
     private readonly ledger: LedgerService,
     private readonly plan: PlanService,
+    private readonly settings: SettingsService,
   ) {}
 
   async profile(userId: string) {
@@ -32,7 +34,7 @@ export class StudentService {
     const p = await this.profile(userId);
     const since = lagosMidnightInstant(lagosDay());
 
-    const [quizzes, activities, doneToday, league, practice, earning, converted] = await Promise.all([
+    const [quizzes, activities, doneToday, league, practice, earning, earned, settings] = await Promise.all([
       this.prisma.lessonQuiz.findMany({
         where: { studentId: p.id, status: 'PENDING' },
         orderBy: { dueAt: 'asc' },
@@ -46,7 +48,8 @@ export class StudentService {
       this.game.league(p.id),
       this.plan.practiceToday(p.id),
       this.plan.rewardsParent(p.id),
-      this.prisma.coinEvent.count({ where: { studentId: p.id, reason: 'CONVERTED' } }),
+      this.game.earnedKobo([p.id]),
+      this.settings.get(),
     ]);
 
     // One activity per subject keeps the day focused; finished ones stay visible as "Done".
@@ -95,7 +98,10 @@ export class StudentService {
       adventure: next ? { activityId: next.id, title: next.title, step: doneCount + 1, steps: todays.length } : null,
       practice,
       // Earn while you learn. null on the free plan: children never see anything about paying.
-      coins: earning ? { balance: p.coins, target: COINS_PER_REWARD, rewardKobo: REWARD_KOBO.toString(), earnedKobo: (BigInt(converted) * REWARD_KOBO).toString() } : null,
+      coins:
+        earning && settings.rewardsEnabled
+          ? { balance: p.coins, target: settings.coinsPerReward, rewardKobo: rewardKobo(settings).toString(), earnedKobo: (earned.get(p.id) ?? 0n).toString(), perCorrect: settings.coinsPerCorrect }
+          : null,
     };
   }
 

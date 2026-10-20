@@ -5,7 +5,7 @@ import type { ExamBody, MockExam, MockSitting, Prisma } from '@prisma/client';
 import { addDays, lagosMidnightInstant, weekStart } from '../common/dates.js';
 import { EXAM_BODIES, EXAM_CATALOG } from '../exams/exam-catalog.js';
 import { GamificationService } from '../gamification/gamification.service.js';
-import { COINS } from '../plan/plan.js';
+import { SettingsService } from '../settings/settings.service.js';
 import { MessagingService } from '../messaging/messaging.service.js';
 import { PrismaService } from '../prisma/prisma.service.js';
 
@@ -47,6 +47,7 @@ export class MocksService implements OnApplicationBootstrap {
     private readonly prisma: PrismaService,
     private readonly game: GamificationService,
     private readonly messaging: MessagingService,
+    private readonly settings: SettingsService,
   ) {}
 
   async onApplicationBootstrap() {
@@ -292,6 +293,7 @@ export class MocksService implements OnApplicationBootstrap {
 
     const now = new Date();
     const reviewDue = new Date(now.getTime() + REVIEW_AFTER_DAYS * 86_400_000);
+    const { coinsPerMock } = await this.settings.get();
     await this.prisma.$transaction(async (tx) => {
       const claimed = await tx.mockSitting.updateMany({ where: { id: s.id, submittedAt: null }, data: { submittedAt: now, score, subjectScores } });
       if (!claimed.count) return; // marked by another request
@@ -304,7 +306,7 @@ export class MocksService implements OnApplicationBootstrap {
         });
         await tx.examQuestion.update({ where: { id }, data: { timesServed: { increment: 1 }, timesCorrect: { increment: ok ? 1 : 0 } } });
       }
-      await this.game.awardXp(tx, s.studentId, XP_FINISH + correct, 'ACTIVITY', s.id, { amount: COINS.mock, reason: 'MOCK' });
+      await this.game.awardXp(tx, s.studentId, XP_FINISH + correct, 'ACTIVITY', s.id, { amount: coinsPerMock, reason: 'MOCK' });
     });
   }
 

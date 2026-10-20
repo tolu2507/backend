@@ -6,11 +6,12 @@ import { addDays, lagosDay, lagosMidnightInstant, weekStart } from '../common/da
 import { formatNaira } from '../common/money.js';
 import { LedgerService } from '../ledger/ledger.service.js';
 import { MessagingService } from '../messaging/messaging.service.js';
-import { COINS_PER_REWARD, PRACTICE_COINS_PER_DAY, REWARD_KOBO } from '../plan/plan.js';
 import { PlanService } from '../plan/plan.service.js';
 import { PrismaService } from '../prisma/prisma.service.js';
+import { rewardKobo, stickerCoins } from '../settings/settings.js';
+import { SettingsService } from '../settings/settings.service.js';
 import { levelFor } from './levels.js';
-import { RARITY_COINS, STICKERS, stickerProgress, type StickerStats } from './stickers.js';
+import { STICKERS, stickerProgress, type StickerStats } from './stickers.js';
 
 type Tx = Prisma.TransactionClient;
 type Db = Tx | PrismaService;
@@ -40,12 +41,14 @@ export class GamificationService implements OnApplicationBootstrap {
     private readonly plan: PlanService,
     private readonly ledger: LedgerService,
     private readonly messaging: MessagingService,
+    private readonly settings: SettingsService,
   ) {}
 
-  /** stickers.ts is the source of truth: names, rarity, coins and order are kept in step with it. */
+  /** stickers.ts is the source of truth for names, rarity and order; coins come from the Overwatch settings. */
   async onApplicationBootstrap() {
+    const coins = stickerCoins(await this.settings.get());
     for (const [i, st] of STICKERS.entries()) {
-      const data = { name: st.name, description: st.description, rarity: st.rarity, coins: RARITY_COINS[st.rarity], icon: st.icon, sortOrder: i, criteria: st.rule };
+      const data = { name: st.name, description: st.description, rarity: st.rarity, coins: coins[st.rarity], icon: st.icon, sortOrder: i, criteria: st.rule };
       await this.prisma.badge.upsert({ where: { code: st.code }, update: data, create: { code: st.code, ...data } });
     }
   }
@@ -83,46 +86,57 @@ export class GamificationService implements OnApplicationBootstrap {
   // ── Coins ─────────────────────────────────────────────
 
   /**
-   * Coins only count while the family is on the free trial or the paid plan. Practice coins stop at
-   * PRACTICE_COINS_PER_DAY. Every 10,000 coins becomes ₦1,000 in the parent's rewards wallet.
+   * Coins only count while rewards are on and the family is on the free trial or the paid plan. Practice coins stop at
+   * the daily limit. Every full bar of coins becomes money in the parent's rewards wallet (amounts are Overwatch settings).
    */
   async awardCoins(tx: Tx, studentId: string, amount: number, reason: CoinReason, refId?: string): Promise<Rewards['coins']> {
+    const s = await this.settings.get();
+    if (!s.rewardsEnabled) return null;
     const parentId = await this.plan.rewardsParent(studentId);
     if (!parentId) return null;
+    const perReward = s.coinsPerReward;
+    const reward = rewardKobo(s);
     let give = amount;
     if (reason === 'PRACTICE') {
       const today = await tx.coinEvent.aggregate({ where: { studentId, reason: 'PRACTICE', createdAt: { gte: lagosMidnightInstant(lagosDay()) } }, _sum: { amount: true } });
-      give = Math.max(0, Math.min(amount, PRACTICE_COINS_PER_DAY - (today._sum.amount ?? 0)));
+      give = Math.max(0, Math.min(amount, s.practiceCoinsPerDay - (today._sum.amount ?? 0)));
     }
     let sentKobo = 0;
     if (give > 0) {
       await tx.coinEvent.create({ data: { studentId, amount: give, reason, refId } });
       let profile = await tx.studentProfile.update({ where: { id: studentId }, data: { coins: { increment: give }, coinsTotal: { increment: give } }, include: { user: { select: { firstName: true } } } });
-      while (profile.coins >= COINS_PER_REWARD) {
-        const converted = await tx.coinEvent.create({ data: { studentId, amount: -COINS_PER_REWARD, reason: 'CONVERTED' } });
-        profile = await tx.studentProfile.update({ where: { id: studentId }, data: { coins: { decrement: COINS_PER_REWARD } }, include: { user: { select: { firstName: true } } } });
+      while (profile.coins >= perReward) {
+        const converted = await tx.coinEvent.create({ data: { studentId, amount: -perReward, reason: 'CONVERTED', refId: String(reward) } });
+        profile = await tx.studentProfile.update({ where: { id: studentId }, data: { coins: { decrement: perReward } }, include: { user: { select: { firstName: true } } } });
         const wallet = await this.ledger.userWallet(tx, parentId, 'REWARDS');
         await this.ledger.post(tx, {
           walletId: wallet.id,
-          amountKobo: REWARD_KOBO,
+          amountKobo: reward,
           type: 'REWARD_EARNED',
           stream: 'OTHER',
-          description: `${profile.user.firstName} earned ${formatNaira(REWARD_KOBO)} by practising`,
+          description: `${profile.user.firstName} earned ${formatNaira(reward)} by practising`,
           actorId: parentId,
           idempotencyKey: `coins:${converted.id}`,
         });
-        await tx.coinEvent.update({ where: { id: converted.id }, data: { refId: wallet.id } });
-        sentKobo += Number(REWARD_KOBO);
+        sentKobo += Number(reward);
         this.messaging.notify([parentId], 'payments', {
-          title: `${profile.user.firstName} earned you ${formatNaira(REWARD_KOBO)}!`,
+          title: `${profile.user.firstName} earned you ${formatNaira(reward)}!`,
           body: 'Their coins from practising turned into airtime or data for you. Collect it in the app.',
           url: '/parent/rewards',
         });
       }
-      return { earned: give, balance: profile.coins, target: COINS_PER_REWARD, sentKobo };
+      return { earned: give, balance: profile.coins, target: perReward, sentKobo };
     }
     const p = await tx.studentProfile.findUniqueOrThrow({ where: { id: studentId }, select: { coins: true } });
-    return { earned: 0, balance: p.coins, target: COINS_PER_REWARD, sentKobo };
+    return { earned: 0, balance: p.coins, target: perReward, sentKobo };
+  }
+
+  /** Naira (as kobo) each child's coins have turned into, from the amount stored on every conversion. */
+  async earnedKobo(studentIds: string[]): Promise<Map<string, bigint>> {
+    const rows = await this.prisma.coinEvent.findMany({ where: { studentId: { in: studentIds }, reason: 'CONVERTED' }, select: { studentId: true, refId: true } });
+    const out = new Map<string, bigint>(studentIds.map((id) => [id, 0n]));
+    for (const r of rows) if (r.refId && /^\d+$/.test(r.refId)) out.set(r.studentId, (out.get(r.studentId) ?? 0n) + BigInt(r.refId));
+    return out;
   }
 
   // ── Stickers ──────────────────────────────────────────

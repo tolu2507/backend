@@ -1746,3 +1746,12 @@ model SupportMessage {
 
   @@index([ticketId, createdAt])
 }
+
+/// Platform-wide numbers Overwatch can change: prices, trial, free plan, coins and rewards.
+/// Keys not stored here use the defaults in src/settings/settings.ts.
+model PlatformSetting {
+  key         String   @id
+  value       Json
+  updatedById String?
+  updatedAt   DateTime @updatedAt
+}

@@ -4,6 +4,8 @@ import { Prisma, type LedgerEntryType, type PaymentPurpose, type PaymentStatus, 
 import { aiPricing, AiService, lagosMonthStart, microUsdToKobo } from '../ai/ai.service.js';
 import { addDays, lagosDay } from '../common/dates.js';
 import { PrismaService } from '../prisma/prisma.service.js';
+import { planPriceKobo } from '../settings/settings.js';
+import { SettingsService } from '../settings/settings.service.js';
 
 export type Page = { page?: number; pageSize?: number };
 export type PeopleKind = 'STUDENT' | 'PARENT' | 'STAFF' | 'TUTOR';
@@ -37,6 +39,7 @@ export class InsightsService {
   constructor(
     private readonly prisma: PrismaService,
     private readonly ai: AiService,
+    private readonly settings: SettingsService,
   ) {}
 
   // ── Platform analytics ─────────────────────────────────
@@ -118,7 +121,7 @@ export class InsightsService {
         parents,
         staff,
         tutors: { verified: tutorCounts.VERIFIED ?? 0, total: tutors.reduce((a, t) => a + t._count, 0) },
-        plans: plans[0],
+        plans: { ...plans[0], priceKobo: Number(planPriceKobo(await this.settings.get())) },
       },
       kpis: {
         paymentsKobo: kpi(n(payNow._sum.amountKobo), n(payBefore._sum.amountKobo)),
