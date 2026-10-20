@@ -177,7 +177,7 @@ export class PaymentsService {
           actorId: payment.payerId,
           idempotencyKey: `payment:${payment.id}`,
         });
-        // Lock the parent row so two payments clearing at once each add their own 30 days.
+        // Lock the parent row so two payments clearing at once each add their own days.
         const [parent] = await tx.$queryRaw<{ trialEndsAt: Date | null; paidUntil: Date | null }[]>`SELECT "trialEndsAt", "paidUntil" FROM "User" WHERE id = ${payment.payerId} FOR UPDATE`;
         await tx.user.update({ where: { id: payment.payerId }, data: { paidUntil: extendedPaidUntil(parent, Number(meta.days ?? 30)) } });
       }

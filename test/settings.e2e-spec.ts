@@ -31,9 +31,10 @@ afterAll(async () => {
   const settings = app.get(SettingsService) as unknown as { cache: unknown; syncStickerCoins: () => Promise<void> };
   settings.cache = null;
   await settings.syncStickerCoins(); // sticker coins back to the defaults
-  const users = await prisma.user.findMany({ where: { email: { endsWith: `${stamp}@test.ng` } }, select: { id: true } });
+  const users = await prisma.user.findMany({ where: { OR: [{ email: { endsWith: `${stamp}@test.ng` } }, { username: { startsWith: `st${stamp}`.slice(0, 20) } }] }, select: { id: true } });
   const ids = users.map((u) => u.id);
   await prisma.auditLog.deleteMany({ where: { actorId: { in: ids } } });
+  await prisma.studentProfile.deleteMany({ where: { userId: { in: ids } } });
   await prisma.user.deleteMany({ where: { id: { in: ids } } });
   await app?.close();
   await prisma.$disconnect();
@@ -75,6 +76,26 @@ describe('Overwatch settings', () => {
     await http().put('/admin/settings').set(auth(admin)).send({ changes: { rewardsEnabled: 'yes' } }).expect(400);
     await http().put('/admin/settings').set(auth(admin)).send({ changes: { madeUp: 1 } }).expect(400);
     expect((await http().get('/parent/plan').set(auth(parent)).expect(200)).body.priceKobo).toBe('200000'); // the 3,000 wasn't saved
+  });
+
+  it('a longer trial reaches parents already on one; a shorter one never cuts a running trial', async () => {
+    await http().put('/admin/settings').set(auth(admin)).send({ changes: { trialDays: 21 } }).expect(200);
+    const username = `st${stamp}`.slice(0, 20);
+    await http()
+      .post('/parent/children')
+      .set(auth(parent))
+      .send({ firstName: 'Kunle', lastName: 'Ade', level: 'PRIMARY', gradeName: 'Primary 5', username, pin: '4821', consentDataProcessing: true, consentAiReports: false })
+      .expect(201);
+    const started = (await http().get('/parent/plan').set(auth(parent)).expect(200)).body;
+    expect(started).toMatchObject({ state: 'TRIAL', daysLeft: 21 });
+
+    await http().put('/admin/settings').set(auth(admin)).send({ changes: { trialDays: 30 } }).expect(200);
+    const longer = (await http().get('/parent/plan').set(auth(parent)).expect(200)).body;
+    expect(longer.daysLeft).toBe(30);
+    expect(new Date(longer.trialEndsAt).getTime() - new Date(started.trialEndsAt).getTime()).toBe(9 * 86_400_000);
+
+    await http().put('/admin/settings').set(auth(admin)).send({ changes: { trialDays: 14 } }).expect(200);
+    expect((await http().get('/parent/plan').set(auth(parent)).expect(200)).body.trialEndsAt).toBe(longer.trialEndsAt);
   });
 
   it('sticker coins follow the rarity settings', async () => {

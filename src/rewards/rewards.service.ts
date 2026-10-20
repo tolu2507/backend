@@ -73,6 +73,7 @@ export class RewardsService {
       earning: s.rewardsEnabled && (plan.state === 'TRIAL' || plan.state === 'ACTIVE'),
       canCollect: s.rewardsEnabled && plan.state === 'ACTIVE',
       rewardsEnabled: s.rewardsEnabled,
+      planPriceKobo: planPriceKobo(s).toString(),
       coinsPerReward: s.coinsPerReward,
       rewardKobo: rewardKobo(s).toString(),
       // How children earn, for the "How your children earn" card (all Overwatch settings).

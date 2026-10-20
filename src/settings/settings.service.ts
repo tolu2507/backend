@@ -48,6 +48,11 @@ export class SettingsService {
         const value = changes[key] as Prisma.InputJsonValue;
         await tx.platformSetting.upsert({ where: { key }, update: { value, updatedById: adminId }, create: { key, value, updatedById: adminId } });
       }
+      // A longer trial reaches parents already on one; a shorter one never cuts a running trial.
+      const longer = typeof changes.trialDays === 'number' ? changes.trialDays - before.trialDays : 0;
+      if (longer > 0) {
+        await tx.$executeRaw`UPDATE "User" SET "trialEndsAt" = "trialEndsAt" + make_interval(days => ${longer}::int) WHERE "trialEndsAt" > now()`;
+      }
       const from = Object.fromEntries(keys.map((k) => [k, before[k as SettingKey]]));
       await tx.auditLog.create({ data: { actorId: adminId, action: 'settings.updated', entityType: 'PlatformSetting', entityId: keys.join(','), meta: { from, to: changes } as Prisma.InputJsonValue } });
     });

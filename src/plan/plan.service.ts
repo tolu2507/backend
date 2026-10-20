@@ -41,7 +41,7 @@ export class PlanService {
   ) {}
 
   /**
-   * The parent's plan. The 21-day trial starts the first time we see a child on the account,
+   * The parent's plan. The free trial starts the first time we see a child on the account,
    * however the child got there (added by the parent, accepted from a school, or created by a school).
    */
   async status(parentId: string, now = new Date()) {
