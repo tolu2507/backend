@@ -336,7 +336,9 @@ model User {
   dateOfBirth    DateTime?
   photoUrl       String?
   lastLoginAt    DateTime?
-  /// Parents: the 21-day free trial ends here. Set when their first child is on the account.
+  /// Parents: when their free trial started (the first time we saw a child on the account).
+  trialStartedAt DateTime?
+  /// Parents: when the trial ends: trialStartedAt + the trial length set in Overwatch, kept in step by SettingsService.
   trialEndsAt    DateTime?
   /// Parents: paid access runs until here. Each ₦1,500 payment adds 30 days.
   paidUntil      DateTime?

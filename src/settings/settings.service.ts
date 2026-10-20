@@ -1,4 +1,4 @@
-import { BadRequestException, Injectable } from '@nestjs/common';
+import { BadRequestException, Injectable, type OnApplicationBootstrap } from '@nestjs/common';
 import type { Prisma, StickerRarity } from '@prisma/client';
 
 import { PrismaService } from '../prisma/prisma.service.js';
@@ -9,10 +9,22 @@ const CACHE_MS = 30_000;
 
 /** Platform settings from Overwatch, falling back to the defaults in settings.ts. */
 @Injectable()
-export class SettingsService {
+export class SettingsService implements OnApplicationBootstrap {
   private cache: { at: number; value: Settings } | null = null;
 
   constructor(private readonly prisma: PrismaService) {}
+
+  /** Trials follow the current setting even if it was changed while this server was down. */
+  async onApplicationBootstrap() {
+    await this.syncTrials(this.prisma, (await this.get()).trialDays);
+  }
+
+  /** Every trial ends at its start + the trial length in Overwatch, so a change reaches parents already on a trial. */
+  private syncTrials(db: Pick<PrismaService, '$executeRaw'>, days: number) {
+    return db.$executeRaw`
+      UPDATE "User" SET "trialEndsAt" = "trialStartedAt" + make_interval(days => ${days}::int)
+      WHERE "trialStartedAt" IS NOT NULL AND "trialEndsAt" IS DISTINCT FROM "trialStartedAt" + make_interval(days => ${days}::int)`;
+  }
 
   async get(): Promise<Settings> {
     if (this.cache && Date.now() - this.cache.at < CACHE_MS) return this.cache.value;
@@ -48,11 +60,7 @@ export class SettingsService {
         const value = changes[key] as Prisma.InputJsonValue;
         await tx.platformSetting.upsert({ where: { key }, update: { value, updatedById: adminId }, create: { key, value, updatedById: adminId } });
       }
-      // A longer trial reaches parents already on one; a shorter one never cuts a running trial.
-      const longer = typeof changes.trialDays === 'number' ? changes.trialDays - before.trialDays : 0;
-      if (longer > 0) {
-        await tx.$executeRaw`UPDATE "User" SET "trialEndsAt" = "trialEndsAt" + make_interval(days => ${longer}::int) WHERE "trialEndsAt" > now()`;
-      }
+      if (typeof changes.trialDays === 'number') await this.syncTrials(tx, changes.trialDays);
       const from = Object.fromEntries(keys.map((k) => [k, before[k as SettingKey]]));
       await tx.auditLog.create({ data: { actorId: adminId, action: 'settings.updated', entityType: 'PlatformSetting', entityId: keys.join(','), meta: { from, to: changes } as Prisma.InputJsonValue } });
     });

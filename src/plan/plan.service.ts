@@ -50,7 +50,7 @@ export class PlanService {
     const hasChildren = (await this.prisma.guardianship.count({ where: { parentId, confirmedAt: { not: null } } })) > 0;
     if (!user.trialEndsAt && hasChildren) {
       // Conditional so two requests at once can't both start (and lengthen) the trial.
-      await this.prisma.user.updateMany({ where: { id: parentId, trialEndsAt: null }, data: { trialEndsAt: addDays(now, s.trialDays) } });
+      await this.prisma.user.updateMany({ where: { id: parentId, trialEndsAt: null }, data: { trialStartedAt: now, trialEndsAt: addDays(now, s.trialDays) } });
       user = await this.prisma.user.findUniqueOrThrow({ where: { id: parentId }, select: { trialEndsAt: true, paidUntil: true } });
     }
     const until = accessUntil(user);

@@ -164,6 +164,7 @@ export class AccountsService {
         photoUrl: null,
         dateOfBirth: null,
         notificationPrefs: Prisma.DbNull,
+        trialStartedAt: null,
         trialEndsAt: null,
         paidUntil: null,
       },

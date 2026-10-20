@@ -78,7 +78,7 @@ describe('Overwatch settings', () => {
     expect((await http().get('/parent/plan').set(auth(parent)).expect(200)).body.priceKobo).toBe('200000'); // the 3,000 wasn't saved
   });
 
-  it('a longer trial reaches parents already on one; a shorter one never cuts a running trial', async () => {
+  it('the trial length controls every trial, including ones already running', async () => {
     await http().put('/admin/settings').set(auth(admin)).send({ changes: { trialDays: 21 } }).expect(200);
     const username = `st${stamp}`.slice(0, 20);
     await http()
@@ -88,14 +88,19 @@ describe('Overwatch settings', () => {
       .expect(201);
     const started = (await http().get('/parent/plan').set(auth(parent)).expect(200)).body;
     expect(started).toMatchObject({ state: 'TRIAL', daysLeft: 21 });
+    const start = new Date(started.trialEndsAt).getTime() - 21 * 86_400_000;
 
     await http().put('/admin/settings').set(auth(admin)).send({ changes: { trialDays: 30 } }).expect(200);
     const longer = (await http().get('/parent/plan').set(auth(parent)).expect(200)).body;
     expect(longer.daysLeft).toBe(30);
-    expect(new Date(longer.trialEndsAt).getTime() - new Date(started.trialEndsAt).getTime()).toBe(9 * 86_400_000);
+    expect(new Date(longer.trialEndsAt).getTime()).toBe(start + 30 * 86_400_000);
 
     await http().put('/admin/settings').set(auth(admin)).send({ changes: { trialDays: 14 } }).expect(200);
-    expect((await http().get('/parent/plan').set(auth(parent)).expect(200)).body.trialEndsAt).toBe(longer.trialEndsAt);
+    const shorter = (await http().get('/parent/plan').set(auth(parent)).expect(200)).body;
+    expect(shorter.daysLeft).toBe(14);
+
+    await http().put('/admin/settings').set(auth(admin)).send({ changes: { trialDays: 0 } }).expect(200);
+    expect((await http().get('/parent/plan').set(auth(parent)).expect(200)).body.state).toBe('FREE');
   });
 
   it('sticker coins follow the rarity settings', async () => {

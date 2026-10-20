@@ -11,7 +11,7 @@ const num = (group: Group, label: string, help: string, unit: string, min: numbe
 export const SETTINGS = {
   planPriceNaira: num('Plan', 'Plan price', 'What parents pay for each paid period, for all their children. New payments only.', '₦', 100, 100_000, 1_500),
   planDays: num('Plan', 'Days per payment', 'How long each payment lasts. Paying early adds this on top of what is left.', 'days', 7, 366, 30),
-  trialDays: num('Plan', 'Free trial', 'Days of the paid plan a new parent gets free. Making it longer also extends trials already running; making it shorter only affects new trials, so nobody’s trial is cut.', 'days', 0, 90, 21),
+  trialDays: num('Plan', 'Free trial', 'Days of the paid plan a parent gets free from when their first child joins. Changing it changes every trial straight away, including ones already running (shorter can end some trials now).', 'days', 0, 90, 21),
 
   freeDailyQuestions: num('Free plan', 'Questions a day', 'Practice questions each child on the free plan gets per day. The Friday mock is always free.', 'questions', 0, 100, 10),
 

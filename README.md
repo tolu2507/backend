@@ -87,8 +87,9 @@ Overwatch → Settings (`GET/PUT /admin/settings`):
 - coins per reward, value of a reward, monthly rewards budget, rewards on/off
 
 Changes apply within 30 seconds, are checked against the limits (a bad batch saves nothing), and are written to the
-activity log with the old values. Price and trial changes affect new payments and new trials only: each payment stores
-its own price and days.
+activity log with the old values. A price change affects new payments only: each payment stores its own price and
+days. The trial length applies to every trial at once: each parent's trial start is stored, and their end date is the
+start plus the current setting (recalculated when it changes and when the API starts).
 
 ### Deleting accounts and privacy requests: `src/admin/accounts.service.ts`
 - **Child:** the profile and all learning data are deleted, then the login. Refused while they have tuck-shop money
