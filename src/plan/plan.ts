@@ -13,7 +13,7 @@ export const FREE_DAILY_QUESTIONS = 10;
 export const COINS_PER_REWARD = 10_000;
 export const REWARD_KOBO = 100_000n; // ₦1,000
 export const COINS = { correct: 10, mock: 200 }; // per new question right; per Friday mock finished
-export const PRACTICE_COINS_PER_DAY = 400;
+export const PRACTICE_COINS_PER_DAY = 100; // about ₦300 a month for a child who practises every day, before stickers
 
 export type PlanDates = { trialEndsAt: Date | null; paidUntil: Date | null };
 

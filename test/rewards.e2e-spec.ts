@@ -127,11 +127,13 @@ describe('Earn while you learn', () => {
     expect(after.filter((b) => b.earned).every((b) => b.seen)).toBe(true);
   });
 
-  it('practice coins stop at 400 a day; sticker coins are not capped', async () => {
+  it('practice coins stop at 100 a day; sticker coins are not capped', async () => {
+    // The round above already earned today's 100 practice coins.
     const capped = await prisma.$transaction((tx) => app.get(GamificationService).awardCoins(tx, childId, 1_000, 'PRACTICE'));
-    expect(capped?.earned).toBe(300); // 100 already earned from practice today
-    const again = await prisma.$transaction((tx) => app.get(GamificationService).awardCoins(tx, childId, 50, 'PRACTICE'));
-    expect(again?.earned).toBe(0);
+    expect(capped?.earned).toBe(0);
+    await prisma.coinEvent.deleteMany({ where: { studentId: childId, reason: 'PRACTICE' } });
+    const fresh = await prisma.$transaction((tx) => app.get(GamificationService).awardCoins(tx, childId, 1_000, 'PRACTICE'));
+    expect(fresh?.earned).toBe(100);
     expect((await give(50))?.earned).toBe(50);
   });
 
