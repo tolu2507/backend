@@ -1,4 +1,4 @@
-import { Body, Controller, Get, HttpCode, Param, Post } from '@nestjs/common';
+import { Body, Controller, Get, HttpCode, Param, ParseUUIDPipe, Post } from '@nestjs/common';
 import { ArrayMaxSize, IsArray, IsObject, IsUUID } from 'class-validator';
 
 import { CurrentUser, Roles, type AuthUser } from '../common/auth.js';
@@ -26,6 +26,11 @@ export class StudentController {
 
   @Get('badges') badges(@CurrentUser() u: AuthUser) {
     return this.students.badges(u.id);
+  }
+
+  /** How rare a collected sticker is, and where the child's collection ranks. */
+  @Get('badges/:id/stats') badgeStats(@CurrentUser() u: AuthUser, @Param('id', ParseUUIDPipe) id: string) {
+    return this.students.badgeStats(u.id, id);
   }
 
   /** The app played the unlock celebration for these stickers. */

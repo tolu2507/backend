@@ -109,6 +109,13 @@ export class StudentService {
     return this.game.stickerBook(p.id);
   }
 
+  async badgeStats(userId: string, badgeId: string) {
+    const p = await this.profile(userId);
+    const stats = await this.game.stickerStats(p.id, badgeId);
+    if (!stats) throw new NotFoundException('Collect this sticker first.');
+    return stats;
+  }
+
   async badgesSeen(userId: string, ids: string[]) {
     const p = await this.profile(userId);
     return this.game.markStickersSeen(p.id, ids);

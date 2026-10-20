@@ -122,6 +122,16 @@ describe('Earn while you learn', () => {
     expect(book.find((b) => b.code === 'RIGHT_25')!.progress).toEqual({ current: 10, target: 25 });
     expect(book.find((b) => b.code === 'MOCK_TOP_10')!.progress).toEqual({ current: 0, target: null });
 
+    // Tapping a collected sticker: how rare it is and where the collection ranks. Counts only, no names.
+    const stats = await http().get(`/me/student/badges/${first.id}/stats`).set(auth(kid)).expect(200);
+    const owners = await prisma.studentBadge.count({ where: { badgeId: first.id } });
+    const collectors = (await prisma.studentBadge.groupBy({ by: ['studentId'] })).length;
+    expect(stats.body).toMatchObject({ owners, collectors, unlockedOrder: owners, myStickers: 2 });
+    expect(stats.body.collectorRank).toBeGreaterThanOrEqual(1);
+    expect(stats.body.percent).toBe(Math.max(1, Math.round((owners / collectors) * 100)));
+    const locked = book.find((b) => !b.earned)!;
+    await http().get(`/me/student/badges/${locked.id}/stats`).set(auth(kid)).expect(404);
+
     await http().post('/me/student/badges/seen').set(auth(kid)).send({ ids: book.filter((b) => b.earned).map((b) => b.id) }).expect(200);
     const after = (await http().get('/me/student/badges').set(auth(kid)).expect(200)).body as typeof book;
     expect(after.filter((b) => b.earned).every((b) => b.seen)).toBe(true);

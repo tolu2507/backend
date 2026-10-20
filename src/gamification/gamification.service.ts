@@ -222,6 +222,32 @@ export class GamificationService implements OnApplicationBootstrap {
     });
   }
 
+  /**
+   * What a collected sticker means: how many children have it, when this child got it compared with them,
+   * and where their whole collection puts them among everyone collecting. Counts only, never other children's names.
+   */
+  async stickerStats(studentId: string, badgeId: string) {
+    const mine = await this.prisma.studentBadge.findUnique({ where: { studentId_badgeId: { studentId, badgeId } } });
+    if (!mine) return null;
+    const [owners, before, myCount, collectors] = await Promise.all([
+      this.prisma.studentBadge.count({ where: { badgeId } }),
+      this.prisma.studentBadge.count({ where: { badgeId, OR: [{ awardedAt: { lt: mine.awardedAt } }, { awardedAt: mine.awardedAt, id: { lt: mine.id } }] } }),
+      this.prisma.studentBadge.count({ where: { studentId } }),
+      this.prisma.studentBadge.groupBy({ by: ['studentId'] }).then((g) => g.length),
+    ]);
+    const ahead = await this.prisma.$queryRaw<{ c: number }[]>`
+      SELECT COUNT(*)::int AS c FROM (SELECT "studentId" FROM "StudentBadge" GROUP BY "studentId" HAVING COUNT(*) > ${myCount}) s`;
+    return {
+      owners,
+      collectors,
+      // Share of children collecting stickers who have this one (at least 1%, so it never reads "0%").
+      percent: Math.max(1, Math.round((owners / Math.max(1, collectors)) * 100)),
+      unlockedOrder: before + 1,
+      myStickers: myCount,
+      collectorRank: (ahead[0]?.c ?? 0) + 1,
+    };
+  }
+
   async markStickersSeen(studentId: string, badgeIds: string[]) {
     await this.prisma.studentBadge.updateMany({ where: { studentId, badgeId: { in: badgeIds }, seenAt: null }, data: { seenAt: new Date() } });
     return { ok: true };
