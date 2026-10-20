@@ -1,11 +1,14 @@
 import { Body, Controller, Get, HttpCode, Param, Post } from '@nestjs/common';
-import { IsObject } from 'class-validator';
+import { ArrayMaxSize, IsArray, IsObject, IsUUID } from 'class-validator';
 
 import { CurrentUser, Roles, type AuthUser } from '../common/auth.js';
 import { StudentService } from './student.service.js';
 
 class AnswersDto {
   @IsObject() answers: Record<string, string>;
+}
+class SeenDto {
+  @IsArray() @ArrayMaxSize(100) @IsUUID('all', { each: true }) ids: string[];
 }
 
 @Roles('STUDENT')
@@ -23,6 +26,11 @@ export class StudentController {
 
   @Get('badges') badges(@CurrentUser() u: AuthUser) {
     return this.students.badges(u.id);
+  }
+
+  /** The app played the unlock celebration for these stickers. */
+  @HttpCode(200) @Post('badges/seen') seen(@CurrentUser() u: AuthUser, @Body() dto: SeenDto) {
+    return this.students.badgesSeen(u.id, dto.ids);
   }
 
   @Get('wallet') wallet(@CurrentUser() u: AuthUser) {

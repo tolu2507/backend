@@ -52,7 +52,7 @@ export class InsightsService {
     const learners = (from: Date, to: Date) => p.$queryRaw<{ c: number }[]>`SELECT COUNT(DISTINCT "studentId")::int AS c FROM "ActivityAttempt" WHERE "completedAt" >= ${from} AND "completedAt" < ${to}`;
     const signups = (from: Date, to?: Date) => p.user.count({ where: { createdAt: { gte: from, ...(to ? { lt: to } : {}) } } });
 
-    const [schools, students, parents, staff, tutors, payNow, payBefore, feeNow, feeBefore, aiNow, aiBefore, learnNow, learnBefore, signNow, signBefore] = await Promise.all([
+    const [schools, students, parents, staff, tutors, payNow, payBefore, feeNow, feeBefore, aiNow, aiBefore, learnNow, learnBefore, signNow, signBefore, plans] = await Promise.all([
       p.school.groupBy({ by: ['status'], _count: true }),
       p.studentProfile.count(),
       p.membership.count({ where: { role: 'PARENT' } }),
@@ -68,6 +68,12 @@ export class InsightsService {
       learners(before, since),
       signups(since),
       signups(before, since),
+      // Parent plans right now. A trial starts when the parent first opens the app with a child on the account.
+      p.$queryRaw<{ paying: number; trial: number; ended: number }[]>`SELECT
+        COUNT(*) FILTER (WHERE "paidUntil" > now())::int AS paying,
+        COUNT(*) FILTER (WHERE "trialEndsAt" > now() AND ("paidUntil" IS NULL OR "paidUntil" <= now()))::int AS trial,
+        COUNT(*) FILTER (WHERE "trialEndsAt" IS NOT NULL AND GREATEST("trialEndsAt", COALESCE("paidUntil", "trialEndsAt")) <= now())::int AS ended
+        FROM "User"`,
     ]);
 
     const [signupDays, payDays, learnDays, aiDays, actDays, byPurpose, bySchoolPay, schoolRows] = await Promise.all([
@@ -112,6 +118,7 @@ export class InsightsService {
         parents,
         staff,
         tutors: { verified: tutorCounts.VERIFIED ?? 0, total: tutors.reduce((a, t) => a + t._count, 0) },
+        plans: plans[0],
       },
       kpis: {
         paymentsKobo: kpi(n(payNow._sum.amountKobo), n(payBefore._sum.amountKobo)),
@@ -388,7 +395,7 @@ export class InsightsService {
       rows: rows.map((w) => ({
         id: w.id,
         type: w.type,
-        owner: w.user ? `${w.user.firstName} ${w.user.lastName}` : w.school?.name ?? 'Nexus (platform)',
+        owner: w.user ? `${w.user.firstName} ${w.user.lastName}` : w.school?.name ?? 'BrainBox (platform)',
         contact: w.user?.email ?? w.user?.phone ?? null,
         school: w.school?.name ?? w.user?.studentProfile?.school?.name ?? null,
         balanceKobo: n(w.balanceKobo),
@@ -414,7 +421,7 @@ export class InsightsService {
     return {
       id: w.id,
       type: w.type,
-      owner: w.user ? `${w.user.firstName} ${w.user.lastName}` : w.school?.name ?? 'Nexus (platform)',
+      owner: w.user ? `${w.user.firstName} ${w.user.lastName}` : w.school?.name ?? 'BrainBox (platform)',
       contact: w.user?.email ?? w.user?.phone ?? null,
       balanceKobo: n(w.balanceKobo),
       isFrozen: w.isFrozen,
@@ -485,7 +492,7 @@ export class InsightsService {
         amountKobo: n(e.amountKobo),
         balanceAfterKobo: n(e.balanceAfter),
         description: e.description,
-        wallet: { id: e.wallet.id, type: e.wallet.type, owner: e.wallet.user ? `${e.wallet.user.firstName} ${e.wallet.user.lastName}` : e.wallet.school?.name ?? 'Nexus (platform)' },
+        wallet: { id: e.wallet.id, type: e.wallet.type, owner: e.wallet.user ? `${e.wallet.user.firstName} ${e.wallet.user.lastName}` : e.wallet.school?.name ?? 'BrainBox (platform)' },
         school: e.school?.name ?? null,
         actor: e.actor ? `${e.actor.firstName} ${e.actor.lastName}` : null,
         reference: e.payment?.reference ?? null,

@@ -40,7 +40,7 @@ afterAll(async () => {
   await prisma.$disconnect();
 });
 
-describe('A school on Nexus', () => {
+describe('A school on BrainBox', () => {
   let admin: string;
   let owner: string;
   let teacher: string;
@@ -222,7 +222,7 @@ describe('A school on Nexus', () => {
     const cash = await http().post(`/school/fees/${invoiceId}/payments`).set(auth(owner)).send({ amountKobo: 7_500_000, method: 'CASH' }).expect(200);
     expect(cash.body.status).toBe('PAID');
     const after = await prisma.wallet.findUniqueOrThrow({ where: { id: wallet.id } });
-    expect(after.balanceKobo).toBe(10_000_000n); // cash went straight to the school, not through Nexus
+    expect(after.balanceKobo).toBe(10_000_000n); // cash went straight to the school, not through BrainBox
   });
 
   it('Overwatch sets the agreement privately and calculates the school’s share', async () => {

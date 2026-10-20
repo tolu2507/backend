@@ -61,7 +61,7 @@ export class SupportService {
       updatedAt: t.updatedAt,
       child: await this.childName(t.studentId),
       requester: who.userId ? undefined : { name: `${t.user.firstName} ${t.user.lastName}`, email: t.user.email, phone: t.user.phone },
-      messages: t.messages.map((m) => ({ id: m.id, body: m.body, fromStaff: m.fromStaff, author: m.fromStaff ? (who.userId ? 'Nexus support' : `${m.author.firstName} ${m.author.lastName}`) : m.author.firstName, createdAt: m.createdAt })),
+      messages: t.messages.map((m) => ({ id: m.id, body: m.body, fromStaff: m.fromStaff, author: m.fromStaff ? (who.userId ? 'BrainBox support' : `${m.author.firstName} ${m.author.lastName}`) : m.author.firstName, createdAt: m.createdAt })),
     };
   }
 
@@ -120,7 +120,7 @@ export class SupportService {
       this.prisma.supportTicket.update({ where: { id }, data: { status: resolve ? 'RESOLVED' : 'WAITING_ON_USER' } }),
       this.prisma.auditLog.create({ data: { actorId: adminId, action: 'support.reply', entityType: 'SupportTicket', entityId: id, meta: { resolve } } }),
     ]);
-    await this.messaging.push([t.userId], { title: 'Nexus support replied', body: body.length > 120 ? `${body.slice(0, 117)}…` : body, url: `/settings/support/${id}` });
+    await this.messaging.push([t.userId], { title: 'BrainBox support replied', body: body.length > 120 ? `${body.slice(0, 117)}…` : body, url: `/settings/support/${id}` });
     return this.thread(id, {});
   }
 

@@ -15,7 +15,7 @@ export class ChargeDto {
 
 export class PhonepayDto {
   @Type(() => Number) @IsInt() @Min(5_000, { message: 'The smallest payment is ₦50.' }) @Max(2_000_000, { message: 'The largest payment is ₦20,000.' }) amountKobo: number;
-  /** Only for a child who isn't in a school on Nexus. */
+  /** Only for a child who isn't in a school on BrainBox. */
   @IsOptional() @IsUUID() schoolId?: string;
   @IsOptional() @Transform(trim) @IsString() @Length(0, 60) note?: string;
   @IsUUID() requestId: string;

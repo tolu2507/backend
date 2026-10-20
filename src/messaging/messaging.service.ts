@@ -83,7 +83,7 @@ export class MessagingService {
     const res = await fetch('https://api.resend.com/emails', {
       method: 'POST',
       headers: { Authorization: `Bearer ${process.env.RESEND_API_KEY}`, 'Content-Type': 'application/json' },
-      body: JSON.stringify({ from: process.env.EMAIL_FROM ?? 'Nexus <onboarding@resend.dev>', to: [to], subject, html, text }),
+      body: JSON.stringify({ from: process.env.EMAIL_FROM ?? 'BrainBox <onboarding@resend.dev>', to: [to], subject, html, text }),
     }).catch((e: Error) => e);
     if (res instanceof Error || !res.ok) {
       this.logger.error(`Email to ${to} failed: ${res instanceof Error ? res.message : `${res.status} ${await res.text()}`}`);
@@ -123,7 +123,7 @@ export class MessagingService {
     if (identifier.includes('@')) {
       return this.email({
         to: identifier,
-        subject: `Your Nexus code: ${code}`,
+        subject: `Your BrainBox code: ${code}`,
         text: `Your code to ${purpose} is ${code}. It expires in 30 minutes. If you didn't ask for this, ignore this email.`,
         html: layout(`<p>Your code to ${purpose} is:</p><p style="font-size:32px;font-weight:800;letter-spacing:6px;margin:16px 0">${code}</p><p>It expires in 30 minutes. If you didn't ask for this, you can ignore this email.</p>`),
       });
@@ -138,6 +138,6 @@ export const esc = (s: string) => s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', 
 /** Minimal branded email wrapper that renders well in Gmail and Outlook. */
 export function layout(body: string) {
   return `<div style="font-family:Arial,Helvetica,sans-serif;max-width:520px;margin:0 auto;padding:24px;color:#17133A;line-height:1.5">
-<div style="font-size:22px;font-weight:800;color:#5B3DF5;margin-bottom:16px">Nexus</div>${body}
-<p style="color:#8A85B0;font-size:12px;margin-top:32px">You're getting this because you have a Nexus account.</p></div>`;
+<div style="font-size:22px;font-weight:800;color:#5B3DF5;margin-bottom:16px">BrainBox</div>${body}
+<p style="color:#8A85B0;font-size:12px;margin-top:32px">You're getting this because you have a BrainBox account.</p></div>`;
 }

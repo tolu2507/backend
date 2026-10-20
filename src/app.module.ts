@@ -16,6 +16,8 @@ import { MessagingModule } from './messaging/messaging.module.js';
 import { MocksModule } from './mocks/mocks.module.js';
 import { ParentModule } from './parent/parent.module.js';
 import { PaymentsModule } from './payments/payments.module.js';
+import { PlanModule } from './plan/plan.module.js';
+import { RewardsModule } from './rewards/rewards.module.js';
 import { PrismaModule } from './prisma/prisma.module.js';
 import { ProgressModule } from './progress/progress.module.js';
 import { RankingsModule } from './rankings/rankings.module.js';
@@ -38,6 +40,8 @@ import { HealthController } from './health.controller.js';
     LedgerModule,
     GamificationModule,
     PaymentsModule,
+    PlanModule,
+    RewardsModule,
     ReportsModule,
     MeModule,
     StudentModule,

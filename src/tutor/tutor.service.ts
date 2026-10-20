@@ -162,7 +162,7 @@ export class TutorService {
 
   private async approved(userId: string) {
     const profile = await this.prisma.tutorProfile.findUnique({ where: { userId } });
-    if (!profile || profile.verificationStatus !== 'VERIFIED') throw new ForbiddenException('This opens once you are Nexus approved.');
+    if (!profile || profile.verificationStatus !== 'VERIFIED') throw new ForbiddenException('This opens once you are BrainBox approved.');
     return profile;
   }
 

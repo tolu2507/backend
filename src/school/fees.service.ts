@@ -88,7 +88,7 @@ export class FeesService {
     return { created: created.count, skipped: enrolments.length - created.count, totalKobo: total };
   }
 
-  /** Cash, transfer or POS paid straight to the school. Only the invoice changes; no money moves through Nexus. */
+  /** Cash, transfer or POS paid straight to the school. Only the invoice changes; no money moves through BrainBox. */
   async recordPayment(a: SchoolActor, invoiceId: string, dto: RecordPaymentDto) {
     requireAdmin(a);
     const inv = await this.prisma.feeInvoice.findFirst({ where: { id: invoiceId, schoolId: a.schoolId } });

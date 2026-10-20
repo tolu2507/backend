@@ -5,6 +5,7 @@ import { randomBytes } from 'node:crypto';
 import { formatNaira } from '../common/money.js';
 import { LedgerService } from '../ledger/ledger.service.js';
 import { MessagingService } from '../messaging/messaging.service.js';
+import { PLAN_PRICE_KOBO, extendedPaidUntil } from '../plan/plan.js';
 import { PrismaService } from '../prisma/prisma.service.js';
 import { SquadService } from './squad.service.js';
 
@@ -84,6 +85,16 @@ export class PaymentsService {
     return { reference, checkoutUrl };
   }
 
+  /** The parent's BrainBox plan: ₦1,500 for 30 days, covering all their children. */
+  async startSubscription(origin: string, parentId: string) {
+    const reference = this.reference('SUB');
+    await this.prisma.payment.create({
+      data: { reference, payerId: parentId, purpose: 'SUBSCRIPTION', amountKobo: PLAN_PRICE_KOBO, metadata: { plan: 'MONTHLY' } },
+    });
+    const checkoutUrl = await this.squad.initiate({ amountKobo: PLAN_PRICE_KOBO, email: await this.payerEmail(parentId), reference, callbackUrl: this.callbackUrl(origin, reference) });
+    return { reference, checkoutUrl };
+  }
+
   /** Asks Squad about a payment and, if it succeeded, applies it exactly once. */
   async verify(reference: string, userId?: string) {
     const payment = await this.prisma.payment.findUnique({ where: { reference } });
@@ -149,11 +160,26 @@ export class PaymentsService {
           this.logger.error(`OVERPAYMENT: payment ${payment.reference} paid ${formatNaira(payment.amountKobo - applied)} more than invoice ${inv.id} owed. Refund it from Overwatch/Squad.`);
           await tx.auditLog.create({ data: { action: 'fee.overpaid', entityType: 'Payment', entityId: payment.id, schoolId: inv.schoolId, meta: { excessKobo: String(payment.amountKobo - applied) } } });
         }
+      } else if (payment.purpose === 'SUBSCRIPTION') {
+        const platform = await this.ledger.platformWallet(tx, 'PLATFORM_REVENUE');
+        await this.ledger.post(tx, {
+          walletId: platform.id,
+          amountKobo: payment.amountKobo,
+          type: 'PURCHASE',
+          stream: 'SUBSCRIPTION',
+          description: 'BrainBox plan, 30 days',
+          paymentId: payment.id,
+          actorId: payment.payerId,
+          idempotencyKey: `payment:${payment.id}`,
+        });
+        // Lock the parent row so two payments clearing at once each add their own 30 days.
+        const [parent] = await tx.$queryRaw<{ trialEndsAt: Date | null; paidUntil: Date | null }[]>`SELECT "trialEndsAt", "paidUntil" FROM "User" WHERE id = ${payment.payerId} FOR UPDATE`;
+        await tx.user.update({ where: { id: payment.payerId }, data: { paidUntil: extendedPaidUntil(parent) } });
       }
     });
     this.logger.log(`Payment ${payment.reference} applied (${payment.purpose})`);
     const what = { WALLET_TOPUP: 'Wallet top-up', TUTOR_SESSION: 'Lesson payment', SCHOOL_FEE: 'School fees', SUBSCRIPTION: 'Subscription' }[payment.purpose];
-    this.messaging.notify([payment.payerId], 'payments', { title: 'Payment received', body: `${what} of ${formatNaira(payment.amountKobo)} went through.`, url: '/parent/wallet' });
+    this.messaging.notify([payment.payerId], 'payments', { title: 'Payment received', body: `${what} of ${formatNaira(payment.amountKobo)} went through.`, url: payment.purpose === 'SUBSCRIPTION' ? '/parent/plan' : '/parent/wallet' });
   }
 
   async handleWebhook(rawBody: Buffer | undefined, signature: string | undefined, body: { Event?: string; TransactionRef?: string }) {

@@ -33,14 +33,14 @@ export class LedgerService {
     return tx.wallet.upsert({ where: { userId_type: { userId, type } }, update: {}, create: { userId, type } });
   }
 
-  /** What Nexus owes a school: fees parents paid through the app, waiting for payout. */
+  /** What BrainBox owes a school: fees parents paid through the app, waiting for payout. */
   async schoolWallet(tx: Tx, schoolId: string) {
     return tx.wallet.upsert({ where: { schoolId_type: { schoolId, type: 'SCHOOL_REVENUE' } }, update: {}, create: { schoolId, type: 'SCHOOL_REVENUE' } });
   }
 
   /**
    * Applies money to a fee invoice. Online payments (paymentId set) are credited to the school's
-   * wallet because Nexus collected them; cash/transfer the school took directly only updates the invoice.
+   * wallet because BrainBox collected them; cash/transfer the school took directly only updates the invoice.
    */
   async payInvoice(tx: Tx, input: { invoiceId: string; amountKobo: bigint; paymentId?: string; actorId: string; description: string }) {
     const inv = await tx.feeInvoice.findUniqueOrThrow({ where: { id: input.invoiceId } });
@@ -120,7 +120,7 @@ export class LedgerService {
 
   /**
    * Lesson happened: move the session's money out of escrow. The tutor gets their fee,
-   * Nexus keeps the service charge. Safe to call twice — the second call does nothing.
+   * BrainBox keeps the service charge. Safe to call twice — the second call does nothing.
    */
   async releaseEscrow(sessionId: string, reason: string) {
     return this.prisma.$transaction(async (tx) => {

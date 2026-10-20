@@ -2,13 +2,17 @@ import { Body, Controller, Get, HttpCode, Param, Patch, Post, Put } from '@nestj
 
 import { CurrentUser, PARENT_ROLES, Roles, type AuthUser } from '../common/auth.js';
 import { RequestOrigin } from '../common/origin.js';
+import { PlanService } from '../plan/plan.service.js';
 import { BookDto, ChangePinDto, CreateChildDto, DailyLimitDto, DisputeDto, PayInvoiceDto, TopupDto, TutorRequestDto } from './parent.dto.js';
 import { ParentService } from './parent.service.js';
 
 @Roles(...PARENT_ROLES)
 @Controller('parent')
 export class ParentController {
-  constructor(private readonly parents: ParentService) {}
+  constructor(
+    private readonly parents: ParentService,
+    private readonly plan: PlanService,
+  ) {}
 
   @Get('children') children(@CurrentUser() u: AuthUser) {
     return this.parents.children(u.id);
@@ -34,7 +38,8 @@ export class ParentController {
     return this.parents.changePin(u.id, id, dto.pin);
   }
 
-  @Get('children/:id/reports/latest') report(@CurrentUser() u: AuthUser, @Param('id') id: string) {
+  @Get('children/:id/reports/latest') async report(@CurrentUser() u: AuthUser, @Param('id') id: string) {
+    await this.plan.assertParentAccess(u.id);
     return this.parents.report(u.id, id);
   }
 

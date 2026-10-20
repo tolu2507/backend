@@ -49,7 +49,7 @@ const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 async function get(url: string): Promise<string | null> {
   for (let attempt = 1; attempt <= 3; attempt++) {
     try {
-      const res = await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0 (Nexus past-paper research)' } });
+      const res = await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0 (BrainBox past-paper research)' } });
       await sleep(DELAY_MS);
       if (res.status === 404) return null;
       if (res.ok) return await res.text();

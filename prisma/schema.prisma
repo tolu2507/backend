@@ -1,4 +1,4 @@
-// Nexus — schema v2
+// BrainBox — schema v2
 //
 // Four products share one database:
 //   1. School CRM       (schools, classes, attendance, results, fees)
@@ -118,6 +118,33 @@ enum XpReason {
   ADJUSTMENT
 }
 
+enum StickerRarity {
+  COMMON
+  RARE
+  EPIC
+  LEGENDARY
+}
+
+enum CoinReason {
+  PRACTICE
+  MOCK
+  STICKER
+  CONVERTED // 10,000 coins turned into ₦100 for the family
+}
+
+enum RewardKind {
+  AIRTIME
+  DATA
+}
+
+enum RedemptionStatus {
+  SENDING // money taken from the rewards wallet, Squad not answered yet
+  PENDING // Squad accepted it and is still delivering
+  SUCCESS
+  FAILED // refunded to the rewards wallet
+  CHECK // Squad's answer never arrived: Overwatch checks the Squad dashboard and settles it
+}
+
 enum LeagueTier {
   BRONZE
   SILVER
@@ -133,7 +160,7 @@ enum TeachingMode {
 
 enum VerificationStatus {
   PENDING
-  VERIFIED // shown to parents as "Nexus approved"
+  VERIFIED // shown to parents as "BrainBox approved"
   REJECTED
 }
 
@@ -208,6 +235,7 @@ enum WalletType {
   SCHOOL_REVENUE
   PLATFORM_REVENUE
   ESCROW // parent payments held until a tutor session happens
+  REWARDS // a parent's airtime/data money, earned by their children's coins
 }
 
 enum RevenueStream {
@@ -228,6 +256,8 @@ enum LedgerEntryType {
   PAYOUT
   REFUND
   ADJUSTMENT
+  REWARD_EARNED
+  REWARD_REDEEMED
 }
 
 enum PaymentPurpose {
@@ -306,7 +336,12 @@ model User {
   dateOfBirth    DateTime?
   photoUrl       String?
   lastLoginAt    DateTime?
+  /// Parents: the 21-day free trial ends here. Set when their first child is on the account.
+  trialEndsAt    DateTime?
+  /// Parents: paid access runs until here. Each ₦1,500 payment adds 30 days.
+  paidUntil      DateTime?
   createdAt      DateTime  @default(now())
+  rewardRedemptions    RewardRedemption[]
   updatedAt      DateTime  @updatedAt
 
   memberships          Membership[]
@@ -590,6 +625,9 @@ model StudentProfile {
 
   // Gamification counters (derived from XpEvent; cached for fast reads)
   xpTotal        Int       @default(0)
+  coins          Int       @default(0) // towards the next ₦100 for the family
+  coinsTotal     Int       @default(0) // every coin ever earned
+  perfectRounds  Int       @default(0) // practice rounds of 5+ counted answers, all right
   currentStreak  Int       @default(0)
   longestStreak  Int       @default(0)
   lastActiveDate DateTime? @db.Date
@@ -608,6 +646,7 @@ model StudentProfile {
   attempts        ActivityAttempt[]
   xpEvents        XpEvent[]
   badges          StudentBadge[]
+  coinEvents      CoinEvent[]
   leagueEntries   LeagueEntry[]
   weeklyReports   WeeklyReport[]
   invoices        FeeInvoice[]
@@ -822,6 +861,10 @@ model Badge {
   description String
   iconUrl     String?
   criteria    Json
+  rarity      StickerRarity @default(COMMON)
+  coins       Int           @default(0) // given when it's unlocked
+  icon        String? // Ionicons name the apps draw it with
+  sortOrder   Int           @default(0)
 
   awards StudentBadge[]
 }
@@ -830,12 +873,50 @@ model StudentBadge {
   id        String   @id @default(uuid())
   studentId String
   badgeId   String
-  awardedAt DateTime @default(now())
+  awardedAt DateTime  @default(now())
+  /// Set once the app has played the unlock celebration.
+  seenAt    DateTime?
 
   student StudentProfile @relation(fields: [studentId], references: [id], onDelete: Cascade)
   badge   Badge          @relation(fields: [badgeId], references: [id])
 
   @@unique([studentId, badgeId])
+}
+
+model CoinEvent {
+  id        String     @id @default(uuid())
+  studentId String
+  amount    Int // negative when converted to naira
+  reason    CoinReason
+  refId     String? // topic, mock sitting, badge or ledger entry
+  createdAt DateTime   @default(now())
+
+  student StudentProfile @relation(fields: [studentId], references: [id], onDelete: Cascade)
+
+  @@index([studentId, reason, createdAt])
+}
+
+/// Airtime or data a parent collects from their rewards wallet, sent through Squad.
+model RewardRedemption {
+  id           String           @id @default(uuid())
+  parentId     String
+  kind         RewardKind
+  network      String // MTN, GLO, AIRTEL, 9MOBILE
+  phone        String // 11 digits, e.g. 08031234567
+  planCode     String? // data only
+  planName     String? // e.g. "1GB, 7 days"
+  amountKobo   BigInt
+  status       RedemptionStatus @default(SENDING)
+  providerRef  String?
+  providerMeta Json?
+  error        String?
+  createdAt    DateTime         @default(now())
+  completedAt  DateTime?
+
+  parent User @relation(fields: [parentId], references: [id])
+
+  @@index([parentId, createdAt])
+  @@index([status, createdAt])
 }
 
 /// Weekly league of ~30 students of a similar level (Duolingo-style).
@@ -944,7 +1025,7 @@ model TutorApplication {
   @@index([status, createdAt])
 }
 
-/// A subject competency test set by the Nexus team (platform admins).
+/// A subject competency test set by the BrainBox team (platform admins).
 model VettingTest {
   id              String         @id @default(uuid())
   subject         String
@@ -1382,7 +1463,7 @@ enum ExamBody {
 enum QuestionOrigin {
   GENERATED // written by AI from the exam's pattern, then checked
   TEMPLATE // numbers and names filled in from a QuestionTemplate
-  AUTHORED // written by the Nexus team
+  AUTHORED // written by the BrainBox team
 }
 
 enum QuestionStatus {

@@ -1,4 +1,4 @@
-# Nexus API
+# BrainBox API
 
 NestJS + Prisma API that serves the school web app (`../frontend`) and the mobile app (`../mobile`).
 
@@ -36,7 +36,7 @@ Rules baked into the design:
 - Money is **kobo in BigInt**, never Float. Serialise BigInt as a string in JSON responses.
 - Every money movement is a `LedgerEntry`. Wallet balance updates happen in the same transaction, using a conditional update so a balance can't go negative (no double-spend).
 - `TUTORING` revenue is never shared with schools. Revenue share statements sum only the agreement's `sharedStreams`.
-- Parents see "Nexus approved" (`TutorProfile.verificationStatus = VERIFIED`), never where a tutor works.
+- Parents see "BrainBox approved" (`TutorProfile.verificationStatus = VERIFIED`), never where a tutor works.
 
 ## Endpoints the mobile app expects
 
@@ -61,7 +61,7 @@ Used for password reset codes (when someone signs in with email) and Friday week
 3. In WhatsApp Manager create and get approval for two templates (language English):
    - `nexus_code`: category **Authentication**, "Copy code" button. Used for reset codes to phone numbers.
    - `weekly_report`: category **Utility**, body:
-     `Hi {{1}}, {{2}}'s weekly Nexus report is ready: {{3}}. Open the Nexus app to see the full report.`
+     `Hi {{1}}, {{2}}'s weekly BrainBox report is ready: {{3}}. Open the BrainBox app to see the full report.`
 4. Meta charges per message delivered (roughly ₦10–14 to a Nigerian number in 2026). Weekly reports
    only go by WhatsApp to parents who switch on "Also on WhatsApp" in the app.
 

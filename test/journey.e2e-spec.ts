@@ -1,5 +1,5 @@
 /**
- * The whole Nexus journey through the real HTTP API and a real Postgres database (nexus_test).
+ * The whole BrainBox journey through the real HTTP API and a real Postgres database (nexus_test).
  * Only Squad is replaced, because a test can't type a card number into Squad's checkout page.
  *
  *   createdb nexus_test && DATABASE_URL=…/nexus_test pnpm prisma migrate reset --force
@@ -57,7 +57,7 @@ afterAll(async () => {
 
 const auth = (token: string) => ({ Authorization: `Bearer ${token}` });
 
-describe('Nexus journey', () => {
+describe('BrainBox journey', () => {
   let parent: string;
   let child: { id: string; username: string };
   let kid: string;

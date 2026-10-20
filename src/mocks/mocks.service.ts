@@ -5,6 +5,7 @@ import type { ExamBody, MockExam, MockSitting, Prisma } from '@prisma/client';
 import { addDays, lagosMidnightInstant, weekStart } from '../common/dates.js';
 import { EXAM_BODIES, EXAM_CATALOG } from '../exams/exam-catalog.js';
 import { GamificationService } from '../gamification/gamification.service.js';
+import { COINS } from '../plan/plan.js';
 import { MessagingService } from '../messaging/messaging.service.js';
 import { PrismaService } from '../prisma/prisma.service.js';
 
@@ -303,7 +304,7 @@ export class MocksService implements OnApplicationBootstrap {
         });
         await tx.examQuestion.update({ where: { id }, data: { timesServed: { increment: 1 }, timesCorrect: { increment: ok ? 1 : 0 } } });
       }
-      await this.game.awardXp(tx, s.studentId, XP_FINISH + correct, 'ACTIVITY', s.id);
+      await this.game.awardXp(tx, s.studentId, XP_FINISH + correct, 'ACTIVITY', s.id, { amount: COINS.mock, reason: 'MOCK' });
     });
   }
 
@@ -371,6 +372,10 @@ export class MocksService implements OnApplicationBootstrap {
     updates.push(this.prisma.mockExam.update({ where: { id: mock.id }, data: { status: 'RESULTS_OUT' } }));
     await this.prisma.$transaction(updates);
     this.log.log(`${mock.title}: results out for ${n} candidates`);
+    // Ranks are final: hand out mock stickers. The app celebrates them next time each child opens it.
+    for (const s of sittings) {
+      await this.prisma.$transaction((tx) => this.game.checkStickers(tx, s.studentId)).catch((e: Error) => this.log.error(`Mock stickers for ${s.studentId} failed: ${e.message}`));
+    }
 
     for (const [i, s] of sittings.entries()) {
       const subjects = Object.keys((s.subjectScores as Record<string, SubjectScore> | null) ?? {}).length;

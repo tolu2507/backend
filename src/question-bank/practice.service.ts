@@ -2,6 +2,7 @@ import { BadRequestException, ForbiddenException, Injectable, NotFoundException 
 import type { Prisma } from '@prisma/client';
 
 import { GamificationService } from '../gamification/gamification.service.js';
+import { COINS } from '../plan/plan.js';
 import { PrismaService } from '../prisma/prisma.service.js';
 
 export const ROUND_SIZE = 10;
@@ -146,8 +147,11 @@ export class PracticeService {
     return { node, examSubjectId: topic.examSubjectId, exam: m.subject.exam };
   }
 
-  /** A round of up to 10: due reviews first, then unseen questions at the student's level (nearby levels if those run out). */
-  async round(studentId: string, topicId: string) {
+  /**
+   * A round of up to 10: due reviews first, then unseen questions at the student's level (nearby levels if those run out).
+   * `allowance` caps it for children on the free plan (null: no cap).
+   */
+  async round(studentId: string, topicId: string, allowance: number | null = null) {
     const { node, exam } = await this.node(studentId, topicId);
     const boss = node.level === TOP_LEVEL && !node.bossBeaten;
     const now = new Date();
@@ -193,7 +197,9 @@ export class PracticeService {
       level: node.level,
       boss,
       nursery: reveal,
-      questions: shuffle(picked).map(({ q, review }) => ({
+      questions: shuffle(picked)
+        .slice(0, allowance ?? ROUND_SIZE)
+        .map(({ q, review }) => ({
         id: q.id,
         prompt: q.stem,
         options: shuffle(q.options as Option[]),
@@ -263,7 +269,9 @@ export class PracticeService {
           update: { level: levelAfter, mastery, answered: { increment: counted.length }, correct: { increment: right }, ...(bossBeatenNow ? { bossBeaten: true } : {}) },
         });
       }
-      return this.game.awardXp(tx, studentId, xpEarned, 'ACTIVITY', topicId);
+      if (counted.length >= MIN_TO_LEVEL && right === counted.length) await tx.studentProfile.update({ where: { id: studentId }, data: { perfectRounds: { increment: 1 } } });
+      const newRight = results.filter((r) => r.correct && r.kind === 'new').length;
+      return this.game.awardXp(tx, studentId, xpEarned, 'ACTIVITY', topicId, { amount: newRight * COINS.correct, reason: 'PRACTICE' });
     });
 
     return {

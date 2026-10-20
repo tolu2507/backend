@@ -1,7 +1,7 @@
 import type { EducationLevel, ExamBody } from '@prisma/client';
 
 /**
- * The exams Nexus prepares students for, each with its subjects and the rules for choosing them.
+ * The exams BrainBox prepares students for, each with its subjects and the rules for choosing them.
  * Subject slugs match the past-paper sources so analysis can join on them. Synced into
  * ExamSubject when the API starts (ExamsService.onApplicationBootstrap).
  */

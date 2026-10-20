@@ -107,7 +107,7 @@ export class TuckShopService {
     if (!schoolId) throw new BadRequestException('Pick the school you’re paying.');
     if (student.schoolId && dto.schoolId && dto.schoolId !== student.schoolId) throw new BadRequestException('You can only pay your own school’s tuck shop.');
     const school = student.schoolId ? student.school : await this.prisma.school.findUnique({ where: { id: schoolId } });
-    if (!school || school.status !== 'ACTIVE') throw new BadRequestException('That school isn’t taking payments on Nexus.');
+    if (!school || school.status !== 'ACTIVE') throw new BadRequestException('That school isn’t taking payments on BrainBox.');
     const done = await this.alreadyDone(dto.requestId, userId, userId);
     if (done) return { ...done, schoolName: school.name };
     const receipt = await this.spend({ student, schoolId, actorId: userId, amount: BigInt(dto.amountKobo), note: dto.note, requestId: dto.requestId });
@@ -150,7 +150,7 @@ export class TuckShopService {
         if (amount > left) {
           throw new BadRequestException(
             left <= 0n
-              ? `${fromPhone ? 'You’ve' : `${firstName} has`} reached today’s limit of ${formatNaira(limit)}. A parent can change it in the Nexus app.`
+              ? `${fromPhone ? 'You’ve' : `${firstName} has`} reached today’s limit of ${formatNaira(limit)}. A parent can change it in the BrainBox app.`
               : `${fromPhone ? 'You' : firstName} can spend ${formatNaira(left)} more today (daily limit ${formatNaira(limit)}).`,
           );
         }
@@ -184,7 +184,7 @@ export class TuckShopService {
       const minutes = Math.ceil((user.pinLockedUntil.getTime() - Date.now()) / 60_000);
       throw new ForbiddenException(`Too many wrong PINs. ${user.firstName} can try again in ${minutes} minute${minutes === 1 ? '' : 's'}, or a parent can reset the PIN.`);
     }
-    if (!user.pinHash) throw new BadRequestException(`${user.firstName} doesn’t have a PIN yet. A parent can set one in the Nexus app, or the school office can.`);
+    if (!user.pinHash) throw new BadRequestException(`${user.firstName} doesn’t have a PIN yet. A parent can set one in the BrainBox app, or the school office can.`);
 
     if (await bcrypt.compare(pin, user.pinHash)) {
       await this.prisma.user.updateMany({ where: { id: user.id, pinFailures: { gt: 0 } }, data: { pinFailures: 0 } });

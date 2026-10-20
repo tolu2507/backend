@@ -401,13 +401,13 @@ export class SchoolService {
   private async notifyParent(schoolId: string, parentId: string, claimed: boolean, firstName: string, childName: string, username?: string, pin?: string): Promise<ParentNotice> {
     const school = await this.prisma.school.findUniqueOrThrow({ where: { id: schoolId } });
     if (claimed) {
-      await this.messaging.push([parentId], { title: `${school.name} added you as ${firstName}’s parent`, body: 'Open Nexus to accept, or tell us it isn’t you.', url: '/parent' });
+      await this.messaging.push([parentId], { title: `${school.name} added you as ${firstName}’s parent`, body: 'Open BrainBox to accept, or tell us it isn’t you.', url: '/parent' });
       return { status: 'AWAITING_PARENT', sent: false };
     }
     const extra =
       username && pin
         ? {
-            text: `${childName} can sign in to the Nexus app with username ${username} and PIN ${pin}. You can change the PIN in your app.\n\nIn the app, open Privacy to switch on weekly AI progress reports for ${firstName}.`,
+            text: `${childName} can sign in to the BrainBox app with username ${username} and PIN ${pin}. You can change the PIN in your app.\n\nIn the app, open Privacy to switch on weekly AI progress reports for ${firstName}.`,
             html: `<p style="background:#F4F2FF;padding:12px;border-radius:12px"><b>${esc(childName)}</b> signs in with username <b>${username}</b> and PIN <b>${pin}</b>. You can change the PIN in your app.</p><p>Then open <b>Privacy</b> in the app to switch on weekly AI progress reports.</p>`,
           }
         : { text: `${firstName} is now linked to your account.`, html: `<p><b>${esc(firstName)}</b> is now linked to your account.</p>` };
@@ -422,7 +422,7 @@ export class SchoolService {
     const s = await this.assertStudent(a, studentId);
     const link = await this.prisma.guardianship.findUnique({ where: { parentId_studentId: { parentId, studentId } }, include: { parent: true } });
     if (!link) throw new NotFoundException('That parent isn’t linked to this student.');
-    if (link.parent.passwordHash && link.confirmedAt) throw new BadRequestException(`${link.parent.firstName} already uses the Nexus app. They can reset their password from the sign-in screen.`);
+    if (link.parent.passwordHash && link.confirmedAt) throw new BadRequestException(`${link.parent.firstName} already uses the BrainBox app. They can reset their password from the sign-in screen.`);
     return this.notifyParent(a.schoolId, parentId, !!link.parent.passwordHash, s.user.firstName, `${s.user.firstName} ${s.user.lastName}`);
   }
 

@@ -1,5 +1,5 @@
 /**
- * Loads the content Nexus needs to work: badges, platform wallets, student quests,
+ * Loads the content BrainBox needs to work: badges, platform wallets, student quests,
  * tutor subject tests and one Overwatch admin. Safe to run repeatedly.
  *   pnpm db:seed
  */

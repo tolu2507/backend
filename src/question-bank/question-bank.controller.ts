@@ -4,6 +4,7 @@ import { ArrayMaxSize, ArrayMinSize, IsArray, IsBoolean, IsIn, IsInt, IsObject, 
 import { ExamBody, QuestionOrigin, QuestionStatus } from '@prisma/client';
 
 import { CurrentUser, Roles, type AuthUser } from '../common/auth.js';
+import { PlanService } from '../plan/plan.service.js';
 import { PracticeService } from './practice.service.js';
 import { QuestionBankService } from './question-bank.service.js';
 
@@ -25,14 +26,18 @@ class ReportDto {
 @Roles('STUDENT')
 @Controller('me/student/practice')
 export class PracticeController {
-  constructor(private readonly practice: PracticeService) {}
+  constructor(
+    private readonly practice: PracticeService,
+    private readonly plan: PlanService,
+  ) {}
 
   @Get('subjects/:id') async map(@CurrentUser() u: AuthUser, @Param('id', ParseUUIDPipe) id: string) {
     return this.practice.map(await this.practice.studentByUser(u.id), id);
   }
 
   @HttpCode(200) @Post('rounds') async round(@CurrentUser() u: AuthUser, @Body() dto: RoundDto) {
-    return this.practice.round(await this.practice.studentByUser(u.id), dto.topicId);
+    const studentId = await this.practice.studentByUser(u.id);
+    return this.practice.round(studentId, dto.topicId, await this.plan.practiceAllowance(studentId));
   }
 
   @HttpCode(200) @Post('rounds/submit') async submit(@CurrentUser() u: AuthUser, @Body() dto: SubmitRoundDto) {

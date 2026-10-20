@@ -57,7 +57,7 @@ export class AdminService {
       this.prisma.auditLog.create({ data: { actorId: adminId, action: approve ? 'tutor.approve' : 'tutor.reject', entityType: 'TutorApplication', entityId: app.id, meta: { note } } }),
     ]);
     // Always tell them: this is the news they've been waiting for, so it ignores notification settings.
-    const title = approve ? 'You’re Nexus approved!' : 'Your Nexus application';
+    const title = approve ? 'You’re BrainBox approved!' : 'Your BrainBox application';
     const body = approve ? 'Parents can now find and book you. Open the app to set your availability.' : 'Thanks for applying. This time we couldn’t approve your application.';
     await this.messaging.push([app.applicantId], { title, body, url: '/tutor' });
     if (app.applicant.email) {
@@ -79,7 +79,7 @@ export class AdminService {
         const raw = (payment.rawWebhook ?? {}) as { gateway_transaction_ref?: string; gateway_ref?: string };
         const gatewayRef = raw.gateway_transaction_ref ?? raw.gateway_ref;
         if (!gatewayRef) throw new BadRequestException('This payment has no Squad gateway reference. Refund it from the Squad dashboard, then mark it here.');
-        ({ refundReference } = await this.squad.refund({ transactionRef: payment.reference, gatewayRef, reason: 'Lesson dispute upheld by Nexus' }));
+        ({ refundReference } = await this.squad.refund({ transactionRef: payment.reference, gatewayRef, reason: 'Lesson dispute upheld by BrainBox' }));
       }
       await this.ledger.refundEscrow(s.id, refundReference);
     }

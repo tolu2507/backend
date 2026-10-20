@@ -28,11 +28,11 @@ export class PaymentsController {
   @Header('Content-Type', 'text/html; charset=utf-8')
   returnPage(@Query('ref') ref = '') {
     const safe = ref.replace(/[^A-Z0-9-]/gi, '');
-    const deepLink = `nexus://payment?ref=${safe}`;
+    const deepLink = `brainbox://payment?ref=${safe}`;
     return `<!doctype html><html><head><meta name="viewport" content="width=device-width,initial-scale=1"><title>Payment received</title>
 <style>body{font-family:system-ui,sans-serif;background:#F5F4FB;color:#17133A;display:grid;place-items:center;min-height:100vh;margin:0;padding:24px;text-align:center}
 a{display:inline-block;margin-top:16px;background:#5B3DF5;color:#fff;padding:14px 22px;border-radius:14px;text-decoration:none;font-weight:700}</style></head>
-<body><div><h1>Thanks! Returning to Nexus…</h1><p>If nothing happens, tap the button.</p><a href="${deepLink}">Back to the app</a></div>
+<body><div><h1>Thanks! Returning to BrainBox…</h1><p>If nothing happens, tap the button.</p><a href="${deepLink}">Back to the app</a></div>
 <script>location.href=${JSON.stringify(deepLink)}</script></body></html>`;
   }
 }

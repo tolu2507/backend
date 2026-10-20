@@ -5,6 +5,7 @@ import { AiService } from '../ai/ai.service.js';
 import { addDays, lagosMidnightInstant, weekLabel, weekStart } from '../common/dates.js';
 import { DEFAULT_PREFS, type NotificationPrefs } from '../messaging/prefs.js';
 import { esc, layout, MessagingService } from '../messaging/messaging.service.js';
+import { PlanService } from '../plan/plan.service.js';
 import { PrismaService } from '../prisma/prisma.service.js';
 
 const STALE_AFTER_MS = 3 * 60 * 60 * 1000; // a week-to-date report refreshes at most every 3 hours
@@ -32,6 +33,7 @@ export class ReportsService {
     private readonly prisma: PrismaService,
     private readonly ai: AiService,
     private readonly messaging: MessagingService,
+    private readonly plan: PlanService,
   ) {}
 
   /** Collects the real facts for one student's week. Returns null when there's nothing to report. */
@@ -67,7 +69,7 @@ export class ReportsService {
       bySubject.set(subject, s);
     };
     for (const r of results) add(r.assessment.classSubject.subject.name, r.score / r.assessment.maxScore, 'school test');
-    for (const a of attempts) if (a.score != null) add(a.activity.subject, a.score, 'Nexus quests');
+    for (const a of attempts) if (a.score != null) add(a.activity.subject, a.score, 'BrainBox quests');
     for (const q of quizzes) if (q.score != null) add(q.session.booking.request?.subject ?? q.title.split(' · ')[0], q.score, 'lesson quiz');
 
     return {
@@ -167,10 +169,14 @@ export class ReportsService {
     let made = 0;
     for (const s of students) {
       try {
+        // Reports are for parents on a trial or plan; skipping the rest also saves the AI cost.
+        const parents: string[] = [];
+        for (const g of s.guardians) if (await this.plan.parentHasAccess(g.parentId)) parents.push(g.parentId);
+        if (!parents.length) continue;
         const report = await this.generate(s.id);
         if (!report) continue;
         made++;
-        for (const g of s.guardians) await this.deliver(report.id, g.parentId);
+        for (const parentId of parents) await this.deliver(report.id, parentId);
       } catch (e) {
         this.logger.error(`Report for ${s.id} failed: ${(e as Error).message}`);
       }
@@ -207,13 +213,13 @@ export class ReportsService {
         this.messaging.email({
           to: parent.email!,
           subject: `${child}'s week: ${headline}`,
-          text: [`Hi ${parent.firstName},`, '', headline, report.summary ?? '', m.attendance ? `Attendance: ${m.attendance.present}/${m.attendance.total} days` : '', ...m.subjects.map((x) => `${x.name}: ${x.score}%`), tip ? `\nThis week at home: ${tip}` : '', '', 'Open the Nexus app for the full report.'].filter(Boolean).join('\n'),
+          text: [`Hi ${parent.firstName},`, '', headline, report.summary ?? '', m.attendance ? `Attendance: ${m.attendance.present}/${m.attendance.total} days` : '', ...m.subjects.map((x) => `${x.name}: ${x.score}%`), tip ? `\nThis week at home: ${tip}` : '', '', 'Open the BrainBox app for the full report.'].filter(Boolean).join('\n'),
           html: layout(
             `<p>Hi ${esc(parent.firstName)},</p><h2 style="margin:8px 0">${esc(headline)}</h2><p>${esc(report.summary ?? '').replace(/\n/g, '<br>')}</p>` +
               (m.attendance ? `<p><b>Attendance:</b> ${m.attendance.present} of ${m.attendance.total} days</p>` : '') +
               (rows ? `<table style="margin:8px 0">${rows}</table>` : '') +
               (tip ? `<p style="background:#E2F5EF;padding:12px;border-radius:12px"><b>This week at home:</b> ${esc(tip)}</p>` : '') +
-              `<p>Open the Nexus app for the full report.</p>`,
+              `<p>Open the BrainBox app for the full report.</p>`,
           ),
         }),
       );

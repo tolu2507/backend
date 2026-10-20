@@ -1,7 +1,7 @@
 import { itemSet, type Item, type Template } from '../engine.js';
 
 /**
- * Comprehension and cloze passages, written by Nexus (not taken from any past paper). Each question
+ * Comprehension and cloze passages, written by BrainBox (not taken from any past paper). Each question
  * shows its passage, so a question still makes sense on its own in practice or a mock.
  */
 

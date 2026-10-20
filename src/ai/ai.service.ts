@@ -62,7 +62,7 @@ export class AiService {
     const { monthlyBudgetUsd } = aiPricing();
     if (monthlyBudgetUsd > 0) {
       const spent = await this.prisma.aiUsage.aggregate({ where: { createdAt: { gte: lagosMonthStart() } }, _sum: { costMicroUsd: true } });
-      if ((spent._sum.costMicroUsd ?? 0) >= monthlyBudgetUsd * 1_000_000) return 'Nexus has used its AI budget for the month (AI_MONTHLY_BUDGET_USD).';
+      if ((spent._sum.costMicroUsd ?? 0) >= monthlyBudgetUsd * 1_000_000) return 'BrainBox has used its AI budget for the month (AI_MONTHLY_BUDGET_USD).';
     }
     if (!schoolId) return null;
     const profile = await this.prisma.schoolAiProfile.findUnique({ where: { schoolId } });

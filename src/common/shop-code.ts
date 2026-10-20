@@ -13,7 +13,7 @@ export const formatShopCode = (code: string) => `${code.slice(0, 3)}-${code.slic
 
 /**
  * Every child's tuck-shop ID: three letters of their first name (so staff can sanity-check it)
- * plus four random characters. Checked against the database so it is unique across Nexus.
+ * plus four random characters. Checked against the database so it is unique across BrainBox.
  */
 export async function newShopCode(tx: Prisma.TransactionClient, firstName: string) {
   const prefix = `${firstName.toUpperCase().replace(/[^A-Z]/g, '')}XXX`.slice(0, 3);
