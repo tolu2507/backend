@@ -3,7 +3,7 @@ import { Body, Controller, Get, HttpCode, Param, Patch, Post, Put } from '@nestj
 import { CurrentUser, PARENT_ROLES, Roles, type AuthUser } from '../common/auth.js';
 import { RequestOrigin } from '../common/origin.js';
 import { PlanService } from '../plan/plan.service.js';
-import { BookDto, ChangePinDto, CreateChildDto, DailyLimitDto, DisputeDto, PayInvoiceDto, TopupDto, TutorRequestDto } from './parent.dto.js';
+import { ArenaSettingsDto, BookDto, ChangePinDto, CreateChildDto, DailyLimitDto, DisputeDto, PayInvoiceDto, TopupDto, TutorRequestDto } from './parent.dto.js';
 import { ParentService } from './parent.service.js';
 
 @Roles(...PARENT_ROLES)
@@ -53,6 +53,10 @@ export class ParentController {
 
   @Post('invoices/:id/pay') payInvoice(@RequestOrigin() origin: string, @CurrentUser() u: AuthUser, @Param('id') id: string, @Body() dto: PayInvoiceDto) {
     return this.parents.payInvoice(origin, u.id, id, dto.amountKobo);
+  }
+
+  @Put('children/:id/arena') arena(@CurrentUser() u: AuthUser, @Param('id') id: string, @Body() dto: ArenaSettingsDto) {
+    return this.parents.setArena(u.id, id, dto);
   }
 
   @Put('children/:id/wallet/limit') limit(@CurrentUser() u: AuthUser, @Param('id') id: string, @Body() dto: DailyLimitDto) {

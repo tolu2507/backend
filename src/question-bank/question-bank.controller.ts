@@ -31,6 +31,10 @@ export class PracticeController {
     private readonly plan: PlanService,
   ) {}
 
+  @Get('worlds') async worlds(@CurrentUser() u: AuthUser) {
+    return this.practice.worlds(await this.practice.studentByUser(u.id));
+  }
+
   @Get('subjects/:id') async map(@CurrentUser() u: AuthUser, @Param('id', ParseUUIDPipe) id: string) {
     return this.practice.map(await this.practice.studentByUser(u.id), id);
   }

@@ -127,7 +127,7 @@ export class PracticeService {
     });
 
     return {
-      subject: { id: subject.id, exam: subject.exam, name: subject.name },
+      subject: { id: subject.id, exam: subject.exam, slug: subject.slug, name: subject.name },
       yearsAnalysed: maxYears,
       leaves: leafIds.length,
       conquered,
@@ -135,6 +135,31 @@ export class PracticeService {
       reviewsDue,
       topics: out,
     };
+  }
+
+  /** Every subject the student picked, with how far they've got: one world each on the app's world map. */
+  async worlds(studentId: string) {
+    const links = await this.prisma.studentExamSubject.findMany({
+      where: { studentExam: { studentId } },
+      include: { examSubject: true },
+      orderBy: [{ studentExam: { exam: 'asc' } }, { examSubject: { name: 'asc' } }],
+    });
+    const maps = await Promise.all(links.map((l) => this.map(studentId, l.examSubjectId)));
+    return links.map(({ examSubject: s }, i) => {
+      const m = maps[i];
+      const leaves = m.topics.flatMap((t) => t.subtopics);
+      return {
+        id: s.id,
+        exam: s.exam,
+        slug: s.slug,
+        name: s.name,
+        leaves: m.leaves,
+        conquered: m.conquered,
+        mastery: m.mastery,
+        reviewsDue: m.reviewsDue,
+        ready: leaves.some((l) => l.fresh > 0 || l.answered > 0),
+      };
+    });
   }
 
   /** Finds the subtopic on the student's map and checks it's open. */

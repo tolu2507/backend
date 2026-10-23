@@ -4,6 +4,7 @@ import { ScheduleModule } from '@nestjs/schedule';
 
 import { AdminModule } from './admin/admin.module.js';
 import { AiModule } from './ai/ai.module.js';
+import { ArenaModule } from './arena/arena.module.js';
 import { AuthModule } from './auth/auth.module.js';
 import { ActivityLogInterceptor } from './common/activity.interceptor.js';
 import { CatalogController } from './catalog/catalog.controller.js';
@@ -58,6 +59,7 @@ import { HealthController } from './health.controller.js';
     TuckShopModule,
     SupportModule,
     RankingsModule,
+    ArenaModule,
   ],
   controllers: [CatalogController, EnquiriesController, HealthController],
   providers: [{ provide: APP_INTERCEPTOR, useClass: ActivityLogInterceptor }],

@@ -125,6 +125,10 @@ describe('Topic practice', () => {
       ['Forces', false, 2],
     ]);
     await http().post('/me/student/practice/rounds').set(auth(kid)).send({ topicId: second }).expect(400);
+
+    const worlds = await http().get('/me/student/practice/worlds').set(auth(kid)).expect(200);
+    expect(worlds.body.map((w: { slug: string }) => w.slug).sort()).toEqual(['chemistry', 'english-language', 'mathematics', 'physics']);
+    expect(worlds.body.find((w: { id: string }) => w.id === physicsId)).toMatchObject({ exam: 'JAMB', name: map.body.subject.name, leaves: map.body.leaves, conquered: 0, mastery: 0, ready: true });
   });
 
   it('a round serves 10 easy questions without answers; 9 right levels them up and opens the next subtopic', async () => {

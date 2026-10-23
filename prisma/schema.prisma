@@ -111,6 +111,7 @@ enum ActivityType {
 
 enum XpReason {
   ACTIVITY
+  ARENA
   STREAK
   ATTENDANCE
   BADGE
@@ -322,29 +323,29 @@ enum AssetStatus {
 // ─────────────────────────────────────────────────────────────
 
 model User {
-  id             String    @id @default(uuid())
-  email          String?   @unique
-  phone          String?   @unique
-  username       String?   @unique // for young students without email
-  passwordHash   String?
-  pinHash        String? // 4–6 digit PIN for students on shared/parent devices
-  pinFailures    Int       @default(0) // wrong PINs in a row at the tuck shop
-  pinLockedUntil DateTime? // set after too many wrong PINs; the tuck shop refuses until then
-  firstName      String
-  lastName       String
-  otherNames     String?
-  dateOfBirth    DateTime?
-  photoUrl       String?
-  lastLoginAt    DateTime?
+  id                String             @id @default(uuid())
+  email             String?            @unique
+  phone             String?            @unique
+  username          String?            @unique // for young students without email
+  passwordHash      String?
+  pinHash           String? // 4–6 digit PIN for students on shared/parent devices
+  pinFailures       Int                @default(0) // wrong PINs in a row at the tuck shop
+  pinLockedUntil    DateTime? // set after too many wrong PINs; the tuck shop refuses until then
+  firstName         String
+  lastName          String
+  otherNames        String?
+  dateOfBirth       DateTime?
+  photoUrl          String?
+  lastLoginAt       DateTime?
   /// Parents: when their free trial started (the first time we saw a child on the account).
-  trialStartedAt DateTime?
+  trialStartedAt    DateTime?
   /// Parents: when the trial ends: trialStartedAt + the trial length set in Overwatch, kept in step by SettingsService.
-  trialEndsAt    DateTime?
+  trialEndsAt       DateTime?
   /// Parents: paid access runs until here. Each ₦1,500 payment adds 30 days.
-  paidUntil      DateTime?
-  createdAt      DateTime  @default(now())
-  rewardRedemptions    RewardRedemption[]
-  updatedAt      DateTime  @updatedAt
+  paidUntil         DateTime?
+  createdAt         DateTime           @default(now())
+  rewardRedemptions RewardRedemption[]
+  updatedAt         DateTime           @updatedAt
 
   memberships          Membership[]
   studentProfile       StudentProfile?
@@ -660,6 +661,12 @@ model StudentProfile {
   topicProgress   TopicProgress[]
   mockSittings    MockSitting[]
   questionReports QuestionReport[]
+  arenaPlayers    ArenaPlayer[]
+
+  // Arena
+  trophies     Int     @default(0) // arena rating from Ghost Races; never money
+  arenaAllowed Boolean @default(true) // a parent can switch the arena off
+  chatAllowed  Boolean @default(true) // a parent can switch quick chat off
 
   @@unique([schoolId, admissionNo])
 }
@@ -857,8 +864,8 @@ model XpEvent {
 }
 
 model Badge {
-  id          String  @id @default(uuid())
-  code        String  @unique // "STREAK_30", "MATHS_MASTER_JSS"
+  id          String        @id @default(uuid())
+  code        String        @unique // "STREAK_30", "MATHS_MASTER_JSS"
   name        String
   description String
   iconUrl     String?
@@ -872,7 +879,7 @@ model Badge {
 }
 
 model StudentBadge {
-  id        String   @id @default(uuid())
+  id        String    @id @default(uuid())
   studentId String
   badgeId   String
   awardedAt DateTime  @default(now())
@@ -1504,6 +1511,8 @@ model ExamSubject {
   questions       ExamQuestion[]
   templates       QuestionTemplate[]
   studentSubjects StudentExamSubject[]
+  arenaMatches    ArenaMatch[]
+  olympiads       Olympiad[]
 
   @@unique([exam, slug])
 }
@@ -1580,13 +1589,14 @@ model ExamQuestion {
   createdAt     DateTime       @default(now())
   updatedAt     DateTime       @updatedAt
 
-  examSubject ExamSubject       @relation(fields: [examSubjectId], references: [id], onDelete: Cascade)
-  topic       SyllabusTopic     @relation(fields: [topicId], references: [id])
-  template    QuestionTemplate? @relation(fields: [templateId], references: [id], onDelete: SetNull)
-  modelledOn  PastQuestion?     @relation(fields: [modelledOnId], references: [id], onDelete: SetNull)
-  reviewedBy  User?             @relation("QuestionReviewer", fields: [reviewedById], references: [id], onDelete: SetNull)
-  seen        QuestionSeen[]
-  reports     QuestionReport[]
+  examSubject  ExamSubject       @relation(fields: [examSubjectId], references: [id], onDelete: Cascade)
+  topic        SyllabusTopic     @relation(fields: [topicId], references: [id])
+  template     QuestionTemplate? @relation(fields: [templateId], references: [id], onDelete: SetNull)
+  modelledOn   PastQuestion?     @relation(fields: [modelledOnId], references: [id], onDelete: SetNull)
+  reviewedBy   User?             @relation("QuestionReviewer", fields: [reviewedById], references: [id], onDelete: SetNull)
+  seen         QuestionSeen[]
+  reports      QuestionReport[]
+  arenaAnswers ArenaAnswer[]
 
   @@index([examSubjectId, topicId, difficulty, status])
   @@index([status, createdAt])
@@ -1756,4 +1766,100 @@ model PlatformSetting {
   value       Json
   updatedById String?
   updatedAt   DateTime @updatedAt
+}
+
+// ── Arena ────────────────────────────────────────────────
+
+enum ArenaKind {
+  GHOST // racing a real player's earlier run (or setting the first run)
+  ROOM // friends in a private room, live
+  LIVE // Quick Match: two players paired by the server, live
+  OLYMPIAD // one child's entry in a Daily Olympiad
+}
+
+enum ArenaStatus {
+  WAITING // a room's lobby
+  PLAYING
+  FINISHED
+  CANCELLED
+}
+
+/// One arena match: the same questions for everyone in it.
+model ArenaMatch {
+  id            String      @id @default(uuid())
+  kind          ArenaKind
+  status        ArenaStatus @default(PLAYING)
+  examSubjectId String
+  code          String?     @unique // a room's invite code, while it's open
+  hostId        String? // the room's host (StudentProfile id)
+  questionIds   String[]
+  ghostOfId     String? // the ArenaPlayer whose run this Ghost Race replays
+  olympiadId    String?
+  createdAt     DateTime    @default(now())
+  finishedAt    DateTime?
+
+  examSubject ExamSubject   @relation(fields: [examSubjectId], references: [id], onDelete: Cascade)
+  ghostOf     ArenaPlayer?  @relation("GhostOf", fields: [ghostOfId], references: [id], onDelete: SetNull)
+  olympiad    Olympiad?     @relation(fields: [olympiadId], references: [id], onDelete: Cascade)
+  players     ArenaPlayer[]
+
+  @@index([examSubjectId, kind, finishedAt])
+  @@index([olympiadId])
+}
+
+model ArenaPlayer {
+  id         String    @id @default(uuid())
+  matchId    String
+  studentId  String
+  score      Int       @default(0)
+  correct    Int       @default(0)
+  place      Int?
+  trophies   Int? // won (+) or lost (−) in this match
+  xp         Int?
+  joinedAt   DateTime  @default(now())
+  finishedAt DateTime?
+
+  match   ArenaMatch     @relation(fields: [matchId], references: [id], onDelete: Cascade)
+  student StudentProfile @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  answers ArenaAnswer[]
+  ghosted ArenaMatch[]   @relation("GhostOf")
+
+  @@unique([matchId, studentId])
+  @@index([studentId, joinedAt])
+}
+
+/// One question in one player's match. Created when the question is shown, so the server times the answer.
+model ArenaAnswer {
+  playerId   String
+  index      Int
+  questionId String
+  servedAt   DateTime  @default(now())
+  answeredAt DateTime?
+  optionId   String?
+  correct    Boolean   @default(false)
+  ms         Int? // how long they took; null if time ran out
+  points     Int       @default(0)
+
+  player   ArenaPlayer  @relation(fields: [playerId], references: [id], onDelete: Cascade)
+  question ExamQuestion @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@id([playerId, index])
+}
+
+/// The Daily Olympiad for one subject: the same questions for everyone who plays it in the evening window.
+model Olympiad {
+  id            String    @id @default(uuid())
+  examSubjectId String
+  day           DateTime  @db.Date // the Lagos day
+  opensAt       DateTime
+  closesAt      DateTime
+  questionIds   String[]
+  settledAt     DateTime? // places worked out (and prizes paid, when on)
+  createdAt     DateTime  @default(now())
+
+  examSubject ExamSubject  @relation(fields: [examSubjectId], references: [id], onDelete: Cascade)
+  entries     ArenaMatch[]
+
+  @@unique([examSubjectId, day])
+  @@index([settledAt, closesAt])
 }

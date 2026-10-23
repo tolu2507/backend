@@ -56,6 +56,8 @@ export class ParentService {
       level: s.level,
       className: s.gradeName ?? LEVEL_LABEL[s.level],
       schoolName: s.school?.name ?? null,
+      arenaAllowed: s.arenaAllowed,
+      chatAllowed: s.chatAllowed,
     }));
   }
 
@@ -172,6 +174,13 @@ export class ParentService {
     const child = await this.ownChild(parentId, studentId);
     await this.prisma.studentProfile.update({ where: { id: child.id }, data: { dailySpendLimitKobo: dailyLimitKobo === null ? null : BigInt(dailyLimitKobo) } });
     return { dailyLimitKobo: dailyLimitKobo === null ? null : String(dailyLimitKobo) };
+  }
+
+  /** The parent's switches for the arena and its quick chat. */
+  async setArena(parentId: string, studentId: string, dto: { arenaAllowed?: boolean; chatAllowed?: boolean }) {
+    const child = await this.ownChild(parentId, studentId);
+    const s = await this.prisma.studentProfile.update({ where: { id: child.id }, data: { arenaAllowed: dto.arenaAllowed, chatAllowed: dto.chatAllowed } });
+    return { arenaAllowed: s.arenaAllowed, chatAllowed: s.chatAllowed };
   }
 
   topup(origin: string, parentId: string, studentId: string, amountKobo: number) {
