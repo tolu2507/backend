@@ -53,6 +53,7 @@ export class ParentService {
       firstName: s.user.firstName,
       lastName: s.user.lastName,
       username: s.user.username,
+      avatar: s.avatar,
       level: s.level,
       className: s.gradeName ?? LEVEL_LABEL[s.level],
       schoolName: s.school?.name ?? null,

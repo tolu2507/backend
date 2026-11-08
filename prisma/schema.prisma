@@ -625,6 +625,7 @@ model StudentProfile {
   gradeName           String? // "Primary 3", "JSS2" — set by the parent when there's no school
   shopCode            String         @unique // tuck-shop ID typed at the counter, e.g. ADAK7M2 (shown as ADA-K7M2)
   dailySpendLimitKobo BigInt?        @default(150000) // tuck-shop spend per Lagos day, set by a parent; null = no limit
+  avatar              String? // picked cartoon avatar, "a01"–"a24" (pictures live in the app); null = initials
 
   // Gamification counters (derived from XpEvent; cached for fast reads)
   xpTotal        Int       @default(0)

@@ -336,6 +336,7 @@ export class GamificationService implements OnApplicationBootstrap {
       standings: entries.map((e) => ({
         studentId: e.studentId,
         name: e.studentId === studentId ? 'You' : `${e.student.user.firstName} ${e.student.user.lastName[0] ?? ''}.`,
+        avatar: e.student.avatar,
         weeklyXp: e.weeklyXp,
         isMe: e.studentId === studentId,
       })),

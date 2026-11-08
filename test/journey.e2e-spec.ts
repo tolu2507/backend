@@ -122,6 +122,20 @@ describe('BrainBox journey', () => {
     expect(badges.body.find((b: { code: string }) => b.code === 'FIRST_QUEST').earned).toBe(true);
   });
 
+  it('the child picks an avatar; the parent and the league see it', async () => {
+    expect((await http().get('/me/student/home').set(auth(kid)).expect(200)).body.avatar).toBeNull();
+    await http().put('/me/student/avatar').set(auth(kid)).send({ avatar: 'a99' }).expect(400);
+    await http().put('/me/student/avatar').set(auth(kid)).send({ avatar: 'a07' }).expect(200);
+    expect((await http().get('/me/student/home').set(auth(kid)).expect(200)).body.avatar).toBe('a07');
+    const league = await http().get('/me/student/league').set(auth(kid)).expect(200);
+    expect(league.body.standings.find((s: { isMe: boolean }) => s.isMe).avatar).toBe('a07');
+    const kids = await http().get('/parent/children').set(auth(parent)).expect(200);
+    expect(kids.body[0].avatar).toBe('a07');
+    await http().put('/me/student/avatar').set(auth(parent)).send({ avatar: 'a01' }).expect(403);
+    await http().put('/me/student/avatar').set(auth(kid)).send({ avatar: null }).expect(200);
+    expect((await http().get('/me/student/home').set(auth(kid)).expect(200)).body.avatar).toBeNull();
+  });
+
   it('a tutor applies, passes the Chemistry test and is approved', async () => {
     tutorEmail = `adebayo.${stamp}@test.ng`;
     const res = await http().post('/auth/register').send({ firstName: 'Adebayo', lastName: 'Ogunleye', email: tutorEmail, password: 'password-123', role: 'TUTOR' }).expect(201);

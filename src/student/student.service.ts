@@ -88,6 +88,7 @@ export class StudentService {
 
     return {
       firstName: p.user.firstName,
+      avatar: p.avatar,
       level: p.level,
       gradeName: p.gradeName,
       xp: levelFor(p.xpTotal),
@@ -120,6 +121,12 @@ export class StudentService {
     const stats = await this.game.stickerStats(p.id, badgeId);
     if (!stats) throw new NotFoundException('Collect this sticker first.');
     return stats;
+  }
+
+  async setAvatar(userId: string, avatar: string | null) {
+    const p = await this.profile(userId);
+    await this.prisma.studentProfile.update({ where: { id: p.id }, data: { avatar } });
+    return { avatar };
   }
 
   async badgesSeen(userId: string, ids: string[]) {

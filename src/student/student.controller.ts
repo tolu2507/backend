@@ -1,11 +1,16 @@
-import { Body, Controller, Get, HttpCode, Param, ParseUUIDPipe, Post } from '@nestjs/common';
-import { ArrayMaxSize, IsArray, IsObject, IsUUID } from 'class-validator';
+import { Body, Controller, Get, HttpCode, Param, ParseUUIDPipe, Post, Put } from '@nestjs/common';
+import { ArrayMaxSize, IsArray, IsIn, IsObject, IsOptional, IsUUID } from 'class-validator';
 
 import { CurrentUser, Roles, type AuthUser } from '../common/auth.js';
 import { StudentService } from './student.service.js';
 
 class AnswersDto {
   @IsObject() answers: Record<string, string>;
+}
+/** The cartoon avatars a child can pick; the pictures themselves ship in the app. */
+export const AVATARS = Array.from({ length: 24 }, (_, i) => `a${String(i + 1).padStart(2, '0')}`);
+class AvatarDto {
+  @IsOptional() @IsIn(AVATARS) avatar: string | null;
 }
 class SeenDto {
   @IsArray() @ArrayMaxSize(100) @IsUUID('all', { each: true }) ids: string[];
@@ -18,6 +23,11 @@ export class StudentController {
 
   @Get('home') home(@CurrentUser() u: AuthUser) {
     return this.students.home(u.id);
+  }
+
+  /** Pick a cartoon avatar, or null to go back to initials. */
+  @Put('avatar') avatar(@CurrentUser() u: AuthUser, @Body() dto: AvatarDto) {
+    return this.students.setAvatar(u.id, dto.avatar ?? null);
   }
 
   @Get('league') league(@CurrentUser() u: AuthUser) {
