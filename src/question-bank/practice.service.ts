@@ -8,8 +8,12 @@ import { PrismaService } from '../prisma/prisma.service.js';
 export const ROUND_SIZE = 10;
 const MAX_REVIEWS = 3; // wrong answers that come back in a round, labelled "Review"
 const REVIEW_AFTER_DAYS = 2;
-/** Nursery children learn by repetition: a question they've had comes back (and counts) after this long. */
-const NURSERY_AGAIN_AFTER_DAYS = 1;
+/**
+ * Nursery and Primary children learn by repetition: once a subtopic has nothing new for them, a question
+ * they've had comes back (and counts towards their level) after this long, so a stage never goes dead.
+ */
+const AGAIN_AFTER_DAYS = 1;
+const REPEATS = new Set(['NURSERY', 'PRIMARY']);
 const MIN_TO_LEVEL = 5; // a round with fewer counted answers doesn't move the level
 const LEVEL_UP = 0.8;
 const LEVEL_DOWN = 0.4;
@@ -183,6 +187,7 @@ export class PracticeService {
     const now = new Date();
     // Nursery children hear "Well done!" the moment they tap, so their rounds carry the answers.
     const reveal = exam === 'NURSERY';
+    const repeats = REPEATS.has(exam);
 
     const reviews = await this.prisma.questionSeen.findMany({
       where: { studentId, reviewDueAt: { lte: now }, question: { topicId, status: 'APPROVED' } },
@@ -203,7 +208,19 @@ export class PracticeService {
       });
       picked.push(...shuffle(rows).slice(0, ROUND_SIZE - picked.length).map((q) => ({ q, review: false })));
     }
-    if (reveal && picked.length < ROUND_SIZE) {
+    if (picked.length < ROUND_SIZE) {
+      // The topic has no questions at those levels (many young-class topics only have easy ones):
+      // use whatever unseen questions it has, closest to the wanted level (hardest first for a boss).
+      const target = boss ? TOP_LEVEL : node.level;
+      const rows = await this.prisma.examQuestion.findMany({
+        where: { topicId, status: 'APPROVED', seen: { none: { studentId } }, id: { notIn: picked.map((p) => p.q.id) } },
+        orderBy: { timesServed: 'asc' },
+        take: 200,
+      });
+      const closest = shuffle(rows).sort((a, b) => Math.abs(a.difficulty - target) - Math.abs(b.difficulty - target));
+      picked.push(...closest.slice(0, ROUND_SIZE - picked.length).map((q) => ({ q, review: false })));
+    }
+    if (repeats && picked.length < ROUND_SIZE) {
       // Out of new ones: bring back what they had longest ago.
       const again = await this.prisma.questionSeen.findMany({
         where: { studentId, lastSeenAt: { lte: this.againBefore(now) }, questionId: { notIn: picked.map((p) => p.q.id) }, question: { topicId, status: 'APPROVED' } },
@@ -214,7 +231,7 @@ export class PracticeService {
       picked.push(...again.map((s) => ({ q: s.question, review: false })));
     }
     if (!picked.length) {
-      if (reveal && node.answered) throw new BadRequestException('You’ve played them all today! Come back tomorrow to play again.');
+      if (repeats && node.answered) throw new BadRequestException('You’ve played them all today! Come back tomorrow to play again.');
       throw new BadRequestException(node.answered ? 'You’ve done every question we have on this topic. New ones are on the way.' : 'We’re still writing questions for this topic.');
     }
 
@@ -256,7 +273,7 @@ export class PracticeService {
       const chosen = answers[q.id] ?? null;
       const correct = chosen === q.answerId;
       const seen = seenBy.get(q.id);
-      const again = exam === 'NURSERY' && seen && seen.lastSeenAt <= this.againBefore(now);
+      const again = REPEATS.has(exam) && seen && seen.lastSeenAt <= this.againBefore(now);
       const kind = !seen ? 'new' : (seen.reviewDueAt && seen.reviewDueAt <= now) || again ? 'review' : 'repeat';
       return { q, chosen, correct, kind };
     });
@@ -264,9 +281,12 @@ export class PracticeService {
     const right = counted.filter((r) => r.correct).length;
     const score = counted.length ? right / counted.length : 0;
 
+    // A tiny subtopic (fewer questions than a full minimum) can still level up on all of them.
+    const stageSize = await this.prisma.examQuestion.count({ where: { topicId, status: 'APPROVED' } });
+    const minToLevel = Math.max(1, Math.min(MIN_TO_LEVEL, stageSize));
     let levelAfter = node.level;
     let bossBeatenNow = false;
-    if (counted.length >= MIN_TO_LEVEL) {
+    if (counted.length >= minToLevel) {
       if (boss && score >= LEVEL_UP) bossBeatenNow = true;
       else if (!boss && score >= LEVEL_UP && node.level < TOP_LEVEL) levelAfter = node.level + 1;
       else if (score < LEVEL_DOWN && node.level > 1) levelAfter = node.level - 1;
@@ -296,7 +316,7 @@ export class PracticeService {
           update: { level: levelAfter, mastery, answered: { increment: counted.length }, correct: { increment: right }, ...(bossBeatenNow ? { bossBeaten: true } : {}) },
         });
       }
-      if (counted.length >= MIN_TO_LEVEL && right === counted.length) await tx.studentProfile.update({ where: { id: studentId }, data: { perfectRounds: { increment: 1 } } });
+      if (counted.length >= minToLevel && right === counted.length) await tx.studentProfile.update({ where: { id: studentId }, data: { perfectRounds: { increment: 1 } } });
       const newRight = results.filter((r) => r.correct && r.kind === 'new').length;
       return this.game.awardXp(tx, studentId, xpEarned, 'ACTIVITY', topicId, { amount: newRight * coinsPerCorrect, reason: 'PRACTICE' });
     });
@@ -316,7 +336,7 @@ export class PracticeService {
   }
 
   private againBefore(now: Date) {
-    return new Date(now.getTime() - NURSERY_AGAIN_AFTER_DAYS * 86_400_000);
+    return new Date(now.getTime() - AGAIN_AFTER_DAYS * 86_400_000);
   }
 
   /** "Report this question": Overwatch sees it in the question bank. */

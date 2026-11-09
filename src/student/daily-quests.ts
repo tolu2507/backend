@@ -26,8 +26,16 @@ export const dailyId = (examSubjectId: string) => `${DAILY_PREFIX}${examSubjectI
 /** "Mathematics (Primary 3)" → "Mathematics" */
 const shortName = (name: string) => name.replace(/\s*\(.*\)\s*$/, '');
 
-/** Nursery has its own read-aloud picture rounds; university students have their own side. */
-export const hasDailyQuests = (level: EducationLevel) => level !== 'NURSERY' && level !== 'TERTIARY';
+/** Every school level gets daily quests; university students have their own side. */
+export const hasDailyQuests = (level: EducationLevel) => level !== 'TERTIARY';
+
+/** Nursery stems carry a "🔊 …" paragraph that is spoken, not shown; the quest player shows text, so drop it. */
+const questPrompt = (stem: string) =>
+  stem
+    .split(/\n\s*\n/)
+    .filter((p) => !p.trim().startsWith('🔊'))
+    .join('\n\n')
+    .trim();
 
 /** The subjects that get a quest today: the child's chosen subjects, in a stable order. */
 export async function dailySubjects(prisma: PrismaService, studentId: string) {
@@ -69,7 +77,7 @@ export async function dailyQuestions(prisma: PrismaService, studentId: string, e
   const ids = pool.map((q) => q.id).sort((a, b) => rank(a).localeCompare(rank(b))).slice(0, DAILY_SIZE);
   const rows = await prisma.examQuestion.findMany({ where: { id: { in: ids } } });
   rows.sort((a, b) => rank(a.id).localeCompare(rank(b.id)));
-  return rows.map((q): StoredQuestion => ({ id: q.id, prompt: q.stem, options: q.options as StoredQuestion['options'], answerId: q.answerId }));
+  return rows.map((q): StoredQuestion => ({ id: q.id, prompt: questPrompt(q.stem), options: q.options as StoredQuestion['options'], answerId: q.answerId }));
 }
 
 /** The quest cards for the home screen. */

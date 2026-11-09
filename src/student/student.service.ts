@@ -10,6 +10,7 @@ import { LedgerService } from '../ledger/ledger.service.js';
 import { PlanService } from '../plan/plan.service.js';
 import { rewardKobo } from '../settings/settings.js';
 import { SettingsService } from '../settings/settings.service.js';
+import { DAILY_PREFIX, DAILY_XP, dailyQuestCards, dailyQuestions, dailyRef, dailySubjects, hasDailyQuests, isDaily, markSeen } from './daily-quests.js';
 import { PrismaService } from '../prisma/prisma.service.js';
 
 const LESSON_QUIZ_XP = 50;
@@ -61,6 +62,10 @@ export class StudentService {
     }
     const todays = [...perSubject.values()].slice(0, 4);
 
+    // Fresh questions from the bank every day; the hand-made activities are only a fallback
+    // (a child with no subjects yet, or a subject whose bank has run dry).
+    const daily = hasDailyQuests(p.level) ? await dailyQuestCards(this.prisma, p.id) : [];
+
     const quests = [
       ...quizzes.map((q) => ({
         id: q.id,
@@ -72,19 +77,24 @@ export class StudentService {
         progress: 0,
         ...subjectStyle(q.title),
       })),
-      ...todays.map((a) => ({
-        id: a.id,
-        kind: 'ACTIVITY' as const,
-        title: a.title,
-        subject: a.subject,
-        xpReward: a.xpReward,
-        progress: doneIds.has(a.id) ? 1 : 0,
-        ...subjectStyle(a.subject),
-      })),
+      ...(daily.length
+        ? daily
+        : todays.map((a) => ({
+            id: a.id,
+            kind: 'ACTIVITY' as const,
+            title: a.title,
+            subject: a.subject,
+            xpReward: a.xpReward,
+            progress: doneIds.has(a.id) ? 1 : 0,
+            ...subjectStyle(a.subject),
+          }))),
     ];
 
-    const next = todays.find((a) => !doneIds.has(a.id));
-    const doneCount = todays.filter((a) => doneIds.has(a.id)).length;
+    const steps = daily.length
+      ? daily.map((d) => ({ id: d.id, title: d.title, done: d.progress === 1 }))
+      : todays.map((a) => ({ id: a.id, title: a.title, done: doneIds.has(a.id) }));
+    const next = steps.find((x) => !x.done);
+    const doneCount = steps.filter((x) => x.done).length;
 
     return {
       firstName: p.user.firstName,
@@ -96,7 +106,7 @@ export class StudentService {
       stars: starsFor(p.xpTotal),
       league: league.league,
       quests,
-      adventure: next ? { activityId: next.id, title: next.title, step: doneCount + 1, steps: todays.length } : null,
+      adventure: next ? { activityId: next.id, title: next.title, step: doneCount + 1, steps: steps.length } : null,
       practice,
       // Earn while you learn. null on the free plan: children never see anything about paying.
       coins:
@@ -136,6 +146,10 @@ export class StudentService {
 
   async activity(userId: string, id: string) {
     const p = await this.profile(userId);
+    if (isDaily(id)) {
+      const { subject, questions } = await this.dailyQuest(p.id, id);
+      return { id, kind: 'ACTIVITY', title: `${subject}: today’s quest`, subject, xpReward: DAILY_XP, questions: publicQuestions(questions) };
+    }
     const a = await this.prisma.learningActivity.findFirst({ where: { id, isPublished: true, level: p.level } });
     if (!a) throw new NotFoundException('That quest is not available.');
     const content = a.content as { questions: StoredQuestion[] };
@@ -144,6 +158,7 @@ export class StudentService {
 
   async submitActivity(userId: string, id: string, answers: Record<string, string>) {
     const p = await this.profile(userId);
+    if (isDaily(id)) return this.submitDaily(p.id, id, answers);
     const a = await this.prisma.learningActivity.findFirst({ where: { id, isPublished: true, level: p.level } });
     if (!a) throw new NotFoundException('That quest is not available.');
     const result = grade((a.content as { questions: StoredQuestion[] }).questions, answers);
@@ -159,6 +174,30 @@ export class StudentService {
         data: { studentId: p.id, activityId: a.id, completedAt: new Date(), score: result.score, answers, xpEarned },
       });
       return this.game.awardXp(tx, p.id, xpEarned, 'ACTIVITY', attempt.id);
+    });
+    return { ...result, xpEarned, rewards };
+  }
+
+  /** Today's questions for a daily quest id ("daily-<examSubjectId>"), for one of the child's own subjects. */
+  private async dailyQuest(studentId: string, id: string) {
+    const examSubjectId = id.slice(DAILY_PREFIX.length);
+    const mine = (await dailySubjects(this.prisma, studentId)).find((s) => s.id === examSubjectId);
+    if (!mine) throw new NotFoundException('That quest is not available.');
+    const questions = await dailyQuestions(this.prisma, studentId, examSubjectId);
+    if (!questions.length) throw new NotFoundException('That quest is not available.');
+    return { examSubjectId, subject: mine.name.replace(/\s*\(.*\)\s*$/, ''), questions };
+  }
+
+  private async submitDaily(studentId: string, id: string, answers: Record<string, string>) {
+    const { examSubjectId, questions } = await this.dailyQuest(studentId, id);
+    const result = grade(questions, answers);
+    const ref = dailyRef(examSubjectId);
+    // XP only for the first finish each day; replaying is practice, not farming.
+    const already = await this.prisma.xpEvent.findFirst({ where: { studentId, refId: ref }, select: { id: true } });
+    const xpEarned = already ? 0 : Math.max(1, Math.round(DAILY_XP * result.score));
+    const rewards = await this.prisma.$transaction(async (tx) => {
+      await markSeen(tx, studentId, result.results);
+      return this.game.awardXp(tx, studentId, xpEarned, 'ACTIVITY', ref);
     });
     return { ...result, xpEarned, rewards };
   }
