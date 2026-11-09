@@ -1,5 +1,7 @@
 import type { EducationLevel, ExamBody } from '@prisma/client';
 
+import { courseCode, UNI_COURSES } from './university.js';
+
 /**
  * The exams BrainBox prepares students for, each with its subjects and the rules for choosing them.
  * Subject slugs match the past-paper sources so analysis can join on them. Synced into
@@ -178,6 +180,16 @@ export const EXAM_CATALOG: Record<ExamBody, ExamRules> = {
       s(`nursery-${n}-letters-and-sounds`, `Letters and Sounds (Nursery ${n})`),
       s(`nursery-${n}-my-world`, `My World (Nursery ${n})`),
     ]),
+  },
+  UNIVERSITY: {
+    label: 'University',
+    fullName: 'University courses',
+    level: 'TERTIARY',
+    compulsory: [],
+    pick: { min: 1, max: 12 }, // the courses they registered this semester (departments and semesters: university.ts)
+    fridayMock: false,
+    mockMinutes: 60,
+    subjects: UNI_COURSES.map((c) => s(c.slug, `${courseCode(c.slug)}: ${c.title}`)),
   },
 };
 

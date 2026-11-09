@@ -1,0 +1,707 @@
+{
+  "unit": 3,
+  "title": "Concept of Power in International Relations",
+  "summary": "How scholars define power, its five characteristics, and the tangible and intangible elements that make a state powerful.",
+  "sections": [
+    {
+      "name": "Meaning and nature of power",
+      "lesson": {
+        "title": "What power means between states",
+        "minutes": 10,
+        "hook": "Nigeria is called the 'Giant of Africa'. Put Nigeria next to the United States and the giant suddenly looks small. So is Nigeria powerful or not?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Power: the core concept",
+            "body": "How well a state does in world affairs depends heavily on its **power**. Yet, like many social science concepts, power has no agreed definition.\n\nIn everyday terms, power is the ability to make others act as you wish, even against their will. In IR, the word describes three things about a state: its **resources**, its **capabilities** and the **influence** it has over international affairs.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "cash",
+                  "label": "Resources"
+                },
+                {
+                  "icon": "fitness",
+                  "label": "Capabilities"
+                },
+                {
+                  "icon": "megaphone",
+                  "label": "Influence"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "terms",
+            "heading": "How scholars define power",
+            "terms": [
+              {
+                "term": "John Rourke",
+                "meaning": "A political resource: the total of elements that let one country's interests win over another's."
+              },
+              {
+                "term": "Hans Morgenthau",
+                "meaning": "Anything that sets up and keeps the control of man over man, from violence to subtle psychological ties."
+              },
+              {
+                "term": "Remi Anifowose",
+                "meaning": "Relations of superiority and subordination among nations chasing conflicting goals."
+              },
+              {
+                "term": "Daniel Papp",
+                "meaning": "An actor's ability to persuade, influence, force or otherwise induce another to do what it would rather not."
+              },
+              {
+                "term": "Payne",
+                "meaning": "Getting individuals, groups or nations to behave in ways they normally would not."
+              },
+              {
+                "term": "Viotti & Kauppi",
+                "meaning": "The means to assert actual or potential influence or coercion, based on a range of capabilities."
+              }
+            ]
+          },
+          {
+            "kind": "check",
+            "question": "Which scholar describes power as relations of super-ordination and subordination among nations pursuing conflicting goals?",
+            "options": [
+              "Hans Morgenthau",
+              "John Rourke",
+              "Daniel Papp",
+              "Remi Anifowose"
+            ],
+            "answerIndex": 3,
+            "why": "That is Anifowose's definition. Rourke speaks of power as a political resource made up of many elements."
+          },
+          {
+            "kind": "teach",
+            "heading": "Power implies control",
+            "body": "All these definitions share one idea: **control**. Power can change what others do. Where others will not comply willingly, power can include the use of **force**.\n\nNotice Morgenthau's range: power stretches from open violence to the quiet psychological hold one mind can have over another. Papp's list is also useful: persuading, influencing and inducing all count, not just forcing.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Persuasion",
+              "right": "Force",
+              "marker": 50,
+              "label": "Power covers both"
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Warships in the Gulf, 1997–98",
+            "story": "UN weapons inspectors wanted to search sites in Iraq, including presidential palaces. Iraq refused, saying this would violate its sovereignty. The United States insisted Iraq obey the UN resolutions and sent advanced warships and submarines to the Gulf. Facing possible war, Iraq reluctantly let the inspectors into the palaces.",
+            "takeaway": "Displaying military might made Iraq do what it did not want to do: power as control."
+          },
+          {
+            "kind": "steps",
+            "heading": "Five characteristics of power",
+            "steps": [
+              {
+                "title": "Dynamic",
+                "detail": "Power changes over time; empires rise and fall."
+              },
+              {
+                "title": "Relative",
+                "detail": "A state is powerful only compared with others."
+              },
+              {
+                "title": "Situational",
+                "detail": "Power varies with the context it is used in."
+              },
+              {
+                "title": "Relational",
+                "detail": "Power is exercised over someone, within a relationship."
+              },
+              {
+                "title": "Objective and subjective",
+                "detail": "It rests on real assets and on how others perceive you."
+              }
+            ]
+          },
+          {
+            "kind": "teach",
+            "heading": "Dynamic and relative",
+            "body": "**Dynamic:** power never stands still. The Roman Empire lasted close to five centuries and then vanished. After 1945 the **USSR** was a superpower alongside the USA, until it broke up in 1991.\n\n**Relative:** calling a state powerful only makes sense in comparison. Nigeria looks strong beside many African and developing states, but not beside the USA or the leading European powers.",
+            "visual": {
+              "type": "scale",
+              "left": "Nigeria",
+              "right": "USA",
+              "heavier": "right"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "The break-up of the Soviet Union in 1991 is best used to illustrate which characteristic of power?",
+            "options": [
+              "Power is relational",
+              "Power is dynamic",
+              "Power is situational",
+              "Power is subjective"
+            ],
+            "answerIndex": 1,
+            "why": "A superpower losing its status shows that power changes over time. 'Relative' would be about comparing states at one moment."
+          },
+          {
+            "kind": "teach",
+            "heading": "Situational, relational, objective and subjective",
+            "body": "**Situational:** how a state acts in one context does not show its full capability; power varies with the situation.\n\n**Relational:** power exists only in relation to others. Robert **Dahl** put it neatly: A has power over B to the extent that A can get B to do something B would not otherwise do.\n\n**Objective** power is the assets you really have and are able and willing to use. **Subjective** power is what others *believe* you have or could have.",
+            "visual": {
+              "type": "venn",
+              "left": "Objective: real assets",
+              "right": "Subjective: perceptions",
+              "both": "Total power"
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect scenario questions that hide one characteristic: a fallen empire (dynamic), a comparison of two states (relative), Dahl's A-and-B formula (relational), a bluff that works (subjective). Students often confuse relative with relational: relative is comparison, relational is one actor acting on another.",
+            "sampleQuestion": "'Power in international relations is dynamic, relative and relational.' Discuss with relevant examples.",
+            "howToAnswer": "Define power with two scholars, then explain each characteristic with an example (USSR 1991; Nigeria versus USA; Dahl's formula), and briefly mention situational and objective-subjective power.",
+            "scholars": [
+              "Hans Morgenthau",
+              "John Rourke",
+              "Daniel Papp",
+              "Remi Anifowose",
+              "Robert Dahl",
+              "Viotti & Kauppi"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Power has no agreed definition but always involves control over others.",
+              "Rourke: power as a political resource; Papp: persuade, influence, force or induce.",
+              "The US show of force against Iraq in 1997–98 illustrates power.",
+              "Power is dynamic, relative, situational, relational, objective and subjective.",
+              "Dahl: A has power over B if A gets B to do what B would not otherwise do."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "In international relations, the concept of power is used to describe a state's:",
+          "options": [
+            "Resources, capabilities and influence in world affairs",
+            "Number of embassies abroad only",
+            "Length of time since independence",
+            "Membership of the United Nations"
+          ],
+          "answerIndex": 0,
+          "explanation": "Power in IR refers to the level of resources, capabilities and influence a state has. Embassies or UN membership are not measures of power by themselves."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which of the following is NOT listed as a characteristic of power?",
+          "options": [
+            "Power is dynamic",
+            "Power is permanent",
+            "Power is relative",
+            "Power is relational"
+          ],
+          "answerIndex": 1,
+          "explanation": "Power is dynamic, meaning it changes, so describing it as permanent contradicts the session."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The common idea running through the various definitions of power is:",
+          "options": [
+            "Wealth",
+            "Population",
+            "Control",
+            "Territory"
+          ],
+          "answerIndex": 2,
+          "explanation": "All the definitions centre on control over others' behaviour. Wealth and population are elements of power, not its core meaning."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Power defined as 'a political resource made up of the sum of elements that let one country's interests prevail over another's' belongs to:",
+          "options": [
+            "Remi Anifowose",
+            "Payne",
+            "Hans Morgenthau",
+            "John Rourke"
+          ],
+          "answerIndex": 3,
+          "explanation": "This is Rourke's definition. Morgenthau speaks of the control of man over man."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Robert Dahl's statement that 'A has power over B to the extent that A can get B to do something B would not otherwise do' illustrates that power is:",
+          "options": [
+            "Dynamic",
+            "Relational",
+            "Objective",
+            "Situational"
+          ],
+          "answerIndex": 1,
+          "explanation": "Dahl's formula shows power is exercised in a relationship between actors. Dynamic refers to change over time."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Subjective power refers to:",
+          "options": [
+            "The weapons a state actually possesses",
+            "Others' perceptions of a state's current or potential power",
+            "The size of a state's population",
+            "The power a state has over its own citizens"
+          ],
+          "answerIndex": 1,
+          "explanation": "Subjective power is based on how others see your power. Actual weapons possessed belong to objective power."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Nigeria is often seen as a major power in West Africa but not on the world stage. This best shows that power is:",
+          "options": [
+            "Relational",
+            "Dynamic",
+            "Relative",
+            "Objective"
+          ],
+          "answerIndex": 2,
+          "explanation": "Whether Nigeria counts as powerful depends on whom it is compared with, so power is relative. Relational would concern Nigeria actually making another state act."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A small state convinces its neighbours that it has a secret weapons programme, though it has none, and they avoid confronting it. This illustrates:",
+          "options": [
+            "Objective power",
+            "Dynamic power",
+            "Situational power",
+            "Subjective power"
+          ],
+          "answerIndex": 3,
+          "explanation": "The neighbours react to what they believe, not to real assets, which is subjective power. Objective power would require actually having the weapons."
+        },
+        {
+          "difficulty": 3,
+          "stem": "During the 1997–98 crisis, the US deployed warships and submarines to the Gulf, after which Iraq allowed inspectors into presidential palaces. This case mainly illustrates that power:",
+          "options": [
+            "Can make an actor do what it would otherwise not do",
+            "Depends mainly on population size",
+            "Is purely a matter of persuasion",
+            "Disappears when sovereignty is claimed"
+          ],
+          "answerIndex": 0,
+          "explanation": "Iraq complied under military pressure, showing power as control that can include the threat of force, not mere persuasion."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Morgenthau's definition of power is broad because it includes:",
+          "options": [
+            "Only military force used in war",
+            "Everything from political violence to subtle psychological ties between minds",
+            "Only economic sanctions and trade",
+            "Only the legal authority of international organisations"
+          ],
+          "answerIndex": 1,
+          "explanation": "Morgenthau covers all social relationships serving the control of man over man, from violence to psychological influence."
+        },
+        {
+          "difficulty": 4,
+          "stem": "A state that performs poorly in one diplomatic dispute should not be judged weak overall, because its response in one context may not reflect its total capability. This is the idea that power is:",
+          "options": [
+            "Relative",
+            "Situational",
+            "Dynamic",
+            "Relational"
+          ],
+          "answerIndex": 1,
+          "explanation": "Power varies with the situation, so one response does not show total capability. Relative concerns comparison with other states."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Papp: power as persuading, influencing, forcing or inducing another actor",
+            "Anifowose: power as anything that keeps man's control over man",
+            "Morgenthau: power as relations of super-ordination and subordination",
+            "Rourke: power as getting individuals and groups to behave unusually"
+          ],
+          "answerIndex": 0,
+          "explanation": "Papp lists persuade, influence, force or induce. The other options swap Morgenthau, Anifowose and Payne."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider: I. The fall of the Roman Empire shows power is dynamic. II. Objective power needs both assets and the capacity and will to use them. III. Relative power means power exists only when exercised over another actor. Which are correct?",
+          "options": [
+            "I and III only",
+            "II and III only",
+            "I, II and III",
+            "I and II only"
+          ],
+          "answerIndex": 3,
+          "explanation": "I and II are correct. III describes relational power; relative power is about comparison between states."
+        },
+        {
+          "difficulty": 5,
+          "stem": "The definition of power that explicitly lists political, geographic, economic, technological, military, social and cultural capabilities as its basis, and covers non-state actors too, is that of:",
+          "options": [
+            "Robert Dahl",
+            "Payne",
+            "Viotti and Kauppi",
+            "Remi Anifowose"
+          ],
+          "answerIndex": 2,
+          "explanation": "Viotti and Kauppi tie power to a wide range of capabilities and include non-state actors. Dahl's formula is about A and B, with no list of capabilities."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A student writes: 'The USSR was a superpower in 1960, so it must still be one today.' Which two characteristics of power together best expose the error?",
+          "options": [
+            "Relational and objective",
+            "Situational and subjective",
+            "Objective and situational",
+            "Dynamic and relative"
+          ],
+          "answerIndex": 3,
+          "explanation": "Power changes over time (dynamic), and superpower status only exists in comparison with others (relative). The USSR dissolved in 1991, so the claim fails on both counts."
+        }
+      ]
+    },
+    {
+      "name": "Elements of national power",
+      "lesson": {
+        "title": "What makes a state powerful",
+        "minutes": 9,
+        "hook": "India has more people than the United States, yet the US is far more powerful. So what really turns a country into a power?",
+        "slides": [
+          {
+            "kind": "compare",
+            "heading": "Two kinds of elements",
+            "left": {
+              "title": "Tangible",
+              "points": [
+                "Geography",
+                "People (population)",
+                "Economy and technology",
+                "Military capability and spending"
+              ]
+            },
+            "right": {
+              "title": "Intangible",
+              "points": [
+                "How good the political leaders are",
+                "Morale of the public",
+                "ICT capacity (information and communication)"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Geography",
+            "body": "Geography covers **size, shape and location**, **climate** and **natural endowments** such as minerals.\n\nLocation can be a huge advantage. The **USA** has friendly neighbours to its north and south and wide oceans separating it from Europe and Asia, so it makes policy with little outside pressure. Location also shapes how secure or exposed a country is to attack.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "globe",
+                  "label": "Location"
+                },
+                {
+                  "icon": "leaf",
+                  "label": "Climate"
+                },
+                {
+                  "icon": "layers",
+                  "label": "Mineral resources"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Niger and the sea",
+            "story": "A trader in Niamey orders goods from China. Niger has no coastline, so the container lands at a Nigerian or Beninese port and then crawls north by road. Every delay at the border, every extra checkpoint, raises the price. And if relations with the coastal neighbour turn sour, the route itself is at risk.",
+            "takeaway": "Landlocked states depend on coastal neighbours, whose cooperation follows their own interests, so they find it harder to wield power."
+          },
+          {
+            "kind": "teach",
+            "heading": "People: asset or liability?",
+            "body": "A large population can mean more soldiers and more workers. But it also means more mouths to feed and higher demand for food and raw materials.\n\n**Age structure** matters: a country with many people of working age (15–65) has an edge over one with many elderly. An **educated** population helps too. A large population alone is not power: otherwise India would outrank America. A hungry, disloyal or divided population is a liability.",
+            "visual": {
+              "type": "scale",
+              "left": "Manpower",
+              "right": "Demand on resources",
+              "heavier": "even"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Why does the session say a large population does not automatically make a country powerful?",
+            "options": [
+              "Population has no effect on power at all",
+              "Large populations always cause civil war",
+              "If size alone mattered, India would be more powerful than America",
+              "Only small populations can be educated"
+            ],
+            "answerIndex": 2,
+            "why": "The India–America comparison shows size alone is not enough; age structure, education, nourishment and unity also count."
+          },
+          {
+            "kind": "teach",
+            "heading": "Military capability",
+            "body": "When **diplomacy** fails, states fall back on their armed forces for survival, which is why many spend a big share of their budgets on training and equipment. Some have built **nuclear weapons**.\n\nAfter the September 11 attacks, more countries poured money into modern arms. One rough way to compare power is **military spending**. Just as important is the ability to send forces **beyond your own borders**.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "shield",
+                  "label": "Defence"
+                },
+                {
+                  "icon": "cash",
+                  "label": "Military spending"
+                },
+                {
+                  "icon": "globe",
+                  "label": "Deploy abroad"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Leadership and ICT",
+            "body": "**Quality of leadership** is intangible but vital. An accountable, effective government is better placed to shape world events. A mighty state with poor leaders tends to make enemies and endanger itself.\n\n**Information and communication technology** is the other intangible stressed here. In today's information revolution, strong ICT makes a country more efficient in almost every field and gives it an edge over states still lagging behind.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "person",
+                  "label": "Good leadership"
+                },
+                {
+                  "icon": "git-network",
+                  "label": "Strong ICT"
+                },
+                {
+                  "icon": "happy",
+                  "label": "Public morale"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Which of these is an intangible element of national power?",
+            "options": [
+              "Mineral resources",
+              "Quality of political leadership",
+              "Military expenditure",
+              "Size of territory"
+            ],
+            "answerIndex": 1,
+            "why": "Leadership cannot be physically counted, so it is intangible. Minerals, spending and territory are tangible."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "The favourite twist is classification: tangible or intangible? Students often put ICT under tangible because computers are physical, but the session lists it as intangible. Another trap: treating population as always positive. Always give both sides.",
+            "sampleQuestion": "Discuss the elements of national power, showing why population can be both an asset and a liability.",
+            "howToAnswer": "Split elements into tangible and intangible, explain geography, population, military, leadership and ICT with examples, then weigh population's advantages against its costs, using the India–US comparison.",
+            "scholars": [
+              "John Rourke",
+              "Hans Morgenthau"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Elements of power are tangible (geography, people, economy, military) or intangible (leadership, morale, ICT).",
+              "Favourable location gives economic and strategic advantage; landlocked states struggle.",
+              "Population helps only if it is educated, healthy, united and of working age.",
+              "Military capability matters when diplomacy fails; spending is one measure.",
+              "Good leadership and strong ICT multiply a state's power."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Which of the following is a tangible element of national power?",
+          "options": [
+            "Public morale",
+            "Quality of leadership",
+            "Geography",
+            "National character"
+          ],
+          "answerIndex": 2,
+          "explanation": "Geography is physical and measurable, so it is tangible. Morale and leadership are intangible."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The productive or working-age bracket mentioned in the session is:",
+          "options": [
+            "5–25 years",
+            "18–50 years",
+            "25–75 years",
+            "15–65 years"
+          ],
+          "answerIndex": 3,
+          "explanation": "The session treats 15–65 as the productive years. A large share in this range is an advantage."
+        },
+        {
+          "difficulty": 1,
+          "stem": "States usually rely on their military capability for survival mainly when:",
+          "options": [
+            "Diplomacy fails",
+            "Their population grows",
+            "Their economy is booming",
+            "They join an international organisation"
+          ],
+          "answerIndex": 0,
+          "explanation": "The military is what a state falls back on when diplomacy fails."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Landlocked countries usually find it difficult to wield power mainly because they:",
+          "options": [
+            "Cannot join the United Nations",
+            "Always have small populations",
+            "Have no natural resources",
+            "Depend on coastal states for costly access to the sea"
+          ],
+          "answerIndex": 3,
+          "explanation": "Transport is costly and they rely on coastal neighbours, whose cooperation follows their own interests. Being landlocked says nothing about population or UN membership."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The advantages the United States enjoys from its geography include all of the following EXCEPT:",
+          "options": [
+            "Friendly neighbours on its northern and southern borders",
+            "Oceans separating it from Europe and Asia",
+            "Freedom to make policy with relatively little external pressure",
+            "Being surrounded by hostile great powers on land"
+          ],
+          "answerIndex": 3,
+          "explanation": "The US benefits precisely because it is not surrounded by hostile land powers; its neighbours are friendly and oceans protect it."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Information and communication technology is classified in the session as:",
+          "options": [
+            "A tangible element because computers are physical",
+            "An intangible element of power",
+            "A characteristic of power, like dynamism",
+            "Irrelevant to modern power"
+          ],
+          "answerIndex": 1,
+          "explanation": "The session lists ICT with leadership and morale as intangible. Treating it as tangible because of hardware is the common trap."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Country X has a huge population, but much of it is malnourished and divided along ethnic lines. According to the session, this population is best seen as:",
+          "options": [
+            "An automatic source of great power",
+            "More of a liability than an asset",
+            "Irrelevant to the country's power",
+            "A tangible element that guarantees military strength"
+          ],
+          "answerIndex": 1,
+          "explanation": "A malnourished, disloyal or disunited population is a liability. Size alone does not guarantee power."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A militarily strong country led by reckless leaders keeps provoking its neighbours and ends up isolated. Which element of power is weak here?",
+          "options": [
+            "Geography",
+            "Military capability",
+            "Quality of leadership",
+            "Population"
+          ],
+          "answerIndex": 2,
+          "explanation": "The session warns that a powerful country without good leadership makes enemies and endangers itself. Its military is strong, so that is not the weakness."
+        },
+        {
+          "difficulty": 3,
+          "stem": "An analyst wants a quick, rough comparison of the power potential of two rival states. Which method does the session mention?",
+          "options": [
+            "Comparing how much each spends on its military",
+            "Counting the number of political parties in each",
+            "Comparing their dates of independence",
+            "Counting their UN General Assembly votes"
+          ],
+          "answerIndex": 0,
+          "explanation": "The session notes that military spending is one way of estimating power potential."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Two states have similar populations. State A has most citizens aged 20–50; State B has a large proportion of elderly citizens. Other things equal, which conclusion follows?",
+          "options": [
+            "State B is stronger because the elderly are experienced",
+            "Population size alone makes them equal",
+            "Age structure has no bearing on power",
+            "State A has an advantage because more citizens are of working age"
+          ],
+          "answerIndex": 3,
+          "explanation": "A large share of people in the productive years gives an advantage. Similar size does not mean equal power once age structure is considered."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Beyond the size of its forces, the session stresses that a state's ability to do what is crucial in its relations with others?",
+          "options": [
+            "Deploy its armed forces outside its own borders",
+            "Hold regular military parades",
+            "Recruit only volunteers",
+            "Keep its army inside the capital"
+          ],
+          "answerIndex": 0,
+          "explanation": "Projecting force beyond its own territory is singled out as crucial. Parades and recruitment methods are not."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair correctly matches the element with its type?",
+          "options": [
+            "Public morale: tangible",
+            "Military expenditure: intangible",
+            "Natural endowments: tangible",
+            "Population size: intangible"
+          ],
+          "answerIndex": 2,
+          "explanation": "Natural endowments such as minerals are part of geography, a tangible element. Morale is intangible, while spending and population are tangible."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider: I. A large population increases demand on food supply. II. Geography includes climate and mineral resources. III. Good leadership is a tangible element of power. Which are correct?",
+          "options": [
+            "II and III only",
+            "I and II only",
+            "I and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 1,
+          "explanation": "I and II are correct. Leadership is intangible, so III is false."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Niger depends heavily on Nigeria for many things. Which statement best explains this using the session's ideas?",
+          "options": [
+            "Niger's leadership is weak, an intangible factor",
+            "Niger is landlocked, a geographic factor that limits its ability to wield power",
+            "Niger has a larger population than Nigeria",
+            "Niger has more advanced ICT than Nigeria"
+          ],
+          "answerIndex": 1,
+          "explanation": "The session uses Niger as an example of a landlocked country relying on a coastal neighbour. Nothing in the session ties it to leadership quality."
+        },
+        {
+          "difficulty": 5,
+          "stem": "All of the following statements about the elements of power are correct EXCEPT:",
+          "options": [
+            "Location can determine a state's vulnerability to attack",
+            "An educated population strengthens a state",
+            "A powerful country with poor leadership risks making enemies",
+            "A larger population always produces greater national power"
+          ],
+          "answerIndex": 3,
+          "explanation": "The session rejects the idea that a large population automatically means power. The other statements are all made in the session."
+        }
+      ]
+    }
+  ]
+}

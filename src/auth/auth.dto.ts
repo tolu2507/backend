@@ -10,7 +10,8 @@ export class RegisterDto {
   @Transform(lower) @IsEmail({}, { message: 'Enter a valid email address.' }) email: string;
   @IsOptional() @Transform(trim) @Matches(/^\+?[0-9]{10,15}$/, { message: 'Enter a valid phone number.' }) phone?: string;
   @IsString() @MinLength(8, { message: 'Use at least 8 characters for your password.' }) password: string;
-  @IsIn(['PARENT', 'TUTOR']) role: 'PARENT' | 'TUTOR';
+  /** UNI_STUDENT: a university student signing up for themselves (a STUDENT membership at the TERTIARY level). */
+  @IsIn(['PARENT', 'TUTOR', 'UNI_STUDENT']) role: 'PARENT' | 'TUTOR' | 'UNI_STUDENT';
 }
 
 export class LoginDto {

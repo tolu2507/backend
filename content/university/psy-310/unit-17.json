@@ -1,0 +1,1044 @@
+{
+  "unit": 17,
+  "title": "Intelligence",
+  "summary": "What intelligence is, one general ability versus many, Sternberg's problem-solving steps, fluid and crystallised and tacit intelligence, IQ calculation, and heredity versus environment.",
+  "sections": [
+    {
+      "name": "One ability or many?",
+      "lesson": {
+        "title": "Defining intelligence",
+        "minutes": 10,
+        "hook": "Your classmate scores 320 in JAMB but cannot fix a puncture. The vulcaniser at the junction left school early but can diagnose any tyre in seconds. Which of them is intelligent?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "What intelligence means",
+            "body": "**Intelligence** is a person's cognitive ability to **learn from experience**, **reason well** and **cope with the demands of daily life**. It concerns how well someone deals with the world around them.\n\nPsychologists agree on this broad idea but disagree sharply on a deeper question: is intelligence **one general ability** or **many separate ones**?",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "book",
+                  "label": "Learn"
+                },
+                {
+                  "icon": "bulb",
+                  "label": "Reason"
+                },
+                {
+                  "icon": "checkmark-circle",
+                  "label": "Cope"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Galton and the general factor",
+            "body": "**Sir Francis Galton** popularised the study of intelligence in the late 1800s and believed it was largely **inherited**.\n\nThe idea of a single **general factor (g)** underlying all specific abilities is most associated with **Charles Spearman** (1904). If you have high g, you are more likely to do well at mechanical, musical, artistic and other tasks. (Your course notes credit this view to Galton.)",
+            "visual": {
+              "type": "pyramid",
+              "levels": [
+                "General factor (g)",
+                "Specific abilities",
+                "Test scores"
+              ]
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Two views of intelligence",
+            "left": {
+              "title": "Single general factor",
+              "points": [
+                "One underlying ability (g)",
+                "Bright people tend to be bright at most things",
+                "Galton, Spearman"
+              ]
+            },
+            "right": {
+              "title": "Many separate abilities",
+              "points": [
+                "Distinct, partly independent abilities",
+                "Most people are stronger in some than others",
+                "Thurstone, Guilford, Gardner"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Thurstone and Guilford",
+            "body": "**Louis Thurstone (1938)** offered an alternative to general tests: the **Primary Mental Abilities** test, measuring **seven** separate intellectual abilities, such as verbal comprehension, numerical ability and spatial ability.\n\n**J. P. Guilford** went further, proposing that some **150** distinct abilities make up intelligence.",
+            "visual": {
+              "type": "stat",
+              "value": "7 → 150",
+              "label": "Thurstone to Guilford"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Thurstone's Primary Mental Abilities test measured how many abilities?",
+            "options": [
+              "One",
+              "One hundred and fifty",
+              "Fifty",
+              "Seven"
+            ],
+            "answerIndex": 3,
+            "why": "Thurstone measured seven primary abilities; Guilford proposed about 150."
+          },
+          {
+            "kind": "terms",
+            "heading": "Gardner's seven intelligences (1983)",
+            "terms": [
+              {
+                "term": "Linguistic and logical-mathematical",
+                "meaning": "Words and language; numbers and logic"
+              },
+              {
+                "term": "Musical",
+                "meaning": "Sensitivity to rhythm, pitch and melody"
+              },
+              {
+                "term": "Spatial (artistic)",
+                "meaning": "Visualising and manipulating space and images"
+              },
+              {
+                "term": "Bodily-kinaesthetic (athletic)",
+                "meaning": "Skilled control of body movement"
+              },
+              {
+                "term": "Interpersonal and intrapersonal",
+                "meaning": "Understanding others; understanding and managing oneself"
+              }
+            ]
+          },
+          {
+            "kind": "teach",
+            "heading": "Why Gardner matters",
+            "body": "**Howard Gardner (1983)** argued these intelligences are **independent** and handled by **different parts of the brain**. His view is far **broader** than traditional ones: great musical skill or emotional self-understanding counts as intelligence just as much as maths.\n\nMost IQ tests measure only **verbal** and **logical-mathematical** ability, so they miss much of what Gardner includes.",
+            "visual": {
+              "type": "scale",
+              "left": "Gardner's 7 types",
+              "right": "Typical IQ test (2)",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "According to Gardner, most traditional IQ tests measure mainly:",
+            "options": [
+              "Musical and bodily intelligence",
+              "Interpersonal and intrapersonal intelligence",
+              "Linguistic and logical-mathematical intelligence",
+              "All seven intelligences equally"
+            ],
+            "answerIndex": 2,
+            "why": "Standard tests focus on verbal and logical-maths skills, missing the other intelligences Gardner describes."
+          },
+          {
+            "kind": "example",
+            "heading": "Three gifted classmates",
+            "story": "In one SS3 class, Adaeze tops every maths test, Bolaji composes songs that the whole school sings, and Musa is the student everyone goes to when they are upset because he always knows what to say. A traditional IQ test would rate Adaeze highest. Gardner would say all three are intelligent, in different ways.",
+            "takeaway": "Gardner's theory recognises musical and interpersonal strengths that traditional tests ignore."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'explain the different types of intelligence' (list Gardner's seven) and objectives on who said what: Thurstone seven primary abilities, Guilford about 150, Gardner seven intelligences. Trap: confusing Thurstone's seven with Gardner's seven. Thurstone's were test-measured mental abilities; Gardner's include music, body and social skills.",
+            "sampleQuestion": "Which of the following is NOT one of Gardner's original seven intelligences? (a) musical (b) interpersonal (c) bodily-kinaesthetic (d) mechanical-reflexive",
+            "howToAnswer": "Answer (d). List all seven in essays and note that standard IQ tests cover only two of them.",
+            "scholars": [
+              "Galton",
+              "Spearman (1904)",
+              "Thurstone (1938)",
+              "Guilford",
+              "Gardner (1983)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Intelligence: learning from experience, reasoning well, coping with life.",
+              "General factor view: one ability (g) underlies others (Spearman; Galton stressed heredity).",
+              "Multiple-ability view: Thurstone's 7, Guilford's 150.",
+              "Gardner (1983): seven independent intelligences in different brain areas.",
+              "IQ tests mainly measure verbal and logical-mathematical ability."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Intelligence is best defined as the ability to:",
+          "options": [
+            "Memorise facts only",
+            "Speak many languages",
+            "Run fast",
+            "Learn from experience, reason well and cope with daily demands"
+          ],
+          "answerIndex": 3,
+          "explanation": "This is the standard broad definition used in the course."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Who proposed seven independent types of intelligence in 1983?",
+          "options": [
+            "Thurstone",
+            "Guilford",
+            "Gardner",
+            "Binet"
+          ],
+          "answerIndex": 2,
+          "explanation": "Howard Gardner proposed multiple intelligences in 1983."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Galton believed intelligence was mainly:",
+          "options": [
+            "Learned in school",
+            "Inherited",
+            "Caused by diet",
+            "Random"
+          ],
+          "answerIndex": 1,
+          "explanation": "Galton emphasised heredity."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Guilford suggested that intelligence is made up of about:",
+          "options": [
+            "2 abilities",
+            "7 abilities",
+            "1,000 abilities",
+            "150 abilities"
+          ],
+          "answerIndex": 3,
+          "explanation": "Guilford proposed around 150 distinct abilities."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The view that one general factor underlies specific abilities predicts that a person with high general intelligence will:",
+          "options": [
+            "Be poor at most tasks",
+            "Have no musical ability",
+            "Excel at only one task",
+            "Tend to do well across many types of task"
+          ],
+          "answerIndex": 3,
+          "explanation": "A strong general factor supports many specific abilities."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Most traditional IQ tests focus on which of Gardner's intelligences?",
+          "options": [
+            "Verbal and logical-mathematical",
+            "Musical and bodily",
+            "Interpersonal and intrapersonal",
+            "Spatial and musical"
+          ],
+          "answerIndex": 0,
+          "explanation": "Standard tests concentrate on language and logic-maths skills."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A footballer with exceptional body control but average maths would be rated highly in Gardner's:",
+          "options": [
+            "Bodily-kinaesthetic intelligence",
+            "Logical-mathematical intelligence",
+            "Linguistic intelligence",
+            "Musical intelligence"
+          ],
+          "answerIndex": 0,
+          "explanation": "Skilled body movement is bodily-kinaesthetic intelligence."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A counsellor who reads people's feelings accurately and helps them work through conflict shows strong:",
+          "options": [
+            "Intrapersonal intelligence",
+            "Spatial intelligence",
+            "Interpersonal intelligence",
+            "Logical-mathematical intelligence"
+          ],
+          "answerIndex": 2,
+          "explanation": "Understanding and relating to others is interpersonal intelligence."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A student who understands her own moods and manages them well shows:",
+          "options": [
+            "Interpersonal intelligence",
+            "Musical intelligence",
+            "Intrapersonal intelligence",
+            "Linguistic intelligence"
+          ],
+          "answerIndex": 2,
+          "explanation": "Self-understanding and adjustment is intrapersonal intelligence."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Thurstone: about 150 abilities",
+            "Guilford: seven primary mental abilities",
+            "Thurstone: Primary Mental Abilities test",
+            "Gardner: single general factor"
+          ],
+          "answerIndex": 2,
+          "explanation": "Thurstone developed the Primary Mental Abilities test of seven abilities."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Gardner claimed his different intelligences are:",
+          "options": [
+            "Mediated by different parts of the brain",
+            "All measured by IQ tests",
+            "Identical to g",
+            "Learned only in school"
+          ],
+          "answerIndex": 0,
+          "explanation": "He linked each intelligence to distinct brain systems."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are among Gardner's seven intelligences EXCEPT:",
+          "options": [
+            "Musical",
+            "Mechanical",
+            "Interpersonal",
+            "Spatial"
+          ],
+          "answerIndex": 1,
+          "explanation": "Mechanical is not one of Gardner's seven."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Gardner's view of intelligence is broader than the traditional view. II. Thurstone supported a single general factor. III. Most people are stronger in some abilities than others, say multiple-ability theorists. Which are correct?",
+          "options": [
+            "I and II only",
+            "I and III only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 1,
+          "explanation": "I and III are correct. Thurstone offered an alternative to general-factor tests."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A critic argues Gardner's 'musical intelligence' is really a talent, not intelligence. This criticism questions:",
+          "options": [
+            "How broadly intelligence should be defined",
+            "Whether IQ tests exist",
+            "Whether the brain has parts",
+            "Whether Thurstone existed"
+          ],
+          "answerIndex": 0,
+          "explanation": "The debate is about whether such skills belong under 'intelligence' at all."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which finding would most support a strong general factor of intelligence?",
+          "options": [
+            "Each ability is completely unrelated to others",
+            "People's scores on very different tests are positively correlated",
+            "Musicians are poor at maths",
+            "IQ tests measure only verbal skills"
+          ],
+          "answerIndex": 1,
+          "explanation": "If people who do well on one test tend to do well on others, a shared general factor is likely."
+        }
+      ]
+    },
+    {
+      "name": "Problem-solving steps and kinds of intelligence",
+      "lesson": {
+        "title": "How intelligent people solve problems",
+        "minutes": 9,
+        "hook": "Two students face the same tricky analogy question. One rushes and gets it wrong; the other spends longer reading it, then races through the rest. Who is the better reasoner?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Sternberg's componential view",
+            "body": "**Robert Sternberg (1979)** proposed that intelligence can be understood through the **cognitive steps** we use in **reasoning and problem-solving**: the **components** of intelligence.\n\nBreaking problem-solving into steps lets researchers find which components make one person a better reasoner than another.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Problem",
+                "Cognitive steps",
+                "Answer"
+              ]
+            }
+          },
+          {
+            "kind": "steps",
+            "heading": "Sternberg's six steps",
+            "steps": [
+              {
+                "title": "Encode",
+                "detail": "Take in all the relevant information about the problem and store it in usable form."
+              },
+              {
+                "title": "Infer",
+                "detail": "Work out the relationship between the terms of the problem."
+              },
+              {
+                "title": "Map",
+                "detail": "Identify common features between relevant pairs of elements."
+              },
+              {
+                "title": "Apply",
+                "detail": "Use the relationship you identified on the new case."
+              },
+              {
+                "title": "Compare",
+                "detail": "Weigh the alternative answers."
+              },
+              {
+                "title": "Respond",
+                "detail": "Give the answer."
+              }
+            ]
+          },
+          {
+            "kind": "teach",
+            "heading": "Good reasoners encode slowly",
+            "body": "A surprising finding: **better reasoners spend more time encoding** the problem than poor reasoners, but are **faster at every other step**.\n\nCareful understanding at the start pays off: once the problem is clearly grasped, inferring, mapping and applying go quickly and accurately.",
+            "visual": {
+              "type": "scale",
+              "left": "Time on encoding",
+              "right": "Time on later steps",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "According to Sternberg, better reasoners compared with poor reasoners:",
+            "options": [
+              "Are faster at every step",
+              "Skip the encoding step",
+              "Spend more time encoding but are faster at other steps",
+              "Spend more time responding"
+            ],
+            "answerIndex": 2,
+            "why": "Good reasoners invest time in encoding, then move faster through the remaining components."
+          },
+          {
+            "kind": "example",
+            "heading": "The analogy question",
+            "story": "'Lagos is to Nigeria as Accra is to ____?' Chidi reads carefully (encode), sees Lagos is Nigeria's biggest city (infer), checks Accra is Ghana's biggest city (map), applies the rule (apply), rules out 'Kumasi' and 'Togo' (compare), and writes 'Ghana' (respond). He took longer to read, then answered quickly.",
+            "takeaway": "Sternberg's components describe the steps of reasoning, and careful encoding speeds up the rest."
+          },
+          {
+            "kind": "compare",
+            "heading": "Fluid versus crystallised intelligence",
+            "left": {
+              "title": "Fluid",
+              "points": [
+                "Inventing new strategies",
+                "Solving unfamiliar problems",
+                "Declines from middle age"
+              ]
+            },
+            "right": {
+              "title": "Crystallised",
+              "points": [
+                "Using previously learned skills",
+                "Solving familiar problems",
+                "Stays stable or grows with age"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Intelligence across the lifespan",
+            "body": "The fluid-crystallised distinction, developed by Raymond **Cattell** and John **Horn**, shows how intellect changes with **age**. **Fluid** ability, learning new skills for new problems, tends to **decline from middle age**.\n\n**Crystallised** ability, built on knowledge and experience, holds steady or even **increases**. That is why an elderly judge may outperform a young lawyer on legal reasoning but struggle with a new phone app.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Youth: fluid peaks",
+              "right": "Age: crystallised holds",
+              "marker": 60,
+              "label": "Change over life"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Solving a brand-new kind of puzzle you have never seen before mainly uses:",
+            "options": [
+              "Fluid intelligence",
+              "Crystallised intelligence",
+              "Tacit intelligence",
+              "Intrapersonal intelligence"
+            ],
+            "answerIndex": 0,
+            "why": "Fluid intelligence handles novel problems; crystallised intelligence applies learned skills."
+          },
+          {
+            "kind": "teach",
+            "heading": "Tacit (everyday) intelligence",
+            "body": "IQ tests like the Stanford-Binet and Wechsler mainly predict **school performance** and success in **complex occupations**. They say little about skills not taught in school: **fishing, photography, vulcanising** and many trades.\n\n**Sternberg and Wagner (1993)** called this **tacit** or **everyday intelligence**: practical, often informally learned know-how. Tests of tacit intelligence are **specific to a domain** and predict who will do well **in that domain**.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "briefcase",
+                  "label": "Job know-how"
+                },
+                {
+                  "icon": "fitness",
+                  "label": "Practical skill"
+                },
+                {
+                  "icon": "search",
+                  "label": "Domain-specific"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'explain the cognitive steps in reasoning' (all six, in order) and 'explain tacit intelligence'. Objectives test fluid versus crystallised with age scenarios. Trap: thinking better reasoners are faster at encoding; they are slower there and faster elsewhere.",
+            "sampleQuestion": "Which of the following correctly orders Sternberg's steps? (a) infer, encode, apply, map, compare, respond (b) encode, infer, map, apply, compare, respond (c) encode, map, infer, compare, apply, respond (d) respond, compare, apply, map, infer, encode",
+            "howToAnswer": "Answer (b). Define each step briefly and add the finding about encoding time.",
+            "scholars": [
+              "Sternberg (1979)",
+              "Sternberg & Wagner (1993)",
+              "Cattell & Horn"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Sternberg: encode, infer, map, apply, compare, respond.",
+              "Better reasoners spend longer encoding, then go faster.",
+              "Fluid: new problems, declines from middle age; crystallised: learned skills, holds up.",
+              "IQ tests predict school and complex jobs, not trade skills.",
+              "Tacit intelligence: practical, domain-specific know-how."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The first step in Sternberg's problem-solving components is:",
+          "options": [
+            "Encode",
+            "Infer",
+            "Respond",
+            "Compare"
+          ],
+          "answerIndex": 0,
+          "explanation": "Encoding the relevant information comes first."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The ability to use previously learned skills to solve familiar problems is:",
+          "options": [
+            "Fluid intelligence",
+            "Crystallised intelligence",
+            "Tacit intelligence",
+            "Interpersonal intelligence"
+          ],
+          "answerIndex": 1,
+          "explanation": "Crystallised intelligence draws on accumulated knowledge."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Practical, everyday know-how specific to a domain is called:",
+          "options": [
+            "Tacit intelligence",
+            "Fluid intelligence",
+            "Mental age",
+            "General factor"
+          ],
+          "answerIndex": 0,
+          "explanation": "Tacit intelligence is practical, domain-specific knowledge."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Fluid intelligence tends to:",
+          "options": [
+            "Never change",
+            "Increase steadily into old age",
+            "Decline from middle age",
+            "Appear only in old age"
+          ],
+          "answerIndex": 2,
+          "explanation": "The ability to tackle new problems declines from middle age."
+        },
+        {
+          "difficulty": 2,
+          "stem": "In Sternberg's model, 'map' refers to:",
+          "options": [
+            "Drawing a map",
+            "Giving the answer",
+            "Identifying common features between relevant pairs of elements",
+            "Storing information"
+          ],
+          "answerIndex": 2,
+          "explanation": "Mapping finds shared characteristics between pairs."
+        },
+        {
+          "difficulty": 2,
+          "stem": "General IQ tests like the Stanford-Binet mainly predict:",
+          "options": [
+            "Fishing skill",
+            "Academic performance and complex occupations",
+            "Musical talent",
+            "Athletic success"
+          ],
+          "answerIndex": 1,
+          "explanation": "They predict school and complex job performance, not trade skills."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A retired professor easily answers questions on history but struggles to learn a new video game. This illustrates:",
+          "options": [
+            "Low interpersonal intelligence",
+            "High fluid, low crystallised intelligence",
+            "Low tacit intelligence",
+            "Stable crystallised, declining fluid intelligence"
+          ],
+          "answerIndex": 3,
+          "explanation": "Crystallised knowledge holds with age while fluid ability for novel tasks declines."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A vulcaniser who left school early diagnoses tyre faults faster than any engineer. This best shows:",
+          "options": [
+            "High IQ",
+            "Tacit (everyday) intelligence",
+            "Fluid intelligence only",
+            "Low intelligence"
+          ],
+          "answerIndex": 1,
+          "explanation": "Practical, domain-specific skill not taught in school is tacit intelligence."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A student reads an exam question twice, slowly, then answers quickly and correctly. According to Sternberg, she is likely a:",
+          "options": [
+            "Poor reasoner",
+            "Good reasoner who invests time in encoding",
+            "Person with low fluid intelligence",
+            "Person relying on tacit intelligence"
+          ],
+          "answerIndex": 1,
+          "explanation": "Good reasoners spend more time encoding and less on later steps."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which ordering of Sternberg's components is correct?",
+          "options": [
+            "Encode, map, infer, apply, respond, compare",
+            "Infer, encode, map, compare, apply, respond",
+            "Encode, infer, map, apply, compare, respond",
+            "Map, encode, infer, apply, compare, respond"
+          ],
+          "answerIndex": 2,
+          "explanation": "The sequence runs encode, infer, map, apply, compare, respond."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Sternberg and Wagner (1993) argued that tests of tacit intelligence are useful because they:",
+          "options": [
+            "Predict who will perform well in a specific domain",
+            "Measure only memory",
+            "Replace all IQ tests",
+            "Measure general academic ability"
+          ],
+          "answerIndex": 0,
+          "explanation": "Domain-specific tests predict performance in that field."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are Sternberg's problem-solving components EXCEPT:",
+          "options": [
+            "Encode",
+            "Infer",
+            "Compare",
+            "Memorise"
+          ],
+          "answerIndex": 3,
+          "explanation": "'Memorise' is not one of the six components."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Better reasoners are faster at encoding. II. Crystallised intelligence relies on past learning. III. Fluid intelligence handles novel problems. Which are correct?",
+          "options": [
+            "II and III only",
+            "I and III only",
+            "I, II and III",
+            "I and II only"
+          ],
+          "answerIndex": 0,
+          "explanation": "II and III are correct. Better reasoners are slower, not faster, at encoding."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Why might a company hiring photographers prefer a test of tacit intelligence to a general IQ test?",
+          "options": [
+            "IQ tests are illegal",
+            "IQ tests measure photography",
+            "Tacit tests are longer",
+            "Tacit tests predict performance in that specific domain better"
+          ],
+          "answerIndex": 3,
+          "explanation": "General IQ tests poorly predict skill in areas not taught in school."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Why does Sternberg's component approach help explain individual differences in intelligence?",
+          "options": [
+            "It ignores reasoning",
+            "It measures only memory",
+            "It shows which specific steps make one person a better reasoner than another",
+            "It is based on heredity alone"
+          ],
+          "answerIndex": 2,
+          "explanation": "Breaking reasoning into steps reveals where people differ."
+        }
+      ]
+    },
+    {
+      "name": "Measuring IQ, heredity and environment",
+      "lesson": {
+        "title": "Numbers, genes and upbringing",
+        "minutes": 10,
+        "hook": "A 10-year-old answers questions as well as the average 12-year-old. What is her IQ, and how much of it came from her parents' genes versus the books in her home?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "The first useful test",
+            "body": "**Alfred Binet**, working with Théodore Simon, produced the first useful intelligence test in **1905** to identify French schoolchildren needing extra help. (Your course notes give 1903.)\n\n**Lewis Terman** of **Stanford University** revised it in 1916 as the **Stanford-Binet Intelligence Scale**. **David Wechsler** later created the **Wechsler Intelligence Scale for Children (WISC)** and the **Wechsler Adult Intelligence Scale (WAIS)**.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Binet (1905)",
+                "Terman: Stanford-Binet",
+                "Wechsler: WISC, WAIS"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Mental age",
+            "body": "Binet scored a test by counting correct answers and asking: at what **age** is this the **average** score? That age is the child's **mental age (MA)**.\n\nIf a child answers 18 items, and 18 is the average for children aged 8 years 6 months, their MA is 8 years 6 months. MA **above** actual (chronological) age suggests a **bright** child; MA **below** suggests **below-average** ability.",
+            "visual": {
+              "type": "scale",
+              "left": "Mental age",
+              "right": "Chronological age",
+              "heavier": "even"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The IQ formula",
+            "body": "To compare children of different ages, divide **mental age (MA)** by **chronological age (CA)** and multiply by **100** to remove decimals:\n\n**IQ = MA ÷ CA × 100**\n\nIf MA equals CA, IQ is **100**: exactly average. Above 100 is above average; below 100 is below average.",
+            "visual": {
+              "type": "stat",
+              "value": "MA ÷ CA × 100",
+              "label": "Ratio IQ"
+            }
+          },
+          {
+            "kind": "steps",
+            "heading": "Working out IQ",
+            "steps": [
+              {
+                "title": "Example 1",
+                "detail": "MA 10, CA 8: 10 ÷ 8 × 100 = 125, above average."
+              },
+              {
+                "title": "Example 2",
+                "detail": "MA 7, CA 10: 7 ÷ 10 × 100 = 70, below average."
+              },
+              {
+                "title": "Example 3",
+                "detail": "MA 14, CA 12: 14 ÷ 12 × 100 ≈ 116.7, above average."
+              },
+              {
+                "title": "Watch the order",
+                "detail": "Always mental age on top, chronological age underneath."
+              }
+            ]
+          },
+          {
+            "kind": "check",
+            "question": "A child has a mental age of 9 and a chronological age of 12. The IQ is:",
+            "options": [
+              "133",
+              "75",
+              "108",
+              "90"
+            ],
+            "answerIndex": 1,
+            "why": "9 ÷ 12 × 100 = 75. Putting CA on top (12 ÷ 9) would wrongly give 133."
+          },
+          {
+            "kind": "teach",
+            "heading": "Heredity: twin studies",
+            "body": "Research shows **heredity and experience combine** to shape intelligence. **Identical (monozygotic)** twins, who share all their genes, have IQ scores **far more similar** than **fraternal (dizygotic)** twins, even when both pairs grow up in the same intellectual environment.\n\nSince the environments are similar, the extra similarity of identical twins points to **genes**."
+          },
+          {
+            "kind": "compare",
+            "heading": "Twins and adoptees",
+            "left": {
+              "title": "Twin studies",
+              "points": [
+                "Identical twins: very similar IQs",
+                "Fraternal twins: less similar",
+                "Points to heredity"
+              ]
+            },
+            "right": {
+              "title": "Adoption studies",
+              "points": [
+                "Adopted children resemble biological parents",
+                "Less like adoptive parents who raised them",
+                "Also points to heredity"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Environment matters too",
+            "body": "Genes are not the whole story. Children's **interaction with caregivers**, exposure to the adult world of talk, books and problem-solving, is essential for intellectual development.\n\nIntelligence can be **boosted** by **enriching** young children's environments: reading together, conversation, play and good schooling. IQ scores around the world have also risen over generations, too fast for genes alone to explain.",
+            "visual": {
+              "type": "venn",
+              "left": "Heredity",
+              "right": "Environment",
+              "both": "Intelligence"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Adopted children's IQs tend to resemble those of:",
+            "options": [
+              "Their adoptive parents more than their biological parents",
+              "Neither set of parents",
+              "Their biological parents more than their adoptive parents",
+              "Their teachers"
+            ],
+            "answerIndex": 2,
+            "why": "Greater resemblance to biological parents they never lived with points to a genetic influence."
+          },
+          {
+            "kind": "example",
+            "heading": "Separated sisters",
+            "story": "Twin sisters are separated at birth: one raised in Enugu by a teacher's family full of books, the other in a village with little schooling. As adults, both are quick thinkers with similar test patterns, yet the first scores noticeably higher and reads widely. Their shared genes set a similar potential; their environments shaped how far each went.",
+            "takeaway": "Heredity and environment work together: genes shape potential, and enrichment helps realise it."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "IQ calculation is almost guaranteed: practise MA ÷ CA × 100 and interpret the result. Also expect 'contributing factors to intelligence': heredity (twin and adoption studies) and environment (caregiver interaction, enrichment). Trap: reversing MA and CA in the formula.",
+            "sampleQuestion": "What is the intelligence quotient of a child whose MA is 14 and CA is 12? Interpret the result.",
+            "howToAnswer": "14 ÷ 12 × 100 ≈ 116.7, which is above average. Mention that IQ above 100 means mental age exceeds chronological age.",
+            "scholars": [
+              "Binet & Simon (1905)",
+              "Terman (1916)",
+              "Wechsler",
+              "Bouchard & McGue (1981)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Binet's test led to the Stanford-Binet (Terman) and Wechsler scales.",
+              "Mental age: the age for which a score is average.",
+              "IQ = MA ÷ CA × 100; 100 is average.",
+              "Twin and adoption studies show a strong genetic influence.",
+              "Caregiver interaction and enrichment also raise intelligence."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The formula for the ratio IQ is:",
+          "options": [
+            "CA ÷ MA × 100",
+            "MA × CA",
+            "MA ÷ CA × 100",
+            "MA − CA"
+          ],
+          "answerIndex": 2,
+          "explanation": "Mental age divided by chronological age, times 100."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The Stanford-Binet scale was developed by revising Binet's test. Who revised it?",
+          "options": [
+            "David Wechsler",
+            "Lewis Terman",
+            "Howard Gardner",
+            "Robert Sternberg"
+          ],
+          "answerIndex": 1,
+          "explanation": "Terman at Stanford University revised Binet's test."
+        },
+        {
+          "difficulty": 1,
+          "stem": "An IQ of 100 means a person's mental age is:",
+          "options": [
+            "Higher than their chronological age",
+            "Lower than their chronological age",
+            "Equal to their chronological age",
+            "Zero"
+          ],
+          "answerIndex": 2,
+          "explanation": "MA equal to CA gives an IQ of 100, exactly average."
+        },
+        {
+          "difficulty": 2,
+          "stem": "A child with MA 10 and CA 8 has an IQ of:",
+          "options": [
+            "80",
+            "100",
+            "180",
+            "125"
+          ],
+          "answerIndex": 3,
+          "explanation": "10 ÷ 8 × 100 = 125."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The Wechsler scale designed for children is the:",
+          "options": [
+            "WAIS",
+            "WISC",
+            "Stanford-Binet",
+            "Primary Mental Abilities test"
+          ],
+          "answerIndex": 1,
+          "explanation": "WISC is the Wechsler Intelligence Scale for Children; WAIS is for adults."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Identical twins' IQ scores are more similar than fraternal twins' scores. This mainly suggests a role for:",
+          "options": [
+            "Heredity",
+            "Diet",
+            "Schooling only",
+            "Chance"
+          ],
+          "answerIndex": 0,
+          "explanation": "Identical twins share all their genes, so greater similarity points to heredity."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A 12-year-old answers as well as the average 15-year-old. The IQ is:",
+          "options": [
+            "80",
+            "100",
+            "125",
+            "180"
+          ],
+          "answerIndex": 2,
+          "explanation": "MA 15 ÷ CA 12 × 100 = 125."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A 10-year-old's mental age is 7. The IQ and its interpretation are:",
+          "options": [
+            "70, below average",
+            "143, above average",
+            "100, average",
+            "17, far below average"
+          ],
+          "answerIndex": 0,
+          "explanation": "7 ÷ 10 × 100 = 70, below average."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Adopted children's IQs resemble their biological parents' more than their adoptive parents'. This supports:",
+          "options": [
+            "Environment only",
+            "Tacit intelligence",
+            "Gardner's theory",
+            "A strong role for heredity"
+          ],
+          "answerIndex": 3,
+          "explanation": "Resemblance to parents they never lived with points to genetic influence."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement about heredity and intelligence is MOST accurate?",
+          "options": [
+            "Intelligence is fully fixed by genes",
+            "Heredity and experience combine to determine intelligence",
+            "Genes play no role",
+            "Only schooling matters"
+          ],
+          "answerIndex": 1,
+          "explanation": "Both genes and environment contribute."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following can help enhance children's intelligence EXCEPT:",
+          "options": [
+            "Interaction with caregivers",
+            "Isolation from adult conversation",
+            "Enriched learning environments",
+            "Reading together"
+          ],
+          "answerIndex": 1,
+          "explanation": "Isolation deprives children of the interaction that supports intellectual growth."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Why did Binet's mental age need to be converted into an IQ?",
+          "options": [
+            "To compare children of different chronological ages",
+            "To make tests longer",
+            "To measure musical ability",
+            "To remove the need for testing"
+          ],
+          "answerIndex": 0,
+          "explanation": "Dividing by chronological age allows comparison across ages."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A child with MA 14 and CA 12 has an IQ of about:",
+          "options": [
+            "85.7",
+            "140",
+            "116.7",
+            "168"
+          ],
+          "answerIndex": 2,
+          "explanation": "14 ÷ 12 × 100 ≈ 116.7, above average."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Identical twins raised together have more similar IQs than fraternal twins raised together. II. Enrichment cannot change intelligence. III. Adoption studies point to heredity. Which are correct?",
+          "options": [
+            "I and III only",
+            "I and II only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 0,
+          "explanation": "I and III are correct. Enrichment can enhance intelligence."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Why do psychologists compare identical and fraternal twins raised in the same home?",
+          "options": [
+            "Because their environments differ greatly",
+            "Because identical twins have different genes",
+            "Because fraternal twins share all genes",
+            "Because their environments are similar, so extra similarity in identical twins can be linked to genes"
+          ],
+          "answerIndex": 3,
+          "explanation": "Holding environment roughly constant lets researchers attribute the extra similarity to shared genes."
+        }
+      ]
+    }
+  ]
+}

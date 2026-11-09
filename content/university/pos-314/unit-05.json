@@ -1,0 +1,1102 @@
+{
+  "unit": 5,
+  "title": "Liberalism",
+  "summary": "Liberalism's optimistic view of world politics: its roots, core beliefs, and four strands — sociological, interdependence, institutional and republican.",
+  "sections": [
+    {
+      "name": "The liberal outlook",
+      "lesson": {
+        "title": "Why liberals expect cooperation",
+        "minutes": 10,
+        "hook": "Nigeria and Ghana once expelled each other's citizens in bitter disputes. Today their people trade, study and travel freely under ECOWAS. A realist sees a lucky truce. A liberal sees the system working.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Roots in the Enlightenment",
+            "body": "**Liberalism** is one of the main theories of international relations. It grows from European Enlightenment thinkers such as **John Locke**, **Jean-Jacques Rousseau** and **Immanuel Kant**, whose *Perpetual Peace* (1795) imagined a world of republics bound by law.\n\nAs a political ideology, it opposes authoritarian rule and protects personal freedoms: to speak, to associate, to worship, and to own property.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Locke",
+                "Rousseau",
+                "Kant",
+                "Liberal IR"
+              ]
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Realism versus liberalism",
+            "left": {
+              "title": "Realism",
+              "points": [
+                "Pessimistic about human nature",
+                "War is a constant risk",
+                "Security through power",
+                "State is the key actor"
+              ]
+            },
+            "right": {
+              "title": "Liberalism",
+              "points": [
+                "Optimistic about human nature",
+                "War is a preventable mistake",
+                "Security through cooperation and law",
+                "Many actors matter"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Reason can beat fear",
+            "body": "Liberals grant that people are **self-interested and competitive**, but only up to a point. They also share many **common interests**, so cooperation is possible.\n\nBecause humans can **reason**, they can learn to cooperate for economic, technological and cultural gains. Conflict and war are **not inevitable**: reason can triumph over fear and the hunger for power.",
+            "visual": {
+              "type": "scale",
+              "left": "Reason",
+              "right": "Fear and power-lust",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Anarchy, yes; doom, no",
+            "body": "Like realists, liberals accept that the international system is **anarchic**: there is no world government. The difference is that liberals are **more hopeful** that states can cooperate within it.\n\nThey also deny that the state is the **only** important actor. The **UN**, the **EU**, **multinational corporations** and NGOs like **Amnesty International** or **Greenpeace** matter too.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "flag",
+                  "label": "States"
+                },
+                {
+                  "icon": "globe",
+                  "label": "UN, EU, AU"
+                },
+                {
+                  "icon": "briefcase",
+                  "label": "Multinationals"
+                },
+                {
+                  "icon": "people",
+                  "label": "NGOs"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "How do liberals differ from realists on the role of the state?",
+            "options": [
+              "Liberals see states as central but not the only significant actors",
+              "Liberals say states do not exist",
+              "Liberals say only corporations matter",
+              "There is no difference"
+            ],
+            "answerIndex": 0,
+            "why": "Liberals accept the state's central role but add international organisations, corporations and NGOs as significant actors."
+          },
+          {
+            "kind": "teach",
+            "heading": "Absolute gains and many kinds of power",
+            "body": "Realists worry about **relative gains**: who gains more. Liberals focus on **absolute gains**: if cooperation makes everyone richer, **all can win**. Real **wealth** matters more than having more power than a rival.\n\nFor liberals, power is not only **military**. **Economic** and **social** power matter a great deal, and economic power has often proved more effective than force.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Relative gains",
+              "right": "Absolute gains",
+              "marker": 85,
+              "label": "Where liberals sit"
+            }
+          },
+          {
+            "kind": "steps",
+            "heading": "Four core beliefs of classic liberalism",
+            "steps": [
+              {
+                "title": "Spread democracy",
+                "detail": "Peace is best secured by democratic institutions spreading worldwide."
+              },
+              {
+                "title": "Harmony of interests",
+                "detail": "Rational calculation makes national and international interests the same."
+              },
+              {
+                "title": "Rule of law",
+                "detail": "Disputes should be settled by established judicial procedures."
+              },
+              {
+                "title": "Collective security",
+                "detail": "Collective security should replace self-help."
+              }
+            ]
+          },
+          {
+            "kind": "check",
+            "question": "Which is one of the four core beliefs of classic liberalism listed by Evans and Newnham (1998)?",
+            "options": [
+              "Self-help should guide every state",
+              "Democracy causes war",
+              "Military power is the only real power",
+              "Collective security should replace self-help"
+            ],
+            "answerIndex": 3,
+            "why": "Classic liberals wanted collective security in place of self-help. Self-help is a realist idea."
+          },
+          {
+            "kind": "teach",
+            "heading": "Two views of the state",
+            "body": "Realists picture the state as **power gathered in one place**. Liberals picture it as a **constitutional organisation** where power is **divided** among branches.\n\nThe liberal state creates and enforces the **rule of law** and respects citizens' rights to **life, liberty and property**. This domestic picture shapes how liberals expect states to behave abroad: by rules, not raw force.",
+            "visual": {
+              "type": "venn",
+              "left": "Rule of law",
+              "right": "Separated powers",
+              "both": "Liberal state"
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "ECOWAS free movement",
+            "story": "Aisha, a trader from Kano, drives goods to Accra and Lomé without a visa under the ECOWAS free movement protocol. Customs rules, shared institutions and a common interest in trade keep the borders open. No state gave up its sovereignty, yet all gain from the rules.",
+            "takeaway": "Liberals see institutions and shared interests turning potential rivals into partners for mutual, absolute gain."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "'How can we best describe liberalism?' and 'why are liberals optimistic?' are common. Contrast with realism on human nature, actors, power and gains. Objectives test the four core beliefs and the realist versus liberal view of the state. The trap: saying liberals deny anarchy. They accept it; they are just more hopeful about cooperation.",
+            "sampleQuestion": "Why are liberal theorists hopeful that progress, cooperation and peace are achievable in world politics? Discuss.",
+            "howToAnswer": "Point to human reason and shared interests, absolute gains from trade, the role of institutions and non-state actors, the rising cost of war, and the democratic peace. Contrast briefly with realist pessimism.",
+            "scholars": [
+              "Kant (1795)",
+              "Evans & Newnham (1998)",
+              "Locke"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Liberalism comes from Locke, Rousseau and Kant; it is optimistic.",
+              "Reason and shared interests make cooperation possible; war is not inevitable.",
+              "Anarchy is accepted, but many actors besides states matter.",
+              "Liberals stress absolute gains and economic as well as military power.",
+              "The liberal state is constitutional, with separated powers and the rule of law."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Liberalism in international relations is generally described as:",
+          "options": [
+            "Optimistic about human nature",
+            "Pessimistic about human nature",
+            "Indifferent to human nature",
+            "Concerned only with military power"
+          ],
+          "answerIndex": 0,
+          "explanation": "Liberals hold a positive view of human nature; realism is the pessimistic theory."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which of these Enlightenment thinkers is a source of liberal thought?",
+          "options": [
+            "Thucydides",
+            "Thomas Hobbes",
+            "Machiavelli",
+            "Immanuel Kant"
+          ],
+          "answerIndex": 3,
+          "explanation": "Kant, with Locke and Rousseau, is a root of liberalism. Thucydides, Machiavelli and Hobbes are realist forebears."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Liberals view war mainly as:",
+          "options": [
+            "A natural and permanent condition",
+            "Necessary for security",
+            "The best way to gain wealth",
+            "A tragic mistake that can be prevented or reduced"
+          ],
+          "answerIndex": 3,
+          "explanation": "Liberals see war as avoidable through agreements and institutions."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Liberals focus on absolute gains, meaning they care most about:",
+          "options": [
+            "Whether one gains more than rivals",
+            "Whether cooperation makes each party better off",
+            "Military superiority",
+            "Territorial expansion"
+          ],
+          "answerIndex": 1,
+          "explanation": "Absolute gains ask 'am I better off?'; relative gains ask 'did I gain more than you?', the realist concern."
+        },
+        {
+          "difficulty": 2,
+          "stem": "For liberals, the state is best described as:",
+          "options": [
+            "A concentration of power",
+            "A constitutional organisation with separated powers",
+            "An irrelevant actor",
+            "A military alliance"
+          ],
+          "answerIndex": 1,
+          "explanation": "Realists see the state as concentrated power; liberals see it as constitutional, bound by law."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which of the following is NOT one of the four core beliefs of classic liberalism?",
+          "options": [
+            "States must maximise military power to survive",
+            "Disputes should be settled by judicial procedures",
+            "Collective security should replace self-help",
+            "Spreading democratic institutions secures peace"
+          ],
+          "answerIndex": 0,
+          "explanation": "Maximising military power is a realist prescription, not a liberal belief."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A government argues that joining a regional trade bloc will make all members richer, even if a neighbour gains slightly more. This reasoning is:",
+          "options": [
+            "Realist, focused on relative gains",
+            "Mercantilist",
+            "Marxist",
+            "Liberal, focused on absolute gains"
+          ],
+          "answerIndex": 3,
+          "explanation": "Accepting that a rival may gain more, as long as all gain, is the liberal absolute-gains view."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Greenpeace pressures several governments to sign an ocean protection treaty. A liberal would cite this to show that:",
+          "options": [
+            "Only states matter",
+            "Treaties are worthless",
+            "Non-state actors can be significant in world politics",
+            "Power is only military"
+          ],
+          "answerIndex": 2,
+          "explanation": "Liberals see NGOs and other non-state actors as significant, unlike state-centred realism."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Nigeria uses trade incentives rather than troops to influence a neighbour's policy. A liberal would say this reflects:",
+          "options": [
+            "The importance of economic power alongside military power",
+            "The uselessness of all power",
+            "Weakness",
+            "A realist balance of power"
+          ],
+          "answerIndex": 0,
+          "explanation": "Liberals stress that economic and social power matter and often work better than force."
+        },
+        {
+          "difficulty": 4,
+          "stem": "On the question of international anarchy, liberals:",
+          "options": [
+            "Deny that it exists",
+            "Accept it but are more optimistic than realists about cooperation",
+            "Think it guarantees war",
+            "Think a world government already exists"
+          ],
+          "answerIndex": 1,
+          "explanation": "Liberals share the premise of anarchy but reach more hopeful conclusions about cooperation."
+        },
+        {
+          "difficulty": 4,
+          "stem": "The liberal claim that 'a natural harmony of interests' exists means that:",
+          "options": [
+            "States never disagree",
+            "Only the strongest state's interest counts",
+            "Rational calculation makes national and international interests coincide",
+            "Interests are irrelevant"
+          ],
+          "answerIndex": 2,
+          "explanation": "Classic liberals believed rational states would see their own interest as matching the common interest."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Liberalism: collective security",
+            "Liberalism: relative gains",
+            "Realism: absolute gains",
+            "Realism: harmony of interests"
+          ],
+          "answerIndex": 0,
+          "explanation": "Collective security is a liberal belief. Realists focus on relative gains and self-help."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Liberals accept that people are partly self-interested. II. Liberals deny the international system is anarchic. III. Liberals believe reason can overcome fear and the lust for power. Which are correct?",
+          "options": [
+            "I and II only",
+            "II and III only",
+            "I and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 2,
+          "explanation": "I and III are correct. II is wrong: liberals accept anarchy as a basic condition."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A critic says: 'Liberals ignore that states may refuse cooperation for fear a partner will gain more.' This criticism draws on the realist concept of:",
+          "options": [
+            "Absolute gains",
+            "Collective security",
+            "Relative gains",
+            "Transnationalism"
+          ],
+          "answerIndex": 2,
+          "explanation": "Realists argue concern over relative gains blocks cooperation, which liberals' absolute-gains focus may underplay."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which statement best captures the liberal view of security?",
+          "options": [
+            "Security comes only from military power",
+            "Security can be achieved through cooperation, law and institutions as well as power",
+            "Security is impossible under anarchy",
+            "Security depends only on alliances with great powers"
+          ],
+          "answerIndex": 1,
+          "explanation": "Liberals reject the realist idea that power is the only guarantee of security."
+        }
+      ]
+    },
+    {
+      "name": "Sociological and interdependence liberalism",
+      "lesson": {
+        "title": "People, trade and mutual need",
+        "minutes": 10,
+        "hook": "A Nigerian in Houston sends money home by phone, a Lagos fintech is funded from London, and a Chinese company builds a railway in Ogun. None of this is 'state to state', yet it shapes international relations every day.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Four strands, two levels",
+            "body": "**Jackson and Sorensen (2007)** identify four strands of liberalism: **sociological**, **interdependence**, **institutional** and **republican**.\n\nThey work at different **levels**. Interdependence and institutional liberalism look at the **system** as a whole. Sociological and republican liberalism look at what happens **inside nation-states**.",
+            "visual": {
+              "type": "venn",
+              "left": "Systemic level",
+              "right": "Nation-state level",
+              "both": "Four strands"
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Strands by level",
+            "left": {
+              "title": "Systemic level",
+              "points": [
+                "Interdependence liberalism",
+                "Institutional liberalism"
+              ]
+            },
+            "right": {
+              "title": "Nation-state level",
+              "points": [
+                "Sociological liberalism",
+                "Republican liberalism"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Sociological liberalism",
+            "body": "Realists study relations between **governments**. **Sociological liberals** add **transnational relations**: ties among private **individuals, groups and societies** across borders.\n\n**James Rosenau** described how these private relations supplement government-to-government dealings and can have **major consequences**. Because it stresses many types of actor, not just states, this view is also called **pluralism**.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "people",
+                  "label": "Individuals"
+                },
+                {
+                  "icon": "git-network",
+                  "label": "Networks"
+                },
+                {
+                  "icon": "globe",
+                  "label": "Across borders"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Deutsch's security community",
+            "body": "**Karl Deutsch** argued that dense **transnational ties** between societies produce peace that is **more than the absence of war**: a **security community**, where people agree their problems can be solved **without large-scale force**.\n\nConditions that help: more **social communication**, greater **mobility of people**, stronger **economic ties**, and a wider range of **human transactions**. Think of how unimaginable war between, say, Canada and the USA has become.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Communication",
+                "Mobility",
+                "Economic ties",
+                "Security community"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Burton's cobweb model",
+            "body": "**John Burton (1972)** argued that transnational links create new forms of society alongside, or competing with, the system of states. Religious, business and labour groups in every country share contacts with groups abroad.\n\nMap these real patterns of communication and exchange, Burton said, and you get a **truer picture** of the world than the **artificial borders** of states. His image was a **cobweb** rather than billiard balls.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "git-network",
+                  "label": "Cobweb of ties"
+                },
+                {
+                  "icon": "flag",
+                  "label": "Borders matter less"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Deutsch's 'security community' is best described as:",
+            "options": [
+              "A military alliance against a common enemy",
+              "A state's secret police",
+              "A UN peacekeeping mission",
+              "A group whose people agree problems can be solved without large-scale force"
+            ],
+            "answerIndex": 3,
+            "why": "A security community is peace beyond mere absence of war, built on dense transnational ties."
+          },
+          {
+            "kind": "teach",
+            "heading": "Interdependence liberalism",
+            "body": "**Interdependence** means **mutual dependence**: people and governments are affected by what happens elsewhere. Terrorism, **HIV/AIDS**, pandemics and **environmental damage** ignore borders.\n\nMore transnational relations mean more interdependence. **Keohane and Nye (1977)** called a world of many channels linking societies, with military force less useful, **complex interdependence**.",
+            "visual": {
+              "type": "cycle",
+              "nodes": [
+                "Nigeria",
+                "Trade partners",
+                "Global markets",
+                "Back to Nigeria"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "War costs more, trade pays more",
+            "body": "Interdependence liberals link this to **modernisation**. In the past, states used force to grab **territory**, and wars could be won fairly cheaply.\n\nToday, the costs of force have **risen** and its benefits **fallen**. Success now depends on a **skilled workforce**, **information** and **financial capital**, not land. Industrialised states can gain prosperity more cheaply through **economic development and foreign trade**.",
+            "visual": {
+              "type": "scale",
+              "left": "Trade and growth",
+              "right": "Conquest",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "According to interdependence liberals, the key to economic success today is mainly:",
+            "options": [
+              "Territory and raw land",
+              "A large army",
+              "A skilled workforce, information and capital",
+              "Colonies"
+            ],
+            "answerIndex": 2,
+            "why": "Modern production depends on skills, information and finance, so conquering land pays less than trade."
+          },
+          {
+            "kind": "steps",
+            "heading": "Interdependence liberalism in four claims",
+            "steps": [
+              {
+                "title": "Modernisation",
+                "detail": "Increases the level and scope of interdependence between states."
+              },
+              {
+                "title": "Transnational actors",
+                "detail": "Become more important under complex interdependence."
+              },
+              {
+                "title": "Force declines",
+                "detail": "Military force becomes a less useful tool."
+              },
+              {
+                "title": "Welfare first",
+                "detail": "Welfare, not security, becomes states' main goal, so relations grow more cooperative."
+              }
+            ]
+          },
+          {
+            "kind": "example",
+            "heading": "The pandemic lesson",
+            "story": "When COVID-19 spread in 2020, a factory shutdown in China delayed medicines in Lagos pharmacies, and falling oil demand in Europe cut Nigeria's revenue. No army could fix either problem. Vaccines arrived through COVAX, a global scheme. Nigeria's welfare depended on events far beyond its borders.",
+            "takeaway": "Interdependence means states are affected by distant events and need cooperation, not force, to cope."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "'Examine two strands of liberalism' is a classic. Pick two, give each its key scholar and core claim. Objectives test which strand works at which level, and who said what: Rosenau and transnational relations, Deutsch and security community, Burton and the cobweb. Trap: placing sociological liberalism at the systemic level.",
+            "sampleQuestion": "Which two strands of liberalism operate at the systemic level? (a) sociological and republican (b) interdependence and institutional (c) republican and institutional (d) sociological and interdependence",
+            "howToAnswer": "Answer (b). Sociological and republican liberalism operate at the level of the nation-state.",
+            "scholars": [
+              "Jackson & Sorensen (2007)",
+              "Rosenau (1980)",
+              "Deutsch (1957)",
+              "Burton (1972)",
+              "Keohane & Nye (1977)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Four strands: sociological, interdependence, institutional, republican.",
+              "Sociological liberalism (pluralism): transnational ties between societies.",
+              "Deutsch: dense ties create security communities; Burton: the cobweb.",
+              "Interdependence: mutual dependence grows with modernisation.",
+              "Force costs more, trade pays more; welfare overtakes security as the goal."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Sociological liberalism is also known as:",
+          "options": [
+            "Pluralism",
+            "Realism",
+            "Mercantilism",
+            "Structuralism"
+          ],
+          "answerIndex": 0,
+          "explanation": "Its stress on many types of actor, not just states, gives it the name pluralism."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Interdependence means:",
+          "options": [
+            "Mutual dependence among people and states",
+            "Complete independence of states",
+            "One state ruling others",
+            "Isolation from world trade"
+          ],
+          "answerIndex": 0,
+          "explanation": "Interdependence is mutual dependence: actions elsewhere affect each party."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The four strands of liberalism discussed were identified by:",
+          "options": [
+            "Morgenthau",
+            "Waltz",
+            "Jackson and Sorensen",
+            "Kant"
+          ],
+          "answerIndex": 2,
+          "explanation": "Jackson and Sorensen (2007) set out the four strands."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The concept of a 'security community' is associated with:",
+          "options": [
+            "Kenneth Waltz",
+            "John Burton",
+            "James Rosenau",
+            "Karl Deutsch"
+          ],
+          "answerIndex": 3,
+          "explanation": "Karl Deutsch linked transnational ties to security communities."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which strands of liberalism operate at the level of the nation-state?",
+          "options": [
+            "Interdependence and institutional",
+            "Institutional and republican",
+            "Sociological and republican",
+            "Interdependence and sociological"
+          ],
+          "answerIndex": 2,
+          "explanation": "Sociological and republican liberalism look inside states; the other two are systemic."
+        },
+        {
+          "difficulty": 2,
+          "stem": "According to interdependence liberals, as modernisation advances, military force becomes:",
+          "options": [
+            "More useful",
+            "Less useful",
+            "The only tool",
+            "Cheaper to use"
+          ],
+          "answerIndex": 1,
+          "explanation": "Rising costs and falling benefits make force less useful for modern states."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Nigerian and Ghanaian students, churches and traders build dense cross-border ties, and war between the two becomes unthinkable. A sociological liberal would call this:",
+          "options": [
+            "A balance of power",
+            "A security community",
+            "A regime",
+            "Hegemony"
+          ],
+          "answerIndex": 1,
+          "explanation": "Dense transnational ties producing peace beyond the absence of war is Deutsch's security community."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A researcher maps phone calls, remittances and church links between countries to understand world politics, rather than looking at borders. This approach follows:",
+          "options": [
+            "Morgenthau",
+            "John Burton",
+            "Kenneth Waltz",
+            "Machiavelli"
+          ],
+          "answerIndex": 1,
+          "explanation": "Burton argued that mapping real transactions gives a truer picture than state boundaries."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A drought in Brazil raises coffee prices in Abuja. This illustrates:",
+          "options": [
+            "Interdependence",
+            "Isolation",
+            "Republican liberalism",
+            "Self-help"
+          ],
+          "answerIndex": 0,
+          "explanation": "Being affected by events in another country is interdependence."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are conditions Deutsch saw as helping security communities emerge EXCEPT:",
+          "options": [
+            "Larger standing armies",
+            "Greater mobility of persons",
+            "Stronger economic ties",
+            "Increased social communication"
+          ],
+          "answerIndex": 0,
+          "explanation": "Larger armies are a realist tool, not a condition for a security community."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Rosenau's idea of transnational relations holds that government-to-government relations are:",
+          "options": [
+            "The only relations that matter",
+            "Replaced entirely by corporations",
+            "Supplemented by relations among private individuals, groups and societies",
+            "Irrelevant"
+          ],
+          "answerIndex": 2,
+          "explanation": "Private cross-border relations add to, and can shape, inter-governmental relations."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Burton: security community",
+            "Deutsch: cobweb model",
+            "Rosenau: democratic peace",
+            "Keohane and Nye: complex interdependence"
+          ],
+          "answerIndex": 3,
+          "explanation": "Keohane and Nye developed complex interdependence. Deutsch is linked with security communities, Burton with the cobweb."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Modernisation increases interdependence. II. Under complex interdependence, transnational actors matter less. III. Welfare rather than security becomes states' main goal. Which reflect interdependence liberalism?",
+          "options": [
+            "I and II only",
+            "I, II and III",
+            "II and III only",
+            "I and III only"
+          ],
+          "answerIndex": 3,
+          "explanation": "I and III fit. II is reversed: transnational actors become more important."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Why, according to interdependence liberals, has conquest become less attractive to industrialised states?",
+          "options": [
+            "International law forbids it completely",
+            "States have run out of weapons",
+            "Wealth now depends on skills, information and capital rather than territory",
+            "Colonies are too far away"
+          ],
+          "answerIndex": 2,
+          "explanation": "The basis of production has changed, so seizing land brings fewer benefits at higher cost."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A realist objects that interdependence can also create vulnerability, which states may use as leverage. This criticism suggests interdependence:",
+          "options": [
+            "Always guarantees peace",
+            "Can be a source of power and conflict, not only cooperation",
+            "Has no effect",
+            "Only exists among democracies"
+          ],
+          "answerIndex": 1,
+          "explanation": "Dependence can be exploited, so interdependence does not automatically produce peace."
+        }
+      ]
+    },
+    {
+      "name": "Institutions and the democratic peace",
+      "lesson": {
+        "title": "Rules, regimes and democracies",
+        "minutes": 10,
+        "hook": "Every plane landing at Murtala Muhammed Airport follows the same safety rules as one landing in Dubai or London. No world police enforces them, yet states obey. Why?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Institutional liberalism",
+            "body": "**Institutional liberals** argue that **international institutions** make cooperation **easier and far more likely**.\n\n'Institutions' covers formal **organisations** like the **UN**, **EU** and **WTO**, and also **sets of rules** that govern state action in an area, such as **aviation** or **shipping**. These rule-sets are called **regimes**.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "globe",
+                  "label": "Organisations"
+                },
+                {
+                  "icon": "book",
+                  "label": "Rules (regimes)"
+                },
+                {
+                  "icon": "people",
+                  "label": "Cooperation"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "How regimes work",
+            "body": "Regimes set **standards of behaviour** that **signal** to all members that others are cooperating. When each state **expects** others to cooperate, the chance of **sustained cooperation** rises sharply.\n\nStates join regimes out of **self-interest**: many problems are **transnational** and cannot be solved by one state alone.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Shared rules",
+                "Visible compliance",
+                "Trust",
+                "Lasting cooperation"
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "From GATT to the WTO",
+            "story": "After 1947, states in the General Agreement on Tariffs and Trade agreed to liberalise trade, set norms and rules, and meet in rounds to review progress. This saved each state the time and cost of negotiating separately with every partner. It worked so well that in 1995 it became the World Trade Organization, which Nigeria joined as a founding member.",
+            "takeaway": "A trade regime cut costs and built trust, then was formalised into an institution."
+          },
+          {
+            "kind": "teach",
+            "heading": "What institutions do",
+            "body": "Institutions shape and **constrain** state behaviour because they serve states' own interests. Among other things, institutions:\n\n- share **information** among members\n- cut the **costs of bargaining**\n- make promises **believable**\n- offer **focal points** that help states coordinate\n- make **reciprocity** easier to practise\n\nThey also give states a **forum** to air disagreements, easing the **lack of trust** that realists see as permanent. Robert **Keohane's** *After Hegemony* (1984) is a key text.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "bulb",
+                  "label": "Information"
+                },
+                {
+                  "icon": "cash",
+                  "label": "Lower costs"
+                },
+                {
+                  "icon": "checkmark-circle",
+                  "label": "Credibility"
+                },
+                {
+                  "icon": "chatbubbles",
+                  "label": "Forum"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "International rules governing a specific area such as aviation or shipping are called:",
+            "options": [
+              "Alliances",
+              "Hegemonies",
+              "Security communities",
+              "Regimes"
+            ],
+            "answerIndex": 3,
+            "why": "Regimes are rule-sets for particular issue areas. Security communities come from Deutsch's sociological liberalism."
+          },
+          {
+            "kind": "teach",
+            "heading": "Republican liberalism",
+            "body": "**Republican liberals** argue that **liberal democracies** behave more **peacefully** and respect law more than other kinds of regime, and especially that democracies **rarely go to war with one another**.\n\nWhy? Democratic governments answer to **citizens**, who will not support war against fellow democracies. This is the **democratic peace** theory, with roots in Kant and developed by scholars such as **Michael Doyle** (1983).",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Citizens control government",
+                "Oppose war with democracies",
+                "Democratic peace"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "A hopeful, moral strand",
+            "body": "If democracies rarely fight each other, then a world with **more democracies** should have **fewer wars**. In theory, if every country became democratic, the threat of war between them would fade.\n\nRepublican liberalism has a strong **normative (moral)** element: its supporters believe in long-run **progress** towards peace and see **promoting** it as their responsibility.",
+            "visual": {
+              "type": "scale",
+              "left": "More democracies",
+              "right": "More wars",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "The democratic peace theory belongs to which strand of liberalism?",
+            "options": [
+              "Sociological",
+              "Republican",
+              "Institutional",
+              "Interdependence"
+            ],
+            "answerIndex": 1,
+            "why": "Republican liberalism holds that democracies rarely fight one another."
+          },
+          {
+            "kind": "terms",
+            "heading": "Seven liberal assumptions",
+            "terms": [
+              {
+                "term": "Many actors",
+                "meaning": "Individuals, organisations and corporations shape the world, not only states"
+              },
+              {
+                "term": "Interests, not power",
+                "meaning": "Conflict stems mainly from clashing interests, not a struggle for power"
+              },
+              {
+                "term": "Interdependence",
+                "meaning": "International actors depend on one another"
+              },
+              {
+                "term": "Institutions",
+                "meaning": "Needed to protect order, liberty, justice and tolerance"
+              },
+              {
+                "term": "Progress and war",
+                "meaning": "Concern for others makes progress possible; war is a product of society and anarchy can be overcome collectively"
+              }
+            ]
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'discuss institutional liberalism' or 'what is the democratic peace?'. For institutions, define regimes, explain signalling and lower transaction costs, and use GATT to WTO. For republican liberalism, explain why citizens restrain democracies. Trap: the democratic peace says democracies rarely fight EACH OTHER, not that they never go to war.",
+            "sampleQuestion": "Which of the following is NOT an assumption of liberalism? (a) international actors are interdependent (b) war is a product of society (c) anarchy can be overcome through collective action (d) the struggle for power is the main source of conflict",
+            "howToAnswer": "Answer (d): liberals see clashing interests, not a power struggle, as the main source of conflict. That claim is realist.",
+            "scholars": [
+              "Keohane (1984)",
+              "Doyle (1983)",
+              "Kant (1795)",
+              "Jackson & Sorensen (2007)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Institutional liberalism: institutions and regimes make cooperation likelier.",
+              "Regimes signal cooperation, cut costs, provide information and build trust.",
+              "GATT became the WTO in 1995: a regime formalised.",
+              "Republican liberalism: democracies rarely fight each other (democratic peace).",
+              "Liberal assumptions: many actors, interdependence, institutions, war as social and avoidable."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Sets of rules governing state action in a specific area are called:",
+          "options": [
+            "Regimes",
+            "Alliances",
+            "Empires",
+            "Security communities"
+          ],
+          "answerIndex": 0,
+          "explanation": "Regimes are rule-sets for issue areas like aviation or shipping."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The democratic peace theory holds that:",
+          "options": [
+            "Democracies never fight anyone",
+            "Dictatorships are more peaceful",
+            "Democracies rarely go to war with each other",
+            "War is impossible"
+          ],
+          "answerIndex": 2,
+          "explanation": "The claim is about war between democracies, not about democracies never fighting at all."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The General Agreement on Tariffs and Trade (GATT) was transformed into the:",
+          "options": [
+            "United Nations",
+            "African Union",
+            "World Trade Organization",
+            "IMF"
+          ],
+          "answerIndex": 2,
+          "explanation": "GATT became the WTO in 1995."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Institutional liberals argue that regimes help cooperation mainly by:",
+          "options": [
+            "Setting standards that signal others are cooperating",
+            "Forcing states with armies",
+            "Abolishing sovereignty",
+            "Ending all disputes"
+          ],
+          "answerIndex": 0,
+          "explanation": "Regimes create shared standards; visible compliance builds expectations of cooperation."
+        },
+        {
+          "difficulty": 2,
+          "stem": "According to republican liberals, democracies avoid fighting each other because:",
+          "options": [
+            "Their governments are controlled by citizens who oppose such wars",
+            "They have smaller armies",
+            "The UN forbids it",
+            "They are all rich"
+          ],
+          "answerIndex": 0,
+          "explanation": "Citizen control restrains democratic governments from war with fellow democracies."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Why do states join international regimes, according to institutional liberals?",
+          "options": [
+            "Out of charity",
+            "Because it serves their self-interest on transnational problems",
+            "Because they are forced",
+            "To surrender sovereignty"
+          ],
+          "answerIndex": 1,
+          "explanation": "States join because problems are transnational and cooperation serves their own interests."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Nigeria follows international aviation safety rules even though no world police enforces them. An institutional liberal would explain this by:",
+          "options": [
+            "Fear of military attack",
+            "Realist balance of power",
+            "Pure altruism",
+            "The benefits of a regime that makes cooperation predictable"
+          ],
+          "answerIndex": 3,
+          "explanation": "Regimes lower costs and build mutual expectations, so following rules pays."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A rising number of democracies in West Africa leads an analyst to predict fewer interstate wars there. The analyst is applying:",
+          "options": [
+            "Institutional liberalism",
+            "Republican liberalism",
+            "Neo-realism",
+            "Sociological liberalism"
+          ],
+          "answerIndex": 1,
+          "explanation": "Linking more democracies to fewer wars is the democratic peace of republican liberalism."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Two states use ECOWAS meetings to discuss a border disagreement instead of mobilising troops. This shows institutions acting as:",
+          "options": [
+            "A source of conflict",
+            "A forum that reinforces cooperation",
+            "A military alliance",
+            "A security dilemma"
+          ],
+          "answerIndex": 1,
+          "explanation": "Institutions offer a forum for disagreements, easing mistrust and reinforcing cooperation."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are functions of international institutions identified by institutional liberals EXCEPT:",
+          "options": [
+            "Providing information",
+            "Guaranteeing that all states gain equally",
+            "Making commitments credible",
+            "Reducing transaction costs"
+          ],
+          "answerIndex": 1,
+          "explanation": "Institutions help cooperation but do not guarantee equal gains."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement is NOT a liberal assumption?",
+          "options": [
+            "The struggle for power is the main source of conflict",
+            "War is a product of society",
+            "International actors are interdependent",
+            "Anarchy can be overcome through collective action"
+          ],
+          "answerIndex": 0,
+          "explanation": "Liberals see conflicting interests, not a struggle for power, as the main source of conflict."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Republican liberalism is described as having a strong normative element because it:",
+          "options": [
+            "Only describes facts",
+            "Rejects democracy",
+            "Sees promoting peace and democracy as a moral responsibility",
+            "Focuses on military power"
+          ],
+          "answerIndex": 2,
+          "explanation": "Republican liberals believe in progress and feel obliged to promote peace."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Regimes can be informal rules as well as formal organisations. II. Institutional liberalism operates at the systemic level. III. The democratic peace says democracies never use force. Which are correct?",
+          "options": [
+            "II and III only",
+            "I and III only",
+            "I and II only",
+            "I, II and III"
+          ],
+          "answerIndex": 2,
+          "explanation": "I and II are correct. III overstates the theory: democracies rarely fight each other but do use force against others."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A realist argues that the WTO works only because powerful states allow it. An institutional liberal would most likely reply that:",
+          "options": [
+            "Power is irrelevant",
+            "Powerful states always break the rules",
+            "The WTO has no rules",
+            "Institutions shape behaviour by lowering costs and building trust, giving states reasons to comply"
+          ],
+          "answerIndex": 3,
+          "explanation": "Liberals argue institutions have independent effects through information, credibility and reciprocity."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which pairing of strand and key idea is correct?",
+          "options": [
+            "Sociological: regimes",
+            "Interdependence: democratic peace",
+            "Republican: complex interdependence",
+            "Institutional: regimes and international organisations"
+          ],
+          "answerIndex": 3,
+          "explanation": "Institutional liberalism centres on regimes and organisations. Democratic peace is republican; complex interdependence belongs to interdependence liberalism."
+        }
+      ]
+    }
+  ]
+}

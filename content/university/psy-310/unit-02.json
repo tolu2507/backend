@@ -1,0 +1,999 @@
+{
+  "unit": 2,
+  "title": "The Neuron",
+  "summary": "What neurons are, how they are built and classified, and how they fire electrical impulses to carry information.",
+  "sections": [
+    {
+      "name": "Neurons and their jobs",
+      "lesson": {
+        "title": "The cells that carry messages",
+        "minutes": 8,
+        "hook": "When you touch a hot pot of stew, you pull your hand away before you even feel the pain. Three kinds of nerve cell have just passed a message in a fraction of a second.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "What is a neuron?",
+            "body": "A **neuron** (nerve cell) is the basic building block of the nervous system. It is found in the brain, the spinal cord and the peripheral nerves of vertebrates, and in the ventral nerve cord of invertebrates such as insects.\n\nNeurons share much with other cells: a nucleus, a membrane, energy factories. Their key difference is that they are **specialised to carry information**, using both **electrical** and **chemical** signals. As Kandel and colleagues stress, every activity of the brain depends on them.",
+            "visual": {
+              "type": "neuron",
+              "part": "whole",
+              "label": "The basic unit"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Three types by job",
+            "body": "Neurons are grouped by what they do.\n\n**Sensory neurons** respond to touch, sound, light and other stimuli picked up by the sense organs, and send signals towards the spinal cord and brain.\n\n**Motor neurons** carry signals from the brain and spinal cord out to muscles, making them contract, and to glands.\n\n**Interneurons** sit between the two, linking neurons to one another. They are by far the most numerous, and most live in the brain and spinal cord.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Sensory neuron",
+                "Interneuron",
+                "Motor neuron"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "A neuron receives a signal from the spinal cord and makes a thigh muscle contract. It is a:",
+            "options": [
+              "Sensory neuron",
+              "Interneuron",
+              "Motor neuron",
+              "Afferent neuron"
+            ],
+            "answerIndex": 2,
+            "why": "Motor neurons carry commands out to muscles and glands. Afferent is another name for sensory, the opposite direction."
+          },
+          {
+            "kind": "example",
+            "heading": "The hot pot",
+            "story": "Chiamaka is helping her mother cook jollof rice and grabs the pot handle without a cloth. Heat-sensitive sensory neurons in her palm fire and send the alarm to her spinal cord. Interneurons there pass it on at once to motor neurons, which jerk her arm back. Only a moment later does the message reach her brain and she feels the burn.",
+            "takeaway": "A simple reflex uses all three neuron types in order: sensory, interneuron, motor."
+          },
+          {
+            "kind": "teach",
+            "heading": "Afferent and efferent",
+            "body": "Exams often use the functional names.\n\n**Afferent neurons** carry signals inward, from the body's tissues and organs to the brain and spinal cord. These are the sensory neurons.\n\n**Efferent neurons** carry signals **from** the central nervous system **out to effector cells**, the muscles and glands that act. These are the motor neurons.\n\nA memory trick: **A**fferent **A**rrives, **E**fferent **E**xits. More broadly, the terms can also describe any neurons bringing information into or out of a particular brain region.",
+            "visual": {
+              "type": "venn",
+              "left": "Afferent: arrives",
+              "right": "Efferent: exits",
+              "both": "Link CNS and body"
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Afferent versus efferent",
+            "left": {
+              "title": "Afferent (sensory)",
+              "points": [
+                "Direction: into the CNS",
+                "Starts at sense organs and tissues",
+                "Reports what is happening"
+              ]
+            },
+            "right": {
+              "title": "Efferent (motor)",
+              "points": [
+                "Direction: out of the CNS",
+                "Ends at muscles and glands",
+                "Makes something happen"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Which neurons connect other neurons within regions of the central nervous system?",
+            "options": [
+              "Afferent neurons",
+              "Interneurons",
+              "Efferent neurons",
+              "Receptor cells"
+            ],
+            "answerIndex": 1,
+            "why": "Interneurons link neurons inside the brain and spinal cord. Afferent and efferent neurons carry signals into and out of the CNS."
+          },
+          {
+            "kind": "teach",
+            "heading": "Not all neurons look alike",
+            "body": "Neurons differ in **size, shape and features**, depending on their role. A motor neuron controlling your big toe has an axon running from your lower spine to your foot, about a metre long. Some interneurons in the brain are tiny, with short branches that never leave a small patch of tissue.\n\nThe rule is simple: **form follows function**. The shape of a neuron tells you a lot about the job it does.",
+            "visual": {
+              "type": "neuron",
+              "part": "axon",
+              "label": "Length suits the job"
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect long options that shuffle the three neuron types and their jobs, so read every word. The main trap is mixing afferent and efferent, or saying interneurons carry signals to muscles. Scenario questions describe what a neuron does and ask you to name it.",
+            "sampleQuestion": "Distinguish between sensory, motor and interneurons, using a reflex to show how they work together.",
+            "howToAnswer": "Define each type by direction and role (into the CNS, out to effectors, linking within the CNS), then trace a withdrawal reflex through all three.",
+            "scholars": [
+              "Kandel et al. (2000)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Neurons are specialised cells that carry information electrically and chemically.",
+              "Sensory (afferent) neurons carry signals into the CNS.",
+              "Motor (efferent) neurons carry signals out to muscles and glands.",
+              "Interneurons link neurons within the CNS.",
+              "Neurons vary in size and shape to suit their function."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "What chiefly distinguishes neurons from other cells of the body?",
+          "options": [
+            "They are specialised to transmit information",
+            "They have no cell membrane",
+            "They lack a nucleus",
+            "They are found only in the brain"
+          ],
+          "answerIndex": 0,
+          "explanation": "Neurons have nuclei and membranes like other cells; their special feature is carrying information. They are also found in the spinal cord and peripheral nerves."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Neurons communicate information in which forms?",
+          "options": [
+            "Mechanical and magnetic",
+            "Electrical only",
+            "Chemical and electrical",
+            "Hormonal only"
+          ],
+          "answerIndex": 2,
+          "explanation": "Signals travel electrically within a neuron and chemically between neurons. Hormones are the endocrine system's messengers."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Neurons that carry commands from the brain and spinal cord to muscles are called:",
+          "options": [
+            "Sensory neurons",
+            "Interneurons",
+            "Afferent neurons",
+            "Motor neurons"
+          ],
+          "answerIndex": 3,
+          "explanation": "Motor (efferent) neurons carry signals out to muscles and glands. Afferent neurons carry signals in."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Afferent neurons are so called because they:",
+          "options": [
+            "Carry signals from the CNS to glands",
+            "Carry information from tissues and organs into the CNS",
+            "Connect neurons within one brain region",
+            "Release hormones into the blood"
+          ],
+          "answerIndex": 1,
+          "explanation": "Afferent means arriving: information flows into the CNS. Carrying signals out to glands is efferent."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The cells that muscles and glands are, in relation to efferent neurons, are best called:",
+          "options": [
+            "Receptor cells",
+            "Interneurons",
+            "Effector cells",
+            "Afferent cells"
+          ],
+          "answerIndex": 2,
+          "explanation": "Effectors carry out the action that efferent neurons command. Receptors detect stimuli at the start of the chain."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which statement about neurons is correct?",
+          "options": [
+            "Neurons vary in size and shape depending on their role",
+            "All neurons are the same length",
+            "Neurons are found only in vertebrates",
+            "Every neuron connects directly to a muscle"
+          ],
+          "answerIndex": 0,
+          "explanation": "Form follows function, so neurons differ greatly. Invertebrates have neurons too, in their ventral nerve cord."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Emeka hears his name called across a noisy lecture hall. The neurons that first convert the sound into a neural signal heading to his brain are:",
+          "options": [
+            "Motor neurons",
+            "Efferent neurons",
+            "Interneurons",
+            "Sensory neurons"
+          ],
+          "answerIndex": 3,
+          "explanation": "Sensory neurons respond to stimuli such as sound and send signals towards the brain. Efferent neurons carry signals out, not in."
+        },
+        {
+          "difficulty": 3,
+          "stem": "In a knee-jerk-type withdrawal reflex, which order of neurons is correct?",
+          "options": [
+            "Motor, interneuron, sensory",
+            "Sensory, interneuron, motor",
+            "Interneuron, sensory, motor",
+            "Sensory, motor, interneuron"
+          ],
+          "answerIndex": 1,
+          "explanation": "The signal is detected (sensory), relayed (interneuron) and acted on (motor). Reversing the order would mean acting before detecting."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A neuron lies entirely within the spinal cord, receiving from one neuron and passing the signal to another. It is most likely:",
+          "options": [
+            "An afferent neuron",
+            "An efferent neuron",
+            "An interneuron",
+            "A receptor cell"
+          ],
+          "answerIndex": 2,
+          "explanation": "Interneurons connect neurons within the CNS. Afferent and efferent neurons extend outside it to the body."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Efferent: sensory",
+            "Afferent: motor",
+            "Interneuron: carries signals to glands",
+            "Afferent: sensory"
+          ],
+          "answerIndex": 3,
+          "explanation": "Afferent neurons are sensory and efferent neurons are motor. Carrying signals to glands is a motor (efferent) job."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are true of motor neurons EXCEPT that they:",
+          "options": [
+            "Respond to light and sound from the environment",
+            "Receive signals from the brain and spinal cord",
+            "Cause muscle contraction",
+            "Can affect glands"
+          ],
+          "answerIndex": 0,
+          "explanation": "Responding to environmental stimuli is the job of sensory neurons. Motor neurons act on muscles and glands."
+        },
+        {
+          "difficulty": 4,
+          "stem": "In its broader sense, the term 'afferent' can describe neurons that:",
+          "options": [
+            "Always end in a muscle",
+            "Bring information into a particular brain region",
+            "Have no dendrites",
+            "Only exist in the skin"
+          ],
+          "answerIndex": 1,
+          "explanation": "Besides sensory neurons, afferent can mean any input to a brain region; efferent then means output from it. It says nothing about dendrites."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which description of the three neuron types is fully correct?",
+          "options": [
+            "Motor neurons bring environmental information to the CNS; interneurons carry signals to muscles; sensory neurons link neurons in the brain",
+            "Interneurons bring environmental information to the CNS; sensory neurons carry signals to muscles; motor neurons link neurons in the brain",
+            "Sensory neurons bring environmental information to the CNS; motor neurons carry signals to muscles and glands; interneurons link neurons in the CNS",
+            "Sensory neurons carry signals to muscles; motor neurons link neurons; interneurons bring information to the CNS"
+          ],
+          "answerIndex": 2,
+          "explanation": "Only option C pairs each type with its true job. The others shuffle the roles, a common trap in long-option questions."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider these statements. I. Interneurons are located within the central nervous system. II. Efferent neurons carry signals to effector cells. III. Afferent neurons carry signals out of the central nervous system. Which are correct?",
+          "options": [
+            "I and II only",
+            "II and III only",
+            "I and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 0,
+          "explanation": "I and II are true. III is false: afferent neurons carry signals into the CNS."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A disease destroys only efferent neurons in the spinal cord. A patient with this disease would most likely:",
+          "options": [
+            "Lose the ability to feel touch while moving normally",
+            "Feel touch normally but be unable to move the affected muscles",
+            "Lose all memory of past events",
+            "Lose vision but keep hearing"
+          ],
+          "answerIndex": 1,
+          "explanation": "Efferent (motor) neurons carry movement commands, so muscles weaken while sensation, carried by afferent neurons, remains. Losing touch would mean afferent damage."
+        }
+      ]
+    },
+    {
+      "name": "Structure and classification",
+      "lesson": {
+        "title": "Inside the shape of a neuron",
+        "minutes": 8,
+        "hook": "A neuron looks a bit like an uprooted tree: branching roots, a thick trunk and spreading twigs at the far end. Each part has a precise job.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Three basic parts",
+            "body": "Every neuron has three basic parts: **dendrites**, the **cell body** and the **axon**.\n\nThink of it as a one-way messenger. Dendrites **receive**, the cell body **keeps the cell alive and weighs up** what came in, and the axon **sends** the message on. Knowing which part does what is the foundation for everything else in this course.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Dendrites receive",
+                "Cell body",
+                "Axon sends",
+                "Terminals release"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The cell body",
+            "body": "The **cell body** (also called the **soma**) is the central part of the neuron. Like every cell, it contains a **nucleus**, which holds the genetic material and directs the cell's activities, and is wrapped in a **cell membrane**, the cell's outer skin.\n\nIf the cell body dies, the whole neuron dies, because the axon and dendrites depend on it for their supplies.",
+            "visual": {
+              "type": "neuron",
+              "part": "cell-body",
+              "label": "Holds the nucleus"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Dendrites: the receiving end",
+            "body": "**Dendrites** take their name from the Greek *dendron*, meaning tree, because of their branching shape. They **receive messages from the axons of other neurons**.\n\nA neuron may have many dendrites. Some neurons have only a few branches; others are richly branched so that they can collect input from thousands of other cells.",
+            "visual": {
+              "type": "neuron",
+              "part": "dendrites",
+              "label": "Branches that receive"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The axon: the sending end",
+            "body": "The **axon** is a long, cable-like extension of the cell body. It carries the signal onward to other neurons, muscles or organs. Axons may be short or very long.\n\nEach neuron has **only one axon**, but it usually splits into many branches called **terminals**, so one neuron can message many places at once. Each terminal ends in a knob, the **terminal button**, which releases chemicals into the gap between neurons when the neuron fires. Many axons are also wrapped in fatty **myelin**, which speeds the signal.",
+            "visual": {
+              "type": "neuron",
+              "part": "terminals",
+              "label": "Release chemicals"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "How many axons does a typical neuron have?",
+            "options": [
+              "None",
+              "Exactly one, often branching into terminals",
+              "Two, one at each end",
+              "As many as it has dendrites"
+            ],
+            "answerIndex": 1,
+            "why": "A neuron has a single axon that branches at its end. It is the dendrites that can be many."
+          },
+          {
+            "kind": "teach",
+            "heading": "Classifying by number of processes",
+            "body": "Neurons can be classified by **structure**, that is, how many processes leave the cell body.\n\n**Unipolar**: a single process leaves the cell body and serves as both dendrite and axon. Many touch and pain neurons are like this.\n\n**Bipolar**: one axon and one dendrite, on opposite ends of the cell body. Found in the retina of the eye.\n\n**Multipolar**: one axon and many dendrites. This is the most common type in the brain and spinal cord, including motor neurons.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Unipolar: one process",
+              "right": "Multipolar: many",
+              "marker": 90,
+              "label": "Most CNS neurons"
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Two ways to classify",
+            "left": {
+              "title": "Structural",
+              "points": [
+                "Based on number of processes",
+                "Unipolar, bipolar, multipolar",
+                "Describes shape"
+              ]
+            },
+            "right": {
+              "title": "Functional",
+              "points": [
+                "Based on direction of signals",
+                "Afferent, efferent, interneuron",
+                "Describes job"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "A neuron in the retina has one dendrite at one end of its cell body and one axon at the other. It is:",
+            "options": [
+              "Unipolar",
+              "Multipolar",
+              "Bipolar",
+              "Efferent"
+            ],
+            "answerIndex": 2,
+            "why": "One dendrite plus one axon on opposite sides is bipolar. Efferent is a functional label, not a structural one."
+          },
+          {
+            "kind": "example",
+            "heading": "The WhatsApp group admin",
+            "story": "Bisi runs her department's WhatsApp group. Messages from dozens of classmates pour in (her dendrites). She reads them all and decides whether anything is worth announcing (her cell body). When it is, she sends one broadcast (her axon), which forwards to several other groups at once (the terminals).",
+            "takeaway": "Many inputs, one decision, one output that branches: that is the multipolar neuron's design."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Lecturers test which part receives and which sends, and they mix structural and functional labels in the same options. A classic trap: 'a neuron has many axons and one dendrite'. Another asks for the basis of each classification: number of processes versus direction of the signal.",
+            "sampleQuestion": "Describe the structure of a neuron and explain the difference between its structural and functional classification.",
+            "howToAnswer": "Describe dendrites, cell body and axon with terminals and buttons, then explain that structural classes count processes while functional classes follow the direction of signals.",
+            "scholars": []
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Three parts: dendrites receive, cell body sustains, axon sends.",
+              "One axon per neuron, branching into terminals with terminal buttons.",
+              "Terminal buttons release chemicals into the gap between neurons.",
+              "Structural classes: unipolar, bipolar, multipolar.",
+              "Structure counts processes; function follows signal direction."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The part of a neuron that receives messages from other neurons is the:",
+          "options": [
+            "Dendrite",
+            "Axon",
+            "Terminal button",
+            "Nucleus"
+          ],
+          "answerIndex": 0,
+          "explanation": "Dendrites are the receiving branches. The axon is the sending end."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which part of the neuron contains the nucleus?",
+          "options": [
+            "The axon",
+            "The terminal button",
+            "The dendrite",
+            "The cell body"
+          ],
+          "answerIndex": 3,
+          "explanation": "The nucleus sits in the cell body (soma) and directs the cell's functions. Terminal buttons release chemicals."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The word 'dendrite' comes from a Greek word meaning:",
+          "options": [
+            "Cable",
+            "Tree",
+            "Knob",
+            "Skin"
+          ],
+          "answerIndex": 1,
+          "explanation": "Dendron means tree, describing their branching shape. 'Cable' describes the axon."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The knob-like structures at the end of axon terminals that release chemicals are called:",
+          "options": [
+            "Dendrites",
+            "Nuclei",
+            "Terminal buttons",
+            "Cell membranes"
+          ],
+          "answerIndex": 2,
+          "explanation": "Terminal buttons release chemicals into the space between neurons when the neuron fires. Dendrites receive, not release."
+        },
+        {
+          "difficulty": 2,
+          "stem": "One neuron is able to pass its signal to several targets at the same time because:",
+          "options": [
+            "It has several separate axons",
+            "Its dendrites send signals too",
+            "Its nucleus divides",
+            "Its single axon divides into many terminals"
+          ],
+          "answerIndex": 3,
+          "explanation": "One axon branches into many terminals. Neurons do not have several axons."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Structural classification of neurons is based on:",
+          "options": [
+            "The number of processes extending from the cell body",
+            "The direction in which signals travel",
+            "The chemicals the neuron releases",
+            "The speed of the signal"
+          ],
+          "answerIndex": 0,
+          "explanation": "Unipolar, bipolar and multipolar describe how many processes leave the soma. Direction of signal is the basis of functional classification."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Under the microscope, Tobi sees a neuron with one axon and a dense bush of many dendrites. It is best classified as:",
+          "options": [
+            "Unipolar",
+            "Bipolar",
+            "Multipolar",
+            "Afferent"
+          ],
+          "answerIndex": 2,
+          "explanation": "Many dendrites plus one axon is multipolar, the commonest type in the CNS. Afferent is a functional label."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A neuron has a single process leaving the cell body that serves as both dendrite and axon. This neuron is:",
+          "options": [
+            "Unipolar",
+            "Bipolar",
+            "Multipolar",
+            "Efferent"
+          ],
+          "answerIndex": 0,
+          "explanation": "Dendrite and axon emerging from the same single process defines unipolar. Bipolar has two separate processes on opposite ends."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A toxin destroys terminal buttons but leaves the rest of the neuron intact. The neuron would most likely:",
+          "options": [
+            "Stop receiving messages from other neurons",
+            "Lose its nucleus",
+            "Fail to pass chemical messages on to the next cell",
+            "Grow extra dendrites at once"
+          ],
+          "answerIndex": 2,
+          "explanation": "Terminal buttons release the chemicals that affect the next neuron, so output fails. Receiving is the dendrites' job and would continue."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement about the parts of a neuron is FALSE?",
+          "options": [
+            "A neuron may have many dendrites",
+            "The axon carries signals away from the cell body",
+            "A neuron typically has many axons and one dendrite",
+            "The cell membrane is the outer skin of the cell"
+          ],
+          "answerIndex": 2,
+          "explanation": "It is the reverse: one axon, possibly many dendrites. The other statements are true."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which structural type is paired with its correct description?",
+          "options": [
+            "Bipolar: more than two dendrites",
+            "Multipolar: dendrite and axon from the same process",
+            "Unipolar: axon and dendrite on opposite ends",
+            "Bipolar: one axon and one dendrite on opposite ends of the soma"
+          ],
+          "answerIndex": 3,
+          "explanation": "Only D is right. The definitions in A, B and C are shuffled between the three structural types."
+        },
+        {
+          "difficulty": 4,
+          "stem": "A highly branched dendritic tree would most benefit a neuron that needs to:",
+          "options": [
+            "Send signals over long distances",
+            "Receive and combine input from a great many other neurons",
+            "Release more hormones",
+            "Avoid firing altogether"
+          ],
+          "answerIndex": 1,
+          "explanation": "More dendritic branches mean more receiving surface. Long-distance sending depends on the axon, not the dendrites."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider these statements. I. Structural classification depends on the number of processes from the soma. II. Functional classification depends on the route signals take relative to the CNS. III. 'Multipolar' and 'efferent' can describe the same neuron. Which are correct?",
+          "options": [
+            "I and II only",
+            "I, II and III",
+            "II and III only",
+            "I and III only"
+          ],
+          "answerIndex": 1,
+          "explanation": "All three are true. A spinal motor neuron is multipolar in shape and efferent in function, because the two systems classify different things."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A student labels a neuron 'bipolar afferent'. What does this label tell you?",
+          "options": [
+            "It has many dendrites and carries signals to muscles",
+            "It has one process and links neurons in the brain",
+            "It has one axon and one dendrite and carries signals into the CNS",
+            "It has two axons and carries signals out of the CNS"
+          ],
+          "answerIndex": 2,
+          "explanation": "Bipolar gives the shape (one axon, one dendrite) and afferent gives the direction (into the CNS). No neuron has two axons."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which statement best explains why a neuron dies if its cell body is destroyed, even though the axon is intact?",
+          "options": [
+            "The cell body contains the nucleus that directs and sustains the whole cell",
+            "The axon can only work if dendrites are present",
+            "The cell body is where chemicals are released to other neurons",
+            "The axon receives all its signals from the terminal buttons"
+          ],
+          "answerIndex": 0,
+          "explanation": "The nucleus in the soma regulates the cell's functions, so without it the neuron cannot survive. Chemicals are released at the terminal buttons, not the cell body."
+        }
+      ]
+    },
+    {
+      "name": "How neurons fire",
+      "lesson": {
+        "title": "Resting, firing and the all-or-none law",
+        "minutes": 12,
+        "hook": "A neuron is like a gun, not a dimmer switch. It either fires completely or not at all. So how does your brain tell a gentle tap from a hard slap?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "The resting potential",
+            "body": "A neuron at rest is not 'off'. It holds a small **negative charge inside** compared with the outside, called the **resting potential**, about **minus 70 millivolts**.\n\nThis comes from how **ions** (charged particles) are spread across the membrane. More positive ions (**cations**), mostly **sodium**, sit outside the cell. More negatively charged particles (**anions**), such as large proteins, are trapped inside. The neuron is like a charged battery, ready to fire.",
+            "visual": {
+              "type": "stat",
+              "value": "-70 mV",
+              "label": "Typical resting potential"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The action potential",
+            "body": "Dendrites pick up input and pass it to the cell body. If the input is strong enough, an electrical signal sweeps down the axon. This is the **action potential**.\n\nThe axon membrane is dotted with tiny pores called **ion channels** that open and close. When stimulation is enough, sodium channels open and positive ions rush in, briefly flipping the charge inside to positive. Potassium then flows out, restoring the negative charge. This wave travels along the axon to the terminals, which release chemicals. The neuron has **fired**.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Enough input",
+                "Channels open",
+                "Sodium rushes in",
+                "Wave down axon",
+                "Chemicals released"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "At rest, where are most sodium ions found?",
+            "options": [
+              "Inside the neuron",
+              "Inside the nucleus",
+              "Outside the neuron",
+              "Inside the terminal buttons"
+            ],
+            "answerIndex": 2,
+            "why": "Sodium is concentrated outside at rest, which is why it rushes in when channels open. The inside holds the negative anions."
+          },
+          {
+            "kind": "teach",
+            "heading": "The threshold of excitation",
+            "body": "A neuron fires only when its charge reaches a critical level, the **threshold of excitation**. Many textbooks put it at about **minus 65 millivolts**, just a little less negative than rest.\n\nBelow threshold, nothing happens. At threshold, an unstoppable chain of events begins. It is like squeezing a trigger: you press and press, nothing happens, then at one point the gun fires and nothing can call the bullet back. The threshold means a nerve impulse needs an **adequate stimulus**.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Rest -70 mV",
+                "Input builds",
+                "Threshold reached",
+                "Neuron fires"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Fire fully or not at all",
+            "body": "The **all-or-none law** says a neuron either fires fully or does not fire at all. Once triggered, the action potential travels the whole length of the axon at **full strength and the same size**, whatever the strength of the stimulus.\n\nSo how is a strong stimulus coded? Not by a bigger impulse, but by **more impulses per second**. A firm press makes the neuron fire more often, not more forcefully. Chemical processes reset the neuron quickly, so many neurons can fire hundreds of times a second.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "checkmark-circle",
+                  "label": "Fires fully"
+                },
+                {
+                  "icon": "close-circle",
+                  "label": "Or not at all"
+                },
+                {
+                  "icon": "repeat",
+                  "label": "Strength = frequency"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Light in the hostel corridor",
+            "story": "Ifeoma explains it to her roommate with the corridor bulb: 'You can't half-press the switch. It's on or off. If the porter wants the corridor brighter, he doesn't make the bulb stronger, he switches on more bulbs.' Brighter light means more photons, not stronger ones.",
+            "takeaway": "Neurons code intensity the same way: more impulses per second, never a bigger impulse."
+          },
+          {
+            "kind": "check",
+            "question": "Tunde squeezes a stress ball harder and harder. What happens in his touch neurons?",
+            "options": [
+              "Each action potential becomes larger",
+              "The threshold disappears",
+              "The neurons fire more impulses per second",
+              "The resting potential becomes positive"
+            ],
+            "answerIndex": 2,
+            "why": "Under the all-or-none law impulse size is fixed, so stronger stimuli raise the firing rate. Bigger impulses would break the law."
+          },
+          {
+            "kind": "compare",
+            "heading": "Tonic and phasic receptors",
+            "left": {
+              "title": "Tonic (slowly adapting)",
+              "points": [
+                "Respond to a steady stimulus",
+                "Keep firing at a steady rate",
+                "Fire faster as intensity rises"
+              ]
+            },
+            "right": {
+              "title": "Phasic (quickly adapting)",
+              "points": [
+                "Firing drops or stops with a steady stimulus",
+                "Fire at the start and end of a change",
+                "Example: Pacinian corpuscle in the skin"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Why you stop feeling your clothes",
+            "body": "The **Pacinian corpuscle** is a pressure receptor in the skin with layers wrapped around the nerve ending like an onion. When pressure first squashes it, the nerve fires. If pressure stays steady, the layers absorb it and firing stops. When pressure is removed, the corpuscle changes shape again and the nerve fires once more.\n\nThat is why you notice your wristwatch when you put it on, forget it all day, and notice again when you take it off.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Tonic: keeps firing",
+              "right": "Phasic: adapts fast",
+              "marker": 90,
+              "label": "Pacinian corpuscle"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The neuron doctrine",
+            "body": "In the late 1800s, **Santiago Ramón y Cajal** argued that the nervous system is made of **separate cells**, not one continuous net as Camillo Golgi believed. His **neuron doctrine** says the nerve cell is the fundamental building block and working unit of the nervous system, each one a distinct cell.\n\nCajal also proposed the **law of dynamic polarisation**: signals enter at the dendrites and cell body and then move down the axon **one way only**, outwards from the soma.",
+            "visual": {
+              "type": "neuron",
+              "part": "synapse",
+              "label": "Separate cells, small gap"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Exceptions to the rules",
+            "body": "Like most doctrines, Cajal's has exceptions.\n\n**Glial cells** may take part in information processing, not just support. **Electrical synapses**, where neurons are directly joined, are more common than once thought. Some neurons fuse: the **squid giant axon** forms from many fused cells.\n\nDynamic polarisation also bends: **dendrites can sometimes send output**, and **axons can receive input**.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "git-network",
+                  "label": "Glia process too"
+                },
+                {
+                  "icon": "flash",
+                  "label": "Electrical synapses"
+                },
+                {
+                  "icon": "repeat",
+                  "label": "Two-way signals"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Favourite targets: which ions sit where at rest, what the all-or-none law does and does not mean, and the Pacinian corpuscle as a quickly adapting receptor. The big trap is thinking a stronger stimulus makes a bigger impulse. Attribution of the neuron doctrine to Cajal also comes up.",
+            "sampleQuestion": "Explain the all-or-none principle. If every impulse is the same size, how does the nervous system code the intensity of a stimulus?",
+            "howToAnswer": "State that once threshold is reached the neuron fires fully and the impulse keeps its size, then explain that intensity is coded by firing frequency, with tonic and phasic receptors as examples.",
+            "scholars": [
+              "Ramón y Cajal (late 19th century)",
+              "Eckert et al. (1983)",
+              "Connors & Long (2004)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Resting potential: inside about -70 mV; sodium outside, anions inside.",
+              "Action potential: channels open, charge flips, wave travels down axon.",
+              "Threshold must be reached; then the neuron fires fully (all-or-none).",
+              "Intensity is coded by firing rate, not impulse size.",
+              "Pacinian corpuscles adapt quickly; tonic receptors keep firing.",
+              "Cajal's neuron doctrine: neurons are separate units, with exceptions."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The resting potential of a neuron refers to:",
+          "options": [
+            "The positive charge inside a firing neuron",
+            "The negative charge inside a neuron at rest",
+            "The chemicals stored in terminal buttons",
+            "The time a neuron needs to recover"
+          ],
+          "answerIndex": 1,
+          "explanation": "At rest the inside is negative, about -70 mV. The inside becomes positive only briefly during an action potential."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The all-or-none law states that a neuron:",
+          "options": [
+            "Fires with strength matching the stimulus",
+            "Fires only when all its dendrites are active",
+            "Either fires fully or does not fire",
+            "Never fires more than once a second"
+          ],
+          "answerIndex": 2,
+          "explanation": "Once threshold is reached the impulse is full-sized; below it, nothing. Strength does not scale with the stimulus."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The neuron doctrine is associated with:",
+          "options": [
+            "Santiago Ramón y Cajal",
+            "Johannes Müller",
+            "Ivan Pavlov",
+            "Wilhelm Wundt"
+          ],
+          "answerIndex": 0,
+          "explanation": "Cajal argued in the late 1800s that neurons are separate units. Müller is linked with specific nerve energies."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The electrical signal that travels down the axon when a neuron fires is the:",
+          "options": [
+            "Resting potential",
+            "Threshold",
+            "Terminal button",
+            "Action potential"
+          ],
+          "answerIndex": 3,
+          "explanation": "The action potential is the travelling shift in charge. The threshold is the level needed to start it."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The voltage at which a neuron begins an action potential is called the:",
+          "options": [
+            "Resting potential",
+            "Threshold of excitation",
+            "Dynamic polarisation",
+            "Refractory point"
+          ],
+          "answerIndex": 1,
+          "explanation": "Reaching the threshold of excitation triggers firing. The resting potential is the baseline the neuron starts from."
+        },
+        {
+          "difficulty": 2,
+          "stem": "According to the law of dynamic polarisation, a signal normally travels:",
+          "options": [
+            "From the axon to the dendrites",
+            "In both directions equally along the axon",
+            "From dendrites and cell body along the axon, away from the cell body",
+            "Only within the cell body"
+          ],
+          "answerIndex": 2,
+          "explanation": "Cajal's law describes one-way flow: in at the dendrites and soma, out along the axon. Two-way flow is an exception, not the rule."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Kunle puts on a wristwatch, forgets it within minutes, and notices it again only when he takes it off. This is best explained by:",
+          "options": [
+            "Quickly adapting receptors such as Pacinian corpuscles",
+            "Tonic receptors firing steadily",
+            "The resting potential becoming positive",
+            "The neuron doctrine"
+          ],
+          "answerIndex": 0,
+          "explanation": "Phasic receptors fire at the start and end of pressure and fall silent while it is steady. Tonic receptors would keep him aware of the watch."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A researcher gently increases a stimulus, but the neuron still does not fire. The most likely reason is that:",
+          "options": [
+            "The neuron has fired too strongly",
+            "The threshold of excitation has not been reached",
+            "The all-or-none law does not apply to this neuron",
+            "The neuron has no axon"
+          ],
+          "answerIndex": 1,
+          "explanation": "Without reaching threshold, no action potential occurs. The all-or-none law applies to all axons, which is exactly why sub-threshold input does nothing."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A tonic receptor is exposed to a steady stimulus whose intensity is then doubled. The receptor most likely:",
+          "options": [
+            "Stops firing completely",
+            "Produces larger action potentials",
+            "Fires only once when the change occurs",
+            "Increases its firing frequency"
+          ],
+          "answerIndex": 3,
+          "explanation": "Tonic receptors keep firing and respond to greater intensity with a higher rate. Stopping or firing once describes phasic receptors."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement about the all-or-none law is FALSE?",
+          "options": [
+            "A stronger stimulus produces a larger action potential",
+            "Once triggered, the impulse keeps the same size along the axon",
+            "Intensity can be coded by more impulses per second",
+            "A neuron does not fire if threshold is not reached"
+          ],
+          "answerIndex": 0,
+          "explanation": "Impulse size is fixed; stronger stimuli raise the firing rate instead. The other three statements are true."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which of the following is an exception to the neuron doctrine?",
+          "options": [
+            "Neurons having a single axon",
+            "Dendrites receiving input",
+            "Electrical synapses joining neurons directly",
+            "Terminal buttons releasing chemicals"
+          ],
+          "answerIndex": 2,
+          "explanation": "Electrical synapses create direct connections between cells, against the idea of fully separate units. The others fit the doctrine."
+        },
+        {
+          "difficulty": 4,
+          "stem": "At rest, the inside of a neuron is negative mainly because:",
+          "options": [
+            "Sodium ions are concentrated inside",
+            "Positive ions such as sodium are kept mostly outside while negative anions stay inside",
+            "The nucleus carries a negative charge",
+            "Neurotransmitters are negatively charged"
+          ],
+          "answerIndex": 1,
+          "explanation": "The uneven spread of ions, sodium outside and anions inside, makes the interior negative. Sodium is outside at rest, not inside."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider these statements. I. Dendrites can sometimes act as output sites. II. Axons can sometimes receive synaptic input. III. The squid giant axon forms from fused neurons. Which are exceptions to Cajal's ideas?",
+          "options": [
+            "I and II only",
+            "II and III only",
+            "I and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 3,
+          "explanation": "I and II break the law of dynamic polarisation, and III breaks the idea that neurons are separate units. All three are exceptions."
+        },
+        {
+          "difficulty": 5,
+          "stem": "The comparison of the all-or-none law to light of a single colour makes the point that:",
+          "options": [
+            "Neurons are sensitive only to light",
+            "Brighter light needs more photons, just as stronger stimuli need more impulses, since neither unit grows stronger",
+            "Photons and impulses both travel at the speed of light",
+            "Colour vision depends on the resting potential"
+          ],
+          "answerIndex": 1,
+          "explanation": "Intensity comes from number, not size of each unit. Neurons do not travel at light speed; the analogy is about counting, not speed."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A Pacinian corpuscle is pressed and the pressure is held steady for ten seconds, then removed. When does its nerve fire?",
+          "options": [
+            "Continuously for the whole ten seconds",
+            "Only after the pressure is removed",
+            "At the initial pressing and again when the pressure is removed",
+            "Never, because the corpuscle absorbs all pressure"
+          ],
+          "answerIndex": 2,
+          "explanation": "Its onion-like layers produce a brief response when they deform at the start and again when they spring back. Firing throughout would describe a tonic receptor."
+        }
+      ]
+    }
+  ]
+}

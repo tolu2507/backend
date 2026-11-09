@@ -1,0 +1,584 @@
+{
+  "unit": 8,
+  "title": "The Nature of Remembering",
+  "summary": "Why remembering is reconstruction rather than replay: Bartlett's stories, schemas, and the systematic distortions behind false memories and eyewitness error.",
+  "sections": [
+    {
+      "name": "Memory as reconstruction",
+      "lesson": {
+        "title": "Remembering is rebuilding, not replaying",
+        "minutes": 10,
+        "hook": "Two friends leave the same Ibadan wedding and, a year later, tell the story so differently you would think they attended separate parties. Which of them has the 'real' memory? Possibly neither.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Is memory a video recorder?",
+            "body": "Many people assume the brain records life like a CCTV camera, and that forgetting is just failing to find the right tape.\n\nThe Canadian neurosurgeon **Wilder Penfield** gave this idea scientific backing. While operating on more than 1,100 epilepsy patients, he stimulated their **temporal lobes** with a mild electrical probe. About **3.5%** of patients described vivid flashbacks, as if reliving moments from their past. Penfield took this as evidence that every experience leaves a permanent, complete imprint.",
+            "visual": { "type": "brain", "region": "temporal-lobe", "label": "Penfield's probe site" }
+          },
+          {
+            "kind": "teach",
+            "heading": "Why Penfield's evidence is weak",
+            "body": "Look closely at the numbers. Only a tiny minority of patients reported flashbacks at all, and nobody checked whether those 'memories' matched what had really happened.\n\n**Ulric Neisser (1967)** argued the experiences were more like **dreams** than genuine recall: stitched-together images, not playback. Apart from Penfield, no research supports the recorder idea. Every other line of evidence shows memory is patchy, selective and changeable.",
+            "visual": { "type": "stat", "value": "3.5%", "label": "Patients reporting flashbacks" }
+          },
+          {
+            "kind": "check",
+            "question": "Neisser's main objection to Penfield's 'flashback' findings was that the reported experiences:",
+            "options": [
+              "Came only from the frontal lobes",
+              "Resembled dream content more than true recall",
+              "Were reported by every single patient",
+              "Proved memory is stored in one neuron"
+            ],
+            "answerIndex": 1,
+            "why": "Neisser saw them as dream-like constructions, not replays of real events. Far from every patient, only about 3.5% reported them."
+          },
+          {
+            "kind": "teach",
+            "heading": "Memory as a reconstruction",
+            "body": "**Elizabeth Loftus**, one of the most influential memory researchers, puts it this way: recall is a **reconstruction**. You keep a few highlights of an experience and, when you remember, you fill the gaps with general knowledge, guesses and later information. Some of that filler is accurate; some is not.\n\nJohn **Kihlstrom (1995)** offered a neat comparison: remembering is less like reading a finished book and more like writing a new one from scattered notes.",
+            "visual": { "type": "flow", "nodes": ["Few highlights kept", "Gaps filled in", "Story rebuilt"] }
+          },
+          {
+            "kind": "teach",
+            "heading": "Bartlett's classic experiments",
+            "body": "Long before Loftus, the English psychologist **Sir Frederick Bartlett** (1886–1969) showed reconstruction in the lab. In his 1932 book *Remembering*, he described giving people unfamiliar stories and drawings, then asking them to reproduce the material after different delays.\n\nHis best-known story was **'The War of the Ghosts'**, a Native American folk tale full of strange events. His English participants found it puzzling, and their retellings changed in revealing ways.",
+            "visual": { "type": "icons", "items": [ { "icon": "book", "label": "Read strange story" }, { "icon": "time", "label": "Wait a while" }, { "icon": "repeat", "label": "Retell it" } ] }
+          },
+          {
+            "kind": "terms",
+            "heading": "What happened to the stories",
+            "terms": [
+              { "term": "Shortening", "meaning": "Retellings became briefer as details dropped out." },
+              { "term": "Rationalisation", "meaning": "Puzzling parts were explained or reshaped so they made sense." },
+              { "term": "Familiarisation", "meaning": "Unfamiliar items were swapped for familiar ones, such as canoes becoming boats." },
+              { "term": "Growing error", "meaning": "Mistakes increased the longer the delay." },
+              { "term": "False confidence", "meaning": "People insisted most strongly on the parts they had invented." }
+            ]
+          },
+          {
+            "kind": "check",
+            "question": "In Bartlett's studies, participants turned 'canoes' into 'boats' when retelling the story. This change is best called:",
+            "options": [
+              "Rationalisation",
+              "Shortening",
+              "Familiarisation",
+              "Decay"
+            ],
+            "answerIndex": 2,
+            "why": "Replacing an unfamiliar item with a culturally familiar one is familiarisation. Rationalisation is making a puzzling event make sense, which is related but not the same."
+          },
+          {
+            "kind": "teach",
+            "heading": "Bartlett's conclusion",
+            "body": "Bartlett concluded that distortion is **systematic**, not random. What you already know, stored in long-term memory, shapes how you take in new material and how you later rebuild it.\n\nMost striking of all, his participants had **no idea** they were partly inventing. Memory, for him, is an active, present-day effort to make sense of the past, so the past keeps being reshaped to fit who we are now.",
+            "visual": { "type": "scale", "left": "Stored knowledge", "right": "Actual event", "heavier": "left" }
+          },
+          {
+            "kind": "teach",
+            "heading": "Schemas: the frames behind recall",
+            "body": "Bartlett's key idea was the **schema**: an organised framework of knowledge and expectations about people, objects, places and events. You have a schema for 'a Nigerian wedding', 'a lecture' or 'a visit to the bank'.\n\nSchemas are useful. They let you handle large amounts of information quickly, give new facts somewhere to fit, and supply **retrieval cues** later. The cost is that whatever does not fit the schema may be bent, dropped or quietly replaced.",
+            "visual": { "type": "venn", "left": "Help encoding and retrieval", "right": "Cause distortion", "both": "Schemas" }
+          },
+          {
+            "kind": "example",
+            "heading": "The lecture that never happened that way",
+            "story": "Tunde missed nothing at his first 300 Level lecture, yet weeks later he 'remembers' the lecturer taking attendance and writing the course outline on the board. In truth, the lecturer used slides and never called the register. Tunde's schema for 'first lecture of semester' quietly filled in the usual events, and he would swear on oath that they happened.",
+            "takeaway": "Schemas supply expected details during recall, and the invented parts feel just as real as the true ones."
+          },
+          {
+            "kind": "steps",
+            "heading": "Where schemas shape memory",
+            "steps": [
+              { "title": "Noticing", "detail": "The schema directs attention to what seems relevant and away from what does not." },
+              { "title": "Encoding", "detail": "Odd details are bent to fit, or simply not stored." },
+              { "title": "Storage", "detail": "The memory is kept as gist within the framework, not as a full copy." },
+              { "title": "Retrieval", "detail": "Gaps are filled with what normally happens, adding further distortion." }
+            ]
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Lecturers love Bartlett. Expect 'explain the work of Bartlett' essays and objective questions on who used which method. The trap: students think Bartlett found random forgetting, or credit Penfield with the reconstruction view. Bartlett showed systematic, schema-driven change; Penfield argued for permanent storage.",
+            "sampleQuestion": "'Remembering is not the re-excitation of fixed traces.' Discuss this view with reference to the work of Bartlett and the concept of schema.",
+            "howToAnswer": "Describe Bartlett's method and the War of the Ghosts, list the systematic changes (shortening, rationalisation, familiarisation), explain schemas as the cause, and contrast with Penfield's tape-recorder view.",
+            "scholars": [ "Bartlett (1932)", "Penfield (1969)", "Neisser (1967)", "Loftus & Loftus (1980)", "Kihlstrom (1995)" ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Penfield's flashbacks (3.5% of patients) are weak evidence for 'recorder' memory.",
+              "Neisser saw those flashbacks as dream-like, not true recall.",
+              "Loftus: memory is a reconstruction from highlights plus filler.",
+              "Bartlett (1932): stories became shorter, rationalised and familiarised.",
+              "Schemas aid encoding and retrieval but bend what does not fit."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The view that remembering is an active rebuilding of the past, shaped by existing knowledge, is most closely associated with:",
+          "options": [ "Frederick Bartlett", "Wilder Penfield", "Karl Lashley", "Donald Hebb" ],
+          "answerIndex": 0,
+          "explanation": "Bartlett (1932) introduced the reconstructive view through his story-reproduction studies. Penfield held the opposite view: that experiences leave a permanent, complete record."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which of the following best describes what a schema is?",
+          "options": [
+            "A single neuron that stores one memory",
+            "A brief sensory trace lasting under a second",
+            "An organised framework of knowledge and expectations",
+            "A list of words learned by rote rehearsal"
+          ],
+          "answerIndex": 2,
+          "explanation": "A schema is an organised body of knowledge and assumptions about people, objects or events. It is not a physical trace or a sensory store."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Penfield's claim that experiences leave a permanent imprint 'like a tape recorder' was based mainly on:",
+          "options": [
+            "Word-list studies with university students",
+            "Questionnaires about childhood memories",
+            "Studies of eyewitnesses in court cases",
+            "Electrical stimulation of patients' temporal lobes"
+          ],
+          "answerIndex": 3,
+          "explanation": "Penfield probed the temporal lobes of epilepsy patients during surgery and some reported flashbacks. Word-list and eyewitness research belong to later reconstruction researchers."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Roughly what proportion of Penfield's patients reported flashback-like experiences when stimulated?",
+          "options": [ "About 35%", "About 3.5%", "About 89%", "Nearly all of them" ],
+          "answerIndex": 1,
+          "explanation": "Only about 3.5% of more than 1,100 patients reported such experiences, which is one reason the evidence is considered weak. 35% is a common misreading of the figure."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Kihlstrom's comparison of remembering to 'writing a book from fragmentary notes' is meant to show that memory:",
+          "options": [
+            "Is a faithful copy of an experience",
+            "Is stored in written verbal form only",
+            "Is rebuilt from pieces, with gaps filled in",
+            "Cannot be retrieved without a written cue"
+          ],
+          "answerIndex": 2,
+          "explanation": "The analogy stresses that recall assembles a new account from scraps. Reading a finished book, the contrast in the analogy, would be faithful replay."
+        },
+        {
+          "difficulty": 2,
+          "stem": "According to Bartlett, the errors his participants made were:",
+          "options": [
+            "Systematic, reflecting their existing knowledge",
+            "Random, with no pattern across people",
+            "Limited to the first few minutes after reading",
+            "Easily noticed and corrected by the participants"
+          ],
+          "answerIndex": 0,
+          "explanation": "Bartlett stressed that distortions followed a pattern set by schemas and culture. Participants did not notice their errors, and errors grew over longer delays."
+        },
+        {
+          "difficulty": 3,
+          "stem": "After hearing a folk tale about spirits fighting a battle, Musa retells it as a story about a village quarrel, leaving out the ghosts because 'that part did not make sense'. This best illustrates:",
+          "options": [ "Familiarisation", "Decay theory", "Retrograde amnesia", "Rationalisation" ],
+          "answerIndex": 3,
+          "explanation": "Reshaping or removing puzzling elements so the story makes sense is rationalisation. Familiarisation would be swapping an unfamiliar object for a familiar one, such as canoe for boat."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Chiamaka insists her favourite part of a story she retold was 'definitely in the original', yet a check shows she invented it. Bartlett would say this:",
+          "options": [
+            "Shows she was deliberately lying",
+            "Proves her memory was a perfect recording",
+            "Is typical, since invented parts often feel most certain",
+            "Means the story was never encoded at all"
+          ],
+          "answerIndex": 2,
+          "explanation": "Bartlett observed that participants were often most confident about the very details they had made up. This is not lying, because they were unaware of inventing."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A student who wants to use schemas to help, not hurt, memory for a lecture should mainly:",
+          "options": [
+            "Avoid linking new material to anything already known",
+            "Link new points to existing frameworks while checking unusual details",
+            "Rely on the schema to fill any gaps in notes later",
+            "Memorise the lecture word for word without understanding"
+          ],
+          "answerIndex": 1,
+          "explanation": "Schemas give new material a place to fit and provide retrieval cues, but details that clash with expectations need deliberate attention or they get distorted. Letting the schema fill gaps invites errors."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following were observed in Bartlett's story-reproduction studies EXCEPT:",
+          "options": [
+            "Stories became shorter on retelling",
+            "Unfamiliar details were replaced by familiar ones",
+            "Accuracy improved steadily with longer delays",
+            "Participants were unaware of what they had invented"
+          ],
+          "answerIndex": 2,
+          "explanation": "Errors increased, not decreased, as time passed. Shortening, familiarisation and lack of awareness were all core findings."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement about schemas is NOT correct?",
+          "options": [
+            "They help us process large amounts of information",
+            "They provide cues that can aid retrieval",
+            "They can distort details that do not fit",
+            "They operate only at retrieval, never at encoding"
+          ],
+          "answerIndex": 3,
+          "explanation": "Schemas act at both stages: some distortion happens as material is encoded, more when it is reconstructed. The other three statements are all accurate."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Neisser – flashbacks were dream-like constructions",
+            "Penfield – memory is reconstruction from highlights",
+            "Bartlett – the tape-recorder view of memory",
+            "Kihlstrom – electrical stimulation of the temporal lobe"
+          ],
+          "answerIndex": 0,
+          "explanation": "Neisser (1967) reinterpreted Penfield's flashbacks as dream-like. The other pairs swap the positions: Penfield held the recorder view, and Bartlett the reconstruction view."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider these statements: I. Memory is partly truth and partly fiction even in people with good memories. II. Penfield's findings are widely replicated support for permanent storage. III. Knowledge in long-term memory influences how new experiences are remembered. Which are consistent with the reconstructive view?",
+          "options": [ "I and II only", "II and III only", "I, II and III", "I and III only" ],
+          "answerIndex": 3,
+          "explanation": "Statements I and III express the reconstructive view. Statement II is false: Penfield's work is the only evidence for recorder-like memory and was reinterpreted, not widely replicated."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A researcher finds that people from two cultures recall the same folk tale differently, each version drifting towards the storyteller's own customs. The researcher would most likely conclude that:",
+          "options": [
+            "Culturally based schemas shape encoding and reconstruction",
+            "One group simply has weaker short-term memory",
+            "The story was stored as an exact copy but retrieved slowly",
+            "Memory differences are caused by temporal lobe damage"
+          ],
+          "answerIndex": 0,
+          "explanation": "Drift towards one's own customs is exactly what Bartlett attributed to schemas. Nothing in the finding points to capacity limits or brain damage, and exact storage would not produce systematic drift."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which combination best captures why Penfield's flashback evidence fails to establish that memory works like a recorder?",
+          "options": [
+            "Too few patients were tested, and none had epilepsy",
+            "Very few patients reported flashbacks, and their accuracy was never verified",
+            "The flashbacks occurred only in the cerebellum, and were always visual",
+            "Every patient reported flashbacks, but they all described the same event"
+          ],
+          "answerIndex": 1,
+          "explanation": "Only about 3.5% reported flashbacks and no one confirmed they matched real events, so they could be dream-like constructions. Penfield in fact studied over 1,100 epilepsy patients and stimulated the temporal lobes."
+        }
+      ]
+    },
+    {
+      "name": "Distortion and false memories",
+      "lesson": {
+        "title": "How memories bend to fit beliefs",
+        "minutes": 9,
+        "hook": "Read these words once: bed, rest, tired, dream, snooze, pillow, yawn, night. Now, without looking back, was 'sleep' on the list? Hold your answer.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "What is memory distortion?",
+            "body": "Reconstruction tells us memory is rebuilt. **Distortion** tells us *which way* it bends. Distortion happens when a memory changes so that it fits a person's **beliefs, expectations, logic or prejudices**.\n\nIt is usually not deliberate. Unless someone is lying, they are not trying to change the past. They simply leave out details that really happened and add details that 'should' have happened, and the result feels completely genuine.",
+            "visual": { "type": "icons", "items": [ { "icon": "bulb", "label": "Beliefs" }, { "icon": "search", "label": "Expectations" }, { "icon": "scale", "label": "Prejudices" } ] }
+          },
+          {
+            "kind": "teach",
+            "heading": "Was 'sleep' on the list?",
+            "body": "It was not. If you said yes, you produced a **false memory**.\n\nThis is the method of **Roediger and McDermott (1995)**, building on earlier work by Deese, so it is often called the **DRM paradigm**. Every word on the list is linked to one missing 'critical lure'. In their studies, roughly **40% to 55%** of participants recalled the lure as if they had seen it. Later work (Dodson and colleagues, 2000) showed such false memories can feel as real as true ones.",
+            "visual": { "type": "stat", "value": "40–55%", "label": "Recalled the missing lure" }
+          },
+          {
+            "kind": "check",
+            "question": "In a DRM word-list study, the 'critical lure' is a word that:",
+            "options": [
+              "Appears first on the list",
+              "Is repeated several times",
+              "Is strongly related but never presented",
+              "Is unrelated to all the list words"
+            ],
+            "answerIndex": 2,
+            "why": "The lure is the theme word, like 'sleep', that was never shown. People falsely recall it because it fits the gist of the list."
+          },
+          {
+            "kind": "teach",
+            "heading": "Why we distort: making sense",
+            "body": "Distortion has a purpose. It makes the world **understandable** and lets us slot experiences into what we already believe. A tidy, sensible memory is easier to store and use than a messy, accurate one.\n\nThe price is that memory can become badly wrong while feeling right. This is the same schema process Bartlett described, seen from the angle of its errors.",
+            "visual": { "type": "scale", "left": "Making sense", "right": "Accuracy", "heavier": "left" }
+          },
+          {
+            "kind": "teach",
+            "heading": "We flatter ourselves",
+            "body": "Distortion is not neutral. When people misremember their **own history**, the errors usually make them look **better**, not worse.\n\n**Bahrick and colleagues (1996)** compared students' memories of their high school grades with their actual records. About **89%** correctly recalled their A grades, but only about **29%** correctly recalled their D grades. The bad grades were 'remembered' as better than they were.",
+            "visual": { "type": "scale", "left": "A grades: 89%", "right": "D grades: 29%", "heavier": "left" }
+          },
+          {
+            "kind": "check",
+            "question": "Bahrick and colleagues (1996) found that students recalled their high school A grades far more accurately than their D grades. This best shows that distortion:",
+            "options": [
+              "Tends to run in a self-flattering direction",
+              "Happens only for very old memories",
+              "Affects numbers but not words",
+              "Is caused by damage to the hippocampus"
+            ],
+            "answerIndex": 0,
+            "why": "Poor grades were misremembered upwards, a positive, self-serving bias. Nothing in the study involved brain damage or a words-versus-numbers difference."
+          },
+          {
+            "kind": "teach",
+            "heading": "Eyewitness testimony",
+            "body": "The most dramatic distortions show up in **eyewitness testimony**. Witnesses rebuild a fast, stressful event from fragments, and questions asked afterwards can slip new details in.\n\nIn a famous study, **Loftus and Palmer (1974)** showed people a car crash film. Those asked how fast the cars were going when they 'smashed' into each other gave higher speed estimates than those asked about cars that 'hit' each other, and more of them later reported broken glass that was never in the film.",
+            "visual": { "type": "flow", "nodes": ["Witness sees event", "Leading question", "Detail added", "Confident testimony"] }
+          },
+          {
+            "kind": "example",
+            "heading": "The danfo accident at Ojota",
+            "story": "Musa saw a danfo bump a car at Ojota. At the police station an officer asked, 'How fast was the danfo speeding when it rammed the car?' A week later, Musa tells the court the bus was flying and the car's windscreen shattered. The traffic camera shows a slow bump and an unbroken windscreen. Musa is not lying; the question's wording reshaped his memory.",
+            "takeaway": "Post-event information and expectations about 'reckless danfo drivers' can distort an honest witness's memory."
+          },
+          {
+            "kind": "compare",
+            "heading": "Reconstruction versus distortion",
+            "left": {
+              "title": "Reconstruction",
+              "points": [
+                "The normal way all recall works",
+                "Rebuilds an event only partly stored",
+                "Draws on perception, imagination, motivation, beliefs",
+                "May be accurate or inaccurate"
+              ]
+            },
+            "right": {
+              "title": "Distortion",
+              "points": [
+                "A systematic error in what is rebuilt",
+                "Memory altered to fit beliefs or prejudices",
+                "Includes gist errors and source mix-ups",
+                "Always involves inaccuracy"
+              ]
+            }
+          },
+          {
+            "kind": "terms",
+            "heading": "Two kinds of distortion",
+            "terms": [
+              { "term": "Gist-based error", "meaning": "Falsely remembering something that matches the general meaning, like 'sleep' in the DRM list." },
+              { "term": "Source misattribution", "meaning": "Remembering the information correctly but linking it to the wrong time, place or person." },
+              { "term": "False memory", "meaning": "A memory of something that never happened, which feels real." },
+              { "term": "Self-serving bias", "meaning": "Remembering one's own past more favourably than it was." }
+            ]
+          },
+          {
+            "kind": "check",
+            "question": "Kemi correctly remembers a joke but is sure she heard it from her roommate when it was really from a TV show. This is an example of:",
+            "options": [
+              "A gist-based error",
+              "Retroactive facilitation",
+              "Source misattribution",
+              "Rationalisation"
+            ],
+            "answerIndex": 2,
+            "why": "The content is right but the source is wrong, which is source misattribution. A gist error would mean recalling something false that merely fits the theme."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "The SAQ asks you to 'differentiate between distortion and reconstruction', so expect it. The trap is treating them as the same thing. Reconstruction is how all remembering works and can be accurate; distortion is the systematic error that reconstruction makes possible. Objective items also test the DRM and Bahrick figures.",
+            "sampleQuestion": "Distinguish between reconstruction and distortion in memory, and explain why eyewitness testimony should be treated with caution.",
+            "howToAnswer": "Define reconstruction as rebuilding from partial storage, define distortion as alteration to fit beliefs, name gist errors and source misattribution, then apply to eyewitnesses using Loftus and Palmer (1974).",
+            "scholars": [ "Roediger & McDermott (1995)", "Bahrick et al. (1996)", "Loftus & Palmer (1974)", "Dodson et al. (2000)" ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Distortion bends memory to fit beliefs, expectations, logic or prejudice.",
+              "DRM lists: 40–55% falsely recall the missing theme word.",
+              "False memories can feel as real as true ones.",
+              "Bahrick (1996): 89% recalled As correctly, only 29% recalled Ds.",
+              "Eyewitness testimony shows distortion most dramatically.",
+              "Reconstruction is the process; distortion is its systematic error."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Memory distortion occurs mainly when a person:",
+          "options": [
+            "Deliberately invents events to deceive others",
+            "Alters a memory so it fits their beliefs and expectations",
+            "Fails to encode any information at all",
+            "Loses memories because of brain injury"
+          ],
+          "answerIndex": 1,
+          "explanation": "Distortion is the unintentional reshaping of memory to fit beliefs, expectations, logic or prejudice. Deliberate invention is lying, not distortion."
+        },
+        {
+          "difficulty": 1,
+          "stem": "According to the material on distortion, the most dramatic examples of systematic memory distortion often occur in:",
+          "options": [ "Eyewitness testimony", "Procedural skills", "Sensory memory", "Mental arithmetic" ],
+          "answerIndex": 0,
+          "explanation": "Eyewitness accounts of crimes and accidents are the classic setting for dramatic distortion. Procedural skills like cycling are rarely distorted in this way."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The word-list technique for producing false memories is most closely associated with:",
+          "options": [
+            "Bahrick and colleagues",
+            "Loftus and Palmer",
+            "Roediger and McDermott",
+            "Atkinson and Shiffrin"
+          ],
+          "answerIndex": 2,
+          "explanation": "Roediger and McDermott (1995) developed the DRM word-list method. Loftus and Palmer studied leading questions about a car crash, a related but different line of work."
+        },
+        {
+          "difficulty": 2,
+          "stem": "In Roediger and McDermott's word-list experiments, roughly what percentage of participants 'remembered' the related word that was never presented?",
+          "options": [ "5% to 10%", "89%", "Under 3.5%", "40% to 55%" ],
+          "answerIndex": 3,
+          "explanation": "Between about 40% and 55% recalled the critical lure. 89% is Bahrick's figure for accurate recall of A grades, a common mix-up."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Bahrick and colleagues (1996) found that only about 29% of students accurately recalled:",
+          "options": [
+            "Their A grades from high school",
+            "Their D grades from high school",
+            "The names of their classmates",
+            "The words on a sleep-related list"
+          ],
+          "answerIndex": 1,
+          "explanation": "Accuracy for D grades was only about 29%, compared with about 89% for A grades. The sleep list belongs to the DRM studies."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Why, according to the reconstructive account, do people tend to distort memories at all?",
+          "options": [
+            "Distortion helps them organise experience into existing beliefs",
+            "Distortion is a sign of brain damage",
+            "Distortion happens only when people are under hypnosis",
+            "Distortion improves the accuracy of memory"
+          ],
+          "answerIndex": 0,
+          "explanation": "Distortion makes the world easier to understand by fitting experiences into what we already believe. It reduces accuracy rather than improving it, and occurs in healthy people."
+        },
+        {
+          "difficulty": 3,
+          "stem": "After studying the words 'thread, pin, eye, sewing, sharp, point, haystack', Funmi confidently writes 'needle' during recall. 'Needle' was not on the list. This is best described as:",
+          "options": [
+            "A source misattribution",
+            "Retrograde amnesia",
+            "A gist-based false memory",
+            "Accurate recognition"
+          ],
+          "answerIndex": 2,
+          "explanation": "Recalling an unpresented word that fits the list's theme is a gist-based false memory, as in the DRM paradigm. Source misattribution needs the content to be correct but wrongly placed."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Emeka remembers his secondary school results as 'mostly Bs', but his old result sheet shows mostly Cs and Ds. Based on Bahrick's findings, this is best explained by:",
+          "options": [
+            "Random decay of all school memories",
+            "A positive bias in remembering one's own past",
+            "Interference from his university grades only",
+            "The tape-recorder nature of long-term memory"
+          ],
+          "answerIndex": 1,
+          "explanation": "People tend to distort their own histories in a flattering direction, as shown by poorer accuracy for bad grades. Decay alone would not explain why the errors run upwards."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A police officer asks a witness, 'How fast was the car going when it smashed into the bus?' Research by Loftus and Palmer suggests the witness will most likely:",
+          "options": [
+            "Give a lower speed than if asked with 'hit'",
+            "Refuse to estimate the speed",
+            "Remember the event more accurately",
+            "Give a higher speed and may recall false details"
+          ],
+          "answerIndex": 3,
+          "explanation": "The word 'smashed' led to higher speed estimates and more false reports of broken glass. Leading wording distorts memory rather than improving accuracy."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which of the following statements about false memories is NOT correct?",
+          "options": [
+            "They can feel as real as true memories",
+            "They can be produced by related word lists",
+            "People usually know at once that they are false",
+            "They can affect honest eyewitnesses"
+          ],
+          "answerIndex": 2,
+          "explanation": "The danger of false memories is that people do not recognise them as false; Dodson and colleagues showed they can feel just as real. The other statements are all supported."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Ada recalls a lecture point accurately but believes it was said in PSY 316 when it was actually said in PSY 302. A student who labels this a gist-based error has confused it with:",
+          "options": [
+            "Source misattribution, since the content is right but its origin is wrong",
+            "Rationalisation, since a puzzling event was explained away",
+            "Familiarisation, since an odd item was replaced",
+            "Decay, since the memory faded with time"
+          ],
+          "answerIndex": 0,
+          "explanation": "Correct content tied to the wrong source is source misattribution. A gist error would involve recalling content that never occurred but fits the theme."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Ngozi matched each researcher to a finding for her revision notes. Which of her matches is accurate?",
+          "options": [
+            "Bahrick et al. (1996) – critical lure word lists",
+            "Roediger & McDermott (1995) – memory for school grades",
+            "Dodson et al. (2000) – false memories can feel as real as true ones",
+            "Loftus & Palmer (1974) – temporal lobe flashbacks"
+          ],
+          "answerIndex": 2,
+          "explanation": "Dodson and colleagues showed false memories can feel genuine. The other pairs are swapped: Bahrick studied grades, Roediger and McDermott studied word lists, and flashbacks belong to Penfield."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which statement best differentiates reconstruction from distortion?",
+          "options": [
+            "Reconstruction is always accurate, while distortion is always deliberate",
+            "Reconstruction occurs only in eyewitnesses, while distortion occurs in everyone",
+            "Distortion is the general process of recall, while reconstruction is a rare error",
+            "Reconstruction is the normal rebuilding of partly stored events; distortion is a systematic alteration that makes the result inaccurate"
+          ],
+          "answerIndex": 3,
+          "explanation": "All recall is reconstruction, which may or may not be accurate; distortion is the biased change towards beliefs that produces error. Distortion is not deliberate, and the roles in the third option are reversed."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider: I. Distortion usually involves deliberate falsification. II. Distortion can happen during encoding as well as during recall. III. People's distortions of their own past tend to be favourable. IV. False memories are easy to tell apart from real ones. Which are correct?",
+          "options": [ "II and III only", "I and IV only", "I, II and III only", "II, III and IV only" ],
+          "answerIndex": 0,
+          "explanation": "Distortion can arise when material is encoded and when it is rebuilt, and self-related distortion leans positive. It is not deliberate (I), and false memories often feel as real as true ones (IV)."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A defence lawyer argues that a confident eyewitness may still be wrong. Which combination of findings best supports this argument?",
+          "options": [
+            "Penfield's flashbacks and the permanence of memory traces",
+            "Bartlett's finding that invented parts were held most confidently, and Loftus and Palmer's leading-question effect",
+            "Bahrick's finding that A grades were recalled accurately, and the 7 ± 2 span of short-term memory",
+            "The capacity of sensory memory and the speed of retrieval from long-term memory"
+          ],
+          "answerIndex": 1,
+          "explanation": "Bartlett showed confidence does not guarantee accuracy, and Loftus and Palmer showed questioning can implant details. Penfield's work would, if anything, support the witness's reliability."
+        }
+      ]
+    }
+  ]
+}

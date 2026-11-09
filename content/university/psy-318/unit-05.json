@@ -1,0 +1,1369 @@
+{
+  "unit": 5,
+  "title": "Developmental Disorders",
+  "summary": "Pervasive developmental disorders such as autism, intellectual disability (formerly mental retardation) with its levels and causes, related disorders, and learning disorders like dyslexia.",
+  "sections": [
+    {
+      "name": "Developmental disorders and autism",
+      "lesson": {
+        "title": "When development takes a different path",
+        "minutes": 10,
+        "hook": "A two-year-old does not answer to his name, never points at things he wants, and lines up his toy cars in perfect rows for hours. His grandmother says he is just stubborn. A specialist suspects something else.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "What developmental disorders affect",
+            "body": "The essential feature of **developmental disorders** is a problem in acquiring **cognitive, language, motor or social skills**. Many are **chronic**, persisting into adulthood, though in mild cases good **adaptation** or even recovery can occur.\n\n**Pervasive developmental disorders** affect **social adjustment** and many areas at once. Others, such as **intellectual disability** and **learning disorders**, impair cognition without necessarily affecting social adjustment.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "bulb",
+                  "label": "Cognitive"
+                },
+                {
+                  "icon": "chatbubbles",
+                  "label": "Language"
+                },
+                {
+                  "icon": "fitness",
+                  "label": "Motor"
+                },
+                {
+                  "icon": "people",
+                  "label": "Social"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Why 'pervasive'?",
+            "body": "In DSM-IV, four conditions made up the **pervasive developmental disorders**: **autism**, **Asperger's disorder**, **Rett's disorder** and **childhood disintegrative disorder**. They were seen as the most **devastating and perplexing** childhood disorders.\n\n'Pervasive' means problems spread across **language, attention, social responsiveness, perception and motor development**, so children often need **special educational settings**. DSM-5 later grouped most of these as **autism spectrum disorder**.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Many domains affected",
+                "Early development impaired",
+                "Special support needed"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Autism",
+            "body": "**Autism** was first identified as a distinct syndrome by American psychiatrist **Leo Kanner** in **1943**. Symptoms appear **before age 3**, often in infancy. Children are typically very **unresponsive** to others, **uncommunicative**, **repetitive** and **rigid**.\n\nAbout **80%** are **boys**. DSM-IV-era sources gave about **5 in 10,000**; with wider definitions, the WHO now estimates about **1 in 100** children are autistic.",
+            "visual": {
+              "type": "stat",
+              "value": "~80% boys",
+              "label": "Of children with autism"
+            }
+          },
+          {
+            "kind": "terms",
+            "heading": "Signs of autism",
+            "terms": [
+              {
+                "term": "Social aloofness",
+                "meaning": "Little interest in people; no cuddling, poor eye contact, may dislike affection"
+              },
+              {
+                "term": "Echolalia",
+                "meaning": "Repeating exactly what was just heard, immediately or later (delayed echolalia)"
+              },
+              {
+                "term": "Pronoun reversal",
+                "meaning": "Saying 'you' for 'I', for example 'You want juice'"
+              },
+              {
+                "term": "Echopraxia",
+                "meaning": "Copying other people's actions"
+              },
+              {
+                "term": "Rigidity",
+                "meaning": "Repetitive behaviour, limited pretend play, distress at changes in routine"
+              }
+            ]
+          },
+          {
+            "kind": "check",
+            "question": "A child who repeats the exact sentence he has just heard is showing:",
+            "options": [
+              "Echopraxia",
+              "Mutism",
+              "Pronoun reversal",
+              "Echolalia"
+            ],
+            "answerIndex": 3,
+            "why": "Echolalia is repeating speech; echopraxia is repeating actions."
+          },
+          {
+            "kind": "teach",
+            "heading": "Causes: from blame to biology",
+            "body": "Early psychodynamic and behavioural theorists, notably **Bettelheim (1967)**, blamed cold, distant '**refrigerator mothers**'. This idea has been **thoroughly rejected**: parenting style does not cause autism.\n\nResearch now points to **biological** and **cognitive** causes: strong **genetic** influence, more **seizures** than other children, and abnormal **neurotransmission** that disrupts communication between neurons. Vaccines have been extensively studied and do **not** cause autism.",
+            "visual": {
+              "type": "scale",
+              "left": "Biological causes",
+              "right": "Cold parenting",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "The 'refrigerator mother' theory of autism is now:",
+            "options": [
+              "Widely accepted",
+              "Rejected; autism has mainly biological causes",
+              "The main basis of treatment",
+              "Proven by brain scans"
+            ],
+            "answerIndex": 1,
+            "why": "Parenting style does not cause autism; genetic and neurological factors are central."
+          },
+          {
+            "kind": "teach",
+            "heading": "Outlook and treatment",
+            "body": "A significant proportion of autistic children also have **intellectual disability**. Older studies reported that up to **90%** remained severely disabled as adults; the highest-functioning adults still face difficulties with **social interaction, communication** and **restricted interests**.\n\nNo treatment reverses autism, but **behavioural therapy**, **communication training**, **parent training** and **community integration** help children adapt. **Medication** treats specific symptoms for limited periods, not the whole syndrome.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "repeat",
+                  "label": "Behavioural therapy"
+                },
+                {
+                  "icon": "chatbubbles",
+                  "label": "Communication"
+                },
+                {
+                  "icon": "home",
+                  "label": "Parent training"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Daniel's routine",
+            "story": "Three-year-old Daniel in Port Harcourt rarely looks at his mother, answers 'Do you want rice?' with 'You want rice', and screams if his cup is a different colour. Relatives blame his mother for being 'too busy'. A paediatric team explains this is autism, not bad parenting, and starts speech and behavioural therapy.",
+            "takeaway": "Autism shows in social, language and behavioural patterns, and is not caused by parenting style."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'briefly discuss autism as a pervasive developmental disorder'. Include Kanner (1943), onset before 3, the triad of social, communication and repetitive problems, sex ratio, causes and treatment. Mention the refrigerator-mother theory only to show it was rejected. Trap: confusing echolalia (words) with echopraxia (actions).",
+            "sampleQuestion": "Autism was first identified as a distinct syndrome by: (a) Bettelheim (1967) (b) Kanner (1943) (c) Asperger (1980) (d) Freud (1900)",
+            "howToAnswer": "Answer (b). In essays, note that Bettelheim's refrigerator-mother idea has been discredited and that causes are mainly biological.",
+            "scholars": [
+              "Kanner (1943)",
+              "Bettelheim (1967)",
+              "APA DSM-IV-TR (2000)",
+              "Phares (2003)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Developmental disorders affect cognitive, language, motor or social skills.",
+              "Pervasive disorders affect many domains, including social adjustment.",
+              "Autism: Kanner (1943), onset before 3, mostly boys.",
+              "Signs: aloofness, echolalia, pronoun reversal, rigidity.",
+              "Causes are biological, not cold parenting; therapy helps adaptation."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Autism was first identified as a distinct syndrome by:",
+          "options": [
+            "Sigmund Freud",
+            "Bruno Bettelheim",
+            "Leo Kanner",
+            "Alfred Binet"
+          ],
+          "answerIndex": 2,
+          "explanation": "Leo Kanner described autism in 1943."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Symptoms of autism usually appear before the age of:",
+          "options": [
+            "18 years",
+            "7 years",
+            "12 years",
+            "3 years"
+          ],
+          "answerIndex": 3,
+          "explanation": "Autistic symptoms appear early, before age three."
+        },
+        {
+          "difficulty": 1,
+          "stem": "About what proportion of children with autism are boys?",
+          "options": [
+            "20%",
+            "50%",
+            "80%",
+            "100%"
+          ],
+          "answerIndex": 2,
+          "explanation": "Around 80% are boys."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Echopraxia refers to:",
+          "options": [
+            "Repeating others' words",
+            "Reversing pronouns",
+            "Repeating others' actions",
+            "Avoiding eye contact"
+          ],
+          "answerIndex": 2,
+          "explanation": "Echopraxia copies actions; echolalia copies speech."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which of the following was a DSM-IV pervasive developmental disorder?",
+          "options": [
+            "Rett's disorder",
+            "Dyslexia",
+            "Separation anxiety disorder",
+            "Phobia"
+          ],
+          "answerIndex": 0,
+          "explanation": "Rett's disorder was one of the four pervasive developmental disorders."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Medication in autism is typically used to:",
+          "options": [
+            "Cure the whole syndrome",
+            "Prevent puberty",
+            "Replace all therapy",
+            "Treat specific symptoms for limited periods"
+          ],
+          "answerIndex": 3,
+          "explanation": "Drugs target particular symptoms rather than autism itself."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A four-year-old says 'You want biscuit' when he means he wants one. This is:",
+          "options": [
+            "Echolalia",
+            "Pronoun reversal",
+            "Echopraxia",
+            "Stuttering"
+          ],
+          "answerIndex": 1,
+          "explanation": "Using 'you' for 'I' is pronoun reversal, common in autism."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A toddler screams when his route to the market changes and spends hours spinning the same plate. These behaviours reflect autism's:",
+          "options": [
+            "Social aloofness",
+            "Rigidity and repetitive behaviour",
+            "Echolalia",
+            "Pronoun reversal"
+          ],
+          "answerIndex": 1,
+          "explanation": "Distress at change and repetitive actions show rigidity."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Relatives blame an autistic child's mother for being cold. Current evidence suggests this view is:",
+          "options": [
+            "Rejected; autism has mainly biological causes",
+            "Correct",
+            "Partly proven by brain scans",
+            "True only for girls"
+          ],
+          "answerIndex": 0,
+          "explanation": "The refrigerator-mother theory has been discredited."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which of these is NOT a recognised biological factor linked to autism?",
+          "options": [
+            "Genetic influence",
+            "Childhood vaccines",
+            "Abnormal neurotransmission",
+            "Higher rates of seizures"
+          ],
+          "answerIndex": 1,
+          "explanation": "Large studies show vaccines do not cause autism."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Pervasive developmental disorders differ from learning disorders mainly because they:",
+          "options": [
+            "Affect only reading",
+            "Are always mild",
+            "Involve marked problems in social adjustment across many domains",
+            "Only appear in adulthood"
+          ],
+          "answerIndex": 2,
+          "explanation": "Pervasive disorders affect social functioning as well as cognition."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are used in treating autism EXCEPT:",
+          "options": [
+            "Behavioural therapy",
+            "Blaming the parents",
+            "Parent training",
+            "Communication training"
+          ],
+          "answerIndex": 1,
+          "explanation": "Parent blame is not a treatment and rests on a discredited theory."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Autism was described by Kanner in 1943. II. Most autistic children are girls. III. No treatment fully reverses autism. Which are correct?",
+          "options": [
+            "I and II only",
+            "I, II and III",
+            "II and III only",
+            "I and III only"
+          ],
+          "answerIndex": 3,
+          "explanation": "I and III are correct. About 80% of autistic children are boys."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Why have prevalence estimates for autism risen from about 5 in 10,000 to about 1 in 100?",
+          "options": [
+            "Broader diagnostic definitions and better awareness and screening",
+            "Autism is contagious",
+            "Parents became colder",
+            "Fewer children are born"
+          ],
+          "answerIndex": 0,
+          "explanation": "Wider spectrum definitions and improved detection largely explain the rise."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which statement best describes the term 'pervasive'?",
+          "options": [
+            "Impairment spread across language, social, attention, perception and motor development",
+            "Problems limited to one skill",
+            "A temporary phase",
+            "A purely emotional disorder"
+          ],
+          "answerIndex": 0,
+          "explanation": "Pervasive disorders affect many areas of early development."
+        }
+      ]
+    },
+    {
+      "name": "Intellectual disability and its levels",
+      "lesson": {
+        "title": "Defining intellectual disability",
+        "minutes": 10,
+        "hook": "A 15-year-old has an IQ of 65 but runs his family's provision shop, gives correct change and greets every customer by name. Does he have an intellectual disability? The answer needs more than an IQ score.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Definition",
+            "body": "**Intellectual disability**, called **mental retardation** in older sources, means substantial limitations in present functioning (AAMR). It requires **significantly below-average intellectual functioning** (IQ about **70 or below**), **plus** limitations in **two or more adaptive skill areas**, beginning **before age 18**.\n\nToday the less stigmatising terms **developmental disability** and **intellectual disability** are preferred (Phares, 2003).",
+            "visual": {
+              "type": "venn",
+              "left": "Low IQ (≤70)",
+              "right": "Adaptive limits",
+              "both": "Diagnosis, before 18"
+            }
+          },
+          {
+            "kind": "terms",
+            "heading": "Adaptive skill areas",
+            "terms": [
+              {
+                "term": "Communication and social skills",
+                "meaning": "Talking, understanding and relating to others"
+              },
+              {
+                "term": "Self-care and home living",
+                "meaning": "Dressing, washing, cooking, managing a home"
+              },
+              {
+                "term": "Community use and self-direction",
+                "meaning": "Using transport, shops and services; making choices"
+              },
+              {
+                "term": "Health and safety",
+                "meaning": "Recognising danger, looking after health"
+              },
+              {
+                "term": "Functional academics, leisure and work",
+                "meaning": "Practical reading and maths, free time and employment"
+              }
+            ]
+          },
+          {
+            "kind": "check",
+            "question": "A diagnosis of intellectual disability requires low intellectual functioning plus:",
+            "options": [
+              "A diagnosis of autism",
+              "Limitations in at least two adaptive skill areas, starting before 18",
+              "A physical disability",
+              "Onset after 21"
+            ],
+            "answerIndex": 1,
+            "why": "IQ alone is not enough; adaptive limitations beginning before 18 are required."
+          },
+          {
+            "kind": "teach",
+            "heading": "Prevalence and controversy",
+            "body": "About **1%** of people receive this diagnosis (APA, 2000), around **three-fifths** of them **male**, and the vast majority are **mildly** affected.\n\nIt is **controversial** and **difficult to diagnose**, partly because of **stereotypes**, and mainly because it rests on **intelligence**, which is hard to define (Gould, 1981; Kamin, 1974). It often occurs alongside **autism**.",
+            "visual": {
+              "type": "stat",
+              "value": "~1%",
+              "label": "Of people diagnosed"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Characteristics",
+            "body": "The most consistent sign is **learning very slowly**. Other common difficulties involve **attention**, **short-term memory**, **planning** and **language**.\n\nThese limitations tend to be more marked in people who have lived in **institutions**, which offer fewer learning opportunities.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "time",
+                  "label": "Slow learning"
+                },
+                {
+                  "icon": "eye",
+                  "label": "Attention"
+                },
+                {
+                  "icon": "layers",
+                  "label": "Memory, planning"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "steps",
+            "heading": "Four levels (DSM-IV)",
+            "steps": [
+              {
+                "title": "Mild (IQ 50 to 70)",
+                "detail": "About 85%; 'educable'; can benefit from school and support themselves, with help under stress."
+              },
+              {
+                "title": "Moderate (IQ 35 to 49)",
+                "detail": "About 10%; can learn self-care and do supervised unskilled or semi-skilled work."
+              },
+              {
+                "title": "Severe (IQ 20 to 34)",
+                "detail": "Poor motor development and little speech before 5; may learn basic hygiene and simple supervised tasks."
+              },
+              {
+                "title": "Profound (below 20)",
+                "detail": "Severe limits in adaptive and motor skills; often physical problems; need constant care."
+              }
+            ]
+          },
+          {
+            "kind": "teach",
+            "heading": "Mild intellectual disability",
+            "body": "**Mild** cases are usually not recognised until a child **starts school** and is assessed. Performance often **improves with age**, and some people shed the label after school, working in **skilled or semi-skilled** jobs.\n\nMild cases are linked mainly to **socio-cultural and psychological** causes: **poor, unstimulating environments**, weak **parent-child interaction**, and **few early learning experiences**. Biological factors, such as a mother's **drinking, drug use** or **malnutrition** in pregnancy, also play a part.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Poor stimulation",
+                "Few learning chances",
+                "Mild disability"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Mild intellectual disability is usually first recognised:",
+            "options": [
+              "At birth",
+              "In old age",
+              "When the child starts school and is assessed",
+              "Only after adolescence"
+            ],
+            "answerIndex": 2,
+            "why": "Mild cases often go unnoticed until school demands reveal slow learning."
+          },
+          {
+            "kind": "example",
+            "heading": "Bisi's progress",
+            "story": "Bisi struggled in primary school and was assessed with mild intellectual disability. With patient teaching, practical maths and vocational training, she learned tailoring. At 25 she runs a small sewing business, though she calls her aunt when a big order stresses her. Her community simply knows her as a good tailor.",
+            "takeaway": "People with mild intellectual disability can benefit from schooling and support themselves, with help under stress."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect matching: a description to mild, moderate, severe or profound. Learn the IQ ranges and percentages (85% mild, 10% moderate). Definitions must include both low IQ and adaptive limits, with onset before 18. Trap: diagnosing from IQ alone. Use 'intellectual disability' in your own writing while recognising the older term.",
+            "sampleQuestion": "About 85% of people with intellectual disability fall into which level? (a) mild (b) moderate (c) severe (d) profound",
+            "howToAnswer": "Answer (a), IQ 50 to 70. Describe what they can achieve: schooling and self-support, with help under stress.",
+            "scholars": [
+              "AAMR",
+              "APA (2000)",
+              "Gould (1981)",
+              "Phares (2003)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Intellectual disability: IQ about 70 or below plus adaptive limits, before 18.",
+              "About 1% are diagnosed, around three-fifths male, mostly mild.",
+              "Hard to diagnose because intelligence is hard to define.",
+              "Levels: mild (85%), moderate (10%), severe, profound.",
+              "Mild cases link mainly to poor environments, plus some prenatal factors."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The most consistent sign of intellectual disability is:",
+          "options": [
+            "Excess energy",
+            "Echolalia",
+            "Fear of school",
+            "Learning very slowly"
+          ],
+          "answerIndex": 3,
+          "explanation": "Slow learning is the most consistent feature."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Intellectual disability must appear before the age of:",
+          "options": [
+            "5",
+            "10",
+            "30",
+            "18"
+          ],
+          "answerIndex": 3,
+          "explanation": "Onset must be before 18."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Roughly what percentage of the population receives a diagnosis of intellectual disability?",
+          "options": [
+            "0.01%",
+            "10%",
+            "1%",
+            "25%"
+          ],
+          "answerIndex": 2,
+          "explanation": "About 1 in 100 people are diagnosed."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The IQ range for mild intellectual disability is about:",
+          "options": [
+            "Below 20",
+            "50 to 70",
+            "35 to 49",
+            "20 to 34"
+          ],
+          "answerIndex": 1,
+          "explanation": "Mild is IQ 50 to 70."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Why is intellectual disability considered controversial and hard to diagnose?",
+          "options": [
+            "It is very rare",
+            "It only affects adults",
+            "It rests on intelligence, which is hard to define, and stereotypes interfere",
+            "It has no symptoms"
+          ],
+          "answerIndex": 2,
+          "explanation": "Defining intelligence and overcoming stereotypes are core difficulties."
+        },
+        {
+          "difficulty": 2,
+          "stem": "People with moderate intellectual disability make up about what share of all cases?",
+          "options": [
+            "85%",
+            "10%",
+            "3%",
+            "1%"
+          ],
+          "answerIndex": 1,
+          "explanation": "About 10% function at the moderate level."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A child with an IQ of 62 manages self-care, friendships and school tasks well. Should intellectual disability be diagnosed?",
+          "options": [
+            "Yes, IQ is enough",
+            "No, adaptive limitations in two or more areas are also required",
+            "Yes, because IQ is below 70",
+            "Only if a parent requests it"
+          ],
+          "answerIndex": 1,
+          "explanation": "Diagnosis needs both low IQ and adaptive limitations."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A young adult with IQ 45 does supervised packaging work and cares for himself. His level is most likely:",
+          "options": [
+            "Severe",
+            "Mild",
+            "Moderate",
+            "Profound"
+          ],
+          "answerIndex": 2,
+          "explanation": "IQ 35 to 49 with self-care and supervised work fits moderate."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A five-year-old has almost no speech and poor motor development, and later learns basic hygiene at a special school. This fits:",
+          "options": [
+            "Severe",
+            "Moderate",
+            "Mild",
+            "Profound"
+          ],
+          "answerIndex": 0,
+          "explanation": "Little speech and poor motor skills before 5, with basic hygiene learned later, describe severe disability."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Mild intellectual disability is linked mainly to:",
+          "options": [
+            "Socio-cultural and psychological factors such as poor, unstimulating environments",
+            "Chromosomal disorders only",
+            "Head injuries only",
+            "Autism"
+          ],
+          "answerIndex": 0,
+          "explanation": "Mild cases are associated mainly with environmental deprivation, plus some biological factors."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement about mild intellectual disability is correct?",
+          "options": [
+            "It never improves",
+            "It is usually recognised at birth",
+            "It is often not recognised until school, and performance may improve with age",
+            "It requires lifelong custodial care"
+          ],
+          "answerIndex": 2,
+          "explanation": "Mild cases emerge in school and often improve."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are adaptive skill areas EXCEPT:",
+          "options": [
+            "Eye colour",
+            "Communication",
+            "Health and safety",
+            "Self-care"
+          ],
+          "answerIndex": 0,
+          "explanation": "Eye colour is not an adaptive skill."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. About 85% of cases are mild. II. Diagnosis can rest on IQ alone. III. Around three-fifths of those diagnosed are male. Which are correct?",
+          "options": [
+            "I and III only",
+            "I, II and III",
+            "II and III only",
+            "I and II only"
+          ],
+          "answerIndex": 0,
+          "explanation": "I and III are correct. Adaptive limitations are also required."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Why are limitations often more marked in people who lived in institutions?",
+          "options": [
+            "Institutions cause genetic change",
+            "Institutional settings often offer fewer learning and social opportunities",
+            "Institutions only admit profound cases",
+            "They are always well staffed"
+          ],
+          "answerIndex": 1,
+          "explanation": "Limited stimulation in institutions can worsen attention, memory and language difficulties."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Why have terms like 'intellectual disability' replaced 'mental retardation'?",
+          "options": [
+            "It is now a physical illness",
+            "The condition disappeared",
+            "IQ tests changed",
+            "The older term became stigmatising"
+          ],
+          "answerIndex": 3,
+          "explanation": "Less stigmatising language is preferred in clinical and educational settings."
+        }
+      ]
+    },
+    {
+      "name": "Causes and support",
+      "lesson": {
+        "title": "Genes, pregnancy and environment",
+        "minutes": 10,
+        "hook": "One child has an extra chromosome from the moment of conception. Another was born healthy but went months without enough food. Both may develop intellectual disability. Why is it called a symptom, not a disease?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "A symptom with many causes",
+            "body": "Intellectual disability is a **symptom**, not one disease, with **many causes**: **chromosomal disorders**, **prenatal** exposure to drugs or **infections**, complications at **birth**, **brain trauma** after birth, **metabolic or nutritional** problems, **brain disease**, and **psychosocial disadvantage** such as deprivation, abuse and neglect.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "git-network",
+                  "label": "Genetic"
+                },
+                {
+                  "icon": "medkit",
+                  "label": "Prenatal and birth"
+                },
+                {
+                  "icon": "warning",
+                  "label": "Injury"
+                },
+                {
+                  "icon": "home",
+                  "label": "Deprivation"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Down syndrome",
+            "body": "**Down syndrome**, or **trisomy 21**, is a chromosomal disorder. Cells have **47 chromosomes** instead of 46, because of an **extra chromosome 21**. The most common form is **not inherited**: it arises at **conception**, and its likelihood rises with the mother's **age**.\n\nChildren typically have a recognisable facial appearance, including upward-slanting eyes, and often **heart malformations**.",
+            "visual": {
+              "type": "stat",
+              "value": "47",
+              "label": "Chromosomes (extra 21)"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Fragile X and PKU",
+            "body": "**Fragile X syndrome** is a single-gene condition: a gene near the tip of the **X chromosome** (FMR1) is altered, making that site appear '**fragile**'. It can cause intellectual disability, **autistic-like** behaviour and speech problems. Affected males often have **large ears** and a **long face**.\n\n**Phenylketonuria (PKU)** is a **metabolic** disorder in which the body cannot break down phenylalanine. Caught early by newborn screening, a **special diet** prevents disability.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Gene or chromosome change",
+                "Brain development affected",
+                "Intellectual disability"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Down syndrome is caused by:",
+            "options": [
+              "A missing X chromosome",
+              "A single gene on the X chromosome",
+              "An extra chromosome 21",
+              "Poor nutrition after birth"
+            ],
+            "answerIndex": 2,
+            "why": "Trisomy 21 means an extra copy of chromosome 21, giving 47 chromosomes."
+          },
+          {
+            "kind": "teach",
+            "heading": "Detecting chromosomal problems",
+            "body": "Chromosomal problems can be detected before birth through **amniocentesis**, usually done in the second trimester (your notes say after the thirteenth week). A small amount of **amniotic fluid** around the fetus is drawn off and examined for **abnormal chromosomes**.\n\nThis allows families and doctors to prepare for the child's needs.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Amniotic fluid sample",
+                "Chromosome analysis",
+                "Early preparation"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Environment before and after birth",
+            "body": "The **prenatal environment** matters greatly. A mother's **high blood pressure**, **diabetes**, **infections**, **drugs or alcohol** can interfere with fetal brain development.\n\nAfter birth, **low birth weight**, **prematurity**, **accidental falls**, **physical abuse** and early **malnutrition** can damage the brain. Malnutrition's effects can be partly reversed if the child's **diet improves early** (Baroff & Olley, 1999).",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Prenatal risks",
+                "Birth risks",
+                "Early childhood risks"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Which of these is a prenatal risk for intellectual disability?",
+            "options": [
+              "The mother drinking alcohol during pregnancy",
+              "The child learning a second language",
+              "A child playing football",
+              "Late bedtimes at age ten"
+            ],
+            "answerIndex": 0,
+            "why": "Alcohol and drugs in pregnancy can harm fetal brain development."
+          },
+          {
+            "kind": "example",
+            "heading": "Early help in Ibadan",
+            "story": "Tolu was born with Down syndrome. Her parents enrolled her at 18 months in an early-intervention programme offering speech therapy, play-based learning and parent coaching. By school age she could talk in sentences, dress herself and make friends, and she now attends an inclusive school with support.",
+            "takeaway": "Early intervention, education and social-skills support help children with intellectual disability develop their potential."
+          },
+          {
+            "kind": "teach",
+            "heading": "How care has changed",
+            "body": "In the past, many children with intellectual disability were placed in **institutions**. Today, especially in Western countries, they are increasingly educated in **community** and **regional** programmes that prepare them for **independent living**.\n\n**Early intervention** offers specialised teaching for infants, toddlers and preschoolers. Help with **social skills** enables easier interaction at school and in the community.",
+            "visual": {
+              "type": "scale",
+              "left": "Community and early help",
+              "right": "Institutions",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'list some causes of intellectual disability' and short notes on Down syndrome and fragile X. Know 47 chromosomes and trisomy 21, that most Down syndrome is not inherited, and what amniocentesis involves. Trap: saying intellectual disability is a single disease; it is a symptom with many causes.",
+            "sampleQuestion": "List five causes of intellectual disability.",
+            "howToAnswer": "Chromosomal disorders (Down syndrome), single-gene defects (fragile X), prenatal exposure to drugs or infections, birth complications, brain trauma, metabolic or nutritional problems (PKU, malnutrition), and psychosocial deprivation or abuse.",
+            "scholars": [
+              "Baroff & Olley (1999)",
+              "APA (2000)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Intellectual disability is a symptom with many causes.",
+              "Down syndrome: extra chromosome 21, usually not inherited.",
+              "Fragile X: X-chromosome gene change; PKU: metabolic, preventable by diet.",
+              "Amniocentesis detects chromosomal problems before birth.",
+              "Prenatal and early-life environment matters; early intervention helps."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Down syndrome is also known as:",
+          "options": [
+            "Fragile X",
+            "PKU",
+            "Trisomy 21",
+            "Rett's disorder"
+          ],
+          "answerIndex": 2,
+          "explanation": "Down syndrome is trisomy 21."
+        },
+        {
+          "difficulty": 1,
+          "stem": "People with Down syndrome usually have how many chromosomes?",
+          "options": [
+            "47",
+            "46",
+            "45",
+            "48"
+          ],
+          "answerIndex": 0,
+          "explanation": "An extra chromosome 21 gives 47."
+        },
+        {
+          "difficulty": 1,
+          "stem": "A test that examines amniotic fluid for chromosome problems is:",
+          "options": [
+            "MRI",
+            "EEG",
+            "Amniocentesis",
+            "IQ test"
+          ],
+          "answerIndex": 2,
+          "explanation": "Amniocentesis samples amniotic fluid to check chromosomes."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The most common form of Down syndrome is:",
+          "options": [
+            "Inherited from a parent",
+            "Caused by malnutrition",
+            "Not inherited; it arises at conception",
+            "Caused by head injury"
+          ],
+          "answerIndex": 2,
+          "explanation": "It typically arises at conception rather than being inherited."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Fragile X syndrome involves a change on the:",
+          "options": [
+            "X chromosome",
+            "Y chromosome",
+            "Chromosome 21",
+            "Chromosome 1"
+          ],
+          "answerIndex": 0,
+          "explanation": "A gene near the tip of the X chromosome is affected."
+        },
+        {
+          "difficulty": 2,
+          "stem": "PKU is best described as a:",
+          "options": [
+            "Chromosomal disorder",
+            "Metabolic disorder",
+            "Viral infection",
+            "Learning disorder"
+          ],
+          "answerIndex": 1,
+          "explanation": "PKU is an inherited metabolic disorder."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A boy with intellectual disability, speech problems, autistic-like behaviour, large ears and a long face most likely has:",
+          "options": [
+            "Fragile X syndrome",
+            "Down syndrome",
+            "PKU",
+            "Rett's disorder"
+          ],
+          "answerIndex": 0,
+          "explanation": "These features are typical of fragile X in males."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A newborn screened positive for PKU is placed on a special diet and develops normally. This shows that:",
+          "options": [
+            "PKU is untreatable",
+            "PKU is caused by stress",
+            "Some causes of intellectual disability can be prevented with early action",
+            "Diet has no effect"
+          ],
+          "answerIndex": 2,
+          "explanation": "Early detection and diet prevent PKU-related disability."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A child severely malnourished in his first two years shows slowed development, which partly recovers after his diet improves. This illustrates that:",
+          "options": [
+            "Malnutrition has no effect",
+            "Early malnutrition effects can be partly reversed if diet improves in time",
+            "The damage is always permanent",
+            "Only genes matter"
+          ],
+          "answerIndex": 1,
+          "explanation": "Baroff and Olley note partial reversal with timely dietary improvement."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are prenatal risks for intellectual disability EXCEPT:",
+          "options": [
+            "Maternal diabetes",
+            "Maternal infections",
+            "Maternal alcohol use",
+            "The child's adolescent diet"
+          ],
+          "answerIndex": 3,
+          "explanation": "Adolescent diet is not a prenatal factor."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Why is intellectual disability described as a symptom rather than a disease?",
+          "options": [
+            "It has no cause",
+            "It results from many different causes",
+            "It is always genetic",
+            "It always disappears"
+          ],
+          "answerIndex": 1,
+          "explanation": "Many different conditions can produce it."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Down syndrome: single gene on X",
+            "Fragile X: extra chromosome 21",
+            "Amniocentesis: IQ test",
+            "PKU: metabolic disorder"
+          ],
+          "answerIndex": 3,
+          "explanation": "PKU is metabolic; Down syndrome is trisomy 21; fragile X is an X-linked gene change."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. The likelihood of Down syndrome rises with maternal age. II. Down syndrome often involves heart malformations. III. Fragile X is caused by an extra chromosome 21. Which are correct?",
+          "options": [
+            "I, II and III",
+            "I and III only",
+            "II and III only",
+            "I and II only"
+          ],
+          "answerIndex": 3,
+          "explanation": "I and II are correct. Fragile X is an X-chromosome gene change."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which change best reflects modern approaches to children with intellectual disability?",
+          "options": [
+            "More institutional placement",
+            "Early intervention and community-based education preparing for independent living",
+            "No education",
+            "Isolation from peers"
+          ],
+          "answerIndex": 1,
+          "explanation": "Care has shifted from institutions to early intervention and community education."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A child develops intellectual disability after repeated physical abuse causing head injuries. This cause is best classed as:",
+          "options": [
+            "Post-natal brain trauma",
+            "Metabolic",
+            "Chromosomal",
+            "Prenatal infection"
+          ],
+          "answerIndex": 0,
+          "explanation": "Brain injury after birth from abuse is post-natal trauma."
+        }
+      ]
+    },
+    {
+      "name": "Related disorders and learning disorders",
+      "lesson": {
+        "title": "Rett, Asperger's and dyslexia",
+        "minutes": 10,
+        "hook": "A girl develops normally for a year, then gradually loses her speech and starts wringing her hands constantly. A brilliant boy can name every bus route in Lagos but cannot hold a conversation. A bright pupil reads 'was' as 'saw'. Three very different developmental puzzles.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Rett's disorder",
+            "body": "**Rett's disorder** differs from autism in its course. Onset is usually between **5 and 48 months**, after **normal early development**. It is rare, about **1 in 10,000**, and occurs **only in girls**.\n\nHead growth **slows**, motor and communication skills **decline**, the child **withdraws socially**, and characteristic **repetitive hand-wringing** movements appear. Most also have intellectual disability. It is **progressive** and caused by **mutations in a gene on the X chromosome**.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Normal start",
+                "Skills decline",
+                "Hand-wringing",
+                "Progressive"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Childhood disintegrative disorder",
+            "body": "In **childhood disintegrative disorder**, development is **normal until at least age two**. After that, skills already gained start to **slip away** in two or more of these areas: **speech**, **social behaviour** and **movement**. Symptoms resemble autism.\n\nIt is more common in **males**. The cause is unknown, probably an abnormality in early nervous-system development. Treatment mirrors autism: **intensive behaviour therapy**, **education** and sometimes **medication**.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Normal to age 2+",
+              "right": "Skills lost",
+              "marker": 70,
+              "label": "Regression"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Asperger's disorder",
+            "body": "Of these conditions, this one shows up **last**: it is often missed until preschool or later. Deficits are **less severe** than in autism, without major language delay. The main problem is **impaired social interaction**, with **repetitive behaviour** and **narrow interests**.\n\nPeople may avoid eye contact, show little facial expression, and have few friends. It is more common in **males**, and some are **unusually gifted** in particular areas. DSM-5 now includes it within **autism spectrum disorder**.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "people",
+                  "label": "Social difficulty"
+                },
+                {
+                  "icon": "repeat",
+                  "label": "Narrow interests"
+                },
+                {
+                  "icon": "bulb",
+                  "label": "Some gifts"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Which developmental disorder occurs only in girls and involves repetitive hand-wringing?",
+            "options": [
+              "Asperger's disorder",
+              "Childhood disintegrative disorder",
+              "Rett's disorder",
+              "Dyslexia"
+            ],
+            "answerIndex": 2,
+            "why": "Rett's disorder affects girls, with decline after normal early development and hand-wringing movements."
+          },
+          {
+            "kind": "example",
+            "heading": "The reliable packer",
+            "story": "Samuel, diagnosed with Asperger's at ten, finished secondary school with a tutor's help and has packed groceries at a supermarket for over ten years. He is the store's most reliable worker. He greets every customer with the same phrase in the same high tone, looks just past them, and packs bags with exact precision.",
+            "takeaway": "Asperger's can involve striking social oddities alongside reliability and real strengths."
+          },
+          {
+            "kind": "teach",
+            "heading": "Learning disorders",
+            "body": "**Learning disorders** are **more common** than intellectual disability. They involve **delays in specific cognitive skills**, mainly **language and maths**, not in all mental functioning, and without the severe social problems of pervasive disorders.\n\nSome lagging is normal. A **significant** problem exists when a child is well below the level expected for their **schooling, age and IQ**, typically **more than two years behind**.",
+            "visual": {
+              "type": "scale",
+              "left": "Expected level",
+              "right": "Actual level",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "steps",
+            "heading": "Three main learning disorders",
+            "steps": [
+              {
+                "title": "Reading disorder (dyslexia)",
+                "detail": "The most common learning disorder; difficulty reading accurately and fluently."
+              },
+              {
+                "title": "Mathematics disorder",
+                "detail": "Difficulty with number sense, calculation and maths reasoning."
+              },
+              {
+                "title": "Disorder of written expression",
+                "detail": "Difficulty with spelling, grammar and organising written work."
+              }
+            ]
+          },
+          {
+            "kind": "teach",
+            "heading": "Dyslexia: causes and help",
+            "body": "**Dyslexia** is the most common learning disorder (your notes give about **2%** of school-age children; many estimates are higher). Poor readers are often **late talkers**, **poor spellers**, and have **family histories** of reading difficulty. By age ten, severe reading problems raise the risk of **behaviour problems**.\n\nTheories point to **delayed brain development** or **structural brain differences**. Combining **reading-skills training** with **behavioural** methods that keep the child motivated works for many.",
+            "visual": {
+              "type": "brain",
+              "region": "temporal-lobe",
+              "label": "Language areas"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "The three main types of learning disorder are:",
+            "options": [
+              "Reading disorder, mathematics disorder and disorder of written expression",
+              "Autism, Rett's and Asperger's",
+              "Mild, moderate and severe",
+              "Phobia, depression and anxiety"
+            ],
+            "answerIndex": 0,
+            "why": "Learning disorders affect reading, maths and written expression."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'mention the three main types of learning disorders' and short notes on Rett's, childhood disintegrative and Asperger's disorders. Key distinctions: Rett's only girls; CDD normal until at least 2 then regression; Asperger's latest onset, milder. Trap: thinking learning disorders mean low overall intelligence; they are specific delays.",
+            "sampleQuestion": "Which developmental disorder has the latest onset and the least severe deficits? (a) autism (b) Rett's disorder (c) Asperger's disorder (d) childhood disintegrative disorder",
+            "howToAnswer": "Answer (c). Describe its social impairment, narrow interests and occasional special gifts, and note DSM-5 now places it within the autism spectrum.",
+            "scholars": [
+              "APA DSM-IV-TR (2000)",
+              "Phares (2003)",
+              "Comer (2004)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Rett's: girls only, decline after normal start, hand-wringing, X-linked gene.",
+              "Childhood disintegrative disorder: normal to 2+, then loss of skills.",
+              "Asperger's: latest onset, milder, social impairment, narrow interests.",
+              "Learning disorders: specific delays, often more than two years behind.",
+              "Reading, maths and written expression; dyslexia is most common."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Rett's disorder occurs only in:",
+          "options": [
+            "Boys",
+            "Girls",
+            "Adults",
+            "Twins"
+          ],
+          "answerIndex": 1,
+          "explanation": "Rett's disorder affects girls."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Reading disorder is also called:",
+          "options": [
+            "Aphasia",
+            "Dyscalculia",
+            "Echolalia",
+            "Dyslexia"
+          ],
+          "answerIndex": 3,
+          "explanation": "Dyslexia is reading disorder."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which developmental disorder has the latest onset?",
+          "options": [
+            "Autism",
+            "Rett's disorder",
+            "Childhood disintegrative disorder",
+            "Asperger's disorder"
+          ],
+          "answerIndex": 3,
+          "explanation": "Asperger's is often not detected until preschool or later."
+        },
+        {
+          "difficulty": 2,
+          "stem": "In childhood disintegrative disorder, development is normal until at least age:",
+          "options": [
+            "6 months",
+            "2 years",
+            "10 years",
+            "15 years"
+          ],
+          "answerIndex": 1,
+          "explanation": "Normal development lasts at least until two, then skills are lost."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Learning disorders differ from intellectual disability because they involve:",
+          "options": [
+            "Delays in specific cognitive skills",
+            "Delays in all areas of functioning",
+            "Severe social problems",
+            "Physical deformities"
+          ],
+          "answerIndex": 0,
+          "explanation": "Learning disorders are specific, not global, delays."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Rett's disorder is caused by:",
+          "options": [
+            "Cold parenting",
+            "An extra chromosome 21",
+            "Mutations in a gene on the X chromosome",
+            "Malnutrition"
+          ],
+          "answerIndex": 2,
+          "explanation": "Rett's is linked to an X-chromosome gene mutation."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A 7-year-old with good vocabulary avoids eye contact, speaks in a flat voice about train timetables, and has no friends. The most likely diagnosis under DSM-IV is:",
+          "options": [
+            "Asperger's disorder",
+            "Rett's disorder",
+            "Dyslexia",
+            "Childhood disintegrative disorder"
+          ],
+          "answerIndex": 0,
+          "explanation": "Social impairment with narrow interests and no language delay fits Asperger's."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A girl develops normally for 18 months, then her head growth slows, she loses words and begins constant hand-wringing. This suggests:",
+          "options": [
+            "Asperger's disorder",
+            "Rett's disorder",
+            "Down syndrome",
+            "School phobia"
+          ],
+          "answerIndex": 1,
+          "explanation": "Decline after normal development with hand-wringing in a girl points to Rett's."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A JSS2 pupil of average intelligence reads at a primary 3 level and spells poorly, as did his father. This most likely indicates:",
+          "options": [
+            "Dyslexia",
+            "Intellectual disability",
+            "Autism",
+            "Mania"
+          ],
+          "answerIndex": 0,
+          "explanation": "A specific reading delay over two years, with family history, fits dyslexia."
+        },
+        {
+          "difficulty": 4,
+          "stem": "A significant learning disorder is usually said to exist when a child is behind age level by more than:",
+          "options": [
+            "Two weeks",
+            "Six months",
+            "Five years",
+            "Two years"
+          ],
+          "answerIndex": 3,
+          "explanation": "More than two years behind signals a significant problem."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are features of Asperger's disorder EXCEPT:",
+          "options": [
+            "Impaired social interaction",
+            "Severe, early language delay",
+            "Repetitive behaviour",
+            "Narrow interests"
+          ],
+          "answerIndex": 1,
+          "explanation": "Asperger's does not involve major language delay."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Childhood disintegrative disorder: more common in males",
+            "Rett's: mostly boys",
+            "Asperger's: only girls",
+            "Dyslexia: the rarest learning disorder"
+          ],
+          "answerIndex": 0,
+          "explanation": "CDD is more common in males. Rett's affects girls; dyslexia is the most common learning disorder."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Learning disorders are more common than intellectual disability. II. Children with learning disorders have the severe social problems of autism. III. Severe reading difficulty at ten raises the risk of behaviour problems. Which are correct?",
+          "options": [
+            "I and II only",
+            "II and III only",
+            "I and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 2,
+          "explanation": "I and III are correct. Learning disorders do not involve autism's severe social problems."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which treatment combination has proven effective for many children with dyslexia?",
+          "options": [
+            "Medication alone",
+            "Institutional care",
+            "Reading-skills training plus behavioural methods to maintain motivation",
+            "Ignoring the problem"
+          ],
+          "answerIndex": 2,
+          "explanation": "Skill training combined with motivation-focused behaviour therapy helps many."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Why does DSM-5 group autism, Asperger's and childhood disintegrative disorder together?",
+          "options": [
+            "They have identical symptoms",
+            "They are all caused by Down syndrome",
+            "They share core social-communication difficulties and repetitive behaviour, varying in severity",
+            "They only affect girls"
+          ],
+          "answerIndex": 2,
+          "explanation": "They are seen as points on one autism spectrum."
+        }
+      ]
+    }
+  ]
+}

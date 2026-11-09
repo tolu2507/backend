@@ -1,0 +1,1028 @@
+{
+  "unit": 12,
+  "title": "Democratic Peace Theory",
+  "summary": "Why democracies rarely fight each other: Kant's roots, Doyle's three reasons, monadic and dyadic versions, structural and normative explanations, and the theory's uses and critics.",
+  "sections": [
+    {
+      "name": "Roots: Kant, Wilson and Doyle",
+      "lesson": {
+        "title": "Why democracies keep the peace",
+        "minutes": 10,
+        "hook": "Ghana and Nigeria have argued over trade, migrants and football, yet since both became stable democracies, war between them has never been seriously discussed. Coincidence, or something about democracy itself?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "The central claim",
+            "body": "**Democratic peace theory** holds that countries with **liberal democratic** governments **seldom fight each other**, far less often than other kinds of states do.\n\nIt belongs to the **liberal** tradition and sits beside two other liberal claims: that peace is promoted by **economic interdependence** and by **international institutions**. Its focus is **peace-building** rather than war.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "flag",
+                  "label": "Democracy"
+                },
+                {
+                  "icon": "cash",
+                  "label": "Interdependence"
+                },
+                {
+                  "icon": "globe",
+                  "label": "Institutions"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Kant's Perpetual Peace",
+            "body": "The theory draws on **Immanuel Kant's** essay *Perpetual Peace* (1795). Kant argued that **constitutional republics** are slow to go to war because war requires the **consent of the people**, who must do the fighting and pay the costs.\n\nKings and queens could declare war on a whim. Governments chosen by the people think harder. Kant hoped that if **all nations were republics**, war could end.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "People must consent",
+                "People bear the cost",
+                "War becomes rare"
+              ]
+            }
+          },
+          {
+            "kind": "steps",
+            "heading": "Kant's three pillars of peace",
+            "steps": [
+              {
+                "title": "Democracy",
+                "detail": "Republican, law-based government that restrains rulers from war."
+              },
+              {
+                "title": "Interdependence",
+                "detail": "Economic ties that make war costly."
+              },
+              {
+                "title": "International law and organisation",
+                "detail": "Shared rules and bodies that keep the peace."
+              }
+            ]
+          },
+          {
+            "kind": "teach",
+            "heading": "Wilson and the twentieth century",
+            "body": "In 1917, US President **Woodrow Wilson** told Congress the world must be '**made safe for democracy**'. He linked democracy with peace and pushed for the League of Nations.\n\nKant's 'republic' is now usually read as **democracy**: free and fair **elections**, government under **law**, and protected **personal rights**. Such states, the theory says, prefer **peaceful dispute settlement** to aggression.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Kant (1795)",
+                "Wilson (1917)",
+                "Doyle (1983)"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Kant argued republics are less likely to go to war mainly because:",
+            "options": [
+              "War needs the consent of the people who would fight it",
+              "They have smaller armies",
+              "They are always richer",
+              "Kings forbid it"
+            ],
+            "answerIndex": 0,
+            "why": "In a republic, the people who bear the costs of war must agree to it, which restrains leaders."
+          },
+          {
+            "kind": "teach",
+            "heading": "What the theory does NOT claim",
+            "body": "The theory does **not** say democracies **never** go to war, or that they are **more peaceful in general** than other states. Democracies have fought non-democracies many times.\n\nIts claim is narrower: democracies **rarely fight each other**. Many IR scholars accept this as one of the strongest patterns in world politics."
+          },
+          {
+            "kind": "steps",
+            "heading": "Doyle's three reasons",
+            "steps": [
+              {
+                "title": "Peaceful political culture",
+                "detail": "Democracies settle conflicts peacefully at home, and citizens who control government will not back war with another democracy."
+              },
+              {
+                "title": "Shared moral values",
+                "detail": "Common values create a 'pacific union' or zone of peace; free expression builds understanding across borders."
+              },
+              {
+                "title": "Economic interdependence",
+                "detail": "Trade and cooperation tie the economies in the zone of peace together."
+              }
+            ]
+          },
+          {
+            "kind": "check",
+            "question": "Doyle's term for the zone of peace formed by democracies' shared values is the:",
+            "options": [
+              "Security dilemma",
+              "Pacific union",
+              "Balance of power",
+              "Hobbesian culture"
+            ],
+            "answerIndex": 1,
+            "why": "Doyle described a 'pacific union' of liberal states bound by shared moral foundations."
+          },
+          {
+            "kind": "example",
+            "heading": "The Monroe Doctrine",
+            "story": "In 1823 the United States declared, in the Monroe Doctrine, that it would not accept new attempts by European monarchies to colonise nations in the Americas. Some course notes cite this as an early official step towards linking democracy with protection and peace. (Note: the correct year is 1823, not 1832.)",
+            "takeaway": "Democratic peace ideas have long shaped real foreign policy, not just academic debate."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Objectives love the trap 'democracies are more peaceful than non-democracies'. False: the theory is about democracies versus democracies. Also learn Kant's three pillars, Wilson's 1917 phrase, and Doyle's three reasons. If asked the Monroe Doctrine year, the historical date is 1823; mention that your course notes say 1832 if needed.",
+            "sampleQuestion": "According to Michael Doyle, which of the following is NOT a reason democracies do not fight each other? (a) peaceful domestic political culture (b) shared moral values (c) economic interdependence (d) larger military budgets",
+            "howToAnswer": "Answer (d). Doyle's three reasons are peaceful political culture, shared values forming a pacific union, and economic interdependence.",
+            "scholars": [
+              "Kant (1795)",
+              "Wilson (1917)",
+              "Doyle (1983)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Democracies rarely fight each other; that is the core claim.",
+              "Kant (1795): republics need popular consent for war.",
+              "Kant's pillars: democracy, interdependence, international law and organisation.",
+              "The theory does not say democracies are more peaceful in general.",
+              "Doyle: peaceful culture, shared values (pacific union), interdependence."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Democratic peace theory holds that:",
+          "options": [
+            "Democracies rarely go to war with each other",
+            "Democracies never go to war",
+            "Dictatorships are more peaceful",
+            "All states are equally warlike"
+          ],
+          "answerIndex": 0,
+          "explanation": "The claim is specifically about democracies fighting each other."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The philosophical roots of democratic peace theory lie in which work?",
+          "options": [
+            "The Prince",
+            "The Communist Manifesto",
+            "Leviathan",
+            "Perpetual Peace"
+          ],
+          "answerIndex": 3,
+          "explanation": "Kant's Perpetual Peace (1795) is the classic source."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which US President said the world 'must be made safe for democracy'?",
+          "options": [
+            "Abraham Lincoln",
+            "George W. Bush",
+            "Bill Clinton",
+            "Woodrow Wilson"
+          ],
+          "answerIndex": 3,
+          "explanation": "Wilson said it in his 1917 war message to Congress."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Kant's three bases for perpetual peace are:",
+          "options": [
+            "Monarchy, empire and religion",
+            "Democracy, interdependence, and international law and organisation",
+            "Military power, alliances and deterrence",
+            "Class struggle, revolution and communism"
+          ],
+          "answerIndex": 1,
+          "explanation": "Kant named republican government, interdependence and international law and organisation."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Democratic peace theory is linked to which broader theory?",
+          "options": [
+            "Liberalism",
+            "Realism",
+            "Marxism",
+            "Green theory"
+          ],
+          "answerIndex": 0,
+          "explanation": "It is a liberal theory, connected to interdependence and institutions."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Doyle's 'pacific union' refers to:",
+          "options": [
+            "A military alliance",
+            "A trade union",
+            "The Pacific Ocean states",
+            "A zone of peace among liberal democracies"
+          ],
+          "answerIndex": 3,
+          "explanation": "Shared moral values create a zone of peace among democracies."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A newly democratic country's citizens oppose their president's plan to attack a neighbouring democracy, and he backs down. Kant would explain this through:",
+          "options": [
+            "Class struggle",
+            "Balance of power",
+            "The need for popular consent to war",
+            "Hegemony"
+          ],
+          "answerIndex": 2,
+          "explanation": "Kant argued that people who must fight and pay for war restrain republican governments."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A democracy invades a dictatorship. Does this disprove democratic peace theory?",
+          "options": [
+            "Yes, because democracies should never fight",
+            "No, because the theory concerns wars between democracies",
+            "Yes, because dictatorships are peaceful",
+            "No, because invasions are not wars"
+          ],
+          "answerIndex": 1,
+          "explanation": "The theory does not claim democracies avoid war with non-democracies."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Two democracies with deep trade ties resolve a fishing dispute through talks. Which of Doyle's reasons does the trade tie reflect?",
+          "options": [
+            "Peaceful political culture",
+            "Economic interdependence",
+            "Shared moral values",
+            "Audience costs"
+          ],
+          "answerIndex": 1,
+          "explanation": "Doyle's third reason is that economic cooperation and interdependence strengthen peace."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement does democratic peace theory NOT claim?",
+          "options": [
+            "Democracies are generally more peaceful than non-democracies",
+            "Democracies rarely fight each other",
+            "Democracies share norms of peaceful resolution",
+            "Interdependence supports peace among democracies"
+          ],
+          "answerIndex": 0,
+          "explanation": "The theory explicitly does not claim democracies are more peaceful overall."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Why did Kant think kings and queens went to war more easily than republics?",
+          "options": [
+            "They were braver",
+            "They had no armies",
+            "They could declare war without regard for their subjects, who bore the costs",
+            "They were bound by law"
+          ],
+          "answerIndex": 2,
+          "explanation": "Monarchs did not need the consent of those who fought and paid."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Kant: 'safe for democracy'",
+            "Doyle: pacific union",
+            "Wilson: Perpetual Peace",
+            "Monroe: zone of peace"
+          ],
+          "answerIndex": 1,
+          "explanation": "Doyle developed the pacific union. Kant wrote Perpetual Peace; Wilson spoke of making the world safe for democracy."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Democracies have never fought any war. II. Democratic peace is widely regarded as a strong empirical pattern. III. Free expression helps mutual understanding across borders. Which are correct?",
+          "options": [
+            "II and III only",
+            "I and II only",
+            "I and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 0,
+          "explanation": "II and III are correct. I is false: democracies have fought many wars, mostly against non-democracies."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Kant's hope that a world of republics would end war was partly shaped by the fact that in his time:",
+          "options": [
+            "Most of Europe was already republican",
+            "There were no wars",
+            "Republics were rare in Europe",
+            "Democracy was global"
+          ],
+          "answerIndex": 2,
+          "explanation": "Republics were scarce in eighteenth-century Europe, so Kant's idea was a hope about a different future."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which combination best summarises the liberal claims about peace that democratic peace theory sits alongside?",
+          "options": [
+            "Military strength and alliances",
+            "Class struggle and revolution",
+            "Economic interdependence and international institutions",
+            "Isolation and self-sufficiency"
+          ],
+          "answerIndex": 2,
+          "explanation": "Liberals argue peace is also promoted by interdependence and institutions."
+        }
+      ]
+    },
+    {
+      "name": "Mechanisms: norms, trust and levels",
+      "lesson": {
+        "title": "How the peace works",
+        "minutes": 10,
+        "hook": "When a democratic leader signs a deal, the whole world can watch the parliament debate it and the press criticise it. When a dictator signs, nobody knows what was promised behind closed doors. Which signature would you trust?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Norms of compromise",
+            "body": "One explanation is **shared norms**. Inside a democracy, citizens with grievances can pursue them by **non-violent means**: courts, elections, protests, petitions.\n\nDemocracies **project** this norm abroad. When two democracies disagree, both expect the other to seek a **peaceful solution**, so war becomes unlikely.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Peaceful at home",
+                "Projected abroad",
+                "Shared expectation",
+                "Peace"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Transparency builds trust",
+            "body": "A second explanation is **institutional constraints**. A key feature of democracy is **transparency** in decision-making: debates, votes and a free press make the process visible.\n\nLeaders on the other side can **watch** how decisions were reached, so they can **trust** that commitments will be kept. Non-democracies, with **secretive** decision-making, struggle to build this trust.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "eye",
+                  "label": "Visible decisions"
+                },
+                {
+                  "icon": "checkmark-circle",
+                  "label": "Credible promises"
+                },
+                {
+                  "icon": "chatbubbles",
+                  "label": "Negotiation"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Audience costs",
+            "body": "If a democratic leader **backs down** from a commitment, they face **audience costs**: anger from voters, the media and opposition at home.\n\nThese costs make democratic promises **believable**. Two democracies that trust each other's commitments will **negotiate** rather than fight. Facing a non-democracy, without transparency or audience costs, a state is more likely to **turn to force**.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Leader breaks promise",
+                "Public backlash",
+                "So promises are kept"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "'Audience costs' refers to:",
+            "options": [
+              "Political costs leaders face from public opinion if they back down on commitments",
+              "The price of tickets to political rallies",
+              "The cost of building parliaments",
+              "Taxes paid by citizens"
+            ],
+            "answerIndex": 0,
+            "why": "Audience costs come from negative domestic opinion when leaders break commitments, making promises credible."
+          },
+          {
+            "kind": "teach",
+            "heading": "Domestic politics shapes foreign policy",
+            "body": "Democratic peace theory is also an argument that **domestic politics affects foreign policy**: the type of regime shapes decisions on war and peace.\n\nScholars differ on the **level of analysis**, giving two approaches: **monadic** and **dyadic**.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Regime type",
+                "Foreign policy",
+                "War or peace"
+              ]
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Monadic versus dyadic",
+            "left": {
+              "title": "Monadic",
+              "points": [
+                "Foreign policy set by the state's own regime",
+                "Democracies peaceful towards everyone",
+                "Rarely adopted by scholars"
+              ]
+            },
+            "right": {
+              "title": "Dyadic",
+              "points": [
+                "Policy depends on regime and on the partner",
+                "Democracies peaceful with democracies",
+                "May be aggressive towards autocracies"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "The dyadic approach holds that a democracy's peacefulness depends on:",
+            "options": [
+              "Its own regime only",
+              "Its geographic size",
+              "Its military budget",
+              "Whether the other state is also a democracy"
+            ],
+            "answerIndex": 3,
+            "why": "In the dyadic view, the pair matters: democracies are peaceful with democracies but may be aggressive towards autocracies."
+          },
+          {
+            "kind": "teach",
+            "heading": "Why the monadic view is rare",
+            "body": "The **monadic** approach says democracies are peaceful **by nature**, whoever they deal with. Few scholars adopt it, because history shows democracies **fighting non-democracies**, and sometimes **attacking first**.\n\nThe **dyadic** approach fits the evidence better: a democracy's peaceful stance **depends on its partner's system**, and its policy can turn **offensive** against autocracies.",
+            "visual": {
+              "type": "scale",
+              "left": "Dyadic support",
+              "right": "Monadic support",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Signing with a democracy",
+            "story": "Nigeria negotiates a gas pipeline deal with a democratic neighbour. Its parliament debates the terms publicly and its press scrutinises every clause. Nigerian officials feel confident: if that government backs out, its voters will punish it. With a secretive military regime, the same officials would worry the deal could vanish overnight.",
+            "takeaway": "Transparency and audience costs make democratic commitments credible, encouraging negotiation over force."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect monadic versus dyadic as a definition or scenario, and terms like transparency and audience costs. The trap: choosing monadic for 'democracies are peaceful only with democracies'. That is dyadic. Monadic means peaceful with everyone, which is why scholars rarely adopt it.",
+            "sampleQuestion": "The approach that says a democracy's foreign policy depends both on its own regime and on the regime of the state it faces is: (a) monadic (b) dyadic (c) systemic (d) structural",
+            "howToAnswer": "Answer (b): dyadic. Contrast with monadic, which looks only at the state's own regime.",
+            "scholars": [
+              "Maoz & Russett (1993)",
+              "Fearon (1994)",
+              "Doyle (1983)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Shared norms: democracies project peaceful dispute settlement abroad.",
+              "Transparency lets others see and trust democratic decisions.",
+              "Audience costs make democratic commitments credible.",
+              "Monadic: regime alone decides, democracies peaceful to all (rarely accepted).",
+              "Dyadic: peace depends on both states being democracies."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The approach that says democracies are peaceful towards all states by nature is the:",
+          "options": [
+            "Dyadic approach",
+            "Systemic approach",
+            "Structural approach",
+            "Monadic approach"
+          ],
+          "answerIndex": 3,
+          "explanation": "The monadic approach looks only at a state's own regime."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Transparency in decision-making helps democracies because it:",
+          "options": [
+            "Hides their plans",
+            "Speeds up wars",
+            "Lets other leaders trust their commitments",
+            "Removes elections"
+          ],
+          "answerIndex": 2,
+          "explanation": "Visible decisions build trust that agreements will be upheld."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Democratic peace theory suggests that foreign policy is affected by:",
+          "options": [
+            "Domestic politics and regime type",
+            "Weather patterns",
+            "Geography only",
+            "Religion only"
+          ],
+          "answerIndex": 0,
+          "explanation": "The theory argues regime type shapes decisions on war and peace."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Audience costs make democratic commitments more credible because:",
+          "options": [
+            "Citizens pay higher taxes",
+            "Leaders face public backlash if they back down",
+            "Leaders cannot be removed",
+            "Commitments are secret"
+          ],
+          "answerIndex": 1,
+          "explanation": "The domestic price of breaking a promise makes promises believable."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Why is the monadic approach rarely adopted by scholars?",
+          "options": [
+            "It ignores domestic politics",
+            "It was invented recently",
+            "It is too mathematical",
+            "It implies democracies are peaceful even towards autocracies, which history contradicts"
+          ],
+          "answerIndex": 3,
+          "explanation": "Democracies have fought and even attacked non-democracies, undermining the monadic claim."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The norms explanation says democracies avoid war with each other because:",
+          "options": [
+            "They project domestic habits of peaceful dispute settlement abroad",
+            "They lack armies",
+            "They fear the UN",
+            "They are all wealthy"
+          ],
+          "answerIndex": 0,
+          "explanation": "Peaceful norms at home are extended to relations with other democracies."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A democracy negotiates patiently with another democracy over a border, but threatens force against a neighbouring military junta over a similar issue. This pattern supports the:",
+          "options": [
+            "Monadic approach",
+            "Marxist approach",
+            "Dyadic approach",
+            "Green approach"
+          ],
+          "answerIndex": 2,
+          "explanation": "Peacefulness depending on the partner's regime is the dyadic view."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A president promises a neighbour a ceasefire, then breaks it, and loses the next election as a result. This illustrates:",
+          "options": [
+            "Audience costs",
+            "Balance of power",
+            "Security dilemma",
+            "Hegemony"
+          ],
+          "answerIndex": 0,
+          "explanation": "Public punishment for breaking commitments is an audience cost."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A state hesitates to sign a peace deal with a secretive dictatorship, fearing it cannot verify the deal will hold. Democratic peace theorists link this to the dictatorship's:",
+          "options": [
+            "Large population",
+            "Lack of transparency and audience costs",
+            "Economic interdependence",
+            "Shared values"
+          ],
+          "answerIndex": 1,
+          "explanation": "Without transparency and audience costs, commitments are harder to trust."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following help explain peace between democracies EXCEPT:",
+          "options": [
+            "Shared norms of compromise",
+            "Secret decision-making by rulers",
+            "Audience costs",
+            "Transparency of decision-making"
+          ],
+          "answerIndex": 1,
+          "explanation": "Secrecy undermines trust and is associated with non-democracies."
+        },
+        {
+          "difficulty": 4,
+          "stem": "In the dyadic approach, a democracy facing an autocracy may:",
+          "options": [
+            "Always remain peaceful",
+            "Join the autocracy",
+            "Lose its democracy",
+            "Become aggressive and even attack first"
+          ],
+          "answerIndex": 3,
+          "explanation": "The dyadic view accepts that democracies can be aggressive towards non-democracies."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Monadic: regime of both states matters",
+            "Audience costs: domestic backlash for backing down",
+            "Dyadic: only the state's own regime matters",
+            "Transparency: secret negotiations"
+          ],
+          "answerIndex": 1,
+          "explanation": "Audience costs come from domestic backlash. Monadic and dyadic are reversed in the other options."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Transparency reduces uncertainty between democracies. II. The monadic approach is the most widely accepted. III. Democracies can be the first to attack non-democracies. Which are correct?",
+          "options": [
+            "I and III only",
+            "I and II only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 0,
+          "explanation": "I and III are correct. II is false: the monadic approach is rarely adopted."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Why might war be more likely when a non-democracy is involved, according to institutional explanations?",
+          "options": [
+            "Non-democracies always want war",
+            "Non-democracies are always stronger",
+            "Lack of transparency and audience costs makes negotiated deals hard to trust",
+            "Democracies refuse to negotiate"
+          ],
+          "answerIndex": 2,
+          "explanation": "If commitments cannot be trusted, negotiation fails and force becomes more tempting."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A researcher finds democracies are as likely as autocracies to fight wars overall, but very unlikely to fight each other. This finding supports:",
+          "options": [
+            "The monadic approach only",
+            "Neither approach",
+            "The dyadic approach",
+            "The claim that democracies never fight"
+          ],
+          "answerIndex": 2,
+          "explanation": "Peace only within democratic pairs, not overall, is exactly the dyadic pattern."
+        }
+      ]
+    },
+    {
+      "name": "Explanations, policy and critics",
+      "lesson": {
+        "title": "Structure, norms and the real world",
+        "minutes": 10,
+        "hook": "In 2003 the United States invaded Iraq partly on the belief that a democratic Iraq would spread peace across the Middle East. A theory had become a reason for war. Is that the theory's fault?",
+        "slides": [
+          {
+            "kind": "compare",
+            "heading": "Two explanations",
+            "left": {
+              "title": "Structural",
+              "points": [
+                "Institutions of representative government",
+                "Elections punish costly wars",
+                "Works even with illiberal leaders"
+              ]
+            },
+            "right": {
+              "title": "Normative (cultural)",
+              "points": [
+                "Shared liberal values",
+                "Peaceful habits extended to democracies",
+                "Depends on seeing the other as a democracy"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The structural explanation",
+            "body": "The **structural** account says **institutions** of representative government hold leaders **accountable** to voters. War's costs fall on many citizens, so voters may **throw out** a leader who starts a losing or needless war.\n\nLeaders anticipate this. The account does **not** assume everyone is liberal-minded: even an **illiberal leader** faces free speech, opposition parties and elections that make war hard to sell.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Costly war",
+                "Voters angry",
+                "Leader loses office",
+                "War avoided"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The normative explanation",
+            "body": "The **normative** or **cultural** account says **shared democratic values** explain the peace. Democratic culture favours peaceful settlement, and leaders extend it to other democracies because they **expect the same** in return.\n\n**Perception** is key: a state must be **seen** as a genuine democracy. Americans did not see monarchical Britain as democratic in **1812**, and Union liberals did not see the slave-holding **Confederacy** as liberal, which helps explain those wars.",
+            "visual": {
+              "type": "venn",
+              "left": "Our values",
+              "right": "Their values",
+              "both": "Mutual trust"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Which explanation says peace holds even when a democracy has an illiberal leader, because elections and free speech constrain him?",
+            "options": [
+              "Normative explanation",
+              "Marxist explanation",
+              "Monadic explanation",
+              "Structural explanation"
+            ],
+            "answerIndex": 3,
+            "why": "The structural account relies on institutions, not on leaders' personal values."
+          },
+          {
+            "kind": "teach",
+            "heading": "From theory to foreign policy",
+            "body": "In the **1990s**, President **Bill Clinton** made spreading democracy a main foreign policy aim. If Eastern Europe and the former Soviet states democratised, the West would no longer need to contain them militarily.\n\nAfter **September 11, 2001**, **neoconservatives** in the **George W. Bush** administration used the theory to support toppling **Saddam Hussein** in Iraq, expecting democracy to spread across the Middle East.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Theory",
+                "Clinton: enlargement",
+                "Bush: Iraq 2003"
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Iraq after 2003",
+            "story": "The invasion removed Saddam Hussein, but years of insurgency, sectarian violence and the rise of ISIS followed. Elections were held, yet the region did not become a zone of peace. Critics argued that democracy imposed by force, without strong institutions or shared norms, could not deliver what the theory describes.",
+            "takeaway": "Using democratic peace to justify force raises hard questions about how democracy spreads and whether imposed democracy brings peace."
+          },
+          {
+            "kind": "teach",
+            "heading": "The critics",
+            "body": "Opponents say proponents **overstate** the pattern. Critics raise problems of **definition**: who counts as a democracy, and what counts as a war? Some point to near-cases such as the **Kargil** conflict of 1999 between India and Pakistan.\n\nSebastian **Rosato** (2003) questioned whether the proposed **mechanisms** really work. Realists argue peace among democracies may reflect **alliances** and shared enemies, such as during the Cold War, rather than democracy itself.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "search",
+                  "label": "Definitions?"
+                },
+                {
+                  "icon": "warning",
+                  "label": "Exceptions?"
+                },
+                {
+                  "icon": "shield",
+                  "label": "Alliances instead?"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "A realist critic would most likely explain peace among Western democracies during the Cold War by:",
+            "options": [
+              "Shared democratic norms alone",
+              "Common alliances against a shared enemy",
+              "Audience costs",
+              "Kant's republics"
+            ],
+            "answerIndex": 1,
+            "why": "Realists argue shared threats and alliances, not democracy, kept these states at peace."
+          },
+          {
+            "kind": "terms",
+            "heading": "Six assumptions of the theory",
+            "terms": [
+              {
+                "term": "Rare wars",
+                "meaning": "Democracies seldom, if ever, fight other democracies"
+              },
+              {
+                "term": "Citizen say",
+                "meaning": "Citizens have some voice in decisions to declare war"
+              },
+              {
+                "term": "Accountability",
+                "meaning": "Voters hold leaders responsible for human and financial losses of war"
+              },
+              {
+                "term": "Diplomacy",
+                "meaning": "Accountable leaders build diplomatic channels to resolve tensions"
+              },
+              {
+                "term": "Like sees like",
+                "meaning": "Democracies rarely see similar governments as hostile; wealth also gives them more to lose"
+              }
+            ]
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Essay favourites: 'Is the democratic peace theory persuasive?' and 'examine its relevance in post-Cold War IR'. Use both explanations, Clinton and Bush as policy cases, and the critics. Objectives test structural versus normative. Trap: the normative view depends on perception, so the 1812 and Civil War cases are normative examples.",
+            "sampleQuestion": "Is the democratic peace theory persuasive? Discuss with reference to post-Cold War international relations.",
+            "howToAnswer": "Present the evidence and the structural and normative explanations, show how Clinton and Bush applied it, then weigh critiques: definitions, exceptions, alliance-based explanations and Iraq. Conclude with a reasoned judgement.",
+            "scholars": [
+              "Maoz & Russett (1993)",
+              "Doyle (1983)",
+              "Rosato (2003)",
+              "Kant (1795)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Structural: institutions and elections make war costly for leaders.",
+              "Normative: shared values, and seeing the other as a democracy.",
+              "Clinton used the theory for democracy promotion; Bush for Iraq.",
+              "Critics question definitions, exceptions and mechanisms.",
+              "Realists credit alliances, not democracy, for peace among democracies."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The two main explanations for democratic peace are:",
+          "options": [
+            "Monadic and systemic",
+            "Marxist and feminist",
+            "Structural and normative",
+            "Realist and green"
+          ],
+          "answerIndex": 2,
+          "explanation": "Structural explanations focus on institutions; normative ones on shared values."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which US President made spreading democracy a central aim of 1990s foreign policy, citing the democratic peace?",
+          "options": [
+            "Bill Clinton",
+            "Woodrow Wilson",
+            "Ronald Reagan",
+            "James Monroe"
+          ],
+          "answerIndex": 0,
+          "explanation": "Clinton's administration used the democratic peace to justify democracy promotion."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The normative explanation of democratic peace emphasises:",
+          "options": [
+            "Elections and checks and balances",
+            "Military alliances",
+            "Shared democratic and liberal values",
+            "Natural resources"
+          ],
+          "answerIndex": 2,
+          "explanation": "Shared values and culture are the normative focus."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The structural explanation says democratic leaders avoid needless wars mainly because:",
+          "options": [
+            "They are always liberal-minded",
+            "They have no armies",
+            "Their constitutions ban war",
+            "Voters can remove them from office"
+          ],
+          "answerIndex": 3,
+          "explanation": "Electoral accountability gives leaders a reason to avoid costly wars."
+        },
+        {
+          "difficulty": 2,
+          "stem": "After 2001, which group used democratic peace ideas to support toppling Saddam Hussein?",
+          "options": [
+            "Neoconservatives in the Bush administration",
+            "Marxists",
+            "Green theorists",
+            "Constructivists"
+          ],
+          "answerIndex": 0,
+          "explanation": "Neoconservatives argued a democratic Iraq would spread peace in the Middle East."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which of the following is an assumption of democratic peace theory?",
+          "options": [
+            "Wealth makes states more warlike",
+            "Democracies see each other as enemies",
+            "Citizens have no say in war",
+            "Voters hold leaders responsible for war losses"
+          ],
+          "answerIndex": 3,
+          "explanation": "Accountability for war losses is a core assumption."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Americans in 1812 did not see monarchical Britain as a democracy, and the two fought. This case is best explained by the:",
+          "options": [
+            "Structural explanation",
+            "Monadic approach",
+            "Normative explanation, which depends on perception",
+            "Audience cost model"
+          ],
+          "answerIndex": 2,
+          "explanation": "The normative view holds that peace requires each side to perceive the other as a genuine democracy."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A democracy's president holds illiberal views but cannot win public or parliamentary support for war against a democratic neighbour. This supports the:",
+          "options": [
+            "Structural explanation",
+            "Normative explanation",
+            "Marxist explanation",
+            "Realist explanation"
+          ],
+          "answerIndex": 0,
+          "explanation": "Institutions, not the leader's values, prevent war in the structural account."
+        },
+        {
+          "difficulty": 3,
+          "stem": "An analyst argues that Western European democracies stayed at peace after 1945 mainly because they faced a common Soviet threat. This critique comes from:",
+          "options": [
+            "Liberalism",
+            "Constructivism",
+            "Realism",
+            "Green theory"
+          ],
+          "answerIndex": 2,
+          "explanation": "Realists credit alliances against shared enemies, not regime type."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are criticisms of democratic peace theory EXCEPT:",
+          "options": [
+            "Democracies rarely fight each other",
+            "Possible exceptions such as Kargil (1999)",
+            "Peace may reflect alliances rather than democracy",
+            "Problems defining democracy and war"
+          ],
+          "answerIndex": 0,
+          "explanation": "That is the theory's core claim, not a criticism."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Under the normative explanation, why does it matter whether a state is perceived as a democracy?",
+          "options": [
+            "Perception has no role",
+            "Peace depends on leaders expecting the other side to share peaceful norms",
+            "Only military size matters",
+            "Elections decide perceptions"
+          ],
+          "answerIndex": 1,
+          "explanation": "Mutual recognition as democracies creates the expectation of peaceful settlement."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Structural: shared liberal values",
+            "Structural: institutions like elections and checks and balances",
+            "Normative: electoral accountability",
+            "Normative: audience costs only"
+          ],
+          "answerIndex": 1,
+          "explanation": "Structural explanations rest on institutions; normative ones rest on values."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. The structural explanation assumes all citizens are liberal-minded. II. The normative explanation can explain the War of 1812. III. The theory has influenced US foreign policy. Which are correct?",
+          "options": [
+            "I and II only",
+            "I, II and III",
+            "I and III only",
+            "II and III only"
+          ],
+          "answerIndex": 3,
+          "explanation": "II and III are correct. I is wrong: the structural view works even without liberal-minded citizens or leaders."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Critics of the 2003 Iraq invasion argued democratic peace theory was misapplied because:",
+          "options": [
+            "Iraq was already a democracy",
+            "Democracy imposed by force without strong institutions or shared norms may not produce peace",
+            "The theory forbids democracies from existing",
+            "Iraq had no army"
+          ],
+          "answerIndex": 1,
+          "explanation": "Both explanations rely on institutions and norms that cannot simply be installed by invasion."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which statement provides the most balanced assessment of the theory?",
+          "options": [
+            "It is proven beyond doubt and should guide all policy",
+            "It identifies a strong pattern, but its mechanisms, definitions and policy uses remain contested",
+            "It is completely false",
+            "It applies only to the nineteenth century"
+          ],
+          "answerIndex": 1,
+          "explanation": "The pattern is widely accepted, yet explanations and applications are debated, which a good answer should show."
+        }
+      ]
+    }
+  ]
+}

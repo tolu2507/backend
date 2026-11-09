@@ -1,0 +1,999 @@
+{
+  "unit": 7,
+  "title": "Eating and Habit Disorders",
+  "summary": "Anorexia nervosa, bulimia nervosa and the childhood habit disorders of elimination, speech fluency and tics, with current DSM-5 terms.",
+  "sections": [
+    {
+      "name": "Anorexia nervosa",
+      "lesson": {
+        "title": "Anorexia: starving while feeling fat",
+        "minutes": 10,
+        "hook": "A 15-year-old girl whose arms look like broomsticks stands before a mirror and sees someone she thinks is too big. How can the mind get the body so badly wrong?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "A map of this session",
+            "body": "Your manual groups two families of problems together. **Eating disorders** disturb how much a person eats, and they can sit at either extreme: eating far too little or eating huge amounts in a short time. Both extremes can kill.\n\n**Habit disorders** involve everyday skills a child is expected to master: toileting (**enuresis** and **encopresis**), smooth speech (**stuttering**) and control over movement (**tics**). We begin with the eating disorders, because they carry the greatest medical danger.",
+            "visual": {
+              "type": "flow",
+              "nodes": ["Eating & habit", "Eating disorders", "Habit disorders"]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The two classic eating disorders",
+            "body": "The two major eating disorders in your course are **anorexia nervosa** and **bulimia nervosa**. They look different on the surface, yet they overlap: both involve an unhealthy preoccupation with body shape and weight, they have some shared causes, and they follow a similar course.\n\nBoth usually begin in **adolescence**. Your manual adds that they tend not to extend past early adulthood; in reality many people recover by then, but for some the illness becomes long-lasting, so treat that claim as a general pattern, not a rule.",
+            "visual": {
+              "type": "venn",
+              "left": "Anorexia",
+              "right": "Bulimia",
+              "both": "Fear of weight gain"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "What defines anorexia nervosa",
+            "body": "The heart of anorexia is an **intense fear of gaining weight** in someone who is already well below a healthy weight. The person restricts food so severely that the body begins to waste.\n\nThe strangest feature is the **body-image disturbance**. Even when emaciated, many sufferers insist they look fat, or they cannot see how dangerous their low weight is. Under **DSM-5**, the three core features are: restricting intake to a significantly low weight, fear of fatness (or behaviour that blocks weight gain), and a distorted view of one's own body or its seriousness.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {"icon": "trending-down", "label": "Very low weight"},
+                {"icon": "warning", "label": "Fear of fatness"},
+                {"icon": "eye", "label": "Distorted body image"}
+              ]
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Two sub-types of anorexia",
+            "left": {
+              "title": "Restrictors (restricting type)",
+              "points": [
+                "Thin mainly by refusing food",
+                "May also over-exercise or fast",
+                "No regular bingeing or purging"
+              ]
+            },
+            "right": {
+              "title": "Purgers (binge-eating/purging type)",
+              "points": [
+                "Also restrict most of the time",
+                "When they eat, they get rid of it",
+                "Use vomiting, laxatives or diuretics"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Funmi is severely underweight and rarely eats, but after the few meals she does eat she makes herself vomit. Which sub-type of anorexia fits her best?",
+            "options": [
+              "Restricting type",
+              "Bulimia nervosa",
+              "Binge-eating/purging type",
+              "Binge-eating disorder"
+            ],
+            "answerIndex": 2,
+            "why": "She is significantly underweight and purges, so she fits the purging (binge-eating/purging) sub-type of anorexia. Low body weight is what rules out a diagnosis of bulimia nervosa."
+          },
+          {
+            "kind": "teach",
+            "heading": "What starvation does to the body",
+            "body": "Starvation forces the body into survival mode. Common results include **low blood pressure**, **low body temperature**, a slow heart, **anaemia** and stunted bone growth (thin, fragile bones).\n\nThe most dangerous change is in body chemistry. Starvation and purging lower **serum potassium**, an electrolyte the heart needs to keep its rhythm. Low potassium can trigger **cardiac arrhythmias** that cause sudden death. This is one reason anorexia has one of the highest death rates of any mental disorder.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {"icon": "pulse", "label": "Heart rhythm risk"},
+                {"icon": "trending-down", "label": "Low BP, temperature"},
+                {"icon": "medkit", "label": "Anaemia, weak bones"}
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Amenorrhoea: older versus newer criteria",
+            "body": "**Amenorrhoea** means the absence of menstrual periods. It is common in girls and women with anorexia because the body shuts down reproduction when energy is scarce.\n\nUnder the older **DSM-IV**, missing at least three consecutive periods was a required criterion. **DSM-5 (2013) removed it**, because it could not apply to males, pre-pubertal girls or women on hormonal contraception, and some women met every other criterion while still menstruating. Know both positions: your manual reflects the older view.",
+            "visual": {
+              "type": "flow",
+              "nodes": ["DSM-IV: required", "DSM-5: removed"]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Who gets it, and why",
+            "body": "Your manual reports that about **95 per cent** of people with anorexia are female and gives a prevalence of roughly **1 in 100 females**, with rates rising. Onset is usually in early to late adolescence, which is why it is studied as a disorder of childhood, though it can start at any age.\n\nPsychosocial theories link anorexia to a deep **need for autonomy** in a young person raised in an **over-controlling family**. Hilde Bruch argued that refusing food becomes the one area of life the adolescent truly controls.",
+            "visual": {
+              "type": "stat",
+              "value": "About 95%",
+              "label": "of anorexia cases are female (manual)"
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Adaeze and the dinner table",
+            "story": "Adaeze, 16, attends a strict boarding school in Enugu. At home her parents choose her friends, her course of study, even her hairstyle. In SS2 she starts skipping meals, then counts every spoon of rice. Her mother pleads; her father shouts. The more they push food, the harder she refuses. Privately, Adaeze feels that her weight is the only thing in her life that belongs to her.",
+            "takeaway": "This is the autonomy-and-control explanation: food refusal becomes a battle for independence within an over-controlling family."
+          },
+          {
+            "kind": "check",
+            "question": "Which change in body chemistry makes anorexia especially likely to cause sudden death?",
+            "options": [
+              "Raised blood sugar",
+              "Low serum potassium",
+              "High body temperature",
+              "Excess red blood cells"
+            ],
+            "answerIndex": 1,
+            "why": "Low potassium disturbs the electrical rhythm of the heart and can cause a fatal arrhythmia. Anorexia lowers body temperature and causes anaemia, the opposite of the other options."
+          },
+          {
+            "kind": "teach",
+            "heading": "Treating anorexia",
+            "body": "Anorexia is hard to treat, partly because many sufferers do not want to gain weight and do not see themselves as ill. The first goal is always **medical safety**: restoring weight, sometimes in hospital.\n\nPsychotherapy has long been used. More recent approaches lean on **behavioural and cognitive techniques** and, for adolescents, on **involving the family**. In family-based treatment, parents are coached to take charge of meals until weight recovers, then control is handed back to the young person step by step.",
+            "visual": {
+              "type": "flow",
+              "nodes": ["Medical safety", "Weight restoration", "CBT & family work"]
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect SAQ-style essays: 'discuss the symptoms and sub-types of anorexia'. Objective papers twist the sub-types (a purging patient who is underweight still has anorexia, not bulimia) and test the medical consequences. A common trap is listing amenorrhoea as a current required criterion: it was dropped in DSM-5.",
+            "sampleQuestion": "Discuss briefly the symptoms and sub-types of anorexia nervosa, and explain why it is classified as a disorder of childhood.",
+            "howToAnswer": "Define the core features (fear of weight gain while underweight, distorted body image), distinguish restrictors from purgers, name two or three medical consequences, then note onset in adolescence.",
+            "scholars": ["Hilde Bruch (1973)", "American Psychiatric Association, DSM-5 (2013)"]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Eating disorders sit at two extremes: too little food or too much.",
+              "Anorexia: fear of fatness while underweight, with a distorted body image.",
+              "Sub-types: restrictors refuse food; purgers also vomit or use laxatives.",
+              "Low potassium can cause fatal heart rhythms; amenorrhoea is common.",
+              "Mostly female, adolescent onset; linked to autonomy and over-control."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "According to your course, eating disorders can occur at two extremes. These are:",
+          "options": [
+            "Excessive food consumption and dramatic reduction of food intake",
+            "Eating only at night and eating only in public",
+            "Craving sweet foods and craving salty foods",
+            "Eating non-food items and refusing liquids"
+          ],
+          "answerIndex": 0,
+          "explanation": "Eating disorders range from consuming far too much food to dramatically cutting intake, and both can be life-threatening. Eating non-food items describes pica, which is not one of the two extremes."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The central fear that drives anorexia nervosa is best described as:",
+          "options": [
+            "Fear of choking while eating in public",
+            "Intense fear of gaining weight despite being underweight",
+            "Fear of particular food textures and colours",
+            "Fear that food has been poisoned by others"
+          ],
+          "answerIndex": 1,
+          "explanation": "People with anorexia are terrified of putting on weight even when they are already well below a healthy weight. Fear of textures or choking points to other feeding problems, not anorexia."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which of the following is NOT one of the habit disorders named in your course?",
+          "options": [
+            "Enuresis",
+            "Stuttering",
+            "Bulimia nervosa",
+            "Tic disorder"
+          ],
+          "answerIndex": 2,
+          "explanation": "Bulimia nervosa is an eating disorder. The habit disorders covered are enuresis, encopresis, stuttering and tic disorders."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The key difference between 'restrictors' and 'purgers' with anorexia is that purgers:",
+          "options": [
+            "Are usually of normal or above-normal weight",
+            "Never restrict their food intake at all",
+            "Do not fear gaining weight",
+            "Get rid of what they eat through vomiting or laxatives"
+          ],
+          "answerIndex": 3,
+          "explanation": "Both sub-types restrict and are underweight, but purgers also vomit or misuse laxatives after eating. Normal or above-normal weight is typical of bulimia, not of either anorexia sub-type."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Why does your course treat anorexia nervosa as a disorder of childhood?",
+          "options": [
+            "It is diagnosed only in children under 12",
+            "Its onset is usually in early to late adolescence",
+            "It is caused by childhood infections",
+            "It disappears completely at puberty"
+          ],
+          "answerIndex": 1,
+          "explanation": "Anorexia usually begins in adolescence, though it can start at any age. It is not restricted to under-12s and it does not vanish at puberty; puberty is often when it begins."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Psychosocial theories of anorexia most often trace the disorder to:",
+          "options": [
+            "A deep need for autonomy within an over-controlling family",
+            "Too much freedom and too little parental supervision",
+            "A learned fear of food after a choking incident",
+            "Poverty and a lack of available food at home"
+          ],
+          "answerIndex": 0,
+          "explanation": "The psychosocial view holds that food refusal expresses a need for independence in a family that controls too much. Lack of supervision is the opposite of what the theory proposes."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Kelechi, 17, is extremely thin, eats almost nothing and exercises for hours, but never binges or vomits. She insists her thighs are 'still too big'. The best description is:",
+          "options": [
+            "Bulimia nervosa",
+            "Anorexia nervosa, binge-eating/purging type",
+            "Binge-eating disorder",
+            "Anorexia nervosa, restricting type"
+          ],
+          "answerIndex": 3,
+          "explanation": "She is underweight, fears fatness and loses weight through restriction and exercise without purging, which is the restricting type. Without purging, the binge-eating/purging label does not fit."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A doctor examining a girl with long-standing anorexia would be LEAST likely to find:",
+          "options": [
+            "Low blood pressure",
+            "Low body temperature",
+            "Raised body temperature with fever",
+            "Anaemia"
+          ],
+          "answerIndex": 2,
+          "explanation": "Starvation lowers body temperature; it does not raise it. Low blood pressure and anaemia are typical consequences of anorexia."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A clinician notes that a 15-year-old's refusal to eat began soon after her parents started controlling every aspect of her life. Which explanation of anorexia is the clinician drawing on?",
+          "options": [
+            "The cultural thin-ideal explanation",
+            "The autonomy and over-control explanation",
+            "The mood-disorder variant explanation",
+            "The electrolyte imbalance explanation"
+          ],
+          "answerIndex": 1,
+          "explanation": "Linking food refusal to a struggle for independence in an over-controlling family is the psychosocial autonomy explanation. Electrolyte imbalance is a consequence of anorexia, not a cause."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement about amenorrhoea in anorexia nervosa is accurate?",
+          "options": [
+            "It is common in affected females but is no longer a required DSM-5 criterion",
+            "It is required by DSM-5 for every diagnosis of anorexia",
+            "It occurs only in the purging sub-type",
+            "It indicates that the person cannot have anorexia"
+          ],
+          "answerIndex": 0,
+          "explanation": "Loss of periods is common, but DSM-5 dropped it as a requirement because it excluded males, pre-pubertal girls and some women who met all other criteria. DSM-IV, not DSM-5, required it."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Starvation in anorexia can cause sudden death mainly because low serum potassium:",
+          "options": [
+            "Blocks the absorption of calcium into the bones",
+            "Raises blood pressure to dangerous levels",
+            "Destroys red blood cells in the bone marrow",
+            "Disturbs the heart's rhythm and can cause arrhythmia"
+          ],
+          "answerIndex": 3,
+          "explanation": "Potassium helps regulate the heart's electrical activity, so a shortage can trigger a fatal irregular rhythm. Anorexia lowers rather than raises blood pressure."
+        },
+        {
+          "difficulty": 4,
+          "stem": "A patient is underweight, fears weight gain, sees herself as fat and occasionally vomits after eating. A student labels this 'bulimia nervosa'. The student is wrong because:",
+          "options": [
+            "Bulimia never involves vomiting",
+            "Her significantly low weight places her under anorexia, purging type",
+            "Bulimia occurs only in males",
+            "Anyone who fears weight gain has binge-eating disorder"
+          ],
+          "answerIndex": 1,
+          "explanation": "When purging occurs in someone significantly underweight, the diagnosis is anorexia (binge-eating/purging type). Vomiting is in fact a common feature of bulimia, so that option is false."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider these statements about anorexia nervosa: I. Most sufferers are female. II. Onset is usually in adolescence. III. Sufferers usually recognise that they are dangerously thin. IV. It may cause retarded bone growth. Which are correct?",
+          "options": [
+            "I, II and III only",
+            "II, III and IV only",
+            "I, II and IV only",
+            "I and III only"
+          ],
+          "answerIndex": 2,
+          "explanation": "Statements I, II and IV are correct. Statement III is false: a distorted body image means many sufferers feel fat and deny how serious their low weight is."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which pairing of an anorexia feature with its correct description is accurate?",
+          "options": [
+            "Restricting type: thin mainly through refusing food",
+            "Amenorrhoea: excessive menstrual bleeding",
+            "Purging type: normal weight with frequent binges",
+            "Body-image disturbance: accurate perception of thinness"
+          ],
+          "answerIndex": 0,
+          "explanation": "Restrictors are thin chiefly because they refuse to eat. Amenorrhoea is the absence of periods, and normal weight with binges describes bulimia rather than the purging type of anorexia."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A strict lecturer asks why anorexia is hard to treat. The BEST answer combines which two points?",
+          "options": [
+            "It is rare and medicine cures it within weeks",
+            "It affects only adults and families refuse to cooperate",
+            "Sufferers often deny the illness, and starvation creates medical dangers that must be managed first",
+            "It has no psychological component, and therapy is therefore irrelevant"
+          ],
+          "answerIndex": 2,
+          "explanation": "Many sufferers do not see themselves as ill and resist weight gain, and medical risks such as arrhythmia must be stabilised before therapy. Anorexia clearly has psychological roots, so therapy is central, not irrelevant."
+        }
+      ]
+    },
+    {
+      "name": "Bulimia nervosa and its causes",
+      "lesson": {
+        "title": "Bulimia: the binge-purge cycle",
+        "minutes": 10,
+        "hook": "Unlike anorexia, bulimia can hide in plain sight: the person may look perfectly healthy while secretly bingeing and vomiting several times a day.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Bingeing versus bulimia",
+            "body": "Almost everyone overeats sometimes, at a wedding or Christmas lunch. That alone is not a disorder. **Bulimia nervosa** is different in two ways.\n\nFirst, binges are recurrent and feel **out of control**: a large amount of food is eaten in a short time. Second, people with bulimia are fiercely **self-critical** about their binges and about their appearance. That harsh self-judgement pushes them to undo the binge, which is called **purging** or compensating.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {"icon": "repeat", "label": "Recurrent binges"},
+                {"icon": "close-circle", "label": "Loss of control"},
+                {"icon": "eye", "label": "Harsh self-judgement"}
+              ]
+            }
+          },
+          {
+            "kind": "terms",
+            "heading": "Ways people compensate after a binge",
+            "terms": [
+              {"term": "Self-induced vomiting", "meaning": "Making oneself throw up the food just eaten."},
+              {"term": "Laxative misuse", "meaning": "Taking drugs that empty the bowels, hoping to lose the calories."},
+              {"term": "Diuretic misuse", "meaning": "Taking 'water pills' that increase urine and body-fluid loss."},
+              {"term": "Fasting", "meaning": "Refusing food for long periods after a binge."},
+              {"term": "Excessive exercise", "meaning": "Exercising for hours to burn off what was eaten."}
+            ]
+          },
+          {
+            "kind": "steps",
+            "heading": "How the cycle keeps itself going",
+            "steps": [
+              {"title": "Strict diet", "detail": "Very restrictive rules leave the person hungry, stressed and frustrated."},
+              {"title": "Binge", "detail": "The rules break; a large amount is eaten with a sense of losing control."},
+              {"title": "Distress", "detail": "Guilt, shame and fear of weight gain follow."},
+              {"title": "Purge", "detail": "Vomiting or laxatives briefly reduce the distress, which rewards purging."},
+              {"title": "Back to dieting", "detail": "A vow to diet harder restarts the cycle."}
+            ]
+          },
+          {
+            "kind": "check",
+            "question": "According to the cycle, why does purging become a habit so quickly?",
+            "options": [
+              "It permanently removes all calories eaten",
+              "It briefly relieves the distress caused by the binge",
+              "It cures the underlying depression",
+              "It makes future binges impossible"
+            ],
+            "answerIndex": 1,
+            "why": "Purging reduces the guilt and anxiety after a binge, and that relief reinforces it. It does not remove all the calories, and the strict dieting it leads to actually sets up the next binge."
+          },
+          {
+            "kind": "teach",
+            "heading": "A habit that eats up the day",
+            "body": "Binge-purge episodes can take hours out of each day and become deeply **habitual**. DSM-5 requires bingeing and compensating to happen, on average, at least **once a week for three months** (DSM-IV said twice a week).\n\nA key point for exams: most people with bulimia are of **normal or slightly above-normal weight**. That is why it often goes unnoticed, and why weight is the dividing line between bulimia and the purging type of anorexia.",
+            "visual": {
+              "type": "stat",
+              "value": "1x/week, 3 months",
+              "label": "DSM-5 frequency for bulimia"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Medical and emotional costs",
+            "body": "Frequent vomiting and laxative misuse drain **body fluids** and upset **electrolytes**, the minerals (such as potassium) that keep the heart beating regularly. A severe imbalance can lead to **heart failure**.\n\nWomen with bulimia often have **menstrual problems**. Repeated vomiting also erodes tooth enamel with stomach acid. Emotionally, many sufferers also have **severe depression**, which is part of why some researchers see eating disorders as linked to mood disorders.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {"icon": "pulse", "label": "Electrolyte imbalance"},
+                {"icon": "heart", "label": "Heart failure risk"},
+                {"icon": "sad", "label": "Severe depression"}
+              ]
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Anorexia and bulimia side by side",
+            "left": {
+              "title": "Anorexia nervosa",
+              "points": [
+                "Significantly underweight",
+                "Restriction is the core behaviour",
+                "Often denies being ill",
+                "Amenorrhoea common"
+              ]
+            },
+            "right": {
+              "title": "Bulimia nervosa",
+              "points": [
+                "Usually normal weight",
+                "Binge-purge cycle is the core",
+                "Usually ashamed and secretive",
+                "Menstrual problems common"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Is it a mood disorder in disguise?",
+            "body": "Some researchers argue that anorexia and bulimia are **variants of a mood disorder**. The evidence: depression is very common in sufferers, it often runs in their families, and antidepressants (such as fluoxetine) reduce bingeing and purging in many people with bulimia.\n\nThe idea is debated. Depression may also be a result of starving and of the shame of bingeing. Your exam answer should present it as a hypothesis, not a proven fact.",
+            "visual": {
+              "type": "venn",
+              "left": "Eating disorders",
+              "right": "Mood disorders",
+              "both": "Depression, family links"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Culture and the thin ideal",
+            "body": "Your manual notes that both disorders have become more common and are more frequent in **developed** than in less developed countries. **Cultural norms** matter: where thinness is treated as a virtue, especially for women, the ideal body shown by actresses, models and beauty queens is a slim frame.\n\nSome women respond by going on extreme diets. Many who develop bulimia have a history of such diets, which are stressful and frustrating, and which set up the binge-purge cycle you saw earlier.",
+            "visual": {
+              "type": "flow",
+              "nodes": ["Thin ideal", "Extreme dieting", "Binge-purge cycle"]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Bisi and the Instagram filter",
+            "story": "Bisi, a 200 Level student in Lagos, follows dozens of slim influencers. She starts a crash diet before her department's dinner. By the third day she is starving, and at night she finishes a whole loaf of bread and two packs of biscuits in the hostel. Ashamed, she goes to the bathroom and makes herself vomit. Within weeks it is happening most nights, and she feels low all the time.",
+            "takeaway": "Cultural pressure, extreme dieting, bingeing, purging for relief and depression appear together, just as the theory predicts."
+          },
+          {
+            "kind": "check",
+            "question": "Which observation best supports the view that cultural norms contribute to eating disorders?",
+            "options": [
+              "They are more common in developed countries that idealise thinness",
+              "They occur equally in every society",
+              "They are caused only by low potassium",
+              "They are found only in males"
+            ],
+            "answerIndex": 0,
+            "why": "Higher rates where thinness is prized point to a cultural influence. If rates were equal everywhere, culture would be a weak explanation."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'mention other conditions people with bulimia also suffer from' (depression, menstrual problems, fluid and electrolyte loss) and questions that hinge on body weight to separate bulimia from anorexia. A classic trap is assuming bulimia patients look thin. Also be ready to explain the role of culture and restrictive dieting.",
+            "sampleQuestion": "With reference to cultural norms and dieting, explain how bulimia nervosa develops and why the binge-purge cycle is hard to break.",
+            "howToAnswer": "Describe the thin ideal and restrictive dieting, walk through diet, binge, distress and purge, then explain that purging is reinforced because it relieves distress.",
+            "scholars": ["Gerald Russell (1979)", "Christopher Fairburn (CBT for bulimia)"]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Bulimia: recurrent out-of-control binges followed by compensating behaviours.",
+              "Compensation includes vomiting, laxatives, diuretics, fasting and exercise.",
+              "Most sufferers are normal weight, which separates bulimia from anorexia.",
+              "Fluid and electrolyte loss can cause heart failure; depression is common.",
+              "Thin-ideal culture and strict dieting help set up the cycle."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "What most clearly distinguishes bulimia nervosa from ordinary occasional overeating?",
+          "options": [
+            "Eating more food at festive occasions",
+            "Preferring sweet foods to savoury ones",
+            "Eating three meals a day",
+            "Recurrent out-of-control binges followed by attempts to purge"
+          ],
+          "answerIndex": 3,
+          "explanation": "Bulimia involves repeated binges with a loss of control and harsh self-criticism that drives compensating behaviour. Festive overeating is normal and is not followed by a purge cycle."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which of the following is NOT a compensating behaviour seen in bulimia?",
+          "options": [
+            "Self-induced vomiting",
+            "Misusing laxatives",
+            "Eating extra meals to gain weight",
+            "Excessive exercise"
+          ],
+          "answerIndex": 2,
+          "explanation": "Compensating behaviours aim to undo a binge, so deliberately eating more to gain weight is the opposite. Vomiting, laxatives and over-exercising are all classic compensations."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which emotional condition does your course single out as common among people with bulimia?",
+          "options": [
+            "Severe depression",
+            "Mania",
+            "Specific phobia of dogs",
+            "Autism"
+          ],
+          "answerIndex": 0,
+          "explanation": "Many sufferers of bulimia are also severely depressed, which feeds the mood-disorder hypothesis. The other options are not highlighted as associated conditions."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Frequent purging can cause heart failure in bulimia mainly because it leads to:",
+          "options": [
+            "Increased body fat around the heart",
+            "Loss of body fluids and an imbalance in electrolytes",
+            "Higher blood sugar after every meal",
+            "Too much potassium in the blood"
+          ],
+          "answerIndex": 1,
+          "explanation": "Vomiting and laxatives drain fluids and disturb electrolytes such as potassium, which regulate the heart. Purging lowers potassium; it does not raise it."
+        },
+        {
+          "difficulty": 2,
+          "stem": "In terms of body weight, people with bulimia nervosa are usually:",
+          "options": [
+            "Severely underweight",
+            "Of normal or slightly above-normal weight",
+            "Unable to gain any weight at all",
+            "Obese in every case"
+          ],
+          "answerIndex": 1,
+          "explanation": "Most people with bulimia are around normal weight, which is why the disorder often goes unnoticed. Severe underweight with purging indicates anorexia, purging type."
+        },
+        {
+          "difficulty": 2,
+          "stem": "According to your course, eating disorders are more common in:",
+          "options": [
+            "Developed countries than in underdeveloped countries",
+            "Underdeveloped countries than in developed countries",
+            "Rural farming communities only",
+            "Older adults than in adolescents"
+          ],
+          "answerIndex": 0,
+          "explanation": "The course notes higher rates in developed countries, which it links to the cultural value placed on thinness. Onset is typically in adolescence, not old age."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Ngozi, of average weight, eats huge amounts of food in secret three times a week and then takes laxatives. She is very ashamed of her body. She most likely has:",
+          "options": [
+            "Anorexia nervosa, restricting type",
+            "Anorexia nervosa, purging type",
+            "Bulimia nervosa",
+            "A tic disorder"
+          ],
+          "answerIndex": 2,
+          "explanation": "Average weight with recurrent binges and laxative use fits bulimia nervosa. The anorexia sub-types both require significantly low body weight."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A researcher notes that antidepressants reduce bingeing in many bulimia patients and that depression runs in their families. She would most likely conclude that:",
+          "options": [
+            "Bulimia is caused entirely by over-controlling parents",
+            "Eating disorders have no emotional component",
+            "Bulimia is purely a problem of willpower",
+            "Eating disorders may be variants of a mood disorder"
+          ],
+          "answerIndex": 3,
+          "explanation": "Overlap with depression and response to antidepressants support the mood-disorder variant hypothesis. Nothing in the findings points to parenting style or willpower."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A young woman starts an extremely strict diet before her wedding and soon begins bingeing at night and vomiting afterwards. Which factor in the course best explains the onset?",
+          "options": [
+            "Over-controlling family and autonomy needs",
+            "Chronically stressful and frustrating restrictive dieting",
+            "Low body temperature",
+            "Inherited tic disorder"
+          ],
+          "answerIndex": 1,
+          "explanation": "The course notes that many who develop bulimia have a history of severe, frustrating diets, which set up bingeing. The autonomy explanation is usually linked to anorexia rather than to diet-triggered binges."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are true of bulimia nervosa EXCEPT:",
+          "options": [
+            "Binge-purge episodes can become habitual",
+            "Most sufferers are women",
+            "Sufferers are usually unconcerned about their appearance",
+            "Menstrual problems may occur"
+          ],
+          "answerIndex": 2,
+          "explanation": "People with bulimia are excessively critical of their binges and their appearance. The other statements are all accurate features of the disorder."
+        },
+        {
+          "difficulty": 4,
+          "stem": "In the binge-purge cycle, purging is maintained mainly through:",
+          "options": [
+            "Relief from distress, which reinforces the behaviour",
+            "Punishment by family members",
+            "Pleasure in the taste of food",
+            "Permanent weight loss after each purge"
+          ],
+          "answerIndex": 0,
+          "explanation": "Purging reduces guilt and anxiety after a binge, so it is negatively reinforced. It does not remove all calories, so permanent weight loss is not what maintains it."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which feature would MOST help a clinician tell bulimia nervosa apart from anorexia nervosa, binge-eating/purging type?",
+          "options": [
+            "Whether the person vomits",
+            "Whether the person is female",
+            "Whether the person fears weight gain",
+            "Whether the person is significantly underweight"
+          ],
+          "answerIndex": 3,
+          "explanation": "Both conditions can involve vomiting, female sex and fear of fatness. Significantly low body weight places the person under anorexia; around-normal weight points to bulimia."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider these statements: I. Bulimia often goes unnoticed because sufferers are usually normal weight. II. DSM-5 requires binges at least twice a week. III. Purging can cause electrolyte imbalance. IV. Depression is common in bulimia. Which are correct?",
+          "options": [
+            "I, III and IV only",
+            "I, II and III only",
+            "II and IV only",
+            "II, III and IV only"
+          ],
+          "answerIndex": 0,
+          "explanation": "Statements I, III and IV are correct. Statement II is the old DSM-IV threshold; DSM-5 lowered it to at least once a week for three months."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Restrictor: binge followed by vomiting at normal weight",
+            "Thin ideal: cultural factor in eating disorders",
+            "Diuretics: drugs that stop the heart from beating",
+            "Amenorrhoea: typical sign of bulimia in males"
+          ],
+          "answerIndex": 1,
+          "explanation": "The thin ideal promoted by media is a cultural factor in eating disorders. Restrictors do not binge and purge, and diuretics increase urine and fluid loss rather than stopping the heart."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A strict lecturer asks why anorexia and bulimia are discussed together. The best answer is that they:",
+          "options": [
+            "Have identical symptoms and the same body weight",
+            "Both begin in middle age and affect mostly men",
+            "Share some symptoms and causes and follow a similar developmental course",
+            "Are both forms of habit disorder like stuttering"
+          ],
+          "answerIndex": 2,
+          "explanation": "The two disorders differ in features such as weight, but they share fear of weight gain, some causes and a course beginning in adolescence. They are eating disorders, not habit disorders."
+        }
+      ]
+    },
+    {
+      "name": "Habit disorders in childhood",
+      "lesson": {
+        "title": "Bedwetting, soiling, stuttering and tics",
+        "minutes": 9,
+        "hook": "Many Nigerian children have been beaten or shamed for wetting the bed. Psychology says that, past a certain age, it may be a disorder that needs help, not a punishment.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Why habits matter in development",
+            "body": "Children are expected to master certain habits as they grow: controlling bladder and bowels, speaking fluently and controlling body movements. Gaining these **socially appropriate habits** is a big part of healthy development, because other children and adults judge a child by them.\n\nWhen a child fails to gain them at the expected age, the problem can have **psychological causes** (stress, anxiety) and **psychological consequences** (shame, teasing, low self-esteem). Your course names four: **enuresis**, **encopresis**, **stuttering** and **tic disorders**.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {"icon": "home", "label": "Elimination"},
+                {"icon": "chatbubbles", "label": "Speech fluency"},
+                {"icon": "flash", "label": "Movement control"}
+              ]
+            }
+          },
+          {
+            "kind": "terms",
+            "heading": "The elimination disorders",
+            "terms": [
+              {"term": "Enuresis", "meaning": "Repeatedly passing urine into the bed or clothes; DSM-5 requires the child to be at least 5 years old."},
+              {"term": "Encopresis", "meaning": "Repeatedly passing faeces in inappropriate places; DSM-5 requires the child to be at least 4."},
+              {"term": "Nocturnal / diurnal", "meaning": "Enuresis at night only, during the day only, or both."},
+              {"term": "Primary / secondary", "meaning": "Primary: the child was never dry. Secondary: wetting returns after a dry period, often after stress."}
+            ]
+          },
+          {
+            "kind": "teach",
+            "heading": "Understanding elimination problems",
+            "body": "Bedwetting is normal in toddlers, so a diagnosis depends on **age** and **frequency**. Under DSM-5, enuresis means wetting at least twice a week for three months, or causing real distress, in a child aged 5 or older, and not caused by a medical problem or medicine.\n\nMuch encopresis comes from **chronic constipation**: hard stool builds up and liquid stool leaks around it. Children often feel deep shame and try to hide soiled clothes, which can delay help.",
+            "visual": {
+              "type": "stat",
+              "value": "Age 5+",
+              "label": "minimum age for enuresis (DSM-5)"
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Emeka's new baby sister",
+            "story": "Emeka, 7, had been dry at night since he was 4. Two months after his baby sister arrives in their Owerri home, he begins wetting the bed several nights a week. His aunt says he should be flogged. The clinic nurse instead asks about changes at home, rules out a urinary infection, and suggests a moisture alarm and plenty of praise for dry nights.",
+            "takeaway": "Wetting that returns after a dry period is secondary enuresis, and stress is a common trigger; punishment adds shame without fixing it."
+          },
+          {
+            "kind": "teach",
+            "heading": "Treating bedwetting",
+            "body": "The best-studied treatment is the **bell-and-pad** (moisture alarm), first described by **Mowrer and Mowrer (1938)**. A sensor in the bedding sounds an alarm at the first drops of urine, waking the child. Over time the child learns to wake, or to hold on, when the bladder is full: a classic **conditioning** treatment.\n\nThe drug **desmopressin** reduces night-time urine and can help for short periods. Shaming and beating do not work and harm the child.",
+            "visual": {
+              "type": "flow",
+              "nodes": ["Full bladder", "Alarm sounds", "Child wakes", "Learns to wake"]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Chinedu, 8, was never dry at night and still wets the bed four times a week. Which description fits?",
+            "options": [
+              "Secondary diurnal enuresis",
+              "Encopresis with constipation",
+              "Primary nocturnal enuresis",
+              "Childhood-onset fluency disorder"
+            ],
+            "answerIndex": 2,
+            "why": "He has never been dry (primary) and wets at night (nocturnal). Secondary enuresis would require a previous dry period."
+          },
+          {
+            "kind": "teach",
+            "heading": "Stuttering",
+            "body": "**Stuttering** is a disruption in the normal flow and timing of speech. DSM-5 calls it **childhood-onset fluency disorder**. Signs include repeating sounds or syllables ('b-b-b-bread'), stretching sounds ('sssssugar'), blocks where no sound comes out, and swapping words to avoid hard ones.\n\nIt usually starts between ages 2 and 6, is more common in boys, and many children recover without treatment. It is not caused by low intelligence, and anxiety tends to make it worse rather than cause it.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {"icon": "repeat", "label": "Repetitions"},
+                {"icon": "time", "label": "Prolongations"},
+                {"icon": "hand-left", "label": "Blocks"}
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Tic disorders",
+            "body": "A **tic** is a sudden, rapid, recurring, non-rhythmic movement or sound, such as blinking, shoulder shrugging, sniffing or throat clearing. Tics are hard to resist, though they can be held back briefly.\n\nDSM-5 sets onset **before age 18** and names three disorders. **Tourette's disorder** needs several motor tics plus at least one vocal tic for over a year. **Persistent** tic disorder has motor or vocal tics (not both) for over a year. **Provisional** tic disorder lasts less than a year.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Provisional (<1 yr)",
+              "right": "Tourette's",
+              "marker": 85,
+              "label": "Motor and vocal, over a year"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "A 10-year-old has had eye blinking, head jerking and frequent throat clearing for 18 months. Which diagnosis fits best?",
+            "options": [
+              "Provisional tic disorder",
+              "Persistent motor tic disorder",
+              "Stuttering",
+              "Tourette's disorder"
+            ],
+            "answerIndex": 3,
+            "why": "He has multiple motor tics plus a vocal tic (throat clearing) for over a year, which defines Tourette's. Persistent tic disorder involves motor or vocal tics, not both."
+          },
+          {
+            "kind": "teach",
+            "heading": "A myth to drop",
+            "body": "Many people think Tourette's means shouting rude words. That symptom, **coprolalia**, occurs in only a minority of people with Tourette's. Most have ordinary movements and sounds.\n\nAcross all four habit disorders, the theme is the same: these are not signs of a stubborn or 'wicked' child. Teasing and punishment make them worse by raising stress. Understanding, practical treatment and patience help.",
+            "visual": {
+              "type": "scale",
+              "left": "Support & treatment",
+              "right": "Shame & punishment",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Lecturers like to test which disorders belong to which family (bulimia is not a habit disorder) and the age rules for enuresis and encopresis. They also mix up tic categories: remember that Tourette's needs both motor and vocal tics. The trap is calling a child who has never been dry a case of secondary enuresis.",
+            "sampleQuestion": "Distinguish between enuresis and encopresis, and between primary and secondary enuresis, giving one treatment for bedwetting.",
+            "howToAnswer": "Define both elimination disorders with their minimum ages, explain primary (never dry) versus secondary (relapse after dryness), and describe the bell-and-pad method.",
+            "scholars": ["Mowrer & Mowrer (1938)", "Gilles de la Tourette (1885)"]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Habit disorders: enuresis, encopresis, stuttering and tic disorders.",
+              "Enuresis needs age 5+; encopresis needs age 4+ under DSM-5.",
+              "Primary enuresis: never dry; secondary: relapse after a dry period.",
+              "Stuttering is childhood-onset fluency disorder; most children recover.",
+              "Tourette's needs multiple motor tics plus a vocal tic for over a year."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Repeatedly passing faeces in inappropriate places, such as clothing, is known as:",
+          "options": [
+            "Enuresis",
+            "Encopresis",
+            "Coprolalia",
+            "Amenorrhoea"
+          ],
+          "answerIndex": 1,
+          "explanation": "Encopresis is the soiling disorder. Enuresis involves urine, and coprolalia is the uttering of obscene words seen in some cases of Tourette's."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which of these pairs are BOTH elimination disorders?",
+          "options": [
+            "Stuttering and tics",
+            "Anorexia and bulimia",
+            "Enuresis and encopresis",
+            "Tourette's and stuttering"
+          ],
+          "answerIndex": 2,
+          "explanation": "Enuresis (urine) and encopresis (faeces) are the elimination disorders. Stuttering and tics are habit disorders of communication and movement."
+        },
+        {
+          "difficulty": 1,
+          "stem": "A sudden, rapid, recurring, non-rhythmic movement such as repeated eye blinking is called a:",
+          "options": [
+            "Compulsion",
+            "Seizure",
+            "Stutter",
+            "Tic"
+          ],
+          "answerIndex": 3,
+          "explanation": "That is the definition of a tic. A compulsion is a deliberate ritual performed to reduce anxiety, which is a different concept."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Under DSM-5, the minimum age at which a child can be diagnosed with enuresis is:",
+          "options": [
+            "5 years",
+            "2 years",
+            "3 years",
+            "10 years"
+          ],
+          "answerIndex": 0,
+          "explanation": "Enuresis cannot be diagnosed before age 5, because younger children commonly wet. The minimum age for encopresis is 4."
+        },
+        {
+          "difficulty": 2,
+          "stem": "In DSM-5, stuttering is formally called:",
+          "options": [
+            "Expressive language disorder",
+            "Childhood-onset fluency disorder",
+            "Social communication disorder",
+            "Speech sound disorder"
+          ],
+          "answerIndex": 1,
+          "explanation": "DSM-5 uses 'childhood-onset fluency disorder' for stuttering. Speech sound disorder concerns pronouncing sounds, not the flow of speech."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The bell-and-pad method for bedwetting works mainly through:",
+          "options": [
+            "Conditioning the child to wake when the bladder is full",
+            "Punishing the child for wet nights",
+            "Reducing the amount of urine the kidneys make",
+            "Hypnotising the child before sleep"
+          ],
+          "answerIndex": 0,
+          "explanation": "The alarm wakes the child at the first drops of urine, and over time a full bladder alone triggers waking. Reducing urine output is how the drug desmopressin works, not the alarm."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Amina, 6, had been dry at night for two years but started wetting the bed after her family moved to a new city. This best illustrates:",
+          "options": [
+            "Primary enuresis",
+            "Encopresis",
+            "Provisional tic disorder",
+            "Secondary enuresis"
+          ],
+          "answerIndex": 3,
+          "explanation": "Wetting that returns after a dry period is secondary enuresis, often triggered by stress such as a move. Primary enuresis applies to children who were never dry."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Tobi, 9, has sniffed and cleared his throat repeatedly for 14 months but has no movement tics. The best diagnosis is:",
+          "options": [
+            "Tourette's disorder",
+            "Persistent vocal tic disorder",
+            "Provisional tic disorder",
+            "Childhood-onset fluency disorder"
+          ],
+          "answerIndex": 1,
+          "explanation": "Vocal tics only, for more than a year, is persistent vocal tic disorder. Tourette's would require multiple motor tics as well."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A boy of 4 often says 'I-I-I want w-w-water' and sometimes gets stuck with no sound coming out. His pattern is best described as:",
+          "options": [
+            "A vocal tic",
+            "Coprolalia",
+            "Stuttering",
+            "Encopresis"
+          ],
+          "answerIndex": 2,
+          "explanation": "Repetitions and blocks in the flow of speech are signs of stuttering. A vocal tic is a sudden sound such as a sniff, not a disruption in the flow of words."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement about Tourette's disorder is FALSE?",
+          "options": [
+            "It requires both motor and vocal tics",
+            "Tics must last more than a year",
+            "Onset is before age 18",
+            "Nearly every sufferer shouts obscene words"
+          ],
+          "answerIndex": 3,
+          "explanation": "Coprolalia (obscene words) occurs in only a minority of people with Tourette's. The other statements are DSM-5 requirements."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Much encopresis results from chronic constipation. The mechanism is that:",
+          "options": [
+            "Liquid stool leaks around a mass of hard, retained stool",
+            "The child deliberately soils to anger parents",
+            "The bladder becomes too small to hold urine",
+            "The child has a vocal tic"
+          ],
+          "answerIndex": 0,
+          "explanation": "Retained hard stool stretches the bowel, and liquid stool seeps around it as overflow. Deliberate soiling to anger parents is a common misconception and does not describe the usual mechanism."
+        },
+        {
+          "difficulty": 4,
+          "stem": "A student says, 'Habit disorders are purely physical, so psychology has nothing to say about them.' The best reply based on your course is that:",
+          "options": [
+            "Habit disorders occur only in adults",
+            "Elimination problems can have significant psychological causes and consequences",
+            "Habit disorders are all caused by eating too little",
+            "Habit disorders cannot be treated"
+          ],
+          "answerIndex": 1,
+          "explanation": "The course stresses that problems such as enuresis and encopresis have psychological causes (e.g. stress) and consequences (e.g. shame). They are childhood problems and are treatable."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider these statements: I. Encopresis requires a minimum age of 4. II. Secondary enuresis follows a period of dryness. III. Persistent tic disorder includes both motor and vocal tics. IV. Stuttering often begins between ages 2 and 6. Which are correct?",
+          "options": [
+            "I, II and III only",
+            "II and III only",
+            "III and IV only",
+            "I, II and IV only"
+          ],
+          "answerIndex": 3,
+          "explanation": "Statements I, II and IV are correct. Statement III is false: having both motor and vocal tics for over a year is Tourette's; persistent tic disorder involves one type only."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which pairing is correctly matched?",
+          "options": [
+            "Mowrer and Mowrer: thin-ideal theory of bulimia",
+            "Desmopressin: conditioning alarm for bedwetting",
+            "Bell-and-pad: classical conditioning treatment for enuresis",
+            "Provisional tic disorder: tics lasting longer than one year"
+          ],
+          "answerIndex": 2,
+          "explanation": "The bell-and-pad is a conditioning treatment for enuresis, described by Mowrer and Mowrer. Desmopressin is a drug, not an alarm, and provisional tic disorder lasts less than a year."
+        },
+        {
+          "difficulty": 5,
+          "stem": "In your course's summary diagram, 'Eating and Habit Disorders' branches into two groups. Which arrangement is correct?",
+          "options": [
+            "Eating: enuresis and encopresis; Habit: anorexia and bulimia",
+            "Eating: anorexia and bulimia; Habit: enuresis, encopresis, stuttering and tics",
+            "Eating: anorexia and tics; Habit: bulimia and stuttering",
+            "Eating: stuttering and tics; Habit: anorexia and enuresis"
+          ],
+          "answerIndex": 1,
+          "explanation": "Anorexia and bulimia are the eating disorders; enuresis, encopresis, stuttering and tic disorders are the habit disorders. The other arrangements mix the two families."
+        }
+      ]
+    }
+  ]
+}

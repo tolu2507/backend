@@ -1,0 +1,682 @@
+{
+  "unit": 7,
+  "title": "The Ear",
+  "summary": "How sound waves are described, how the outer, middle and inner ear turn them into nerve signals, how we perceive sound, and why hearing fails.",
+  "sections": [
+    {
+      "name": "Sound waves and their properties",
+      "lesson": {
+        "title": "What exactly is a sound?",
+        "minutes": 8,
+        "hook": "A generator roars outside your hostel and you feel it in your chest, yet a mosquito near your ear is almost silent but unbearably high. Both are just air being pushed around. So what makes them so different?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Sound starts with movement",
+            "body": "Every sound begins when something **vibrates**: a guitar string, your vocal cords, a talking drum's skin. The vibration pushes on the molecules around it, squeezing them together and then letting them spread apart.\n\nThat pattern of squeezing and spreading travels outward as a **sound wave**. Air is the usual **medium**, but sound also travels through water and solids. In empty space there is nothing to push, so there is no sound at all.",
+            "visual": {
+              "type": "flow",
+              "nodes": ["Object vibrates", "Air compresses", "Wave travels", "Ear receives"]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Amplitude: how hard the push is",
+            "body": "Picture a sound wave drawn as a wavy line. The **amplitude** is the height of each peak. It reflects how much energy the wave carries, which physicists call **intensity**.\n\nWe experience intensity as **loudness**. A gentle wave with small peaks sounds soft; a wave with tall peaks sounds loud. Notice the split: intensity is a physical property you can measure, while loudness is the experience your brain creates from it.",
+            "visual": {
+              "type": "scale",
+              "left": "Low amplitude: soft",
+              "right": "High amplitude: loud",
+              "heavier": "right"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Frequency: how fast it repeats",
+            "body": "**Frequency** is the number of complete cycles a wave makes each second, measured in **hertz (Hz)**. A 500 Hz tone completes 500 cycles every second.\n\nFrequency is what we hear as **pitch**. Many cycles per second (short wavelengths) give a high pitch, like a whistle. Few cycles per second (long wavelengths) give a low pitch, like distant thunder. Frequency and wavelength move in opposite directions: as one rises, the other falls.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Low frequency: deep",
+              "right": "High frequency: shrill",
+              "marker": 80,
+              "label": "A whistle sits here"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Two sounds have the same frequency but one has a much taller wave. A listener will most likely say the taller one is:",
+            "options": ["Higher in pitch", "Louder", "Purer in tone", "Longer in wavelength"],
+            "answerIndex": 1,
+            "why": "Wave height is amplitude, which we hear as loudness. Pitch would only change if the frequency changed, and here it is the same."
+          },
+          {
+            "kind": "teach",
+            "heading": "Pure tones, complex sounds and noise",
+            "body": "The simplest sound is a **pure tone**: one single frequency, like a tuning fork. Real life is rarely that tidy. Speech and music are **complex sounds**, many frequencies layered together. That mixture is why your mother's voice and your friend's voice sound different even on the same note; psychologists call this quality **timbre**.\n\nWhen the waves follow no regular repeating pattern at all, we hear **noise** rather than a recognisable tone.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                { "icon": "pulse", "label": "Pure tone" },
+                { "icon": "layers", "label": "Complex sound" },
+                { "icon": "warning", "label": "Noise" }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Measuring intensity in decibels",
+            "body": "Intensity is measured in **decibels (dB)**. The scale is logarithmic, so every rise of 10 dB means about ten times more sound energy. A whisper is roughly 30 dB, normal conversation about 60 dB, and a loud live band can pass 110 dB.\n\nThe higher the decibel level, the greater the risk to the delicate inner ear. That is why workers near loud machines are told to wear ear protection. Soft materials such as fabric absorb sound and help cut noise.",
+            "visual": { "type": "stat", "value": "30 dB", "label": "Roughly a whisper" }
+          },
+          {
+            "kind": "example",
+            "heading": "Tunde at the printing press",
+            "story": "Tunde does his industrial attachment at a busy printing press in Oyo. The machines run all day, and the older workers joke that they 'don't hear their wives again'. On his first day the supervisor hands him foam earplugs. Tunde finds the room still noisy but no longer painful, and he can now hear the supervisor's voice clearly over the hum.",
+            "takeaway": "Lowering the intensity reaching the ear protects the inner ear, because damage rises with decibel level and length of exposure."
+          },
+          {
+            "kind": "terms",
+            "heading": "Key sound terms",
+            "terms": [
+              { "term": "Amplitude", "meaning": "Height of the wave; physical basis of loudness" },
+              { "term": "Frequency", "meaning": "Cycles per second; physical basis of pitch" },
+              { "term": "Hertz (Hz)", "meaning": "Unit of frequency" },
+              { "term": "Decibel (dB)", "meaning": "Unit of sound intensity" },
+              { "term": "Timbre", "meaning": "Tone quality from the mix of frequencies" }
+            ]
+          },
+          {
+            "kind": "teach",
+            "heading": "The range humans can hear",
+            "body": "A healthy young ear hears frequencies from about **20 Hz to 20,000 Hz**. Thunder rumbles low, around 50 Hz; a whistle sits near 1,000 Hz and above. Dogs and bats hear far above our ceiling, which is why a dog whistle seems silent to us.\n\nWe are not equally sensitive across this range. Our ears are sharpest in the middle frequencies where speech lies, so a quiet sound at those frequencies is easier to detect than an equally intense very low or very high one.",
+            "visual": { "type": "stat", "value": "20–20,000 Hz", "label": "Human hearing range" }
+          },
+          {
+            "kind": "check",
+            "question": "Which pairing of a physical property with its psychological experience is correct?",
+            "options": ["Frequency and loudness", "Amplitude and pitch", "Frequency and pitch", "Wavelength and loudness"],
+            "answerIndex": 2,
+            "why": "Frequency is experienced as pitch and amplitude as loudness. Mixing these two pairs up is the classic exam mistake."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Lecturers love to swap the pairs: they describe a change in amplitude and offer 'pitch' as a tempting answer, or ask what the hertz measures and include 'intensity'. Another trap is the unit: decibels measure intensity, hertz measure frequency. Keep the physical (frequency, amplitude) and the psychological (pitch, loudness) columns separate in your head.",
+            "sampleQuestion": "Distinguish between the physical and psychological dimensions of sound, giving the unit of measurement for each physical dimension.",
+            "howToAnswer": "State that frequency (Hz) is experienced as pitch and amplitude or intensity (dB) as loudness, then add that complexity gives timbre and irregular waves give noise.",
+            "scholars": []
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Sound is a vibration carried as a wave through a medium such as air.",
+              "Amplitude (intensity, in dB) is heard as loudness.",
+              "Frequency (in Hz) is heard as pitch; high frequency means short wavelength.",
+              "Pure tones have one frequency; speech and music are complex; irregular waves are noise.",
+              "Humans hear roughly 20 to 20,000 Hz, best in the speech range."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The psychological experience of pitch depends mainly on which physical property of a sound wave?",
+          "options": ["Amplitude", "Frequency", "Medium of travel", "Decibel level"],
+          "answerIndex": 1,
+          "explanation": "Pitch follows frequency: more cycles per second give a higher pitch. Amplitude and decibel level relate to loudness, not pitch."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Sound intensity is conventionally measured in:",
+          "options": ["Hertz", "Cycles", "Lumens", "Decibels"],
+          "answerIndex": 3,
+          "explanation": "Decibels measure intensity. Hertz (cycles per second) measure frequency, which is the usual distractor."
+        },
+        {
+          "difficulty": 1,
+          "stem": "A sound wave that contains only one frequency is described as a:",
+          "options": ["Pure tone", "Complex tone", "Noise", "Harmonic blend"],
+          "answerIndex": 0,
+          "explanation": "A pure tone has a single frequency, like a tuning fork. Speech and music are complex because they mix many frequencies."
+        },
+        {
+          "difficulty": 2,
+          "stem": "As the frequency of a sound wave increases, its wavelength:",
+          "options": ["Increases in direct proportion", "Stays the same", "Decreases", "Doubles every 10 Hz"],
+          "answerIndex": 2,
+          "explanation": "Frequency and wavelength are inversely related: more cycles squeezed into each second means each cycle is shorter."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Why is sound unable to travel through a vacuum?",
+          "options": ["There are no molecules for the vibration to push on", "The frequency becomes too high to detect", "The amplitude becomes zero at once", "Light waves cancel the sound waves"],
+          "answerIndex": 0,
+          "explanation": "Sound needs a medium because it is a pattern of compressed and spread-out molecules. In a vacuum there are no molecules to carry it."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The approximate frequency range of normal young human hearing is:",
+          "options": ["2 to 2,000 Hz", "200 to 200,000 Hz", "50 to 5,000 Hz", "20 to 20,000 Hz"],
+          "answerIndex": 3,
+          "explanation": "Humans hear roughly 20 Hz to 20,000 Hz. Sounds above this, like a dog whistle, are inaudible to us."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Ngozi turns up the volume knob on her radio without changing the station or the song. Which property of the sound reaching her ears has mainly changed?",
+          "options": ["Frequency", "Wavelength", "Amplitude", "Timbre"],
+          "answerIndex": 2,
+          "explanation": "The volume knob raises amplitude, which she hears as loudness. The notes (frequencies) of the song stay the same."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Two singers sing exactly the same note at the same loudness, yet listeners easily tell them apart. This is best explained by differences in:",
+          "options": ["Fundamental frequency", "Timbre arising from different frequency mixes", "Amplitude of the waves", "The medium carrying the sound"],
+          "answerIndex": 1,
+          "explanation": "Same note and loudness means same pitch and amplitude; the difference is the blend of extra frequencies, called timbre."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A factory manager wants to reduce the risk of hearing damage among staff. Based on the properties of sound, the most relevant goal is to reduce the:",
+          "options": ["Frequency of the machines", "Number of pure tones", "Wavelength of the sound", "Decibel level reaching workers' ears"],
+          "answerIndex": 3,
+          "explanation": "Risk of damage rises with intensity, measured in decibels, so reducing dB at the ear (for example with ear protection) is the key goal."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which of the following statements about sound is NOT correct?",
+          "options": ["Loudness is a psychological experience, while intensity is physical", "A 500 Hz tone completes 500 cycles every second", "Long wavelengths are heard as high-pitched sounds", "Irregular, non-repeating waves are heard as noise"],
+          "answerIndex": 2,
+          "explanation": "Long wavelengths correspond to low frequencies and therefore low pitch. The other three statements are accurate."
+        },
+        {
+          "difficulty": 4,
+          "stem": "A rise from 60 dB to 80 dB represents an increase in sound energy of roughly:",
+          "options": ["One hundred times", "Twenty times", "One third", "Two times"],
+          "answerIndex": 0,
+          "explanation": "The decibel scale is logarithmic: each 10 dB is about ten times the energy, so 20 dB is about 10 × 10 = 100 times. 'Twenty times' wrongly treats the scale as linear."
+        },
+        {
+          "difficulty": 4,
+          "stem": "A student claims that 'loudness and intensity are the same thing, so both can be given exact numbers'. The best correction is that:",
+          "options": ["Intensity is measured in hertz, loudness in decibels", "Loudness depends only on frequency, not energy", "Both are psychological and cannot be measured", "Intensity is a measurable physical quantity, while loudness is the listener's experience of it"],
+          "answerIndex": 3,
+          "explanation": "Intensity can be measured in decibels; loudness is the perceived experience and is also affected by frequency. Hertz measure frequency, not intensity."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider these statements: I. Frequency is measured in hertz. II. Amplitude is the physical basis of pitch. III. Speech is a complex sound. IV. Decibels measure frequency. Which are correct?",
+          "options": ["I and II only", "II and IV only", "I and III only", "III and IV only"],
+          "answerIndex": 2,
+          "explanation": "Frequency is in hertz (I) and speech mixes many frequencies (III). Amplitude underlies loudness, not pitch (II), and decibels measure intensity, not frequency (IV)."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A tone at 30 Hz and a tone at 2,000 Hz are played at the same intensity. A listener reports the 2,000 Hz tone as louder. This shows that:",
+          "options": ["Perceived loudness depends partly on frequency, not on intensity alone", "The 2,000 Hz tone must have had a larger amplitude", "Pitch and loudness are physically identical", "The decibel meter was faulty"],
+          "answerIndex": 0,
+          "explanation": "Our sensitivity varies with frequency and is best in the mid range, so equal intensities can sound unequally loud. Assuming a larger amplitude ignores that intensity was held equal."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which pair is correctly matched?",
+          "options": ["Pure tone – irregular waves with no repeating pattern", "Noise – a single steady frequency", "Short wavelength – low pitch", "High amplitude – loud sound"],
+          "answerIndex": 3,
+          "explanation": "High amplitude means more energy and is heard as loud. The other pairs are swapped: pure tones are single frequencies, noise is irregular, and short wavelengths give high pitch."
+        }
+      ]
+    },
+    {
+      "name": "Structure of the ear",
+      "lesson": {
+        "title": "From the pinna to the nerve",
+        "minutes": 10,
+        "hook": "Your three smallest bones are each about the size of a printed letter on this screen, and without them you would lose most of the sound that reaches you. Why would hearing need tiny bones at all?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Three parts, three jobs",
+            "body": "The ear is divided into the **outer ear**, the **middle ear** and the **inner ear**. Each has a distinct job.\n\nThe outer ear **gathers** sound. The middle ear **transmits and boosts** it. The inner ear **converts** it into nerve signals and also handles balance. Two membranes mark the borders: the **eardrum** (tympanic membrane) between outer and middle ear, and the **oval window** between middle and inner ear.",
+            "visual": {
+              "type": "flow",
+              "nodes": ["Outer ear", "Eardrum", "Middle ear", "Oval window", "Inner ear"]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The outer ear: a funnel",
+            "body": "The **pinna** (or auricle) is the part you can see. It is made mostly of cartilage, held on by muscles and ligaments, and works like a funnel that collects sound and directs it inward. Its folds also shape sound slightly, which helps you tell where a sound came from.\n\nThe deep hollow in the middle is the **concha**. It leads into the **external auditory canal**, which ends at the eardrum. Some animals move their pinnae to locate sounds or show emotion, like a dog flattening its ears.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                { "icon": "ear", "label": "Pinna collects" },
+                { "icon": "trending-down", "label": "Canal channels" },
+                { "icon": "pulse", "label": "Eardrum vibrates" }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The middle ear and its ossicles",
+            "body": "Behind the eardrum is an air-filled cavity holding three linked bones, the **ossicles**: the **malleus** (hammer), **incus** (anvil) and **stapes** (stirrup). The malleus is attached to the eardrum and joined firmly to the incus; the incus joins flexibly to the stapes; the stapes' **footplate** presses on the oval window.\n\nThe **Eustachian tube** connects the middle ear to the throat and keeps air pressure equal on both sides of the eardrum. That is why your ears 'pop' on a plane or a hilly road.",
+            "visual": {
+              "type": "flow",
+              "nodes": ["Eardrum", "Malleus", "Incus", "Stapes", "Oval window"]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Which ossicle is in direct contact with the oval window?",
+            "options": ["Malleus", "Incus", "Stapes", "Concha"],
+            "answerIndex": 2,
+            "why": "The stapes' footplate sits on the oval window. The malleus touches the eardrum, and the concha is part of the outer ear, not an ossicle."
+          },
+          {
+            "kind": "teach",
+            "heading": "Why the middle ear is needed",
+            "body": "The inner ear is full of fluid, and sound in air bounces off fluid instead of entering it, the way your voice is muffled when you shout at someone underwater. This is the **impedance (transfer) problem**.\n\nThe middle ear solves it two ways. The hinged ossicles act as a **lever**, increasing force. And the force from the large eardrum is focused onto the much smaller oval window, raising **pressure**. Together they recover about 23 dB of the roughly 30 dB that would otherwise be lost.",
+            "visual": { "type": "stat", "value": "23 of 30 dB", "label": "Loss the middle ear recovers" }
+          },
+          {
+            "kind": "teach",
+            "heading": "The acoustic reflex",
+            "body": "Two tiny muscles, the **tensor tympani** (on the malleus side) and the **stapedius** (on the stapes), limit how far the eardrum and ossicles can move.\n\nWhen a very loud sound arrives, both muscles contract and stiffen the chain, so less vibration reaches the inner ear. This protective response is the **acoustic** or **middle ear reflex**. It takes a fraction of a second to start, so it protects better against sustained noise than against a sudden bang like a gunshot.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                { "icon": "megaphone", "label": "Loud sound" },
+                { "icon": "fitness", "label": "Muscles contract" },
+                { "icon": "shield", "label": "Inner ear protected" }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The inner ear: cochlea and balance organs",
+            "body": "The inner ear sits inside the **temporal bone**, the hardest bone in the body. It contains fluid-filled hollows of two kinds: the snail-shaped **cochlea** for hearing, and the **vestibular system** (three **semicircular canals** plus the vestibule with its utricle and saccule) for balance.\n\nThe cochlea has three fluid-filled channels: the **vestibular canal**, the **middle (cochlear) canal** and the **tympanic canal**. When the stapes pushes on the oval window, the fluid moves.",
+            "visual": { "type": "brain", "region": "temporal-lobe", "label": "Inner ear lies in temporal bone" }
+          },
+          {
+            "kind": "teach",
+            "heading": "The organ of Corti and hair cells",
+            "body": "Inside the middle canal lies the **organ of Corti**, the true sense organ of hearing. It holds rows of **hair cells**, the receptors. When the fluid moves, the hair cells bend and fire, converting mechanical movement into neural signals. This conversion is called **transduction**.\n\nThe hair cells stimulate the **spiral ganglion**, whose fibres form the auditory part of the **eighth cranial nerve** (vestibulocochlear nerve), carrying the message to the brainstem.",
+            "visual": { "type": "neuron", "part": "dendrites", "label": "Hair cells feed nerve fibres" }
+          },
+          {
+            "kind": "check",
+            "question": "The structure that actually converts fluid vibration into neural messages is the:",
+            "options": ["Tympanic membrane", "Organ of Corti", "Eustachian tube", "Semicircular canal"],
+            "answerIndex": 1,
+            "why": "The organ of Corti's hair cells perform transduction. The eardrum only vibrates, and the semicircular canals serve balance, not hearing."
+          },
+          {
+            "kind": "compare",
+            "heading": "Hearing hair cells versus balance hair cells",
+            "left": {
+              "title": "Auditory (cochlea)",
+              "points": ["Found in the organ of Corti", "Bent by fluid moved by the stapes", "Signal via the auditory branch of nerve VIII", "Code sound"]
+            },
+            "right": {
+              "title": "Vestibular",
+              "points": ["Found in semicircular canals, utricle, saccule", "Bent by fluid moved by head motion", "Signal via the vestibular branch of nerve VIII", "Code balance and movement"]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Musa's ears on a flight",
+            "story": "Musa catches a flight from Ibadan to Abuja with a heavy cold. As the plane climbs, his ears feel blocked and sounds go muffled. He swallows and yawns, and with a small pop his hearing returns. His blocked nose had kept the Eustachian tube from opening, so air pressure in the middle ear could not match the cabin.",
+            "takeaway": "The Eustachian tube equalises middle-ear pressure; when it fails, the eardrum cannot vibrate freely and hearing dulls."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect order-of-structures questions, 'which is NOT part of the middle ear', and matching Latin names to everyday names. Students often place the cochlea in the middle ear, or credit the semicircular canals with hearing. Another favourite: explaining how the middle ear solves the air-to-fluid problem.",
+            "sampleQuestion": "With the aid of the pathway from pinna to auditory nerve, explain how the middle ear overcomes the loss of energy when sound passes from air to fluid.",
+            "howToAnswer": "Trace pinna, canal, eardrum, malleus, incus, stapes, oval window, cochlea, organ of Corti, nerve VIII; then explain the lever action of the ossicles and the area difference between eardrum and oval window.",
+            "scholars": []
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Outer ear (pinna, concha, canal) gathers sound and ends at the eardrum.",
+              "Middle ear ossicles (malleus, incus, stapes) carry vibration to the oval window.",
+              "Lever action and area difference overcome the air-to-fluid loss.",
+              "Tensor tympani and stapedius produce the protective acoustic reflex.",
+              "Cochlea's organ of Corti transduces sound; semicircular canals serve balance; both use nerve VIII."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The boundary between the outer ear and the middle ear is the:",
+          "options": ["Oval window", "Tympanic membrane", "Concha", "Round canal"],
+          "answerIndex": 1,
+          "explanation": "The tympanic membrane (eardrum) separates outer from middle ear. The oval window separates middle from inner ear."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which of the following is NOT one of the ossicles?",
+          "options": ["Malleus", "Incus", "Stapes", "Cochlea"],
+          "answerIndex": 3,
+          "explanation": "The ossicles are the malleus, incus and stapes. The cochlea is the snail-shaped hearing organ of the inner ear."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The receptor cells for hearing are located in the:",
+          "options": ["Organ of Corti", "Pinna", "Eustachian tube", "Malleus"],
+          "answerIndex": 0,
+          "explanation": "Hair cells in the organ of Corti, inside the cochlea, are the auditory receptors. The pinna only collects sound."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The correct order in which vibration passes through the ossicles is:",
+          "options": ["Stapes, incus, malleus", "Incus, malleus, stapes", "Malleus, incus, stapes", "Malleus, stapes, incus"],
+          "answerIndex": 2,
+          "explanation": "The malleus is attached to the eardrum, passes vibration to the incus, which passes it to the stapes on the oval window."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The main function of the Eustachian tube is to:",
+          "options": ["Carry nerve impulses to the brain", "Equalise air pressure on both sides of the eardrum", "Amplify sound by lever action", "Detect rotation of the head"],
+          "answerIndex": 1,
+          "explanation": "Linking the middle ear to the throat, it balances pressure so the eardrum can vibrate freely. Lever action belongs to the ossicles."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Information from both the cochlea and the vestibular organs travels to the brain along the:",
+          "options": ["Optic nerve", "Fifth cranial nerve", "Seventh cranial nerve", "Eighth cranial nerve"],
+          "answerIndex": 3,
+          "explanation": "The eighth (vestibulocochlear) nerve has an auditory branch and a vestibular branch. The seventh is the facial nerve."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Adaeze stands beside a loudspeaker at a wedding for an hour. Two small muscles in her middle ear tighten to reduce vibration reaching her inner ear. This response is called the:",
+          "options": ["Acoustic reflex", "Startle reflex", "Vestibulo-ocular reflex", "Transduction reflex"],
+          "answerIndex": 0,
+          "explanation": "Contraction of the tensor tympani and stapedius to loud sound is the acoustic (middle ear) reflex. The vestibulo-ocular reflex concerns balance and eye movement."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A patient's ossicles have fused so they no longer move. Which step of hearing is most directly blocked?",
+          "options": ["Collection of sound by the pinna", "Transduction by hair cells", "Transfer of vibration from eardrum to oval window", "Pressure equalisation by the Eustachian tube"],
+          "answerIndex": 2,
+          "explanation": "The ossicles carry vibration from eardrum to oval window, so fused ossicles block transmission. The hair cells themselves may be healthy."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Someone spinning round at a funfair feels dizzy afterwards. The structures most involved are the:",
+          "options": ["Ossicles", "Semicircular canals", "Organ of Corti", "Spiral ganglion"],
+          "answerIndex": 1,
+          "explanation": "Fluid moving in the semicircular canals bends vestibular hair cells and signals head rotation. The organ of Corti and spiral ganglion serve hearing."
+        },
+        {
+          "difficulty": 4,
+          "stem": "The middle ear overcomes the loss of energy when sound passes from air into the fluid of the inner ear mainly by:",
+          "options": ["Converting sound into electrical signals before it reaches the fluid", "Lever action of the ossicles and concentrating force on the smaller oval window", "Filling the middle ear with fluid to match the cochlea", "Using the pinna to raise sound frequency"],
+          "answerIndex": 1,
+          "explanation": "Hinged ossicles increase force, and focusing it onto the small oval window raises pressure, recovering about 23 of 30 dB. Conversion to electrical signals happens later, in the cochlea."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are true of the inner ear EXCEPT that it:",
+          "options": ["Is embedded in the temporal bone", "Contains fluid-filled canals", "Contains structures for both hearing and balance", "Is an air-filled cavity holding three bones"],
+          "answerIndex": 3,
+          "explanation": "The air-filled cavity with three bones is the middle ear. The inner ear is fluid-filled and sits in the temporal bone."
+        },
+        {
+          "difficulty": 4,
+          "stem": "The acoustic reflex protects poorly against a sudden gunshot mainly because:",
+          "options": ["It takes a short time to begin, so the first burst arrives unopposed", "It only works for low-frequency sounds", "It acts on the cochlea rather than the ossicles", "It requires the Eustachian tube to be open"],
+          "answerIndex": 0,
+          "explanation": "The muscles need a brief delay to contract, so an abrupt blast reaches the inner ear before the reflex dampens it. The reflex acts on the ossicles, not the cochlea."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Each ossicle has an everyday nickname from its shape. Which ossicle is correctly paired with its nickname?",
+          "options": ["Malleus – stirrup", "Stapes – hammer", "Incus – anvil", "Cochlea – drum"],
+          "answerIndex": 2,
+          "explanation": "Incus means anvil. The malleus is the hammer, the stapes the stirrup, and cochlea comes from the Greek for snail."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider: I. The stapes footplate rests on the oval window. II. The tensor tympani and stapedius are found in the inner ear. III. Vestibular hair cells respond to head movement. IV. The cochlea has three fluid-filled canals. Which are correct?",
+          "options": ["I and II only", "II, III and IV", "I, II and III", "I, III and IV"],
+          "answerIndex": 3,
+          "explanation": "I, III and IV are correct. The tensor tympani and stapedius are middle-ear muscles acting on the ossicles, so II is false."
+        },
+        {
+          "difficulty": 5,
+          "stem": "If the hair cells of the cochlea were destroyed but the ossicles and eardrum were intact, the most likely outcome would be:",
+          "options": ["Normal hearing, because sound still reaches the oval window", "Loss of hearing, because vibration could no longer be transduced into neural signals", "Loss of balance only, with hearing preserved", "Hearing loss that a simple amplifying aid fully corrects"],
+          "answerIndex": 1,
+          "explanation": "Vibration would still arrive, but without hair cells nothing converts it into nerve impulses. Amplification helps conduction problems, not missing receptors."
+        }
+      ]
+    },
+    {
+      "name": "Auditory perception and hearing disorders",
+      "lesson": {
+        "title": "Hearing pitch, loudness and direction",
+        "minutes": 10,
+        "hook": "Someone calls your name in a crowded Bodija market and you turn straight towards them without thinking. Your brain just timed a difference smaller than one thousandth of a second.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Auditory perception as a process",
+            "body": "**Auditory perception** is how the brain turns vibrations in the air into meaningful experiences of pitch, loudness and location. Your course describes it in three stages.\n\n**Information reception**: the outer ear collects sound and the eardrum vibrates. **Information transmission**: the ossicles boost and pass on the vibration while the Eustachian tube keeps pressure balanced. **Information manipulation**: the cochlea converts vibration into nerve impulses, which the auditory nerve carries to the brain for interpretation.",
+            "visual": {
+              "type": "flow",
+              "nodes": ["Reception (outer)", "Transmission (middle)", "Manipulation (inner/brain)"]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Perceiving pitch",
+            "body": "**Pitch** is our sense of how high or low a sound is. It depends mainly on frequency, but not only: intensity and context can shift perceived pitch a little.\n\nHow does the cochlea code frequency? **Place theory**, supported by Georg von Békésy's work, says different frequencies make different points along the basilar membrane vibrate most: high pitches near the base, low near the tip. **Frequency theory** says nerve fibres fire in time with the wave. Most researchers accept both, each working best in a different range.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Low pitch: cochlear tip",
+              "right": "High pitch: cochlear base",
+              "marker": 50,
+              "label": "Place along the cochlea"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Perceiving loudness",
+            "body": "Our sensitivity to **loudness** changes with frequency: at the same intensity, mid-range sounds seem louder than very low or very high ones.\n\nAuditory neurons signal a more intense sound by **firing faster**, and stronger sounds also recruit more neurons. Remember that intensity can be put into numbers (decibels) but loudness is an experience. A sound is also more intense when heard in a small space than when it spreads across a large hall.",
+            "visual": {
+              "type": "neuron",
+              "part": "axon",
+              "label": "Louder means faster firing"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Auditory neurons typically signal that a sound has become more intense by:",
+            "options": ["Changing to a different cranial nerve", "Increasing their rate of firing", "Shifting the sound's frequency", "Stopping firing altogether"],
+            "answerIndex": 1,
+            "why": "Higher intensity produces a faster firing rate (and more active neurons). Frequency is a property of the sound, not something neurons change."
+          },
+          {
+            "kind": "teach",
+            "heading": "Locating where a sound comes from",
+            "body": "For sounds to your left or right, the main cue is **arrival time**: a sound reaches the nearer ear slightly before the farther one. The gap ranges from 0 milliseconds for sounds straight ahead or behind to about **0.6 milliseconds** for sounds directly to one side.\n\nThe comparison is made by **binaural neurons** in the **superior olive** in the brainstem, so called because they receive input from both ears. Sounds directly in front and behind arrive at the same time, which is why they are easily confused.",
+            "visual": { "type": "brain", "region": "brainstem", "label": "Superior olive compares ears" }
+          },
+          {
+            "kind": "example",
+            "heading": "Chiamaka and the crying baby",
+            "story": "Chiamaka is studying in her room when a baby starts crying. She knows at once it is coming from the flat on her right. Later, a phone rings somewhere directly behind her in the lecture theatre, and she turns to the front first before realising her mistake. Same ears, same brain, very different accuracy.",
+            "takeaway": "Side sounds give a clear arrival-time difference; sounds straight ahead or behind give none, so they are easy to confuse."
+          },
+          {
+            "kind": "check",
+            "question": "Why is it hard to tell whether a sound is directly in front of you or directly behind you?",
+            "options": ["The pinna blocks all sound from behind", "The sound arrives at both ears at the same time", "The superior olive only processes high frequencies", "Rear sounds are always lower in amplitude"],
+            "answerIndex": 1,
+            "why": "Front and back sounds are equidistant from both ears, giving a zero arrival-time difference. The pinna helps a little but does not block rear sound."
+          },
+          {
+            "kind": "teach",
+            "heading": "Hearing loss: who and how",
+            "body": "Hearing loss is common; Sekuler and Blake (2002) put the figure at nearly 20 million Americans. In the textbook definition your manual follows, a person is **legally deaf** when speech sounds of 82 dB or less cannot be heard.\n\n**Age-related hearing loss** can come from poor blood circulation to the inner ear or from a lifetime of noise exposure adding up. Causes are grouped by *where* the problem lies, and that location decides the treatment.",
+            "visual": { "type": "stat", "value": "82 dB", "label": "Legal deafness threshold (speech)" }
+          },
+          {
+            "kind": "compare",
+            "heading": "Two broad types of hearing loss",
+            "left": {
+              "title": "Conduction loss",
+              "points": ["Problem in outer or middle ear", "Wax build-up, middle ear infection, otosclerosis", "Sound fails to reach the cochlea well", "Often helped by hearing aids or surgery"]
+            },
+            "right": {
+              "title": "Sensorineural loss",
+              "points": ["Damage to inner ear, auditory pathway or cortex", "Noise, ageing, some drugs, poor blood supply", "Signal is not transduced or carried properly", "Amplification helps far less"]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Drugs and substances that harm hearing",
+            "body": "Some substances damage hair cells in sensitive people. **Quinine**, long used against malaria, and certain **antibiotics** are known culprits, which matters in Nigeria where both are widely used, sometimes without a prescription.\n\n**Nicotine** can harm hearing too, because it cuts the flow of blood reaching the ear (Zelman, 1973). The common thread: hair cells need a healthy blood supply and can be poisoned, and once destroyed in humans they do not grow back.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                { "icon": "medkit", "label": "Quinine, antibiotics" },
+                { "icon": "warning", "label": "Nicotine" },
+                { "icon": "close-circle", "label": "Hair cells lost" }
+              ]
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect a scenario where you must decide whether a loss is conductive or sensorineural from its cause, and a question on the superior olive or arrival-time cue. The trap: students call any hearing loss 'conduction loss', or think hearing aids fix inner-ear damage as well as they fix outer- or middle-ear problems.",
+            "sampleQuestion": "Distinguish conduction hearing loss from hearing loss caused by inner-ear damage, giving two causes of each and stating which responds better to a hearing aid.",
+            "howToAnswer": "Locate each (outer/middle versus inner ear, pathway or cortex), give causes (wax, infection, otosclerosis versus noise, ageing, quinine, nicotine), and state that conduction loss responds better to amplification.",
+            "scholars": ["Sekuler & Blake (2002)", "Zelman (1973)", "von Békésy (place theory)"]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Auditory perception: reception (outer), transmission (middle), manipulation (inner ear and brain).",
+              "Pitch follows frequency; place and frequency theories explain its coding.",
+              "Louder sounds make auditory neurons fire faster.",
+              "Binaural neurons in the superior olive compare arrival times (up to 0.6 ms).",
+              "Conduction loss (outer/middle ear) differs from inner-ear and neural damage."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Hearing loss arising from a problem in the outer or middle ear is called:",
+          "options": ["Central deafness", "Conduction loss", "Sensorineural loss", "Cortical deafness"],
+          "answerIndex": 1,
+          "explanation": "Conduction loss means sound is not conducted well to the cochlea. Sensorineural loss involves the inner ear or nerve."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Neurons that compare the arrival time of sound at the two ears are found in the:",
+          "options": ["Superior olive", "Occipital cortex", "Cerebellum", "Spiral ganglion"],
+          "answerIndex": 0,
+          "explanation": "Binaural neurons in the superior olive of the brainstem receive input from both ears and compare timing."
+        },
+        {
+          "difficulty": 1,
+          "stem": "In the reception–transmission–manipulation account of auditory perception, 'transmission' takes place mainly in the:",
+          "options": ["Outer ear", "Auditory cortex", "Middle ear", "Pinna"],
+          "answerIndex": 2,
+          "explanation": "Transmission is the ossicles passing and boosting vibration in the middle ear. Reception is the outer ear's job."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Neurons that receive input from both ears are described as:",
+          "options": ["Monaural", "Bipolar", "Vestibular", "Binaural"],
+          "answerIndex": 3,
+          "explanation": "Binaural means 'two ears'. Monaural would mean input from one ear only."
+        },
+        {
+          "difficulty": 2,
+          "stem": "All of the following can cause conduction hearing loss EXCEPT:",
+          "options": ["Wax build-up in the ear canal", "Middle ear infection", "Otosclerosis", "Destruction of cochlear hair cells by quinine"],
+          "answerIndex": 3,
+          "explanation": "Quinine damages hair cells in the inner ear, which is not a conduction problem. The other three affect the outer or middle ear."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The maximum difference in arrival time of a sound at the two ears is about:",
+          "options": ["0.6 milliseconds", "6 milliseconds", "60 milliseconds", "0.6 seconds"],
+          "answerIndex": 0,
+          "explanation": "For a sound directly to one side the gap is around 0.6 ms; it falls to zero for sounds straight ahead or behind."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Emeka's hearing gradually dulls and his doctor finds his ear canal blocked with hardened wax. His condition is best classified as:",
+          "options": ["Sensorineural loss", "Age-related cortical loss", "Conduction loss", "Damage to the superior olive"],
+          "answerIndex": 2,
+          "explanation": "Wax in the canal blocks sound in the outer ear, a conduction problem that is usually reversible."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A heavy smoker develops hearing loss. According to Zelman (1973), nicotine most likely contributes by:",
+          "options": ["Reducing blood supply to the ear", "Hardening the ear wax", "Fusing the malleus to the incus", "Blocking the Eustachian tube"],
+          "answerIndex": 0,
+          "explanation": "Nicotine reduces blood flow to the ear, starving the hair cells. It is not described as a cause of wax or ossicle problems."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Kunle hears a car horn. He immediately knows it is on his left but cannot tell if a bell is directly in front of or behind him. The best explanation is that:",
+          "options": ["The horn was louder than the bell", "His left ear is healthier than his right", "The bell was a pure tone", "Side sounds produce an arrival-time difference, front and rear sounds do not"],
+          "answerIndex": 3,
+          "explanation": "Localisation in the horizontal plane relies mainly on arrival-time differences, which are zero for sounds directly ahead or behind."
+        },
+        {
+          "difficulty": 4,
+          "stem": "A hearing aid works by amplifying sound. It is therefore most helpful for a person whose loss results from:",
+          "options": ["Damage to the auditory cortex", "Otosclerosis in the middle ear", "Hair cells destroyed by antibiotics", "A lesion of the auditory pathway"],
+          "answerIndex": 1,
+          "explanation": "Amplification pushes more sound past an outer- or middle-ear blockage such as otosclerosis. If receptors or pathways are damaged, louder input helps far less."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement about pitch perception is most accurate?",
+          "options": ["Pitch depends only on frequency and nothing else", "Pitch depends mainly on amplitude", "Pitch depends mainly on frequency but can be shifted by intensity and context", "Pitch is determined by the arrival time at each ear"],
+          "answerIndex": 2,
+          "explanation": "Frequency is the main basis of pitch, but intensity and context can alter it slightly. Arrival time serves localisation, not pitch."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Place theory of pitch, linked with von Békésy, proposes that:",
+          "options": ["Different frequencies cause maximum vibration at different points along the basilar membrane", "Nerve fibres fire at exactly the same rate as every sound wave", "Pitch is coded by the superior olive comparing the two ears", "The pinna's shape determines which pitch we hear"],
+          "answerIndex": 0,
+          "explanation": "Place theory codes pitch by where the membrane vibrates most. Firing in step with the wave is frequency theory, a common near-miss."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider: I. Legal deafness is defined by failure to hear speech sounds of 82 dB or less. II. Conduction loss involves the inner ear. III. Age-related loss may reflect poor inner-ear circulation. IV. Quinine can damage hair cells. Which are correct?",
+          "options": ["I and II only", "II and III only", "I, II and IV", "I, III and IV"],
+          "answerIndex": 3,
+          "explanation": "I, III and IV are correct. Conduction loss involves the outer or middle ear, so II is false."
+        },
+        {
+          "difficulty": 5,
+          "stem": "In the reception, transmission and manipulation model, which pairing is INCORRECT?",
+          "options": ["Reception – pinna collects sound and the eardrum vibrates", "Transmission – ossicles amplify and Eustachian tube balances pressure", "Manipulation – cochlear fluid moves and impulses go to the brain", "Transmission – hair cells convert vibration into nerve impulses"],
+          "answerIndex": 3,
+          "explanation": "Hair-cell transduction belongs to manipulation in the inner ear, not transmission. The other three pairings match the model."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A patient can hear sounds when they are made very loud, and her ear canal and eardrum look normal, but tests show the ossicles move poorly. The diagnosis and best first option are:",
+          "options": ["Sensorineural loss; nothing can help", "Cortical deafness; speech therapy only", "Conduction loss; amplification or surgery", "Vestibular disorder; balance training"],
+          "answerIndex": 2,
+          "explanation": "Poorly moving ossicles (as in otosclerosis) are a middle-ear, conduction problem that responds to hearing aids or surgery. The inner ear is not implicated."
+        }
+      ]
+    }
+  ]
+}

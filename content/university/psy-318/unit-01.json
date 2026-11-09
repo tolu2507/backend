@@ -1,0 +1,790 @@
+{
+  "unit": 1,
+  "title": "Background to Child Psychopathology",
+  "summary": "What child psychopathology studies, how clinicians use the four Ds to judge abnormality, and the nature–nurture debate.",
+  "sections": [
+    {
+      "name": "Normal, abnormal and the four Ds",
+      "lesson": {
+        "title": "When is a child's behaviour a disorder?",
+        "minutes": 10,
+        "hook": "A two-year-old who rolls on the floor screaming in Shoprite is having an ordinary bad day. A twelve-year-old who does the same every afternoon is a different story. What changed? Not the behaviour, but the age and the impact.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "What child psychopathology studies",
+            "body": "**Psychopathology** is the scientific study of mental disorders: what they look like, what causes them and how they develop. **Child psychopathology** (also called the study of **childhood disorders**) applies that science to children and adolescents, usually anyone under 18.\n\nIt looks at deviant or maladaptive behaviour, at the processes behind it, and at why children differ so much from one another in how they cope.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "child",
+                  "label": "Under 18"
+                },
+                {
+                  "icon": "search",
+                  "label": "Scientific study"
+                },
+                {
+                  "icon": "warning",
+                  "label": "Maladaptive behaviour"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Children are not small adults",
+            "body": "For a long time, children's problems were simply read through the lens of adult disorders. Children were treated as **miniature adults** without personalities of their own.\n\nToday the field recognises that disorders can look different in childhood. For example, DSM-5 allows a depressed child or teenager to show **irritable** mood rather than obvious sadness. A clinician who only looks for adult-style symptoms will miss many children who need help.",
+            "visual": {
+              "type": "scale",
+              "left": "Child-specific signs",
+              "right": "Adult template",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "The older view that children were 'miniature adults' led clinicians to:",
+            "options": [
+              "Describe childhood problems using adult disorder categories",
+              "Design separate diagnostic criteria for every age group",
+              "Reject the idea that children can have mental disorders",
+              "Focus mainly on the child's developmental stage"
+            ],
+            "answerIndex": 0,
+            "why": "Children's problems were understood as scaled-down adult disorders. Paying attention to developmental stage is the modern approach, the opposite of the old view."
+          },
+          {
+            "kind": "teach",
+            "heading": "Normal and abnormal sit on one line",
+            "body": "The line between normal and abnormal behaviour is thin. Both grow out of the **same developmental principles**, so they are best seen as points on one **continuum**, not as two separate boxes.\n\nThat is why a child clinician must first know what is normal at each stage. Bedwetting at three is expected; at ten it may signal a problem. You cannot spot what is unusual until you know what is typical.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Typical development",
+              "right": "Clear disorder",
+              "marker": 60,
+              "label": "Most cases sit between"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The four Ds",
+            "body": "To decide whether a behaviour is abnormal, most clinicians use four criteria, the **four Ds**: **deviance**, **dysfunction**, **distress** and **danger**.\n\nNo single D settles the matter. A gifted child deviates from the norm but is not disordered. The four together give a fuller picture of whether a pattern is unusual, harmful to daily life, painful and risky.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "git-network",
+                  "label": "Deviance"
+                },
+                {
+                  "icon": "trending-down",
+                  "label": "Dysfunction"
+                },
+                {
+                  "icon": "sad",
+                  "label": "Distress"
+                },
+                {
+                  "icon": "warning",
+                  "label": "Danger"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Deviance: different in a harmful way",
+            "body": "**Deviance** means behaviour, thoughts or feelings that depart markedly, and negatively, from what a society considers proper functioning.\n\nClinicians measure how far a child deviates using **informal assessment** (interviews, observation, symptom rating scales) or **formal psychometric test batteries** such as personality tests. Classification systems like **DSM-5** and **ICD-11** also give guidelines on how much deviance counts as a disorder.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Interview & observe",
+                "Rating scales",
+                "Formal tests",
+                "Compare with DSM-5"
+              ]
+            }
+          },
+          {
+            "kind": "terms",
+            "heading": "Three diagnostic terms to master",
+            "terms": [
+              {
+                "term": "Differential diagnosis",
+                "meaning": "Telling apart disorders that share similar features, e.g. ADHD versus anxiety, both of which can cause poor concentration."
+              },
+              {
+                "term": "Working diagnosis",
+                "meaning": "A provisional diagnosis held while more information is gathered to confirm or rule it out."
+              },
+              {
+                "term": "Comorbidity",
+                "meaning": "Two or more disorders occurring together in the same child more often than chance, e.g. ADHD with a learning disorder."
+              },
+              {
+                "term": "Psychometric battery",
+                "meaning": "A set of standardised tests used to measure traits or abilities formally."
+              }
+            ]
+          },
+          {
+            "kind": "check",
+            "question": "A clinician suspects ADHD in a boy but must first rule out a hearing problem and anxiety, which can also cause inattention. This process is called:",
+            "options": [
+              "Comorbidity",
+              "Working diagnosis",
+              "Differential diagnosis",
+              "Psychometric screening"
+            ],
+            "answerIndex": 2,
+            "why": "Separating disorders with overlapping features is differential diagnosis. Comorbidity would mean he actually has two disorders at once."
+          },
+          {
+            "kind": "teach",
+            "heading": "Dysfunction and distress",
+            "body": "**Dysfunction** asks how much the problem disrupts daily life: can the child look after themselves, relate to others and work productively? For children, the key areas are **academic functioning** and **social skills**.\n\n**Distress** asks how much suffering the problem causes. Children often cannot put feelings into words, so clinicians also interview **parents and teachers**. Some disorders, such as conduct problems, upset the people around the child far more than the child.",
+            "visual": {
+              "type": "venn",
+              "left": "Dysfunction",
+              "right": "Distress",
+              "both": "Impact of disorder"
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Bisi's Saturday class",
+            "story": "Bisi, aged nine, has stopped going to her Saturday lessons in Surulere. She cries every morning, complains of stomach-aches and no longer plays with her cousins. Her teacher reports that her marks have dropped sharply. When the psychologist asks how she feels, Bisi just shrugs, so most of the picture comes from her mother and teacher.",
+            "takeaway": "Falling marks and lost friendships show dysfunction, the tears show distress, and the reliance on adult reports shows why children's distress is hard to measure directly."
+          },
+          {
+            "kind": "teach",
+            "heading": "Danger: risk to self or others",
+            "body": "**Danger** covers behaviour so careless, hostile or confused that it puts the child or other people at risk. Clinicians assess two broad areas: **risk of self-harm** and **risk of harming others**.\n\nIn practice this has meant checking whether the child is being **abused or neglected**, whether there is **suicidal intent**, and whether the child shows bullying or violent tendencies. Danger is the D that demands the fastest action.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "medkit",
+                  "label": "Self-harm risk"
+                },
+                {
+                  "icon": "people",
+                  "label": "Harm to others"
+                },
+                {
+                  "icon": "shield",
+                  "label": "Abuse or neglect"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "A boy's aggressive behaviour causes him no personal unhappiness, but his classmates are frightened of him. Which statement is most accurate?",
+            "options": [
+              "He cannot have a disorder because he feels no distress",
+              "Distress to others and danger can still mark the behaviour as abnormal",
+              "Only deviance matters in childhood diagnosis",
+              "Dysfunction applies only to adults"
+            ],
+            "answerIndex": 1,
+            "why": "Some disorders distress others more than the child, and harm to others falls under danger. No single D has to be present on its own."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "The four Ds are a favourite: list-and-explain essays, or scenarios asking which D is shown. The trap is mixing up dysfunction (impact on daily life) with distress (suffering), and forgetting that deviance alone is not enough. Also know the three diagnostic terms under deviance; differential diagnosis and comorbidity are often swapped in options.",
+            "sampleQuestion": "With relevant examples, explain the four criteria clinicians use to distinguish normal from abnormal behaviour in children. Why is distress harder to assess in children than in adults?",
+            "howToAnswer": "Define deviance, dysfunction, distress and danger with a child example each, then explain that children struggle to describe feelings, so clinicians rely on parents and teachers.",
+            "scholars": [
+              "Wilmshurst (2005)",
+              "American Psychiatric Association, DSM-5 (2013)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Child psychopathology is the scientific study of mental disorders in children and adolescents.",
+              "Children are not miniature adults; disorders can look different in childhood.",
+              "Normal and abnormal lie on one continuum, so know normal development first.",
+              "The four Ds: deviance, dysfunction, distress and danger.",
+              "Differential diagnosis, working diagnosis and comorbidity guide judgements of deviance."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Child psychopathology is best described as the study of:",
+          "options": [
+            "Normal physical growth from infancy to adolescence",
+            "Teaching methods that suit young learners",
+            "Adult disorders that first appear after the age of 18",
+            "Mental disorders and how they show up in children and adolescents"
+          ],
+          "answerIndex": 3,
+          "explanation": "Child psychopathology studies mental disorders as they appear in people under 18. Normal physical growth belongs to developmental psychology, not psychopathology."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which of the following is NOT one of the four Ds clinicians use to judge abnormality?",
+          "options": [
+            "Deviance",
+            "Distress",
+            "Delinquency",
+            "Danger"
+          ],
+          "answerIndex": 2,
+          "explanation": "The four Ds are deviance, dysfunction, distress and danger. Delinquency is a type of behaviour problem, not one of the criteria."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Why must a child clinician understand normal development before judging abnormal behaviour?",
+          "options": [
+            "Because abnormal behaviour has nothing in common with normal behaviour",
+            "Because normal and abnormal behaviour lie on the same developmental continuum",
+            "Because classification systems do not apply to children",
+            "Because children cannot be assessed with interviews"
+          ],
+          "answerIndex": 1,
+          "explanation": "Normal and abnormal behaviour grow from the same developmental principles, so what is typical at an age is the yardstick. The first option states the opposite of this view."
+        },
+        {
+          "difficulty": 2,
+          "stem": "In the four Ds framework, 'dysfunction' refers mainly to:",
+          "options": [
+            "How far a behaviour departs from social norms",
+            "The emotional pain a behaviour causes",
+            "The extent to which a problem disrupts everyday functioning",
+            "The risk a behaviour poses to the child or others"
+          ],
+          "answerIndex": 2,
+          "explanation": "Dysfunction is about impact on daily life, such as schoolwork, social relationships and self-care. Emotional pain is distress, its closest neighbour."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Two or more disorders occurring together in the same child more often than chance would predict is known as:",
+          "options": [
+            "Differential diagnosis",
+            "Working diagnosis",
+            "Deviance",
+            "Comorbidity"
+          ],
+          "answerIndex": 3,
+          "explanation": "Comorbidity is the co-occurrence of disorders. Differential diagnosis is the process of telling similar disorders apart, which students often confuse with it."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The modern trend in child psychopathology differs from the older approach mainly because it:",
+          "options": [
+            "Treats children as miniature adults",
+            "Uses only adult diagnostic criteria for children",
+            "Recognises that disorders may show differently in children than in adults",
+            "Holds that children do not have personalities of their own"
+          ],
+          "answerIndex": 2,
+          "explanation": "The current trend refines child-specific descriptions of disorders. The other options describe the older 'miniature adult' view."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Emeka, 11, is reading well below his class level and has been withdrawn from football because he cannot follow team rules. Which of the four Ds do these facts most directly show?",
+          "options": [
+            "Dysfunction",
+            "Danger",
+            "Deviance only",
+            "Distress"
+          ],
+          "answerIndex": 0,
+          "explanation": "Poor academic work and failing social participation show impaired functioning, which is dysfunction. Nothing in the case says he is suffering emotionally (distress) or at risk (danger)."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A psychologist tells Mrs Okafor, 'For now I think your daughter has separation anxiety, but I need school reports before I am sure.' The psychologist is holding a:",
+          "options": [
+            "Final diagnosis",
+            "Comorbid diagnosis",
+            "Differential diagnosis",
+            "Working diagnosis"
+          ],
+          "answerIndex": 3,
+          "explanation": "A working diagnosis is a provisional judgement kept open while more data are collected. Differential diagnosis is the wider process of ruling similar disorders in or out."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A school counsellor learns that a 14-year-old has written notes about wanting to die and has been giving away her belongings. The most pressing of the four Ds here is:",
+          "options": [
+            "Danger",
+            "Deviance",
+            "Dysfunction",
+            "Distress"
+          ],
+          "answerIndex": 0,
+          "explanation": "Signs of suicidal intent raise risk of self-harm, the core of the danger criterion, which calls for urgent action. Distress is present too, but danger is the most pressing."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Distress is often harder to assess in children than in adults because:",
+          "options": [
+            "Children never experience emotional suffering",
+            "Children often struggle to put their feelings into words",
+            "Distress is not part of any definition of abnormality",
+            "Parents and teachers cannot provide useful information"
+          ],
+          "answerIndex": 1,
+          "explanation": "Children may give little verbal information about feelings, so clinicians lean on parent and teacher interviews. The last option is wrong because those adults are exactly the extra sources used."
+        },
+        {
+          "difficulty": 4,
+          "stem": "A gifted 8-year-old solves secondary school mathematics, is happy, has friends and is in no danger. Using the four Ds, the best conclusion is that the child:",
+          "options": [
+            "Shows deviance only in a positive direction, so is not disordered",
+            "Has a disorder because the behaviour is statistically rare",
+            "Shows dysfunction because the child is ahead of peers",
+            "Should be given a working diagnosis until tested further"
+          ],
+          "answerIndex": 0,
+          "explanation": "Deviance in the four Ds means departure in a negative way; unusual talent with no dysfunction, distress or danger is not abnormal. Rarity alone does not make a disorder."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pairing of assessment method and type is correct?",
+          "options": [
+            "Symptom rating scale – formal psychometric battery",
+            "Personality test battery – informal assessment",
+            "Clinical interview – informal assessment",
+            "Classroom observation – formal psychometric battery"
+          ],
+          "answerIndex": 2,
+          "explanation": "Interviews, observation and symptom rating scales count as informal assessment; personality test batteries are formal psychometric tools. The other options swap the categories."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider these statements. I: Some disorders cause more distress to others than to the child. II: Deviance alone is enough to label a behaviour abnormal. III: Comorbidity means two disorders share similar features. Which is/are correct?",
+          "options": [
+            "I only",
+            "I and II only",
+            "II and III only",
+            "I and III only"
+          ],
+          "answerIndex": 0,
+          "explanation": "Only I is correct. Deviance must be in a harmful direction and is weighed with the other Ds, and shared features describe the problem of differential diagnosis, not comorbidity."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A clinician finds that a girl with ADHD also meets criteria for a specific learning disorder, and earlier had to separate her ADHD symptoms from those of anxiety. Which pair of terms describes these two facts in order?",
+          "options": [
+            "Differential diagnosis; comorbidity",
+            "Working diagnosis; differential diagnosis",
+            "Comorbidity; working diagnosis",
+            "Comorbidity; differential diagnosis"
+          ],
+          "answerIndex": 3,
+          "explanation": "Having ADHD plus a learning disorder is comorbidity; separating ADHD from anxiety with similar symptoms was differential diagnosis. The first option reverses the order."
+        },
+        {
+          "difficulty": 5,
+          "stem": "The major weakness of relying on deviance from social norms alone to define abnormality in children is that:",
+          "options": [
+            "Social norms never change across cultures or time",
+            "It would label harmless or positive differences as disorders",
+            "It ignores what society considers proper behaviour",
+            "It requires psychometric testing in every case"
+          ],
+          "answerIndex": 1,
+          "explanation": "Norm-breaking alone could brand talented or simply unconventional children as disordered, which is why dysfunction, distress and danger are also weighed. Norms do in fact differ across cultures and eras."
+        }
+      ]
+    },
+    {
+      "name": "Nature, nurture and development",
+      "lesson": {
+        "title": "Born this way or raised this way?",
+        "minutes": 9,
+        "hook": "Two brothers grow up in the same house in Ogbomoso. One becomes anxious and withdrawn; the other is bold and outgoing. If the home was the same, where did the difference come from?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "An old question",
+            "body": "The **nature–nurture controversy** asks how much of a child's development comes from **inborn, inherited** qualities and how much from **upbringing and environment**.\n\nFor child psychopathology this is not an armchair debate. If a disorder is mostly inherited, prevention looks very different from a disorder that grows mostly out of harsh parenting or a chaotic neighbourhood.",
+            "visual": {
+              "type": "scale",
+              "left": "Nature: genes",
+              "right": "Nurture: environment",
+              "heavier": "even"
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Locke versus Rousseau",
+            "left": {
+              "title": "John Locke (17th century, England)",
+              "points": [
+                "Child born as a blank slate (tabula rasa)",
+                "Experience writes everything on the slate",
+                "Parents must supply firm discipline and control",
+                "Strongly on the nurture side"
+              ]
+            },
+            "right": {
+              "title": "Jean-Jacques Rousseau (18th century, France)",
+              "points": [
+                "Child is like a flower that unfolds naturally",
+                "Growth follows an inner plan",
+                "Parents give care and opportunity, not control",
+                "Laissez-faire, closer to the nature side"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "The idea that a child is a 'tabula rasa' at birth is credited to:",
+            "options": [
+              "Jean-Jacques Rousseau",
+              "John Locke",
+              "Sigmund Freud",
+              "Charles Darwin"
+            ],
+            "answerIndex": 1,
+            "why": "Locke, an English philosopher of the 1600s, described the newborn mind as a blank slate. Rousseau, the usual distractor, pictured the child as a flower growing naturally."
+          },
+          {
+            "kind": "teach",
+            "heading": "Locke: the parent as writer",
+            "body": "For **John Locke**, nothing was written on a child's mind at birth. Everything a child became came from experience, so the **parents' duty** was to fill the slate carefully through the right environment and **discipline**.\n\nThe implication for psychopathology is clear: if a child goes wrong, look first at what the child was taught and exposed to. Behaviourists centuries later took up a similar position.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Blank slate",
+                "Experience & discipline",
+                "Character formed"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Rousseau: the parent as gardener",
+            "body": "**Jean-Jacques Rousseau** saw children as naturally good, unfolding like a **flower** if left to grow. His approach was **laissez-faire**: do not force or over-control.\n\nThe parent's gifts are **caring, nurturing and opportunity**, like a gardener who waters and protects a plant but does not tell it how to bloom. Notice that Rousseau still values care; he simply trusts the child's inner nature to lead.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "leaf",
+                  "label": "Natural growth"
+                },
+                {
+                  "icon": "heart",
+                  "label": "Caring"
+                },
+                {
+                  "icon": "hand-left",
+                  "label": "Little control"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The answer today: interaction",
+            "body": "Most psychologists now reject the either-or framing. Development comes from the **interaction of heredity and environment**.\n\nSo a developmental assessment combines **child characteristics** (biological and genetic make-up) with **environmental characteristics**: family, peers, school and neighbourhood. Nature covers **biological and genetic predispositions**; nurture covers the **cognitive, social, emotional and environmental** influences a child meets at each stage of growth.",
+            "visual": {
+              "type": "venn",
+              "left": "Heredity",
+              "right": "Environment",
+              "both": "Child's development"
+            }
+          },
+          {
+            "kind": "terms",
+            "heading": "Key terms",
+            "terms": [
+              {
+                "term": "Nature",
+                "meaning": "Biological and genetic predispositions a child is born with."
+              },
+              {
+                "term": "Nurture",
+                "meaning": "Cognitive, social, emotional and environmental influences across development."
+              },
+              {
+                "term": "Tabula rasa",
+                "meaning": "Locke's 'blank slate': the mind at birth has no built-in content."
+              },
+              {
+                "term": "Laissez-faire",
+                "meaning": "Rousseau's hands-off approach: let the child unfold naturally with care and opportunity."
+              }
+            ]
+          },
+          {
+            "kind": "check",
+            "question": "A clinician gathers a child's medical and family history of illness, then interviews teachers and visits the home. This approach reflects:",
+            "options": [
+              "A pure nature view",
+              "A pure nurture view",
+              "An interactionist, developmental view",
+              "Rousseau's laissez-faire view"
+            ],
+            "answerIndex": 2,
+            "why": "Combining biological and environmental information is the interaction approach most psychologists hold today. Either pure view would ignore half of that data."
+          },
+          {
+            "kind": "teach",
+            "heading": "Diathesis–stress: how the two combine",
+            "body": "One widely used way of describing the interaction is the **diathesis–stress model**. A **diathesis** is a vulnerability, often inherited, such as a family history of depression. A **stressor** is an environmental trigger, such as losing a parent or being bullied.\n\nA disorder is most likely when vulnerability meets enough stress. Neither alone is usually sufficient, which explains why siblings with the same genes can turn out differently.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Vulnerability",
+                "Plus stressor",
+                "Disorder risk rises"
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "The Adeyemi twins",
+            "story": "Kehinde and Taiwo are identical twins in Akure, and their mother has had bouts of depression. Taiwo moves to Lagos to live with an aunt, changes school twice and is bullied badly. Kehinde stays home with steady friends. By sixteen, Taiwo is struggling with low mood while Kehinde is coping well.",
+            "takeaway": "The twins share the same genetic vulnerability, but different environments decided how that vulnerability played out."
+          },
+          {
+            "kind": "teach",
+            "heading": "One road, many destinations",
+            "body": "**Developmental psychopathology** studies how disorders emerge over a child's life, using normal development as the reference point. Two ideas from this field are worth knowing.\n\n**Equifinality**: different starting points can lead to the same outcome (several routes to conduct problems). **Multifinality**: the same starting point can lead to different outcomes (not every abused child develops a disorder). Both remind us that nature and nurture do not act in a straight line.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "git-network",
+                  "label": "Many paths, one end"
+                },
+                {
+                  "icon": "layers",
+                  "label": "One start, many ends"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Three children experience the same parental divorce: one becomes anxious, one aggressive and one shows no problem. This illustrates:",
+            "options": [
+              "Equifinality",
+              "Comorbidity",
+              "Tabula rasa",
+              "Multifinality"
+            ],
+            "answerIndex": 3,
+            "why": "One shared starting point leading to different outcomes is multifinality. Equifinality is the reverse: different starting points reaching the same outcome."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect attribution questions (who said blank slate, who said flower), and essays asking you to differentiate nature from nurture. The traps: swapping Locke and Rousseau, their centuries and countries, and writing as though modern psychologists pick one side. End every essay with interaction.",
+            "sampleQuestion": "Contrast the positions of John Locke and Jean-Jacques Rousseau on child development. How do contemporary psychologists resolve the nature–nurture debate in explaining childhood disorders?",
+            "howToAnswer": "Present Locke's blank slate and parental discipline against Rousseau's naturally unfolding flower and laissez-faire care, then argue for interaction using child and environmental characteristics, ideally with the diathesis–stress model.",
+            "scholars": [
+              "John Locke (17th century)",
+              "Jean-Jacques Rousseau (18th century)",
+              "Cicchetti & Rogosch (1996)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Nature–nurture asks how much comes from inheritance versus environment.",
+              "Locke: the child is a blank slate filled by experience and parental discipline.",
+              "Rousseau: the child unfolds naturally like a flower; parents give care and opportunity.",
+              "Today: heredity and environment interact; assess child and environmental characteristics.",
+              "Diathesis–stress, equifinality and multifinality explain why outcomes differ."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "In the nature–nurture debate, 'nature' refers to:",
+          "options": [
+            "Biological and genetic predispositions",
+            "Parenting style and discipline",
+            "Peer and school influences",
+            "Cultural values of the community"
+          ],
+          "answerIndex": 0,
+          "explanation": "Nature means inherited, biological make-up. Parenting, peers, school and culture all belong on the nurture side."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The view of the child as a flower that grows naturally is associated with:",
+          "options": [
+            "John Locke",
+            "John Watson",
+            "Jean-Jacques Rousseau",
+            "B. F. Skinner"
+          ],
+          "answerIndex": 2,
+          "explanation": "Rousseau pictured the child unfolding naturally like a flower. Locke, the usual distractor, saw the child as a blank slate."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Most psychologists today explain child development and disorder as resulting from:",
+          "options": [
+            "The interaction of heredity and environment",
+            "Heredity alone",
+            "Environment alone",
+            "Chance factors that cannot be studied"
+          ],
+          "answerIndex": 0,
+          "explanation": "The current consensus is interaction: genes and environment work together. Choosing either one alone is the old either-or framing."
+        },
+        {
+          "difficulty": 2,
+          "stem": "John Locke's notion of 'tabula rasa' implies that:",
+          "options": [
+            "Children are born with fixed personalities",
+            "Parents should leave children to develop on their own",
+            "Experience and upbringing shape what a child becomes",
+            "Mental disorders are mainly inherited"
+          ],
+          "answerIndex": 2,
+          "explanation": "A blank slate has nothing written on it, so experience, including parental discipline, forms the child. Leaving children to develop alone is Rousseau's laissez-faire idea."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which of the following is a 'child characteristic' rather than an 'environmental characteristic' in a developmental assessment?",
+          "options": [
+            "The neighbourhood the child lives in",
+            "The child's peer group",
+            "The quality of the child's school",
+            "The child's genetic make-up"
+          ],
+          "answerIndex": 3,
+          "explanation": "Child characteristics are biological and genetic. Neighbourhood, peers and school are environmental characteristics."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Rousseau's 'laissez-faire' approach to child rearing emphasises that parents should provide:",
+          "options": [
+            "Caring, nurturing and opportunity while letting the child unfold",
+            "Strict control and constant correction",
+            "Rewards and punishments for every behaviour",
+            "Early formal training to fill the child's mind"
+          ],
+          "answerIndex": 0,
+          "explanation": "Rousseau's parents give care and opportunity but do not force growth. Strict control and filling the mind fit Locke's view better."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Mr Bello insists that his son's bad behaviour is entirely the result of the friends he keeps and the discipline he lacked. Mr Bello's view is closest to that of:",
+          "options": [
+            "Rousseau",
+            "Locke",
+            "A diathesis–stress theorist",
+            "A geneticist"
+          ],
+          "answerIndex": 1,
+          "explanation": "Blaming experience and missing discipline is a strong nurture position, like Locke's. A diathesis–stress theorist would also look for an inherited vulnerability."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Identical twins share a family history of depression, but only the twin who suffers repeated bullying becomes depressed. This is best explained by:",
+          "options": [
+            "The tabula rasa view",
+            "Pure genetic determinism",
+            "The diathesis–stress model",
+            "Rousseau's laissez-faire view"
+          ],
+          "answerIndex": 2,
+          "explanation": "Both twins carry the vulnerability (diathesis), but only the one exposed to the stressor developed the disorder. Pure genetics would predict both twins becoming depressed."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Children from very different backgrounds, one neglected, one with ADHD, one with deviant peers, all end up with conduct problems. This illustrates:",
+          "options": [
+            "Multifinality",
+            "Comorbidity",
+            "Tabula rasa",
+            "Equifinality"
+          ],
+          "answerIndex": 3,
+          "explanation": "Different starting points converging on one outcome is equifinality. Multifinality is the reverse: one starting point, different outcomes."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Locke – 17th-century English philosopher",
+            "Locke – 18th-century French philosopher",
+            "Rousseau – blank slate filled by parental discipline",
+            "Rousseau – 17th-century English philosopher"
+          ],
+          "answerIndex": 0,
+          "explanation": "Locke was a 17th-century English philosopher; Rousseau was an 18th-century French one. The blank slate idea belongs to Locke, not Rousseau."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are 'nurture' influences on a child EXCEPT:",
+          "options": [
+            "Emotional climate of the home",
+            "Inherited temperament",
+            "Social experiences with peers",
+            "Cognitive stimulation at school"
+          ],
+          "answerIndex": 1,
+          "explanation": "Inherited temperament is a biological predisposition, so it falls under nature. The rest are cognitive, social, emotional or environmental influences, which make up nurture."
+        },
+        {
+          "difficulty": 4,
+          "stem": "A student writes: 'Modern psychologists have settled the debate in favour of nature because genes have been found for disorders.' The main error is that:",
+          "options": [
+            "Genes have no role in any childhood disorder",
+            "Locke proved that nature is irrelevant",
+            "The debate concerns only adult disorders",
+            "Modern psychologists emphasise interaction rather than one side"
+          ],
+          "answerIndex": 3,
+          "explanation": "The consensus is that heredity and environment interact; finding genetic influences does not remove environmental ones. The first option overcorrects, since genes do play a part."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider: I. Locke viewed parents as responsible for shaping the child through environment and discipline. II. Rousseau denied that parents had any role in the child's growth. III. A developmental view of child psychopathology combines biological and environmental information. Which are correct?",
+          "options": [
+            "I and II only",
+            "II and III only",
+            "I and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 2,
+          "explanation": "I and III are correct. Rousseau did give parents a role, as providers of care, nurture and opportunity; he only rejected heavy control."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A researcher follows 200 children who were exposed to the same flood disaster in Lokoja. Some later develop anxiety, some depression and many no disorder. The researcher would most likely conclude that:",
+          "options": [
+            "The flood caused one specific disorder in all exposed children",
+            "Outcomes depend on how the shared event interacts with each child's vulnerabilities and supports",
+            "Nature has no role because the event was environmental",
+            "The findings support Locke's blank slate over all other views"
+          ],
+          "answerIndex": 1,
+          "explanation": "One shared stressor with varied outcomes (multifinality) points to interaction between the event and individual factors. Saying nature plays no role ignores why exposed children differed."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which statement best captures the difference between equifinality and multifinality?",
+          "options": [
+            "Equifinality: one cause, many outcomes; multifinality: many causes, one outcome",
+            "Both mean that disorders are fully inherited",
+            "Equifinality concerns adults; multifinality concerns children",
+            "Equifinality: many pathways, one outcome; multifinality: one starting point, many outcomes"
+          ],
+          "answerIndex": 3,
+          "explanation": "Equifinality is different routes reaching the same end; multifinality is the same start leading to different ends. The first option reverses them, the classic trap."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,663 @@
+{
+  "unit": 8,
+  "title": "Critical Theory",
+  "summary": "Critical theory's Frankfurt School roots, its goal of emancipation, its Gramscian idea of hegemony, Robert Cox, and its core assumptions.",
+  "sections": [
+    {
+      "name": "Frankfurt School and hegemony",
+      "lesson": {
+        "title": "Theory for emancipation, not just criticism",
+        "minutes": 9,
+        "hook": "Most students think 'critical theory' means a theory that criticises other theories. It does not. The word 'critical' here is about freeing people, and that difference wins marks.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "What 'critical' really means",
+            "body": "**Critical theory** entered International Relations in the **mid-1980s**. Its name is misleading. It is not called critical because it attacks realism or liberalism (although it does).\n\nIt is called critical because its central concern is **human emancipation**: how theory can help free the oppressed people of the world. A critical theorist asks not only 'how does the world work?' but 'how can it be changed so fewer people are dominated?'",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Understand oppression",
+                "Expose its causes",
+                "Act to change it"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Born in Frankfurt",
+            "body": "The roots lie in the **Institute of Social Research** in Frankfurt, Germany, founded in **1923** and known as the **Frankfurt School**. The term 'critical theory' was formally coined in **1937**, in Max Horkheimer's essay contrasting traditional and critical theory.\n\nThe School studied why ordinary people supported **fascism**, linking it to the **authoritarian personality**, and asked how science and technology could weaken people's capacity for **critical reason**.",
+            "visual": {
+              "type": "stat",
+              "value": "1923",
+              "label": "Frankfurt School founded"
+            }
+          },
+          {
+            "kind": "terms",
+            "heading": "Names you must know",
+            "terms": [
+              { "term": "First generation", "meaning": "Horkheimer, Adorno, Marcuse, Benjamin, Pollock, Lowenthal and Fromm." },
+              { "term": "Jürgen Habermas", "meaning": "Leads the second generation from the 1970s; opened dialogue between continental and analytic philosophy and made the School global." },
+              { "term": "Richard Bernstein", "meaning": "American philosopher, contemporary of Habermas, who spread critical theory in US universities." },
+              { "term": "Robert Cox", "meaning": "Brought Gramscian critical theory into International Relations." },
+              { "term": "Andrew Linklater", "meaning": "Major critical IR theorist; wrote Beyond Realism and Marxism (1989)." }
+            ]
+          },
+          {
+            "kind": "check",
+            "question": "Critical theory is so named mainly because it:",
+            "options": [
+              "Criticises every rival perspective in IR",
+              "Is concerned with using theory for human emancipation",
+              "Was formed to criticise the League of Nations",
+              "Rejects all forms of Marxism"
+            ],
+            "answerIndex": 1,
+            "why": "The defining concern is emancipation of the oppressed. Criticising rivals is a side effect, not the reason for the name, and it actually draws on Marxism."
+          },
+          {
+            "kind": "teach",
+            "heading": "Hegemony: a different meaning",
+            "body": "**Hegemony** is central to critical theory, but not in the realist sense. Realists use it for the **overwhelming power of one state** or group of states, like the USA after the Cold War.\n\nCritical theorists, following the Italian Marxist **Antonio Gramsci**, read hegemony through **class relations**. A class is hegemonic when its rule is **accepted as legitimate**, because it has built institutions and made concessions so that others go along willingly. Consent, not just force, is the point.",
+            "visual": {
+              "type": "scale",
+              "left": "Consent",
+              "right": "Coercion",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The historic bloc",
+            "body": "When a class has legitimised its dominance through institutions and concessions, **and** also controls the formal political structure of the state, it forms a **historic bloc**.\n\nThink of it as a ruling alliance that has won both the government and the minds of the people. Its power feels normal, even natural, which is exactly why it is hard to challenge.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Institutions",
+                "Concessions",
+                "State control",
+                "Historic bloc"
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Why nobody riots",
+            "story": "In a hostel at UI, Musa asks why workers on poor wages rarely protest. Chiamaka answers that the employers give small bonuses at Christmas, sponsor church harvests and own the radio station everyone listens to. Many workers now believe that hard work alone will make them rich, so they blame themselves rather than the system.",
+            "takeaway": "Concessions, institutions and ideas win consent: that is hegemony in the Gramscian sense, not raw force."
+          },
+          {
+            "kind": "check",
+            "question": "A class that has made its rule seem legitimate through institutions and concessions, and also controls the formal state, constitutes a:",
+            "options": [
+              "Balance of power",
+              "Security community",
+              "Historic bloc",
+              "Core state"
+            ],
+            "answerIndex": 2,
+            "why": "That combination is what critical theorists call a historic bloc. A core state belongs to structuralist core–periphery language."
+          },
+          {
+            "kind": "compare",
+            "heading": "Two readings of hegemony",
+            "left": {
+              "title": "Realist hegemony",
+              "points": [
+                "Predominant power of a state",
+                "Measured in military and economic might",
+                "Rests mainly on capability",
+                "Example: a superpower"
+              ]
+            },
+            "right": {
+              "title": "Critical (Gramscian) hegemony",
+              "points": [
+                "Dominance of a class or bloc",
+                "Rests on consent and legitimacy",
+                "Built through culture, ideas, institutions",
+                "Outcome of class struggle"
+              ]
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "The favourite question asks how critical theory's idea of hegemony departs from the realist one. The trap is to define hegemony only as a dominant state. Another trap: saying critical theory is named for criticising other theories.",
+            "sampleQuestion": "Assess the departure of critical theory from realism in its interpretation of hegemony.",
+            "howToAnswer": "Give the realist meaning (predominant state power), then the Gramscian one (class dominance legitimised by consent through institutions and concessions), introduce the historic bloc, and note Cox's application to world order.",
+            "scholars": [
+              "Max Horkheimer (1937)",
+              "Antonio Gramsci",
+              "Jürgen Habermas",
+              "Robert Cox (1987)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Critical theory aims at human emancipation, not just criticising rivals.",
+              "It began with the Frankfurt School (1923); the term dates from 1937.",
+              "Habermas led the second generation; Bernstein spread it in America.",
+              "Gramscian hegemony is class dominance accepted through consent.",
+              "A legitimised class that also controls the state forms a historic bloc."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The central concern that gives critical theory its name is:",
+          "options": [
+            "Attacking every rival theory of IR",
+            "The emancipation of oppressed people",
+            "Preserving the balance of power",
+            "Measuring military capability"
+          ],
+          "answerIndex": 1,
+          "explanation": "Critical theory is about how theory can help liberate the oppressed. It is a common error to think the name comes from criticising other perspectives."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Critical theory first became influential in International Relations in the:",
+          "options": [
+            "Mid-1980s",
+            "Early 1920s",
+            "Late 1940s",
+            "Early 2010s"
+          ],
+          "answerIndex": 0,
+          "explanation": "Critical theory gained influence in IR from the mid-1980s. The 1920s mark the founding of the Frankfurt School itself, not its arrival in IR."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The Frankfurt School, from which critical theory emerged, was established in:",
+          "options": [
+            "1937",
+            "1945",
+            "1923",
+            "1970"
+          ],
+          "answerIndex": 2,
+          "explanation": "The Institute of Social Research was founded in Frankfurt in 1923. The year 1937 is when the term 'critical theory' was formally coined, a frequent trap."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which of these was NOT a member of the first generation of Frankfurt School theorists?",
+          "options": [
+            "Theodor Adorno",
+            "Herbert Marcuse",
+            "Max Horkheimer",
+            "Jürgen Habermas"
+          ],
+          "answerIndex": 3,
+          "explanation": "Habermas led the second generation from the 1970s. Adorno, Marcuse and Horkheimer were all first-generation figures."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Among other things, the early Frankfurt School studied the relationship between fascism and:",
+          "options": [
+            "The authoritarian personality",
+            "The balance of power",
+            "Free trade",
+            "Collective security"
+          ],
+          "answerIndex": 0,
+          "explanation": "The School examined how fascism connected to the authoritarian personality and how science and technology affected critical reason. Collective security is an idealist concern."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Critical theorists differ from realists in that they understand hegemony mainly in terms of:",
+          "options": [
+            "The military superiority of a single state",
+            "Geographical size",
+            "Class relations and legitimised dominance",
+            "Membership of the UN Security Council"
+          ],
+          "answerIndex": 2,
+          "explanation": "For critical theorists, hegemony is about a class whose dominance is accepted as legitimate. Military superiority of one state is the realist sense."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A ruling group stays in power for decades not mainly through soldiers but because most citizens accept its values as common sense. A critical theorist would call this:",
+          "options": [
+            "Balance of power",
+            "Hegemony based on consent",
+            "Complex interdependence",
+            "Collective security"
+          ],
+          "answerIndex": 1,
+          "explanation": "Rule that rests on widely accepted ideas is Gramscian hegemony. Balance of power concerns relations of capability between states, not consent within society."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Which philosopher, a contemporary of Habermas, helped develop critical theory in American universities?",
+          "options": [
+            "Richard Bernstein",
+            "Walter Benjamin",
+            "Erich Fromm",
+            "Friedrich Pollock"
+          ],
+          "answerIndex": 0,
+          "explanation": "Richard Bernstein embraced the critical theory agenda and spread it in the United States. Benjamin, Fromm and Pollock were first-generation Frankfurt figures."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A business class funds schools, media and charities, grants workers small benefits, and also controls the government. In critical theory terms it has formed:",
+          "options": [
+            "A periphery",
+            "A security dilemma",
+            "A historic bloc",
+            "A pluralist society"
+          ],
+          "answerIndex": 2,
+          "explanation": "Legitimised dominance through institutions and concessions, plus control of the formal state, makes a historic bloc. Periphery is a structuralist term for poor states."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Habermas – first generation of the Frankfurt School",
+            "1937 – founding of the Frankfurt Institute",
+            "Gramsci – realist theory of state hegemony",
+            "1923 – founding of the Institute of Social Research"
+          ],
+          "answerIndex": 3,
+          "explanation": "The Institute was founded in 1923. Habermas was second generation, 1937 is when the term was coined, and Gramsci was a Marxist, not a realist."
+        },
+        {
+          "difficulty": 4,
+          "stem": "The view that hegemony rests largely on consent won through institutions and concessions, rather than on force alone, draws chiefly on the ideas of:",
+          "options": [
+            "Hans Morgenthau",
+            "Antonio Gramsci",
+            "Kenneth Waltz",
+            "Immanuel Kant"
+          ],
+          "answerIndex": 1,
+          "explanation": "Gramsci developed the idea of hegemony as consent-based class rule, which Cox and other critical theorists use. Morgenthau and Waltz are realists who see hegemony as state power."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Habermas's contribution to the Frankfurt School is particularly credited with:",
+          "options": [
+            "Opening dialogue between continental and analytic traditions and globalising the School",
+            "Founding the Institute of Social Research in 1923",
+            "Coining the term 'historic bloc'",
+            "Creating the realist concept of national interest"
+          ],
+          "answerIndex": 0,
+          "explanation": "Habermas linked continental and analytic philosophy and carried the School's influence beyond Germany. 'Historic bloc' comes from Gramsci, and national interest is a realist concept."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider: I. Critical theory is so named because it criticises realism. II. The term was formally coined in 1937. III. Habermas led the second generation. IV. Critical theorists define hegemony solely as a state's military dominance. Which are correct?",
+          "options": [
+            "I and II only",
+            "II and IV only",
+            "II and III only",
+            "I, III and IV only"
+          ],
+          "answerIndex": 2,
+          "explanation": "The name comes from the goal of emancipation, not criticism (I false), and critical theorists read hegemony through class and consent (IV false). II and III are correct."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A realist and a critical theorist both call the United States 'hegemonic' after 1991. The most accurate account of their difference is that:",
+          "options": [
+            "Both mean exactly the same thing by the word",
+            "The realist stresses predominant capability; the critical theorist stresses a consent-based order backed by class forces",
+            "The realist stresses consent; the critical theorist stresses only military force",
+            "Neither theory uses the concept of hegemony"
+          ],
+          "answerIndex": 1,
+          "explanation": "Realists see hegemony as overwhelming state power, while critical theorists see an order legitimised by consent and tied to class forces. The third option reverses the two views."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which statement best explains why critical theorists say a historic bloc is hard to overthrow?",
+          "options": [
+            "It controls the state and also commands consent, so its rule feels natural",
+            "It has the largest army in the international system",
+            "International law forbids challenges to it",
+            "It depends entirely on foreign aid"
+          ],
+          "answerIndex": 0,
+          "explanation": "A historic bloc combines control of the state with legitimacy won through institutions, concessions and ideas, so people accept it as normal. Military size is the realist measure of power."
+        }
+      ]
+    },
+    {
+      "name": "Cox, ideology and core assumptions",
+      "lesson": {
+        "title": "Robert Cox and the five assumptions",
+        "minutes": 9,
+        "hook": "Marxists have been predicting the collapse of capitalism for more than 150 years, yet it keeps surviving. Robert Cox thought he knew why, and his answer was about ideas, not guns.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Robert Cox brings hegemony to world order",
+            "body": "**Robert Cox** applied the idea of hegemony to the dominance of major states and to the **international economy**. In **Production, Power and World Order** (1987) he set out a theory of how **hegemonic world orders** have risen and changed in the modern era.\n\nCox gives **states**, especially **hegemonic states**, a bigger role than traditional Marxists did. Allied with capitalist forces, these states build a global framework in which capitalism can spread and become the dominant mode of production.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Hegemonic state",
+                "Capitalist forces",
+                "Global framework",
+                "Capitalism spreads"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The original element: ideas",
+            "body": "What is new in Cox, borrowed from **Gramsci**, is the key role of **ideology**. A world order is only stable and legitimate if it rests on **consensual ideas** widely accepted by other states and by **civil society**.\n\nSo the hegemonic bloc is not just a deal between political and economic power. It also pulls in parts of civil society: universities, media, churches, NGOs. This wider hegemony explains why capitalism has outlived Marxist predictions of its early collapse.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                { "icon": "flag", "label": "Political power" },
+                { "icon": "cash", "label": "Economic power" },
+                { "icon": "people", "label": "Civil society" }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "According to Cox, the resilience of the capitalist order against predictions of collapse is best explained by:",
+            "options": [
+              "The anarchic nature of the state system",
+              "A hegemony that includes consensual ideas and civil society",
+              "The absence of class struggle",
+              "Pure military force by the hegemon"
+            ],
+            "answerIndex": 1,
+            "why": "Cox's extended hegemony rests on widely accepted ideas and draws in civil society, which makes the order durable. Pure force is exactly what Gramscian hegemony goes beyond."
+          },
+          {
+            "kind": "teach",
+            "heading": "Theory is always for someone",
+            "body": "In a famous 1981 article, Cox wrote that **theory is always for someone and for some purpose**. He contrasted **problem-solving theory**, which takes the existing order as given and tries to make it run smoothly, with **critical theory**, which asks how that order came about and how it might be changed.\n\nOn this view, realism is problem-solving theory: useful, but it quietly protects the status quo.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Problem-solving",
+              "right": "Critical",
+              "marker": 90,
+              "label": "Cox's own position"
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "How critical theory departs from Marxism",
+            "left": {
+              "title": "Traditional Marxism",
+              "points": [
+                "Rigid link: economy decides society",
+                "Class is the main inequality",
+                "Capitalism must be overthrown",
+                "Little role for states"
+              ]
+            },
+            "right": {
+              "title": "Critical theory",
+              "points": [
+                "Society and state have some autonomy",
+                "Also nationality, ethnicity, race, gender",
+                "Change possible, e.g. through democracy",
+                "Hegemonic states matter (Cox)"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Openings inside an unjust system",
+            "body": "Critical theorists still see capitalism as **exploitative and oppressive**. But they believe it also creates **openings for social change** that oppositional groups can use, for instance through the **democratic process**.\n\nThey widen the idea of inequality beyond class to include **nationality, ethnic origin, race and gender**. A poor woman from a minority group may face several layers of exclusion at once.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                { "icon": "flag", "label": "Nationality" },
+                { "icon": "people", "label": "Ethnicity and race" },
+                { "icon": "person", "label": "Gender" },
+                { "icon": "cash", "label": "Class" }
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "#EndSARS and knowledge as power",
+            "story": "In October 2020, young Nigerians organised the #EndSARS protests against police brutality. Many had learned on social media how widespread the abuse was and how other countries had reformed their police. Understanding the pattern turned private fear into public action, and the government announced that the SARS unit was dissolved.",
+            "takeaway": "Critical theory holds that knowledge is power: understanding how you are oppressed makes action to change it possible."
+          },
+          {
+            "kind": "check",
+            "question": "Which of these is a point on which critical theory departs from traditional Marxism?",
+            "options": [
+              "It denies that capitalism is exploitative",
+              "It accepts a rigid determination of society by the economy",
+              "It recognises inequalities of race, gender and ethnicity as well as class",
+              "It sees no possibility of change within capitalism"
+            ],
+            "answerIndex": 2,
+            "why": "Critical theory widens inequality beyond class. It still calls capitalism exploitative, rejects rigid economic determinism and sees openings for change."
+          },
+          {
+            "kind": "steps",
+            "heading": "The five basic assumptions",
+            "steps": [
+              { "title": "Capitalist forces", "detail": "Understand the world through the economic and social forces of capitalism, now international in reach." },
+              { "title": "Functions of states", "detail": "States and institutions are understood by how they support global capitalism." },
+              { "title": "Culture and ideology", "detail": "They support or challenge the order; hegemony legitimises capitalist rule." },
+              { "title": "Struggle of social forces", "detail": "Some groups defend the status quo, others fight to change it." },
+              { "title": "Emancipation", "detail": "Political action can change structures and free people." }
+            ]
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'differentiate critical theory from Marxism' and 'examine two assumptions'. Students lose marks by saying critical theory rejects Marxism completely, or by forgetting Cox's emphasis on ideas and civil society. Name Cox's 1987 book; it impresses examiners.",
+            "sampleQuestion": "Differentiate between critical theory and Marxism, and explain how Robert Cox accounts for the survival of capitalism.",
+            "howToAnswer": "List the departures (autonomy of state and society, wider inequalities, openings for change, role of hegemonic states), then explain Cox's Gramscian hegemony built on consensual ideas and civil society.",
+            "scholars": [
+              "Robert Cox (1981, 1987)",
+              "Antonio Gramsci",
+              "Andrew Linklater (1989)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Cox (1987) traced how hegemonic world orders form and change.",
+              "His key addition: consensual ideas and civil society stabilise hegemony.",
+              "Theory is always for someone and some purpose: problem-solving versus critical.",
+              "Critical theory rejects rigid economic determinism and widens inequality beyond class.",
+              "Knowledge is power; political action can bring emancipation."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Robert Cox's major work on hegemonic world orders is titled:",
+          "options": [
+            "Politics Among Nations",
+            "Theory of International Politics",
+            "Production, Power and World Order",
+            "Beyond Realism and Marxism"
+          ],
+          "answerIndex": 2,
+          "explanation": "Cox wrote Production, Power and World Order (1987). Politics Among Nations is Morgenthau's, Theory of International Politics is Waltz's, and Beyond Realism and Marxism is Linklater's."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Critical theory holds that 'knowledge is power'. In this context the phrase means that:",
+          "options": [
+            "Educated states always win wars",
+            "Understanding how one is oppressed makes it possible to act against it",
+            "Universities control governments",
+            "Secret intelligence decides foreign policy"
+          ],
+          "answerIndex": 1,
+          "explanation": "For critical theory, awareness of the ways one is oppressed is the first step to changing oppressive forces. It is not about military or intelligence advantage."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Critical theorists see culture and ideology as forces that:",
+          "options": [
+            "Have no effect on international relations",
+            "Only matter in domestic politics",
+            "Always oppose capitalism",
+            "Can either support or challenge the existing order"
+          ],
+          "answerIndex": 3,
+          "explanation": "Culture and ideology can uphold or resist the international social order. Saying they always oppose capitalism ignores their role in sustaining hegemony."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Cox's work is considered original mainly because of the key role it gives to:",
+          "options": [
+            "Ideological factors and consensual ideas",
+            "Geographical location",
+            "Nuclear deterrence",
+            "Human nature"
+          ],
+          "answerIndex": 0,
+          "explanation": "Inspired by Gramsci, Cox stresses that a hegemonic order must rest on widely accepted ideas. Human nature is the classical realist starting point."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Compared with traditional Marxists, Cox gives a greater role to:",
+          "options": [
+            "Individual consumers",
+            "Hegemonic states",
+            "Religious bodies",
+            "The working class alone"
+          ],
+          "answerIndex": 1,
+          "explanation": "Cox attributes a bigger role to states, especially hegemonic ones, which ally with capitalist forces to spread capitalism. Traditional Marxists focused mainly on class."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Besides class, critical theorists identify all of the following as sources of inequality and exclusion EXCEPT:",
+          "options": [
+            "Nationality",
+            "Ethnic origin",
+            "Gender",
+            "Membership of the UN"
+          ],
+          "answerIndex": 3,
+          "explanation": "Critical theory widens inequality to nationality, ethnicity, race and gender. UN membership is not one of the social inequalities it names."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Activists in a country with an unjust economic system win reforms by voting a new party into power. Critical theory would see this as:",
+          "options": [
+            "Impossible, since capitalism allows no change",
+            "Proof that capitalism is fair",
+            "An example of capitalism producing openings that oppositional groups can use",
+            "Evidence that anarchy has ended"
+          ],
+          "answerIndex": 2,
+          "explanation": "Critical theory holds that capitalism, though oppressive, creates opportunities for change such as the democratic process. It does not conclude that capitalism is fair."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A scholar asks how the current world order came into being and whose interests it serves, instead of how to make it run more smoothly. In Cox's terms, this scholar is doing:",
+          "options": [
+            "Problem-solving theory",
+            "Critical theory",
+            "Classical realism",
+            "Behaviouralism"
+          ],
+          "answerIndex": 1,
+          "explanation": "Cox's critical theory questions the origins of the order and how it could change. Problem-solving theory takes the order as given and tries to make it work better."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A critical theorist studying the World Trade Organization would primarily ask:",
+          "options": [
+            "How it supports global capitalism and whose interests it serves",
+            "How many troops its members can deploy",
+            "Whether it reflects human nature's lust for power",
+            "How it preserves the balance of power"
+          ],
+          "answerIndex": 0,
+          "explanation": "A core assumption is that states and institutions are understood by the functions they perform for global capitalism. Troops and balance of power are realist concerns."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement about critical theory and Marxism is correct?",
+          "options": [
+            "Critical theory rejects the idea that capitalism is exploitative",
+            "Critical theory holds a more rigid view of economy and society than Marxism",
+            "Critical theory grants society and state a degree of autonomy",
+            "Critical theory treats class as the only form of inequality"
+          ],
+          "answerIndex": 2,
+          "explanation": "Unlike Marxism, critical theory does not see society as rigidly determined by the economy and gives state and society some autonomy. It still sees capitalism as exploitative."
+        },
+        {
+          "difficulty": 4,
+          "stem": "In Cox's account, the hegemonic bloc that underpins world order rests on:",
+          "options": [
+            "Political and economic forces only",
+            "Military force alone",
+            "Political and economic forces plus key elements of civil society",
+            "The working class of the periphery"
+          ],
+          "answerIndex": 2,
+          "explanation": "Cox's extended hegemony includes civil society alongside political and economic forces. Leaving out civil society is the trap, since that is his original contribution."
+        },
+        {
+          "difficulty": 4,
+          "stem": "The statement that theory is 'always for someone and for some purpose' is associated with:",
+          "options": [
+            "Robert Cox",
+            "Hans Morgenthau",
+            "Robert Keohane",
+            "Woodrow Wilson"
+          ],
+          "answerIndex": 0,
+          "explanation": "Cox made this argument in 1981 to show that theories serve interests. Keohane is a neo-liberal institutionalist, and Wilson is linked to idealism."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider these assumptions: I. States and institutions are understood by their functions in supporting global capitalism. II. International relations is a struggle among social forces. III. Culture and ideology are irrelevant to world order. IV. Political action can bring more emancipatory forms of existence. Which belong to critical theory?",
+          "options": [
+            "I, II and III only",
+            "II and III only",
+            "I and IV only",
+            "I, II and IV only"
+          ],
+          "answerIndex": 3,
+          "explanation": "Critical theory treats culture and ideology as powerful forces, so III is false. I, II and IV are among its basic assumptions."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A Marxist says capitalism will soon collapse under its contradictions. A follower of Cox replies that it will probably endure. The Coxian's best reason is that:",
+          "options": [
+            "Capitalism has no contradictions at all",
+            "Its hegemony is anchored in widely shared ideas and civil society, giving it legitimacy",
+            "Anarchy prevents any single class from dominating",
+            "Interdependence makes all classes equally wealthy"
+          ],
+          "answerIndex": 1,
+          "explanation": "Cox explains capitalism's resilience by its consent-based hegemony built on ideas and civil society. He does not deny contradictions; he explains why they have not toppled the system."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which pairing correctly matches the concept with its source?",
+          "options": [
+            "Historic bloc – Gramsci; emancipation goal – Frankfurt School",
+            "Historic bloc – Waltz; emancipation goal – realism",
+            "Hegemony as state power – Gramsci; consent – Morgenthau",
+            "Problem-solving theory – Habermas; historic bloc – Horkheimer"
+          ],
+          "answerIndex": 0,
+          "explanation": "The historic bloc comes from Gramsci, and the goal of emancipation defines the Frankfurt School tradition. The other options attach concepts to the wrong thinkers."
+        }
+      ]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 import type { EducationLevel } from '@prisma/client';
 
 /** Canonical subject names. Tutors, parents and content all use these, so matching is exact. */
-export const SUBJECTS: Record<Exclude<EducationLevel, 'NURSERY'>, string[]> = {
+export const SUBJECTS: Record<Exclude<EducationLevel, 'NURSERY' | 'TERTIARY'>, string[]> = {
   PRIMARY: ['Mathematics', 'English Language', 'Basic Science', 'Verbal Reasoning', 'Quantitative Reasoning'],
   JUNIOR_SECONDARY: ['Mathematics', 'English Language', 'Basic Science', 'Basic Technology', 'Business Studies'],
   SENIOR_SECONDARY: ['Mathematics', 'English Language', 'Physics', 'Chemistry', 'Biology', 'Economics', 'Further Mathematics', 'Literature in English'],
@@ -12,6 +12,7 @@ export const LEVEL_LABEL: Record<EducationLevel, string> = {
   PRIMARY: 'Primary',
   JUNIOR_SECONDARY: 'Junior Secondary',
   SENIOR_SECONDARY: 'Senior Secondary',
+  TERTIARY: 'University',
 };
 
 export const GRADES: Record<EducationLevel, string[]> = {
@@ -19,6 +20,7 @@ export const GRADES: Record<EducationLevel, string[]> = {
   PRIMARY: ['Primary 1', 'Primary 2', 'Primary 3', 'Primary 4', 'Primary 5', 'Primary 6'],
   JUNIOR_SECONDARY: ['JSS1', 'JSS2', 'JSS3'],
   SENIOR_SECONDARY: ['SS1', 'SS2', 'SS3'],
+  TERTIARY: ['100 Level', '200 Level', '300 Level', '400 Level', '500 Level'],
 };
 
 export const EXAMS = ['Common Entrance', 'BECE', 'WAEC', 'NECO', 'JAMB'];
@@ -38,4 +40,4 @@ export function subjectStyle(subject: string): { icon: QuestIcon; tone: QuestTon
 }
 
 export const isSubject = (subject: string, level: EducationLevel) =>
-  level !== 'NURSERY' && SUBJECTS[level].includes(subject);
+  level !== 'NURSERY' && level !== 'TERTIARY' && SUBJECTS[level].includes(subject);

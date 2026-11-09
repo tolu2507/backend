@@ -1,0 +1,739 @@
+{
+  "unit": 10,
+  "title": "Recovering Repressed Memories",
+  "summary": "The controversy over repressed and recovered memories, and three unusual memory phenomena: flashbulb memories, their features, and eidetic imagery.",
+  "sections": [
+    {
+      "name": "Repression and recovered memories",
+      "lesson": {
+        "title": "Can the mind bury a memory?",
+        "minutes": 9,
+        "hook": "Nollywood loves the scene: a grown woman suddenly 'remembers' a childhood horror that explains everything wrong in her life. Psychologists have fought bitterly over whether real memory works like that.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "What repression means",
+            "body": "**Repression** is the idea that when a thought, feeling or memory is too painful to bear, the mind **unconsciously** pushes it out of awareness. The person is not choosing to forget; they simply become unaware the memory exists.\n\nThe concept comes from **Sigmund Freud**, who saw repression as a central **defence mechanism** protecting the ego from anxiety. The key word is *unconscious*: deliberately trying not to think about something is suppression, not repression.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Painful experience",
+                "Unconscious push",
+                "Out of awareness"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Repressed and recovered memory",
+            "body": "The fuller claim goes like this. A **trauma** is so severe that it cannot stay in conscious memory, so it is removed by **repression**, **dissociation** (a split between the experience and normal awareness), or both.\n\nYears later the memory may return, often in an ordinary, harmless setting, such as a smell or a film scene, and reappear in consciousness. This returning memory is called a **recovered memory**.",
+            "visual": {
+              "type": "cycle",
+              "nodes": [
+                "Trauma",
+                "Repression or dissociation",
+                "Years unaware",
+                "Memory returns"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Which feature most clearly separates repression from simply trying not to think about something?",
+            "options": [
+              "Repression involves a pleasant memory",
+              "Repression happens unconsciously",
+              "Repression always takes place in adulthood",
+              "Repression improves recall of the event"
+            ],
+            "answerIndex": 1,
+            "why": "Repression is an unconscious process; deliberately pushing a thought away is suppression. Repressed material is painful, not pleasant."
+          },
+          {
+            "kind": "teach",
+            "heading": "How the idea spread",
+            "body": "Many people believe that buried memories of childhood abuse can cause serious problems in adult life (Stafford and Lynn, 2002). Films, novels and television have spread this belief.\n\nSelf-help books pushed it further. The best known is ***The Courage to Heal*** (1988) by **Ellen Bass and Laura Davis**. It became a 'bible' for abuse survivors and a main text for some therapists who treated them.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "book",
+                  "label": "Self-help books"
+                },
+                {
+                  "icon": "megaphone",
+                  "label": "Films and TV"
+                },
+                {
+                  "icon": "people",
+                  "label": "Public belief"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The controversial advice",
+            "body": "Bass and Davis did not only help people who remembered abuse. They also reached out to people with **no memory** of abuse at all.\n\nTheir message, in summary: if you have a feeling something abusive happened, it probably did; if you suspect abuse and have the 'symptoms', you were abused; and you do **not need proof**.\n\nNotice the problem. A feeling, plus vague symptoms that almost anyone has, was treated as enough to conclude that abuse happened.",
+            "visual": {
+              "type": "scale",
+              "left": "Feelings and symptoms",
+              "right": "Evidence",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Why psychologists are sceptical",
+            "body": "Many psychologists doubt such recovered memories. They argue that many are **false memories** created by the **suggestions of therapists**, especially when techniques like repeated questioning, guided imagery or hypnosis are used.\n\nYou already know why this is plausible: memory is reconstructive, and misinformation can plant details. **Loftus and Pickrell (1995)** showed that a fair number of adults could be led to 'remember' being lost in a shopping mall as a child, an event that never happened.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Therapist suggestion",
+                "Imagining it",
+                "Feels familiar",
+                "False memory"
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "A worrying therapy session",
+            "story": "Adaeze, 28, sees a counsellor in Abuja about low mood. The counsellor says her symptoms 'look like' hidden childhood abuse and asks her each week to imagine what might have happened. After months of this, Adaeze has vivid images of an uncle hurting her. Her family is torn apart. No other evidence exists, and the images first appeared only during the sessions.",
+            "takeaway": "Repeated suggestion and imagination can build a memory that feels real but may be false."
+          },
+          {
+            "kind": "compare",
+            "heading": "Two sides of the debate",
+            "left": {
+              "title": "Supporters of recovery",
+              "points": [
+                "Trauma can be repressed or dissociated",
+                "Memories may return years later",
+                "Survivors need belief and support",
+                "Bass & Davis (1988)"
+              ]
+            },
+            "right": {
+              "title": "Sceptics",
+              "points": [
+                "Memory is reconstructive and suggestible",
+                "Therapy can plant false memories",
+                "Feelings and symptoms are not proof",
+                "Loftus and colleagues"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "The main criticism sceptics make of 'recovered' memories of abuse is that they:",
+            "options": [
+              "Are always deliberate lies",
+              "Can never be about real events",
+              "May be false memories produced by therapist suggestion",
+              "Are stored in sensory memory only"
+            ],
+            "answerIndex": 2,
+            "why": "Sceptics argue suggestion can create sincere but false memories. They do not claim every such memory is a lie or that real abuse never happens."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect the definition of repression with the word 'unconscious', the Bass and Davis book, and the sceptics' argument. The trap is taking sides crudely. A good answer accepts that abuse is real and serious, while explaining why memories recovered through suggestion need independent support.",
+            "sampleQuestion": "Critically examine the claim that repressed memories of childhood abuse can be accurately recovered in therapy.",
+            "howToAnswer": "Define repression and recovered memory, describe the Bass and Davis position, then use reconstructive memory and false-memory research (Loftus) to argue that suggestion can create convincing false memories.",
+            "scholars": [
+              "Freud",
+              "Bass & Davis (1988)",
+              "Stafford & Lynn (2002)",
+              "Loftus & Pickrell (1995)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Repression: painful material unconsciously pushed out of awareness.",
+              "Recovered memory: trauma said to return years later, often in harmless settings.",
+              "The Courage to Heal (1988) told readers feelings were enough, without proof.",
+              "Sceptics: many recovered memories may be false, planted by suggestion.",
+              "Reconstructive memory makes such false memories plausible."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Repression, as a memory process, is best described as:",
+          "options": [
+            "Deliberately refusing to talk about an event",
+            "Unconsciously pushing a painful memory out of awareness",
+            "Gradual fading of memories through disuse",
+            "Losing memories because of a head injury"
+          ],
+          "answerIndex": 1,
+          "explanation": "Repression is unconscious and is triggered by painful content. Deliberate avoidance is suppression, and fading through disuse is decay."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The book The Courage to Heal (1988), which shaped beliefs about repressed abuse memories, was written by:",
+          "options": [
+            "Elizabeth Loftus and Katherine Ketcham",
+            "Brown and Kulik",
+            "Ellen Bass and Laura Davis",
+            "Stafford and Lynn"
+          ],
+          "answerIndex": 2,
+          "explanation": "Bass and Davis wrote the book. Stafford and Lynn (2002) wrote about public belief in repressed memories, a nearby name students mix up."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Many psychologists are sceptical of 'recovered' memories mainly because they believe such memories:",
+          "options": [
+            "Are too painful to discuss",
+            "Are always about trivial events",
+            "Are stored only in the brainstem",
+            "May be false memories created by suggestion"
+          ],
+          "answerIndex": 3,
+          "explanation": "The core worry is that therapists' suggestions can create memories that feel real but are false. The other options are not claims sceptics make."
+        },
+        {
+          "difficulty": 2,
+          "stem": "According to the repressed memory account, a trauma too severe to keep in conscious memory is removed by:",
+          "options": [
+            "Repression, dissociation or both",
+            "Rehearsal and consolidation",
+            "Chunking and encoding",
+            "Decay and displacement"
+          ],
+          "answerIndex": 0,
+          "explanation": "The account says repression, dissociation or a combination remove the trauma from awareness. Rehearsal and consolidation strengthen memories rather than remove them."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which of these was a central message of Bass and Davis to readers with no memory of abuse?",
+          "options": [
+            "Seek independent evidence before drawing any conclusion",
+            "A feeling that abuse happened, plus symptoms, means it probably did",
+            "Only memories recovered under hypnosis can be trusted",
+            "Childhood memories cannot be forgotten"
+          ],
+          "answerIndex": 1,
+          "explanation": "They told readers that a feeling and symptoms were enough and that proof was not their responsibility. Seeking evidence is the sceptics' position, not theirs."
+        },
+        {
+          "difficulty": 2,
+          "stem": "According to the repressed memory view, a recovered memory typically returns:",
+          "options": [
+            "Immediately after the trauma",
+            "Only during brain surgery",
+            "Later, often in ordinary, harmless circumstances",
+            "Never, because repression is permanent"
+          ],
+          "answerIndex": 2,
+          "explanation": "The account holds that the memory may resurface years later, often triggered in an innocuous setting. Brain surgery is linked to Penfield's flashbacks, not recovered memories."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Ope tells a friend, 'I have been trying hard not to think about my failed exam all week.' A student who calls this repression has confused it with:",
+          "options": [
+            "Dissociation, because Ope has split from reality",
+            "Suppression, because Ope is avoiding the thought deliberately",
+            "Flashbulb memory, because the event was emotional",
+            "Eidetic imagery, because the memory is vivid"
+          ],
+          "answerIndex": 1,
+          "explanation": "Deliberate avoidance is suppression; repression happens without awareness. Ope is fully aware of the memory, so it is not repressed."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A counsellor tells a client with low mood that her symptoms suggest hidden abuse and asks her to imagine it weekly. Months later she 'remembers' abuse. A memory researcher would be most concerned that:",
+          "options": [
+            "Repeated suggestion and imagination may have created a false memory",
+            "The client has developed eidetic imagery",
+            "The memory is certainly accurate because it is vivid",
+            "The client is deliberately lying for attention"
+          ],
+          "answerIndex": 0,
+          "explanation": "Suggestion plus repeated imagining is exactly how false memories can be built. Vividness does not prove accuracy, and the client may be entirely sincere."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Which research finding gives sceptics the strongest support when they question recovered memories?",
+          "options": [
+            "Flashbulb memories rank high in emotion and rehearsal",
+            "About 5% of children show eidetic imagery",
+            "Short-term memory holds about seven items",
+            "Adults can be led to recall childhood events that never happened"
+          ],
+          "answerIndex": 3,
+          "explanation": "Studies such as Loftus and Pickrell's 'lost in the mall' show false childhood memories can be implanted. The other findings are real but irrelevant to the debate."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are true of the repressed memory controversy EXCEPT:",
+          "options": [
+            "Popular media helped spread belief in repressed memories",
+            "Bass and Davis said victims need not prove abuse",
+            "Sceptics deny that childhood abuse ever occurs",
+            "Some therapists used The Courage to Heal as a key text"
+          ],
+          "answerIndex": 2,
+          "explanation": "Sceptics question whether memories recovered by suggestion are accurate; they do not deny that abuse happens. The other statements are accurate."
+        },
+        {
+          "difficulty": 4,
+          "stem": "The weakness in the claim 'if your life shows the symptoms, then you were abused' is that:",
+          "options": [
+            "The symptoms listed are common and could have many other causes",
+            "Symptoms never appear in abuse survivors",
+            "Only children can show symptoms of abuse",
+            "Symptoms can be measured only by brain scans"
+          ],
+          "answerIndex": 0,
+          "explanation": "Low mood, anxiety and similar problems have many possible causes, so they cannot prove a specific past event. Survivors may show such symptoms, but symptoms alone are not proof."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Stafford & Lynn (2002) – wrote The Courage to Heal",
+            "Freud – repression as an unconscious defence",
+            "Bass & Davis (1988) – implanted false childhood memories",
+            "Loftus – argued feelings alone prove abuse"
+          ],
+          "answerIndex": 1,
+          "explanation": "Freud introduced repression as a defence mechanism. The other pairs are scrambled: Bass and Davis wrote the book, and Loftus is a leading sceptic."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider: I. Repression is a conscious decision to forget. II. Recovered memories may return in harmless settings. III. Sceptics argue therapist suggestion can create false memories. IV. Bass and Davis required proof before concluding abuse occurred. Which are correct?",
+          "options": [
+            "I and IV only",
+            "II and III only",
+            "I, II and III only",
+            "II, III and IV only"
+          ],
+          "answerIndex": 1,
+          "explanation": "Statements II and III are correct. Repression is unconscious (I is false), and Bass and Davis explicitly said proof was not needed (IV is false)."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A court must decide whether to accept a memory of abuse recovered after two years of suggestive therapy, with no other evidence. Drawing on memory research, the soundest position is that the memory:",
+          "options": [
+            "Must be true, because repressed memories are stored perfectly",
+            "Must be false, because abuse is rarely forgotten",
+            "Should be accepted if the witness is confident",
+            "May be sincere but needs independent corroboration because suggestion can create false memories"
+          ],
+          "answerIndex": 3,
+          "explanation": "Reconstructive memory means sincere, vivid recall can still be false, especially after suggestion, so corroboration is needed. Confidence is a poor guide, and declaring it certainly false goes beyond the evidence."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which combination of ideas from earlier sessions best explains how a recovered memory could feel real yet be false?",
+          "options": [
+            "Memory is reconstructive, and post-event suggestion can be blended into memory",
+            "Memory is a recorder, and stress improves peripheral details",
+            "Sensory memory is large, and short-term memory lasts years",
+            "Schemas never affect recall, and confidence equals accuracy"
+          ],
+          "answerIndex": 0,
+          "explanation": "Reconstruction fills gaps and the misinformation effect inserts suggested content, producing a memory that feels genuine. The other combinations contain false claims, such as the recorder view."
+        }
+      ]
+    },
+    {
+      "name": "Flashbulb memories and eidetic imagery",
+      "lesson": {
+        "title": "Vivid memories and 'photographic' ones",
+        "minutes": 10,
+        "hook": "Where were you when you heard about the shootings at the Lekki toll gate in October 2020? Many Nigerians can name the room, the phone and the person who told them. But are those memories as accurate as they feel?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Flashbulb memories",
+            "body": "**Brown and Kulik (1977)** coined the term **flashbulb memory** for an extremely vivid, long-lasting memory of the moment you learned about a shocking, surprising or highly emotional event. It feels as if a camera flash froze the scene.\n\nTheir famous example was the assassination of US President John F. Kennedy in 1963. People remembered exactly where they were when they heard. Personal events count too, such as hearing of a loved one's death.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "flash",
+                  "label": "Shocking news"
+                },
+                {
+                  "icon": "heart",
+                  "label": "Strong emotion"
+                },
+                {
+                  "icon": "time",
+                  "label": "Lasting vividness"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "What makes a flashbulb",
+            "body": "Brown and Kulik named three qualities that turn an ordinary memory into a flashbulb memory.\n\nThe event must cause **high surprise**. It must be **important**, with real consequences (**consequentiality**). And it must stir a **strong emotional response**.\n\nOf these, surprise and consequentiality are usually seen as the main determinants, with emotional arousal also playing a part.",
+            "visual": {
+              "type": "pyramid",
+              "levels": [
+                "Flashbulb memory",
+                "Emotional arousal",
+                "Consequentiality",
+                "Surprise"
+              ]
+            }
+          },
+          {
+            "kind": "terms",
+            "heading": "Six features people recall",
+            "terms": [
+              {
+                "term": "Place",
+                "meaning": "Where you were when you heard."
+              },
+              {
+                "term": "Ongoing activity",
+                "meaning": "What you were doing at that moment."
+              },
+              {
+                "term": "Informant",
+                "meaning": "Who or what told you the news."
+              },
+              {
+                "term": "Own affect",
+                "meaning": "How you yourself felt."
+              },
+              {
+                "term": "Other affect",
+                "meaning": "How the people around you reacted."
+              },
+              {
+                "term": "Aftermath",
+                "meaning": "What happened straight after."
+              }
+            ]
+          },
+          {
+            "kind": "check",
+            "question": "Tunde remembers that his roommate burst in shouting the news. In Brown and Kulik's scheme, the roommate is the:",
+            "options": [
+              "Aftermath",
+              "Other affect",
+              "Informant",
+              "Ongoing activity"
+            ],
+            "answerIndex": 2,
+            "why": "The informant is the source of the news. 'Other affect' would be how the roommate felt, not the fact that he delivered the news."
+          },
+          {
+            "kind": "teach",
+            "heading": "Pillemer: not a special system",
+            "body": "**Pillemer (1990)** argued flashbulb memories are not a separate *kind* of memory. Every memory varies along three dimensions: **emotion**, **consequentiality** and **rehearsal** (how often you think or talk about the event afterwards).\n\nFlashbulb memories simply score **high on all three**, which is why they are so memorable. Notice that rehearsal matters: you have probably retold your Lekki story many times.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "heart",
+                  "label": "Emotion"
+                },
+                {
+                  "icon": "trending-up",
+                  "label": "Consequentiality"
+                },
+                {
+                  "icon": "repeat",
+                  "label": "Rehearsal"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Vivid but not accurate",
+            "body": "Flashbulb memories **feel** certain, but **Curci and colleagues (2001)** found they fade at roughly the **same speed**, and distort in similar ways, as everyday memories.\n\nA well-known study by **Neisser and Harsch (1992)** asked students the day after the 1986 Challenger space shuttle disaster how they heard the news, then asked again about two and a half years later. Many later accounts differed sharply from the originals, yet people were confident in them. What stays strong is the **confidence**, not the accuracy.",
+            "visual": {
+              "type": "scale",
+              "left": "Confidence",
+              "right": "Accuracy",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Two versions of one night",
+            "story": "The night of the Lekki shootings, Halima wrote in her diary that she heard the news from a Twitter live stream in her hostel. Three years later she tells friends, with total certainty, that her mother phoned her at home with the news. When she finds the diary, she is stunned. Both versions felt equally real to her.",
+            "takeaway": "Flashbulb memories stay vivid and confident, but their details drift like any other memory."
+          },
+          {
+            "kind": "check",
+            "question": "Curci and colleagues (2001) found that flashbulb memories:",
+            "options": [
+              "Never fade at all",
+              "Fade at about the same rate as ordinary memories",
+              "Are stored in sensory memory",
+              "Occur only for public events"
+            ],
+            "answerIndex": 1,
+            "why": "Their vividness is misleading; they are forgotten much like other memories. They can also be about personal events, such as a family death."
+          },
+          {
+            "kind": "teach",
+            "heading": "Eidetic imagery",
+            "body": "A truly **photographic memory**, capturing every detail perfectly and for ever, is doubted by psychologists except perhaps in a few rare cases.\n\nThe closest real phenomenon is **eidetic imagery**: holding an image in such detail and clarity that it is almost as if you were still looking at it. **Haber (1980)** reported that about **5% of children** show it. They can keep a picture in view in their mind for **several minutes** after it is removed and answer questions about it.",
+            "visual": {
+              "type": "stat",
+              "value": "~5%",
+              "label": "Children with eidetic imagery"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Limits of eidetic imagery",
+            "body": "Eidetic imagery is not perfect. It can include **distortions and additions**, much like episodic memory, and **talking** (vocalising) while holding the image interferes with it.\n\nEidetic children generally have **no better long-term memory** than their classmates, and almost all of them **lose** the ability before adulthood. A rare exception was **Elizabeth**, an artist and teacher studied by **Stromeyer (1970)**, who could reproduce a poem in a foreign language years later, writing it from the bottom line upwards.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Vivid childhood image",
+                "Fades with age",
+                "Rare adult cases"
+              ]
+            }
+          },
+          {
+            "kind": "steps",
+            "heading": "Testing for eidetic imagery",
+            "steps": [
+              {
+                "title": "Stare",
+                "detail": "The child looks at a first picture for about 30 seconds."
+              },
+              {
+                "title": "Wait",
+                "detail": "The picture is removed for a few minutes."
+              },
+              {
+                "title": "Second drawing",
+                "detail": "A different drawing is shown that looks meaningless alone."
+              },
+              {
+                "title": "Fusion",
+                "detail": "An eidetic child mentally combines both pictures and reports seeing a face."
+              }
+            ]
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "SAQ 10.1 asks for the characteristics of flashbulb memory, so learn the six features and the three qualities. Expect attribution questions (Brown and Kulik, Pillemer, Haber) and traps like 'flashbulb memories are perfectly accurate' or 'eidetic children have superior long-term memory'. Both are false.",
+            "sampleQuestion": "Explain the characteristics of flashbulb memory and evaluate the claim that such memories are especially accurate.",
+            "howToAnswer": "Define flashbulb memory (Brown and Kulik, 1977), list the six features and three qualities, add Pillemer's dimensions, then use Curci et al. (2001) and Neisser and Harsch (1992) to show they are vivid and confident but not especially accurate.",
+            "scholars": [
+              "Brown & Kulik (1977)",
+              "Pillemer (1990)",
+              "Curci et al. (2001)",
+              "Neisser & Harsch (1992)",
+              "Haber (1980)",
+              "Stromeyer (1970)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Flashbulb memory: vivid memory of learning shocking news (Brown & Kulik, 1977).",
+              "Six features: place, activity, informant, own affect, other affect, aftermath.",
+              "Pillemer: high emotion, consequentiality and rehearsal, not a special system.",
+              "Flashbulb memories fade like others; confidence stays high.",
+              "Eidetic imagery: about 5% of children, usually lost by adulthood."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The term 'flashbulb memory' was introduced by:",
+          "options": [
+            "Brown and Kulik",
+            "Bass and Davis",
+            "Neisser and Harsch",
+            "Roediger and McDermott"
+          ],
+          "answerIndex": 0,
+          "explanation": "Brown and Kulik (1977) coined the term. Neisser and Harsch later tested how accurate such memories are, a common mix-up."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Eidetic imagery is best described as the ability to:",
+          "options": [
+            "Recall the moment one heard shocking news",
+            "Hold an image so clearly it seems still to be seen",
+            "Forget painful memories unconsciously",
+            "Remember lists by grouping items"
+          ],
+          "answerIndex": 1,
+          "explanation": "Eidetic imagery is retaining a picture with near-perceptual clarity. Recalling where one heard shocking news is a flashbulb memory."
+        },
+        {
+          "difficulty": 1,
+          "stem": "According to Haber (1980), roughly what proportion of children show eidetic imagery?",
+          "options": [
+            "About 50%",
+            "About 15%",
+            "About 5%",
+            "Almost all"
+          ],
+          "answerIndex": 2,
+          "explanation": "About 5% of children show it. 15% is Egeth's cross-race figure from the eyewitness session."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which of the following is NOT one of Brown and Kulik's three qualities that turn a memory into a flashbulb memory?",
+          "options": [
+            "High surprise",
+            "Significant importance",
+            "Heightened emotion",
+            "Repeated exposure to a picture"
+          ],
+          "answerIndex": 3,
+          "explanation": "The three are surprise, importance and emotional response. Repeated picture exposure has nothing to do with flashbulb memory."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Pillemer (1990) argued that flashbulb memories are:",
+          "options": [
+            "Ordinary memories that score high on emotion, consequentiality and rehearsal",
+            "A completely separate memory system",
+            "Always perfectly accurate records",
+            "Found only in children"
+          ],
+          "answerIndex": 0,
+          "explanation": "Pillemer denied they form a special system; they are extreme on dimensions all memories share. Brown and Kulik leaned towards a special mechanism."
+        },
+        {
+          "difficulty": 2,
+          "stem": "What usually happens to eidetic imagery as children grow up?",
+          "options": [
+            "It becomes stronger with age",
+            "It turns into flashbulb memory",
+            "It is almost always lost before adulthood",
+            "It spreads to all the senses"
+          ],
+          "answerIndex": 2,
+          "explanation": "Virtually all eidetic children lose the ability before adulthood. Rare adults like Elizabeth are exceptions."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Ngozi recalls that when she heard of her grandfather's death, everyone in the room began to cry. In Brown and Kulik's six features, this detail is:",
+          "options": [
+            "Own affect",
+            "Informant",
+            "Place",
+            "Other affect"
+          ],
+          "answerIndex": 3,
+          "explanation": "Others' reactions are 'other affect'. Ngozi's own feelings would be 'own affect', the closest wrong option."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A student has talked about the day of a national tragedy with friends dozens of times. In Pillemer's terms, this repeated talking raises the memory's:",
+          "options": [
+            "Consequentiality",
+            "Rehearsal",
+            "Surprise",
+            "Eidetic quality"
+          ],
+          "answerIndex": 1,
+          "explanation": "Thinking or talking about an event afterwards is rehearsal. Consequentiality concerns how important the event's consequences are."
+        },
+        {
+          "difficulty": 3,
+          "stem": "In a test, a child stares at one picture for 30 seconds, then later sees a second meaningless drawing and reports seeing a face. This shows that the child:",
+          "options": [
+            "Retained an eidetic image and fused it with the second drawing",
+            "Has a flashbulb memory of the first picture",
+            "Has repressed the first picture",
+            "Has superior long-term memory for faces"
+          ],
+          "answerIndex": 0,
+          "explanation": "The face appears only if the first image is held and combined with the second. Eidetic children do not have better long-term memory, so that option is a trap."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are true of eidetic imagery EXCEPT:",
+          "options": [
+            "It is subject to distortions and additions",
+            "Talking while holding the image interferes with it",
+            "It can last for several minutes after a picture is removed",
+            "Eidetic children have much better long-term memory than peers"
+          ],
+          "answerIndex": 3,
+          "explanation": "Eidetic children generally have no better long-term memory than others. The other three statements are all accurate."
+        },
+        {
+          "difficulty": 4,
+          "stem": "The finding of Curci and colleagues (2001) that flashbulb memories are forgotten like other memories most directly challenges the view that:",
+          "options": [
+            "Flashbulb memories involve emotion",
+            "Flashbulb memories are a special, fixed record",
+            "Flashbulb memories can concern personal events",
+            "People rehearse flashbulb memories"
+          ],
+          "answerIndex": 1,
+          "explanation": "If they fade normally, they are not a permanent snapshot, which undermines the special-mechanism view. Emotion and rehearsal remain part of the account."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Haber (1980) – six features of flashbulb memory",
+            "Pillemer (1990) – about 5% of children are eidetic",
+            "Stromeyer (1970) – Elizabeth, an adult with eidetic ability",
+            "Brown & Kulik (1977) – flashbulb memories fade normally"
+          ],
+          "answerIndex": 2,
+          "explanation": "Stromeyer studied Elizabeth. Haber reported the 5% figure, Brown and Kulik described the six features, and Curci and colleagues found normal fading."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider: I. Flashbulb memories are held with high confidence. II. Flashbulb memories resist forgetting better than all other memories. III. Surprise and consequentiality are key determinants. IV. Pillemer saw rehearsal as one dimension of memorability. Which are correct?",
+          "options": [
+            "I, III and IV only",
+            "I and II only",
+            "II, III and IV only",
+            "I, II, III and IV"
+          ],
+          "answerIndex": 0,
+          "explanation": "Statements I, III and IV are supported. Statement II is false: Curci and colleagues found they are forgotten at a similar rate to other memories."
+        },
+        {
+          "difficulty": 5,
+          "stem": "In a Neisser-and-Harsch-style study, students describe how they heard shocking news the next day and again years later. The most likely result is that the later accounts:",
+          "options": [
+            "Match the originals exactly, with low confidence",
+            "Are forgotten entirely, with no confidence",
+            "Become more accurate over time",
+            "Often differ from the originals, yet are held with high confidence"
+          ],
+          "answerIndex": 3,
+          "explanation": "Accounts drift substantially while confidence remains high. That combination is why flashbulb memories are described as vivid but not especially accurate."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A student claims, 'Eidetic imagery is the same as a perfect photographic memory.' Which pair of facts best refutes this?",
+          "options": [
+            "It is found in about 5% of children, and it is triggered by shocking news",
+            "It includes distortions and additions, and is usually lost before adulthood",
+            "It is caused by therapist suggestion, and it lasts for years",
+            "It depends on rehearsal, and it involves six features"
+          ],
+          "answerIndex": 1,
+          "explanation": "A perfect photographic memory would not distort or fade with age, yet eidetic images do both. Shocking news, six features and rehearsal belong to flashbulb memory."
+        }
+      ]
+    }
+  ]
+}

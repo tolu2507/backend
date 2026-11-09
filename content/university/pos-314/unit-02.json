@@ -1,0 +1,629 @@
+{
+  "unit": 2,
+  "title": "Levels of Analysis in International Relations",
+  "summary": "Waltz's three levels of analysis (system, state, individual) and how to use them to explain real events like the 2003 Iraq war.",
+  "sections": [
+    {
+      "name": "Waltz's three levels",
+      "lesson": {
+        "title": "Three places to look for causes",
+        "minutes": 10,
+        "hook": "Why did a war start? Blame the leader, blame the country, or blame the world they live in? Each answer is a different level of analysis.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "What is a level of analysis?",
+            "body": "World politics is too complex to explain all at once. **Levels of analysis** are levels of generalisation: different places where we look for the causes of international events.\n\nThey organise our thinking and help us produce hypotheses. Scholars disagree on how many levels there are; proposals range from two to six. The most widely used scheme comes from **Kenneth Waltz** in *Man, the State and War* (1959): the individual, the state and the international system.",
+            "visual": {
+              "type": "pyramid",
+              "levels": ["System level", "State level", "Individual level"]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "System level: the top-down view",
+            "body": "A **system** is a set of units linked by regular interaction. The international system is made of states interacting with one another.\n\n**System-level analysis** works top-down. It says forces outside any single country, in the wider world environment, shape how countries behave. The system is the cause; what states do is the effect. Change the system and state behaviour changes. The key variable is the **distribution of power** among states.",
+            "visual": {
+              "type": "flow",
+              "nodes": ["System structure", "Pressure on states", "State behaviour"]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "How the big theories see the system",
+            "body": "Each major theory you will meet has its own picture of the international system.\n\n**Realists** treat the system as central to their explanations. **Liberals** pay more attention to what goes on inside states, so the system matters less to them. **Constructivists** link the system to **identity**, which grows out of norms, ideas and discourse.",
+            "visual": {
+              "type": "spectrum",
+              "left": "System matters little",
+              "right": "System is central",
+              "marker": 90,
+              "label": "Realists sit here"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "For which group of theorists is the international system most central to analysis?",
+            "options": [
+              "Liberals",
+              "Constructivists",
+              "Realists",
+              "Behaviouralists"
+            ],
+            "answerIndex": 2,
+            "why": "Realists see the system as vital. Liberals focus more on the internal features of states, and constructivists tie the system to identity."
+          },
+          {
+            "kind": "teach",
+            "heading": "State level: look inside the country",
+            "body": "**State-level analysis** argues that a country's internal features decide how it relates to others.\n\nWhat counts? The **type of government** (from liberal democracy to authoritarian rule), whether it faces a crisis, how its **bureaucracies** work, the pull of **interest groups** and the **legislature**, how much the public cares about foreign affairs, public opinion, and the country's **political culture**. Foreign policy often mirrors political culture.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                { "icon": "flag", "label": "Type of government" },
+                { "icon": "briefcase", "label": "Bureaucracy" },
+                { "icon": "megaphone", "label": "Public opinion" },
+                { "icon": "people", "label": "Interest groups" }
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Two governments, one crisis",
+            "story": "Imagine two neighbouring states facing the same refugee crisis. In one, a free press and an active National Assembly push the government to accept refugees and seek help from ECOWAS. In the other, a military ruler closes the border overnight without consulting anyone. Same outside pressure, very different responses.",
+            "takeaway": "When the difference lies in each country's government, institutions and opinion, you are using state-level analysis."
+          },
+          {
+            "kind": "teach",
+            "heading": "Individual level: people decide",
+            "body": "**Individual-level analysis** says humans are the key actors, because people make the policies that end up shaping the system.\n\nIt studies how individuals, alone or in groups, affect decisions: their **cognitive**, **emotional** and **psychological** make-up, sometimes **biological** factors, and **gender**. So it examines leaders' personality, perception and choices. A deeper version explains world politics through human nature itself.",
+            "visual": {
+              "type": "brain",
+              "region": "prefrontal-cortex",
+              "label": "Leaders' decisions"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "An analyst explains a war by pointing to a president's insecurity and stubborn personality. This is:",
+            "options": [
+              "System-level analysis",
+              "Individual-level analysis",
+              "State-level analysis",
+              "Structural analysis"
+            ],
+            "answerIndex": 1,
+            "why": "Personality and psychology of a leader are individual-level factors. State-level analysis would point to institutions or regime type instead."
+          },
+          {
+            "kind": "compare",
+            "heading": "State level versus system level",
+            "left": {
+              "title": "State level",
+              "points": [
+                "Looks inside the country",
+                "Regime type, bureaucracy, opinion",
+                "Similar states can act differently",
+                "Favoured more by liberals"
+              ]
+            },
+            "right": {
+              "title": "System level",
+              "points": [
+                "Looks at the whole system",
+                "Distribution of power is key",
+                "Different states pushed alike",
+                "Central to realists"
+              ]
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Lecturers love giving an explanation and asking which level it belongs to. The trap is between state and individual: 'the government's bureaucracy' is state level, while 'the president's paranoia' is individual level. Also remember the levels come from Waltz, not Morgenthau.",
+            "sampleQuestion": "Identify and discuss the three levels of analysis in international relations, showing what each regards as the main cause of state behaviour.",
+            "howToAnswer": "Credit Waltz, then explain each level with its focus and key variables (power distribution; internal attributes; human beings and their psychology), giving one example each.",
+            "scholars": ["Kenneth Waltz (1959)"]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Levels of analysis are places to look for the causes of world events.",
+              "Waltz's three levels: individual, state and system.",
+              "System level is top-down; the key variable is power distribution.",
+              "State level stresses regime type, bureaucracy, interest groups and opinion.",
+              "Individual level stresses leaders' psychology, perception and choices."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The three levels of analysis most commonly used in international relations were proposed by:",
+          "options": [
+            "Hans Morgenthau",
+            "Kenneth Waltz",
+            "Karen Mingst",
+            "Stephen Walt"
+          ],
+          "answerIndex": 1,
+          "explanation": "Waltz set out the individual, state and system levels in Man, the State and War. Mingst later applied them to the Iraq war, but did not create them."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Levels of analysis in international relations are best understood as:",
+          "options": [
+            "Ranks of states from weakest to strongest",
+            "Stages a country passes through to independence",
+            "Levels of generalisation used to locate causes of world events",
+            "Grades of diplomatic officials in an embassy"
+          ],
+          "answerIndex": 2,
+          "explanation": "They are levels at which we search for explanations. Ranking states by strength is about power, not levels of analysis."
+        },
+        {
+          "difficulty": 1,
+          "stem": "System-level analysis is often described as which kind of approach?",
+          "options": [
+            "Top-down",
+            "Bottom-up",
+            "Inside-out",
+            "Case-by-case"
+          ],
+          "answerIndex": 0,
+          "explanation": "It starts from the whole international system and works down to state behaviour. Individual-level analysis is closer to a bottom-up view."
+        },
+        {
+          "difficulty": 2,
+          "stem": "According to the session, the key variable at the system level of analysis is:",
+          "options": [
+            "The personality of leaders",
+            "The type of government a state has",
+            "Public opinion on foreign policy",
+            "The power of states within the system"
+          ],
+          "answerIndex": 3,
+          "explanation": "At the system level, the distribution of power among states is central. Government type and public opinion are state-level factors."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which of the following is NOT a state-level factor?",
+          "options": [
+            "The working of bureaucracies",
+            "The influence of interest groups",
+            "The emotional state of a head of government",
+            "The country's political culture"
+          ],
+          "answerIndex": 2,
+          "explanation": "A leader's emotions are individual-level factors. Bureaucracies, interest groups and political culture are internal attributes of the state."
+        },
+        {
+          "difficulty": 2,
+          "stem": "In system-level analysis, the relationship between the international system and state behaviour is that:",
+          "options": [
+            "The system is the cause and state behaviour is the effect",
+            "State behaviour is the cause and the system is the effect",
+            "The two are unrelated",
+            "Only individuals cause both"
+          ],
+          "answerIndex": 0,
+          "explanation": "The system-level view treats the system as the cause, so a change in the system produces a change in how states behave."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A scholar argues that Nigeria's foreign policy became more open after 1999 mainly because civilian rule gave the National Assembly and the press a voice. This explanation operates at the:",
+          "options": [
+            "System level",
+            "Individual level",
+            "Global level",
+            "State level"
+          ],
+          "answerIndex": 3,
+          "explanation": "Regime type, the legislature and the press are internal attributes of the state. A system explanation would point to global power shifts."
+        },
+        {
+          "difficulty": 3,
+          "stem": "After the Cold War ended, many small states that had relied on superpower support changed their alliances. An analyst who explains this through the change in global power structure is using:",
+          "options": [
+            "Individual-level analysis",
+            "System-level analysis",
+            "State-level analysis",
+            "Gender analysis"
+          ],
+          "answerIndex": 1,
+          "explanation": "A change in the structure of the system causing many states to change behaviour is a classic system-level explanation."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A researcher studies how a foreign minister's gender and personal beliefs shaped a peace negotiation. The level of analysis is:",
+          "options": [
+            "State level",
+            "System level",
+            "Individual level",
+            "Regional level"
+          ],
+          "answerIndex": 2,
+          "explanation": "Gender and personal beliefs of a decision-maker are individual-level factors listed in the session."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement about how the major theories view the international system is correct?",
+          "options": [
+            "Liberals regard the system as more important than realists do",
+            "Constructivists tie the system to identity shaped by norms, ideas and discourse",
+            "Realists consider the system of little consequence",
+            "All three theories describe the system in the same way"
+          ],
+          "answerIndex": 1,
+          "explanation": "Constructivists link the system to identity. The first and third options reverse the realist and liberal positions."
+        },
+        {
+          "difficulty": 4,
+          "stem": "On the number of levels of analysis in international relations, the session states that:",
+          "options": [
+            "All scholars accept exactly three levels",
+            "Waltz insisted on six levels",
+            "There is no agreement, with proposals ranging from two to six",
+            "Only two levels are recognised: domestic and foreign"
+          ],
+          "answerIndex": 2,
+          "explanation": "Scholars disagree, suggesting between two and six levels; Waltz's three are simply the most popular."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched with its level of analysis?",
+          "options": [
+            "Distribution of power: state level",
+            "Political culture: system level",
+            "Cognitive biases of leaders: state level",
+            "Crisis versus non-crisis situations: state level"
+          ],
+          "answerIndex": 3,
+          "explanation": "The kind of situation a state faces is listed as a state-level factor. Power distribution is system level and cognitive biases are individual level."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider: I. System-level analysis holds that a change in the system will change state behaviour. II. State-level analysis treats humans as the key actors. III. Individual-level analysis may consider biological factors. Which are correct?",
+          "options": [
+            "I and III only",
+            "I and II only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 0,
+          "explanation": "I and III are correct. II is wrong: treating humans as the key actors defines the individual level, not the state level."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Two very different countries, one democratic and one authoritarian, both increase their military spending when a powerful rival emerges nearby. This pattern most strongly supports which level of analysis?",
+          "options": [
+            "State level, because regime type explains it",
+            "Individual level, because leaders' personalities explain it",
+            "System level, because outside pressures push unlike states alike",
+            "None, because levels cannot explain military spending"
+          ],
+          "answerIndex": 2,
+          "explanation": "If very different states act alike under the same external pressure, internal attributes cannot be the cause; the system is. Regime type differs here, so the state level is the weaker explanation."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A student claims: 'State-level analysis ignores public opinion because only governments matter.' The best correction is that state-level analysis:",
+          "options": [
+            "Ignores public opinion but includes leaders' emotions",
+            "Includes public opinion and how interested citizens are in foreign affairs",
+            "Is concerned only with the global balance of power",
+            "Applies only to authoritarian regimes"
+          ],
+          "answerIndex": 1,
+          "explanation": "The state level explicitly covers public interest in international affairs and public opinion, alongside bureaucracies and interest groups. Leaders' emotions are individual-level factors."
+        }
+      ]
+    },
+    {
+      "name": "Applying the levels",
+      "lesson": {
+        "title": "Using the levels on a real war",
+        "minutes": 9,
+        "hook": "In 2003 the United States invaded Iraq. Ask ten analysts why and you will get at least three kinds of answer, one for each level.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Why apply the levels?",
+            "body": "The levels of analysis are a **framework** for systematic thinking. They push you to consider every category of explanation instead of grabbing the first one.\n\nKaren **Mingst**, in *Essentials of International Relations*, showed how the 2003 US-led invasion of Iraq can be explained at each level. These are *possible* explanations, not a verdict on what really happened. Most events have more than one cause.",
+            "visual": {
+              "type": "flow",
+              "nodes": ["Event", "Individual causes", "State causes", "System causes"]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Iraq 2003: individual level",
+            "body": "At the individual level, explanations focus on people:\n\n- **Saddam Hussein** was a brutal ruler who abused his own people and defied the West.\n- Saddam was **irrational**; a rational leader would have given in to the far stronger US and British coalition.\n- **George W. Bush** and his advisers had had Saddam and Iraq in their sights since the late 1990s.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                { "icon": "person", "label": "Saddam Hussein" },
+                { "icon": "person", "label": "George W. Bush" }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Iraq 2003: state level",
+            "body": "State-level explanations focus on US national needs:\n\n- Protecting **national security** against Iraq's alleged weapons of mass destruction.\n- Iraq as the next step in the **war on terror** after removing the Taliban in Afghanistan.\n- Securing **oil supply**, since Iraq had the world's second largest reserves.\n- Denying destructive weapons to states that back terrorism.\n- A national interest in building a **progressive Arab regime** in the region.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                { "icon": "shield", "label": "National security" },
+                { "icon": "cash", "label": "Oil supply" },
+                { "icon": "flag", "label": "National interest" }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Iraq 2003: international level",
+            "body": "System-level explanations look at the wider world:\n\n- **UN resolutions** condemning Iraq had to be enforced to protect the UN's legitimacy.\n- A **unipolar** system, with one superpower, is uniquely able to respond to threats to stability, and the invasion was one example.\n- An international **moral imperative** for humanitarian intervention: remove evil rulers and install democracy.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                { "icon": "globe", "label": "UN legitimacy" },
+                { "icon": "trending-up", "label": "Unipolar system" },
+                { "icon": "heart", "label": "Humanitarian duty" }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "'The US needed a secure oil supply, and Iraq had huge reserves.' At which level does this explanation sit?",
+            "options": [
+              "Individual level",
+              "System level",
+              "Regional level",
+              "State level"
+            ],
+            "answerIndex": 3,
+            "why": "It is about the national interest of the United States as a state. A system explanation would refer to unipolarity or UN legitimacy."
+          },
+          {
+            "kind": "example",
+            "heading": "Tunde's group assignment",
+            "story": "Tunde's study group in Ibadan must explain a border clash between two West African states. Kemi blames the two presidents' personal feud. Femi blames an election year that made one government want to look tough. Ada points out that a regional power had just pulled out its peacekeepers. Their tutor smiles: all three are right, at different levels.",
+            "takeaway": "A full explanation usually combines causes from the individual, state and system levels."
+          },
+          {
+            "kind": "terms",
+            "heading": "Key distinctions",
+            "terms": [
+              { "term": "Levels of analysis", "meaning": "Where we look for causes: individual or group, state and society, or the system as a whole." },
+              { "term": "Units of analysis", "meaning": "The entities studied: states, organisations, individuals, groups, classes." },
+              { "term": "Dependent variable", "meaning": "What you are trying to explain, such as the outbreak of a war." },
+              { "term": "Independent variables", "meaning": "Factors at any level suspected of causing the dependent variable." }
+            ]
+          },
+          {
+            "kind": "check",
+            "question": "A study asks why the Nigerian Civil War broke out in 1967. In this study, 'the outbreak of the war' is the:",
+            "options": [
+              "Independent variable",
+              "Dependent variable",
+              "Unit of analysis",
+              "Level of analysis"
+            ],
+            "answerIndex": 1,
+            "why": "The thing you are trying to explain is the dependent variable. The suspected causes would be the independent variables."
+          },
+          {
+            "kind": "teach",
+            "heading": "Waltz's questions about war",
+            "body": "Waltz's work on the causes of war in the 1950s was **path-breaking** because it separated the levels and tried to link them. He asked: is war rooted in **human nature** (are people innately aggressive)? In the nature of **states and societies** (are some kinds of state more warlike)? Or in the **international system** itself?\n\nOn the last, he saw **anarchy** as a *permissive* cause: with no world government, nothing stops sovereign states from using force.",
+            "visual": {
+              "type": "pyramid",
+              "levels": ["Third image: system", "Second image: state", "First image: man"]
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect the Iraq explanations scrambled, with you asked to sort them by level. The commonest slip is putting 'enforcing UN resolutions' at the state level. Also expect a question distinguishing levels from units of analysis, or dependent from independent variables.",
+            "sampleQuestion": "Using the levels of analysis, explain the US invasion of Iraq in 2003. Which level do you find most convincing?",
+            "howToAnswer": "Give two or three explanations at each level (Saddam, Bush; security, oil, terrorism; UN legitimacy, unipolarity, humanitarian duty), credit Mingst, then argue for one level while admitting events have several causes.",
+            "scholars": ["Kenneth Waltz (1959)", "Karen Mingst"]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Mingst used the three levels to explain the 2003 Iraq invasion.",
+              "Saddam and Bush: individual; oil, security, terrorism: state; UN and unipolarity: system.",
+              "Levels of analysis differ from units of analysis.",
+              "The dependent variable is what we explain; independent variables are its suspected causes.",
+              "Waltz saw anarchy as a permissive cause of war."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "In a study of why wars break out, the outbreak of war is treated as the:",
+          "options": [
+            "Dependent variable",
+            "Independent variable",
+            "Level of analysis",
+            "Assumption"
+          ],
+          "answerIndex": 0,
+          "explanation": "What is being explained is the dependent variable. Suspected causes are independent variables."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The scholar who applied the three levels of analysis to explain the US invasion of Iraq in her book Essentials of International Relations is:",
+          "options": [
+            "Charles Kegley",
+            "Daniel Papp",
+            "Karen Mingst",
+            "John Rourke"
+          ],
+          "answerIndex": 2,
+          "explanation": "Mingst set out the individual, state and international explanations for the 2003 invasion."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which of these is a unit of analysis rather than a level of analysis?",
+          "options": [
+            "The international system as a whole",
+            "State and society",
+            "Individual or group",
+            "An international organisation such as the UN"
+          ],
+          "answerIndex": 3,
+          "explanation": "Units are the entities studied, such as organisations or states. The other three are the levels at which causes are sought."
+        },
+        {
+          "difficulty": 2,
+          "stem": "'Saddam Hussein was irrational; otherwise he would have given in to the stronger coalition.' This explanation of the Iraq war is at the:",
+          "options": [
+            "System level",
+            "Individual level",
+            "State level",
+            "Organisational level"
+          ],
+          "answerIndex": 1,
+          "explanation": "It rests on the mental state of one leader, so it is individual level."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Factors suspected of causing what a researcher is trying to explain are called:",
+          "options": [
+            "Dependent variables",
+            "Units of analysis",
+            "Independent variables",
+            "Normative variables"
+          ],
+          "answerIndex": 2,
+          "explanation": "Independent variables are the suspected causes. The outcome being explained is the dependent variable."
+        },
+        {
+          "difficulty": 2,
+          "stem": "According to Waltz, anarchy is a 'permissive' cause of war because:",
+          "options": [
+            "Nothing in a world without central government prevents states from using force",
+            "Anarchy directly orders states to go to war",
+            "Leaders with aggressive personalities always come to power under anarchy",
+            "Democracies give their citizens permission to fight"
+          ],
+          "answerIndex": 0,
+          "explanation": "Anarchy permits war by removing any higher obstacle to force; it does not itself command war. Aggressive personalities belong to the individual level."
+        },
+        {
+          "difficulty": 3,
+          "stem": "'UN resolutions condemning Iraq had to be enforced to keep the United Nations credible.' Under Mingst's scheme this belongs to the:",
+          "options": [
+            "Individual level",
+            "State level",
+            "Bureaucratic level",
+            "International level"
+          ],
+          "answerIndex": 3,
+          "explanation": "UN legitimacy is a feature of the international system. Students often wrongly place it at the state level."
+        },
+        {
+          "difficulty": 3,
+          "stem": "'Removing the Taliban was the first step in the war on terror; Iraq was the second.' This explanation of the invasion is at the:",
+          "options": [
+            "State level",
+            "Individual level",
+            "International level",
+            "Cognitive level"
+          ],
+          "answerIndex": 0,
+          "explanation": "It reflects US national strategy and security interests, which Mingst places at the state level."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A researcher wants to know whether democracies are less warlike than dictatorships. In Waltz's terms, the researcher is searching for causes of war in:",
+          "options": [
+            "The nature of individuals",
+            "The nature of the international system",
+            "The nature of states and societies",
+            "The nature of international organisations"
+          ],
+          "answerIndex": 2,
+          "explanation": "Asking whether some types of state are more aggressive is Waltz's state-and-society question."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are state-level explanations of the 2003 Iraq invasion EXCEPT:",
+          "options": [
+            "The US had to protect itself from Iraq's alleged weapons of mass destruction",
+            "The US needed a stable oil supply",
+            "A unipolar system is uniquely able to respond to threats to stability",
+            "It was in the US national interest to build a progressive Arab regime"
+          ],
+          "answerIndex": 2,
+          "explanation": "Unipolarity describes the structure of the whole system, so it is an international-level explanation. The others concern US national interests."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement best explains why Waltz's 1950s work on war is called path-breaking?",
+          "options": [
+            "He was the first to claim that only individuals cause war",
+            "He separated distinct levels of analysis and tried to specify how they relate",
+            "He proved that democracies never go to war",
+            "He abolished the idea of an international system"
+          ],
+          "answerIndex": 1,
+          "explanation": "His contribution was identifying distinct levels and linking them. The democratic peace claim belongs to other scholars, such as Doyle."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Mingst's explanation that 'Bush and his advisers had targeted Saddam and Iraq since the late 1990s' is best classified as:",
+          "options": [
+            "A state-level explanation about national interest",
+            "A system-level explanation about unipolarity",
+            "A normative explanation about humanitarian duty",
+            "An individual-level explanation about decision-makers"
+          ],
+          "answerIndex": 3,
+          "explanation": "It centres on particular people and their intentions, which is individual level, even though they held state office."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider: I. 'There is an international moral imperative to remove evil leaders' is a system-level explanation. II. 'Iraq's weapons threatened US security' is an individual-level explanation. III. 'Saddam defied the West and abused his people' is an individual-level explanation. Which are correct?",
+          "options": [
+            "I and II only",
+            "II and III only",
+            "I and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 2,
+          "explanation": "I and III are correct. II is a state-level explanation because it concerns US national security."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Mingst presents eleven possible explanations for the Iraq invasion. The lesson students should draw from this is that:",
+          "options": [
+            "Only one of the explanations can be correct, so the others are false",
+            "Events usually have several possible causes, which can be organised by level",
+            "The individual level is always the most convincing",
+            "The levels of analysis cannot be applied to recent wars"
+          ],
+          "answerIndex": 1,
+          "explanation": "The point is that many reasons can be put forward and sorted by level; they are possibilities, not a single verdict. No level is automatically superior."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A researcher studies how Nigeria's foreign ministry staff shaped the country's vote at the UN. Which correctly identifies the unit and the level of analysis?",
+          "options": [
+            "Unit: the international system; level: individual",
+            "Unit: Nigeria's voting pattern; level: system",
+            "Unit: the UN; level: individual",
+            "Unit: the foreign ministry bureaucracy; level: state"
+          ],
+          "answerIndex": 3,
+          "explanation": "The entity studied is the foreign ministry, and bureaucracies are a state-level factor. The vote itself would be the dependent variable, not the unit."
+        }
+      ]
+    }
+  ]
+}

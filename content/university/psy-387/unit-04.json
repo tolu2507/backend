@@ -1,0 +1,672 @@
+{
+  "unit": 4,
+  "title": "Realistic Group Conflict Theory",
+  "summary": "How competition for scarce resources breeds prejudice, why ethnocentrism follows, and how superordinate goals can turn rivals into partners.",
+  "sections": [
+    {
+      "name": "Scarce resources and ethnocentrism",
+      "lesson": {
+        "title": "When there is not enough to share",
+        "minutes": 10,
+        "hook": "In a year of good rains, farmers and herders in the Middle Belt often trade grain for milk peacefully. In a year of drought, the same neighbours may clash. What changed: their personalities, or the size of the pie?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "The core claim",
+            "body": "**Realistic group conflict theory (RGCT)**, also called realistic conflict theory (RCT), says that when groups **compete for limited resources**, they develop negative stereotypes, hostility and open conflict.\n\nThe theory took shape in the 1960s, building on Muzafer Sherif's field experiments, and Donald Campbell gave it its name. Its message is simple: much prejudice is not irrational at all. It grows from a real (or believed) clash of interests.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Scarce resources",
+                "Competition",
+                "Stereotypes",
+                "Conflict"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The situation, not the person",
+            "body": "Many explanations of prejudice look **inside** people: authoritarian personalities, clashing values, frustration. RGCT looks **outside**, at **situational forces**.\n\nOn this view, ordinary, decent people can become hostile when placed in competition. Change the situation and you change the attitudes. That makes RGCT hopeful: prejudice is not fixed in anyone's character.",
+            "visual": {
+              "type": "scale",
+              "left": "Situation",
+              "right": "Personality",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Perception is what counts",
+            "body": "When resources seem **plentiful**, groups tend to cooperate and live in harmony. When resources seem **scarce**, competition and antagonism follow.\n\nNote the word *seem*. The scarcity only has to be **perceived**; it need not be real. A rumour that 'they are taking all the jobs' can spark hostility even if jobs are not actually shrinking.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Seen as abundant",
+              "right": "Seen as scarce",
+              "marker": 85,
+              "label": "Where conflict grows"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "According to RGCT, conflict is most likely when resources are:",
+            "options": [
+              "Truly abundant",
+              "Perceived as scarce, whether or not they are",
+              "Shared equally by law",
+              "Controlled by one person"
+            ],
+            "answerIndex": 1,
+            "why": "RGCT stresses perceived scarcity; actual scarcity is not required. When resources seem plentiful, groups tend to cooperate."
+          },
+          {
+            "kind": "terms",
+            "heading": "What groups compete over",
+            "terms": [
+              {
+                "term": "Physical resources",
+                "meaning": "Concrete goods such as land, water, food, jobs and money"
+              },
+              {
+                "term": "Psychological resources",
+                "meaning": "Intangible goods such as status, prestige and power"
+              },
+              {
+                "term": "Economic hardship",
+                "meaning": "A condition under which RGCT predicts prejudice will rise"
+              }
+            ]
+          },
+          {
+            "kind": "example",
+            "heading": "Land, water and grazing routes",
+            "story": "Across parts of north-central Nigeria, crop farmers and cattle herders have long depended on the same land and water. As farmland expands, rainfall becomes less predictable and grazing reserves shrink, both sides feel squeezed. Analysts link many deadly clashes to this competition, which is then often described in ethnic or religious terms, even though livelihoods sit at its centre.",
+            "takeaway": "RGCT explains why competition over land and water can harden into hostility between groups."
+          },
+          {
+            "kind": "teach",
+            "heading": "Who feels it most",
+            "body": "RGCT predicts that prejudice rises during **economic difficulty** and is strongest among those who **stand to lose most** from another group's progress.\n\nA classic analysis by Hovland and Sears (1940) linked falling cotton prices in the American South to more attacks on Black Americans. When jobs or trading space feel threatened, people closest to the competition often show the sharpest hostility.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "trending-down",
+                  "label": "Economy worsens"
+                },
+                {
+                  "icon": "briefcase",
+                  "label": "Jobs threatened"
+                },
+                {
+                  "icon": "warning",
+                  "label": "Prejudice rises"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Ethnocentrism",
+            "body": "**Ethnocentrism**, a term popularised by William Sumner (1906), is the belief that one's own group is superior. The in-group's ways become the **gold standard**, and other groups' ways look odd or wrong.\n\nIt does damage in two ways. It blocks **realistic judgement** of out-group members, and it blocks **open, equal, person-to-person** communication. It usually comes with **derogation** of out-groups and glorification of one's own.",
+            "visual": {
+              "type": "pyramid",
+              "levels": [
+                "Our group",
+                "Groups like us",
+                "Distant others"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Tunde says, 'Our way of greeting elders is the only proper one; other groups are simply rude.' This reflects:",
+            "options": [
+              "Superordinate goals",
+              "Group cohesion",
+              "Ethnocentrism",
+              "Realistic scarcity"
+            ],
+            "answerIndex": 2,
+            "why": "Treating one's own customs as the standard and judging others as inferior is ethnocentrism. Group cohesion is unity within a group, not a judgement of others."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect definitions with a twist: 'RGCT differs from personality theories because...' or 'perceived versus actual scarcity'. The trap is saying resources must truly be scarce, or forgetting that status and power count as resources too.",
+            "sampleQuestion": "Define realistic group conflict theory and explain how it accounts for prejudice in times of economic hardship.",
+            "howToAnswer": "State that competition for scarce resources (physical or psychological, real or perceived) breeds hostility, contrast it with personality theories, then link it to rising prejudice among groups that stand to lose most.",
+            "scholars": [
+              "Sherif (1966)",
+              "Campbell (1965)",
+              "Sumner (1906)",
+              "Hovland & Sears (1940)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "RGCT: competition for limited resources produces stereotypes and conflict.",
+              "It focuses on situations, not personalities or values.",
+              "Perceived scarcity is enough; resources can be physical or psychological.",
+              "Prejudice rises in hardship among those who stand to lose most.",
+              "Ethnocentrism treats the in-group as the gold standard and derogates others."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Realistic group conflict theory traces intergroup hostility mainly to:",
+          "options": [
+            "Competition for limited resources",
+            "Personality defects",
+            "Childhood upbringing",
+            "Genetic differences"
+          ],
+          "answerIndex": 0,
+          "explanation": "RGCT explains hostility through competition for scarce resources. Personality-based theories are what it is contrasted with."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Ethnocentrism is best described as:",
+          "options": [
+            "Cooperation between groups",
+            "Belief that one's own group is superior",
+            "Fair judgement of all groups",
+            "Marrying within one's group"
+          ],
+          "answerIndex": 1,
+          "explanation": "Ethnocentrism treats the in-group as superior and the standard for judging others. Marrying within the group is endogamy."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which of the following is a psychological rather than physical resource?",
+          "options": [
+            "Water",
+            "Farmland",
+            "Food",
+            "Prestige"
+          ],
+          "answerIndex": 3,
+          "explanation": "Prestige, status and power are psychological resources. Water, land and food are physical."
+        },
+        {
+          "difficulty": 2,
+          "stem": "RGCT differs from many other explanations of prejudice because it emphasises:",
+          "options": [
+            "Value differences",
+            "Situational forces outside the self",
+            "Personality traits",
+            "Unconscious drives"
+          ],
+          "answerIndex": 1,
+          "explanation": "RGCT focuses on external situations such as competition. Value and personality theories look inside the individual."
+        },
+        {
+          "difficulty": 2,
+          "stem": "According to RGCT, when valuable resources are perceived to be abundant, groups tend to:",
+          "options": [
+            "Compete more fiercely",
+            "Form stereotypes quickly",
+            "Cooperate and live in harmony",
+            "Become ethnocentric"
+          ],
+          "answerIndex": 2,
+          "explanation": "Perceived abundance removes the reason to compete, so groups cooperate. Competition follows perceived scarcity."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Ethnocentrism impairs a person's ability to:",
+          "options": [
+            "Evaluate out-group members realistically",
+            "Speak their own language",
+            "Feel loyal to their group",
+            "Recognise their own culture"
+          ],
+          "answerIndex": 0,
+          "explanation": "Ethnocentrism distorts judgement of others and blocks open, equal communication. It actually strengthens in-group loyalty."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Traders in a market believe, wrongly, that newcomers from another region are taking all the shop spaces, and hostility grows. RGCT would explain this by:",
+          "options": [
+            "Actual scarcity of shops",
+            "The traders' personality defects",
+            "Perceived scarcity of a valued resource",
+            "Benevolent prejudice"
+          ],
+          "answerIndex": 2,
+          "explanation": "RGCT holds that perceived scarcity is enough, whether or not it is real. The shops were not actually scarce here."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Two communities clash over which should produce the traditional ruler of a town. In RGCT terms, they are competing over a:",
+          "options": [
+            "Physical resource",
+            "Superordinate goal",
+            "Genetic trait",
+            "Psychological resource such as status and power"
+          ],
+          "answerIndex": 3,
+          "explanation": "A chieftaincy brings status, prestige and power, which are psychological resources. A superordinate goal would unite them, not divide them."
+        },
+        {
+          "difficulty": 3,
+          "stem": "During a period of rising unemployment, hostility towards migrant workers increases most among low-wage local workers. This pattern supports RGCT's prediction that prejudice is strongest among those who:",
+          "options": [
+            "Stand to lose most from another group's advance",
+            "Have the highest education",
+            "Live farthest from migrants",
+            "Hold superordinate goals"
+          ],
+          "answerIndex": 0,
+          "explanation": "Those in direct competition with the out-group feel most threatened. Distance from migrants would reduce, not increase, the sense of threat."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement about RGCT is NOT correct?",
+          "options": [
+            "It predicts more prejudice during economic difficulty",
+            "It requires resources to be actually scarce",
+            "It counts status and power as resources",
+            "It emerged in the 1960s"
+          ],
+          "answerIndex": 1,
+          "explanation": "RGCT says perceived scarcity is enough; actual scarcity is not required. The other statements are accurate."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Ethnocentrism is usually accompanied by:",
+          "options": [
+            "Praise of out-groups and criticism of the in-group",
+            "Equal regard for all groups",
+            "Glorification of the in-group and derogation of out-groups",
+            "Indifference to group membership"
+          ],
+          "answerIndex": 2,
+          "explanation": "Ethnocentrism treats the in-group as the gold standard and runs down out-groups. The first option reverses it."
+        },
+        {
+          "difficulty": 4,
+          "stem": "A researcher who explains a land dispute by pointing to the leaders' aggressive temperaments is using an explanation that RGCT would:",
+          "options": [
+            "Fully endorse",
+            "Treat as identical to its own",
+            "Reject as a form of ethnocentrism",
+            "See as secondary to the competition over land"
+          ],
+          "answerIndex": 3,
+          "explanation": "RGCT places situational competition at the centre and sees personality accounts as missing the point. It does not call them ethnocentrism."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider: I. RGCT focuses on situational forces. II. Only physical resources cause conflict. III. Perceived scarcity can produce antagonism. Which are correct?",
+          "options": [
+            "I and III only",
+            "I and II only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 0,
+          "explanation": "I and III are correct. II is false because RGCT includes psychological resources such as status, prestige and power."
+        },
+        {
+          "difficulty": 5,
+          "stem": "In the vocabulary of conflict theory, which pairing is accurate?",
+          "options": [
+            "Sumner: superordinate goals",
+            "Hovland and Sears: economic hardship and attacks on a minority",
+            "Campbell: ambivalent sexism",
+            "Sherif: The Bell Curve"
+          ],
+          "answerIndex": 1,
+          "explanation": "Hovland and Sears (1940) linked falling cotton prices to violence against Black Americans. Sumner popularised ethnocentrism; Sherif is linked to superordinate goals."
+        },
+        {
+          "difficulty": 5,
+          "stem": "In two towns with the same ethnic mix, conflict breaks out only in the one where a new oil discovery raises fears over who will control royalties. This best supports the claim that:",
+          "options": [
+            "Ethnic difference alone produces conflict",
+            "Personality explains the difference",
+            "Competition over valued resources triggers hostility",
+            "Ethnocentrism disappears with wealth"
+          ],
+          "answerIndex": 2,
+          "explanation": "With ethnic mix held constant, the resource competition is what differs, as RGCT predicts. Ethnic difference alone cannot explain why only one town clashed."
+        }
+      ]
+    },
+    {
+      "name": "Competition, cohesion, superordinate goals",
+      "lesson": {
+        "title": "From Robbers Cave to the Super Eagles",
+        "minutes": 10,
+        "hook": "When Nigeria plays a big football match, people who argue about tribe all week suddenly scream for the same team. Psychologists turned that everyday moment into one of the most famous experiments in the field.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Competition pulls groups inward",
+            "body": "When a group faces a rival, **group cohesion** rises: members feel closer, more loyal and more united.\n\nThink of rival fans at a football match. Supporters cheer their own players with praise names and encouragement while jeering the other side. The same competition that bonds 'us' also pushes 'them' further away. Cohesion and hostility rise together.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Competition",
+                "In-group cohesion",
+                "Out-group hostility"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "How hostility escalates",
+            "body": "Intergroup hostility often starts with **words**: insults, mocking songs, unpleasant nicknames. It can move to **provocations** aimed at the other group, and in extreme cases to **physical fights and destruction of property**.\n\nA worrying pattern: during competition, members who argue for a **tougher stance** against the out-group often become **more popular** inside their own group. Moderates get sidelined.",
+            "visual": {
+              "type": "steps"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "According to the course, when a group is in competition with another group, its internal cohesion usually:",
+            "options": [
+              "Decreases",
+              "Increases",
+              "Disappears",
+              "Stays exactly the same"
+            ],
+            "answerIndex": 1,
+            "why": "Competition against outsiders strengthens unity within the group. That rising unity often comes with more hostility outward."
+          },
+          {
+            "kind": "teach",
+            "heading": "The Robbers Cave experiment",
+            "body": "In 1954, **Muzafer Sherif** and colleagues took 22 similar 11-year-old boys to a summer camp at Robbers Cave, Oklahoma, and split them into two groups, the Eagles and the Rattlers.\n\nThe boys were alike in background, so there were **no prior differences** to fight over. Yet once the camp staff set up competitions with prizes, the groups burned each other's flags, raided cabins and traded insults. Competition alone created hostility.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Group formation",
+                "Competition",
+                "Friction",
+                "Integration"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "What the boys taught us",
+            "body": "Robbers Cave showed that for hostility to arise, groups do **not** need different appearances, backgrounds or past grudges. The key requirement is **competition for goals only one side can win**.\n\nSherif then tried simple **contact**, such as shared meals and films. It failed; the boys threw food. Being together was not enough. Something more was needed.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "close-circle",
+                  "label": "Mere contact failed"
+                },
+                {
+                  "icon": "checkmark-circle",
+                  "label": "Shared goals worked"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Superordinate goals",
+            "body": "**Superordinate goals** are goals both groups value but **neither can achieve alone**; they require cooperation. At Robbers Cave, Sherif staged a broken water supply and a stuck food truck that needed both groups pulling together.\n\nAfter a series of such tasks, hostility fell sharply and friendships formed across groups. Deutsch (1973) later built on this in his work on cooperative and competitive conflict resolution.",
+            "visual": {
+              "type": "venn",
+              "left": "Group A effort",
+              "right": "Group B effort",
+              "both": "Shared goal achieved"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "A broken town borehole can only be fixed if two rival quarters each contribute money and labour. In Sherif's terms, the repair is a:",
+            "options": [
+              "Realistic conflict",
+              "Superordinate goal",
+              "Form of ethnocentrism",
+              "Zero-sum contest"
+            ],
+            "answerIndex": 1,
+            "why": "It is valued by both sides and requires their joint effort, which is the definition of a superordinate goal. A zero-sum contest has a winner and a loser."
+          },
+          {
+            "kind": "example",
+            "heading": "Atlanta 1996",
+            "story": "When Nigeria's Dream Team won Olympic football gold in Atlanta in 1996, celebrations erupted in Kano, Enugu, Lagos and Calabar alike. Players from many ethnic backgrounds had pulled together to beat Brazil and Argentina. For a while, the talk in markets and buses was 'we won', not 'my tribe'.",
+            "takeaway": "A goal that everyone values and no single group can reach alone can unite rivals, at least for a time."
+          },
+          {
+            "kind": "compare",
+            "heading": "What fuels and what heals",
+            "left": {
+              "title": "Fuels conflict",
+              "points": [
+                "Win-lose competition",
+                "Perceived scarcity",
+                "Hardliners gain popularity",
+                "Contact without shared purpose"
+              ]
+            },
+            "right": {
+              "title": "Reduces conflict",
+              "points": [
+                "Goals neither group can reach alone",
+                "Repeated cooperation",
+                "Shared success",
+                "Cross-group friendships"
+              ]
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'explain intergroup conflict and how it is resolved' and attribution items on superordinate goals. The trap: saying mere contact solved Robbers Cave, or that hostility needs prior differences. Sherif's boys were similar, and contact alone failed.",
+            "sampleQuestion": "With reference to Sherif's work, explain how intergroup conflict arises and how it can be reduced.",
+            "howToAnswer": "Describe the three stages of Robbers Cave, show competition produced hostility without prior differences, note that contact alone failed, then explain superordinate goals with a Nigerian example.",
+            "scholars": [
+              "Sherif et al. (1954/1961)",
+              "Deutsch (1973)",
+              "Hogg (2013)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Competition raises in-group cohesion and out-group hostility together.",
+              "Hostility moves from words to provocation and sometimes violence.",
+              "Robbers Cave: similar boys became hostile through competition alone.",
+              "Mere contact failed; superordinate goals reduced the conflict.",
+              "Superordinate goals: valued by both, reachable only together."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The idea of superordinate goals as a way of reducing intergroup conflict was proposed by:",
+          "options": [
+            "Glick",
+            "Sumner",
+            "Kinder",
+            "Sherif"
+          ],
+          "answerIndex": 3,
+          "explanation": "Muzafer Sherif proposed superordinate goals from his intergroup experiments. Sumner popularised the term ethnocentrism."
+        },
+        {
+          "difficulty": 1,
+          "stem": "A superordinate goal is a goal that:",
+          "options": [
+            "Requires cooperation because neither group can achieve it alone",
+            "Only one group can win",
+            "Each group pursues separately",
+            "Is imposed by a court"
+          ],
+          "answerIndex": 0,
+          "explanation": "Superordinate goals are valued by both groups and need joint effort. A goal only one side can win fuels competition instead."
+        },
+        {
+          "difficulty": 1,
+          "stem": "In Sherif's Robbers Cave study, the two groups of boys were called:",
+          "options": [
+            "Lions and Tigers",
+            "Reds and Blues",
+            "Eagles and Rattlers",
+            "Hawks and Doves"
+          ],
+          "answerIndex": 2,
+          "explanation": "The groups named themselves the Eagles and the Rattlers. The other names are not from the study."
+        },
+        {
+          "difficulty": 2,
+          "stem": "In the Robbers Cave study, simply bringing the groups together for meals and films:",
+          "options": [
+            "Ended the hostility at once",
+            "Failed to reduce hostility",
+            "Created superordinate goals",
+            "Made the boys forget their groups"
+          ],
+          "answerIndex": 1,
+          "explanation": "Mere contact did not work; the boys used it to keep fighting. Only cooperative tasks on shared goals reduced hostility."
+        },
+        {
+          "difficulty": 2,
+          "stem": "As competition between groups intensifies, the group members urging a harder line against the rival group usually:",
+          "options": [
+            "Lose influence",
+            "Be expelled",
+            "Join the other group",
+            "Gain popularity"
+          ],
+          "answerIndex": 3,
+          "explanation": "Competition makes hardliners more popular within the group, while moderates are sidelined."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The main lesson of Robbers Cave about the conditions for hostility is that:",
+          "options": [
+            "Competition for goals only one group can achieve is enough",
+            "Groups must differ in appearance",
+            "There must be a history of conflict",
+            "Different religions are required"
+          ],
+          "answerIndex": 0,
+          "explanation": "The boys were similar, yet competition alone produced hostility. Differences in background or history were not needed."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Fans of two rival football clubs in Ibadan cheer their players with praise names while booing the visitors. This mainly illustrates:",
+          "options": [
+            "Superordinate goals",
+            "Increased group cohesion during competition",
+            "Benevolent sexism",
+            "Mere contact"
+          ],
+          "answerIndex": 1,
+          "explanation": "Competition boosts unity within each group and hostility outward. A superordinate goal would bring the fans together."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Two rival hostels are told the university will fund a new sports hall only if both hostels jointly raise matching money. This strategy relies on:",
+          "options": [
+            "Ethnocentrism",
+            "Realistic conflict",
+            "A superordinate goal",
+            "Competition for scarce resources"
+          ],
+          "answerIndex": 2,
+          "explanation": "A goal both value that requires joint effort is a superordinate goal. It replaces competition with cooperation."
+        },
+        {
+          "difficulty": 3,
+          "stem": "In a long-running communal dispute, a leader who urges compromise loses support while one who promises to 'teach the other side a lesson' wins. This illustrates that during intergroup competition:",
+          "options": [
+            "Moderates always win",
+            "Superordinate goals arise automatically",
+            "Hostility is limited to words",
+            "Hardliners tend to gain popularity"
+          ],
+          "answerIndex": 3,
+          "explanation": "Competition favours leaders who take a tough stance against the out-group. It does not automatically produce shared goals."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement about the Robbers Cave study is NOT correct?",
+          "options": [
+            "The boys were similar in background",
+            "Competition produced hostility",
+            "Mere contact successfully ended the conflict",
+            "Cooperative tasks reduced hostility"
+          ],
+          "answerIndex": 2,
+          "explanation": "Contact alone failed; it was the shared goals that reduced hostility. The other statements are accurate."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement best captures how cohesion and hostility relate under competition?",
+          "options": [
+            "They rise together",
+            "Cohesion rises while hostility falls",
+            "Both fall",
+            "They are unrelated"
+          ],
+          "answerIndex": 0,
+          "explanation": "Competition strengthens in-group unity and out-group hostility at the same time. This is why rival fans grow closer and more hostile together."
+        },
+        {
+          "difficulty": 4,
+          "stem": "A town organises a weekly football match between two feuding quarters to 'build friendship'. Based on Sherif's findings, this is likely to:",
+          "options": [
+            "End the feud quickly",
+            "Create a superordinate goal",
+            "Remove ethnocentrism",
+            "Sharpen the rivalry because it is win-lose"
+          ],
+          "answerIndex": 3,
+          "explanation": "A match between the two groups is win-lose competition, which Sherif found increases hostility. A shared team against an outside rival would be closer to a superordinate goal."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider: I. Superordinate goals require both groups' effort. II. At Robbers Cave, hostility needed prior differences between the boys. III. Cooperation on several tasks led to cross-group friendships. Which are correct?",
+          "options": [
+            "I and II only",
+            "II and III only",
+            "I and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 2,
+          "explanation": "I and III are correct. II is false: the boys were deliberately chosen to be similar, and competition alone produced hostility."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which scholar-idea pairing from the study of intergroup conflict is accurate?",
+          "options": [
+            "Deutsch (1973): resolution of conflict through cooperative processes",
+            "Sherif: symbolic racism",
+            "Hogg: The Bell Curve",
+            "Sumner: superordinate goals"
+          ],
+          "answerIndex": 0,
+          "explanation": "Deutsch wrote on constructive and destructive conflict resolution. Sherif proposed superordinate goals; Sumner popularised ethnocentrism."
+        },
+        {
+          "difficulty": 5,
+          "stem": "After a shared victory, rival groups become friendly, but the hostility returns months later once a dispute over market stalls reopens. The best interpretation combining both theories is that:",
+          "options": [
+            "Superordinate goals permanently remove conflict",
+            "Ethnocentrism cannot be influenced",
+            "Renewed competition for resources can undo gains from shared goals",
+            "Personality explains both phases"
+          ],
+          "answerIndex": 2,
+          "explanation": "Superordinate goals reduce hostility, but RGCT predicts that renewed competition revives it. Gains need ongoing cooperation, not a one-off success."
+        }
+      ]
+    }
+  ]
+}

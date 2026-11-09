@@ -1,0 +1,653 @@
+{
+  "unit": 12,
+  "title": "Factors Influencing Retrieval",
+  "summary": "Why list position, the place you learned something, smells, and your internal state at learning all change how well you can retrieve it later.",
+  "sections": [
+    {
+      "name": "Position and context",
+      "lesson": {
+        "title": "Where and when you learned it",
+        "minutes": 10,
+        "hook": "You walk into your room to fetch something, and the moment you arrive, you forget what it was. Walk back to the parlour, and it pops back. Your memory was waiting in the other room.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Serial position, revisited",
+            "body": "Meet twelve people at a party and you will likely remember the **first few** and the **last one or two** names, but lose the middle. This is the **serial position effect**: in a sequence, recall is better at the **beginning** and **end** than in the **middle**.\n\nThe early items benefit from the **primacy effect**, the late items from the **recency effect**.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "First: remembered",
+                "Middle: lost",
+                "Last: remembered"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Why the middle is lost",
+            "body": "**Early items** are recalled because they have already been moved into **long-term memory**. **Late items** have an even better chance because they are **still in short-term memory**.\n\n**Middle items** fall into a gap: they have **left short-term memory** but **not yet reached long-term memory**. Postman and Phillips (1965) saw this pattern as strong support for **separate short-term and long-term systems**.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "layers",
+                  "label": "Early: LTM"
+                },
+                {
+                  "icon": "close-circle",
+                  "label": "Middle: neither"
+                },
+                {
+                  "icon": "time",
+                  "label": "Late: STM"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Middle items in a list are recalled poorly mainly because they:",
+            "options": [
+              "Are still in short-term memory",
+              "Were rehearsed the most",
+              "Have left short-term memory but not yet reached long-term memory",
+              "Are stored in implicit memory"
+            ],
+            "answerIndex": 2,
+            "why": "Middle items miss both benefits: they are no longer held in STM and were not rehearsed enough to reach LTM."
+          },
+          {
+            "kind": "teach",
+            "heading": "Context is encoded too",
+            "body": "**Tulving and Thomson (1973)** proposed that features of the **setting** where you learn get **stored together with** what you learn, so the setting becomes a piece of the memory itself. This is the **encoding specificity principle**.\n\nReturn to the original context, or part of it, and it acts as a **retrieval cue**. Even **imagining** yourself back in that place can help (Smith et al., 1978).",
+            "visual": {
+              "type": "venn",
+              "left": "Information",
+              "right": "Setting",
+              "both": "One memory"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The divers study",
+            "body": "**Godden and Baddeley (1975)** had members of a university diving club learn word lists either **on land** or about **10 feet underwater**, then recall them in the **same** or the **other** setting.\n\nWords learned underwater were best recalled underwater; words learned on land, best on land. When learning and recall contexts **matched**, scores were about **47% higher** than when they differed.",
+            "visual": {
+              "type": "stat",
+              "value": "~47% better",
+              "label": "Same context for learning and recall"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "In Godden and Baddeley's study, divers who learned words underwater recalled them best:",
+            "options": [
+              "On land",
+              "Only after a day's delay",
+              "Equally well anywhere",
+              "Underwater"
+            ],
+            "answerIndex": 3,
+            "why": "Recall was best when the recall context matched the learning context, here underwater."
+          },
+          {
+            "kind": "teach",
+            "heading": "People and smells as context",
+            "body": "Context includes **people**. In a study by Bjorklund and colleagues (2000), participants interviewed twice about videos remembered more when the **same interviewer** questioned them both times.\n\nIt includes **smells**. Morgan (1996) exposed people to 40 words in a cubicle. Those who had a **pleasant odour** both while learning and at a surprise test five days later recalled significantly more words.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "person",
+                  "label": "Same interviewer"
+                },
+                {
+                  "icon": "leaf",
+                  "label": "Same smell"
+                },
+                {
+                  "icon": "home",
+                  "label": "Same room"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Studying in the exam hall",
+            "story": "Funke usually studies in her hostel room with music. Before her final exam, she spends two evenings revising in the empty lecture theatre where the exam will be held. During the paper, when a definition escapes her, she glances at the same windows and benches, pictures her revision evening, and the answer returns.",
+            "takeaway": "Reinstating the learning context, physically or in imagination, provides retrieval cues."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'define context-dependent memory' and the divers study, often with the 47% figure. Do not mix it up with state-dependent memory: context is the external setting; state is your internal condition. Also know why middle items are lost and who said the serial position effect supports separate stores.",
+            "sampleQuestion": "Godden and Baddeley (1975) demonstrated: (a) state-dependent memory with alcohol (b) context-dependent memory with divers (c) the recency effect with delays (d) dual coding with pictures",
+            "howToAnswer": "Answer (b). In an essay, describe the design (land versus underwater, same versus different recall setting) and the result, then link to encoding specificity.",
+            "scholars": [
+              "Godden & Baddeley (1975)",
+              "Tulving & Thomson (1973)",
+              "Postman & Phillips (1965)",
+              "Smith et al. (1978)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Serial position: first and last items recalled best.",
+              "Middle items have left STM but not reached LTM.",
+              "Encoding specificity: context is stored with the memory.",
+              "Godden and Baddeley: matching context gave about 47% better recall.",
+              "People, rooms and smells can all serve as context cues."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Recalling information better in the same physical setting where it was learned is called:",
+          "options": [
+            "State-dependent memory",
+            "Priming",
+            "Context-dependent memory",
+            "Recency"
+          ],
+          "answerIndex": 2,
+          "explanation": "Context-dependent memory concerns the external setting; state-dependent memory concerns internal state."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The divers study of context-dependent memory was carried out by:",
+          "options": [
+            "Steffensen and Calker",
+            "Glanzer and Cunitz",
+            "Brown and McNeill",
+            "Godden and Baddeley"
+          ],
+          "answerIndex": 3,
+          "explanation": "Godden and Baddeley (1975) used divers learning on land or underwater."
+        },
+        {
+          "difficulty": 1,
+          "stem": "In the serial position effect, the poorest recall is for items:",
+          "options": [
+            "At the beginning",
+            "In the middle",
+            "At the end",
+            "Repeated twice"
+          ],
+          "answerIndex": 1,
+          "explanation": "Middle items benefit from neither primacy nor recency."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The encoding specificity principle states that:",
+          "options": [
+            "Only meaning is encoded",
+            "Memory is stored in one brain area",
+            "Features of the learning context are encoded with the information",
+            "Context never affects recall"
+          ],
+          "answerIndex": 2,
+          "explanation": "Tulving and Thomson (1973) argued that context becomes part of the memory trace."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Postman and Phillips (1965) argued that the serial position effect supports:",
+          "options": [
+            "Separate short-term and long-term memory systems",
+            "A single memory store",
+            "Dual coding",
+            "Priming"
+          ],
+          "answerIndex": 0,
+          "explanation": "Different explanations for primacy and recency point to two separate stores."
+        },
+        {
+          "difficulty": 2,
+          "stem": "In Godden and Baddeley's study, matching learning and recall contexts improved recall by about:",
+          "options": [
+            "5%",
+            "15%",
+            "90%",
+            "47%"
+          ],
+          "answerIndex": 3,
+          "explanation": "Scores were roughly 47% higher when contexts matched."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Ike forgets what he went to the kitchen for, then remembers on returning to the sitting room. This illustrates:",
+          "options": [
+            "State-dependent memory",
+            "The primacy effect",
+            "Context-dependent memory",
+            "Dual coding"
+          ],
+          "answerIndex": 2,
+          "explanation": "Returning to the original setting supplied the cues that were encoded with the intention."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Students who smell the same perfume while studying and during a test recall more. This fits the findings of:",
+          "options": [
+            "Morgan (1996)",
+            "Glanzer and Cunitz (1966)",
+            "Ebbinghaus (1885)",
+            "Rundus (1971)"
+          ],
+          "answerIndex": 0,
+          "explanation": "Morgan found a pleasant odour present at both learning and testing improved recall."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A witness interviewed twice remembers more when the same police officer conducts both interviews. This matches:",
+          "options": [
+            "Bartlett (1932)",
+            "Godden and Baddeley (1975)",
+            "Weingartner et al. (1976)",
+            "Bjorklund et al. (2000)"
+          ],
+          "answerIndex": 3,
+          "explanation": "Bjorklund and colleagues found better recall with the same interviewer, treating the person as part of the context."
+        },
+        {
+          "difficulty": 4,
+          "stem": "A student cannot sit the exam in the room where she studied. The best evidence-based tip is to:",
+          "options": [
+            "Mentally picture herself in her study room",
+            "Cram just before",
+            "Study in many rooms at the last minute",
+            "Avoid recalling the study setting"
+          ],
+          "answerIndex": 0,
+          "explanation": "Smith et al. (1978) found that imagining the learning context can aid recall."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following can serve as context cues EXCEPT:",
+          "options": [
+            "The room where learning occurred",
+            "A smell present at learning",
+            "A random setting never linked to the learning",
+            "The person who asked the questions"
+          ],
+          "answerIndex": 2,
+          "explanation": "A setting unrelated to the learning was never encoded with it, so it cannot cue the memory."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Middle items: left STM, not yet in LTM",
+            "Primacy: items still in short-term memory",
+            "Recency: items already in long-term memory",
+            "Recency: items never encoded"
+          ],
+          "answerIndex": 0,
+          "explanation": "Middle items are lost from STM before reaching LTM. Primacy reflects LTM; recency reflects STM."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Words learned underwater are best recalled on land. II. Context is encoded along with information. III. Imagining the learning context can help recall. Which are correct?",
+          "options": [
+            "I and II only",
+            "II and III only",
+            "I and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 1,
+          "explanation": "II and III are correct. I is reversed: underwater words were best recalled underwater."
+        },
+        {
+          "difficulty": 5,
+          "stem": "In the divers study, which condition produced the WORST recall?",
+          "options": [
+            "Learn on land, recall on land",
+            "Learn on land, recall underwater",
+            "Learn underwater, recall underwater",
+            "All conditions were equal"
+          ],
+          "answerIndex": 1,
+          "explanation": "Mismatched contexts gave lower recall than matched ones. Both matched conditions did better."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A researcher finds that recall is best when learning and testing happen in the same room, even when participants did not try to memorise the room. This supports the idea that context encoding is:",
+          "options": [
+            "Deliberate and effortful",
+            "Largely automatic",
+            "Impossible",
+            "Only visual"
+          ],
+          "answerIndex": 1,
+          "explanation": "Context gets encoded even without intention, as in Morgan's incidental-learning odour study."
+        }
+      ]
+    },
+    {
+      "name": "Internal state and mood",
+      "lesson": {
+        "title": "Your inner state is a cue",
+        "minutes": 9,
+        "hook": "Can drinking coffee before both revision and the exam actually help you remember? Strangely, matching how you feel inside can matter as much as matching the room.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "State-dependent memory",
+            "body": "The **external** setting is not the only cue. Your **internal state** at learning is encoded too.\n\nThe **state-dependent memory effect** is the tendency to recall information better when you are in the **same internal state**, psychological or drug-induced, as when you encoded it.",
+            "visual": {
+              "type": "venn",
+              "left": "State at learning",
+              "right": "State at recall",
+              "both": "Better retrieval"
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Context versus state",
+            "left": {
+              "title": "Context-dependent",
+              "points": [
+                "External setting",
+                "Room, smell, interviewer",
+                "Godden & Baddeley (1975)"
+              ]
+            },
+            "right": {
+              "title": "State-dependent",
+              "points": [
+                "Internal condition",
+                "Sober, intoxicated, aroused",
+                "Eich (1980); Weingartner et al. (1976)"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Drugs and alcohol",
+            "body": "State-dependent effects have been shown with **alcohol**, and with **marijuana**, **amphetamines** and **barbiturates** (Eich, 1980). People learned material **sober or intoxicated** and were tested in the same or the opposite state.\n\nRecall was **best when the states matched** (Weingartner et al., 1976). Note: the effect appeared for **recall but not recognition**. Recognition gives its own strong cues, so it needs the internal state less.",
+            "visual": {
+              "type": "scale",
+              "left": "Same state",
+              "right": "Different state",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "State-dependent effects for alcohol and drugs were found for:",
+            "options": [
+              "Recognition but not recall",
+              "Recall but not recognition",
+              "Neither recall nor recognition",
+              "Motor skills only"
+            ],
+            "answerIndex": 1,
+            "why": "Recognition provides strong cues of its own, so the internal state matters less; the effect shows in recall."
+          },
+          {
+            "kind": "teach",
+            "heading": "Mood: weaker evidence",
+            "body": "Does being in the **same happy or sad mood** at learning and recall help? Research has **not shown this conclusively**.\n\nBut **anxiety and fear** do affect memory. People under major life stress, such as bereavement, job loss or divorce, do **worse on tests of recent memory**. And students who learned words with **spiders or snakes** nearby recalled more when the creatures were **present again** at test (Lang et al., 2001).",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "sad",
+                  "label": "Mood: unclear"
+                },
+                {
+                  "icon": "warning",
+                  "label": "Fear: matters"
+                },
+                {
+                  "icon": "pulse",
+                  "label": "Stress: hurts"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Depression and memory",
+            "body": "Clinically depressed adults tend to recall **more negative life events** (Clark & Teasdale, 1982) and to remember their parents as **unloving and rejecting** (Lewinsohn & Rosenbaum, 1987).\n\nA meta-analysis of 48 studies found a significant link between **depression and memory impairment**, stronger in **younger** than older patients (Burt et al., 1995). Encouragingly, as depression **lifts**, negative recall and memory problems **reverse**.",
+            "visual": {
+              "type": "cycle",
+              "nodes": [
+                "Low mood",
+                "Negative memories",
+                "Lower mood"
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "The exam-hall nerves",
+            "story": "Chuka revises calmly at home, but on exam day his heart races and his hands shake. Material he knew well seems to vanish. His friend Rahila, who practised past questions under a timer to feel the pressure, finds exam-day nerves feel familiar, and her recall holds.",
+            "takeaway": "Matching your internal state, including arousal, at learning and testing can protect recall."
+          },
+          {
+            "kind": "check",
+            "question": "Research on depression and memory shows that as depression lifts:",
+            "options": [
+              "Memory impairment becomes permanent",
+              "People forget all negative events",
+              "Negative recall and memory problems tend to reverse",
+              "Recognition worsens"
+            ],
+            "answerIndex": 2,
+            "why": "The memory effects of depression are linked to the state and tend to reverse as it improves."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "The classic trap: the manual's summary blurs context and state, but your lecturer will not. Context is outside you; state is inside you. Expect 'state-dependent effects appear for recall but not ___' (recognition), and depression findings with names. Remember the mood-matching evidence is inconclusive, while fear and anxiety effects are clearer.",
+            "sampleQuestion": "A student learns while slightly drunk and recalls best when slightly drunk again. This illustrates: (a) context-dependent memory (b) state-dependent memory (c) the primacy effect (d) encoding failure",
+            "howToAnswer": "Answer (b): the match is in internal (pharmacological) state. Add that the effect appears in recall, not recognition (Weingartner et al., 1976).",
+            "scholars": [
+              "Eich (1980)",
+              "Weingartner et al. (1976)",
+              "Clark & Teasdale (1982)",
+              "Burt et al. (1995)",
+              "Lang et al. (2001)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "State-dependent memory: recall is best in the same internal state as learning.",
+              "Shown for alcohol and drugs, for recall but not recognition.",
+              "Mood matching is not conclusively supported; fear and anxiety do affect memory.",
+              "Depression brings negative recall and memory impairment, worse in younger patients.",
+              "These effects reverse as depression lifts."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Recalling information better when in the same internal state as during learning is called:",
+          "options": [
+            "Context-dependent memory",
+            "The recency effect",
+            "State-dependent memory",
+            "Priming"
+          ],
+          "answerIndex": 2,
+          "explanation": "Matching internal (psychological or drug) state is state-dependent memory."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Clinically depressed adults tend to recall:",
+          "options": [
+            "More positive life events",
+            "More negative life experiences",
+            "No life events",
+            "Only childhood events"
+          ],
+          "answerIndex": 1,
+          "explanation": "Clark and Teasdale (1982) found depressed people recall more negative experiences."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which of these is an internal state rather than an external context?",
+          "options": [
+            "The exam room",
+            "The smell of the library",
+            "The interviewer's face",
+            "Being intoxicated"
+          ],
+          "answerIndex": 3,
+          "explanation": "Intoxication is an internal pharmacological state; the others are external context."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Eich (1980) reported state-dependent memory effects for all of the following EXCEPT:",
+          "options": [
+            "Alcohol",
+            "Room temperature",
+            "Barbiturates",
+            "Marijuana"
+          ],
+          "answerIndex": 1,
+          "explanation": "Room temperature is an external feature; the drugs listed alter internal state."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Evidence that being in the same happy or sad mood at learning and recall helps memory is:",
+          "options": [
+            "Conclusive",
+            "Absent for all emotions",
+            "Not conclusive",
+            "Only from animal studies"
+          ],
+          "answerIndex": 2,
+          "explanation": "Mood-matching effects have not been shown conclusively, though fear and anxiety do affect memory."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Burt and colleagues' (1995) meta-analysis found memory impairment in depression was greater in:",
+          "options": [
+            "Older patients",
+            "Younger patients",
+            "Children only",
+            "Men only"
+          ],
+          "answerIndex": 1,
+          "explanation": "Younger depressed patients showed more impairment of both recall and recognition than older ones."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Students learn words with snakes nearby, then recall more when the snakes are present again. This study by Lang and colleagues shows that:",
+          "options": [
+            "Matching a fear state can aid recall",
+            "Fear has no effect on memory",
+            "Snakes improve all memory",
+            "Recognition is impaired by fear"
+          ],
+          "answerIndex": 0,
+          "explanation": "The fear-arousing creatures at both learning and test matched the internal state and aided recall."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Ngozi, recently bereaved, struggles to remember what she read yesterday. This is consistent with findings that:",
+          "options": [
+            "Stress improves memory",
+            "Life stress impairs recent memory",
+            "Grief only affects motor skills",
+            "Bereavement causes priming"
+          ],
+          "answerIndex": 1,
+          "explanation": "Significant life stress is linked with poorer performance on tests of recent memory."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A patient recovering from depression starts recalling more positive childhood memories. This fits the finding that:",
+          "options": [
+            "Depression permanently damages memory",
+            "Mood never affects memory",
+            "Positive events were never stored",
+            "Negative recall reverses as depression lifts"
+          ],
+          "answerIndex": 3,
+          "explanation": "As depression lifts, the negative recall bias and impairments tend to reverse."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Why was the state-dependent effect found for recall but not recognition?",
+          "options": [
+            "Recognition does not use memory",
+            "Recall is always easier",
+            "Recognition supplies strong cues, reducing reliance on internal state",
+            "Drugs only affect recognition"
+          ],
+          "answerIndex": 2,
+          "explanation": "With the answer present, recognition has strong external cues, so internal state matters less."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Clark & Teasdale (1982): parents remembered as rejecting",
+            "Weingartner et al. (1976): divers underwater",
+            "Lewinsohn & Rosenbaum (1987): parents remembered as rejecting",
+            "Morgan (1996): alcohol and recall"
+          ],
+          "answerIndex": 2,
+          "explanation": "Lewinsohn and Rosenbaum found depressed people recall parents as unloving. Clark and Teasdale found more negative recall generally."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement correctly distinguishes context-dependent from state-dependent memory?",
+          "options": [
+            "Context concerns external setting; state concerns internal condition",
+            "Both concern internal states",
+            "Context concerns drugs; state concerns rooms",
+            "They are the same"
+          ],
+          "answerIndex": 0,
+          "explanation": "Context is external (room, smell); state is internal (mood, drugs, arousal)."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. State-dependent effects appear for recall. II. They also appear strongly for recognition. III. Mood matching is conclusively supported. Which are correct?",
+          "options": [
+            "I only",
+            "I and II only",
+            "I and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 0,
+          "explanation": "Only I is correct. The effect is weak or absent for recognition, and mood-matching evidence is not conclusive."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A student always revises after strong coffee but sits exams without it. Based on state-dependent memory, which prediction is most reasonable?",
+          "options": [
+            "Multiple-choice scores will fall sharply",
+            "Recognition will improve",
+            "No effect on any test",
+            "Essay (recall) answers may suffer more than multiple-choice answers"
+          ],
+          "answerIndex": 3,
+          "explanation": "A state mismatch mainly hurts recall; recognition is less affected because it offers its own cues."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Two groups learn words sober. One is tested sober, the other intoxicated. A third group learns and is tested intoxicated. Which group should recall worst?",
+          "options": [
+            "Learn sober, test intoxicated",
+            "Learn intoxicated, test intoxicated",
+            "Learn sober, test sober",
+            "All equal"
+          ],
+          "answerIndex": 0,
+          "explanation": "The mismatched group lacks the state cue. Intoxication also generally impairs encoding, but matched states still beat mismatched ones."
+        }
+      ]
+    }
+  ]
+}

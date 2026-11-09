@@ -1,0 +1,923 @@
+{
+  "unit": 2,
+  "title": "The Three Memory Systems",
+  "summary": "How sensory, short-term and long-term memory differ in what they hold, how much, for how long, and how they work together.",
+  "sections": [
+    {
+      "name": "Sensory memory",
+      "lesson": {
+        "title": "The split-second store you never notice",
+        "minutes": 9,
+        "hook": "Walk from the UI main gate to your faculty and your senses take in millions of sights, sounds and smells. By the time you sit down, you can recall almost none of them. Where did they go?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "The first stop for everything you sense",
+            "body": "In the Atkinson–Shiffrin model, information from the world first lands in **sensory memory**. Nearly everything your eyes, ears and skin pick up is held here, but only for a moment: a fraction of a second for sights and roughly two seconds for sounds.\n\nThink of it as a waiting room. Information sits there just long enough for the mind to decide whether it deserves attention. If not, it is gone.",
+            "visual": {
+              "type": "flow",
+              "nodes": ["Sensory input", "Sensory memory", "Short-term memory", "Long-term memory"]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "A store that is huge but brief",
+            "body": "Sensory memory has a **large capacity**: it takes in far more than you could ever report. It also keeps a near-exact copy of the stimulus, before any meaning is added. A sound is held as sound, a shape as shape.\n\nThe catch is **duration**. Because the copy fades so fast, most of it is lost through **decay** before you can use it. Textbooks compare sensory memory to a **strainer**: a great deal pours in, and almost all of it runs straight out again.",
+            "visual": {
+              "type": "scale",
+              "left": "Capacity",
+              "right": "Duration",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "terms",
+            "heading": "Names for the sensory stores",
+            "terms": [
+              { "term": "Iconic memory", "meaning": "Visual sensory memory; an 'icon' or snapshot that lasts a fraction of a second." },
+              { "term": "Echoic memory", "meaning": "Auditory sensory memory; an 'echo' of sound that lasts about two seconds." },
+              { "term": "Decay", "meaning": "Fading of a trace with time, the main way sensory information is lost." },
+              { "term": "Attention", "meaning": "The filter that selects a little sensory information to pass on to short-term memory." }
+            ]
+          },
+          {
+            "kind": "check",
+            "question": "Sensory memory is often compared to a strainer because it:",
+            "options": [
+              "Takes in a great deal but loses most of it almost at once",
+              "Holds only the most meaningful items and rejects the rest",
+              "Keeps information for life once it has been filtered",
+              "Codes everything by sound before passing it on"
+            ],
+            "answerIndex": 0,
+            "why": "Lots flows in and nearly all of it flows straight out. Sensory memory does not judge meaning, and coding by sound is a feature of short-term memory."
+          },
+          {
+            "kind": "teach",
+            "heading": "Why we need it at all",
+            "body": "If sensory memory forgets so fast, what use is it? It gives the brain a brief buffer. When you blink, the world does not go black, because the **iconic** image bridges the gap. When a friend says something while you are distracted and you 'replay' it a second later, you are reading from **echoic** memory.\n\nThat short buffer is what lets attention catch something before it vanishes.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                { "icon": "eye", "label": "Iconic: under 1 second" },
+                { "icon": "ear", "label": "Echoic: about 2 seconds" }
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "What did you say?",
+            "story": "Bisi is replying to a WhatsApp message when her roommate asks, 'Have you seen my charger?' Bisi says, 'What did you say?' and then, before the roommate can repeat it, answers, 'Oh, your charger. It's on the reading table.' The question was still echoing for a second or two after it was spoken.",
+            "takeaway": "Echoic memory held the sound long enough for Bisi to switch attention to it and make sense of it."
+          },
+          {
+            "kind": "teach",
+            "heading": "Sperling's puzzle",
+            "body": "Flash 12 letters in three rows for a brief moment and most people report only **four or five**. Does that mean the visual store holds just four or five items?\n\n**George Sperling (1960)** suspected not. He thought people saw all twelve, but the image faded while they were busy naming the first few. To test this, he needed a way to ask about only part of the display.",
+            "visual": {
+              "type": "stat",
+              "value": "4–5 of 12",
+              "label": "Letters named, whole report"
+            }
+          },
+          {
+            "kind": "steps",
+            "heading": "The partial-report method",
+            "steps": [
+              { "title": "Flash the grid", "detail": "Three rows of four letters appear very briefly, then disappear." },
+              { "title": "Sound a tone", "detail": "A high, medium or low tone tells the participant which row to report." },
+              { "title": "Report one row", "detail": "Participants could not know in advance which row would be cued." },
+              { "title": "Delay the tone", "detail": "When the tone came later, accuracy fell sharply, down to whole-report levels after about a second." }
+            ]
+          },
+          {
+            "kind": "check",
+            "question": "In Sperling's study, participants reported almost every letter in any row that was cued immediately. This shows that:",
+            "options": [
+              "Short-term memory can hold twelve items",
+              "Participants guessed the row before the tone",
+              "Nearly all twelve letters were briefly available",
+              "Visual images last about two seconds"
+            ],
+            "answerIndex": 2,
+            "why": "Since any row could be cued, success on whichever row was asked means the whole grid was briefly held. The image then faded within about a second, not two."
+          },
+          {
+            "kind": "teach",
+            "heading": "What Sperling taught us",
+            "body": "The **whole-report** limit of four or five was not a capacity limit. It was a **speed** limit: the icon decays while you are speaking. The **partial-report** method revealed that visual sensory memory briefly holds much more than we can name.\n\nSo sensory memory is large in capacity, short in duration and lost mainly through decay. Only what attention grabs moves on to short-term memory.",
+            "visual": {
+              "type": "scale",
+              "left": "Whole report",
+              "right": "Partial report",
+              "heavier": "right"
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Sperling is a favourite. Lecturers ask what the partial-report result proves, or why whole report underestimates the store. The trap is concluding that sensory memory holds only four or five items, or mixing up the durations of visual and auditory stores.",
+            "sampleQuestion": "Describe Sperling's (1960) partial-report experiment and explain what it reveals about the capacity and duration of visual sensory memory.",
+            "howToAnswer": "Describe the 12-letter grid and the tone cue, contrast whole and partial report, then conclude that capacity is large but the trace decays in well under a second.",
+            "scholars": ["Sperling (1960)", "Atkinson & Shiffrin (1968)", "Neisser (1967)"]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Sensory memory holds almost everything we sense, very briefly.",
+              "Visual (iconic) traces last a fraction of a second; sounds (echoic) about two seconds.",
+              "Capacity is large; information is lost mainly through decay.",
+              "Sperling's partial report showed far more is held than whole report suggests.",
+              "Attention selects what passes on to short-term memory."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Which statement best captures the main feature of sensory memory?",
+          "options": [
+            "It holds a large amount of information for a very brief time",
+            "It holds a small amount of information for about 30 seconds",
+            "It holds meaningful information for a lifetime",
+            "It holds only information we deliberately rehearse"
+          ],
+          "answerIndex": 0,
+          "explanation": "Sensory memory is large but fleeting. About 30 seconds with a small capacity describes short-term memory instead."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Auditory sensory memory is known to last roughly:",
+          "options": [
+            "Thirty seconds",
+            "A few minutes",
+            "Two seconds",
+            "One-twentieth of a second"
+          ],
+          "answerIndex": 2,
+          "explanation": "The echo of a sound lasts about two seconds, longer than the visual icon. Thirty seconds is the usual limit for unrehearsed short-term memory."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The partial-report technique for studying sensory memory was devised by:",
+          "options": [
+            "Atkinson and Shiffrin",
+            "George Sperling",
+            "Peterson and Peterson",
+            "George Miller"
+          ],
+          "answerIndex": 1,
+          "explanation": "Sperling (1960) introduced partial report. Peterson and Peterson studied how fast short-term memory fades, and Miller described its seven-item span."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The main way information is lost from sensory memory is through:",
+          "options": [
+            "Motivated forgetting",
+            "Consolidation failure",
+            "Retrieval failure",
+            "Decay"
+          ],
+          "answerIndex": 3,
+          "explanation": "Sensory traces simply fade with time. Motivated forgetting, consolidation failure and retrieval failure are causes of forgetting from long-term memory."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Why does the world not seem to go dark each time you blink?",
+          "options": [
+            "Iconic memory holds the image across the brief gap",
+            "Long-term memory fills in the missing picture",
+            "Echoic memory replays the scene as sound",
+            "Short-term memory rehearses the visual image"
+          ],
+          "answerIndex": 0,
+          "explanation": "The visual icon lasts just long enough to bridge a blink. Echoic memory deals with sound, not sight."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Compared with short-term memory, sensory memory holds information that is:",
+          "options": [
+            "Already coded by its meaning",
+            "Smaller in amount but longer lasting",
+            "A near-exact copy of the stimulus",
+            "Organised into chunks"
+          ],
+          "answerIndex": 2,
+          "explanation": "Sensory memory keeps a raw, almost literal copy. Short-term memory recodes information, usually by sound, and chunking is a short-term memory strategy."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Ade is reading when his mother calls him. He says 'Ma?' and then, before she repeats herself, realises she said 'Bring the bucket.' This is best explained by:",
+          "options": [
+            "Iconic memory",
+            "Echoic memory",
+            "Chunking",
+            "Long-term retrieval"
+          ],
+          "answerIndex": 1,
+          "explanation": "The sound of her words lingered for a second or two in auditory sensory memory. Iconic memory holds visual, not auditory, information."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A friend flashes a page of 20 words at you for a split second and asks you to say them all. You manage four. Sperling's work suggests the best interpretation is that:",
+          "options": [
+            "Your visual sensory store holds only four words",
+            "You failed to rehearse the words",
+            "The words were coded by meaning too slowly",
+            "More words were held but faded while you spoke"
+          ],
+          "answerIndex": 3,
+          "explanation": "Whole report underestimates the store, because the image decays during reporting. Rehearsal is a short-term memory process and cannot act on a decaying icon."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Out of the many sights and sounds on a busy Dugbe street, you remember only the hawker who called your name. What process moved that one item beyond sensory memory?",
+          "options": [
+            "Attention",
+            "Decay",
+            "Displacement",
+            "Consolidation"
+          ],
+          "answerIndex": 0,
+          "explanation": "Attention selects a little sensory information for short-term memory; hearing your own name grabs it strongly. Decay is what happened to everything else."
+        },
+        {
+          "difficulty": 4,
+          "stem": "In Sperling's experiment, the tone that signalled which row to report was played after the letters disappeared. Why was this detail essential?",
+          "options": [
+            "It allowed participants to rehearse all three rows",
+            "It moved the letters into long-term memory",
+            "It stopped participants knowing in advance which row to attend to",
+            "It made the letters easier to code by sound"
+          ],
+          "answerIndex": 2,
+          "explanation": "If the cue came first, people could attend to one row only. Cueing afterwards means good performance on any row proves the whole grid was briefly stored."
+        },
+        {
+          "difficulty": 4,
+          "stem": "When Sperling delayed the tone by about one second, accuracy fell to the level of whole report. This indicates that:",
+          "options": [
+            "Capacity of the visual store is only four items",
+            "The visual trace decays within about a second",
+            "Interference from the tone erased the letters",
+            "Participants lost motivation during the delay"
+          ],
+          "answerIndex": 1,
+          "explanation": "The advantage of partial report vanished as the icon faded, showing the trace lasts under a second. Capacity was shown to be large, not four items."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which of the following is NOT a characteristic of sensory memory?",
+          "options": [
+            "It has a large capacity",
+            "It holds a near-literal copy of input",
+            "It loses information mainly by decay",
+            "It holds about seven items for 30 seconds"
+          ],
+          "answerIndex": 3,
+          "explanation": "Seven items for up to 30 seconds describes short-term memory. The other three statements are true of sensory memory."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider these claims: I. Visual sensory memory outlasts auditory sensory memory. II. Whole report underestimates the capacity of iconic memory. III. Sensory memory passes all its contents to short-term memory. Which is correct?",
+          "options": [
+            "II only",
+            "I and II only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 0,
+          "explanation": "Only II is true. Echoic memory (about two seconds) outlasts iconic memory, and only attended information passes to short-term memory."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A researcher argues that people report only four letters from a 12-letter flash because sensory memory is small. The strongest evidence against her is that:",
+          "options": [
+            "Short-term memory holds seven plus or minus two items",
+            "Auditory memory lasts longer than visual memory",
+            "Cueing any single row just after the flash gives near-perfect recall of that row",
+            "People recall more letters when given unlimited viewing time"
+          ],
+          "answerIndex": 2,
+          "explanation": "Partial-report success on a randomly cued row shows the whole grid was stored. Unlimited viewing time changes the task completely and says nothing about the brief store."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which pairing of sensory store and approximate duration is correctly matched?",
+          "options": [
+            "Echoic memory: about 30 seconds",
+            "Iconic memory: about two seconds",
+            "Echoic memory: a fraction of a second",
+            "Iconic memory: a fraction of a second"
+          ],
+          "answerIndex": 3,
+          "explanation": "The visual icon lasts well under a second, and the auditory echo about two seconds. The options swap or exaggerate these values."
+        }
+      ]
+    },
+    {
+      "name": "Short-term memory",
+      "lesson": {
+        "title": "The small desk where thinking happens",
+        "minutes": 10,
+        "hook": "Someone calls out an eleven-digit phone number and you have no pen. You repeat it under your breath all the way to your phone. Why does it vanish the moment someone interrupts you?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Whatever you are thinking about now",
+            "body": "**Short-term memory (STM)** holds the information you are using at this moment: the sentence you are reading, the sum you are working out, the name you just heard.\n\nInformation gets here from sensory memory through **attention**, and it can also be pulled up from long-term memory when you need it. STM is where conscious work happens, which is why it is also called **working memory** in many texts.",
+            "visual": {
+              "type": "flow",
+              "nodes": ["Attention", "Short-term memory", "Rehearsal", "Long-term memory"]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Coded by sound",
+            "body": "Sensory memory keeps a raw copy, but STM usually **recodes information by sound** (acoustic coding). You hold the letter T as the sound 'tee', not as a shape.\n\nThis explains a common mistake: when people forget letters from a short list, they tend to swap letters that *sound* alike, such as B, P and V, rather than letters that look alike. Your inner voice is doing the holding.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                { "icon": "eye", "label": "See 'T'" },
+                { "icon": "chatbubbles", "label": "Hold 'tee'" }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The magical number seven",
+            "body": "STM is small. **George Miller (1956)** showed that most adults can hold about **seven items, plus or minus two** (between five and nine). That is enough for a short phone number, but a long string of digits overloads most people.\n\nThe word **items** is important. An item is not always one digit or letter. It is one meaningful unit, and that opens the door to a powerful trick.",
+            "visual": {
+              "type": "stat",
+              "value": "7 ± 2",
+              "label": "Items STM can hold"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Displacement: the crowded desk",
+            "body": "Picture the top of a small reading table. Keep piling books and papers on it and things begin to slide off. STM works the same way. Once it is full, each new item **pushes out** an older one. This is **displacement**.\n\nIt is why, after hearing a long list of names at a meeting, you often remember the last few but lose the earlier ones: newer arrivals shoved them off the desk.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                { "icon": "layers", "label": "Desk full" },
+                { "icon": "trending-down", "label": "Old item falls" }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Tobi is told seven room numbers, then three more. He now recalls the last three but has lost the first few. This is best explained by:",
+            "options": [
+              "Decay from sensory memory",
+              "Displacement in short-term memory",
+              "Consolidation failure",
+              "Motivated forgetting"
+            ],
+            "answerIndex": 1,
+            "why": "STM was full, so new numbers pushed out older ones. Consolidation failure and motivated forgetting are explanations of long-term forgetting."
+          },
+          {
+            "kind": "teach",
+            "heading": "Chunking: making items bigger",
+            "body": "**Chunking** means grouping separate bits into larger meaningful units, or **chunks**. A chunk can be a syllable, a word, an acronym or a familiar number.\n\nThe nine digits 2 3 4 8 0 3 1 9 6 0 are hard to hold one by one. But 234 (Nigeria's dialling code), 803 (a familiar network prefix) and 1960 (independence) become just three chunks. You used **long-term knowledge** to give them meaning, and STM suddenly feels bigger.",
+            "visual": {
+              "type": "flow",
+              "nodes": ["Ten digits", "Add meaning", "Three chunks"]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Remembering a matric number",
+            "story": "On resumption day, Hauwa is told her new matric number: 2 1 4 5 6 7. Her friend Emeka gets a ten-character code with letters. Hauwa breaks hers into '21' and '4567', a run she knows well. Emeka turns his letters into the initials of his faculty and department. Both walk away remembering numbers that looked impossible.",
+            "takeaway": "Chunking with familiar meaning raises the effective capacity of STM and makes transfer to long-term memory more likely."
+          },
+          {
+            "kind": "check",
+            "question": "Which of these is the clearest example of chunking?",
+            "options": [
+              "Repeating a number over and over until you dial it",
+              "Remembering 'NYSC' rather than four separate letters",
+              "Forgetting the first names in a long list",
+              "Recalling a song when you hear its first line"
+            ],
+            "answerIndex": 1,
+            "why": "Four letters become one familiar unit. Repeating a number is maintenance rehearsal, not chunking."
+          },
+          {
+            "kind": "teach",
+            "heading": "Less than 30 seconds",
+            "body": "Unrehearsed information fades from STM in **under 30 seconds**. **Peterson and Peterson (1959)** showed this by giving people a three-letter trigram, then making them count backwards in threes to block rehearsal. After about 18 seconds, recall had dropped to roughly 10%.\n\n**Rehearsal**, repeating information to yourself, keeps it alive. But rehearsal is fragile: one interruption and the item is gone within seconds. Stressful distractions, such as a near-accident or a threat to safety, are especially disruptive.",
+            "visual": {
+              "type": "stat",
+              "value": "< 30 seconds",
+              "label": "STM without rehearsal"
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect scenario questions where you must label displacement, chunking or rehearsal, and attribution questions on Miller and the Petersons. Students often confuse displacement with decay, or think chunking increases the number of slots rather than the size of each item.",
+            "sampleQuestion": "With relevant examples, explain how chunking increases the effective capacity of short-term memory, and state its implication for transfer to long-term memory.",
+            "howToAnswer": "State the 7 ± 2 limit, define chunking with an example that uses prior knowledge, explain that slots stay the same but each holds more, then link richer coding to easier transfer.",
+            "scholars": ["Miller (1956)", "Peterson & Peterson (1959)", "Atkinson & Shiffrin (1968)"]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "STM holds what you are working on now, entered through attention.",
+              "It usually codes information by sound.",
+              "Capacity is about 7 ± 2 items (Miller, 1956); when full, displacement occurs.",
+              "Chunking with meaning raises effective capacity.",
+              "Without rehearsal, items fade in under 30 seconds (Peterson & Peterson, 1959)."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The capacity of short-term memory is commonly given as:",
+          "options": [
+            "Virtually unlimited",
+            "Three to four letters",
+            "Seven plus or minus two items",
+            "Twelve items in three rows"
+          ],
+          "answerIndex": 2,
+          "explanation": "Miller's (1956) estimate is about seven items, ranging from five to nine. 'Virtually unlimited' describes long-term memory."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Short-term memory usually codes verbal information according to its:",
+          "options": [
+            "Visual shape",
+            "Emotional value",
+            "Meaning",
+            "Sound"
+          ],
+          "answerIndex": 3,
+          "explanation": "STM relies on acoustic coding: T is held as 'tee'. Coding by meaning is typical of long-term memory."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Keeping information alive in short-term memory by repeating it to yourself is called:",
+          "options": [
+            "Rehearsal",
+            "Displacement",
+            "Consolidation",
+            "Decay"
+          ],
+          "answerIndex": 0,
+          "explanation": "Rehearsal maintains items in STM. Displacement and decay are ways items are lost, and consolidation is the brain change that fixes long-term memories."
+        },
+        {
+          "difficulty": 2,
+          "stem": "When short-term memory is full, a new item pushes out an existing one. This process is called:",
+          "options": [
+            "Interference",
+            "Displacement",
+            "Encoding failure",
+            "Chunking"
+          ],
+          "answerIndex": 1,
+          "explanation": "Displacement is the bumping out of old items by new ones. Encoding failure means the information never got into long-term memory in the first place."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Chunking improves short-term memory mainly because it:",
+          "options": [
+            "Adds extra slots to short-term memory",
+            "Lengthens the life of sensory traces",
+            "Packs more information into each of the limited slots",
+            "Prevents any need for attention"
+          ],
+          "answerIndex": 2,
+          "explanation": "The number of slots stays around seven; each slot simply holds a bigger, meaningful unit. Chunking does not add slots."
+        },
+        {
+          "difficulty": 2,
+          "stem": "People who forget letters from a short list tend to substitute letters that sound alike, such as B for V. This supports the view that short-term memory:",
+          "options": [
+            "Stores items by their meaning",
+            "Holds a literal visual copy",
+            "Has unlimited capacity",
+            "Uses acoustic coding"
+          ],
+          "answerIndex": 3,
+          "explanation": "Sound-alike confusions reveal sound-based coding. A visual code would produce look-alike errors instead."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Kunle is repeating a POS agent's account number to himself when a bus horn blasts beside him. He loses the number at once. This shows that:",
+          "options": [
+            "Rehearsal is easily disrupted",
+            "Long-term memory is fragile",
+            "Sensory memory lasts two seconds",
+            "Chunking failed to occur"
+          ],
+          "answerIndex": 0,
+          "explanation": "Rehearsal keeps items in STM, but any interruption can wipe them out within seconds. The number was never in long-term memory."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Remembering 1-9-6-0-1-9-9-9 as 'independence year and return to democracy' is an example of:",
+          "options": [
+            "Displacement",
+            "Maintenance rehearsal",
+            "Chunking using long-term knowledge",
+            "Decay of the sensory trace"
+          ],
+          "answerIndex": 2,
+          "explanation": "Eight digits become two meaningful chunks drawn from historical knowledge. Simple repetition would be maintenance rehearsal."
+        },
+        {
+          "difficulty": 3,
+          "stem": "In an experiment, participants hear three consonants and then count backwards in threes for 18 seconds. Recall is very poor. This design is associated with:",
+          "options": [
+            "Sperling (1960)",
+            "Peterson and Peterson (1959)",
+            "Miller (1956)",
+            "Craik and Lockhart (1972)"
+          ],
+          "answerIndex": 1,
+          "explanation": "The Petersons used backward counting to block rehearsal and measured how fast STM fades. Miller studied capacity, not duration."
+        },
+        {
+          "difficulty": 4,
+          "stem": "The purpose of the backward-counting task in the Peterson and Peterson study was to:",
+          "options": [
+            "Increase the number of chunks",
+            "Measure the capacity of sensory memory",
+            "Encourage coding by meaning",
+            "Prevent participants from rehearsing"
+          ],
+          "answerIndex": 3,
+          "explanation": "Counting backwards occupies the inner voice, so the trigram cannot be rehearsed and its natural duration can be measured."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are true of short-term memory EXCEPT:",
+          "options": [
+            "It holds information currently being used",
+            "It keeps unrehearsed items for several minutes",
+            "It can receive information retrieved from long-term memory",
+            "It can lose items through displacement"
+          ],
+          "answerIndex": 1,
+          "explanation": "Unrehearsed items are lost in under 30 seconds, not minutes. The other statements are all true of STM."
+        },
+        {
+          "difficulty": 4,
+          "stem": "A student says chunking works because short-term memory has more room for meaningful material. The more accurate correction is that chunking:",
+          "options": [
+            "Turns several items into one unit, so the same few slots carry more",
+            "Moves all information directly into long-term memory",
+            "Works only for numbers, not letters or words",
+            "Removes the need for rehearsal entirely"
+          ],
+          "answerIndex": 0,
+          "explanation": "Capacity in items stays fixed; chunking makes each item richer. Chunks can be words, acronyms and syllables as well as numbers."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Miller (1956): duration of short-term memory",
+            "Peterson and Peterson (1959): capacity of short-term memory",
+            "Sperling (1960): duration of long-term memory",
+            "Miller (1956): capacity of short-term memory"
+          ],
+          "answerIndex": 3,
+          "explanation": "Miller described the 7 ± 2 capacity, and the Petersons measured duration. Sperling studied sensory, not long-term, memory."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider: I. STM codes mostly by sound. II. Chunking with meaning makes transfer to LTM more likely. III. Stressful distractions protect rehearsal by sharpening focus. Which is correct?",
+          "options": [
+            "I and III only",
+            "II and III only",
+            "I and II only",
+            "I, II and III"
+          ],
+          "answerIndex": 2,
+          "explanation": "I and II are true. Stressful distractions are especially likely to disrupt rehearsal, so III is false."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Kemi is told a list of 12 unrelated words and immediately recalls the last few best, while the earlier ones are lost. Her friend groups the same words into three themes and recalls far more. Which two concepts best explain Kemi's loss and her friend's gain?",
+          "options": [
+            "Decay and rehearsal",
+            "Displacement and chunking",
+            "Interference and consolidation",
+            "Encoding failure and retrieval cues"
+          ],
+          "answerIndex": 1,
+          "explanation": "New words pushed out earlier ones in Kemi's crowded STM (displacement), while grouping by theme made fewer, larger units (chunking). Consolidation concerns long-term storage."
+        }
+      ]
+    },
+    {
+      "name": "Long-term memory and the three stores",
+      "lesson": {
+        "title": "The library behind the desk",
+        "minutes": 9,
+        "hook": "You can still sing a jingle from a TV advert you saw as a child, yet you forget where you kept your keys this morning. One store seems to keep things for decades; another loses them in seconds.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "The relatively permanent store",
+            "body": "**Long-term memory (LTM)** is the store for knowledge, skills and experiences kept from minutes to a lifetime. Its capacity is, for practical purposes, **unlimited**: nobody has ever 'filled up' their long-term memory.\n\nWhere STM usually codes by sound, LTM tends to store material by its **meaning**. You remember the gist of yesterday's lecture, not the lecturer's exact words.",
+            "visual": {
+              "type": "stat",
+              "value": "Unlimited",
+              "label": "Practical capacity of LTM"
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Short-term vs long-term memory",
+            "left": {
+              "title": "Short-term memory",
+              "points": ["About 7 ± 2 items", "Under 30 seconds without rehearsal", "Mostly coded by sound", "Lost by displacement, decay, interference"]
+            },
+            "right": {
+              "title": "Long-term memory",
+              "points": ["Virtually unlimited", "Minutes to a lifetime", "Mostly coded by meaning", "Lost by failures of encoding, storage or retrieval"]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "How STM and LTM work together",
+            "body": "The two stores are partners. Information **transfers** from STM into LTM through rehearsal and meaningful encoding. In the other direction, STM **retrieves** information from LTM whenever you need it: you pull up the formula you learned last semester so you can use it in today's calculation.\n\nThis two-way traffic is why chunking works: LTM supplies the meaning that lets STM hold bigger units.",
+            "visual": {
+              "type": "cycle",
+              "nodes": ["Short-term memory", "Transfer (encoding)", "Long-term memory", "Retrieval"]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "During an exam, Musa recalls a definition he learned weeks ago and uses it to answer a new question. In the Atkinson–Shiffrin model, this is:",
+            "options": [
+              "Transfer from STM to LTM",
+              "Retrieval from LTM into STM",
+              "Displacement within STM",
+              "Decay from sensory memory"
+            ],
+            "answerIndex": 1,
+            "why": "He is bringing stored knowledge back into working use. Transfer runs the other way, from STM into LTM."
+          },
+          {
+            "kind": "teach",
+            "heading": "Each store forgets differently",
+            "body": "**Sensory memory** loses information mainly by **decay**. **STM** loses it by **displacement**, **decay** and **interference** from similar items.\n\n**LTM** forgetting has more causes: **encoding failure** (it never got in properly), **consolidation failure** (the brain did not fix it, for example after a head injury), **interference** from other memories, **motivated forgetting** (pushing painful memories away) and **retrieval failure** (it is stored but you cannot reach it).",
+            "visual": {
+              "type": "pyramid",
+              "levels": ["Sensory: decay", "STM: displacement, interference", "LTM: five causes"]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "The answer after the exam",
+            "story": "Chiamaka stares at a question on serial position for ten minutes and writes nothing. As she walks out past the Faculty of Social Sciences, a classmate mentions 'primacy' and the whole answer floods back. She had studied it well; it was in memory all along. She just could not find the route to it in the hall.",
+            "takeaway": "This is retrieval failure: the memory was stored in LTM, but the right cue was missing when she needed it."
+          },
+          {
+            "kind": "terms",
+            "heading": "Causes of long-term forgetting",
+            "terms": [
+              { "term": "Encoding failure", "meaning": "The information was never properly stored, often through lack of attention." },
+              { "term": "Consolidation failure", "meaning": "The brain change that fixes a memory was disrupted." },
+              { "term": "Interference", "meaning": "Other memories compete with, or block, the one you want." },
+              { "term": "Motivated forgetting", "meaning": "Forgetting that serves to avoid painful or threatening memories." },
+              { "term": "Retrieval failure", "meaning": "The memory is stored, but cannot be accessed at that moment." }
+            ]
+          },
+          {
+            "kind": "check",
+            "question": "A survivor of a terrible accident cannot recall details of the crash, though doctors find no brain injury. Which cause of forgetting best fits?",
+            "options": [
+              "Displacement",
+              "Decay from sensory memory",
+              "Motivated forgetting",
+              "Chunking failure"
+            ],
+            "answerIndex": 2,
+            "why": "With no injury, forgetting that protects the person from a painful memory points to motivated forgetting. Displacement applies to the small STM store."
+          },
+          {
+            "kind": "teach",
+            "heading": "Retention, forgetting and the hippocampus",
+            "body": "Memory has two sides: **retention**, the positive side of keeping information, and **forgetting**, the negative side of losing it. Both are normal, and some forgetting is actually useful, clearing out what no longer matters.\n\nIn the brain, the **hippocampus** plays an important part in forming and storing new long-term memories. Damage to it leaves old memories largely intact but makes it very hard to lay down new ones.",
+            "visual": {
+              "type": "brain",
+              "region": "hippocampus",
+              "label": "Forms new long-term memories"
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Lecturers love the comparison table: capacity, duration, coding and causes of forgetting for each store. A common trap is matching a cause of forgetting to the wrong store, such as giving motivated forgetting for STM or displacement for LTM.",
+            "sampleQuestion": "Discuss the relationship between short-term and long-term memory, highlighting how the two systems differ in capacity, duration and the ways information is lost.",
+            "howToAnswer": "Explain two-way traffic (transfer and retrieval), then compare the stores on capacity, duration, coding and forgetting, with one example of each cause.",
+            "scholars": ["Atkinson & Shiffrin (1968)", "Miller (1956)", "Peterson & Peterson (1959)"]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "LTM holds information from minutes to a lifetime, with virtually unlimited capacity.",
+              "LTM tends to code by meaning; STM by sound.",
+              "STM transfers information to LTM, and retrieves it back when needed.",
+              "LTM forgetting: encoding, consolidation, interference, motivated, retrieval failure.",
+              "The hippocampus is central to forming new long-term memories."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Which memory store is described as having a virtually unlimited capacity?",
+          "options": [
+            "Sensory memory",
+            "Short-term memory",
+            "Iconic memory",
+            "Long-term memory"
+          ],
+          "answerIndex": 3,
+          "explanation": "Long-term memory has no known practical limit. Sensory memory is large, but holds information only for a moment."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The brain structure most strongly linked with forming new long-term memories is the:",
+          "options": [
+            "Hippocampus",
+            "Cerebellum",
+            "Occipital lobe",
+            "Brainstem"
+          ],
+          "answerIndex": 0,
+          "explanation": "The hippocampus is central to laying down new long-term memories. The occipital lobe deals mainly with vision."
+        },
+        {
+          "difficulty": 1,
+          "stem": "In memory, the 'positive' side is retention. The 'negative' side is:",
+          "options": [
+            "Encoding",
+            "Forgetting",
+            "Rehearsal",
+            "Chunking"
+          ],
+          "answerIndex": 1,
+          "explanation": "Retention is keeping information and forgetting is losing it. Encoding, rehearsal and chunking all help retention."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Long-term memory differs from short-term memory in that it tends to code verbal material mainly by:",
+          "options": [
+            "Sound",
+            "Visual shape",
+            "Meaning",
+            "Order of arrival"
+          ],
+          "answerIndex": 2,
+          "explanation": "LTM stores the gist or meaning, while STM leans on sound. That is why you recall the sense of a lecture, not the exact words."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Information moves from short-term to long-term memory mainly through:",
+          "options": [
+            "Decay and displacement",
+            "Attention to sensory input alone",
+            "Motivated forgetting",
+            "Rehearsal and encoding"
+          ],
+          "answerIndex": 3,
+          "explanation": "Rehearsal and meaningful encoding transfer information into LTM. Decay and displacement remove information instead."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which cause of forgetting applies to long-term memory but NOT to sensory memory?",
+          "options": [
+            "Retrieval failure",
+            "Decay",
+            "Loss over time",
+            "Fading of the trace"
+          ],
+          "answerIndex": 0,
+          "explanation": "Retrieval failure assumes the memory is stored and simply cannot be reached, which only makes sense for LTM. The other options all describe decay."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Yusuf was chatting throughout a tutorial and later cannot recall anything about the topic, even with hints. The most likely cause is:",
+          "options": [
+            "Retrieval failure",
+            "Motivated forgetting",
+            "Encoding failure",
+            "Consolidation failure"
+          ],
+          "answerIndex": 2,
+          "explanation": "Without attention the material never got into LTM, so even cues do not help. Retrieval failure would mean hints should bring it back."
+        },
+        {
+          "difficulty": 3,
+          "stem": "After a motorcycle crash with a head injury, Femi cannot remember the hour before the accident. This is best explained by:",
+          "options": [
+            "Displacement",
+            "Consolidation failure",
+            "Chunking",
+            "Interference"
+          ],
+          "answerIndex": 1,
+          "explanation": "The injury disrupted the brain processes that fix recent memories. Displacement applies to STM overflow, not a head injury."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Ngozi changed her phone number last year. Now, whenever she tries to recall her new number, the old one keeps coming to mind. This is an example of:",
+          "options": [
+            "Encoding failure",
+            "Decay",
+            "Motivated forgetting",
+            "Interference"
+          ],
+          "answerIndex": 3,
+          "explanation": "One memory (the old number) is competing with another. The new number was encoded, so this is not encoding failure."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which of the following correctly describes the relationship between STM and LTM?",
+          "options": [
+            "STM sends information to LTM, and LTM sends information back to STM for use",
+            "Information flows only from LTM to STM",
+            "STM and LTM work independently and never exchange information",
+            "LTM receives information directly from sensory memory without STM"
+          ],
+          "answerIndex": 0,
+          "explanation": "Traffic is two-way: transfer into LTM and retrieval back into STM. In the Atkinson–Shiffrin model, sensory input reaches LTM only through STM."
+        },
+        {
+          "difficulty": 4,
+          "stem": "A patient with damage to the hippocampus would most likely show:",
+          "options": [
+            "Loss of all childhood memories but normal new learning",
+            "Inability to hold a phone number for a few seconds",
+            "Difficulty forming new long-term memories while older ones stay largely intact",
+            "Loss of iconic memory during blinking"
+          ],
+          "answerIndex": 2,
+          "explanation": "Hippocampal damage mainly impairs storing new long-term memories. Holding a number for seconds depends on STM, which is often spared."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pairing of memory store and cause of forgetting is INCORRECT?",
+          "options": [
+            "Sensory memory: decay",
+            "Long-term memory: motivated forgetting",
+            "Short-term memory: displacement",
+            "Sensory memory: retrieval failure"
+          ],
+          "answerIndex": 3,
+          "explanation": "Retrieval failure implies a stored memory that cannot be accessed, which belongs to LTM. Sensory information is lost by decay."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider: I. Chunking depends on knowledge already in long-term memory. II. Long-term memory loses information mainly by displacement. III. Retrieval moves information from long-term into short-term memory. Which is correct?",
+          "options": [
+            "I and III only",
+            "I and II only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 0,
+          "explanation": "I and III are true. Displacement is a short-term memory process; LTM has no capacity limit to overflow."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A student cannot answer an exam question but remembers the answer the moment a friend mentions a key word afterwards. Which statement best interprets this?",
+          "options": [
+            "The answer was never encoded, so the cue created a new memory",
+            "The answer was stored but inaccessible without a suitable cue",
+            "The answer decayed from sensory memory during the exam",
+            "The answer was displaced by newer information in LTM"
+          ],
+          "answerIndex": 1,
+          "explanation": "A cue unlocking the full answer shows it was stored all along: retrieval failure. A single word could not create a whole new memory of the answer."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which row correctly describes the three stores in the order sensory, short-term, long-term?",
+          "options": [
+            "Large and brief; about 7 items and under 30 s; small and permanent",
+            "About 7 items; large and brief; unlimited and permanent",
+            "Unlimited and permanent; large and brief; about 7 items",
+            "Large and brief; about 7 items and under 30 s; unlimited and lasting"
+          ],
+          "answerIndex": 3,
+          "explanation": "Sensory memory is large but fleeting, STM holds about seven items for under 30 seconds, and LTM is unlimited and long-lasting. LTM is not small."
+        }
+      ]
+    }
+  ]
+}

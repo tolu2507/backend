@@ -1,0 +1,660 @@
+{
+  "unit": 12,
+  "title": "DSM-5: Classification of Neurodevelopmental and Other Childhood Disorders",
+  "summary": "What DSM-5 is and how it is used, the end of the multi-axial system, and how childhood disorders were reorganised from DSM-IV into new classes.",
+  "sections": [
+    {
+      "name": "What DSM-5 is and what changed",
+      "lesson": {
+        "title": "The diagnostic rulebook",
+        "minutes": 9,
+        "hook": "A child in Ibadan and a child in Chicago with the same symptoms should get the same diagnosis. That only works if clinicians everywhere share one rulebook. For psychiatry, that rulebook is the DSM.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "What DSM-5 is",
+            "body": "**DSM-5**, short for the *Diagnostic and Statistical Manual of Mental Disorders*, 5th edition, is how the **American Psychiatric Association (APA)** classifies mental disorders. (Your notes write 'Psychiatrist'; the body is the American **Psychiatric** Association.)\n\nIt was published in **2013** after a **14-year** revision of DSM-IV-TR by many international teams. A text revision, **DSM-5-TR**, followed in 2022.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "DSM-IV (1994)",
+                "DSM-IV-TR (2000)",
+                "DSM-5 (2013)",
+                "DSM-5-TR (2022)"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "What it is used for",
+            "body": "Clinicians and researchers use the DSM to **diagnose and classify** mental disorders, including **substance use disorders**. For children, a diagnosis weighs the **symptoms**, **how long** they have lasted, and **how much they disrupt** life at home, in school and in the wider community.\n\nLike DSM-IV, it aims to identify disorders that interfere with **normal development**, **relationships with family and peers**, and reaching **developmental milestones**.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "search",
+                  "label": "Symptoms"
+                },
+                {
+                  "icon": "time",
+                  "label": "Duration"
+                },
+                {
+                  "icon": "home",
+                  "label": "Impact on life"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "DSM-5 was published by the American Psychiatric Association in:",
+            "options": [
+              "1994",
+              "2000",
+              "2022",
+              "2013"
+            ],
+            "answerIndex": 3,
+            "why": "DSM-5 appeared in 2013 after a 14-year revision; DSM-5-TR followed in 2022."
+          },
+          {
+            "kind": "teach",
+            "heading": "An evidence-based effort",
+            "body": "DSM-5 was a **multinational, interdisciplinary** effort to build a large body of **empirical research** into the classification of mental illness.\n\nIts reclassifications reflect **better understanding** from new research and clinical knowledge, rather than simply renaming things.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Research findings",
+                "Expert teams",
+                "Revised classes"
+              ]
+            }
+          },
+          {
+            "kind": "terms",
+            "heading": "The old DSM-IV multi-axial system",
+            "terms": [
+              {
+                "term": "Axis I",
+                "meaning": "Mental health and substance use disorders"
+              },
+              {
+                "term": "Axis II",
+                "meaning": "Personality disorders and mental retardation"
+              },
+              {
+                "term": "Axis III",
+                "meaning": "General medical conditions"
+              },
+              {
+                "term": "Axis IV",
+                "meaning": "Psychosocial and environmental problems, such as housing or employment"
+              },
+              {
+                "term": "Axis V",
+                "meaning": "Global Assessment of Functioning (GAF) scale"
+              }
+            ]
+          },
+          {
+            "kind": "teach",
+            "heading": "Goodbye to the axes",
+            "body": "Perhaps the most visible change in DSM-5 is that the **five-axis (multi-axial) system was scrapped**. DSM-IV had used five axes to organise biopsychosocial information.\n\nDSM-5 lists diagnoses together, with separate notes on medical conditions and psychosocial factors, and drops the GAF score.",
+            "visual": {
+              "type": "scale",
+              "left": "Single list (DSM-5)",
+              "right": "Five axes (DSM-IV)",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "One child, two reports",
+            "story": "Under DSM-IV, a clinic report on 9-year-old Zainab might read: Axis I, ADHD; Axis II, none; Axis III, asthma; Axis IV, parents' recent divorce; Axis V, GAF 55. Under DSM-5, the same report lists ADHD and asthma together, notes the divorce as a relevant stressor, and describes how her functioning is affected, without the axes.",
+            "takeaway": "DSM-5 keeps the same information but drops the five-axis structure."
+          },
+          {
+            "kind": "check",
+            "question": "Under DSM-IV, Axis V recorded:",
+            "options": [
+              "Personality disorders",
+              "Global Assessment of Functioning",
+              "General medical conditions",
+              "Substance use disorders"
+            ],
+            "answerIndex": 1,
+            "why": "Axis V was the GAF scale; Axis III was medical conditions; Axis II was personality disorders and mental retardation."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'what is DSM-5?', 'what is it used for?' and 'what major change did DSM-5 make?' (the axes were removed). Objectives test what each axis contained. Trap: putting mental retardation on Axis I; it was on Axis II with personality disorders.",
+            "sampleQuestion": "In DSM-IV, Axis II consisted of: (a) general medical conditions (b) personality disorders and mental retardation (c) psychosocial problems (d) global functioning",
+            "howToAnswer": "Answer (b). Then state that DSM-5 removed the axes entirely.",
+            "scholars": [
+              "APA (2013)",
+              "Wills (2014)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "DSM-5: the American Psychiatric Association's classification, published 2013.",
+              "It followed a 14-year, multinational, evidence-based revision.",
+              "Used to diagnose and classify mental and substance use disorders.",
+              "Children's disorders judged by symptoms, duration and impact across settings.",
+              "Key change: the five-axis system was eliminated."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "DSM stands for:",
+          "options": [
+            "Diagnostic and Statistical Manual of Mental Disorders",
+            "Developmental Skills Manual",
+            "Disease Symptom Monitor",
+            "Direct Service Model"
+          ],
+          "answerIndex": 0,
+          "explanation": "DSM is the Diagnostic and Statistical Manual of Mental Disorders."
+        },
+        {
+          "difficulty": 1,
+          "stem": "DSM-5 is published by the:",
+          "options": [
+            "World Health Organization",
+            "American Psychiatric Association",
+            "Nigerian Medical Council",
+            "British Psychological Society"
+          ],
+          "answerIndex": 1,
+          "explanation": "The American Psychiatric Association publishes the DSM."
+        },
+        {
+          "difficulty": 1,
+          "stem": "A key change from DSM-IV to DSM-5 was:",
+          "options": [
+            "Adding a sixth axis",
+            "Removing all childhood disorders",
+            "Eliminating the multi-axial system",
+            "Banning diagnosis of children"
+          ],
+          "answerIndex": 2,
+          "explanation": "DSM-5 eliminated the five-axis system."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The DSM-5 revision process lasted about:",
+          "options": [
+            "2 years",
+            "5 years",
+            "14 years",
+            "30 years"
+          ],
+          "answerIndex": 2,
+          "explanation": "It culminated a 14-year revision process."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Under DSM-IV, Axis III was used for:",
+          "options": [
+            "Personality disorders",
+            "Substance use disorders",
+            "General medical conditions",
+            "Global functioning"
+          ],
+          "answerIndex": 2,
+          "explanation": "Axis III coded general medical conditions."
+        },
+        {
+          "difficulty": 2,
+          "stem": "DSM classifies childhood disorders by symptoms, duration and:",
+          "options": [
+            "Functional impact across home, school and community",
+            "Family income",
+            "Height and weight",
+            "Religion"
+          ],
+          "answerIndex": 0,
+          "explanation": "Impact on functioning across settings is a key criterion."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A DSM-IV report lists 'parents' divorce and loss of family home' on one axis. Which axis?",
+          "options": [
+            "Axis I",
+            "Axis IV",
+            "Axis II",
+            "Axis V"
+          ],
+          "answerIndex": 1,
+          "explanation": "Axis IV recorded psychosocial and environmental problems."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A DSM-IV report gives a child a GAF score of 60. Which axis is this?",
+          "options": [
+            "Axis V",
+            "Axis III",
+            "Axis IV",
+            "Axis I"
+          ],
+          "answerIndex": 0,
+          "explanation": "Axis V held the Global Assessment of Functioning score."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Under DSM-IV, where would 'mental retardation' have been recorded?",
+          "options": [
+            "Axis II",
+            "Axis I",
+            "Axis III",
+            "Axis IV"
+          ],
+          "answerIndex": 0,
+          "explanation": "Axis II included personality disorders and mental retardation."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following were DSM-IV axes EXCEPT:",
+          "options": [
+            "Mental and substance use disorders",
+            "Genetic test results",
+            "General medical conditions",
+            "Personality disorders and mental retardation"
+          ],
+          "answerIndex": 1,
+          "explanation": "Genetic test results were not an axis."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement about DSM-5's development is correct?",
+          "options": [
+            "It was written by one author",
+            "It was a multinational, interdisciplinary effort based on empirical research",
+            "It ignored research",
+            "It only covers adults"
+          ],
+          "answerIndex": 1,
+          "explanation": "DSM-5 drew on extensive research from many teams worldwide."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Axis I in DSM-IV consisted of:",
+          "options": [
+            "Global functioning",
+            "Personality disorders",
+            "Medical conditions",
+            "Mental health and substance use disorders"
+          ],
+          "answerIndex": 3,
+          "explanation": "Axis I covered most mental and substance use disorders."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. DSM-5 is used by both clinicians and researchers. II. DSM-5 kept the five axes. III. DSM-5 covers substance use disorders. Which are correct?",
+          "options": [
+            "I and II only",
+            "II and III only",
+            "I and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 2,
+          "explanation": "I and III are correct. DSM-5 eliminated the axes."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Why is a shared classification system like the DSM valuable?",
+          "options": [
+            "It only helps insurance companies",
+            "It guarantees cures",
+            "It replaces clinical judgement",
+            "It allows different clinicians and researchers to diagnose consistently and compare findings"
+          ],
+          "answerIndex": 3,
+          "explanation": "Common criteria allow consistent diagnosis and comparable research."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which is the correct order of DSM editions?",
+          "options": [
+            "DSM-5, DSM-IV, DSM-IV-TR",
+            "DSM-5-TR, DSM-5, DSM-IV",
+            "DSM-IV-TR, DSM-IV, DSM-5",
+            "DSM-IV, DSM-IV-TR, DSM-5, DSM-5-TR"
+          ],
+          "answerIndex": 3,
+          "explanation": "DSM-IV (1994), DSM-IV-TR (2000), DSM-5 (2013), DSM-5-TR (2022)."
+        }
+      ]
+    },
+    {
+      "name": "Where childhood disorders went",
+      "lesson": {
+        "title": "Reorganising childhood disorders",
+        "minutes": 10,
+        "hook": "In DSM-IV, autism, ADHD, conduct disorder and separation anxiety all lived in one big 'childhood' chapter. In DSM-5 they were scattered across different chapters. Why break up the family?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Classes of disorders",
+            "body": "Both DSM-IV and DSM-5 group disorders into **classes**, putting together disorders that share **symptoms** or suspected **causes**, to make the manual easier for clinicians and researchers.\n\nIn DSM-5, your course notes that **six classes were added** and **four were removed**.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Similar symptoms",
+                "Shared causes",
+                "Grouped into classes"
+              ]
+            }
+          },
+          {
+            "kind": "terms",
+            "heading": "Four DSM-IV classes dropped",
+            "terms": [
+              {
+                "term": "Disorders usually first diagnosed in infancy, childhood or adolescence",
+                "meaning": "The old childhood chapter"
+              },
+              {
+                "term": "Mental disorders due to a general medical condition",
+                "meaning": "Moved into other classes"
+              },
+              {
+                "term": "Factitious disorders",
+                "meaning": "Moved into somatic symptom disorders"
+              },
+              {
+                "term": "Adjustment disorders",
+                "meaning": "Moved into trauma- and stressor-related disorders"
+              }
+            ]
+          },
+          {
+            "kind": "teach",
+            "heading": "Dropped does not mean deleted",
+            "body": "'Dropped' means the **class heading** no longer exists, **not** that the disorders inside it disappeared. Most were **recategorised** into other classes.\n\nFor children, the biggest change was scrapping the old '**disorders usually first diagnosed in infancy, childhood or adolescence**' chapter. Its disorders now sit in classes organised by **type of problem**, not by **age**.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Old childhood chapter",
+                "Split up",
+                "Placed by type of problem"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "When DSM-5 'dropped' the class of disorders first diagnosed in childhood, the disorders in it were:",
+            "options": [
+              "Mostly moved into other classes",
+              "Deleted from the manual",
+              "Moved to an appendix only",
+              "Made adult-only"
+            ],
+            "answerIndex": 0,
+            "why": "Dropping a class removes the heading; the disorders were recategorised elsewhere."
+          },
+          {
+            "kind": "compare",
+            "heading": "New homes for childhood disorders",
+            "left": {
+              "title": "Neurodevelopmental disorders",
+              "points": [
+                "Intellectual disability (formerly mental retardation)",
+                "Autism spectrum disorder (formerly pervasive developmental disorders)",
+                "ADHD, learning, communication, motor and tic disorders"
+              ]
+            },
+            "right": {
+              "title": "Other classes",
+              "points": [
+                "ODD and conduct disorder: disruptive, impulse-control and conduct",
+                "Separation anxiety and selective mutism: anxiety disorders",
+                "Reactive attachment disorder: trauma- and stressor-related"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "New classes in DSM-5",
+            "body": "New classes include **neurodevelopmental disorders**, **obsessive-compulsive and related disorders**, **trauma- and stressor-related disorders**, and **elimination disorders**.\n\nOld classes were also renamed and split. For example, DSM-IV's '**mood disorders**' became two classes: **bipolar and related disorders** and **depressive disorders**. '**Sexual and gender identity disorders**' split into **sexual dysfunctions**, **gender dysphoria** and **paraphilic disorders**.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Mood disorders",
+                "Bipolar and related",
+                "Depressive disorders"
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Following the disorders",
+            "story": "A lecturer gives the class a game: find each childhood disorder's new DSM-5 home. Autism goes to neurodevelopmental disorders as autism spectrum disorder; ADHD joins it there. Conduct disorder moves to disruptive, impulse-control and conduct disorders. Reactive attachment disorder lands in trauma- and stressor-related disorders, because neglect is part of its cause.",
+            "takeaway": "DSM-5 groups childhood disorders by the type of problem and likely cause, not by the age they first appear."
+          },
+          {
+            "kind": "check",
+            "question": "In DSM-5, ADHD is classified under:",
+            "options": [
+              "Anxiety disorders",
+              "Personality disorders",
+              "Trauma- and stressor-related disorders",
+              "Neurodevelopmental disorders"
+            ],
+            "answerIndex": 3,
+            "why": "ADHD moved into the new neurodevelopmental disorders class."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'mention four classes present in DSM-IV but dropped in DSM-5', and matching questions on where childhood disorders now sit. Learn the table: neurodevelopmental (intellectual disability, autism, ADHD, learning, communication, motor, tics); disruptive (ODD, conduct); anxiety (separation anxiety, selective mutism); trauma (RAD); elimination; feeding and eating. Trap: putting RAD under anxiety.",
+            "sampleQuestion": "Mention four classes of disorders present in DSM-IV but dropped in DSM-5.",
+            "howToAnswer": "Name these four: the old childhood chapter (disorders usually first diagnosed in infancy, childhood or adolescence), mental disorders due to a general medical condition, factitious disorders, and adjustment disorders. Note that their disorders were recategorised, not deleted.",
+            "scholars": [
+              "APA (2013)",
+              "Wills (2014)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Four classes dropped, including the childhood chapter; six added.",
+              "Dropped classes' disorders were recategorised, not deleted.",
+              "Neurodevelopmental: intellectual disability, autism spectrum, ADHD, learning, tics.",
+              "ODD and conduct: disruptive class; separation anxiety: anxiety; RAD: trauma-related.",
+              "Mood disorders split into bipolar and depressive classes."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "In DSM-5, 'mental retardation' was renamed:",
+          "options": [
+            "Intellectual disability",
+            "Learning disorder",
+            "Autism spectrum disorder",
+            "Developmental delay"
+          ],
+          "answerIndex": 0,
+          "explanation": "DSM-5 uses 'intellectual disability'."
+        },
+        {
+          "difficulty": 1,
+          "stem": "In DSM-5, pervasive developmental disorders became:",
+          "options": [
+            "Autism spectrum disorder",
+            "Conduct disorder",
+            "Anxiety disorders",
+            "Elimination disorders"
+          ],
+          "answerIndex": 0,
+          "explanation": "They were combined as autism spectrum disorder."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which DSM-IV class was dropped in DSM-5?",
+          "options": [
+            "Anxiety disorders",
+            "Personality disorders",
+            "Disorders usually first diagnosed in infancy, childhood or adolescence",
+            "Dissociative disorders"
+          ],
+          "answerIndex": 2,
+          "explanation": "The childhood chapter was removed and its disorders redistributed."
+        },
+        {
+          "difficulty": 2,
+          "stem": "In DSM-5, conduct disorder and ODD belong to:",
+          "options": [
+            "Neurodevelopmental disorders",
+            "Disruptive, impulse-control and conduct disorders",
+            "Anxiety disorders",
+            "Personality disorders"
+          ],
+          "answerIndex": 1,
+          "explanation": "Both moved into the disruptive, impulse-control and conduct class."
+        },
+        {
+          "difficulty": 2,
+          "stem": "In DSM-5, separation anxiety disorder is classified under:",
+          "options": [
+            "Elimination disorders",
+            "Neurodevelopmental disorders",
+            "Anxiety disorders",
+            "Depressive disorders"
+          ],
+          "answerIndex": 2,
+          "explanation": "It moved into anxiety disorders, with selective mutism."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which of these is a new class in DSM-5?",
+          "options": [
+            "Adjustment disorders",
+            "Factitious disorders",
+            "Neurodevelopmental disorders",
+            "Mood disorders"
+          ],
+          "answerIndex": 2,
+          "explanation": "Neurodevelopmental disorders is a new DSM-5 class."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Reactive attachment disorder was placed in DSM-5's trauma- and stressor-related class because:",
+          "options": [
+            "Its diagnosis requires a history of neglect or abuse, a stressor",
+            "It involves learning problems",
+            "It is a form of ADHD",
+            "It only affects adults"
+          ],
+          "answerIndex": 0,
+          "explanation": "RAD stems from pathogenic care, an environmental stressor."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A child with tic disorder would be classified in DSM-5 under:",
+          "options": [
+            "Anxiety disorders",
+            "Neurodevelopmental disorders",
+            "Trauma-related disorders",
+            "Elimination disorders"
+          ],
+          "answerIndex": 1,
+          "explanation": "Tic disorders moved into neurodevelopmental disorders."
+        },
+        {
+          "difficulty": 3,
+          "stem": "DSM-IV's 'mood disorders' class became which DSM-5 classes?",
+          "options": [
+            "Anxiety and trauma",
+            "Neurodevelopmental and elimination",
+            "Personality and psychotic",
+            "Bipolar and related disorders, and depressive disorders"
+          ],
+          "answerIndex": 3,
+          "explanation": "Mood disorders split into bipolar and depressive classes."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following were DSM-IV classes dropped in DSM-5 EXCEPT:",
+          "options": [
+            "Factitious disorders",
+            "Adjustment disorders",
+            "Mental disorders due to a general medical condition",
+            "Personality disorders"
+          ],
+          "answerIndex": 3,
+          "explanation": "Personality disorders remained as a DSM-5 class."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair of childhood disorder and DSM-5 class is correctly matched?",
+          "options": [
+            "Selective mutism: neurodevelopmental",
+            "Learning disorders: neurodevelopmental",
+            "Reactive attachment disorder: anxiety",
+            "ODD: trauma-related"
+          ],
+          "answerIndex": 1,
+          "explanation": "Learning disorders are neurodevelopmental. Selective mutism is anxiety; RAD is trauma-related; ODD is disruptive."
+        },
+        {
+          "difficulty": 4,
+          "stem": "What does it mean that a DSM-IV class was 'dropped' in DSM-5?",
+          "options": [
+            "Its disorders no longer exist",
+            "It became adult-only",
+            "It moved to an appendix",
+            "The class heading was removed and its disorders were mostly recategorised"
+          ],
+          "answerIndex": 3,
+          "explanation": "Dropping a class does not remove its disorders; they were reclassified."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. ADHD and autism spectrum disorder are both neurodevelopmental in DSM-5. II. Separation anxiety disorder is neurodevelopmental. III. Elimination disorders became their own class. Which are correct?",
+          "options": [
+            "I and II only",
+            "II and III only",
+            "I and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 2,
+          "explanation": "I and III are correct. Separation anxiety is an anxiety disorder."
+        },
+        {
+          "difficulty": 5,
+          "stem": "What principle best explains DSM-5's reorganisation of childhood disorders?",
+          "options": [
+            "Grouping by type of problem and suspected shared causes",
+            "Grouping by age of onset",
+            "Grouping alphabetically",
+            "Grouping by treatment cost"
+          ],
+          "answerIndex": 0,
+          "explanation": "DSM-5 groups disorders with similar symptoms or causes, regardless of when they first appear."
+        },
+        {
+          "difficulty": 5,
+          "stem": "DSM-IV's 'sexual and gender identity disorders' was split in DSM-5 into:",
+          "options": [
+            "Anxiety and depression",
+            "Sexual dysfunctions, gender dysphoria and paraphilic disorders",
+            "Neurodevelopmental and elimination disorders",
+            "Personality and psychotic disorders"
+          ],
+          "answerIndex": 1,
+          "explanation": "The class became three: sexual dysfunctions, gender dysphoria and paraphilic disorders."
+        }
+      ]
+    }
+  ]
+}

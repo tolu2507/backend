@@ -1,0 +1,798 @@
+{
+  "unit": 14,
+  "title": "Learning and Memory II",
+  "summary": "How memories are formed and retrieved, the brain structures behind different kinds of memory, and the disorders that reveal them.",
+  "sections": [
+    {
+      "name": "Memory stages and sensory memory",
+      "lesson": {
+        "title": "From a glance to a memory",
+        "minutes": 8,
+        "hook": "Wave a lit phone torch quickly in a dark room and you see a trail of light that is not really there. That trail is your sensory memory holding on for a fraction of a second.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Memory as three jobs",
+            "body": "Psychologists define **memory** as the mental ability to store, keep and later bring back information. From an information-processing viewpoint, every memory goes through three stages.\n\n**Encoding** (also called registration) is taking information in, processing it and combining it into a usable form. **Storage** is making a lasting record of what was encoded. **Retrieval** (or recall) is calling that record back, usually in response to some cue, so you can use it.",
+            "visual": {
+              "type": "flow",
+              "nodes": ["Encoding", "Storage", "Retrieval"]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Where did it go wrong?",
+            "story": "Funke chatted on WhatsApp all through the lecture on neurotransmitters, so nothing about them ever entered her head. Her friend Ibrahim listened carefully, but in the exam his mind went blank on 'acetylcholine'. On the bus home to Bodija, the word popped up by itself.",
+            "takeaway": "Funke's memory failed at encoding; Ibrahim's was stored all along and failed only at retrieval."
+          },
+          {
+            "kind": "teach",
+            "heading": "Sensory memory: the first stop",
+            "body": "Before anything is encoded more deeply, the senses hold a brief, almost raw copy of what they picked up. This is **sensory memory**. For vision it is often called **iconic memory**.\n\nIt lets you glance at something and, for a split second after it disappears, still 'see' it. You do not choose to do this; it happens automatically after the stimulus ends, which is why it is described as outside voluntary control.",
+            "visual": {
+              "type": "brain",
+              "region": "occipital-lobe",
+              "label": "Visual input arrives here"
+            }
+          },
+          {
+            "kind": "steps",
+            "heading": "Sperling's partial report experiment (1960)",
+            "steps": [
+              { "title": "Flash the grid", "detail": "Twelve letters in three rows of four appear for a very brief moment." },
+              { "title": "Whole report", "detail": "Asked to name every letter, people manage only about four or five." },
+              { "title": "Play a tone", "detail": "In the partial report version, a high, middle or low tone after the flash signals which row to report." },
+              { "title": "Report the row", "detail": "People can report most of whichever row is cued, so nearly the whole grid must have been briefly available." },
+              { "title": "Delay the tone", "detail": "If the cue comes later, the advantage shrinks quickly as the image fades." }
+            ]
+          },
+          {
+            "kind": "teach",
+            "heading": "What Sperling concluded",
+            "body": "Because people could report almost any row they were cued to, Sperling reasoned that sensory memory briefly holds **about 12 items**, most of the display.\n\nSo why did whole report fall short? The image **decays within a few hundred milliseconds**. By the time you have named four letters, the rest have faded. Crucially, you cannot stretch this store by repeating the letters to yourself: sensory memory **cannot be prolonged by rehearsal**.",
+            "visual": {
+              "type": "stat",
+              "value": "about 12 items",
+              "label": "Briefly held, then gone in under a second"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "In Sperling's experiment, what was the purpose of the tone played after the letters disappeared?",
+            "options": ["To signal the end of the trial", "To reward correct answers", "To tell participants which row to report", "To measure reaction time"],
+            "answerIndex": 2,
+            "why": "The tone's pitch indicated which row to report, which is what made it a partial report. Because the row was chosen after the display had gone, good performance proved the whole grid was briefly stored."
+          },
+          {
+            "kind": "compare",
+            "heading": "Whole report versus partial report",
+            "left": {
+              "title": "Whole report",
+              "points": [
+                "Name all 12 letters",
+                "Only about 4 or 5 reported",
+                "Image fades while you speak"
+              ]
+            },
+            "right": {
+              "title": "Partial report",
+              "points": [
+                "Name only the cued row",
+                "Most of that row reported",
+                "Shows almost all 12 were available"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Bisi glances at a speeding car's number plate. For a split second she can still 'see' it, but a moment later it is gone. This is best described as:",
+            "options": ["Semantic memory", "Retrieval failure", "Iconic sensory memory", "Elaborative rehearsal"],
+            "answerIndex": 2,
+            "why": "A brief visual after-image that fades in under a second is iconic (sensory) memory. Retrieval failure assumes the plate had been encoded and stored, which it never was."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Lecturers love Sperling's design: why the tone came after the display, why whole report underestimates capacity, and what a delayed tone does. The trap is saying sensory memory holds only four or five items. That is whole-report performance, not capacity.",
+            "sampleQuestion": "Describe Sperling's (1960) partial report experiment and explain what it reveals about the capacity and duration of sensory memory.",
+            "howToAnswer": "Describe the 3 x 4 grid, the whole versus partial report conditions and the tone cue. Conclude that capacity is about 12 items but the trace fades within a few hundred milliseconds and cannot be rehearsed.",
+            "scholars": ["Sperling (1960)"]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Memory needs encoding, storage and retrieval.",
+              "Sensory memory holds a brief raw copy of what the senses register.",
+              "Sperling (1960) used partial report to show it holds about 12 items.",
+              "The trace decays within a few hundred milliseconds and cannot be rehearsed."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The stage in which incoming information is received, processed and combined into a usable form is called:",
+          "options": ["Storage", "Retrieval", "Encoding", "Forgetting"],
+          "answerIndex": 2,
+          "explanation": "Encoding (registration) is the first stage, where information is taken in and converted. Storage keeps what has already been encoded."
+        },
+        {
+          "difficulty": 1,
+          "stem": "George Sperling's 1960 experiments on sensory memory are best known for using:",
+          "options": ["The partial report procedure", "The serial position curve", "The Stroop colour-word task", "The digit-span test"],
+          "answerIndex": 0,
+          "explanation": "Sperling's partial report procedure cued participants to report one row of a briefly flashed grid. The other tasks are real memory or attention methods, but not his."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Calling back stored information in response to a cue so it can be used is known as:",
+          "options": ["Encoding", "Registration", "Storage", "Retrieval"],
+          "answerIndex": 3,
+          "explanation": "Retrieval (recall) brings stored information back into use. Registration is another name for encoding, a common near-miss."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Sensory memory cannot be extended in the way short-term memory can, mainly because:",
+          "options": [
+            "It holds only a single item at a time",
+            "It fades within a fraction of a second and cannot be rehearsed",
+            "It is stored permanently in the hippocampus",
+            "It works only when information is processed deeply"
+          ],
+          "answerIndex": 1,
+          "explanation": "Sensory traces decay within a few hundred milliseconds and rehearsal cannot keep them alive. Its capacity is large, not a single item."
+        },
+        {
+          "difficulty": 2,
+          "stem": "In Sperling's whole report condition, participants reported far fewer letters than the partial report results suggested were available. The best explanation is that:",
+          "options": [
+            "The letters faded from sensory memory while participants were still reporting",
+            "Participants never actually saw most of the letters",
+            "The tone distracted participants from the display",
+            "Sensory memory can hold only one letter at a time"
+          ],
+          "answerIndex": 0,
+          "explanation": "Almost all the letters were briefly available, but the image decayed while people named them one by one. The partial report results rule out the idea that they never saw them."
+        },
+        {
+          "difficulty": 2,
+          "stem": "In Sperling's partial report procedure, the high, medium or low tone was used to:",
+          "options": [
+            "Signal that the trial had ended",
+            "Reward participants for correct answers",
+            "Indicate which row of letters to report",
+            "Measure how fast participants responded"
+          ],
+          "answerIndex": 2,
+          "explanation": "Each pitch matched a row, so the tone told people which row to report. Because the cue came after the display, good row reports showed the whole grid was briefly held."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Bisi glances at a number plate for a split second. For a moment she can still 'see' it after it has gone, but she cannot report it a second later. This best illustrates:",
+          "options": ["Semantic memory", "Iconic sensory memory", "Episodic memory", "Implicit procedural memory"],
+          "answerIndex": 1,
+          "explanation": "A brief visual image that fades within a second is iconic sensory memory. Episodic memory would require the event to be encoded into long-term memory."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Ibrahim studied carefully, went blank on a key term in the exam, then recalled it effortlessly on the bus home. His memory failed at which stage?",
+          "options": ["Encoding", "Storage", "Sensory registration", "Retrieval"],
+          "answerIndex": 3,
+          "explanation": "The term was clearly encoded and stored, because it came back later; only retrieval failed in the exam. Encoding failure would mean it never came back at all."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Funke chatted on her phone through an entire lecture and, even with hints, cannot recall anything about its main point. Her memory most likely failed at:",
+          "options": ["Encoding", "Storage", "Retrieval", "Semantic organisation"],
+          "answerIndex": 0,
+          "explanation": "Her attention was elsewhere, so the material was never properly taken in, which is encoding failure. Retrieval failure would mean the information is stored and cues should help."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which of the following is NOT a conclusion drawn from Sperling's research on sensory memory?",
+          "options": [
+            "Its capacity is relatively large, around 12 items",
+            "Its contents decay within a few hundred milliseconds",
+            "Its contents can be kept alive by rehearsal",
+            "It holds information after the stimulus has ended"
+          ],
+          "answerIndex": 2,
+          "explanation": "Sensory memory cannot be prolonged by rehearsal; that is a property of short-term memory. The other three are exactly what Sperling's findings showed."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Participants could report most of whichever row they were cued to, even though the cue came after the display ended. This implies that:",
+          "options": [
+            "Only one row was ever stored in memory",
+            "Nearly the whole display was briefly available in memory",
+            "Long-term memory was storing the letters",
+            "The tone made participants see more clearly"
+          ],
+          "answerIndex": 1,
+          "explanation": "Since participants could not know in advance which row would be cued, good performance on any row means nearly all rows were held. Long-term memory was not involved in such a brief task."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pairing of memory stage and description is correctly matched?",
+          "options": [
+            "Encoding: calling back information in response to a cue",
+            "Retrieval: receiving and combining incoming information",
+            "Registration: creating a permanent record of information",
+            "Storage: creating a lasting record of encoded information"
+          ],
+          "answerIndex": 3,
+          "explanation": "Storage is making a lasting record of what was encoded. The other options shuffle the stages: calling back is retrieval, and receiving or combining is encoding (registration)."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider these statements. I: Sperling estimated sensory memory capacity at about 12 items. II: Sensory memory degrades within a few hundred milliseconds. III: Rehearsal can prolong sensory traces. Which are correct?",
+          "options": ["I only", "I and II only", "II and III only", "I, II and III"],
+          "answerIndex": 1,
+          "explanation": "I and II are Sperling's main findings. III is false: sensory memory cannot be prolonged through rehearsal."
+        },
+        {
+          "difficulty": 5,
+          "stem": "If Sperling had delayed the tone by about one second after the display, the most likely result would be that:",
+          "options": [
+            "The partial report advantage would largely disappear",
+            "Partial report scores would rise sharply",
+            "Whole report scores would become better than partial report",
+            "Nothing would change, because sensory capacity is unlimited"
+          ],
+          "answerIndex": 0,
+          "explanation": "By a second the iconic trace has mostly faded, so cued rows can no longer be read off it and partial report drops towards whole report levels. Capacity is large but the duration is very short."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Sensory memory is often described as uncontrollable. The best justification for this is that it:",
+          "options": [
+            "Is made up of both implicit and explicit memory",
+            "Keeps only the items a person chooses to attend to",
+            "Automatically holds a brief impression after the stimulus ends, without voluntary control",
+            "Lasts for several minutes regardless of attention"
+          ],
+          "answerIndex": 2,
+          "explanation": "Sensory memory registers impressions automatically and briefly, whether or not we intend it. It is not defined by implicit and explicit memory, and it lasts well under a second, not minutes."
+        }
+      ]
+    },
+    {
+      "name": "Memory in the brain",
+      "lesson": {
+        "title": "Which parts of the brain remember what",
+        "minutes": 10,
+        "hook": "You can forget where you kept your keys, yet never forget the fright of a near-accident on the expressway. That contrast exists because different brain structures handle different kinds of memory.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "No single memory centre",
+            "body": "There is no one 'memory spot' in the brain. Instead, several structures each specialise in a particular kind of memory. The key players in this session are the **hippocampus**, the **amygdala**, the **striatum** and the **mammillary bodies**.\n\nMuch of what we know comes from people and animals whose memory changed after damage to one of these areas.",
+            "visual": {
+              "type": "brain",
+              "region": "whole-brain",
+              "label": "Memory is spread out"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The hippocampus",
+            "body": "Tucked inside the temporal lobe, the **hippocampus** is central to **declarative (explicit) memory**, especially for facts and events, and to **spatial learning**, knowing where things are.\n\nIt is also vital for **consolidation**, stabilising new memories so they last. It receives input that has already been heavily processed by secondary and higher sensory areas of the cortex, and sends output widely back to the brain. Damage can leave a person unable to store new memories.",
+            "visual": {
+              "type": "brain",
+              "region": "hippocampus",
+              "label": "Facts, events and places"
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "The man who lived in the present",
+            "story": "In 1953 a patient known as H.M. had much of his medial temporal lobes, including both hippocampi, removed to control severe epilepsy. Afterwards he could hold a conversation but forgot it minutes later and could not learn new facts. Yet when Brenda Milner taught him to trace a star while looking in a mirror, he improved day after day while insisting he had never done it before.",
+            "takeaway": "The hippocampus is needed for new declarative memories, but skill learning relies on other systems."
+          },
+          {
+            "kind": "teach",
+            "heading": "The amygdala and emotional memory",
+            "body": "The **amygdala**, an almond-shaped structure near the front of the hippocampus, gives emotional events their extra memorability.\n\nMost people remember emotionally charged words and events better than neutral ones. Patients with amygdala damage lose this advantage: they are no more likely to recall emotional words than neutral words. Their general memory may be fine; what is missing is the emotional boost.",
+            "visual": {
+              "type": "brain",
+              "region": "amygdala",
+              "label": "Emotional boost to memory"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "A patient remembers neutral and emotional words equally well, unlike most people. Damage to which structure best explains this?",
+            "options": ["Hippocampus", "Striatum", "Amygdala", "Mammillary bodies"],
+            "answerIndex": 2,
+            "why": "The amygdala normally makes emotional material more memorable, so damage removes that advantage. Hippocampal damage would impair new declarative memory in general."
+          },
+          {
+            "kind": "teach",
+            "heading": "The striatum and the mammillary bodies",
+            "body": "The **striatum**, made up mainly of the caudate nucleus and the putamen, supports **habit** or **stimulus-response** memory: actions repeated so often they run on their own, like reaching for a light switch.\n\nThe **mammillary bodies** are two small bumps on the underside of the brain, part of the hypothalamus. They link with the hippocampus and thalamus in a memory circuit, and they are typically damaged in Korsakoff's syndrome.",
+            "visual": {
+              "type": "brain",
+              "region": "hypothalamus",
+              "label": "Mammillary bodies sit here"
+            }
+          },
+          {
+            "kind": "terms",
+            "heading": "Who handles what",
+            "terms": [
+              { "term": "Hippocampus", "meaning": "Declarative and spatial learning; consolidation of new memories." },
+              { "term": "Amygdala", "meaning": "Emotional memory; makes charged events more memorable." },
+              { "term": "Striatum", "meaning": "Stimulus-response habits and routines." },
+              { "term": "Mammillary bodies", "meaning": "Part of a hippocampus-thalamus memory circuit; damaged in Korsakoff's." }
+            ]
+          },
+          {
+            "kind": "teach",
+            "heading": "A caution about brain damage evidence",
+            "body": "When damage to an area is followed by a memory problem, it is tempting to say 'this is where that memory lives'. Be careful. The damage may have spread to **neighbouring areas**, or cut a **pathway of fibres passing through** the area on the way somewhere else.\n\nSo lesion evidence shows an area is involved, not necessarily that it is the store itself.",
+            "visual": {
+              "type": "neuron",
+              "part": "axon",
+              "label": "Passing fibres can be cut"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Memory lives in synapses",
+            "body": "At the deepest level, learning changes how strongly neurons talk to each other. **Long-term potentiation (LTP)** is a lasting strengthening of a synapse after repeated stimulation; Bliss and Lømo first showed it in the rabbit hippocampus in 1973. **Long-term depression (LTD)** is a lasting weakening.\n\nTogether they tune the network, strengthening useful connections and trimming others. This echoes Hebb's (1949) idea that neurons which fire together wire together.",
+            "visual": {
+              "type": "neuron",
+              "part": "synapse",
+              "label": "Strengthened by LTP"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Long-term depression (LTD) at a synapse refers to:",
+            "options": ["A lasting strengthening of transmission", "A lasting weakening of transmission", "The death of neurons in Alzheimer's disease", "Low mood caused by memory loss"],
+            "answerIndex": 1,
+            "why": "LTD is a long-lasting reduction in synaptic strength, the counterpart of LTP. It has nothing to do with clinical depression, a trap in its name."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect matching questions pairing structures with memory types, and scenarios asking which area is damaged. The common slip is giving the hippocampus credit for emotional memory or habits. Also be ready to explain why lesion studies need caution.",
+            "sampleQuestion": "Discuss the roles of the hippocampus, amygdala and striatum in learning and memory. Why should conclusions from brain damage studies be drawn with caution?",
+            "howToAnswer": "Give each structure its memory type with an example (H.M. for the hippocampus). Then note that damage may involve nearby areas or passing pathways, and that memory ultimately depends on synaptic change through LTP and LTD.",
+            "scholars": ["Scoville & Milner (1957)", "Bliss & Lømo (1973)", "Hebb (1949)"]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Different structures handle different kinds of memory.",
+              "Hippocampus: declarative and spatial learning and consolidation.",
+              "Amygdala: emotional memory. Striatum: habits.",
+              "Lesion evidence must allow for nearby areas and passing pathways.",
+              "Memory ultimately rests on synaptic change through LTP and LTD."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The hippocampus is most closely associated with which kind of learning?",
+          "options": ["Emotional conditioning", "Spatial and declarative learning", "Stimulus-response habits", "Fine motor coordination"],
+          "answerIndex": 1,
+          "explanation": "The hippocampus supports declarative (explicit) and spatial learning. Habits belong to the striatum and emotional memory to the amygdala."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which brain structure is most closely linked with emotional memory?",
+          "options": ["Hippocampus", "Striatum", "Mammillary bodies", "Amygdala"],
+          "answerIndex": 3,
+          "explanation": "The amygdala gives emotional events their extra memorability. The hippocampus, often confused with it, handles declarative and spatial memory."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The striatum is mainly involved in which type of memory?",
+          "options": ["Stimulus-response habit memory", "Autobiographical memory", "Spatial maps of the environment", "Emotional memory"],
+          "answerIndex": 0,
+          "explanation": "The striatum supports habits, actions triggered automatically by familiar stimuli. Spatial maps depend mainly on the hippocampus."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Current thinking holds that learning and memory are best explained by:",
+          "options": [
+            "Activity in one single memory region",
+            "The total amount of blood flowing to the brain",
+            "Changes at synapses, such as long-term potentiation and depression",
+            "The number of new neurons born each day"
+          ],
+          "answerIndex": 2,
+          "explanation": "Learning and memory are attributed to synaptic change through LTP and LTD. Describing memory as dependent on one region alone is considered insufficient."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Long-term potentiation (LTP) refers to:",
+          "options": [
+            "A lasting weakening of synaptic transmission",
+            "The death of neurons after injury",
+            "The growth of new brain lobes",
+            "A lasting strengthening of synaptic transmission after repeated stimulation"
+          ],
+          "answerIndex": 3,
+          "explanation": "LTP is a long-lasting increase in synaptic strength following repeated stimulation. A lasting weakening is long-term depression."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Compared with healthy people, patients with damage to the amygdala tend to:",
+          "options": [
+            "Lose the usual memory advantage for emotionally charged words",
+            "Remember emotional words far better than before",
+            "Be unable to form any new explicit memories",
+            "Lose all their well-practised habits"
+          ],
+          "answerIndex": 0,
+          "explanation": "Such patients remember emotional words no better than neutral ones, because the amygdala's boost is missing. Losing all new explicit memories is the pattern after hippocampal damage."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Rats must learn the hidden location of a platform in a pool using cues around the room. Damage to which structure would most impair this learning?",
+          "options": ["Amygdala", "Striatum", "Hippocampus", "Mammillary bodies"],
+          "answerIndex": 2,
+          "explanation": "Learning a location from surrounding cues is spatial learning, a hippocampal job. Striatal damage would mainly affect habit-based responding."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Yusuf narrowly escaped a serious crash on the Lagos-Ibadan expressway and remembers it vividly years later, far better than his ordinary trips. Which structure most likely made this memory so strong?",
+          "options": ["Striatum", "Amygdala", "Cerebellum", "Corpus callosum"],
+          "answerIndex": 1,
+          "explanation": "The amygdala strengthens memories of emotionally charged events like a near-death scare. The striatum supports habits, not emotional vividness."
+        },
+        {
+          "difficulty": 3,
+          "stem": "After moving rooms, Ada still reaches automatically for the light switch where it was in her old hostel room. This ingrained response depends mainly on the:",
+          "options": ["Striatum", "Hippocampus", "Amygdala", "Occipital lobe"],
+          "answerIndex": 0,
+          "explanation": "An automatic, repeated stimulus-response action is habit memory, supported by the striatum. The hippocampus would help her consciously learn the new switch's position."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Researchers warn that a memory deficit following damage to a brain area does not prove the area stores that memory. The main reason is that:",
+          "options": [
+            "Brain lesions never produce memory deficits",
+            "Memory is not located in the brain at all",
+            "The damage may involve neighbouring areas or fibre pathways passing through",
+            "Animal studies cannot tell us anything about memory"
+          ],
+          "answerIndex": 2,
+          "explanation": "The deficit may come from damage to adjacent tissue or to pathways running through the area, not the area itself. Lesions clearly can cause deficits, so the first option is wrong."
+        },
+        {
+          "difficulty": 4,
+          "stem": "The input that reaches the hippocampus comes mainly from:",
+          "options": [
+            "The eyes directly, before any processing",
+            "The spinal cord",
+            "The primary motor cortex alone",
+            "Secondary and higher sensory areas that have already processed it heavily"
+          ],
+          "answerIndex": 3,
+          "explanation": "The hippocampus receives information that cortical association areas have already processed extensively. It does not receive raw sensory input straight from the eyes."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Long-term depression (LTD) is best described as:",
+          "options": [
+            "A lasting strengthening of synapses after repeated use",
+            "A lasting weakening of synaptic efficiency that helps refine stored patterns",
+            "The degeneration of brain cells seen in Alzheimer's disease",
+            "The low mood that follows memory loss"
+          ],
+          "answerIndex": 1,
+          "explanation": "LTD is a long-lasting decrease in synaptic strength, working alongside LTP to tune networks. Despite its name, it is unrelated to clinical depression."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider these pairings. I: Hippocampus and memory consolidation. II: Amygdala and emotional memory. III: Striatum and spatial learning. Which are correctly matched?",
+          "options": ["I only", "II and III only", "I and II only", "I, II and III"],
+          "answerIndex": 2,
+          "explanation": "I and II are correct. III is wrong because spatial learning belongs to the hippocampus; the striatum supports habit (stimulus-response) memory."
+        },
+        {
+          "difficulty": 5,
+          "stem": "After removal of both medial temporal lobes, patient H.M. could not form new memories of facts or events, yet steadily improved at mirror drawing. The best conclusion is that:",
+          "options": [
+            "All forms of memory are stored in the hippocampus",
+            "The amygdala alone controls skill learning",
+            "The hippocampus plays no part in memory",
+            "The hippocampal system is needed for new declarative memories but not for skill learning"
+          ],
+          "answerIndex": 3,
+          "explanation": "H.M.'s spared skill learning alongside lost declarative learning shows these depend on different systems. If all memory were hippocampal, his mirror drawing would not have improved."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Bliss and Lømo (1973) are best known in memory research for:",
+          "options": [
+            "First demonstrating long-term potentiation in the hippocampus",
+            "Developing the partial report procedure",
+            "Distinguishing episodic from semantic memory",
+            "Showing amygdala damage removes the emotional memory advantage"
+          ],
+          "answerIndex": 0,
+          "explanation": "Bliss and Lømo first described LTP in the rabbit hippocampus. The partial report procedure was Sperling's and the episodic-semantic distinction was Tulving's."
+        }
+      ]
+    },
+    {
+      "name": "Memory disorders",
+      "lesson": {
+        "title": "What broken memory teaches us",
+        "minutes": 9,
+        "hook": "You know the actor's name. You know it starts with 'O'. It is right there, and yet it will not come out. Now imagine that feeling every few minutes, every day.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Learning from memory loss",
+            "body": "A great deal of what we know about normal memory comes from people whose memory has gone wrong. Loss of memory is called **amnesia**, and it comes in many forms.\n\nBy noticing exactly what is lost and what survives in each form, researchers can work out which sub-systems of memory exist and what they do in a healthy brain. H.M. is the classic case.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                { "icon": "medkit", "label": "Study the patient" },
+                { "icon": "search", "label": "Spot what is lost" },
+                { "icon": "bulb", "label": "Infer normal function" }
+              ]
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Two directions of amnesia",
+            "left": {
+              "title": "Anterograde amnesia",
+              "points": [
+                "Cannot form new memories after the damage",
+                "Old memories largely intact",
+                "Typical after hippocampal damage"
+              ]
+            },
+            "right": {
+              "title": "Retrograde amnesia",
+              "points": [
+                "Loses memories from before the damage",
+                "New learning may be fine",
+                "Common after head injury"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Alzheimer's disease",
+            "body": "**Alzheimer's disease** is a progressive condition in which brain cells gradually degenerate and die. It usually begins with trouble remembering recent events, then spreads to language, orientation and recognising people.\n\nUnder the microscope, the brain shows **amyloid plaques** and **neurofibrillary tangles**, and there is heavy loss of neurons that use acetylcholine. The hippocampus is among the first areas affected, which is why new memories go first.",
+            "visual": {
+              "type": "brain",
+              "region": "hippocampus",
+              "label": "Affected early"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Korsakoff's syndrome",
+            "body": "**Korsakoff's syndrome**, also called Korsakoff's psychosis or amnesic-confabulatory syndrome, is an organic brain disease caused mainly by a lack of **thiamine (vitamin B1)**, most often from long-term heavy drinking and poor diet.\n\nPeople struggle to form new memories and often **confabulate**: they fill gaps with invented stories they truly believe. Damage typically involves the **mammillary bodies** and parts of the **thalamus**.",
+            "visual": {
+              "type": "brain",
+              "region": "thalamus",
+              "label": "Damaged with mammillary bodies"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "A man with a long history of heavy drinking cannot recall his breakfast and confidently describes a trip he never took. The most likely diagnosis is:",
+            "options": ["Hyperthymesia", "Alzheimer's disease", "Tip-of-the-tongue state", "Korsakoff's syndrome"],
+            "answerIndex": 3,
+            "why": "Heavy drinking, new-memory failure and confabulation together point to Korsakoff's syndrome. Alzheimer's develops gradually and is not tied to alcohol in this way."
+          },
+          {
+            "kind": "teach",
+            "heading": "Hyperthymesia: too much remembering",
+            "body": "At the opposite extreme is **hyperthymesia** (hyperthymesic syndrome). It affects **autobiographical memory**: the person recalls an extraordinary amount of detail about their own life, often the date and day of the week of ordinary events from years ago.\n\nSmall details that most people would never keep are retained and keep coming back. It was first described scientifically by Parker, Cahill and McGaugh in 2006.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Amnesia: too little",
+              "right": "Hyperthymesia: too much",
+              "marker": 95,
+              "label": "Autobiographical memory"
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "On the tip of the tongue",
+            "story": "At a party in Enugu, Chinedu spots a Nollywood actor he has watched for years. He knows the name starts with 'O', has three syllables, and even remembers the film it was in, but the name will not come. Ten minutes later, while eating jollof, it arrives on its own.",
+            "takeaway": "This is the tip-of-the-tongue phenomenon: a normal, temporary retrieval failure with partial information available."
+          },
+          {
+            "kind": "teach",
+            "heading": "Tip of the tongue and anomia",
+            "body": "The **tip-of-the-tongue (TOT) phenomenon** is not a disorder; everyone has it. Brown and McNeill (1966) showed that people in a TOT state can often give the first letter, the number of syllables or similar-sounding words.\n\nIn **nominal aphasia (anomia)**, the experience becomes **constant**. Brain damage to language areas leaves the person repeatedly unable to find words while speaking or writing, even though they know what they mean.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                { "icon": "chatbubbles", "label": "TOT: now and then" },
+                { "icon": "warning", "label": "Anomia: all the time" }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "What best distinguishes anomia from an ordinary tip-of-the-tongue experience?",
+            "options": ["Anomia is ongoing and results from brain damage", "Anomia affects only children", "Tip-of-the-tongue states result from brain damage", "Anomia means being unable to forget words"],
+            "answerIndex": 0,
+            "why": "Anomia is a persistent word-finding problem caused by damage, while TOT is a normal, occasional failure. TOT does not require any brain damage."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect short case descriptions where you must name the disorder. The traps: confusing Korsakoff's with Alzheimer's (look for alcohol and confabulation versus gradual decline), and calling hyperthymesia a kind of forgetting. Know why amnesia research matters.",
+            "sampleQuestion": "Briefly describe amnesia, Alzheimer's disease, hyperthymesia and Korsakoff's syndrome, and explain how studying such disorders has improved our understanding of normal memory.",
+            "howToAnswer": "Give a one-line definition and a key feature for each disorder. Then argue that the pattern of what is lost and spared reveals separate memory sub-systems, using H.M. as an example.",
+            "scholars": ["Brown & McNeill (1966)", "Parker, Cahill & McGaugh (2006)", "Scoville & Milner (1957)"]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Amnesia is memory loss; its forms reveal separate memory sub-systems.",
+              "Alzheimer's: gradual degeneration of brain cells, recent memory goes first.",
+              "Korsakoff's: thiamine deficiency, new-memory loss and confabulation.",
+              "Hyperthymesia: unusually detailed autobiographical memory.",
+              "Tip of the tongue is normal; anomia is its persistent, damage-caused form."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "A general loss of memory is technically known as:",
+          "options": ["Anomia", "Hyperthymesia", "Confabulation", "Amnesia"],
+          "answerIndex": 3,
+          "explanation": "Amnesia is the general term for memory loss. Anomia is a word-finding problem, not general memory loss."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Alzheimer's disease is best described as:",
+          "options": [
+            "A brief, harmless failure to find a word",
+            "A progressive degeneration of brain cells leading to memory loss",
+            "An inability to forget personal details",
+            "A condition caused by too much vitamin B1"
+          ],
+          "answerIndex": 1,
+          "explanation": "Alzheimer's involves the gradual degeneration of brain cells, with memory loss as an early sign. Inability to forget describes hyperthymesia."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Hyperthymesia mainly affects which kind of memory?",
+          "options": ["Autobiographical memory", "Motor skill memory", "Language comprehension", "Visual sensory memory"],
+          "answerIndex": 0,
+          "explanation": "Hyperthymesia involves unusually detailed recall of one's own life events. It is not a motor, language or sensory problem."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Korsakoff's syndrome is most commonly linked to:",
+          "options": [
+            "Head injuries from contact sports",
+            "Sleeping for too many hours",
+            "A deficiency of thiamine (vitamin B1), often from chronic alcohol misuse",
+            "Repeated viral infections in childhood"
+          ],
+          "answerIndex": 2,
+          "explanation": "Korsakoff's is an organic brain disease caused mainly by thiamine deficiency, usually linked to long-term heavy drinking and poor diet."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The tip-of-the-tongue phenomenon is best described as:",
+          "options": [
+            "A permanent loss of vocabulary caused by brain damage",
+            "A temporary failure to retrieve a known word, often with partial information available",
+            "An inability to forget trivial details",
+            "The creation of false memories to fill gaps"
+          ],
+          "answerIndex": 1,
+          "explanation": "TOT is a normal, temporary retrieval failure in which first letters or syllables may be available. Permanent loss from damage describes anomia; filling gaps describes confabulation."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Researchers study the different forms of amnesia mainly because:",
+          "options": [
+            "Amnesia can now be cured completely",
+            "Amnesia rarely affects memory in any real way",
+            "All forms of amnesia are identical",
+            "What is lost and spared in each form reveals separate memory sub-systems"
+          ],
+          "answerIndex": 3,
+          "explanation": "Different patterns of loss point to different memory sub-systems, helping us infer how the normal brain works. The forms are clearly not identical, which is why comparing them is useful."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Mr Okon has drunk heavily for decades. He cannot remember what he ate an hour ago and fills the gaps with stories he sincerely believes. The most likely diagnosis is:",
+          "options": ["Alzheimer's disease", "Hyperthymesia", "Korsakoff's syndrome", "Anomia"],
+          "answerIndex": 2,
+          "explanation": "Long-term alcohol misuse, failure to form new memories and confabulation are classic signs of Korsakoff's. Alzheimer's involves gradual decline without this link to alcohol."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Chinedu knows an actor's name starts with 'O' and has three syllables but cannot produce it; it comes to him later on its own. This is:",
+          "options": ["A tip-of-the-tongue state", "Anomia", "Retrograde amnesia", "Korsakoff's syndrome"],
+          "answerIndex": 0,
+          "explanation": "Partial information plus temporary failure that resolves later is the tip-of-the-tongue phenomenon. Anomia would be a persistent problem caused by brain damage."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Over several years, Mrs Adeyemi, 74, first forgets recent conversations, later gets lost on her own street, and now struggles to recognise relatives. The most likely condition is:",
+          "options": ["Tip-of-the-tongue phenomenon", "Hyperthymesia", "Alzheimer's disease", "Retrograde amnesia from a single injury"],
+          "answerIndex": 2,
+          "explanation": "Slow, progressive decline starting with recent memory and spreading to orientation and recognition fits Alzheimer's disease. A single injury would not produce gradual worsening over years."
+        },
+        {
+          "difficulty": 4,
+          "stem": "What best distinguishes nominal aphasia (anomia) from the ordinary tip-of-the-tongue phenomenon?",
+          "options": [
+            "Anomia is ongoing and results from brain damage",
+            "Anomia occurs only in children",
+            "The tip-of-the-tongue state is caused by brain damage",
+            "Anomia means a person cannot forget words"
+          ],
+          "answerIndex": 0,
+          "explanation": "In anomia, word-finding failures are constant because of brain damage; TOT is an occasional failure everyone experiences. TOT needs no damage, so the third option reverses the facts."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Confabulation, a hallmark of Korsakoff's syndrome, refers to:",
+          "options": [
+            "Losing well-practised motor skills",
+            "Remembering far more detail than normal",
+            "Temporary failure to retrieve words",
+            "Producing false memories without any intention to deceive"
+          ],
+          "answerIndex": 3,
+          "explanation": "Confabulation is filling memory gaps with invented accounts the person genuinely believes. Remembering far more detail than normal describes hyperthymesia."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which of the following statements about hyperthymesia is FALSE?",
+          "options": [
+            "It affects autobiographical memory",
+            "People with it have great difficulty recalling their past",
+            "Small details that most people lose are retained",
+            "It was first described scientifically by Parker, Cahill and McGaugh"
+          ],
+          "answerIndex": 1,
+          "explanation": "Hyperthymesia involves remembering one's past in unusual detail, not struggling to recall it. The other statements are accurate."
+        },
+        {
+          "difficulty": 5,
+          "stem": "After a road accident, Funmi cannot recall anything from the week before the crash, but she learns and remembers new information normally. She is showing:",
+          "options": ["Retrograde amnesia", "Anterograde amnesia", "Korsakoff's syndrome", "Hyperthymesia"],
+          "answerIndex": 0,
+          "explanation": "Losing memories from before the injury while new learning is intact is retrograde amnesia. Anterograde amnesia is the reverse: failure to form new memories after the damage."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider these statements. I: Alzheimer's disease involves gradual degeneration of brain cells. II: Korsakoff's syndrome is linked to thiamine deficiency. III: The tip-of-the-tongue phenomenon is a disorder caused by brain damage. Which are correct?",
+          "options": ["I only", "II and III only", "I and II only", "I, II and III"],
+          "answerIndex": 2,
+          "explanation": "I and II are correct. III is false: TOT is a normal, temporary retrieval failure; only in anomia does it become persistent because of damage."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which disorder is correctly paired with its typical brain basis?",
+          "options": [
+            "Alzheimer's disease: a sudden stroke in the cerebellum",
+            "Korsakoff's syndrome: damage to the mammillary bodies and thalamus",
+            "Hyperthymesia: destruction of the hippocampus",
+            "Tip-of-the-tongue state: permanent damage to the amygdala"
+          ],
+          "answerIndex": 1,
+          "explanation": "Korsakoff's typically involves the mammillary bodies and medial thalamus. Alzheimer's is a gradual degeneration, not a sudden cerebellar stroke, and TOT involves no brain damage."
+        }
+      ]
+    }
+  ]
+}

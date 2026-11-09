@@ -1,0 +1,659 @@
+{
+  "unit": 7,
+  "title": "Prejudice",
+  "summary": "What prejudice is, who is most prone to it, why we see other groups as 'all the same', and how self-esteem links to prejudice.",
+  "sections": [
+    {
+      "name": "Prejudice and social dominance",
+      "lesson": {
+        "title": "Who holds prejudice, and why",
+        "minutes": 10,
+        "hook": "Before you have spoken a word to a new roommate, you may already have a picture of them from their surname or state of origin. Where does that picture come from, and why do some people cling to it harder than others?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Prejudice is a prejudgment",
+            "body": "The word itself gives the game away: **prejudice** means to *pre-judge*. It is a judgement, usually negative, about a group or about a person simply because they belong to that group (Fiske, 1993; Jones, 1979).\n\nNotice the key point: the judgement comes *before* any real knowledge of the individual. The person is judged as a member of a category, not as themselves.",
+            "visual": {
+              "type": "flow",
+              "nodes": ["Notice the group", "Recall a belief", "Judge the person"]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "More than an opinion: an attitude",
+            "body": "Psychologists treat prejudice as an **attitude**, not just a belief. That matters because attitudes carry feeling. Prejudice includes emotions such as dislike, contempt or even loathing towards the group.\n\nA useful way to remember this is the **ABC** of attitudes: the **A**ffective part (the feeling), the **B**ehavioural part (what you do, which becomes discrimination) and the **C**ognitive part (the belief, which is the stereotype).",
+            "visual": {
+              "type": "icons",
+              "items": [
+                { "icon": "heart", "label": "Feeling: prejudice" },
+                { "icon": "bulb", "label": "Belief: stereotype" },
+                { "icon": "hand-left", "label": "Action: discrimination" }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Which of the following best shows that prejudice is an attitude rather than a mere opinion?",
+            "options": [
+              "It always leads to violent action",
+              "It contains feelings such as contempt or dislike",
+              "It is only held by uneducated people",
+              "It can never be measured by researchers"
+            ],
+            "answerIndex": 1,
+            "why": "Attitudes carry an emotional component, and prejudice includes feelings like contempt. It does not always lead to action, and it is found across all education levels."
+          },
+          {
+            "kind": "teach",
+            "heading": "Categories make prejudgment almost unavoidable",
+            "body": "Gordon **Allport**, in *The Nature of Prejudice* (1954), argued that the mind cannot work without sorting the world into **categories**. We group people, objects and events so we can respond quickly without examining each one afresh.\n\nOnce a category exists, it becomes the basis for ordinary prejudgment. Allport saw this as a normal part of orderly living. The danger is not categorising itself but holding on to a category even when the evidence about a real person contradicts it.",
+            "visual": {
+              "type": "stat",
+              "value": "1954",
+              "label": "Allport's The Nature of Prejudice"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Social dominance orientation",
+            "body": "Some people are more prejudiced than others. One strong predictor is **social dominance orientation (SDO)**: a preference for a social world arranged as a **hierarchy**, with some groups on top and others below.\n\nPeople high in SDO want their own group to dominate and be seen as superior. Not surprisingly, they are especially likely to hold prejudice against **low-status groups**. The idea comes from **social dominance theory**, developed by Jim Sidanius and Felicia Pratto in the 1990s.",
+            "visual": {
+              "type": "pyramid",
+              "levels": ["Dominant group", "Middle groups", "Low-status groups"]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "The hostel 'pecking order'",
+            "story": "In a Nsukka hostel, Emeka insists that final-year students from 'big' departments should always get the best rooms and that freshers from smaller departments should simply accept leftovers. He mocks those freshers as lazy and unserious, though he has barely met them. To him, some groups are simply meant to sit higher than others.",
+            "takeaway": "Emeka's comfort with a ranked world, and his contempt for those at the bottom, is what high social dominance orientation looks like in everyday life."
+          },
+          {
+            "kind": "compare",
+            "heading": "SDO versus authoritarianism",
+            "left": {
+              "title": "Social dominance orientation",
+              "points": [
+                "Prefers group-based hierarchy",
+                "Wants own group on top",
+                "Targets low-status groups",
+                "Correlates more strongly with prejudice"
+              ]
+            },
+            "right": {
+              "title": "Authoritarianism",
+              "points": [
+                "Submits to established authority",
+                "Values obedience and convention",
+                "Hostile to those who break norms",
+                "Weaker link to prejudice than SDO"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "What SDO predicts",
+            "body": "Research finds that SDO correlates with prejudice **more strongly than authoritarianism** does. People high in SDO tend to score higher on many kinds of prejudice at once: racial prejudice (for example, anti-Black attitudes in the United States), prejudice against Arabs, and **sexism**.\n\nThat pattern is telling. If one personality tendency predicts hostility to many different groups, then prejudice is partly about the *person's* outlook on hierarchy, not only about the target group.",
+            "visual": {
+              "type": "scale",
+              "left": "SDO",
+              "right": "Authoritarianism",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "A researcher finds that the same respondents who score high on sexism also score high on prejudice against several ethnic groups. Which concept best accounts for this general pattern?",
+            "options": [
+              "Out-group homogeneity",
+              "Social dominance orientation",
+              "Realistic group conflict",
+              "Self-fulfilling prophecy"
+            ],
+            "answerIndex": 1,
+            "why": "SDO is a general preference for group hierarchy, so it predicts prejudice against many low-status groups at once. Out-group homogeneity is about seeing a group as all alike, not about who is prejudiced."
+          },
+          {
+            "kind": "teach",
+            "heading": "Spotting subtle prejudice",
+            "body": "Open hostility is easy to see. Subtle prejudice is harder. One clue is how a person talks about the social order: someone who insists that certain groups 'naturally' belong at the bottom, or who resists any move towards equality, is showing a **hierarchy-enhancing** outlook typical of high SDO.\n\nIn Nigeria, this might show up as quiet resistance to fair representation in appointments, justified as 'merit', even when the person never says anything openly hostile about any ethnic group.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Equality-seeking",
+              "right": "Hierarchy-enhancing",
+              "marker": 85,
+              "label": "High SDO sits here"
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect questions that test whether you can link SDO to prejudice, and whether you know it beats authoritarianism as a predictor. A common trap: students say SDO means 'dominating other people as individuals'. It is about wanting *groups* ranked, with your own group above.",
+            "sampleQuestion": "Explain the concept of social dominance orientation and show how it relates to prejudice towards low-status groups.",
+            "howToAnswer": "Define SDO as a preference for group-based hierarchy (Sidanius and Pratto), state that people high in it want their group dominant and are more prejudiced towards low-status groups, then note that it correlates with prejudice more than authoritarianism and predicts racism and sexism alike.",
+            "scholars": ["Allport (1954)", "Sidanius & Pratto (1999)", "Fiske (1993)"]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Prejudice is a prejudgment, usually negative, of a group or its members.",
+              "It is an attitude: belief plus feeling, often leading to discrimination.",
+              "Allport (1954): categorising is normal and makes prejudgment hard to avoid.",
+              "SDO is a preference for group hierarchy with one's own group on top.",
+              "SDO predicts prejudice better than authoritarianism, across many target groups."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "In social psychology, prejudice is best described as:",
+          "options": [
+            "A prejudgment, usually negative, of a group or its members",
+            "Any accurate fact about the average member of a group",
+            "A law that separates groups by residence",
+            "A personality disorder found only in extremists"
+          ],
+          "answerIndex": 0,
+          "explanation": "Prejudice is a prejudgment of people based on their group membership. It is an attitude, not a law (that would be institutional segregation) and not a clinical disorder."
+        },
+        {
+          "difficulty": 1,
+          "stem": "People who prefer a social world in which some groups rank above others are described as being high in:",
+          "options": [
+            "Out-group homogeneity",
+            "Social dominance orientation",
+            "Self-esteem",
+            "Ethnic identity"
+          ],
+          "answerIndex": 1,
+          "explanation": "Social dominance orientation is a preference for group-based hierarchy. Out-group homogeneity is a perception that a group's members are all alike, which is a different idea."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The book The Nature of Prejudice, which argued that thinking in categories makes prejudgment normal, was written by:",
+          "options": [
+            "Henri Tajfel",
+            "Muzafer Sherif",
+            "Gordon Allport",
+            "Felicia Pratto"
+          ],
+          "answerIndex": 2,
+          "explanation": "Gordon Allport published The Nature of Prejudice in 1954. Pratto is linked with social dominance theory, Tajfel with social identity and Sherif with group conflict."
+        },
+        {
+          "difficulty": 2,
+          "stem": "According to the session, people high in social dominance orientation are most likely to hold prejudice towards:",
+          "options": [
+            "High-status groups they admire",
+            "Members of their own group",
+            "Authority figures who give orders",
+            "Groups they regard as low in status"
+          ],
+          "answerIndex": 3,
+          "explanation": "High-SDO people want their own group on top, so their prejudice is aimed mainly at groups seen as low in status. They tend to favour, not resent, their own group."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which statement about the relationship between social dominance orientation (SDO) and authoritarianism is correct?",
+          "options": [
+            "Authoritarianism predicts prejudice far better than SDO",
+            "SDO correlates with prejudice more strongly than authoritarianism",
+            "Neither SDO nor authoritarianism is related to prejudice",
+            "SDO and authoritarianism are two names for the same trait"
+          ],
+          "answerIndex": 1,
+          "explanation": "Research shows SDO is the stronger correlate of prejudice. The two are related but distinct: authoritarianism centres on obedience to authority, SDO on group hierarchy."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Allport's view on categorisation implies that:",
+          "options": [
+            "Prejudgment grows out of a normal and largely unavoidable mental process",
+            "Only people with poor education form categories",
+            "Categorising people can be completely eliminated by training",
+            "Categories are formed only after full knowledge of each person"
+          ],
+          "answerIndex": 0,
+          "explanation": "Allport held that the mind must use categories to function, so prejudgment is a normal by-product. Categories are formed quickly, long before full knowledge of individuals."
+        },
+        {
+          "difficulty": 3,
+          "stem": "During a debate, Femi argues that 'some ethnic groups are simply meant to lead and others to follow, and that is how society stays stable'. His statement most clearly reflects:",
+          "options": [
+            "Out-group homogeneity bias",
+            "Low self-esteem",
+            "High social dominance orientation",
+            "Ethnic self-identification"
+          ],
+          "answerIndex": 2,
+          "explanation": "Endorsing a fixed ranking of groups is the core of high SDO. Out-group homogeneity is about seeing one group as uniform, not about ranking groups."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A survey finds that respondents who strongly prefer group hierarchy also show high scores on sexism and on prejudice against several minority groups. The most reasonable conclusion is that:",
+          "options": [
+            "Prejudice depends only on the features of the target group",
+            "Sexism and racism have entirely unrelated causes",
+            "Hierarchy preference reduces prejudice against women",
+            "A general outlook on hierarchy predicts prejudice across targets"
+          ],
+          "answerIndex": 3,
+          "explanation": "When one tendency predicts hostility to many different groups, the cause lies partly in the perceiver's outlook, which is the SDO argument. It does not mean the targets are irrelevant, but they are not the whole story."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Ngozi feels uneasy around a new classmate from another state, assumes the classmate is dishonest, and avoids sitting near them. Her uneasiness, her belief and her avoidance correspond respectively to:",
+          "options": [
+            "Stereotype, discrimination and prejudice",
+            "Prejudice, stereotype and discrimination",
+            "Discrimination, prejudice and stereotype",
+            "Prejudice, discrimination and stereotype"
+          ],
+          "answerIndex": 1,
+          "explanation": "The feeling is the affective part (prejudice), the belief is the cognitive part (stereotype) and the avoidance is the behavioural part (discrimination)."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are true of social dominance orientation EXCEPT:",
+          "options": [
+            "It reflects a preference for unequal relations between groups",
+            "It has been linked to both racial prejudice and sexism",
+            "It is mainly a desire to obey established authorities",
+            "It predicts prejudice towards low-status groups"
+          ],
+          "answerIndex": 2,
+          "explanation": "Obedience to authority describes authoritarianism, not SDO. SDO is about wanting groups ranked with one's own on top, and it predicts racism and sexism."
+        },
+        {
+          "difficulty": 4,
+          "stem": "A student writes: 'Prejudice is simply holding a wrong opinion about a group.' A strict lecturer would mark this incomplete mainly because it ignores that prejudice:",
+          "options": [
+            "Always involves physical harm",
+            "Is only found in multi-ethnic societies",
+            "Is always a correct prediction",
+            "Includes an emotional component such as contempt"
+          ],
+          "answerIndex": 3,
+          "explanation": "Psychologists treat prejudice as an attitude carrying feelings like dislike or contempt, not just a mistaken belief. It need not involve harm and exists in all kinds of societies."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Allport (1954) – categories as the basis of normal prejudgment",
+            "Sidanius and Pratto – out-group homogeneity in eating clubs",
+            "Jones, Wood and Quattrone – social dominance theory",
+            "Fiske – the authoritarian personality"
+          ],
+          "answerIndex": 0,
+          "explanation": "Allport linked categorisation to normal prejudgment. Sidanius and Pratto developed social dominance theory, and the eating-club study belongs to Jones, Wood and Quattrone."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider these statements. I. Prejudice is a prejudgment based on group membership. II. Social dominance orientation is a weaker correlate of prejudice than authoritarianism. III. Allport held that forming categories is part of orderly mental life. IV. High-SDO individuals tend to direct prejudice at low-status groups. Which are correct?",
+          "options": [
+            "I and II only",
+            "II and IV only",
+            "I, III and IV only",
+            "I, II, III and IV"
+          ],
+          "answerIndex": 2,
+          "explanation": "Statement II reverses the finding: SDO correlates with prejudice more strongly than authoritarianism. The other three statements are correct."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A researcher wants to test whether prejudice is driven more by the perceiver's outlook than by the target group. Which finding would MOST support the perceiver-outlook view?",
+          "options": [
+            "Prejudice against one group is unrelated to prejudice against others",
+            "Prejudice appears only towards groups with a history of conflict",
+            "High-SDO people show prejudice towards many unrelated groups",
+            "Prejudice disappears whenever the target group grows larger"
+          ],
+          "answerIndex": 2,
+          "explanation": "If the same people are prejudiced against many unrelated groups, something about the perceiver, such as SDO, is doing the work. Prejudice tied only to conflict history would point instead to features of the specific relationship."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which of the following would be the WEAKEST evidence that a manager holds subtle prejudice linked to high social dominance orientation?",
+          "options": [
+            "Insisting that some groups naturally belong in junior roles",
+            "Resisting fair representation while claiming to defend 'merit'",
+            "Opposing any policy that narrows gaps between groups",
+            "Disagreeing with a colleague's idea in a staff meeting"
+          ],
+          "answerIndex": 3,
+          "explanation": "Ordinary disagreement with an individual's idea says nothing about group hierarchy. The other three all show a hierarchy-enhancing outlook, the signature of high SDO."
+        }
+      ]
+    },
+    {
+      "name": "Out-group homogeneity and self-esteem",
+      "lesson": {
+        "title": "Why 'they are all the same'",
+        "minutes": 10,
+        "hook": "Ask a group of medical students to describe their own class and you will hear about the jokers, the quiet geniuses and the party lovers. Ask them about the law students and you may hear one word: 'proud'. Why?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "In-groups and out-groups",
+            "body": "An **in-group** is any group you belong to; an **out-group** is any group you do not belong to. These labels are relative. Your in-group is someone else's out-group, and the reverse.\n\nA Hausa student, a Yoruba student and an Igbo student each have their own ethnic in-group, and each is part of an out-group from the others' point of view. The same holds for departments, religions, states and football clubs.",
+            "visual": {
+              "type": "venn",
+              "left": "My in-group",
+              "right": "Their in-group",
+              "both": "Each is the other's out-group"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The out-group homogeneity effect",
+            "body": "**Out-group homogeneity** is the tendency to see members of an out-group as more alike than members of our own group. We see our own group as varied and full of individuals, while we see 'them' as a uniform bunch.\n\nYou hear it in phrases like 'they are all alike' or 'once you've met one, you've met them all'. The belief is a **bias** because, in reality, every group contains enormous variety.",
+            "visual": {
+              "type": "venn",
+              "left": "Us: all different",
+              "right": "Them: all alike",
+              "both": "Both are real groups"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Which statement best expresses out-group homogeneity bias?",
+            "options": [
+              "My group is better than every other group",
+              "People in my group are all different, but people in that group are all the same",
+              "People in that group are better than my group",
+              "Every group is equally varied"
+            ],
+            "answerIndex": 1,
+            "why": "The bias is about perceived sameness of the out-group compared with the perceived variety of the in-group. Thinking your group is better is in-group favouritism, a related but different bias."
+          },
+          {
+            "kind": "teach",
+            "heading": "Why the bias is dangerous",
+            "body": "When people seem identical, they also seem **interchangeable**. That has three consequences.\n\nFirst, out-group members are more easily **stereotyped**: one person's behaviour is taken as proof about the whole group. Second, they may be treated as **expendable**. Third, the bias holds whether the out-group is defined by race, religion, nationality or another real-world grouping. One person's offence can then be wrongly blamed on everyone who shares their identity.",
+            "visual": {
+              "type": "flow",
+              "nodes": ["See them as same", "Interchangeable", "Stereotyped"]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "One bad trader, a whole group blamed",
+            "story": "Tunde is cheated by a phone seller at Computer Village. Back at the hostel, he declares that 'all of them from that place are cheats'. His roommate Musa points out that Tunde knows dozens of honest people from the same background, including their porter. Tunde had never thought of them as part of that group, because to him they were simply individuals.",
+            "takeaway": "Out-group homogeneity turns one person's act into a verdict on a whole group, which is exactly how stereotypes spread."
+          },
+          {
+            "kind": "teach",
+            "heading": "The Princeton eating-club study",
+            "body": "One of the earliest demonstrations came from **Jones, Wood and Quattrone (1981)**. Students in four Princeton eating clubs rated members of their own club and of the other three on traits such as introverted versus extroverted and arrogant versus humble.\n\nWhatever club they belonged to, students rated their **own** club as more varied in personality than the others. The effect did not depend on which group was judging: it appeared everywhere.",
+            "visual": {
+              "type": "stat",
+              "value": "4 clubs",
+              "label": "All saw own club as more varied"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "When the effect grows or shrinks",
+            "body": "**Mullen and Hu (1989)** found the effect is strongest when the groups are **real and lasting**, not temporary laboratory groups.\n\nBut it can disappear or even **reverse**. **Simon (1992)** and **Simon and Pettigrew (1990)** showed that when the out-group is a small minority and the trait being judged is central to its identity, the minority may see *itself* as the more uniform group, closing ranks around what defines it.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Effect reverses",
+              "right": "Effect strongest",
+              "marker": 90,
+              "label": "Real, lasting groups"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Under which condition might the out-group homogeneity effect disappear or reverse?",
+            "options": [
+              "When the groups are large, real and long-lasting",
+              "When the out-group is small and the trait is central to its identity",
+              "When the in-group has very little contact with the out-group",
+              "When the groups are university eating clubs"
+            ],
+            "answerIndex": 1,
+            "why": "Simon's work showed that small minorities judging identity-defining traits can see themselves as more alike. Large, real, lasting groups make the effect stronger, not weaker."
+          },
+          {
+            "kind": "teach",
+            "heading": "Why does it happen?",
+            "body": "One explanation is **less contact**: we know many members of our own group as individuals but meet few out-group members, so our picture of them stays thin. This is often called the familiarity explanation.\n\nYet contact is not the whole story. Men and women live side by side, and still each side sometimes says the other is 'all alike'. So categorising itself, and the motive to see one's own side as special, also play a part.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                { "icon": "people", "label": "Little contact" },
+                { "icon": "layers", "label": "Categorising" },
+                { "icon": "shield", "label": "Group pride" }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Prejudice as self-esteem protection",
+            "body": "When people are split into groups, they tend to see their own as **superior** and want to keep an edge over others. Part of the reason is that our group membership feeds our **self-esteem**.\n\nSo when self-esteem drops, prejudice tends to rise. Fein and Spencer (1997) found that people whose self-image had been threatened judged a member of a stereotyped group more harshly, while those given a chance to affirm their own values did not.",
+            "visual": {
+              "type": "scale",
+              "left": "Self-esteem drops",
+              "right": "Prejudice rises",
+              "heavier": "right"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Correcting prejudice from the inside",
+            "body": "If prejudice partly props up a shaky self-image, then one route to reducing it is to **boost self-esteem** or address the **insecurity** underneath. A person who feels secure has less need to look down on others.\n\nThis does not replace other strategies, such as meaningful contact between groups, but it explains why insults and humiliation rarely cure prejudice: they threaten self-esteem and can make it worse.",
+            "visual": {
+              "type": "flow",
+              "nodes": ["Address insecurity", "Self-esteem rises", "Less prejudice"]
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Lecturers love the ITQ-style question on the main effect of out-group homogeneity: the answer is that out-group members are more likely to be stereotyped, not 'discriminated' or 'prejudiced'. Also expect 'give reasons why out-groups seem more homogeneous' and the conditions that reverse the effect.",
+            "sampleQuestion": "A key consequence of the out-group homogeneity effect is that members of the out-group become more likely to be: (a) prejudiced (b) discriminated (c) affiliated (d) stereotyped",
+            "howToAnswer": "Choose (d). Then, in an essay, explain that seeing a group as uniform makes members seem interchangeable, and support it with Jones, Wood and Quattrone (1981) and the reversal found by Simon (1992).",
+            "scholars": ["Jones, Wood & Quattrone (1981)", "Mullen & Hu (1989)", "Simon & Pettigrew (1990)", "Simon (1992)", "Fein & Spencer (1997)"]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Out-group homogeneity: seeing 'them' as more alike than 'us'.",
+              "Its major effect: out-group members are more easily stereotyped and seen as interchangeable.",
+              "Jones, Wood and Quattrone (1981) found it in all four Princeton eating clubs.",
+              "Strongest in real, lasting groups; can reverse for small minorities on identity traits.",
+              "Lower self-esteem raises prejudice, so addressing insecurity can reduce it."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The statement 'If you have seen one of them, you have seen them all' is a typical expression of:",
+          "options": [
+            "Social dominance orientation",
+            "Self-esteem maintenance",
+            "In-group heterogeneity training",
+            "Out-group homogeneity bias"
+          ],
+          "answerIndex": 3,
+          "explanation": "Assuming all members of another group are alike is out-group homogeneity bias. SDO concerns a preference for group hierarchy, not perceived sameness."
+        },
+        {
+          "difficulty": 1,
+          "stem": "In social psychology, an out-group is:",
+          "options": [
+            "A group to which a person does not belong",
+            "Any group that is smaller than one's own",
+            "A group that has been expelled from society",
+            "A group whose members all share the same personality"
+          ],
+          "answerIndex": 0,
+          "explanation": "An out-group is simply any group the person is not a member of. Size and personality have nothing to do with the definition."
+        },
+        {
+          "difficulty": 1,
+          "stem": "A key consequence of out-group homogeneity is that members of the out-group become more likely to be:",
+          "options": [
+            "Affiliated",
+            "Admired",
+            "Stereotyped",
+            "Promoted"
+          ],
+          "answerIndex": 2,
+          "explanation": "When a group seems uniform, its members are easily stereotyped and treated as interchangeable. Affiliation is the opposite of the distance the bias creates."
+        },
+        {
+          "difficulty": 2,
+          "stem": "In the Princeton eating-club study by Jones, Wood and Quattrone (1981), students tended to:",
+          "options": [
+            "Rate all four clubs as equally varied",
+            "Rate their own club as more varied than the other clubs",
+            "Rate the largest club as the most varied regardless of membership",
+            "Rate the other clubs as more varied than their own"
+          ],
+          "answerIndex": 1,
+          "explanation": "Whatever club they were in, students saw their own as more varied in personality. That consistency is what made the study an early proof of out-group homogeneity."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The familiarity explanation of out-group homogeneity holds that the bias arises mainly because:",
+          "options": [
+            "Out-groups really are more uniform than in-groups",
+            "People have less contact with members of out-groups",
+            "People have more contact with out-groups than in-groups",
+            "Out-group members try to look alike"
+          ],
+          "answerIndex": 1,
+          "explanation": "Knowing few out-group members as individuals leaves a thin, uniform picture of them. The bias is a perception error, not evidence that out-groups really are more uniform."
+        },
+        {
+          "difficulty": 2,
+          "stem": "According to the session, a person whose self-esteem has just fallen is likely to become:",
+          "options": [
+            "More likely to express prejudice",
+            "Less likely to categorise others",
+            "More likely to see out-groups as varied",
+            "Less likely to favour their in-group"
+          ],
+          "answerIndex": 0,
+          "explanation": "Prejudice can serve as a way of restoring a damaged self-image, so it tends to rise when self-esteem falls. The other options describe the reverse of what happens."
+        },
+        {
+          "difficulty": 3,
+          "stem": "After one bad experience with a bus driver from another region, Aisha says that 'drivers from there are all reckless'. Her friend notes that Aisha describes drivers from her own area as 'all kinds of people'. This contrast best illustrates:",
+          "options": [
+            "Social dominance orientation",
+            "Realistic conflict",
+            "Out-group homogeneity",
+            "Self-affirmation"
+          ],
+          "answerIndex": 2,
+          "explanation": "Seeing the out-group as uniform while seeing the in-group as varied is the out-group homogeneity effect. Nothing in the scenario involves ranking groups, which SDO would require."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A counsellor wants to reduce a student's hostility towards another ethnic group, believing the hostility protects a fragile self-image. Based on the session, the most suitable approach is to:",
+          "options": [
+            "Publicly shame the student for the hostility",
+            "Reduce the student's contact with all other groups",
+            "Tell the student that their own group is superior",
+            "Address the insecurity and help build the student's self-esteem"
+          ],
+          "answerIndex": 3,
+          "explanation": "If prejudice props up self-esteem, addressing the underlying insecurity reduces the need for it. Shaming threatens self-esteem further and can make prejudice worse."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Two groups of students have shared the same hostel for four years, yet each still says the other side is 'all the same'. This case shows that:",
+          "options": [
+            "Out-group homogeneity can exist even between groups in extensive contact",
+            "Contact always removes out-group homogeneity",
+            "The two groups must really be identical",
+            "Out-group homogeneity occurs only between strangers"
+          ],
+          "answerIndex": 0,
+          "explanation": "The session's example of men and women saying the other sex is 'all alike' shows the bias survives heavy contact. So lack of contact cannot be the only cause."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Mullen and Hu (1989) found that the out-group homogeneity effect is strongest when:",
+          "options": [
+            "The groups are created briefly in a laboratory",
+            "The out-group is a small minority",
+            "The in-group and out-group are real and enduring",
+            "The judged trait is central to the minority's identity"
+          ],
+          "answerIndex": 2,
+          "explanation": "Real, lasting groups produce the strongest effect. A small minority judged on identity-central traits is the condition under which Simon found the effect may reverse."
+        },
+        {
+          "difficulty": 4,
+          "stem": "The finding that a small minority may see ITSELF as more homogeneous than the majority on traits central to its identity is associated with:",
+          "options": [
+            "Jones, Wood and Quattrone (1981)",
+            "Simon (1992) and Simon and Pettigrew (1990)",
+            "Mullen and Hu (1989)",
+            "Allport (1954)"
+          ],
+          "answerIndex": 1,
+          "explanation": "Simon and colleagues showed the effect can vanish or reverse for small groups on identity-defining traits. Mullen and Hu are linked to the effect being strongest in real, lasting groups."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which of the following is NOT a consequence of out-group homogeneity discussed in the session?",
+          "options": [
+            "Out-group members may be seen as interchangeable",
+            "Out-group members may be seen as expendable",
+            "Out-group members become more likely to be stereotyped",
+            "Out-group members are rated as more varied in personality"
+          ],
+          "answerIndex": 3,
+          "explanation": "Rating a group as more varied is how people see their in-group, not the out-group. The other three are direct consequences of seeing the out-group as all alike."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider: I. Out-group homogeneity depends on which particular group is doing the judging. II. The effect holds for groups defined by race, religion or nationality. III. Lack of contact is one, but not the only, reason for the effect. IV. Boosting self-esteem may reduce prejudice. Which are correct?",
+          "options": [
+            "I and II only",
+            "II, III and IV only",
+            "I, III and IV only",
+            "I, II, III and IV"
+          ],
+          "answerIndex": 1,
+          "explanation": "Statement I is wrong: the eating-club study found the effect regardless of which club was judging. The other three statements match the session."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A researcher reports that, in a study of a large majority group and a very small religious minority, the minority described its own members as highly similar in faith-related values. The BEST interpretation is that:",
+          "options": [
+            "The study disproves the out-group homogeneity effect altogether",
+            "The minority must have had no contact with the majority",
+            "This fits the reversal found when a small group judges identity-central traits",
+            "The minority is showing high social dominance orientation"
+          ],
+          "answerIndex": 2,
+          "explanation": "Simon's work predicts that small groups judged on traits central to their identity may see themselves as more alike. This is a known boundary condition, not a disproof, and it says nothing about hierarchy preferences."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which pairing of cause and remedy is MOST consistent with the session's account of prejudice?",
+          "options": [
+            "Threatened self-esteem – humiliating the prejudiced person",
+            "Less contact with out-group members – keeping groups apart",
+            "Seeing the out-group as uniform – stressing that 'they are all alike'",
+            "Underlying insecurity – addressing the source of that insecurity"
+          ],
+          "answerIndex": 3,
+          "explanation": "The session argues that prejudice can fall when the insecurity behind it is dealt with. The other remedies would worsen the cause they are paired with, for example humiliation threatens self-esteem even more."
+        }
+      ]
+    }
+  ]
+}

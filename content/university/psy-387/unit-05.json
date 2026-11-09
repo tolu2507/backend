@@ -1,0 +1,715 @@
+{
+  "unit": 5,
+  "title": "Social Identity Theory",
+  "summary": "Why the groups we belong to shape our self-esteem, and how that drives in-group favouritism, basking in reflected glory and status strategies.",
+  "sections": [
+    {
+      "name": "Groups inside the self",
+      "lesson": {
+        "title": "You are also your groups",
+        "minutes": 10,
+        "hook": "When the Super Eagles win, strangers in a Lagos bus start hugging. Nobody on that bus kicked a ball, so why does everyone feel personally bigger?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Two sources of self-worth",
+            "body": "Ask who you are and you might say 'hard-working, funny, good at maths'. That is your **personal identity**. But you might also say 'Igbo, Christian, a UI student, a Nigerian'. That is your **social identity**: the part of the self that comes from belonging to groups and social categories.\n\n**Henri Tajfel and John Turner (1979)** argued that self-esteem draws on both. How our groups are doing feeds directly into how we feel about ourselves.",
+            "visual": {
+              "type": "venn",
+              "left": "Personal identity",
+              "right": "Social identity",
+              "both": "Self-esteem"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Groups and categories",
+            "body": "Social identity can come from **groups** we actively join, like a church, a club or a profession, and from **categories** we are placed in, like gender, ethnicity or nationality.\n\nEither way, the group's **wins and losses become partly ours**. A lawyer feels stung when lawyers are mocked; a member of a fraternity feels proud when it is praised. Our fortunes are tied to the fortunes of people we may never have met.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "people",
+                  "label": "Groups we join"
+                },
+                {
+                  "icon": "flag",
+                  "label": "Categories we hold"
+                },
+                {
+                  "icon": "heart",
+                  "label": "Shared feelings"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Social identity theory says a person's self-esteem comes from:",
+            "options": [
+              "Personal achievements only",
+              "Only the approval of parents",
+              "Both personal achievements and the standing of their groups",
+              "Genetic temperament"
+            ],
+            "answerIndex": 2,
+            "why": "Tajfel and Turner added group standing to personal achievement. A theory based only on personal achievement would ignore the 'social' self entirely."
+          },
+          {
+            "kind": "steps",
+            "heading": "How a group becomes 'us'",
+            "steps": [
+              {
+                "title": "Categorisation",
+                "detail": "We sort people, ourselves included, into groups: students and lecturers, Arsenal and Chelsea fans."
+              },
+              {
+                "title": "Identification",
+                "detail": "We take on the identity of our group and start acting and feeling as a member."
+              },
+              {
+                "title": "Comparison",
+                "detail": "We compare our group with others, hoping ours comes out ahead, because that lifts our self-esteem."
+              }
+            ]
+          },
+          {
+            "kind": "teach",
+            "heading": "The minimal group surprise",
+            "body": "How little does it take to make people favour 'their' side? Tajfel's **minimal group** studies (early 1970s) split schoolboys into groups on trivial grounds, such as which abstract painter they supposedly preferred.\n\nThe boys never met their group mates and had nothing to gain personally. Yet when sharing out rewards, they **favoured their own group**, often choosing to maximise the gap over the other group rather than the total reward. Mere categorisation was enough.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Trivial label",
+                "Us versus them",
+                "Favour own group"
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "The hostel colours",
+            "story": "In a first-week icebreaker, Ifeoma's hostel randomly gives students blue or yellow wristbands. By evening, the blues sit together at dinner, cheer louder for blue in the quiz, and joke that yellows 'just don't get it'. Nobody chose a colour and nothing is at stake, yet a sense of 'us' has formed within hours.",
+            "takeaway": "As the minimal group studies showed, a meaningless label can be enough to spark in-group preference."
+          },
+          {
+            "kind": "teach",
+            "heading": "What the theory predicts",
+            "body": "Social identity theory predicts how groups will behave from three perceptions:\n\n- **Status differences**: how much social value each group is thought to hold.\n- **Legitimacy and stability**: whether those differences seem fair and fixed.\n- **Permeability**: whether a person can move from one group to another.\n\nChange any of these and the behaviour changes, from quiet acceptance to open challenge.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "trending-up",
+                  "label": "Status gap"
+                },
+                {
+                  "icon": "scale",
+                  "label": "Fair and fixed?"
+                },
+                {
+                  "icon": "repeat",
+                  "label": "Can I move?"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "terms",
+            "heading": "Key terms",
+            "terms": [
+              {
+                "term": "Social identity",
+                "meaning": "The part of the self drawn from group and category membership"
+              },
+              {
+                "term": "Status",
+                "meaning": "The level of social value a group is seen to hold"
+              },
+              {
+                "term": "Legitimacy",
+                "meaning": "Whether a group's position is seen as rightful and acceptable"
+              },
+              {
+                "term": "Permeability",
+                "meaning": "How easily someone can leave one group and join another"
+              },
+              {
+                "term": "Positive distinctiveness",
+                "meaning": "Wanting our group to compare favourably with others"
+              }
+            ]
+          },
+          {
+            "kind": "check",
+            "question": "In Tajfel's minimal group studies, boys favoured their own group even though:",
+            "options": [
+              "They were paid to do so",
+              "Their group was based on a long friendship",
+              "The experimenter told them to compete",
+              "The groups were formed on trivial grounds and they never met"
+            ],
+            "answerIndex": 3,
+            "why": "The striking finding was that a meaningless label alone produced favouritism. There was no friendship, payment or instruction to compete."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'explain social identity theory' as an essay, but objectives twist it: who proposed it, which year, and whether self-esteem comes only from personal accomplishment. The trap is picking the option that mentions personal identity alone. Always mention the group's status and accomplishments.",
+            "sampleQuestion": "Tajfel and Turner (1979) argue that a person's self-concept derives from: (a) personal accomplishment alone (b) group status alone (c) both personal identity and the standing of their groups (d) parental approval",
+            "howToAnswer": "Answer (c). For an essay, define social identity, name Tajfel and Turner (1979), give the three processes and a Nigerian example such as national pride after a sporting win.",
+            "scholars": [
+              "Tajfel & Turner (1979)",
+              "Tajfel (1970)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Self-esteem comes from personal identity and from social identity.",
+              "Tajfel and Turner (1979) proposed social identity theory.",
+              "Categorisation, identification and comparison turn a group into 'us'.",
+              "Minimal group studies: trivial labels still produce favouritism.",
+              "Status, legitimacy, stability and permeability shape group behaviour."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Social identity theory is most closely associated with:",
+          "options": [
+            "Sherif and Sherif",
+            "Tajfel and Turner",
+            "Adorno and colleagues",
+            "Dollard and Miller"
+          ],
+          "answerIndex": 1,
+          "explanation": "Henri Tajfel and John Turner set out social identity theory in 1979. Sherif is linked with realistic group conflict, Adorno with the authoritarian personality."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The part of a person's self-concept that comes from belonging to groups is called:",
+          "options": [
+            "Personal identity",
+            "Social identity",
+            "Self-efficacy",
+            "Ego ideal"
+          ],
+          "answerIndex": 1,
+          "explanation": "Social identity is the group-based self. Personal identity is built on individual traits and achievements."
+        },
+        {
+          "difficulty": 1,
+          "stem": "According to social identity theory, when a person's group does well, the person's self-esteem tends to:",
+          "options": [
+            "Stay unaffected",
+            "Fall",
+            "Rise",
+            "Become unstable"
+          ],
+          "answerIndex": 2,
+          "explanation": "Because self-esteem partly rests on group standing, a group's success lifts the member's self-esteem."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which of these is a social category rather than a group a person actively joins?",
+          "options": [
+            "Nationality",
+            "A church choir",
+            "A football club",
+            "A drama society"
+          ],
+          "answerIndex": 0,
+          "explanation": "Nationality is a category one is placed in. Clubs, choirs and societies are groups people join by choice."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The minimal group studies showed that in-group favouritism can arise from:",
+          "options": [
+            "Long-standing rivalry",
+            "Mere categorisation into groups",
+            "Competition for real money",
+            "Personality defects"
+          ],
+          "answerIndex": 1,
+          "explanation": "Groups were formed on trivial grounds with no history or real stakes, yet favouritism still appeared. Rivalry and competition were deliberately absent."
+        },
+        {
+          "difficulty": 2,
+          "stem": "In social identity theory, 'status' refers to:",
+          "options": [
+            "The social value a group is thought to hold",
+            "The size of a group",
+            "How long a group has existed",
+            "The wealth of the group leader"
+          ],
+          "answerIndex": 0,
+          "explanation": "Status is the perceived social value of a group. Size and age of the group are not what the theory means by status."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Kunle feels personally insulted when a newspaper mocks Yoruba people, even though the article never mentions him. Social identity theory explains this as:",
+          "options": [
+            "Low personal self-esteem",
+            "Projection of his own faults",
+            "His self-concept being tied to his group's standing",
+            "A purely cognitive error"
+          ],
+          "answerIndex": 2,
+          "explanation": "When the group is part of the self, an attack on the group feels like an attack on the person. Low personal self-esteem is not required for this reaction."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Students are randomly given red or green badges at orientation. By the end of the day, the reds rate other reds as friendlier. This mirrors:",
+          "options": [
+            "The Robbers Cave study",
+            "The contact hypothesis",
+            "Tajfel's minimal group findings",
+            "Basking in reflected glory"
+          ],
+          "answerIndex": 2,
+          "explanation": "Favouritism based on an arbitrary label is the minimal group effect. Robbers Cave involved real competition between groups over prizes."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Which sequence correctly orders the processes in social identity theory?",
+          "options": [
+            "Comparison, identification, categorisation",
+            "Identification, categorisation, comparison",
+            "Categorisation, identification, comparison",
+            "Categorisation, comparison, identification"
+          ],
+          "answerIndex": 2,
+          "explanation": "We first sort people into groups, then take on our group's identity, then compare our group with others."
+        },
+        {
+          "difficulty": 4,
+          "stem": "In minimal group experiments, participants often chose reward splits that:",
+          "options": [
+            "Maximised the difference in favour of their own group",
+            "Gave both groups the most total reward",
+            "Gave equal amounts always",
+            "Favoured the other group to seem fair"
+          ],
+          "answerIndex": 0,
+          "explanation": "A striking result was that people often sacrificed total gain to make their group come out further ahead. That shows the goal was relative standing, not maximum reward."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Social identity theory predicts intergroup behaviour from all of the following perceptions EXCEPT:",
+          "options": [
+            "Status differences between groups",
+            "Legitimacy and stability of those differences",
+            "Ability to move between groups",
+            "Each member's IQ score"
+          ],
+          "answerIndex": 3,
+          "explanation": "The theory uses perceived status, legitimacy and stability, and permeability. Individual intelligence plays no part in its predictions."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement best distinguishes social identity theory from realistic group conflict theory?",
+          "options": [
+            "Social identity theory shows bias can arise without any conflict of interest",
+            "Social identity theory needs competition for scarce resources",
+            "Realistic conflict theory denies that groups compete",
+            "Both say prejudice is caused by personality"
+          ],
+          "answerIndex": 0,
+          "explanation": "Minimal group findings show favouritism without any real conflict over resources, which is where social identity theory goes beyond realistic conflict theory."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider these statements: I. Self-esteem rests partly on group status. II. Group membership must be chosen to affect self-esteem. III. Mere categorisation can produce favouritism. Which are consistent with social identity theory?",
+          "options": [
+            "I and II only",
+            "I, II and III",
+            "II and III only",
+            "I and III only"
+          ],
+          "answerIndex": 3,
+          "explanation": "I and III are central claims. II is wrong: categories we are placed in, such as gender or nationality, also shape self-esteem."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A low-status group believes its position is unfair and could change. Social identity theory predicts this group is most likely to:",
+          "options": [
+            "Accept its position quietly",
+            "Challenge the higher-status group",
+            "Abandon all group identity",
+            "Show no change in behaviour"
+          ],
+          "answerIndex": 1,
+          "explanation": "When status differences seem illegitimate and unstable, members are more likely to compete with or challenge the dominant group. Quiet acceptance is expected when the gap seems fair and fixed."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A researcher finds that people favour their group even when it costs them personally and they will never meet the group. This most strongly supports the claim that:",
+          "options": [
+            "Favouritism is driven by self-interest alone",
+            "Only authoritarian people show bias",
+            "Prejudice requires real competition",
+            "Group membership itself carries value for the self"
+          ],
+          "answerIndex": 3,
+          "explanation": "If favouritism persists without personal gain or contact, the group's standing must matter for the self. That is the core of social identity theory, not self-interest or personality."
+        }
+      ]
+    },
+    {
+      "name": "Favouritism, basking and status",
+      "lesson": {
+        "title": "Making our group look good",
+        "minutes": 10,
+        "hook": "After a big win, fans say 'We won!' After a loss, the same fans say 'They lost'. One small pronoun reveals how our self-esteem uses groups.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Why we favour our own",
+            "body": "If part of our self-esteem depends on how our group stands, then boosting the group boosts us. That is the theory's explanation for **in-group favouritism**: giving advantages to fellow members.\n\nHiring a fellow alumnus, rating your department's work more kindly, or defending your hometown's food: each lifts the group's standing and, quietly, your own sense of worth.",
+            "visual": {
+              "type": "cycle",
+              "nodes": [
+                "Favour in-group",
+                "Group rises",
+                "Self-esteem rises"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Evidence on self-esteem",
+            "body": "**Lemyre and Smith (1985)** used the minimal group setup. Participants allowed to discriminate in favour of their group afterwards showed **higher self-esteem** than those given no chance to do so.\n\nThis supports the idea that favouritism is not just selfish greed; it works as a way of **repairing or lifting self-esteem**.",
+            "visual": {
+              "type": "scale",
+              "left": "Could discriminate",
+              "right": "No chance",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Strong identifiers",
+            "body": "Not everyone ties themselves equally to a group. **Crocker and Luhtanen (1990)** found people with high **collective self-esteem**, strong pride in their group memberships, showed more in-group favouritism in minimal group situations.\n\n**McCoy and Major (2003)** found that people highly identified with a group react to criticism of the group as though it were **criticism of themselves**.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Weak identifier",
+              "right": "Strong identifier",
+              "marker": 85,
+              "label": "More favouritism"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Lemyre and Smith (1985) found that people who were allowed to favour their own group afterwards had:",
+            "options": [
+              "Lower self-esteem",
+              "Higher self-esteem",
+              "No change in self-esteem",
+              "Higher anxiety only"
+            ],
+            "answerIndex": 1,
+            "why": "Discriminating in favour of the in-group lifted self-esteem compared with those given no opportunity, which fits the theory."
+          },
+          {
+            "kind": "teach",
+            "heading": "Basking in reflected glory",
+            "body": "**Robert Cialdini and colleagues (1976)** noticed that university students wore their school's sports clothing more often on the Monday after their team **won**.\n\nThey also said '**we** won' after victories but '**they** lost' after defeats. Cialdini called this **basking in reflected glory (BIRGing)**: publicly linking ourselves to a successful group so that some of its shine falls on us.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "flag",
+                  "label": "Team wins"
+                },
+                {
+                  "icon": "happy",
+                  "label": "'We won'"
+                },
+                {
+                  "icon": "megaphone",
+                  "label": "Show it off"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "After a win versus after a loss",
+            "left": {
+              "title": "Team wins",
+              "points": [
+                "'We won!'",
+                "Wear the jersey to class",
+                "Announce membership loudly"
+              ]
+            },
+            "right": {
+              "title": "Team loses",
+              "points": [
+                "'They lost'",
+                "Jersey stays at home",
+                "Quietly distance yourself"
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "The Super Eagles jersey",
+            "story": "On Monday after Nigeria beat a strong rival, Bayo wears his green Super Eagles jersey to his 8am lecture and tells everyone 'we were too good'. Two weeks later, Nigeria crashes out. That morning, Bayo wears a plain shirt and says, 'Those players don't even try.' He has not changed; his group's result has.",
+            "takeaway": "Bayo basks after a win and distances himself after a loss, protecting his self-esteem both ways."
+          },
+          {
+            "kind": "teach",
+            "heading": "Cutting off reflected failure",
+            "body": "The flip side of basking has its own name: **cutting off reflected failure (CORFing)**, studied by Snyder and colleagues (1986). When a group fails, members **distance** themselves from it so the failure does not stain them.\n\nBoth habits serve the same goal: keeping self-esteem high by managing how closely we are seen with a group.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Distance (CORF)",
+              "right": "Display (BIRG)",
+              "marker": 50,
+              "label": "Depends on the result"
+            }
+          },
+          {
+            "kind": "steps",
+            "heading": "Three ways to lift a low-status group",
+            "steps": [
+              {
+                "title": "Social mobility",
+                "detail": "If the boundary is open, the individual leaves for a higher-status group."
+              },
+              {
+                "title": "Social creativity",
+                "detail": "Change the comparison: pick a new dimension where the group looks good, or a different comparison group."
+              },
+              {
+                "title": "Social competition",
+                "detail": "If the gap seems unfair and changeable, challenge the higher-status group directly."
+              }
+            ]
+          },
+          {
+            "kind": "check",
+            "question": "A student says 'we won' after a victory but 'they lost' after a defeat. Cialdini would call the first part:",
+            "options": [
+              "Basking in reflected glory",
+              "Social creativity",
+              "Cutting off reflected failure",
+              "Minimal group bias"
+            ],
+            "answerIndex": 0,
+            "why": "'We won' links the self to a successful group, which is basking in reflected glory. 'They lost' is the distancing called cutting off reflected failure."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Lecturers love BIRGing because it is easy to set as a scenario: a fan, a jersey, a pronoun. They also test the link between in-group favouritism and self-esteem, and who coined which term. A common trap is mixing up Cialdini (basking) with Crocker and Luhtanen (collective self-esteem).",
+            "sampleQuestion": "In what ways can members boost the status of their in-group, and why would they bother? Discuss with examples.",
+            "howToAnswer": "Explain that self-esteem rests partly on group status, then cover in-group favouritism (Lemyre & Smith, 1985), basking in reflected glory (Cialdini et al., 1976) and the mobility, creativity and competition strategies, each with a Nigerian example.",
+            "scholars": [
+              "Cialdini et al. (1976)",
+              "Lemyre & Smith (1985)",
+              "Crocker & Luhtanen (1990)",
+              "McCoy & Major (2003)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Favouring our group lifts its standing and our self-esteem.",
+              "Lemyre and Smith (1985): discriminating raised self-esteem.",
+              "Strong identifiers favour more and feel group criticism personally.",
+              "BIRGing: 'we won'; CORFing: 'they lost'.",
+              "Low-status groups use mobility, creativity or competition."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The phrase 'basking in reflected glory' was coined by:",
+          "options": [
+            "Cialdini",
+            "Tajfel",
+            "Sherif",
+            "Allport"
+          ],
+          "answerIndex": 0,
+          "explanation": "Robert Cialdini and colleagues (1976) described basking in reflected glory. Tajfel is linked with social identity and minimal groups."
+        },
+        {
+          "difficulty": 1,
+          "stem": "In-group favouritism means:",
+          "options": [
+            "Treating all groups equally",
+            "Preferring members of other groups",
+            "Giving advantages to members of one's own group",
+            "Avoiding group membership"
+          ],
+          "answerIndex": 2,
+          "explanation": "In-group favouritism is giving preference to fellow members. Preferring out-groups would be the reverse."
+        },
+        {
+          "difficulty": 1,
+          "stem": "According to social identity theory, people boost their in-group's status mainly because:",
+          "options": [
+            "It brings them money",
+            "They dislike all out-groups",
+            "They are told to by leaders",
+            "Their self-esteem partly depends on it"
+          ],
+          "answerIndex": 3,
+          "explanation": "The theory's central idea is that group standing feeds self-esteem, so lifting the group lifts the self."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Cialdini's students used the pronoun 'we' most often when describing:",
+          "options": [
+            "A team defeat",
+            "A cancelled match",
+            "A team victory",
+            "A draw"
+          ],
+          "answerIndex": 2,
+          "explanation": "People said 'we' after wins to share in the success and 'they' after losses to distance themselves."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Crocker and Luhtanen (1990) found that in-group favouritism was strongest among people with high:",
+          "options": [
+            "Personal anxiety",
+            "Collective self-esteem",
+            "Intelligence",
+            "Authoritarianism"
+          ],
+          "answerIndex": 1,
+          "explanation": "People who take strong pride in their group memberships, high collective self-esteem, showed more favouritism. Authoritarianism belongs to a different theory of prejudice."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Cutting off reflected failure refers to:",
+          "options": [
+            "Joining a winning group",
+            "Distancing oneself from a failing group",
+            "Criticising a rival group",
+            "Hiding personal failure"
+          ],
+          "answerIndex": 1,
+          "explanation": "CORFing is the opposite of basking: members pull away from a group that has failed so its failure does not reflect on them."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Ada wears her university's crest everywhere the week her school wins the national debate final. This best illustrates:",
+          "options": [
+            "Basking in reflected glory",
+            "Social mobility",
+            "Cutting off reflected failure",
+            "Realistic conflict"
+          ],
+          "answerIndex": 0,
+          "explanation": "Publicly displaying a link to a successful group is basking in reflected glory. Social mobility would mean leaving the group."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Emeka hears a lecturer criticise nurses and reacts as if he himself had been insulted, though he is the only nurse present and was not named. McCoy and Major (2003) would explain this by his:",
+          "options": [
+            "Low intelligence",
+            "High identification with the group",
+            "Fear of the lecturer",
+            "Lack of social identity"
+          ],
+          "answerIndex": 1,
+          "explanation": "Highly identified members experience criticism of the group as criticism of the self. Lacking a social identity would predict the opposite."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A small, poorly ranked university promotes itself as 'the friendliest campus in Nigeria' rather than competing on research rankings. This is an example of:",
+          "options": [
+            "Social creativity",
+            "Social mobility",
+            "Social competition",
+            "Basking in reflected glory"
+          ],
+          "answerIndex": 0,
+          "explanation": "Choosing a new dimension of comparison where the group looks good is social creativity. Social competition would mean directly challenging stronger universities on research."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following support social identity theory EXCEPT:",
+          "options": [
+            "Higher self-esteem after in-group discrimination",
+            "Favouritism appearing only when groups compete for prizes",
+            "Strong identifiers favouring their group more",
+            "Fans wearing team colours after victories"
+          ],
+          "answerIndex": 1,
+          "explanation": "Social identity theory says favouritism can appear without competition for prizes. Bias that only appears under competition would better fit realistic conflict theory."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Lemyre & Smith (1985): basking in reflected glory",
+            "Cialdini et al. (1976): discrimination raises self-esteem",
+            "Crocker & Luhtanen (1990): cutting off reflected failure",
+            "McCoy & Major (2003): group criticism felt as self-criticism"
+          ],
+          "answerIndex": 3,
+          "explanation": "McCoy and Major linked strong identification with taking group criticism personally. Lemyre and Smith studied self-esteem after discrimination; Cialdini studied basking."
+        },
+        {
+          "difficulty": 4,
+          "stem": "An individual in a low-status group moves to a higher-status group because the boundary between them is open. This strategy is:",
+          "options": [
+            "Social creativity",
+            "Social competition",
+            "Collective action",
+            "Social mobility"
+          ],
+          "answerIndex": 3,
+          "explanation": "Leaving for a better group when boundaries are permeable is social mobility. Competition and collective action involve the group challenging others as a whole."
+        },
+        {
+          "difficulty": 5,
+          "stem": "The finding that in-group discrimination raised participants' self-esteem suggests that favouritism:",
+          "options": [
+            "Serves to protect or enhance self-esteem",
+            "Is mainly about gaining material resources",
+            "Only appears in people with low intelligence",
+            "Reduces group identification"
+          ],
+          "answerIndex": 0,
+          "explanation": "If discriminating lifts self-esteem, then favouritism is serving a self-esteem function. Minimal groups had no material stakes, so resource gain cannot explain it."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. People say 'we' after a group's success. II. People distance themselves after a group's failure. III. Both behaviours protect self-esteem. Which statements are correct?",
+          "options": [
+            "I only",
+            "I and II only",
+            "I, II and III",
+            "II and III only"
+          ],
+          "answerIndex": 2,
+          "explanation": "Basking (I) and cutting off reflected failure (II) are both documented, and both keep self-esteem high (III)."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A low-status ethnic association sees its disadvantage as unjust and believes laws could change it. Social identity theory predicts it will most likely choose:",
+          "options": [
+            "Social mobility by members leaving",
+            "Cutting off reflected failure",
+            "Social competition, such as campaigning for change",
+            "Accepting its lower position"
+          ],
+          "answerIndex": 2,
+          "explanation": "When the status gap seems illegitimate and unstable, and ethnic membership is hard to leave, groups tend to compete directly. Mobility needs open boundaries, which ethnicity rarely offers."
+        }
+      ]
+    }
+  ]
+}

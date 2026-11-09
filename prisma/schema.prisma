@@ -57,6 +57,7 @@ enum EducationLevel {
   PRIMARY
   JUNIOR_SECONDARY
   SENIOR_SECONDARY
+  TERTIARY // university students, who sign up and study on their own
 }
 
 enum TermName {
@@ -310,6 +311,7 @@ enum AiFeature {
   QUESTION_TAGGING // labelling past questions with topic and difficulty
   QUESTION_WRITING // writing our own exam questions
   QUESTION_CHECK // solving them blind to check the answer
+  LESSON_WRITING // writing university classroom lessons (one-off, offline)
 }
 
 enum AssetStatus {
@@ -626,6 +628,7 @@ model StudentProfile {
   shopCode            String         @unique // tuck-shop ID typed at the counter, e.g. ADAK7M2 (shown as ADA-K7M2)
   dailySpendLimitKobo BigInt?        @default(150000) // tuck-shop spend per Lagos day, set by a parent; null = no limit
   avatar              String? // picked cartoon avatar, "a01"–"a24" (pictures live in the app); null = initials
+  department          String? // university students: department slug, e.g. "psychology"
 
   // Gamification counters (derived from XpEvent; cached for fast reads)
   xpTotal        Int       @default(0)
@@ -663,6 +666,7 @@ model StudentProfile {
   mockSittings    MockSitting[]
   questionReports QuestionReport[]
   arenaPlayers    ArenaPlayer[]
+  lessonProgress  LessonProgress[]
 
   // Arena
   trophies     Int     @default(0) // arena rating from Ghost Races; never money
@@ -1468,6 +1472,7 @@ enum ExamBody {
   COMMON_ENTRANCE // NCEE into unity schools, and private secondary school entrance exams (Primary 5–6)
   PRIMARY // class practice for Primary 1–5: no exam, the child's own class subjects
   NURSERY // class practice for Nursery 1–2: picture questions read aloud
+  UNIVERSITY // university courses: each ExamSubject is one course (PSY 316), its units are the topics
 }
 
 enum QuestionOrigin {
@@ -1536,6 +1541,7 @@ model SyllabusTopic {
   questions     ExamQuestion[]
   templates     QuestionTemplate[]
   progress      TopicProgress[]
+  lessons       CourseLesson[]
 
   @@unique([examSubjectId, parentId, name])
   @@index([examSubjectId])
@@ -1863,4 +1869,44 @@ model Olympiad {
 
   @@unique([examSubjectId, day])
   @@index([settledAt, closesAt])
+}
+
+// ── University classroom ─────────────────────────────────
+
+/// A ready-made classroom lesson for one section of a university course (a SyllabusTopic leaf).
+/// Written once, offline, by scripts/university/build.ts in our own words; students never trigger AI.
+model CourseLesson {
+  id         String         @id @default(uuid())
+  topicId    String         @unique
+  title      String
+  minutes    Int            @default(8) // rough reading time
+  hook       String // the teacher's opening line
+  slides     Json // [{ kind: "teach" | "example" | "check" | "compare" | "steps" | "terms" | "lecturer" | "recap", ... }]
+  sources    Json           @default("[]") // web pages the lesson drew on: [{ title, url }]
+  status     QuestionStatus @default(IN_REVIEW)
+  checkNotes String? // automatic checks: copied passages, malformed slides
+  reviewedAt DateTime?
+  createdAt  DateTime       @default(now())
+  updatedAt  DateTime       @updatedAt
+
+  topic    SyllabusTopic    @relation(fields: [topicId], references: [id], onDelete: Cascade)
+  progress LessonProgress[]
+
+  @@index([status])
+}
+
+/// How far a student got through a lesson.
+model LessonProgress {
+  studentId   String
+  lessonId    String
+  slide       Int       @default(0) // furthest slide reached
+  checksRight Int       @default(0)
+  checksTotal Int       @default(0)
+  completedAt DateTime?
+  updatedAt   DateTime  @updatedAt
+
+  student StudentProfile @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  lesson  CourseLesson   @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+
+  @@id([studentId, lessonId])
 }

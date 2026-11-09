@@ -1,0 +1,694 @@
+{
+  "unit": 12,
+  "title": "Ethnic Conflict and Resolution",
+  "summary": "What conflict is, how ethnic conflict works and spreads, why perception drives it, and the five stages from first signs to reconciliation.",
+  "sections": [
+    {
+      "name": "Understanding ethnic conflict",
+      "lesson": {
+        "title": "Same land, different realities",
+        "minutes": 10,
+        "hook": "Two neighbouring towns tell the story of the same land in completely different ways. Each is sure the other is lying. What if both believe exactly what they say?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Universal, yet personal",
+            "body": "Conflict is found in every human culture, yet each culture, and each person, experiences it in its own way. It is a visible sign of **human energy**, often arising when people strive for the **same goals, rights or resources**.\n\nWe usually assume we share one reality with others. Conflict often begins when we discover we do not.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "globe",
+                  "label": "Universal"
+                },
+                {
+                  "icon": "person",
+                  "label": "Felt uniquely"
+                },
+                {
+                  "icon": "flash",
+                  "label": "Human energy"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "steps",
+            "heading": "Three dimensions of conflict",
+            "steps": [
+              {
+                "title": "Cognitive (perception)",
+                "detail": "How each side sees and interprets the situation and the other side."
+              },
+              {
+                "title": "Emotional (feeling)",
+                "detail": "The anger, fear, resentment or hurt each side carries."
+              },
+              {
+                "title": "Behavioural (action)",
+                "detail": "What each side actually does: protests, insults, attacks, talks."
+              }
+            ]
+          },
+          {
+            "kind": "check",
+            "question": "Conflict is analysed along all of these dimensions EXCEPT:",
+            "options": [
+              "Genetic",
+              "Emotional",
+              "Behavioural",
+              "Cognitive"
+            ],
+            "answerIndex": 0,
+            "why": "The three dimensions are cognitive, emotional and behavioural. They explain why a conflict can move in contradictory directions, for example calm actions but rising anger."
+          },
+          {
+            "kind": "terms",
+            "heading": "How scholars define conflict",
+            "terms": [
+              {
+                "term": "Process view",
+                "meaning": "Parties perceive that others have taken, or will take, actions against their interests"
+              },
+              {
+                "term": "Chaplin",
+                "meaning": "Two or more opposing impulses or motives occurring at the same time"
+              },
+              {
+                "term": "Deutsch (1973)",
+                "meaning": "An action that blocks, interferes with or weakens another incompatible action"
+              },
+              {
+                "term": "Oyeshola (2005)",
+                "meaning": "Disagreement or dispute over ideas or viewpoints between people or groups"
+              }
+            ]
+          },
+          {
+            "kind": "compare",
+            "heading": "Dispute versus conflict",
+            "left": {
+              "title": "Dispute",
+              "points": [
+                "Over negotiable interests",
+                "Money, boundaries, terms",
+                "Can be bargained"
+              ]
+            },
+            "right": {
+              "title": "Conflict",
+              "points": [
+                "Over non-negotiable issues",
+                "Identity, security, recognition",
+                "Basic human needs"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "What makes it 'ethnic'",
+            "body": "**Ethnic conflict** is **collective action**, violent or non-violent, by an ethnic group aimed at a **dominant group**, usually the one holding the reins of the state.\n\nIt also runs the other way: the **state**, acting for the dominant group, may use violent or non-violent means to **suppress** a non-dominant group's collective action. Apartheid South Africa is a classic case: the state, controlled by a white minority, crushed Black resistance for decades.",
+            "visual": {
+              "type": "scale",
+              "left": "Dominant group",
+              "right": "Non-dominant group",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "A government acting for the dominant ethnic group bans a minority's political association. This fits the definition of:",
+            "options": [
+              "A dispute",
+              "Ethnic conflict",
+              "Conflict resolution",
+              "Social mobility"
+            ],
+            "answerIndex": 1,
+            "why": "State action, on behalf of a dominant group, to suppress a non-dominant group's collective action is part of the definition of ethnic conflict."
+          },
+          {
+            "kind": "compare",
+            "heading": "Consequences of ethnic conflict",
+            "left": {
+              "title": "Internal",
+              "points": [
+                "Lost homes and family members",
+                "Social breakdown",
+                "Denial of basic rights"
+              ]
+            },
+            "right": {
+              "title": "External",
+              "points": [
+                "Other states get involved",
+                "International power struggles",
+                "Threat to world stability"
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "When the conflict crosses borders",
+            "story": "The Arab-Israeli conflict began over land and identity in one small region. Over decades, neighbouring states fought wars, world powers took sides, and oil, diplomacy and security worldwide were affected. A student in Ibadan can feel its effects in fuel prices and foreign policy debates.",
+            "takeaway": "Ethnic conflicts can become internationalised, drawing in other states and threatening wider stability."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect definitions with authors (Chaplin, Deutsch, Oyeshola) and the three dimensions as an EXCEPT question with a tempting fake like 'psychological'. Ethnic conflict essays should include both directions: group against state, and state against group, plus internal and external consequences with examples.",
+            "sampleQuestion": "Define ethnic conflict and discuss its internal and external consequences, with examples.",
+            "howToAnswer": "Define it as collective action by an ethnic group against a dominant group controlling the state, or state suppression of a non-dominant group. Then give internal costs (homes, lives, rights) and external ones (internationalisation), using apartheid and the Arab-Israeli conflict.",
+            "scholars": [
+              "Deutsch (1973)",
+              "Oyeshola (2005)",
+              "Chaplin (1979)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Conflict is universal but experienced uniquely.",
+              "Three dimensions: cognitive, emotional, behavioural.",
+              "Disputes involve negotiable interests; conflicts involve non-negotiable needs.",
+              "Ethnic conflict: group against dominant group, or state suppressing a group.",
+              "Consequences are internal (lives, homes) and external (internationalisation)."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The three dimensions along which conflict can be viewed are:",
+          "options": [
+            "Economic, political, social",
+            "Cognitive, emotional, behavioural",
+            "Personal, group, national",
+            "Physical, spiritual, mental"
+          ],
+          "answerIndex": 1,
+          "explanation": "Conflict is analysed through perception (cognitive), feeling (emotional) and action (behavioural)."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Disputes differ from conflicts because disputes involve:",
+          "options": [
+            "Non-negotiable human needs",
+            "Only nations",
+            "Only violence",
+            "Negotiable interests"
+          ],
+          "answerIndex": 3,
+          "explanation": "Disputes are over interests that can be bargained; conflicts concern non-negotiable basic needs."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Apartheid South Africa is often given as an example of:",
+          "options": [
+            "Ethnic conflict",
+            "Basking in reflected glory",
+            "Social creativity",
+            "A minimal group"
+          ],
+          "answerIndex": 0,
+          "explanation": "The state, controlled by a dominant group, suppressed the collective action of Black South Africans."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Deutsch (1973) viewed conflict as:",
+          "options": [
+            "A form of cooperation",
+            "A purely emotional state",
+            "An action that blocks or weakens another incompatible action",
+            "Always violent"
+          ],
+          "answerIndex": 2,
+          "explanation": "Deutsch defined conflict in terms of incompatible actions that obstruct or interfere with each other."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Chaplin defined conflict as:",
+          "options": [
+            "Two or more opposing impulses or motives occurring together",
+            "A war between nations",
+            "A dispute over land",
+            "A failure of communication"
+          ],
+          "answerIndex": 0,
+          "explanation": "Chaplin's dictionary definition stresses simultaneous antagonistic motives."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The internationalisation of an ethnic conflict is an example of its:",
+          "options": [
+            "Internal consequences",
+            "External consequences",
+            "Cognitive dimension",
+            "Emerging stage"
+          ],
+          "answerIndex": 1,
+          "explanation": "When other states become involved, the consequences are external. Internal consequences are felt within the local area."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Two communities argue over the price of a shared market stall and settle by splitting the fee. This is best described as:",
+          "options": [
+            "Displaced aggression",
+            "An ethnic conflict over identity",
+            "A severe stage conflict",
+            "A dispute over negotiable interests"
+          ],
+          "answerIndex": 3,
+          "explanation": "The issue was bargainable and was settled by compromise, which is a dispute rather than a conflict over non-negotiable needs."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A minority group protests peacefully against a government it says favours the dominant group. Under the definition given, this is:",
+          "options": [
+            "Ethnic conflict, since collective action can be non-violent",
+            "Not conflict because it is non-violent",
+            "A dispute",
+            "Conflict resolution"
+          ],
+          "answerIndex": 0,
+          "explanation": "Ethnic conflict includes non-violent collective action against a dominant group."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Villagers displaced from their homes and denied basic rights after ethnic clashes are suffering the conflict's:",
+          "options": [
+            "External consequences",
+            "Internal consequences",
+            "Cognitive dimension only",
+            "Resolution stage"
+          ],
+          "answerIndex": 1,
+          "explanation": "Losses felt within the local area, such as homes, family and rights, are internal consequences."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Conflict may be viewed along all of the following dimensions EXCEPT:",
+          "options": [
+            "Cognitive",
+            "Emotional",
+            "Behavioural",
+            "Psychological (mind)"
+          ],
+          "answerIndex": 3,
+          "explanation": "The three recognised dimensions are cognitive, emotional and behavioural. 'Psychological' is the tempting fake."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Why do conflicts involving ontological human needs resist compromise?",
+          "options": [
+            "Basic needs such as identity and security cannot be traded away",
+            "The needs are about money",
+            "They are always imaginary",
+            "Laws forbid compromise"
+          ],
+          "answerIndex": 0,
+          "explanation": "Ontological needs are basic to human existence, so they cannot be bargained like interests."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Deutsch: opposing impulses in one person",
+            "Chaplin: incompatible actions",
+            "Oyeshola: disagreement over ideas or viewpoints",
+            "Apartheid: an external consequence"
+          ],
+          "answerIndex": 2,
+          "explanation": "Oyeshola (2005) framed conflict as disagreement over ideas or viewpoints. Chaplin used opposing impulses; Deutsch used incompatible actions."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Ethnic conflict can be violent or non-violent. II. Ethnic conflict can involve the state suppressing a group. III. Ethnic conflict always stays within one country. Which are correct?",
+          "options": [
+            "I and III only",
+            "I and II only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 1,
+          "explanation": "I and II fit the definition. III is false: conflicts can become internationalised."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Leaders sign a peace deal, but anger and fear between two communities stay high. Using the three dimensions, this shows that:",
+          "options": [
+            "The conflict is fully resolved",
+            "Conflict has only one dimension",
+            "Behaviour can change while the emotional dimension lags",
+            "Perception is irrelevant"
+          ],
+          "answerIndex": 2,
+          "explanation": "The three dimensions can move in different directions: actions calm while feelings stay hostile."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A researcher says a land conflict cannot be solved by money because both sides see the land as their ancestral identity. This view relies on the distinction between:",
+          "options": [
+            "Internal and external consequences",
+            "Emerging and escalating stages",
+            "Negotiable interests and non-negotiable needs",
+            "Explicit and implicit prejudice"
+          ],
+          "answerIndex": 2,
+          "explanation": "Identity-linked land is a non-negotiable need, so treating it as a bargainable interest will fail."
+        }
+      ]
+    },
+    {
+      "name": "Perception and the five stages",
+      "lesson": {
+        "title": "How conflicts rise and settle",
+        "minutes": 10,
+        "hook": "Conflicts rarely explode from nowhere. Long before the first stone is thrown, neighbours stop visiting. Spot that moment, and much bloodshed can be avoided.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Perception drives conflict",
+            "body": "Conflict is often rooted in **beliefs and perceptions** about goals rather than objective facts. Those beliefs can be right or wrong, reasonable or foolish, grounded or imagined.\n\nThat is why people sometimes fight bitterly over what outsiders see as 'nothing'. And how each side **perceives** the conflict shapes the approach it takes to solve it. A good approach can become part of the solution.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Perception",
+                "Approach chosen",
+                "Outcome"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Seeing conflict constructively",
+            "body": "Resolution starts with a healthier view of conflict:\n\n- It grows out of **diversity** and can improve a relationship.\n- It involves **needs, interests, values, perceptions, power and feelings**, not just wants.\n- It can **clarify** what a relationship is really about.\n- It is a clash in **some** areas, while other parts of the relationship remain to build on.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "people",
+                  "label": "Diversity"
+                },
+                {
+                  "icon": "bulb",
+                  "label": "Clarity"
+                },
+                {
+                  "icon": "git-network",
+                  "label": "Still connected"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Conflict resolution tips encourage seeing conflict as:",
+            "options": [
+              "Proof the relationship is finished",
+              "Something to hide",
+              "Only about desires",
+              "An outgrowth of diversity that may improve the relationship"
+            ],
+            "answerIndex": 3,
+            "why": "Seeing conflict as part of diversity, involving deeper needs, keeps the door open to improving the relationship."
+          },
+          {
+            "kind": "steps",
+            "heading": "The five stages",
+            "steps": [
+              {
+                "title": "1. Emerging",
+                "detail": "Warning signs: warmth gives way to coldness, fewer visits, distance."
+              },
+              {
+                "title": "2. Escalating",
+                "detail": "Everyone knows something is badly wrong; this stage can be very short."
+              },
+              {
+                "title": "3. Severe",
+                "detail": "Nothing is sacred: schools, hospitals, places of worship destroyed; anyone may be killed."
+              },
+              {
+                "title": "4. De-escalating",
+                "detail": "Exhaustion or outside intervention; mediators investigate causes and seek agreement."
+              },
+              {
+                "title": "5. Rebuilding and reconciliation",
+                "detail": "Repairing relationships, institutions and facilities to prevent a relapse."
+              }
+            ]
+          },
+          {
+            "kind": "teach",
+            "heading": "Act early",
+            "body": "At the **emerging** stage, **non-violent, non-governmental** intervention, by elders, religious leaders or civil society, is far more possible than later.\n\nOnce government must step in, things become **more complex and slow**. And once escalation starts, the window can close quickly. The cheapest peace is the one made before the severe stage.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Emerging",
+              "right": "Severe",
+              "marker": 15,
+              "label": "Best time to intervene"
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Two towns, one land",
+            "story": "The Ife-Modakeke conflict in Osun State involved long disputes over land and status that erupted into deadly violence, notably between 1997 and 2000. Homes and schools burned and many died. Later, peace committees, government panels and community leaders worked to restore relations, rebuild and keep the peace.",
+            "takeaway": "The case shows severe, de-escalating and rebuilding stages, and why the effects of conflict outlast the fighting."
+          },
+          {
+            "kind": "check",
+            "question": "At which stage are mediators appointed to investigate the causes and bring the parties to agreement?",
+            "options": [
+              "Emerging",
+              "De-escalating",
+              "Escalating",
+              "Severe"
+            ],
+            "answerIndex": 1,
+            "why": "Mediation to investigate causes and reach agreement belongs to de-escalation, after exhaustion or intervention ends the severe stage."
+          },
+          {
+            "kind": "teach",
+            "heading": "Stereotypes feed conflict",
+            "body": "Conflicts are not caused only by real clashes of interest. **Stereotypes, misperceptions and misrepresentations** also start and sustain them.\n\nA rumour, a distorted news report, or a stereotype that 'they always cheat' can turn a manageable dispute into a deadly conflict. Correcting perceptions is therefore part of resolution, not an extra.",
+            "visual": {
+              "type": "cycle",
+              "nodes": [
+                "Stereotype",
+                "Misperception",
+                "Hostile act",
+                "Confirms stereotype"
+              ]
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "The five stages appear as matching questions: a description, and you name the stage. Learn the cue words: coldness and fewer visits (emerging); everyone aware (escalating); nothing sacred (severe); mediators (de-escalating); repairing and preventing relapse (rebuilding). Essays ask you to list and discuss stages with a Nigerian example.",
+            "sampleQuestion": "'Schools, hospitals and places of worship are destroyed and even non-parties are killed.' This describes the: (a) emerging stage (b) escalating stage (c) severe stage (d) de-escalating stage",
+            "howToAnswer": "Answer (c): 'nothing is sacred' marks the severe stage. In essays, show how early non-governmental intervention could have prevented it.",
+            "scholars": [
+              "Oyeshola (2005)",
+              "Deutsch (1973)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Conflict often rests on perceptions, not objective facts.",
+              "How a conflict is perceived shapes the approach to solving it.",
+              "Five stages: emerging, escalating, severe, de-escalating, rebuilding.",
+              "Non-governmental intervention works best at the emerging stage.",
+              "Stereotypes and misperceptions can start and sustain conflict."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "How many stages of conflict are identified?",
+          "options": [
+            "Three",
+            "Five",
+            "Four",
+            "Six"
+          ],
+          "answerIndex": 1,
+          "explanation": "Emerging, escalating, severe, de-escalating, and rebuilding and reconciliation."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The first stage of conflict is:",
+          "options": [
+            "Severe",
+            "De-escalating",
+            "Escalating",
+            "Emerging"
+          ],
+          "answerIndex": 3,
+          "explanation": "Conflicts begin at the emerging stage, with early warning signs."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Conflict is often rooted in:",
+          "options": [
+            "Beliefs and perceptions about goals",
+            "Objective facts only",
+            "Genetics",
+            "Weather"
+          ],
+          "answerIndex": 0,
+          "explanation": "Perceptions, right or wrong, frequently drive conflict more than objective facts."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Coldness, fewer visits and growing distance between friends mark the:",
+          "options": [
+            "Severe stage",
+            "Rebuilding stage",
+            "Emerging stage",
+            "De-escalating stage"
+          ],
+          "answerIndex": 2,
+          "explanation": "These early warning signs belong to the emerging stage."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Non-violent, non-governmental intervention is most possible at the:",
+          "options": [
+            "Rebuilding stage",
+            "Severe stage",
+            "Escalating stage",
+            "Emerging stage"
+          ],
+          "answerIndex": 3,
+          "explanation": "Early on, elders and civil society can act; later, government intervention becomes complex and slow."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Repairing relationships, institutions and facilities to prevent relapse is the work of the:",
+          "options": [
+            "Escalating stage",
+            "Emerging stage",
+            "Rebuilding and reconciliation stage",
+            "Severe stage"
+          ],
+          "answerIndex": 2,
+          "explanation": "The final stage focuses on repair and preventing a return to hostility."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Two communities have both become aware that something is fundamentally wrong, and tensions are rising fast. They are at the:",
+          "options": [
+            "Emerging stage",
+            "Rebuilding stage",
+            "De-escalating stage",
+            "Escalating stage"
+          ],
+          "answerIndex": 3,
+          "explanation": "Clear awareness that the relationship is badly wrong, with a short time frame, marks escalation."
+        },
+        {
+          "difficulty": 3,
+          "stem": "After months of fighting, both sides are exhausted and a peace committee is set up to investigate causes. This is the:",
+          "options": [
+            "Severe stage",
+            "Emerging stage",
+            "De-escalating stage",
+            "Escalating stage"
+          ],
+          "answerIndex": 2,
+          "explanation": "Exhaustion or intervention plus mediation to investigate causes marks de-escalation."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A false rumour that one ethnic group poisoned a well sparks violence. This shows conflict can be caused by:",
+          "options": [
+            "Ontological needs only",
+            "Misperceptions and misrepresentations",
+            "Superordinate goals",
+            "Social mobility"
+          ],
+          "answerIndex": 1,
+          "explanation": "Misperceptions and false information can start or worsen conflicts."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair of stage and description is correctly matched?",
+          "options": [
+            "Emerging: places of worship destroyed",
+            "Severe: mediators investigate causes",
+            "Rebuilding: schemes to prevent relapse",
+            "De-escalating: warmth turns to coldness"
+          ],
+          "answerIndex": 2,
+          "explanation": "Rebuilding involves schemes to reunite communities and prevent relapse. The other pairs are mismatched."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are tips for seeing conflict constructively EXCEPT:",
+          "options": [
+            "It means the whole relationship is lost",
+            "It involves needs, values and feelings, not just desires",
+            "It can clarify a relationship",
+            "It grows from diversity"
+          ],
+          "answerIndex": 0,
+          "explanation": "The tips stress that other aspects of the relationship remain to build on, so the whole is not lost."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Why does the way a party perceives a conflict matter for resolution?",
+          "options": [
+            "It shapes the approach chosen, which can become part of the solution",
+            "Perception has no effect",
+            "It only affects the severe stage",
+            "It replaces the need for mediators"
+          ],
+          "answerIndex": 0,
+          "explanation": "Perception guides the approach each side uses; a constructive approach can help resolve the conflict."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Effects of conflict can outlast the fighting. II. Government intervention is simplest at the emerging stage. III. Escalation can happen within a short time. Which are correct?",
+          "options": [
+            "I and II only",
+            "I and III only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 1,
+          "explanation": "I and III are correct. II is wrong: non-governmental intervention is most possible early, while government intervention is complex and slow."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A peace adviser says funding for youth jobs and rebuilt markets is as important as the ceasefire. The adviser is focusing on which stage, and why?",
+          "options": [
+            "Rebuilding and reconciliation, to prevent relapse",
+            "Emerging, to spot warning signs",
+            "Escalating, to raise awareness",
+            "Severe, to stop killings"
+          ],
+          "answerIndex": 0,
+          "explanation": "Rebuilding facilities and creating schemes to reunite communities aims to prevent a return to open hostility."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which ordering of the stages is correct?",
+          "options": [
+            "Emerging, severe, escalating, rebuilding, de-escalating",
+            "Emerging, escalating, severe, de-escalating, rebuilding",
+            "Escalating, emerging, severe, rebuilding, de-escalating",
+            "Emerging, escalating, de-escalating, severe, rebuilding"
+          ],
+          "answerIndex": 1,
+          "explanation": "Conflicts unfold from emerging signs, through escalation and the severe stage, then de-escalation and finally rebuilding."
+        }
+      ]
+    }
+  ]
+}

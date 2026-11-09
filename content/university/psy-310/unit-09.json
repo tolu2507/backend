@@ -1,0 +1,994 @@
+{
+  "unit": 9,
+  "title": "Movement",
+  "summary": "The types of muscle, how muscles work in pairs at joints, how motor neurons and spinal reflexes control them, and the major movement disorders.",
+  "sections": [
+    {
+      "name": "Muscles and how they work",
+      "lesson": {
+        "title": "Muscles: pullers, never pushers",
+        "minutes": 9,
+        "hook": "Your heart has beaten about 100,000 times since yesterday, and you never once told it to. Yet your arm will not lift a spoon unless you decide it should. Both are muscle. Why the difference?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "What muscles do",
+            "body": "Muscle makes up most of the body's tissue. It has two broad jobs: moving the **body** (walking, writing, blinking) and moving **materials within the body** (pushing food through the gut, pumping blood).\n\nMuscles are classified by how they look under a microscope into two families: **smooth muscle** and **striated** (striped) **muscle**.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "fitness",
+                  "label": "Move the body"
+                },
+                {
+                  "icon": "repeat",
+                  "label": "Move materials inside"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Smooth muscle",
+            "body": "**Smooth muscle** has no stripes. It lines the **digestive tract**, the walls of **arteries** and parts of the **reproductive system**. It moves food along the gut, helps control blood pressure by narrowing or widening arteries, and mixes sperm with seminal fluid, among other tasks.\n\nSmooth muscle is run by the **autonomic nervous system**, so it works without conscious control. You cannot decide to speed up your digestion.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "leaf",
+                  "label": "Digestive tract"
+                },
+                {
+                  "icon": "pulse",
+                  "label": "Arteries"
+                },
+                {
+                  "icon": "people",
+                  "label": "Reproductive system"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Striated muscle: cardiac and skeletal",
+            "body": "**Striated muscle** looks striped. It comes in two types.\n\n**Cardiac muscle** forms the heart and keeps it beating. **Skeletal muscle** is mostly attached to bones and produces most body movement; some skeletal muscles also move the eyes and work the lungs (through the breathing muscles).\n\nSkeletal muscle is made of long, very thin cells called **muscle fibres**, which often run the full length of the muscle: up to about 30 cm long but only 0.05 to 0.15 mm wide.",
+            "visual": {
+              "type": "pyramid",
+              "levels": [
+                "Muscle",
+                "Smooth | Striated",
+                "Cardiac | Skeletal"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Which muscle type is striated but NOT attached to bones?",
+            "options": [
+              "Smooth muscle",
+              "Cardiac muscle",
+              "Skeletal muscle",
+              "Arterial muscle"
+            ],
+            "answerIndex": 1,
+            "why": "Cardiac muscle is striated and forms the heart. Smooth muscle is not striated at all, and skeletal muscle is the bone-moving type."
+          },
+          {
+            "kind": "teach",
+            "heading": "Twitches, growth and ageing",
+            "body": "A single contraction of one muscle fibre is called a **twitch**. Smooth, strong movements come from many fibres twitching in a coordinated way.\n\nExercise enlarges skeletal muscle, usually a good thing. But enlargement of **cardiac** muscle often signals dangerous heart disease. Muscle mass also declines with age, starting as early as about 25 and speeding up later; by 50, most people have lost at least 10 per cent of the muscle they had at 25.",
+            "visual": {
+              "type": "stat",
+              "value": "10%",
+              "label": "Muscle mass lost by age 50"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Muscles can only pull",
+            "body": "A muscle can do only one thing: **contract**. When it contracts it pulls a bone in one direction. It cannot push the bone back, and simply relaxing it does not guarantee the limb returns.\n\nSo muscles are arranged at joints in **antagonistic pairs**. **Flexors** bend a joint; **extensors** straighten it. To bend your knee, the flexors at the back of the thigh contract while the extensors at the front relax. To straighten it, the roles swap.",
+            "visual": {
+              "type": "scale",
+              "left": "Flexor contracts: bend",
+              "right": "Extensor contracts: straighten",
+              "heavier": "even"
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Mama Ngozi pounding yam",
+            "story": "Mama Ngozi lifts the pestle high, then drives it down into the mortar, over and over. As she bends her elbow to lift, her biceps (a flexor) contracts while the triceps relaxes. As she straightens her arm to strike, the triceps (an extensor) contracts and the biceps lets go. Neither muscle ever pushes; each takes its turn to pull.",
+            "takeaway": "Antagonistic pairs let one-way pullers produce two-way movement at a joint."
+          },
+          {
+            "kind": "check",
+            "question": "To straighten the knee, which must happen?",
+            "options": [
+              "Flexors contract and extensors relax",
+              "Both flexors and extensors contract fully",
+              "Extensors contract and flexors relax",
+              "Flexors push the bone forward"
+            ],
+            "answerIndex": 2,
+            "why": "Extensors straighten joints, so they contract while the opposing flexors relax. Muscles never push."
+          },
+          {
+            "kind": "teach",
+            "heading": "Joints that do more",
+            "body": "Some joints, such as the knee and elbow, mainly bend and straighten. Others, like the **shoulder, hip, wrist and ankle**, also **rotate** and move in several directions. These joints need extra muscles beyond a simple flexor–extensor pair.\n\nThis is why a shoulder injury can be so disabling: many muscles share the work, and losing one disturbs the whole balance.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "repeat",
+                  "label": "Shoulder, hip rotate"
+                },
+                {
+                  "icon": "hand-left",
+                  "label": "Wrist, ankle turn"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect classification questions (which type is controlled by the autonomic system, which is striated but involuntary) and flexor–extensor scenarios. The trap is thinking muscles can push, or that relaxing a muscle moves the limb back. Another trap: cardiac muscle is striated, not smooth.",
+            "sampleQuestion": "Classify the types of muscle in the human body, stating where each is found and how it is controlled.",
+            "howToAnswer": "Smooth (gut, arteries, reproductive system; autonomic) versus striated, which splits into cardiac (heart) and skeletal (bones, eyes, breathing); add muscle fibres and antagonistic pairs for depth.",
+            "scholars": []
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Muscles move the body and materials within it.",
+              "Smooth muscle: gut, arteries, reproductive system; autonomic control.",
+              "Striated muscle: cardiac (heart) and skeletal (bones, eyes, breathing).",
+              "A single fibre's contraction is a twitch; muscle mass falls with age.",
+              "Muscles only pull, so flexors and extensors work in antagonistic pairs."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Muscles are classified into smooth and striated types on the basis of their:",
+          "options": [
+            "Size",
+            "Appearance",
+            "Speed",
+            "Location in the brain"
+          ],
+          "answerIndex": 1,
+          "explanation": "The classification is by appearance: striated muscle looks striped, smooth muscle does not."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Muscles that straighten a joint are called:",
+          "options": [
+            "Flexors",
+            "Rotators",
+            "Extensors",
+            "Sphincters"
+          ],
+          "answerIndex": 2,
+          "explanation": "Extensors straighten joints; flexors bend them."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Smooth muscle is controlled by the:",
+          "options": [
+            "Autonomic nervous system",
+            "Motor cortex directly",
+            "Cerebellum alone",
+            "Somatic sensory cortex"
+          ],
+          "answerIndex": 0,
+          "explanation": "Smooth muscle works automatically under the autonomic nervous system, without voluntary control."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which of the following is NOT a function of smooth muscle?",
+          "options": [
+            "Moving food through the gut",
+            "Helping to regulate blood pressure",
+            "Mixing sperm with seminal fluid",
+            "Moving the eyeballs"
+          ],
+          "answerIndex": 3,
+          "explanation": "Eye movements are produced by skeletal muscles. The other three are smooth-muscle tasks."
+        },
+        {
+          "difficulty": 2,
+          "stem": "A single contraction of an individual muscle fibre is called a:",
+          "options": [
+            "Tetanus",
+            "Spasm",
+            "Reflex",
+            "Twitch"
+          ],
+          "answerIndex": 3,
+          "explanation": "A twitch is one contraction of a single fibre. A reflex is a whole automatic response involving the nervous system."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Muscles are arranged in antagonistic pairs at joints because:",
+          "options": [
+            "A muscle can pull but cannot push",
+            "Each muscle can both bend and straighten",
+            "Paired muscles share one motor neuron",
+            "Joints have no bones of their own"
+          ],
+          "answerIndex": 0,
+          "explanation": "Since each muscle only contracts and pulls one way, a partner is needed to move the bone back."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Uche lifts a bucket by bending his elbow. Which muscle action produces this?",
+          "options": [
+            "Extensors contract while flexors relax",
+            "Flexors contract while extensors relax",
+            "Both muscles relax",
+            "Extensors push the forearm up"
+          ],
+          "answerIndex": 1,
+          "explanation": "Bending is flexion, so the flexors (such as the biceps) contract while extensors relax."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A doctor tells a patient his heart muscle has become enlarged. Compared with enlarged skeletal muscle from gym training, this is:",
+          "options": [
+            "Equally healthy",
+            "A sign the heart is now stronger and safer",
+            "Unrelated to heart disease",
+            "Often a sign of life-threatening heart disease"
+          ],
+          "answerIndex": 3,
+          "explanation": "Skeletal muscle growth is usually desirable, but cardiac enlargement often accompanies serious heart disease."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A 50-year-old who has never exercised regularly is likely to have lost, compared with age 25, at least about:",
+          "options": [
+            "1 per cent of muscle mass",
+            "10 per cent of muscle mass",
+            "50 per cent of muscle mass",
+            "No muscle mass at all"
+          ],
+          "answerIndex": 1,
+          "explanation": "Age-related muscle loss starts around 25; by 50 most people have lost at least 10 per cent."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which muscle type is both striated and largely involuntary?",
+          "options": [
+            "Skeletal muscle",
+            "Smooth muscle",
+            "Cardiac muscle",
+            "Arterial muscle"
+          ],
+          "answerIndex": 2,
+          "explanation": "Cardiac muscle is striped yet beats without voluntary control. Smooth muscle is involuntary but not striated."
+        },
+        {
+          "difficulty": 4,
+          "stem": "A student says 'when a flexor relaxes, the limb automatically straightens'. The best correction is:",
+          "options": [
+            "Correct, relaxation always reverses the movement",
+            "Relaxing does not guarantee return; the extensor must contract to straighten it",
+            "Only smooth muscles can straighten limbs",
+            "Flexors straighten limbs when they relax"
+          ],
+          "answerIndex": 1,
+          "explanation": "Relaxation alone does not reliably return a limb; the opposing extensor must actively pull."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following joints need more than a simple flexor–extensor pair EXCEPT the:",
+          "options": [
+            "Shoulder",
+            "Hip",
+            "Ankle",
+            "Elbow hinge for bending"
+          ],
+          "answerIndex": 3,
+          "explanation": "The shoulder, hip, wrist and ankle allow rotation and need extra muscles; simple elbow bending is a flexion–extension movement."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider: I. Cardiac muscle is striated. II. Smooth muscle lines the arteries. III. Skeletal muscle fibres can be up to about 30 cm long. IV. Muscles can push bones back into place. Which are correct?",
+          "options": [
+            "I, II and III",
+            "I and IV only",
+            "II and IV only",
+            "I, II, III and IV"
+          ],
+          "answerIndex": 0,
+          "explanation": "I, II and III are correct. Muscles can only pull, never push, so IV is false."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which muscle type and location are correctly paired?",
+          "options": [
+            "Smooth muscle – moving the eyes",
+            "Cardiac muscle – lining the gut",
+            "Skeletal muscle – mixing sperm with seminal fluid",
+            "Smooth muscle – walls of the digestive tract"
+          ],
+          "answerIndex": 3,
+          "explanation": "Smooth muscle lines the digestive tract. Eye movement is skeletal, the gut is not cardiac, and sperm mixing is smooth-muscle work."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A drug that acts only on the autonomic nervous system would be most likely to change the activity of:",
+          "options": [
+            "The biceps during a curl",
+            "Muscles moving the eyeballs",
+            "Smooth muscle in artery walls",
+            "The thigh flexors during walking"
+          ],
+          "answerIndex": 2,
+          "explanation": "Smooth muscle in arteries is autonomically controlled. The other options are skeletal muscles under motor neuron control."
+        }
+      ]
+    },
+    {
+      "name": "Neural and reflex control",
+      "lesson": {
+        "title": "How nerves tell muscles to move",
+        "minutes": 8,
+        "hook": "When a doctor taps just below your kneecap, your leg kicks before you have even thought 'ouch'. Your brain was not consulted. So who gave the order?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Motor neurons give the order",
+            "body": "Skeletal muscle contracts only when told to by **motor neurons**. Their cell bodies sit in the **spinal cord**, or, for some muscles, in **cranial nerve nuclei** of the brainstem (for muscles of the face, eyes and tongue).\n\nThe spinal neurons that directly signal muscle fibres to contract are the **alpha motor neurons**. Their long axons run out to the muscles, carrying the final command.",
+            "visual": {
+              "type": "neuron",
+              "part": "axon",
+              "label": "Alpha motor neuron axon"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The neuromuscular junction",
+            "body": "The point where an alpha motor neuron meets a muscle fibre is the **neuromuscular junction**. It is a very reliable synapse: one nerve impulse almost always makes the fibre contract.\n\nThe neuron releases the transmitter **acetylcholine**, which binds to receptors on the muscle fibre and triggers contraction. Many toxins act here. **Curare**, a plant arrow poison, blocks acetylcholine receptors and paralyses; **botulinum toxin** stops acetylcholine release.",
+            "visual": {
+              "type": "neuron",
+              "part": "synapse",
+              "label": "Nerve meets muscle fibre"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The motor unit",
+            "body": "One alpha motor neuron branches to contact several muscle fibres. The neuron plus **all** the fibres it supplies is a **motor unit**. When the neuron fires, every fibre in its unit contracts together.\n\nMuscles for fine control, like those moving the eyes or fingers, have small motor units (few fibres per neuron). Muscles for power, like the thigh, have large units. More force comes from recruiting more units.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Alpha motor neuron",
+                "Neuromuscular junction",
+                "Muscle fibres",
+                "Contraction"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "A single alpha motor neuron together with all the muscle fibres it controls is called a:",
+            "options": [
+              "Motor unit",
+              "Neuromuscular junction",
+              "Reflex arc",
+              "Muscle spindle"
+            ],
+            "answerIndex": 0,
+            "why": "That is the definition of a motor unit. The neuromuscular junction is only the contact point between neuron and fibre."
+          },
+          {
+            "kind": "teach",
+            "heading": "Reflexes run by the spinal cord",
+            "body": "The spinal cord can control some movements on its own through **reflexes**. They serve three purposes: **protecting** us from injury, maintaining **posture**, and **coordinating** the limbs.\n\nReflexes are fast because the signal does not have to travel up to the brain and back. They are present across the whole lifespan, which is why doctors test them in newborns and in old age.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "shield",
+                  "label": "Protect from injury"
+                },
+                {
+                  "icon": "person",
+                  "label": "Keep posture"
+                },
+                {
+                  "icon": "git-network",
+                  "label": "Coordinate limbs"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Monosynaptic versus polysynaptic reflexes",
+            "left": {
+              "title": "Monosynaptic",
+              "points": [
+                "One synapse: sensory neuron to motor neuron",
+                "Very fast",
+                "Example: knee-jerk (stretch) reflex"
+              ]
+            },
+            "right": {
+              "title": "Polysynaptic",
+              "points": [
+                "Interneurons between sensory and motor neurons",
+                "Slightly slower but more flexible",
+                "Example: pulling hand from a hot iron"
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Bisi and the hot iron",
+            "story": "Bisi is ironing her uniform before an 8 am lecture and brushes the hot iron. Her hand jerks away before she feels the burn. Pain receptors sent a message into her spinal cord, interneurons passed it on, and motor neurons pulled her arm back. A moment later the pain reaches her brain and she shouts.",
+            "takeaway": "The withdrawal reflex is polysynaptic and handled by the spinal cord before the brain registers pain."
+          },
+          {
+            "kind": "check",
+            "question": "The knee-jerk reflex is described as monosynaptic because:",
+            "options": [
+              "It uses only one muscle",
+              "It involves a single synapse between sensory and motor neurons",
+              "It happens only once in a lifetime",
+              "It needs one decision from the brain"
+            ],
+            "answerIndex": 1,
+            "why": "Mono means one: the sensory neuron synapses directly on the motor neuron. It still involves muscles and needs no brain decision."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect definitions twisted into scenarios: motor unit versus neuromuscular junction, monosynaptic versus polysynaptic. A common trap is thinking reflexes need the brain, or that alpha motor neurons start in the motor cortex; they lie in the spinal cord, with cranial-nerve nuclei serving head muscles.",
+            "sampleQuestion": "Explain the neural control of skeletal muscle, distinguishing between the motor unit and the neuromuscular junction, and give the three functions of spinal reflexes.",
+            "howToAnswer": "Alpha motor neurons from the spinal cord or cranial nuclei release acetylcholine at the neuromuscular junction; a motor unit is one neuron plus its fibres; reflexes protect, maintain posture and coordinate limbs.",
+            "scholars": []
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Skeletal muscle is driven by motor neurons from the spinal cord or cranial nerve nuclei.",
+              "Alpha motor neurons release acetylcholine at the neuromuscular junction.",
+              "Motor unit = one alpha motor neuron plus all the fibres it supplies.",
+              "Spinal reflexes protect, maintain posture and coordinate limbs.",
+              "Monosynaptic (knee-jerk) versus polysynaptic (withdrawal) reflexes."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The spinal neurons that directly signal skeletal muscle fibres to contract are the:",
+          "options": [
+            "Sensory neurons",
+            "Interneurons",
+            "Alpha motor neurons",
+            "Mirror neurons"
+          ],
+          "answerIndex": 2,
+          "explanation": "Alpha motor neurons carry the final command to muscle fibres. Sensory neurons carry information inward."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The site where a motor neuron contacts a muscle fibre is the:",
+          "options": [
+            "Motor unit",
+            "Neuromuscular junction",
+            "Node of Ranvier",
+            "Spinal ganglion"
+          ],
+          "answerIndex": 1,
+          "explanation": "The neuromuscular junction is the synapse between neuron and muscle. A motor unit is the neuron plus all its fibres."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which of the following is NOT a stated purpose of spinal reflexes?",
+          "options": [
+            "Protection from injury",
+            "Maintaining posture",
+            "Coordinating limb movement",
+            "Storing long-term memories"
+          ],
+          "answerIndex": 3,
+          "explanation": "Spinal reflexes protect, maintain posture and coordinate limbs; memory storage is a brain function."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Motor neurons controlling skeletal muscles originate in the spinal cord or in the:",
+          "options": [
+            "Nuclei of the cranial nerves",
+            "Retina",
+            "Cochlea",
+            "Adrenal glands"
+          ],
+          "answerIndex": 0,
+          "explanation": "Muscles of the head are served by motor neurons in the cranial nerve nuclei of the brainstem."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The neurotransmitter released at the neuromuscular junction is:",
+          "options": [
+            "Dopamine",
+            "Serotonin",
+            "Acetylcholine",
+            "GABA"
+          ],
+          "answerIndex": 2,
+          "explanation": "Acetylcholine triggers muscle contraction. Dopamine is linked with Parkinson's disease, a common distractor."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Reflexes are faster than voluntary movements mainly because:",
+          "options": [
+            "They use smooth muscle",
+            "The signal is handled in the spinal cord without a round trip to the brain",
+            "They involve no neurons",
+            "They use larger muscle fibres"
+          ],
+          "answerIndex": 1,
+          "explanation": "The spinal circuit is short, so the response begins before the brain processes the event."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A doctor taps a patient's patellar tendon and the leg kicks. The reflex being tested is:",
+          "options": [
+            "Monosynaptic",
+            "Polysynaptic withdrawal",
+            "Autonomic",
+            "Cortical"
+          ],
+          "answerIndex": 0,
+          "explanation": "The knee-jerk is the classic monosynaptic stretch reflex, with a single synapse between sensory and motor neurons."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A hunter's arrow is tipped with curare, which blocks acetylcholine receptors on muscle. An animal struck by it would most likely show:",
+          "options": [
+            "Increased muscle strength",
+            "Uncontrollable tremor",
+            "Faster reflexes",
+            "Paralysis"
+          ],
+          "answerIndex": 3,
+          "explanation": "Without acetylcholine binding, muscle fibres cannot be told to contract, so the animal is paralysed."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Tolu steps on a nail and pulls her foot away before she feels pain. This response is best described as:",
+          "options": [
+            "A voluntary decision by the motor cortex",
+            "A polysynaptic withdrawal reflex",
+            "A monosynaptic stretch reflex",
+            "An autonomic smooth-muscle response"
+          ],
+          "answerIndex": 1,
+          "explanation": "Withdrawal reflexes pass through interneurons in the spinal cord, making them polysynaptic."
+        },
+        {
+          "difficulty": 4,
+          "stem": "The muscles that move the eyes need very precise control. Compared with thigh muscles, they are likely to have:",
+          "options": [
+            "Larger motor units",
+            "No motor units",
+            "Smaller motor units with fewer fibres per neuron",
+            "Only smooth muscle fibres"
+          ],
+          "answerIndex": 2,
+          "explanation": "Fine control needs small motor units; powerful muscles like the thigh have large units."
+        },
+        {
+          "difficulty": 4,
+          "stem": "The key difference between a monosynaptic and a polysynaptic reflex is whether:",
+          "options": [
+            "The brain is involved",
+            "Interneurons sit between the sensory and motor neurons",
+            "Smooth muscle is used",
+            "The reflex is learned"
+          ],
+          "answerIndex": 1,
+          "explanation": "Polysynaptic reflexes include interneurons; monosynaptic ones do not. Neither type needs the brain."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement about the motor unit is correct?",
+          "options": [
+            "It is a single muscle fibre with many neurons",
+            "When its neuron fires, all its fibres contract together",
+            "It is found only in smooth muscle",
+            "It is located in the motor cortex"
+          ],
+          "answerIndex": 1,
+          "explanation": "All fibres supplied by one alpha motor neuron contract together when it fires. Motor units belong to skeletal muscle."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider: I. Alpha motor neurons lie in the spinal cord. II. Acetylcholine is released at the neuromuscular junction. III. Reflexes disappear after childhood. IV. The withdrawal reflex involves interneurons. Which are correct?",
+          "options": [
+            "I and III only",
+            "II and III only",
+            "I, II and IV",
+            "I, II, III and IV"
+          ],
+          "answerIndex": 2,
+          "explanation": "I, II and IV are correct. Spinal reflexes remain throughout the lifespan, so III is false."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A patient's spinal cord is intact below a high neck injury, but the connection to the brain is cut. Tapping the patellar tendon would most likely:",
+          "options": [
+            "Produce no response, because all movement needs the brain",
+            "Produce a knee-jerk, because the reflex circuit lies in the spinal cord",
+            "Produce speech",
+            "Cause the heart to stop"
+          ],
+          "answerIndex": 1,
+          "explanation": "The knee-jerk circuit is spinal, so it can still work even though voluntary movement of the leg is lost."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which pairing of toxin and action is correct?",
+          "options": [
+            "Curare – blocks acetylcholine receptors on muscle",
+            "Botulinum toxin – increases acetylcholine release",
+            "Curare – destroys spinal alpha motor neurons like polio",
+            "Botulinum toxin – blocks dopamine in the basal ganglia"
+          ],
+          "answerIndex": 0,
+          "explanation": "Curare blocks acetylcholine receptors. Botulinum toxin prevents (not increases) acetylcholine release; neither destroys neurons like polio."
+        }
+      ]
+    },
+    {
+      "name": "Disorders of movement",
+      "lesson": {
+        "title": "When movement breaks down",
+        "minutes": 10,
+        "hook": "A healthy man in his forties starts making small jerky movements he cannot stop, and his father had the same thing. A woman in her sixties finds she cannot rise from a chair. Different diseases, different parts of the motor system.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Where things can go wrong",
+            "body": "Movement depends on a chain: brain, spinal cord, motor neurons, neuromuscular junction, muscle. A problem anywhere along it disrupts movement.\n\nSome disorders attack the **muscle** itself (muscular dystrophy). Some destroy **motor neurons** (polio, ALS). Some cut the **spinal cord** (injury). Others disturb **brain circuits** that plan and smooth movement (Parkinson's and Huntington's). Toxins can also act at motor-system synapses.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Brain",
+                "Spinal cord",
+                "Motor neuron",
+                "Junction",
+                "Muscle"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Muscular dystrophy",
+            "body": "**Muscular dystrophy** is not one disease but a **group of inherited disorders** in which muscle tissue **progressively degenerates**. The problem lies in the muscle, not the nerve.\n\nThe best-known form, Duchenne muscular dystrophy, mainly affects boys because the faulty gene sits on the X chromosome. Weakness usually begins in childhood and worsens over time.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "git-network",
+                  "label": "Inherited"
+                },
+                {
+                  "icon": "trending-down",
+                  "label": "Muscle wastes"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Polio and ALS: motor neurons die",
+            "body": "**Polio** is caused by a contagious virus that infects only humans and specifically destroys **spinal alpha motor neurons**, leaving muscles paralysed. Vaccines developed in the 1950s cut cases drastically worldwide; Nigeria was certified free of wild polio in 2020 after years of immunisation drives.\n\n**Amyotrophic lateral sclerosis (ALS)**, or Lou Gehrig's disease, is a disease in which motor neurons of the **spinal cord and brainstem** steadily die off. Muscles waste once their input stops. Its cause is still not fully understood.",
+            "visual": {
+              "type": "neuron",
+              "part": "cell-body",
+              "label": "Motor neurons destroyed"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Which disorder is caused by a virus that targets spinal alpha motor neurons?",
+            "options": [
+              "Muscular dystrophy",
+              "Huntington's disease",
+              "Polio",
+              "Parkinson's disease"
+            ],
+            "answerIndex": 2,
+            "why": "Polio virus destroys alpha motor neurons. Muscular dystrophy is inherited and attacks the muscle itself."
+          },
+          {
+            "kind": "teach",
+            "heading": "Spinal cord injury",
+            "body": "When the vertebrae protecting the cord are broken, they can compress or sever it. This usually causes **permanent paralysis** of muscles served by neurons **below** the level of damage.\n\nInjury in the **cervical** (neck) region causes **quadriplegia**: loss of movement in arms and legs. Injury in the **lumbar** (lower back) region causes **paraplegia**: loss of movement in the legs only. The higher the damage, the more of the body is affected.",
+            "visual": {
+              "type": "compare-free",
+              "left": "Neck injury: arms and legs",
+              "right": "Lower back: legs only"
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Two okada accidents",
+            "story": "Two young men are injured in separate okada crashes on the Ibadan–Ife road. Segun breaks his neck and can no longer move his arms or legs. Ahmed injures his lower back; he can still write, eat and push a wheelchair, but his legs are paralysed. Same kind of accident, very different outcomes, decided by where on the cord the damage occurred.",
+            "takeaway": "Cervical damage gives quadriplegia; lumbar damage gives paraplegia, because only neurons below the injury lose contact with the brain."
+          },
+          {
+            "kind": "teach",
+            "heading": "Parkinson's disease",
+            "body": "First described by the English physician **James Parkinson** in the early 1800s. Signs include a **tremor of the hand at rest**, a **frozen, mask-like face**, a **stooped posture**, great difficulty starting movements such as rising from a chair, and poor balance reflexes, so patients fall easily.\n\nIt results from the loss of **dopamine** neurons in the substantia nigra that feed the basal ganglia. Treatments include medication (such as L-dopa), surgery, electrical (deep brain) stimulation and fetal cell implants.",
+            "visual": {
+              "type": "brain",
+              "region": "brainstem",
+              "label": "Substantia nigra loses dopamine"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Huntington's disease",
+            "body": "**Huntington's disease** usually strikes in **middle age**, producing **involuntary, jerky movements**. As it progresses, psychological symptoms appear, including **depression, hallucinations and delusions**, along with declining thinking.\n\nIt is inherited through a single dominant gene, so each child of an affected parent has a 50 per cent chance of inheriting it. It damages the basal ganglia, and there is **no known cure**.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Too little movement (Parkinson's)",
+              "right": "Too much movement (Huntington's)",
+              "marker": 85,
+              "label": "Huntington's: excess movement"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "A 45-year-old develops uncontrollable jerky movements and later hallucinations. Her father had the same illness. The most likely diagnosis is:",
+            "options": [
+              "Parkinson's disease",
+              "Huntington's disease",
+              "Polio",
+              "Paraplegia"
+            ],
+            "answerIndex": 1,
+            "why": "Middle-age onset, jerky involuntary movements, psychiatric symptoms and family history fit Huntington's. Parkinson's involves slowness and resting tremor."
+          },
+          {
+            "kind": "compare",
+            "heading": "Parkinson's versus Huntington's",
+            "left": {
+              "title": "Parkinson's",
+              "points": [
+                "Slow, hard-to-start movement",
+                "Resting tremor, frozen face",
+                "Dopamine loss in substantia nigra",
+                "Treatable with L-dopa and other options"
+              ]
+            },
+            "right": {
+              "title": "Huntington's",
+              "points": [
+                "Involuntary jerky movement",
+                "Depression, hallucinations, delusions",
+                "Dominant inherited gene",
+                "No known cure"
+              ]
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect a symptom scenario and five disorders as options, or 'which is NOT inherited'. Traps: confusing paraplegia with quadriplegia; thinking muscular dystrophy is a nerve disease; and mixing Parkinson's (too little movement) with Huntington's (too much). Know who described Parkinson's and when polio vaccines arrived.",
+            "sampleQuestion": "Discuss four disorders of movement, stating for each the part of the motor system affected.",
+            "howToAnswer": "Muscular dystrophy (muscle), polio and ALS (motor neurons), spinal injury (cord: quadriplegia versus paraplegia), Parkinson's and Huntington's (brain circuits); give one key symptom of each.",
+            "scholars": [
+              "James Parkinson (early 1800s)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Muscular dystrophy: inherited, progressive muscle degeneration.",
+              "Polio (virus) and ALS destroy motor neurons.",
+              "Cervical cord injury causes quadriplegia; lumbar injury causes paraplegia.",
+              "Parkinson's: resting tremor, frozen face, stooped posture; dopamine loss.",
+              "Huntington's: middle-age jerky movements, psychiatric symptoms, no cure."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Damage to the spinal cord in the neck region typically causes:",
+          "options": [
+            "Paraplegia",
+            "Hemiplegia",
+            "Quadriplegia",
+            "Monoplegia"
+          ],
+          "answerIndex": 2,
+          "explanation": "Cervical damage paralyses arms and legs (quadriplegia). Paraplegia, from lumbar damage, affects the legs."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The symptoms of Parkinson's disease were first described by:",
+          "options": [
+            "James Parkinson",
+            "George Huntington",
+            "Lou Gehrig",
+            "Jonas Salk"
+          ],
+          "answerIndex": 0,
+          "explanation": "The English physician James Parkinson described it in the early 1800s. Lou Gehrig was a baseball player whose name is attached to ALS."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Muscular dystrophy is best described as:",
+          "options": [
+            "A viral infection of motor neurons",
+            "A single disease caused by spinal injury",
+            "A disorder of dopamine neurons",
+            "A group of inherited diseases of progressive muscle degeneration"
+          ],
+          "answerIndex": 3,
+          "explanation": "It is a group of inherited muscle-wasting diseases. The viral description fits polio."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Amyotrophic lateral sclerosis results from degeneration of motor neurons in the:",
+          "options": [
+            "Retina and cochlea",
+            "Spinal cord and brainstem",
+            "Cerebellum only",
+            "Skin and tendons"
+          ],
+          "answerIndex": 1,
+          "explanation": "ALS destroys motor neurons in the spinal cord and brainstem, and the muscles they serve waste away."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which of the following is NOT a typical feature of Parkinson's disease?",
+          "options": [
+            "Tremor of the resting hand",
+            "Frozen facial expression",
+            "Stooped posture",
+            "Sudden wild flinging movements of the limbs"
+          ],
+          "answerIndex": 3,
+          "explanation": "Wild involuntary movements suit Huntington's; Parkinson's features slowness, resting tremor and a stooped posture."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The number of polio cases worldwide fell drastically after:",
+          "options": [
+            "Effective vaccines were developed in the 1950s",
+            "Fetal cell implants were introduced",
+            "L-dopa was discovered",
+            "Spinal surgery became common"
+          ],
+          "answerIndex": 0,
+          "explanation": "Polio vaccines from the 1950s transformed the picture. L-dopa and fetal implants are Parkinson's treatments."
+        },
+        {
+          "difficulty": 3,
+          "stem": "After a fall from a mango tree, a boy can use his arms normally but cannot move his legs. His injury was most likely in the:",
+          "options": [
+            "Cervical region",
+            "Brainstem",
+            "Lumbar region",
+            "Motor cortex of both hemispheres"
+          ],
+          "answerIndex": 2,
+          "explanation": "Leg-only paralysis (paraplegia) suggests lower-back (lumbar) damage; a neck injury would also affect the arms."
+        },
+        {
+          "difficulty": 3,
+          "stem": "An elderly man struggles to stand up from his chair, walks stooped and falls easily. His hand shakes when resting on his lap. These signs are typical of:",
+          "options": [
+            "Polio",
+            "Parkinson's disease",
+            "Huntington's disease",
+            "Muscular dystrophy"
+          ],
+          "answerIndex": 1,
+          "explanation": "Difficulty initiating movement, stooped posture, poor balance and resting tremor are classic Parkinson's signs."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A child's legs become paralysed after a contagious infection that destroyed motor neurons in the spinal cord. This is most consistent with:",
+          "options": [
+            "Muscular dystrophy",
+            "ALS",
+            "Huntington's disease",
+            "Polio"
+          ],
+          "answerIndex": 3,
+          "explanation": "A contagious virus destroying spinal alpha motor neurons describes polio. ALS is not contagious."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Muscular dystrophy differs from ALS mainly in that muscular dystrophy:",
+          "options": [
+            "Is caused by a contagious virus",
+            "Attacks the muscle tissue itself rather than motor neurons",
+            "Affects only the brainstem",
+            "Can be cured by vaccination"
+          ],
+          "answerIndex": 1,
+          "explanation": "In muscular dystrophy the muscle degenerates directly; in ALS the muscles waste because their motor neurons die."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair of disorders both involve the death of motor neurons?",
+          "options": [
+            "Polio and ALS",
+            "Muscular dystrophy and Parkinson's",
+            "Huntington's and muscular dystrophy",
+            "Paraplegia and muscular dystrophy"
+          ],
+          "answerIndex": 0,
+          "explanation": "Polio and ALS both destroy motor neurons. Muscular dystrophy is a muscle disease, and Parkinson's affects dopamine neurons in the brain."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are listed treatments for Parkinson's disease EXCEPT:",
+          "options": [
+            "Medication",
+            "Electrical stimulation",
+            "Fetal cell implants",
+            "Polio vaccination"
+          ],
+          "answerIndex": 3,
+          "explanation": "Vaccination prevents polio; it is not a Parkinson's treatment. The other three are used for Parkinson's."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider: I. Huntington's disease usually begins in middle age. II. Huntington's can produce hallucinations and delusions. III. Huntington's is easily cured with medication. IV. Huntington's involves involuntary jerky movements. Which are correct?",
+          "options": [
+            "I and III only",
+            "II and III only",
+            "I, II and IV",
+            "I, II, III and IV"
+          ],
+          "answerIndex": 2,
+          "explanation": "I, II and IV are correct. There is no known cure for Huntington's, so III is false."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which disorder is correctly matched with the main site of damage?",
+          "options": [
+            "Parkinson's disease – spinal alpha motor neurons",
+            "Muscular dystrophy – dopamine neurons",
+            "Polio – spinal alpha motor neurons",
+            "Paraplegia – cervical spinal cord"
+          ],
+          "answerIndex": 2,
+          "explanation": "Polio destroys spinal alpha motor neurons. Parkinson's involves dopamine neurons, dystrophy the muscle, and paraplegia the lumbar cord."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A neurologist must distinguish a patient with slowed, hard-to-start movements from one with excessive involuntary movements. The pair of conditions she is most likely separating is:",
+          "options": [
+            "Polio and ALS",
+            "Parkinson's and Huntington's",
+            "Paraplegia and quadriplegia",
+            "Muscular dystrophy and polio"
+          ],
+          "answerIndex": 1,
+          "explanation": "Parkinson's gives too little, slow movement; Huntington's gives too much, jerky movement. Both involve the basal ganglia."
+        }
+      ]
+    }
+  ]
+}

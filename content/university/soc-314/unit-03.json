@@ -1,0 +1,1183 @@
+{
+  "unit": 3,
+  "title": "Major Social Problems in Nigeria",
+  "summary": "Ten major Nigerian social problems, from poverty and corruption to trafficking and tribalism: their meanings, causes, effects, links and suggested solutions.",
+  "sections": [
+    {
+      "name": "Poverty: relative and absolute",
+      "lesson": {
+        "title": "Poverty: the problem behind problems",
+        "minutes": 10,
+        "hook": "A family in Ajegunle eats once a day; a civil servant in Abuja cannot afford a suit for an interview. Are both of them poor? Sociologists say yes, but in two very different senses.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Why start with poverty?",
+            "body": "Nigeria's list of social problems is long: trafficking, corruption, HIV/AIDS, terrorism, unemployment, child labour, tribalism. The key insight of this session is that they are **linked**. One problem feeds another, so it is hard to solve any single one in isolation.\n\nPoverty sits near the root of many of them. A problem also never stays with the people it touches directly: HIV/AIDS, for example, drains health budgets and leaves orphans who become everybody's concern.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Poverty",
+                "Unemployment",
+                "Prostitution",
+                "Disease spread"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "What poverty means",
+            "body": "**Poverty** is being cut off from the basic necessities of life because you lack enough income or resources. At its most extreme it means basic human needs simply go unmet.\n\nNotice that poverty is not only about money in your pocket. It also covers lack of access to services such as health care, clean water and schooling. Sociologists usually split it into two kinds: **relative poverty** and **absolute poverty**.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "cash",
+                  "label": "Too little income"
+                },
+                {
+                  "icon": "medkit",
+                  "label": "No health care"
+                },
+                {
+                  "icon": "home",
+                  "label": "Poor shelter"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Relative versus absolute poverty",
+            "left": {
+              "title": "Relative poverty",
+              "points": [
+                "Lacking what most people in your society see as the minimum for normal life",
+                "The yardstick rises as the society gets richer",
+                "Measures inequality and social exclusion",
+                "Example: no decent clothes to keep an office job"
+              ]
+            },
+            "right": {
+              "title": "Absolute poverty",
+              "points": [
+                "Lacking the bare needs for survival",
+                "Food, water, shelter, clothing, health services",
+                "Can cause severe suffering and death",
+                "Common in many developing countries"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Relative poverty depends on context",
+            "body": "Relative poverty is judged against **what a particular society expects**. Clothes keep you warm, which is a survival need. But in a formal workplace you also need presentable clothes to keep the job. Someone who cannot meet that expectation is relatively poor, even though they are not starving.\n\nBecause expectations rise as a society prospers, the relative poverty line **moves**. What counted as comfortable in 1985 may count as deprived today.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Survival needs",
+              "right": "Social expectations",
+              "marker": 75,
+              "label": "Relative poverty"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Which statement best captures why the line for relative poverty keeps shifting?",
+            "options": [
+              "It is fixed by international agencies every year",
+              "It rises as a society's standard of living rises",
+              "It depends only on calorie intake",
+              "It applies only to developing countries"
+            ],
+            "answerIndex": 1,
+            "why": "Relative poverty is measured against what a given society considers a normal minimum, so it moves as that society becomes richer. A calorie-based line describes absolute poverty."
+          },
+          {
+            "kind": "teach",
+            "heading": "Absolute poverty and the dollar line",
+            "body": "**Absolute poverty** is poverty in its harshest form: not enough food, clean water, shelter or health care to stay alive and well. International bodies long used a line of about **US$1 a day** per person (the World Bank has since raised its line to reflect prices).\n\nThe course manual cites estimates that over 61% of Nigerians lived below $1 a day and about 90% below $2. Treat such figures as dated snapshots, but remember the point: absolute poverty is widespread.",
+            "visual": {
+              "type": "stat",
+              "value": "US$1 a day",
+              "label": "Classic absolute poverty line"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The effects of poverty",
+            "body": "Some effects come **directly** from too little income: poor nutrition, ill health, higher infant mortality and shorter life expectancy. Others are **indirect**: mental illness, drug dependence, prostitution and antisocial behaviour.\n\nBooysen and Summerton (2002) found in South Africa that poverty pushed many women into transactional sex where they could not insist on condoms, raising their **HIV risk**. Children raised in persistent poverty also struggle more in school, marriage and family life.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Low income",
+                "Poor nutrition",
+                "Illness",
+                "Lower life expectancy"
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Is poverty the cause of crime?",
+            "story": "In a seminar at Ibadan, Tunde argues that poverty causes crime. Chiamaka replies: 'My mother sells pepper in Bodija and raised five children honestly. Are all poor people criminals?' The lecturer smiles. Poverty, she explains, can lead to hunger, joblessness and depression, which may push some people towards crime. But most poor people never offend, so the link is indirect, not automatic.",
+            "takeaway": "Be careful when linking poverty and crime: poverty raises the risk through other problems, it does not make every poor person a criminal."
+          },
+          {
+            "kind": "check",
+            "question": "Booysen and Summerton (2002) are cited in this topic mainly to show that poverty:",
+            "options": [
+              "Is always caused by laziness",
+              "Reduces the spread of disease",
+              "Raised women's vulnerability to HIV infection",
+              "Affects only rural men"
+            ],
+            "answerIndex": 2,
+            "why": "Their South African study linked poverty to women entering transactional sex where they could not negotiate condom use, raising HIV risk."
+          },
+          {
+            "kind": "teach",
+            "heading": "Poverty in developing countries",
+            "body": "Most developing countries offer little **social security**. Where schemes exist (unemployment, sickness, disability, retirement or survivors' benefits), they mostly cover people in full-time formal jobs, a small share of the population.\n\nSo much of the anti-poverty work falls to others: the UN, WHO, donor aid agencies, NGOs and development banks. In Nigeria, the **Bank of Industry (BOI)** and the former **Nigerian Agricultural, Cooperative and Rural Development Bank (NACRDB)** lend to small businesses to lift people out of poverty.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "globe",
+                  "label": "UN and WHO"
+                },
+                {
+                  "icon": "people",
+                  "label": "NGOs"
+                },
+                {
+                  "icon": "cash",
+                  "label": "Development banks"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "terms",
+            "heading": "Causes of poverty in Nigeria",
+            "terms": [
+              {
+                "term": "Weak education",
+                "meaning": "Little schooling and few marketable skills"
+              },
+              {
+                "term": "Corruption",
+                "meaning": "Public wealth diverted by political and economic managers"
+              },
+              {
+                "term": "Poor planning",
+                "meaning": "No coherent national or personal planning, and misused resources"
+              },
+              {
+                "term": "Population pressure",
+                "meaning": "Rapid growth outpacing jobs and services, plus a high cost of living"
+              },
+              {
+                "term": "Dependency mindset",
+                "meaning": "Low personal responsibility and reliance on handouts"
+              }
+            ]
+          },
+          {
+            "kind": "steps",
+            "heading": "Suggested solutions",
+            "steps": [
+              {
+                "title": "Plan well",
+                "detail": "Effective planning at both personal and national level."
+              },
+              {
+                "title": "Manage resources",
+                "detail": "Use state resources properly and stop waste."
+              },
+              {
+                "title": "Committed leaders",
+                "detail": "Leaders who put citizens' welfare first."
+              },
+              {
+                "title": "Sound education",
+                "detail": "Provide good schools and learning facilities."
+              },
+              {
+                "title": "Viable skills",
+                "detail": "Help people acquire skills that earn a living."
+              }
+            ]
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect scenario questions asking you to classify a case as relative or absolute poverty, and essay questions on causes and effects. The trap: calling any low-income case 'absolute'. If the person can survive but cannot meet society's normal expectations, it is relative. Also avoid saying poverty directly causes crime.",
+            "sampleQuestion": "'Poverty is not merely lack of income.' Discuss with reference to relative and absolute poverty in Nigeria.",
+            "howToAnswer": "Define poverty to include lack of access to services, distinguish relative from absolute poverty with Nigerian examples, then show its knock-on effects (health, education, crime risk) and end with solutions.",
+            "scholars": [
+              "Booysen & Summerton (2002)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Social problems in Nigeria are interlinked; poverty sits near the root.",
+              "Poverty is lack of the necessities of life, not just lack of cash.",
+              "Relative poverty is judged against a society's normal minimum and shifts over time.",
+              "Absolute poverty is lack of the bare necessities for survival.",
+              "Poverty's effects range from ill health to higher risk of HIV and crime.",
+              "Solutions: planning, resource management, committed leaders, education, skills."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "In sociological terms, poverty is best understood as:",
+          "options": [
+            "Deprivation of life's basic necessities through lack of resources",
+            "Having less money than one's neighbours on a given day",
+            "A personal failing caused only by laziness",
+            "A temporary condition that affects only the unemployed"
+          ],
+          "answerIndex": 0,
+          "explanation": "Poverty is deprivation of basic necessities due to insufficient income or resources, and includes lack of access to services. It is not simply a personal failing or limited to the unemployed."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The type of poverty in which a person lacks food, clean water, shelter and health services needed for survival is:",
+          "options": [
+            "Relative poverty",
+            "Subjective poverty",
+            "Absolute poverty",
+            "Structural inequality"
+          ],
+          "answerIndex": 2,
+          "explanation": "Absolute poverty is lack of the bare necessities for subsistence. Relative poverty concerns falling below a society's normal minimum, not survival itself."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which of the following is NOT listed among the causes of poverty in Nigeria?",
+          "options": [
+            "Mismanagement of resources",
+            "Lack of national planning",
+            "Corruption of economic managers",
+            "Excessive social security payments"
+          ],
+          "answerIndex": 3,
+          "explanation": "Nigeria actually has minimal social security, so excessive payments cannot be a cause. Mismanagement, poor planning and corruption are all listed causes."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The relative poverty line in a society changes over time mainly because:",
+          "options": [
+            "Human biological needs keep changing",
+            "The society's expectations of a normal minimum rise as it prospers",
+            "International agencies change their dollar line yearly",
+            "Poor people move between countries"
+          ],
+          "answerIndex": 1,
+          "explanation": "Relative poverty is measured against what a society regards as a normal minimum, which rises with prosperity. Biological survival needs relate to absolute poverty and are fairly stable."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Why do most social security programmes in developing countries do little for the majority of the poor?",
+          "options": [
+            "They are paid only in foreign currency",
+            "They are reserved for retired military officers",
+            "They are run entirely by private banks",
+            "They cover mainly people in full-time formal employment"
+          ],
+          "answerIndex": 3,
+          "explanation": "Such schemes mostly target full-time workers, who are a small fraction of the population, leaving the unemployed and informal workers out."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Higher infant mortality and lower life expectancy among the poor are best described as:",
+          "options": [
+            "Indirect effects that arise through crime",
+            "Effects of relative poverty only",
+            "Direct effects of too little income and resources",
+            "Effects unrelated to nutrition"
+          ],
+          "answerIndex": 2,
+          "explanation": "Poor nutrition and ill health follow directly from insufficient income, which raises infant deaths and shortens lives. Crime-related harms are indirect effects."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Emeka has enough food and a room in Ibadan, but he cannot afford the formal clothes his bank job expects and fears losing it. His situation best illustrates:",
+          "options": [
+            "Absolute poverty",
+            "Relative poverty",
+            "Welfare dependency",
+            "Social mobility"
+          ],
+          "answerIndex": 1,
+          "explanation": "His survival needs are met, but he cannot meet his society's expected standard for normal working life, which is relative poverty. Absolute poverty would mean lacking food or shelter."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A student argues that since poverty causes crime, all poor people must be criminals. The best sociological response is that:",
+          "options": [
+            "Poverty may raise crime risk indirectly, but most poor people never offend",
+            "Poverty has no link at all with crime",
+            "Only the rich commit crimes",
+            "Crime causes poverty, never the reverse"
+          ],
+          "answerIndex": 0,
+          "explanation": "Poverty can lead to hunger, joblessness and depression that push some towards crime, but the link is indirect and most poor people are law-abiding. Denying any link at all goes too far."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A small-scale cassava processor in Benue wants a loan to expand and lift her family out of poverty. Which of these institutions mentioned in this topic exists to fund such businesses?",
+          "options": [
+            "Transparency International",
+            "The National Drug Law Enforcement Agency",
+            "The Federal Road Safety Corps",
+            "The Bank of Industry"
+          ],
+          "answerIndex": 3,
+          "explanation": "The Bank of Industry (like the former NACRDB) provides funds to small businesses. The other bodies deal with corruption monitoring, drugs and road safety."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Booysen and Summerton (2002) linked poverty to women's HIV vulnerability in South Africa. Which mechanism did they emphasise?",
+          "options": [
+            "Poor women refused all medical treatment",
+            "Women in transactional sex often could not insist on condom use",
+            "Poverty made women travel abroad for work",
+            "HIV was spread mainly through blood transfusion"
+          ],
+          "answerIndex": 1,
+          "explanation": "They found many poor women entered transactional sex and, lacking knowledge and bargaining power, could not negotiate condom use. Blood transfusion was not their focus."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Relative poverty: lack of food and water for survival",
+            "Absolute poverty: lacking clothes smart enough for an office",
+            "Relative poverty: falling below a society's accepted minimum lifestyle",
+            "Absolute poverty: a line that rises as society gets richer"
+          ],
+          "answerIndex": 2,
+          "explanation": "Relative poverty means falling below what one's society treats as a normal minimum. The other pairings swap the features of the two types."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which of these is a solution, rather than a cause, of poverty as presented in this topic?",
+          "options": [
+            "Lack of financially viable skills",
+            "High cost of living",
+            "Leadership commitment to citizens' welfare",
+            "Welfare dependency mindset"
+          ],
+          "answerIndex": 2,
+          "explanation": "Committed leadership is listed among the solutions. The others are all causes; the skills option is a near-miss because acquiring viable skills is the solution, while lacking them is the cause."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider these statements about poverty: I. Absolute poverty can lead directly to death. II. Relative poverty measures inequality as well as a minimum level of functioning. III. Poverty is a modern problem that began with industrialisation. IV. Children raised in persistent poverty tend to face lifelong disadvantages. Which are correct?",
+          "options": [
+            "I, II and IV only",
+            "I and III only",
+            "II, III and IV only",
+            "I, II, III and IV"
+          ],
+          "answerIndex": 0,
+          "explanation": "Statements I, II and IV are correct. III is false: poverty has concerned societies since before recorded history."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A sociologist observes that in a poor community, hunger and joblessness led to depression, which later led some residents into theft. This sequence best demonstrates that:",
+          "options": [
+            "Relative poverty is more harmful than absolute poverty",
+            "Crime is the main cause of poverty",
+            "Depression is unrelated to economic conditions",
+            "Poverty's primary effects can generate further, secondary problems"
+          ],
+          "answerIndex": 3,
+          "explanation": "The chain shows primary effects of poverty (hunger, joblessness) producing secondary ones (depression, then crime), which is the interlinking of problems the session stresses. It says nothing about relative versus absolute poverty."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which option correctly combines a cause of poverty in Nigeria with its matching suggested solution?",
+          "options": [
+            "Over-population and the provision of more social security",
+            "Mismanagement of resources and proper management of state resources",
+            "Lack of education and legal punishment of offenders",
+            "Corruption and promotion of welfare dependency"
+          ],
+          "answerIndex": 1,
+          "explanation": "Mismanagement of resources is directly answered by proper management of state resources. The other pairings either mismatch the problem or propose something that is itself a cause, such as welfare dependency."
+        }
+      ]
+    },
+    {
+      "name": "Prostitution",
+      "lesson": {
+        "title": "Prostitution: sex, money and society",
+        "minutes": 8,
+        "hook": "It is often called 'the oldest profession', yet almost every society has looked down on the people in it. Why would a society both tolerate something and despise those who do it?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "What counts as prostitution",
+            "body": "**Prostitution** is taking part in sexual acts in return for money, gifts or other material reward. The person treats their own body as something to be traded.\n\nIn **legal** terms, the label is narrower: it usually covers only people who openly engage in such sex-for-payment deals, often for an agreed sum. Prostitutes can be of either sex, but through history most have been women, and men have mostly appeared as clients and pimps, though male sex workers are increasingly recognised.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Sexual service",
+                "Exchange",
+                "Money or gifts"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Why mostly women?",
+            "body": "Sociologists link the female majority to two things: women's long **economic dependence** on men, and a widespread tendency to **exploit female sexuality**.\n\nFor most of history, many cultures treated women almost as property, up to about the end of the nineteenth century. So even where prostitution was profitable, the profits tended to flow to the men who controlled the trade. Women usually entered it through **coercion or economic pressure**, not free choice.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "cash",
+                  "label": "Economic dependence"
+                },
+                {
+                  "icon": "warning",
+                  "label": "Coercion"
+                },
+                {
+                  "icon": "person",
+                  "label": "Male control"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Shaped by society's values",
+            "body": "Prostitution has existed in some form since the earliest times, and its shape depends on a society's **economic, social and sexual values**. Some societies even believed it protected the family by giving men an outlet outside marriage.\n\nYet sex workers almost everywhere have held **low status** and limited prospects. Even those who grow wealthy are still treated as outcasts, because the service they sell is disapproved of and seen as degrading.",
+            "visual": {
+              "type": "scale",
+              "left": "Tolerated in practice",
+              "right": "Stigmatised socially",
+              "heavier": "right"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "A sex worker becomes rich but is still shunned by her neighbours. This best reflects which idea?",
+            "options": [
+              "Prostitution is legal in Nigeria",
+              "Wealth always brings social status",
+              "The stigma attached to the service outweighs income",
+              "Prostitution protects the family"
+            ],
+            "answerIndex": 2,
+            "why": "Because the service is disapproved of, sex workers keep low status even when wealthy. Wealth normally raises status, which is why this case stands out."
+          },
+          {
+            "kind": "teach",
+            "heading": "Problems that flow from prostitution",
+            "body": "In developing countries especially, prostitution is linked to a chain of other problems. Critics point to declining **public morality**, but the concrete harms are easier to see:\n\n**Children born outside marriage**, child neglect and abuse, and **single parenthood**; and the fast spread of sexually transmitted and other infections such as **HIV**, gonorrhoea and staphylococcal infections. It also connects to trafficking, since many women are moved and sold for sex.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Prostitution",
+                "Unprotected sex",
+                "STIs and HIV",
+                "Orphans, neglect"
+              ]
+            }
+          },
+          {
+            "kind": "terms",
+            "heading": "Causes of prostitution in Nigeria",
+            "terms": [
+              {
+                "term": "Poor socialisation",
+                "meaning": "Weak moral upbringing and guidance from childhood"
+              },
+              {
+                "term": "Child abuse",
+                "meaning": "Trafficked, neglected or abused children drift into the trade"
+              },
+              {
+                "term": "Poverty and joblessness",
+                "meaning": "No other way to earn an income"
+              },
+              {
+                "term": "Stigma",
+                "meaning": "Social outcasts with few accepted roles left to them"
+              },
+              {
+                "term": "Crises",
+                "meaning": "War, famine, drought and disasters that destroy livelihoods"
+              },
+              {
+                "term": "Greed",
+                "meaning": "Selfish desire for quick money and luxuries"
+              }
+            ]
+          },
+          {
+            "kind": "example",
+            "heading": "A camp in Maiduguri",
+            "story": "Hauwa lost her husband to the insurgency and now lives in a camp for displaced people outside Maiduguri with four children. She never finished school and has no trade. Food rations run short. A man offers money for sex, and after weeks of hunger she accepts. Social workers say her story is common among displaced widows: no breadwinner, no skills, many mouths to feed.",
+            "takeaway": "Displacement links terrorism, poverty and prostitution: one problem creates the conditions for the next."
+          },
+          {
+            "kind": "check",
+            "question": "Why are internally displaced women in Nigeria described as especially vulnerable to prostitution?",
+            "options": [
+              "Camps provide them with too much money",
+              "Many lack education and skills and have lost their breadwinners",
+              "They are legally required to work in camps",
+              "Displacement makes them immune to disease"
+            ],
+            "answerIndex": 1,
+            "why": "Many displaced women are uneducated, lack viable skills and have lost husbands to insurgency, so they face pressure to feed large families by any means."
+          },
+          {
+            "kind": "steps",
+            "heading": "Suggested solutions",
+            "steps": [
+              {
+                "title": "Socialise properly",
+                "detail": "Sound moral upbringing and education from childhood."
+              },
+              {
+                "title": "Teach skills",
+                "detail": "Train people in skills that can earn an honest living."
+              },
+              {
+                "title": "Create jobs",
+                "detail": "Employment and development programmes aimed at women."
+              },
+              {
+                "title": "Enforce the law",
+                "detail": "Prohibit and punish pimps, sponsors and clients as well as offenders."
+              }
+            ]
+          },
+          {
+            "kind": "teach",
+            "heading": "An even-handed view",
+            "body": "Sociologists differ on how to respond. Some stress **moral and legal** control. Others stress the **economic roots**: if poverty, displacement and lack of skills push women into the trade, punishment alone will not end it.\n\nNotice that the manual's legal solution targets **pimps, sponsors and clients**, not only the women. That reflects a wider shift towards seeing many sex workers as victims of exploitation rather than simply as offenders.",
+            "visual": {
+              "type": "venn",
+              "left": "Moral and legal control",
+              "right": "Economic empowerment",
+              "both": "Reduce prostitution"
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Lecturers like to ask how prostitution leads to other social problems, and to set scenario questions on displaced women. The trap is listing causes when the question asks for consequences, or forgetting that the law should target the whole chain: pimps, sponsors and clients.",
+            "sampleQuestion": "With reference to internally displaced persons, explain how terrorism can lead to prostitution in Nigeria, and state two social problems that prostitution in turn produces.",
+            "howToAnswer": "Show the chain: insurgency kills breadwinners and displaces families; uneducated, unskilled widows turn to sex work to survive. Then name consequences such as STI/HIV spread and child neglect or single parenthood.",
+            "scholars": []
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Prostitution: sexual acts exchanged for money, gifts or other material gain.",
+              "Most prostitutes historically have been women, reflecting dependence and exploitation.",
+              "Sex workers keep low status even when wealthy, because the service is stigmatised.",
+              "Effects include STI and HIV spread, child neglect and single parenthood.",
+              "Causes: poor socialisation, poverty, joblessness, stigma, crises, greed.",
+              "Solutions: socialisation, skills, jobs for women, and punishing pimps and clients."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Prostitution is best described as:",
+          "options": [
+            "Any sexual relationship outside marriage",
+            "Exchanging sexual acts for money, gifts or other material gain",
+            "Marriage between people of different social classes",
+            "The trafficking of children for labour"
+          ],
+          "answerIndex": 1,
+          "explanation": "The defining feature is the exchange of sex for material reward. Sex outside marriage without payment is not prostitution, and trafficking for labour is a different problem."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which of the following is NOT listed as a cause of prostitution in Nigeria?",
+          "options": [
+            "Poverty",
+            "High unemployment",
+            "War and famine",
+            "Universal free education"
+          ],
+          "answerIndex": 3,
+          "explanation": "Education is a solution, not a cause. Poverty, unemployment and crises such as war and famine are all listed causes."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Historically, the majority of prostitutes have been women. This is mainly attributed to:",
+          "options": [
+            "Women's economic dependence and the exploitation of female sexuality",
+            "Laws that permitted only women to trade",
+            "Women's greater interest in commerce",
+            "The absence of male clients"
+          ],
+          "answerIndex": 0,
+          "explanation": "The female majority reflects women's traditional economic dependence on men and a tendency to exploit female sexuality. Men have mainly been clients and controllers."
+        },
+        {
+          "difficulty": 2,
+          "stem": "In strictly legal terms, the label 'prostitute' usually applies to:",
+          "options": [
+            "Anyone who has had more than one sexual partner",
+            "Those who openly engage in sex-for-payment transactions",
+            "Only women who live in brothels",
+            "Only people convicted of trafficking"
+          ],
+          "answerIndex": 1,
+          "explanation": "The legal definition is narrow: it covers those who overtly trade sex, usually for a set fee. Having several partners without payment does not qualify."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Why did the profits of prostitution historically tend to go to men?",
+          "options": [
+            "Men did most of the sex work",
+            "Governments taxed women's earnings fully",
+            "Women were widely treated as property controlled by men",
+            "Women refused to accept payment"
+          ],
+          "answerIndex": 2,
+          "explanation": "Until roughly the end of the nineteenth century, many cultures treated women almost as property, so men who controlled the trade took the gains."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which of these is a consequence of prostitution rather than a cause?",
+          "options": [
+            "Child neglect",
+            "Poverty",
+            "Social stigmatisation",
+            "Famine"
+          ],
+          "answerIndex": 0,
+          "explanation": "Child neglect is listed among the problems prostitution produces. Poverty, stigma and famine are listed as causes that push people into it."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Amina, a widow in an IDP camp in Borno, has no schooling, no trade and six children. She begins trading sex for food money. Her case most clearly shows how:",
+          "options": [
+            "Prostitution is mainly caused by greed",
+            "Prostitution is legal in IDP camps",
+            "Education causes prostitution",
+            "Insurgency-related displacement can push women into prostitution"
+          ],
+          "answerIndex": 3,
+          "explanation": "Insurgency killed her breadwinner and displaced her; lacking education and skills, she turns to sex work to survive. Greed does not fit a survival situation."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A state government wants to reduce prostitution and decides to prosecute only the women involved. Based on this topic, the main weakness of this plan is that it:",
+          "options": [
+            "Punishes too many clients",
+            "Spends too much on skills training",
+            "Ignores pimps, sponsors and clients who sustain the trade",
+            "Is the only solution in the manual"
+          ],
+          "answerIndex": 2,
+          "explanation": "The suggested legal solution targets offenders together with sponsors, pimps and clients. Prosecuting only the women leaves the demand side and organisers untouched."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A girl who was neglected and abused as a child later drifts into sex work in Lagos. Which listed cause of prostitution does this best illustrate?",
+          "options": [
+            "Greediness and selfishness",
+            "War and extreme conditions",
+            "Child trafficking, neglect and abuse",
+            "High standard of living"
+          ],
+          "answerIndex": 2,
+          "explanation": "Childhood neglect and abuse is a listed cause. War and greed do not match her history, and 'high standard of living' is a cause of poverty, not prostitution."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Some societies tolerated prostitution because they believed it:",
+          "options": [
+            "Increased the birth rate",
+            "Raised women's social status",
+            "Helped preserve the family",
+            "Ended poverty"
+          ],
+          "answerIndex": 2,
+          "explanation": "In some societies prostitution was thought to protect family life by giving men an outlet outside marriage. It did not raise women's status; sex workers remained stigmatised."
+        },
+        {
+          "difficulty": 4,
+          "stem": "The fact that sex workers remain low in status even after becoming wealthy shows that social status depends partly on:",
+          "options": [
+            "Income alone",
+            "Social approval of how the income is earned",
+            "The number of clients served",
+            "Legal registration of the business"
+          ],
+          "answerIndex": 1,
+          "explanation": "Status reflects social judgement of the activity, not just earnings. Because the service is seen as degrading, money does not buy respect."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair correctly matches a cause of prostitution with a suggested solution?",
+          "options": [
+            "Unemployment and creation of jobs and women's programmes",
+            "Poor socialisation and legal punishment of clients",
+            "Famine and teaching of greed",
+            "Stigma and expansion of brothels"
+          ],
+          "answerIndex": 0,
+          "explanation": "Joblessness is answered by job creation and women's development programmes. Poor socialisation is answered by proper socialisation, not punishment."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider these statements: I. Prostitutes may be of either sex. II. Men are increasingly identified as prostitutes, not only clients. III. Women have mostly entered prostitution through free and informed choice. IV. Prostitution contributes to the spread of HIV and gonorrhoea. Which are correct?",
+          "options": [
+            "I and III only",
+            "II and III only",
+            "I, III and IV only",
+            "I, II and IV only"
+          ],
+          "answerIndex": 3,
+          "explanation": "I, II and IV are correct. III is wrong: women have usually entered the trade through coercion and economic stress."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A sociologist argues that arresting sex workers will not end prostitution in north-east Nigeria. Which reasoning best supports this view?",
+          "options": [
+            "Prostitution there is driven largely by displacement, poverty and lack of skills",
+            "Prostitution there has no link with insurgency",
+            "Sex workers there are mostly wealthy",
+            "There are no clients in the region"
+          ],
+          "answerIndex": 0,
+          "explanation": "If the trade is fuelled by displacement, poverty and lack of skills, punishment alone leaves the root causes untouched. The other options contradict the evidence in this topic."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which sequence best shows prostitution linking several social problems, as the session describes?",
+          "options": [
+            "Prostitution, then lower HIV rates, then stronger families",
+            "Insurgency, then displacement and poverty, then prostitution, then STI spread",
+            "Education, then employment, then prostitution",
+            "Wealth, then high status, then prostitution"
+          ],
+          "answerIndex": 1,
+          "explanation": "Insurgency displaces families and deepens poverty, pushing some women into prostitution, which then spreads infections. The other sequences reverse or misstate the links."
+        }
+      ]
+    },
+    {
+      "name": "Terrorism",
+      "lesson": {
+        "title": "Terrorism: violence aimed at an audience",
+        "minutes": 11,
+        "hook": "A bomb kills a few people in a market, yet millions far away change how they travel, worship and vote. That gap between the victims and the audience is the whole point of terrorism.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Fear as a weapon",
+            "body": "**Terrorism** is the systematic use of terror to force change. Most working definitions share three elements: violence (or the threat of it) meant to **spread fear**; a **political, religious or ideological** goal; and the deliberate targeting, or disregard, of **civilians**.\n\nTypical tactics include kidnapping, bombing, assassination, arson and hijacking of aircraft. The victims are often chosen for their symbolic value, not because they personally matter to the attackers.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "flash",
+                  "label": "Violence or threat"
+                },
+                {
+                  "icon": "flag",
+                  "label": "Political goal"
+                },
+                {
+                  "icon": "people",
+                  "label": "Civilians targeted"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Why no agreed definition?",
+            "body": "There is still **no universally accepted, legally binding** criminal-law definition of terrorism. Different countries and agencies use different ones.\n\nThe reason is that the word is **politically and emotionally loaded** (Hoffman). One state's 'terrorist' is another group's 'freedom fighter'. In the 1970s and 1980s, UN efforts stalled largely over how to treat violence in struggles for national liberation and self-determination. Interestingly, the same tactics used by criminal gangs, say to run protection rackets, are usually not called terrorism unless a political motive appears.",
+            "visual": {
+              "type": "scale",
+              "left": "Terrorist",
+              "right": "Freedom fighter",
+              "heavier": "even"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "What the UN did instead",
+            "body": "Unable to agree on one definition, the international community passed a series of **sectoral conventions**, each outlawing a specific kind of act, such as hijacking or bombing.\n\nSince **1994**, the UN General Assembly has also repeatedly condemned terrorism in political language: criminal acts meant to create a state of terror in the public, or in particular groups or people, for political ends can **never be justified**, whatever political, religious, ethnic or other argument is offered for them.",
+            "visual": {
+              "type": "stat",
+              "value": "1994",
+              "label": "UN General Assembly condemnation begins"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "A criminal gang in Lagos uses threats and violence to collect protection money from traders, with no political aim. Most definitions would treat this as:",
+            "options": [
+              "Political terrorism",
+              "State terrorism",
+              "Ordinary organised crime, not terrorism",
+              "Quasi-terrorism by definition"
+            ],
+            "answerIndex": 2,
+            "why": "Without a political, religious or ideological motive, the same tactics are usually labelled crime, not terrorism. The label may change if a politically motivated group adopts them."
+          },
+          {
+            "kind": "steps",
+            "heading": "Hoffman's five characteristics (2006)",
+            "steps": [
+              {
+                "title": "Political",
+                "detail": "Unavoidably political in its aims and motives."
+              },
+              {
+                "title": "Violent",
+                "detail": "Uses violence or, just as important, threatens it."
+              },
+              {
+                "title": "Psychological reach",
+                "detail": "Designed to affect people far beyond the immediate victims."
+              },
+              {
+                "title": "Organised",
+                "detail": "Run by an organisation with a chain of command or secret cells."
+              },
+              {
+                "title": "Non-state",
+                "detail": "Carried out by a sub-national or non-state group."
+              }
+            ]
+          },
+          {
+            "kind": "teach",
+            "heading": "The FBI view and the real target",
+            "body": "The US **FBI** defines terrorism as the unlawful use of force or violence against people or property to intimidate or coerce a government or civilians in pursuit of **political or social** objectives.\n\nNote the deeper aim: not only panic, but undermining **confidence in the government**. So terrorism's 'success' is measured by the attention it wins for its cause and the psychological grip it gains on a nation, not by the number of people killed.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Attack",
+                "Fear spreads",
+                "Trust in government falls",
+                "Pressure for change"
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "The name 'Boko Haram'",
+            "story": "Musa grew up in Maiduguri, where a sect calling itself Jama'atu Ahlis Sunna Lidda'awati wal-Jihad set up its base. Residents nicknamed it 'Boko Haram', roughly 'Western education is forbidden', after its preaching. Years later Musa's younger sister cannot attend school because of attacks on schools. Her fear, and her parents' loss of faith in government protection, is exactly what the group wanted to produce.",
+            "takeaway": "Boko Haram fits Hoffman's features: political-religious aims, violence, wide psychological reach, organisation and non-state status."
+          },
+          {
+            "kind": "terms",
+            "heading": "Examples of terrorist groups",
+            "terms": [
+              {
+                "term": "Boko Haram",
+                "meaning": "Jama'atu Ahlis Sunna Lidda'awati wal-Jihad, based originally in Maiduguri"
+              },
+              {
+                "term": "Al-Qaeda",
+                "meaning": "Transnational jihadist network"
+              },
+              {
+                "term": "ETA",
+                "meaning": "Basque separatist group in Spain (Euskadi Ta Askatasuna)"
+              },
+              {
+                "term": "ISIL",
+                "meaning": "Islamic State of Iraq and the Levant"
+              },
+              {
+                "term": "Others",
+                "meaning": "Communist armed groups in India, the Philippines and Turkey; the Irish People's Liberation Organisation"
+              }
+            ]
+          },
+          {
+            "kind": "teach",
+            "heading": "Six types of terrorism",
+            "body": "In the mid-1970s the US set up a **National Advisory Committee on Criminal Justice Standards and Goals**. Its **Task Force on Disorders and Terrorism**, with staff led by **H.H.A. Cooper**, sorted terrorism into six categories:\n\n**Civil disorder**, **political terrorism**, **non-political terrorism**, **quasi-terrorism**, **official or state terrorism**, and **limited political terrorism**. Learn the list: lecturers often ask which item does not belong.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "megaphone",
+                  "label": "Civil disorder"
+                },
+                {
+                  "icon": "flag",
+                  "label": "Political"
+                },
+                {
+                  "icon": "shield",
+                  "label": "State terrorism"
+                },
+                {
+                  "icon": "warning",
+                  "label": "Quasi-terrorism"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Which of these is NOT one of the six categories of the Task Force on Disorders and Terrorism?",
+            "options": [
+              "Quasi-terrorism",
+              "Official or state terrorism",
+              "Cyber terrorism",
+              "Limited terrorism"
+            ],
+            "answerIndex": 2,
+            "why": "The six are civil disorder, political, non-political, quasi-, official/state and limited terrorism. Cyber terrorism is a later idea not on that list."
+          },
+          {
+            "kind": "compare",
+            "heading": "Causes and solutions in Nigeria",
+            "left": {
+              "title": "Causes",
+              "points": [
+                "Selfish political interests and religious or political extremism",
+                "Criminally minded people banding together",
+                "Injustice, inequality, marginalisation and exclusion",
+                "Porous borders and weak security"
+              ]
+            },
+            "right": {
+              "title": "Solutions",
+              "points": [
+                "Effective border patrol and security",
+                "Political inclusion of every group",
+                "Responsible leadership and citizens' welfare",
+                "Fair sharing of national resources"
+              ]
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Favourite questions: list Hoffman's characteristics, name the six Task Force categories, or explain why terrorism lacks an agreed definition. The trap: saying terrorism's success is measured by casualties. It is measured by attention and psychological impact. Also note Hoffman's terrorism is non-state; 'state terrorism' comes from the Task Force list.",
+            "sampleQuestion": "Why has the international community failed to agree on a legal definition of terrorism? Using Hoffman's characteristics, show whether Boko Haram qualifies as a terrorist group.",
+            "howToAnswer": "Explain the political and emotional loading of the term and the liberation-struggle disagreement at the UN, then apply each of Hoffman's five features to Boko Haram.",
+            "scholars": [
+              "Hoffman (2006)",
+              "H.H.A. Cooper (Task Force on Disorders and Terrorism)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Terrorism: systematic use of fear, for political, religious or ideological ends, against civilians.",
+              "No universal legal definition exists because the term is politically loaded.",
+              "Hoffman: political, violent, psychologically far-reaching, organised, non-state.",
+              "Success is measured by attention and psychological impact, not casualties.",
+              "Task Force: civil disorder, political, non-political, quasi-, state and limited terrorism.",
+              "Nigeria: tackle exclusion, inequality, porous borders and weak leadership."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Which element is common to most definitions of terrorism?",
+          "options": [
+            "Violence intended to create fear for a political, religious or ideological goal",
+            "Any crime committed for profit",
+            "Peaceful protest against a government",
+            "War between two national armies"
+          ],
+          "answerIndex": 0,
+          "explanation": "Common definitions stress fear-producing violence with a political, religious or ideological aim, often against civilians. Profit-driven crime lacks the political motive."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which of the following is NOT a typical terrorist tactic named in this topic?",
+          "options": [
+            "Kidnapping",
+            "Assassination",
+            "Plane hijacking",
+            "Peaceful boycott"
+          ],
+          "answerIndex": 3,
+          "explanation": "Kidnapping, bombing, assassination, arson and hijacking are terrorist tactics. A peaceful boycott involves no violence or threat."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The group whose formal name is Jama'atu Ahlis Sunna Lidda'awati wal-Jihad is popularly known as:",
+          "options": [
+            "ETA",
+            "ISIL",
+            "Boko Haram",
+            "Al-Qaeda"
+          ],
+          "answerIndex": 2,
+          "explanation": "Residents of Maiduguri, where the group had its base, nicknamed it Boko Haram. ETA is a Basque group in Spain."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The main reason the international community has no legally binding definition of terrorism is that:",
+          "options": [
+            "Terrorism is a very recent phenomenon",
+            "The term is politically and emotionally charged",
+            "Only one country experiences terrorism",
+            "Terrorist acts are always legal"
+          ],
+          "answerIndex": 1,
+          "explanation": "Because the label is politically and emotionally loaded, states disagree, especially over violence in liberation struggles. Terrorism is not new."
+        },
+        {
+          "difficulty": 2,
+          "stem": "According to the FBI definition, terrorism seeks to intimidate or coerce a government or civilians in furtherance of:",
+          "options": [
+            "Purely financial gain",
+            "Sporting rivalry",
+            "Personal revenge only",
+            "Political or social objectives"
+          ],
+          "answerIndex": 3,
+          "explanation": "The FBI definition ties unlawful force to political or social objectives. Purely financial gain describes ordinary crime."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The success of a terrorist campaign is best measured by:",
+          "options": [
+            "The number of people killed",
+            "The amount of money stolen",
+            "The attention it attracts and its psychological impact on a nation",
+            "The number of weapons used"
+          ],
+          "answerIndex": 2,
+          "explanation": "Terrorism is aimed at an audience; its success lies in publicity for its cause and the fear it creates. Casualty counts are a common wrong answer."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Unidentified gunmen bomb a busy motor park, then release a statement demanding a change of government policy. Which feature of terrorism does the statement most clearly reveal?",
+          "options": [
+            "Its political aims and motives",
+            "Its non-violent character",
+            "Its legal status",
+            "Its focus on profit"
+          ],
+          "answerIndex": 0,
+          "explanation": "Demanding a policy change shows the political aim that separates terrorism from ordinary crime. The bombing itself shows violence, not non-violence."
+        },
+        {
+          "difficulty": 3,
+          "stem": "During the 1970s and 1980s, UN attempts to define terrorism foundered mainly over:",
+          "options": [
+            "Disputes about aircraft safety",
+            "How to treat violence in struggles for national liberation and self-determination",
+            "The cost of peacekeeping",
+            "Disagreement on the meaning of 'civilian'"
+          ],
+          "answerIndex": 1,
+          "explanation": "Members disagreed about violence used in liberation and self-determination struggles, the 'freedom fighter' problem. The other options were not the stated reason."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A government decides to tackle insurgency by closing gaps in its land borders and stopping weapons smuggling. Which cause of terrorism in Nigeria is it addressing?",
+          "options": [
+            "Religious fundamentalism",
+            "Selfish political interests",
+            "Porous borders and weak security",
+            "Unequal resource allocation"
+          ],
+          "answerIndex": 2,
+          "explanation": "Border patrol answers the cause of porous borders and weak security. Unequal allocation would require fairer resource sharing instead."
+        },
+        {
+          "difficulty": 4,
+          "stem": "According to Hoffman (2006), terrorism is perpetrated by:",
+          "options": [
+            "A sub-national or non-state entity",
+            "National armies in declared wars",
+            "Lone individuals with no organisation",
+            "Governments against their own citizens"
+          ],
+          "answerIndex": 0,
+          "explanation": "Hoffman's fifth characteristic is that terrorism is carried out by a non-state or sub-national group with an organisation behind it. 'State terrorism' appears in the Task Force list, not in Hoffman's features."
+        },
+        {
+          "difficulty": 4,
+          "stem": "The six-fold classification of terrorism discussed in this topic came from:",
+          "options": [
+            "The UN General Assembly in 1994",
+            "The FBI",
+            "Transparency International",
+            "The Task Force on Disorders and Terrorism under H.H.A. Cooper"
+          ],
+          "answerIndex": 3,
+          "explanation": "The US Task Force on Disorders and Terrorism, with staff directed by H.H.A. Cooper, produced the six categories. The UN produced a political description, not a typology."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which terrorist organisation is correctly paired with its description?",
+          "options": [
+            "ETA: Islamic State of Iraq and the Levant",
+            "ISIL: Basque separatists in Spain",
+            "Boko Haram: group based originally in Maiduguri",
+            "Al-Qaeda: Irish People's Liberation Organisation"
+          ],
+          "answerIndex": 2,
+          "explanation": "Boko Haram had its headquarters in Maiduguri. ETA is Basque and Spanish, ISIL is the Islamic State group; the other pairings are swapped."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider these statements: I. Hoffman sees terrorism as designed to affect people beyond the immediate victims. II. The UN has adopted sectoral conventions against specific terrorist acts. III. A universally agreed legal definition of terrorism now exists. IV. Protection rackets by criminal gangs are usually not labelled terrorism. Which are correct?",
+          "options": [
+            "I, II and IV only",
+            "I and III only",
+            "II, III and IV only",
+            "I, II, III and IV"
+          ],
+          "answerIndex": 0,
+          "explanation": "I, II and IV are correct. III is false: there is still no universally agreed, legally binding definition."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A group violently attacks civilians to force political change, but it is run by a government ministry. Which framework would classify it as terrorism, and which would not?",
+          "options": [
+            "Hoffman would; the Task Force would not",
+            "The Task Force would, as official or state terrorism; Hoffman's non-state criterion would not",
+            "Neither would classify it as terrorism",
+            "Both would call it quasi-terrorism"
+          ],
+          "answerIndex": 1,
+          "explanation": "The Task Force list includes official or state terrorism, but Hoffman's definition requires a sub-national or non-state perpetrator. Quasi-terrorism is a different category."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which option correctly pairs a cause of terrorism in Nigeria with its matching solution?",
+          "options": [
+            "Porous borders and political inclusion of every quarter",
+            "Marginalisation and exclusion and political inclusion of every quarter",
+            "Religious fundamentalism and increased oil exports",
+            "Injustice and inequality and closing of schools"
+          ],
+          "answerIndex": 1,
+          "explanation": "Marginalisation and exclusion are answered by including every group politically. Porous borders need border patrol, not inclusion, which makes the first option a near miss."
+        }
+      ]
+    }
+  ]
+}

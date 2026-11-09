@@ -1,0 +1,461 @@
+{
+  "unit": 3,
+  "title": "Racism and Sexism",
+  "summary": "How open racism gave way to subtler modern racism, the two faces of sexism, and how psychologists measure attitudes people hide.",
+  "sections": [
+    {
+      "name": "Modern racism and hidden attitudes",
+      "lesson": {
+        "title": "Prejudice that hides behind excuses",
+        "minutes": 10,
+        "hook": "Hardly anyone today will say 'I hate people of that group.' Yet the CV with a certain surname still lands at the bottom of the pile. Where did the prejudice go?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "What racism is",
+            "body": "**Racism** is an irrational belief that a group identified as a race is inferior in many ways to another group. Its most stubborn feature is that it **resists contrary evidence**: show the racist a counter-example and it is dismissed as 'the exception'.\n\nFifty or more years ago, open discrimination was common and often legal, from segregated schools in the American South to apartheid in South Africa. Today most such practices are illegal and socially unacceptable.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                { "icon": "close-circle", "label": "Irrational belief" },
+                { "icon": "trending-down", "label": "Group seen inferior" },
+                { "icon": "shield", "label": "Resists evidence" }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "A conflict inside people",
+            "body": "When society's rules change faster than people's feelings, a gap opens. Many people now **believe** everyone should be treated equally, yet **feel** discomfort or suspicion towards some groups.\n\nOthers feel torn between two values: equal treatment for all, and making up for past injustice through **affirmative action**. These inner tensions pushed social psychologists to build new theories of a subtler prejudice.",
+            "visual": {
+              "type": "scale",
+              "left": "Equality beliefs",
+              "right": "Inner resistance",
+              "heavier": "even"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Modern or symbolic racism",
+            "body": "**Kinder and Sears (1981)** and later **Swim, Aiken, Hall and Hunter (1995)** argued that old-fashioned racism had largely faded in places like the United States, but a subtler form replaced it: **modern** or **symbolic racism**.\n\nThe modern racist publicly rejects racist beliefs but privately holds resentment or suspicion. It is often framed as defending values: 'they want special treatment', 'they should work hard like everyone else'.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Open, old-fashioned",
+              "right": "Hidden, symbolic",
+              "marker": 80,
+              "label": "Modern racism"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "A person who openly rejects racist ideas but quietly resents a minority group for 'getting favours' shows:",
+            "options": ["Old-fashioned racism", "Modern or symbolic racism", "Hostile sexism", "Anti-racism"],
+            "answerIndex": 1,
+            "why": "Public rejection plus private resentment, framed as fairness, is modern racism. Old-fashioned racism is openly stated."
+          },
+          {
+            "kind": "teach",
+            "heading": "Where it comes from",
+            "body": "Sidanius and Pratto (1999), in their **social dominance theory**, link these unacknowledged negative feelings to two roots: **in-group favouritism**, the pull to prefer one's own group, and a wish to **defend the status quo**, keeping existing hierarchies in place.\n\nBecause the feelings are unacknowledged, the person often stays comfortably unaware of being prejudiced at all. The prejudice is *masked*.",
+            "visual": {
+              "type": "flow",
+              "nodes": ["In-group favouritism", "Defend status quo", "Masked prejudice"]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The situation decides",
+            "body": "Will a modern racist actually discriminate? It **depends on the situation**.\n\nIf there is no cover story, the person behaves in line with **egalitarian values**, because open bias would look bad. But if a convenient **rationalisation** is available, such as 'he lacked the right experience', the hidden prejudice slips out. Gaertner and Dovidio's work on *aversive racism* found the same pattern.",
+            "visual": {
+              "type": "flow",
+              "nodes": ["Hidden prejudice", "Excuse available?", "Discrimination emerges"]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "The interview panel",
+            "story": "Two candidates apply for a bank job in Kaduna: one shares the panel chair's ethnic background, one does not. When one candidate is clearly stronger, the chair picks the stronger one, whoever it is. But when their CVs are about equal, the chair always finds a reason, 'better communication skills', to choose the candidate from the familiar group.",
+            "takeaway": "Modern prejudice shows itself mainly when a plausible excuse is available."
+          },
+          {
+            "kind": "check",
+            "question": "According to the course, modern racists are most likely to discriminate when:",
+            "options": ["They are being openly watched", "The law strictly forbids it", "A plausible justification is available", "The victim is a stranger"],
+            "answerIndex": 2,
+            "why": "Without a disguise they act on egalitarian values; with a ready rationalisation, prejudice emerges. Being watched makes open bias less likely."
+          },
+          {
+            "kind": "teach",
+            "heading": "Why surveys miss it",
+            "body": "Ask people 'Are you prejudiced?' and most say no. Surveys fail for two reasons: people may not think it **acceptable to admit** their real feelings, and they may **not fully know** how they feel.\n\nSo psychologists use **indirect measures**. The **Implicit Association Test (IAT)**, developed by Greenwald and colleagues (1998), measures how quickly people pair groups with good or bad words. **Priming** briefly exposes people to a group cue and then measures its effect on later judgements.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                { "icon": "close-circle", "label": "Self-report fails" },
+                { "icon": "time", "label": "IAT reaction times" },
+                { "icon": "flash", "label": "Priming" }
+              ]
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect attribution questions (who proposed modern or symbolic racism?) and scenario questions about when hidden prejudice appears. The trap is thinking modern racists always discriminate. They do so mainly when an excuse is available. Also remember why self-report fails.",
+            "sampleQuestion": "Explain the concept of modern racism and why indirect measures are needed to study it.",
+            "howToAnswer": "Define it with Kinder and Sears (1981), link its roots to in-group favouritism and the status quo (Sidanius & Pratto, 1999), explain the role of rationalisation, then justify the IAT and priming.",
+            "scholars": ["Kinder & Sears (1981)", "Swim, Aiken, Hall & Hunter (1995)", "Sidanius & Pratto (1999)", "Greenwald & Banaji (1995)"]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Racism is an irrational belief in a group's inferiority that resists evidence.",
+              "Old-fashioned racism has given way to subtler modern or symbolic racism.",
+              "Its roots: in-group favouritism and defending the status quo.",
+              "It appears mainly when a rationalisation is available.",
+              "Self-reports miss hidden attitudes, so the IAT and priming are used."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "A defining feature of racism, as described in the course, is that it:",
+          "options": ["Resists contrary information", "Changes quickly with new evidence", "Is always openly expressed", "Applies only to skin colour"],
+          "answerIndex": 0,
+          "explanation": "Racism is irrational and stubborn in the face of counter-evidence. Modern racism shows it is not always openly expressed."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The concept of symbolic racism is most closely associated with:",
+          "options": ["Glick and Fiske", "Herrnstein and Murray", "Kinder and Sears", "Kasfir and McCall"],
+          "answerIndex": 2,
+          "explanation": "Kinder and Sears (1981) described symbolic racism. Glick and Fiske are known for ambivalent sexism."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which of these is an indirect measure of hidden attitudes?",
+          "options": ["Open-ended interview", "Self-report questionnaire", "Public opinion poll", "Implicit Association Test"],
+          "answerIndex": 3,
+          "explanation": "The IAT measures reaction times rather than asking people directly. Questionnaires and polls rely on self-report."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Modern racism differs from old-fashioned racism mainly because it:",
+          "options": ["Is more violent", "Publicly rejects racism while privately holding negative feelings", "Is written into law", "Targets only majority groups"],
+          "answerIndex": 1,
+          "explanation": "Modern racism is subtle: public rejection, private animosity. Old-fashioned racism was openly stated and often legal."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Sidanius and Pratto trace the hidden negative feelings of modern prejudice to:",
+          "options": ["In-group favouritism and a desire to defend the status quo", "Lack of education alone", "Genetic differences between groups", "Childhood trauma"],
+          "answerIndex": 0,
+          "explanation": "Their social dominance theory stresses preferring one's own group and keeping hierarchies. Genetic explanations are not part of their account."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Attitude surveys are unreliable for studying prejudice partly because respondents:",
+          "options": ["Always exaggerate their prejudice", "Cannot read the questions", "May not fully know how they feel", "Answer randomly"],
+          "answerIndex": 2,
+          "explanation": "People may hide their feelings or lack insight into them. Exaggerating prejudice is the opposite of the usual problem."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Amaka, a manager, always says she treats all ethnic groups equally. Yet whenever two applicants are equally qualified, she picks someone from her own group, citing 'cultural fit'. This best illustrates:",
+          "options": ["Old-fashioned racism", "Hostile sexism", "Anti-racism", "Prejudice emerging when a rationalisation is available"],
+          "answerIndex": 3,
+          "explanation": "'Cultural fit' serves as a disguise that allows hidden bias to appear. Old-fashioned prejudice would be stated openly."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A researcher shows participants a group's name for a split second and then measures how negatively they rate a neutral stranger. This technique is:",
+          "options": ["Self-report", "Priming", "Affirmative action", "Participant observation"],
+          "answerIndex": 1,
+          "explanation": "Priming exposes people to a cue and measures its later influence. Self-report would simply ask about their attitudes."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A man says, 'I'm not against that group, but they keep demanding special quotas instead of working hard.' His remark is typical of:",
+          "options": ["Symbolic racism", "Benevolent sexism", "Ethnic consciousness", "Group consciousness"],
+          "answerIndex": 0,
+          "explanation": "Symbolic racism voices resentment through appeals to values such as hard work. Benevolent sexism concerns attitudes to women."
+        },
+        {
+          "difficulty": 4,
+          "stem": "If a situation offers no excuse for discrimination, the modern racist will most likely:",
+          "options": ["Discriminate openly", "Leave the situation", "Behave in line with egalitarian values", "Admit to being racist"],
+          "answerIndex": 2,
+          "explanation": "Without a disguise, open bias would threaten their self-image, so they act fairly. Prejudice emerges only when a rationalisation exists."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are true of modern racism EXCEPT that:",
+          "options": ["The person may be unaware of being prejudiced", "It is linked to defending the status quo", "Its expression depends on the situation", "It is openly endorsed in public speech"],
+          "answerIndex": 3,
+          "explanation": "Modern racism is masked and publicly rejected. Open public endorsement describes old-fashioned racism."
+        },
+        {
+          "difficulty": 4,
+          "stem": "The tension between believing in equal treatment and wanting to correct past injustice through affirmative action is an example of:",
+          "options": ["Conflict between competing values", "Hostile sexism", "In-group favouritism", "Priming"],
+          "answerIndex": 0,
+          "explanation": "The course describes this as a clash of two cherished values. In-group favouritism is a root of prejudice, not a clash of values."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider: I. Modern racists may be unaware of their prejudice. II. Surveys reliably reveal modern racism. III. The IAT is used because hidden attitudes resist self-report. Which are correct?",
+          "options": ["I and II only", "I and III only", "II and III only", "I, II and III"],
+          "answerIndex": 1,
+          "explanation": "I and III are correct. II is false: surveys miss hidden prejudice, which is exactly why indirect measures are used."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which scholar is correctly paired with an idea from this session?",
+          "options": ["Swim et al. (1995): genetic basis of IQ gaps", "Kinder and Sears (1981): ambivalent sexism", "Greenwald and Banaji (1995): implicit social cognition", "Sidanius and Pratto (1999): group consciousness abroad"],
+          "answerIndex": 2,
+          "explanation": "Greenwald and Banaji wrote the key 1995 paper on implicit social cognition. Kinder and Sears wrote on symbolic racism, not sexism."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A study finds that people who score low on a racism questionnaire nonetheless show strong negative associations on the IAT. The most likely conclusion is that:",
+          "options": ["The IAT is measuring old-fashioned racism", "These people are lying deliberately in every case", "Prejudice has disappeared from society", "Overt statements and covert feelings can conflict"],
+          "answerIndex": 3,
+          "explanation": "The gap shows the difference between what is openly stated and what is covertly felt, which may not even be conscious. Deliberate lying is not the only explanation."
+        }
+      ]
+    },
+    {
+      "name": "Sexism: benevolent and hostile",
+      "lesson": {
+        "title": "The kind face and harsh face",
+        "minutes": 9,
+        "hook": "'A woman like you should not be stressing in politics; let us men handle it.' Is that a compliment or an insult? Psychologists say it can be both at once.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "What sexism is",
+            "body": "**Sexism** is prejudice or discrimination based on sex or gender, rooted in the belief that one sex is **superior or more valuable** than the other.\n\nIt can affect anyone, and it limits what boys and men are 'allowed' to do too, but it mainly harms **women and girls**. It sets boundaries: what each sex can and should do, and who is 'out of place' when they step outside them.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                { "icon": "person", "label": "Men's roles" },
+                { "icon": "person", "label": "Women's roles" },
+                { "icon": "warning", "label": "Fixed limits" }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Ambivalent sexism",
+            "body": "Peter **Glick and Susan Fiske** showed that sexism has two faces that often live in the same person. Their work, extended across 19 nations, became the theory of **ambivalent sexism**.\n\nA common belief pattern holds that women are less competent than men, yet warmer and better with people. That mix of negative and positive stereotypes is what makes sexism ambivalent.",
+            "visual": {
+              "type": "venn",
+              "left": "Benevolent sexism",
+              "right": "Hostile sexism",
+              "both": "Ambivalent sexism"
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Two faces of sexism",
+            "left": {
+              "title": "Benevolent sexism",
+              "points": [
+                "Feels positive to the holder",
+                "Protection and affection for women",
+                "Reserved for women in traditional roles",
+                "Sounds like praise"
+              ]
+            },
+            "right": {
+              "title": "Hostile sexism",
+              "points": [
+                "Openly negative",
+                "Antipathy towards women",
+                "Aimed at women seen as taking men's power",
+                "Sounds like resentment"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "'Women are delicate flowers who must be cherished and protected by men' best expresses:",
+            "options": ["Hostile sexism", "Symbolic racism", "Benevolent sexism", "Modern racism"],
+            "answerIndex": 2,
+            "why": "It sounds affectionate but casts women as needing protection in traditional roles. Hostile sexism would be openly resentful."
+          },
+          {
+            "kind": "teach",
+            "heading": "Why the kind face is dangerous",
+            "body": "**Benevolent sexism** is partly positive, so it rarely feels like prejudice, to the holder or even to the target. That is exactly why it is **particularly resistant to change**.\n\nIt also works with hostile sexism as a carrot and stick: women who stay in conventional roles are rewarded with protection and affection, while those who step out are met with hostility. Together they keep traditional roles in place.",
+            "visual": {
+              "type": "cycle",
+              "nodes": ["Traditional role", "Protection offered", "Role challenged", "Hostility follows"]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Two cousins, two reactions",
+            "story": "Halima stays home after marriage and her uncles praise her as 'a real woman', always ready to help her. Her cousin Funmi runs for a seat in the State House of Assembly. The same uncles now call her 'too forward' and say she wants to 'rule over men'. One woman gets affection; the other gets hostility. The belief behind both reactions is the same.",
+            "takeaway": "Benevolent and hostile sexism are two sides of one ideology about women's proper place."
+          },
+          {
+            "kind": "check",
+            "question": "Hostile sexism is mainly directed at women who are seen as:",
+            "options": ["Embracing conventional roles", "Usurping men's power", "Needing protection", "Being warm and caring"],
+            "answerIndex": 1,
+            "why": "Hostile sexism targets women perceived as taking men's power or status. Women in conventional roles tend to receive the benevolent face instead."
+          },
+          {
+            "kind": "teach",
+            "heading": "Sexism in the Nigerian setting",
+            "body": "In Nigeria, sexist beliefs often confine women to set roles, and stepping outside them can be seen as **taking men's place**. Women remain few in elected offices: only a small minority of National Assembly seats have been held by women.\n\nReaction to such inequality gave rise to **women's liberation** movements worldwide. In Nigeria, **feminist and women's groups** run awareness and advocacy campaigns for greater representation of women in politics and public institutions.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                { "icon": "megaphone", "label": "Advocacy" },
+                { "icon": "flag", "label": "Political office" },
+                { "icon": "people", "label": "Women's groups" }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Measuring hidden sexism",
+            "body": "Like modern racism, much sexism is **masked**: people may say 'men and women are equal' while privately holding different expectations.\n\nSo researchers again turn to **indirect measures**: the IAT can test how readily people link 'female' with 'family' and 'male' with 'career', and priming can reveal hidden assumptions. Glick and Fiske also built the Ambivalent Sexism Inventory to capture both faces through carefully worded items.",
+            "visual": {
+              "type": "flow",
+              "nodes": ["Stated equality", "Hidden expectations", "Indirect measures"]
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'distinguish benevolent from hostile sexism' and scenario items. The trap: students treat benevolent sexism as harmless because it sounds kind, or confuse 'modern sexism' and 'symbolic sexism' with Glick and Fiske's two types. They named benevolent and hostile only.",
+            "sampleQuestion": "Discuss the two types of sexism identified by Glick and Fiske and show how sexism is expressed in Nigeria.",
+            "howToAnswer": "Define both types with examples, explain why they coexist and why benevolent sexism resists change, then link to women's limited political representation and feminist advocacy in Nigeria.",
+            "scholars": ["Glick & Fiske (2001)", "Swim et al. (1995)"]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Sexism: belief that one sex is superior, limiting what each may do.",
+              "Glick and Fiske: benevolent and hostile sexism, found across 19 nations.",
+              "Benevolent sexism protects women in traditional roles; it resists change.",
+              "Hostile sexism targets women seen as usurping men's power.",
+              "Nigerian women's groups advocate for more women in political office."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Sexism is rooted in the belief that:",
+          "options": ["One sex is superior to or more valuable than the other", "Both sexes are equal in all ways", "Gender has no effect on roles", "Only men can experience prejudice"],
+          "answerIndex": 0,
+          "explanation": "Sexism rests on a belief in one sex's superiority. It can affect anyone but mostly harms women and girls."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The two types of sexism identified by Glick and Fiske are:",
+          "options": ["Modern and symbolic sexism", "Overt and covert sexism", "Benevolent and hostile sexism", "Old-fashioned and new sexism"],
+          "answerIndex": 2,
+          "explanation": "Glick and Fiske described benevolent and hostile sexism as the two parts of ambivalent sexism. Modern and symbolic are labels from racism research."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Benevolent sexism offers protection and affection mainly to women who:",
+          "options": ["Seek political power", "Compete with men at work", "Reject marriage", "Embrace conventional roles"],
+          "answerIndex": 3,
+          "explanation": "The protective face is reserved for women in traditional roles. Women who compete for power tend to face hostile sexism."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Why is benevolent sexism particularly resistant to change?",
+          "options": ["It is written into law", "Its partly positive tone makes it seem harmless", "It is held only by older people", "It is easy to measure"],
+          "answerIndex": 1,
+          "explanation": "Because it sounds like praise, neither holder nor target easily sees it as prejudice. It is not mainly a matter of law or age."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Glick and Fiske's research on sexism is notable for covering:",
+          "options": ["Nineteen nations", "Only the United States", "Only Nigeria", "Two villages"],
+          "answerIndex": 0,
+          "explanation": "Their ambivalent sexism research spanned 19 nations, showing the pattern is widespread rather than confined to one culture."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The relationship between benevolent and hostile sexism is best described as:",
+          "options": ["Mutually exclusive", "Found only in different people", "Often coexisting in the same person", "Unrelated to gender roles"],
+          "answerIndex": 2,
+          "explanation": "The two often coexist and work together to maintain traditional roles. That combination is what makes sexism 'ambivalent'."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A lecturer insists that female students should not carry heavy lab equipment 'because women are precious', yet gives them fewer lab tasks. This illustrates:",
+          "options": ["Hostile sexism", "Symbolic racism", "Ethnic consciousness", "Benevolent sexism"],
+          "answerIndex": 3,
+          "explanation": "The 'protective' attitude sounds kind but limits women's opportunities. Hostile sexism would express open resentment."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A man says a female senator 'wants to rule over men and should go back to the kitchen'. This is an example of:",
+          "options": ["Benevolent sexism", "Hostile sexism", "Modern racism", "Affirmative action"],
+          "answerIndex": 1,
+          "explanation": "Open antipathy towards a woman seen as taking men's power is hostile sexism. Benevolent sexism would sound protective."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A researcher wants to know whether students automatically link 'female' with 'home' and 'male' with 'career'. The most suitable method is:",
+          "options": ["The Implicit Association Test", "A direct opinion poll", "A public debate", "An open letter"],
+          "answerIndex": 0,
+          "explanation": "The IAT measures automatic associations through reaction times. Opinion polls depend on what people choose to report."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement about benevolent sexism is CORRECT?",
+          "options": ["It is openly hostile to women", "It applies only to women who challenge men", "It feels favourable to the holder but still restricts women", "It has nothing to do with stereotypes"],
+          "answerIndex": 2,
+          "explanation": "It is subjectively favourable yet keeps women in conventional roles. Hostility to challengers is the hostile face."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are true of sexism as presented in the course EXCEPT that it:",
+          "options": ["Limits what both sexes are expected to do", "Can affect anyone", "Mainly affects women and girls", "Is always openly hostile"],
+          "answerIndex": 3,
+          "explanation": "Benevolent sexism is not openly hostile; it sounds kind. The other statements all match the course."
+        },
+        {
+          "difficulty": 4,
+          "stem": "The belief pattern that women are 'less competent than men but warmer and more caring' is best described as:",
+          "options": ["Purely hostile", "Ambivalent, mixing negative and positive stereotypes", "Purely benevolent", "Anti-sexist"],
+          "answerIndex": 1,
+          "explanation": "It combines a negative stereotype (less competent) with a positive one (warmer), the hallmark of ambivalent sexism."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider: I. Benevolent and hostile sexism together reward traditional roles and punish deviation. II. Hostile sexism targets women in conventional roles. III. Partly positive stereotypes resist change. Which are correct?",
+          "options": ["I and II only", "II and III only", "I, II and III", "I and III only"],
+          "answerIndex": 3,
+          "explanation": "I and III are correct. II is wrong: hostile sexism targets women seen as usurping men's power, not those in conventional roles."
+        },
+        {
+          "difficulty": 5,
+          "stem": "In the context of this session, which pairing is accurate?",
+          "options": ["Symbolic racism: protecting women in traditional roles", "Feminist advocacy in Nigeria: more women in political office", "Hostile sexism: affection for homemakers", "Benevolent sexism: open contempt for female leaders"],
+          "answerIndex": 1,
+          "explanation": "Nigerian women's groups campaign for greater political representation. The other pairs swap the definitions around."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Women who score high on accepting benevolent sexism are often less likely to challenge traditional roles. The best explanation is that benevolent sexism:",
+          "options": ["Is openly insulting, which silences women", "Is the same as hostile sexism", "Rewards compliance with affection and protection", "Has no influence on behaviour"],
+          "answerIndex": 2,
+          "explanation": "By rewarding conventional roles with protection, it makes accepting those roles feel beneficial. It is not openly insulting; that is hostile sexism."
+        }
+      ]
+    }
+  ]
+}

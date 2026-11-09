@@ -1,0 +1,663 @@
+{
+  "unit": 9,
+  "title": "Child Abuse and Neglect",
+  "summary": "What child abuse is, how common severe violence against children is, its psychological and sexual forms, its effects on development, and how abusive families can be helped.",
+  "sections": [
+    {
+      "name": "Defining abuse and its scale",
+      "lesson": {
+        "title": "When carers become the danger",
+        "minutes": 9,
+        "hook": "We often picture danger to children as strangers. Yet the person most likely to seriously hurt a child is usually someone inside the home, the very person meant to protect them.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Defining child abuse",
+            "body": "**Child abuse** happens when an adult **deliberately** (not by accident) uses **excessive force, physical or psychological**, against a child, often meaning to **harm or crush** the child.\n\nA wider definition covers any **physical, sexual or psychological mistreatment**, or **neglect**, of children, particularly by **parents or other carers**. It has an **enormous impact** on psychological development.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "hand-left",
+                  "label": "Physical"
+                },
+                {
+                  "icon": "chatbubbles",
+                  "label": "Psychological"
+                },
+                {
+                  "icon": "warning",
+                  "label": "Sexual"
+                },
+                {
+                  "icon": "close-circle",
+                  "label": "Neglect"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "A survivor's memory",
+            "story": "A woman interviewed by TIME magazine in 1983 recalled a childhood of constant beatings by her mother, with shoes, belts and kitchen tools. When she threatened to tell the police, her mother frightened her into silence. After each beating came hugs and apologies. As a child she would sit outside and quietly dream of finding a different mother.",
+            "takeaway": "Abuse often mixes violence with affection and threats, trapping the child in fear and confusion."
+          },
+          {
+            "kind": "teach",
+            "heading": "How common is it?",
+            "body": "Surveys in the United States suggest about **1 in every 10 children** suffers **severe violence**: **kicking**, **biting**, **hitting**, **beating**, or threats with **weapons such as knives or guns**.\n\nSome observers believe **physical abuse and neglect** are among the **leading causes of death** in young children.",
+            "visual": {
+              "type": "stat",
+              "value": "1 in 10",
+              "label": "Children face severe violence"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Which of the following counts as severe violence against a child?",
+            "options": [
+              "A firm 'no'",
+              "Being threatened with a knife",
+              "Being sent to bed early",
+              "Losing television time"
+            ],
+            "answerIndex": 1,
+            "why": "Kicking, biting, beating and threats with weapons are forms of severe violence."
+          },
+          {
+            "kind": "teach",
+            "heading": "Who is abused, and by whom",
+            "body": "**Boys and girls** are physically abused at about the **same rate**. Abuse happens in **all socio-economic groups**, though it is **more common among the poor**, where stresses pile up.\n\nAbusers are **usually the parents**, which makes abuse hard to detect and hard for children to escape or report.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "people",
+                  "label": "Boys and girls alike"
+                },
+                {
+                  "icon": "cash",
+                  "label": "All classes, more in poverty"
+                },
+                {
+                  "icon": "home",
+                  "label": "Usually parents"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Neglect",
+            "body": "**Neglect** is the failure to meet a child's basic needs: **food, shelter, clothing, hygiene, medical care, supervision, education** and **emotional care**. It is often less visible than beatings but can be just as damaging, and sometimes fatal.\n\nAs earlier units showed, severe early neglect can also lead to **reactive attachment disorder**.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Unmet basic needs",
+                "Poor development",
+                "Emotional harm"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Effects on development",
+            "body": "Abused children are at higher risk of **anxiety, depression, post-traumatic stress, low self-esteem, aggression**, school difficulties and later **substance abuse**.\n\nAbuse can also pass across generations: a minority of abused children, often estimated at around **a third**, go on to abuse their own children. Most do **not**, especially when they receive support.",
+            "visual": {
+              "type": "cycle",
+              "nodes": [
+                "Child abused",
+                "Harm and stress",
+                "Parenting under strain",
+                "Risk to next child"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Child abuse is:",
+            "options": [
+              "Found only among the poor",
+              "Unrelated to family stress",
+              "Found only among the rich",
+              "Found in all socio-economic groups, though more common among the poor"
+            ],
+            "answerIndex": 3,
+            "why": "Abuse crosses all classes, but poverty-related stress makes it more common among poorer families."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'define child abuse' and 'list the various forms of severe violence against children'. Use the definition with 'non-accidental' and 'excessive physical or psychological force'. Know that boys and girls are abused at similar rates and that parents are usually the abusers. Trap: claiming abuse only happens in poor homes.",
+            "sampleQuestion": "List five forms of severe violence against children.",
+            "howToAnswer": "Being kicked, bitten, hit, beaten, and threatened with a knife or gun. Add that about 1 in 10 children experiences such violence in US surveys.",
+            "scholars": [
+              "Comer (2004)",
+              "Phares (2003)",
+              "Kaufman & Zigler (1987)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Child abuse: non-accidental, excessive physical or psychological force by an adult.",
+              "About 1 in 10 children suffers severe violence in US surveys.",
+              "Boys and girls are abused equally; abusers are usually parents.",
+              "Abuse occurs in all classes, more among the poor.",
+              "Neglect and abuse harm emotional, social and academic development."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Child abuse is defined as:",
+          "options": [
+            "Deliberate, excessive physical or psychological force used by an adult against a child",
+            "Accidental injury to a child",
+            "Any discipline",
+            "A child's misbehaviour"
+          ],
+          "answerIndex": 0,
+          "explanation": "The key elements are non-accidental and excessive force by an adult."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Who are usually the abusers in cases of child abuse?",
+          "options": [
+            "Parents",
+            "Strangers",
+            "Teachers",
+            "Other children"
+          ],
+          "answerIndex": 0,
+          "explanation": "Abusers are usually the child's parents."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Boys and girls are physically abused:",
+          "options": [
+            "Only boys",
+            "At about the same rate",
+            "Only girls",
+            "Never"
+          ],
+          "answerIndex": 1,
+          "explanation": "Both sexes are physically abused at roughly equal rates."
+        },
+        {
+          "difficulty": 2,
+          "stem": "About what proportion of children in US surveys are victims of severe violence?",
+          "options": [
+            "1 in 1,000",
+            "All",
+            "1 in 2",
+            "1 in 10"
+          ],
+          "answerIndex": 3,
+          "explanation": "Surveys suggest about one in every ten."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Neglect refers to:",
+          "options": [
+            "Failure to meet a child's basic needs",
+            "Excessive praise",
+            "Strict homework rules",
+            "Sibling rivalry"
+          ],
+          "answerIndex": 0,
+          "explanation": "Neglect is failing to provide basic physical and emotional needs."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Child abuse is more common among:",
+          "options": [
+            "The wealthy only",
+            "Only in rural areas",
+            "Families without children",
+            "The poor, though it occurs in all classes"
+          ],
+          "answerIndex": 3,
+          "explanation": "It crosses all groups but is more common under poverty's stresses."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A father repeatedly burns his son with a hot iron as punishment. This is:",
+          "options": [
+            "Normal discipline",
+            "Neglect only",
+            "Physical child abuse",
+            "Psychological abuse only"
+          ],
+          "answerIndex": 2,
+          "explanation": "Deliberate excessive physical force causing injury is physical abuse."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A seven-year-old is left alone for days without food while her parents travel. This is best described as:",
+          "options": [
+            "Sexual abuse",
+            "Neglect",
+            "Psychological abuse only",
+            "Normal independence"
+          ],
+          "answerIndex": 1,
+          "explanation": "Failing to provide food and supervision is neglect."
+        },
+        {
+          "difficulty": 3,
+          "stem": "After each beating, a mother hugs her child and begs forgiveness. Why might this pattern make abuse harder for the child to escape?",
+          "options": [
+            "Mixed violence and affection create confusion and attachment to the abuser",
+            "The child forgets the beatings",
+            "It proves the mother is not abusive",
+            "It stops future beatings"
+          ],
+          "answerIndex": 0,
+          "explanation": "The mix of harm and affection traps children in loyalty and fear."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are listed forms of severe violence against children EXCEPT:",
+          "options": [
+            "Being kicked",
+            "Being bitten",
+            "Being asked to do homework",
+            "Being threatened with a gun"
+          ],
+          "answerIndex": 2,
+          "explanation": "Homework is not violence."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Why is child abuse often difficult to detect?",
+          "options": [
+            "It is very rare",
+            "It only happens at school",
+            "It leaves no effects",
+            "Abusers are usually parents, and children fear reporting them"
+          ],
+          "answerIndex": 3,
+          "explanation": "Abuse by parents happens in private, and children are frightened or dependent."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement about the cycle of abuse is MOST accurate?",
+          "options": [
+            "All abused children become abusers",
+            "No abused child ever abuses",
+            "A minority of abused children later abuse, and support reduces this risk",
+            "Abuse is purely genetic"
+          ],
+          "answerIndex": 2,
+          "explanation": "Roughly a third may repeat it; most do not, especially with support."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Abuse can be psychological as well as physical. II. Abuse occurs only among the poor. III. Neglect can be fatal. Which are correct?",
+          "options": [
+            "I and II only",
+            "I and III only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 1,
+          "explanation": "I and III are correct. Abuse occurs across all socio-economic groups."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Why might poverty increase the risk of child abuse?",
+          "options": [
+            "Poor parents love their children less",
+            "Stresses such as unemployment and crowding can trigger abusive behaviour",
+            "Poverty causes genetic change",
+            "Poor children misbehave more"
+          ],
+          "answerIndex": 1,
+          "explanation": "Stress, not lack of love, is the main link between poverty and abuse."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Some observers regard physical abuse and neglect as among the leading causes of death in young children. This highlights that abuse is:",
+          "options": [
+            "A minor family matter",
+            "Always visible",
+            "A serious public health and safety issue",
+            "Easy to prevent"
+          ],
+          "answerIndex": 2,
+          "explanation": "Its potential to kill makes abuse a serious public health concern."
+        }
+      ]
+    },
+    {
+      "name": "Psychological and sexual abuse, and help",
+      "lesson": {
+        "title": "Invisible wounds and healing",
+        "minutes": 9,
+        "hook": "Bruises fade in weeks. Being called 'useless' every day for ten years can shape how a person sees themselves for life. Which leaves the deeper mark?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Psychological abuse",
+            "body": "**Psychological abuse** includes **severe or excessive discipline**, **scapegoating** (blaming one child for everything), **ridicule**, **isolation**, and **refusing help** to a child with psychological problems.\n\nIt probably **accompanies all** physical abuse and neglect, and it also often occurs **on its own**, leaving no visible marks.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "megaphone",
+                  "label": "Ridicule"
+                },
+                {
+                  "icon": "person",
+                  "label": "Isolation"
+                },
+                {
+                  "icon": "hand-left",
+                  "label": "Scapegoating"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "The family scapegoat",
+            "story": "In one household, everything that goes wrong is blamed on 11-year-old Uche: the broken plate, the father's lost job, even the rain. He is mocked in front of visitors and kept away from his cousins' parties. No one has ever hit him, yet he believes he is cursed and worthless.",
+            "takeaway": "Psychological abuse, through scapegoating, ridicule and isolation, harms a child deeply without leaving a single bruise."
+          },
+          {
+            "kind": "check",
+            "question": "Repeatedly blaming one child for all the family's problems is an example of:",
+            "options": [
+              "Neglect",
+              "Scapegoating, a form of psychological abuse",
+              "Normal discipline",
+              "Sexual abuse"
+            ],
+            "answerIndex": 1,
+            "why": "Scapegoating is a form of psychological abuse."
+          },
+          {
+            "kind": "teach",
+            "heading": "Child sexual abuse",
+            "body": "**Child sexual abuse** is the **use of a child to satisfy adult sexual desires**. It can happen **inside or outside** the home and appears **equally common across all social classes, races and ethnic groups**.\n\nSurveys indicate that **13% or more of women** were made to have sexual contact with a grown man while they were children, often a **father or stepfather**, and **at least 4% of men** were sexually abused as children."
+          },
+          {
+            "kind": "compare",
+            "heading": "Physical abuse versus sexual abuse",
+            "left": {
+              "title": "Physical abuse",
+              "points": [
+                "More common among the poor",
+                "Boys and girls equally",
+                "Usually by parents"
+              ]
+            },
+            "right": {
+              "title": "Sexual abuse",
+              "points": [
+                "Equal across all classes and groups",
+                "At least 13% of women, 4% of men",
+                "Often by fathers, stepfathers or known adults"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Treating abusive families",
+            "body": "Treatment often focuses on **parents**. Therapies help them gain **insight** into their behaviour, offer **training in alternatives** to abuse, and teach **parenting skills**.\n\nOther approaches help parents cope with the **stresses** that often **trigger** abuse: **unemployment, marital conflict** and **depression**. The child also needs therapy, safety, and sometimes a protected placement.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Insight",
+                "Alternatives to violence",
+                "Parenting skills",
+                "Stress management"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Protecting children in Nigeria",
+            "body": "Nigeria's **Child Rights Act (2003)** sets out children's rights to protection from abuse, neglect and exploitation; states adopt it into their own laws. The **VAPP Act (2015)** also criminalises many forms of violence.\n\nTeachers, health workers and neighbours often notice abuse first. Knowing the **signs**, unexplained injuries, fearfulness, sudden withdrawal, sexual knowledge beyond the child's age, helps children get help sooner.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "scale",
+                  "label": "Laws"
+                },
+                {
+                  "icon": "eye",
+                  "label": "Spot the signs"
+                },
+                {
+                  "icon": "shield",
+                  "label": "Protect the child"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Which treatment approach helps parents handle the stresses that often trigger abuse?",
+            "options": [
+              "Ignoring the family",
+              "Removing all discipline",
+              "Helping with unemployment, marital conflict and depression",
+              "Blaming the child"
+            ],
+            "answerIndex": 2,
+            "why": "Reducing triggering stresses lowers the risk of further abuse."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'list and explain two forms of child abuse': psychological and sexual. Define each and give features and figures (13% of women, 4% of men). Objectives contrast class patterns: physical abuse more common among the poor, sexual abuse equal across classes. Also know treatment: insight, alternatives, parenting skills, stress management.",
+            "sampleQuestion": "List and explain two forms of child abuse.",
+            "howToAnswer": "Psychological abuse: excessive discipline, scapegoating, ridicule, isolation, refusing help; often with physical abuse. Sexual abuse: using a child for adult sexual gratification, inside or outside the home, equal across classes.",
+            "scholars": [
+              "Comer (2004)",
+              "Phares (2003)",
+              "Child Rights Act (2003)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Psychological abuse: excessive discipline, scapegoating, ridicule, isolation.",
+              "It accompanies physical abuse and also occurs alone.",
+              "Sexual abuse: using a child for adult gratification; equal across classes.",
+              "At least 13% of women and 4% of men report childhood sexual abuse.",
+              "Treatment: parent insight, alternatives, skills, stress management; protect the child."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The two forms of child abuse highlighted in this session are:",
+          "options": [
+            "Physical and dietary",
+            "Psychological and sexual",
+            "Academic and social",
+            "Verbal and written"
+          ],
+          "answerIndex": 1,
+          "explanation": "The course focuses on psychological and sexual abuse."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Child sexual abuse is defined as:",
+          "options": [
+            "Teaching sex education",
+            "Using a child to satisfy an adult's sexual desires",
+            "Harsh discipline",
+            "Neglecting hygiene"
+          ],
+          "answerIndex": 1,
+          "explanation": "It is using a child to satisfy adult sexual desires."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which of the following is a form of psychological abuse?",
+          "options": [
+            "Regular meals",
+            "Providing tutoring",
+            "Ridicule and isolation",
+            "Bedtime stories"
+          ],
+          "answerIndex": 2,
+          "explanation": "Ridicule and isolation are psychological abuse."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Surveys suggest at least what percentage of women experienced forced sexual contact with an adult male in childhood?",
+          "options": [
+            "1%",
+            "75%",
+            "50%",
+            "13%"
+          ],
+          "answerIndex": 3,
+          "explanation": "At least 13% of women report such experiences."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Child sexual abuse appears to be:",
+          "options": [
+            "Equally common across classes, races and ethnic groups",
+            "Limited to poor families",
+            "Only outside the home",
+            "Only by strangers"
+          ],
+          "answerIndex": 0,
+          "explanation": "Unlike physical abuse, it is spread evenly across groups."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Psychological abuse probably:",
+          "options": [
+            "Never occurs with physical abuse",
+            "Leaves visible scars",
+            "Only happens in schools",
+            "Accompanies all physical abuse and neglect, and also occurs alone"
+          ],
+          "answerIndex": 3,
+          "explanation": "It goes with all forms of maltreatment and also occurs by itself."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Parents refuse to take their severely depressed daughter for help, saying 'she is just lazy'. This is an example of:",
+          "options": [
+            "Sexual abuse",
+            "Physical abuse",
+            "Normal parenting",
+            "Psychological abuse through refusal of help"
+          ],
+          "answerIndex": 3,
+          "explanation": "Refusing help for a child's psychological problems is psychological abuse."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A therapist teaches a father who hits his children other ways to discipline and how to manage his anger. This approach provides:",
+          "options": [
+            "Medication only",
+            "Punishment only",
+            "Insight and alternatives to abuse",
+            "Removal of all rules"
+          ],
+          "answerIndex": 2,
+          "explanation": "Insight plus training in alternatives to abuse is a core treatment."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A mother began beating her children after losing her job and falling into depression. Treatment should especially address:",
+          "options": [
+            "The children's grades",
+            "Her unemployment stress and depression",
+            "The family's religion",
+            "The children's diet"
+          ],
+          "answerIndex": 1,
+          "explanation": "Stresses such as unemployment and depression often trigger abuse."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are forms of psychological abuse EXCEPT:",
+          "options": [
+            "Giving the child age-appropriate chores",
+            "Excessive discipline",
+            "Isolation",
+            "Scapegoating"
+          ],
+          "answerIndex": 0,
+          "explanation": "Age-appropriate chores are not abuse."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Physical abuse: equal across all classes",
+            "Psychological abuse: always leaves bruises",
+            "Sexual abuse: equal across all classes",
+            "Neglect: excessive attention"
+          ],
+          "answerIndex": 2,
+          "explanation": "Sexual abuse is equally common across classes; physical abuse is more common among the poor."
+        },
+        {
+          "difficulty": 4,
+          "stem": "At least what percentage of men were sexually abused in childhood, according to surveys cited?",
+          "options": [
+            "0.1%",
+            "4%",
+            "25%",
+            "40%"
+          ],
+          "answerIndex": 1,
+          "explanation": "At least 4% of men report childhood sexual abuse."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Sexual abuse can occur inside or outside the home. II. Many female victims were abused by fathers or stepfathers. III. Treatment of abuse focuses only on punishing parents. Which are correct?",
+          "options": [
+            "I and II only",
+            "I and III only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 0,
+          "explanation": "I and II are correct. Treatment includes insight, skills and stress management, not only punishment."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Why is psychological abuse often harder to detect than physical abuse?",
+          "options": [
+            "It is rarer",
+            "It only affects adults",
+            "It usually leaves no visible marks",
+            "It is legal"
+          ],
+          "answerIndex": 2,
+          "explanation": "Without bruises or injuries, it can go unnoticed."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which combination best describes a complete response to a case of child abuse?",
+          "options": [
+            "Ensure the child's safety, provide therapy for the child, and help parents with insight, skills and stress",
+            "Punish the child",
+            "Ignore it as a family matter",
+            "Remove all discipline"
+          ],
+          "answerIndex": 0,
+          "explanation": "Effective responses protect the child and address parents' behaviour and stresses."
+        }
+      ]
+    }
+  ]
+}

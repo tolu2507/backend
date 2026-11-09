@@ -1,0 +1,1022 @@
+{
+  "unit": 4,
+  "title": "Realism",
+  "summary": "Realism's roots, its view of power, states and anarchy, Morgenthau's six principles, and how classical realism differs from neo-realism.",
+  "sections": [
+    {
+      "name": "Roots and core ideas",
+      "lesson": {
+        "title": "Realism: power, states and fear",
+        "minutes": 10,
+        "hook": "Two neighbours each buy a bigger dog 'just for protection'. Soon both feel less safe than before. Realists say this is how states behave too.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "The oldest theory in IR",
+            "body": "**Realism** is arguably the oldest theory of international relations. Its roots go back to **Thucydides**, whose history of the **Peloponnesian War** (from 431 BC) told of the struggle between Athens and Sparta, and to **Sun Tzu's** *The Art of War*, written around the same era.\n\nThe tradition runs through **Augustine** and **Machiavelli**, then **Hobbes**, and into the twentieth century: **Morgenthau** and **Waltz** above all, alongside **Kennan**, **Kissinger** and the German jurist **Carl Schmitt**.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Thucydides",
+                "Machiavelli",
+                "Hobbes",
+                "Morgenthau",
+                "Waltz"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Why realism ruled the Cold War",
+            "body": "Realism was the leading theory throughout the **Cold War**. It pictures world politics as a contest for power among self-interested states and is gloomy about ever ending war.\n\nIt dominated because it gave simple yet strong explanations for war, alliances, imperialism and the obstacles to cooperation. Its focus on competition also fitted the rivalry between the two superpowers, the USA and the Soviet Union.",
+            "visual": {
+              "type": "scale",
+              "left": "USA",
+              "right": "USSR",
+              "heavier": "even"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "A pessimistic view of human nature",
+            "body": "Realists are known as **pessimists**. They assume people are by nature selfish, wicked and eager to dominate. **Hobbes** argued that when two people want the same thing and cannot both have it, they turn into enemies and try to destroy or subdue each other.\n\nBecause people are greedy, insecure and aggressive, realists reason, the states they run carry the same traits.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "person",
+                  "label": "Selfish humans"
+                },
+                {
+                  "icon": "flag",
+                  "label": "Selfish states"
+                },
+                {
+                  "icon": "warning",
+                  "label": "Conflict"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Politics is about power",
+            "body": "For realists, all politics, including international politics, is a **struggle for power**: to gain it, keep it and use it, in pursuit of the **national interest**.\n\n**E. H. Carr** said international politics is always power politics because power can never be removed from it. **Morgenthau** added that whatever the final goals of international politics, **power is always the immediate aim**.",
+            "visual": {
+              "type": "stat",
+              "value": "Power",
+              "label": "Always the immediate aim (Morgenthau)"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Which thinker argued that, whatever a nation's final goals, power is the immediate aim of every move in international politics?",
+            "options": [
+              "E. H. Carr",
+              "Thomas Hobbes",
+              "Hans Morgenthau",
+              "Kenneth Waltz"
+            ],
+            "answerIndex": 2,
+            "why": "This is Morgenthau's line. Carr's version is that international politics is always power politics."
+          },
+          {
+            "kind": "teach",
+            "heading": "States as the main actors",
+            "body": "Realists treat the **state** as the key actor and basic unit of analysis. States are selfish: they chase their own interests even if it means losing gains everyone could share.\n\nAll states are alike in aims. Whether a state is a democracy, a dictatorship, a theocracy or a monarchy makes no difference, because states respond to **power and anarchy**, not to their declared ideology. Under anarchy, each must rely on its own arms and resources: **self-help**.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "flag",
+                  "label": "State is key"
+                },
+                {
+                  "icon": "shield",
+                  "label": "Self-help"
+                },
+                {
+                  "icon": "close-circle",
+                  "label": "Ideology irrelevant"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "The cost of distrust",
+            "story": "Two hostile neighbours in the Middle East, Israel and the Palestinians, have poured huge sums into weapons over decades. Many observers argue that the same money spent on schools, roads and jobs would have benefited everyone in the region. Yet neither side trusts the other enough to stop arming.",
+            "takeaway": "Realists say selfish states pursue their own security even at the cost of benefits they could have shared."
+          },
+          {
+            "kind": "steps",
+            "heading": "The security dilemma",
+            "steps": [
+              {
+                "title": "Anarchy",
+                "detail": "No world government protects any state."
+              },
+              {
+                "title": "Arming",
+                "detail": "State A builds power to protect itself."
+              },
+              {
+                "title": "Fear",
+                "detail": "State B sees A's power as a threat."
+              },
+              {
+                "title": "Counter-arming",
+                "detail": "B arms too, preparing for the worst."
+              },
+              {
+                "title": "Endless spiral",
+                "detail": "Both end up less secure and keep seeking power."
+              }
+            ]
+          },
+          {
+            "kind": "check",
+            "question": "Ghana buys new fighter jets for defence; a neighbour responds by buying more of its own. Realists call this pattern the:",
+            "options": [
+              "Balance of terror",
+              "Security dilemma",
+              "Democratic peace",
+              "Collective security"
+            ],
+            "answerIndex": 1,
+            "why": "One state's defensive build-up makes others insecure, so they arm too. That spiral is the security dilemma."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Objective questions test the realist family tree (who is and is not a realist) and the famous quotes of Carr and Morgenthau. The security dilemma appears constantly as a scenario. A common trap: thinking realists believe regime type matters. They do not.",
+            "sampleQuestion": "Explain why realists treat the state as the main actor in world politics.",
+            "howToAnswer": "Explain anarchy and self-help, the view that states are the only units with the power to secure survival, the pessimistic view of human nature, and the idea that all states behave alike regardless of ideology.",
+            "scholars": [
+              "Thucydides",
+              "Sun Tzu",
+              "Thomas Hobbes",
+              "E. H. Carr",
+              "Hans Morgenthau",
+              "Kenneth Waltz"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Realism traces back to Thucydides and Sun Tzu and dominated the Cold War.",
+              "Realists see human nature as selfish and aggressive: pessimists.",
+              "Politics is a struggle for power in pursuit of national interest (Carr, Morgenthau).",
+              "States are the main actors and behave alike whatever their regime type.",
+              "Arming for safety makes others fearful: the security dilemma."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Realism's origins are usually traced to Thucydides' account of which conflict?",
+          "options": [
+            "The Thirty Years War",
+            "The Peloponnesian War",
+            "The Napoleonic Wars",
+            "The Punic Wars"
+          ],
+          "answerIndex": 1,
+          "explanation": "Thucydides wrote about the Peloponnesian War between Athens and Sparta. The Thirty Years War is linked to the Westphalian state system, not Thucydides."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Realists are generally described as pessimists because they:",
+          "options": [
+            "Believe international organisations will soon replace states",
+            "Expect democracy to spread everywhere",
+            "See human beings as selfish and doubt that war can be eliminated",
+            "Think trade will end all conflict"
+          ],
+          "answerIndex": 2,
+          "explanation": "Realists hold a dark view of human nature and doubt conflict can be removed. Faith in trade and democracy is associated with liberals."
+        },
+        {
+          "difficulty": 1,
+          "stem": "For realists, the most important actors in international relations are:",
+          "options": [
+            "Sovereign states",
+            "Multinational corporations",
+            "Non-governmental organisations",
+            "Individual citizens"
+          ],
+          "answerIndex": 0,
+          "explanation": "Realists treat the state as the key actor and basic unit of analysis."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which of the following is NOT usually counted among realist thinkers?",
+          "options": [
+            "Niccolò Machiavelli",
+            "Henry Kissinger",
+            "George Kennan",
+            "Immanuel Kant"
+          ],
+          "answerIndex": 3,
+          "explanation": "Kant is a founding figure of liberal thought on perpetual peace. Machiavelli, Kissinger and Kennan are all listed as realists."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The statement that 'international politics are always power politics, because power cannot be removed from them' is credited to:",
+          "options": [
+            "Hans Morgenthau",
+            "E. H. Carr",
+            "Sun Tzu",
+            "Carl Schmitt"
+          ],
+          "answerIndex": 1,
+          "explanation": "This is Carr's view. Morgenthau's famous line is that power is always the immediate aim."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Realism dominated during the Cold War mainly because:",
+          "options": [
+            "It predicted the peaceful collapse of the Soviet Union",
+            "It stressed cooperation through international institutions",
+            "It offered simple, powerful explanations and fitted the superpower rivalry",
+            "It argued that ideology decides state behaviour"
+          ],
+          "answerIndex": 2,
+          "explanation": "Its explanations of war and alliances, and its stress on competition, matched the USA–USSR rivalry. Realists say ideology does not drive behaviour."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A realist analyst is asked whether a newly democratic state will behave differently in world affairs from the military regime it replaced. The analyst would most likely say:",
+          "options": [
+            "Yes, because democracies are naturally peaceful",
+            "No, because all states respond to power and anarchy, not ideology",
+            "Yes, because public opinion controls foreign policy",
+            "No, because only individuals matter in world politics"
+          ],
+          "answerIndex": 1,
+          "explanation": "Realists hold that regime type is irrelevant: democracies, dictatorships and monarchies all act according to power and anarchy."
+        },
+        {
+          "difficulty": 3,
+          "stem": "State A increases its defence budget to feel safer. State B, alarmed, does the same, and A then spends even more. This scenario illustrates:",
+          "options": [
+            "The security dilemma",
+            "Collective security",
+            "Complex interdependence",
+            "The democratic peace"
+          ],
+          "answerIndex": 0,
+          "explanation": "Defensive arming that makes others insecure and sparks an endless search for power is the security dilemma."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Two rival states spend heavily on weapons instead of joint development projects that would benefit both. A realist would explain this by arguing that:",
+          "options": [
+            "International law forbids joint projects",
+            "Their citizens prefer weapons to development",
+            "Shared gains always outweigh security concerns",
+            "Selfish states pursue their own interests even at the cost of shared benefits"
+          ],
+          "answerIndex": 3,
+          "explanation": "Realists say states maximise their own interests even if it means forgoing gains several states could share."
+        },
+        {
+          "difficulty": 4,
+          "stem": "According to realists, states regard other powerful states as rivals mainly because:",
+          "options": [
+            "Power in someone else's hands is inherently threatening",
+            "Powerful states always have hostile ideologies",
+            "International law requires states to compete",
+            "Powerful states refuse to trade"
+          ],
+          "answerIndex": 0,
+          "explanation": "Realists hold that power not in your own hands is threatening by nature. Ideology is irrelevant in the realist view."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Hobbes' claim that two people who want the same thing they cannot both enjoy will become enemies supports which realist assumption?",
+          "options": [
+            "States are bound by international law",
+            "Cooperation is natural among humans",
+            "Human nature is selfish and drives conflict",
+            "Non-state actors are central"
+          ],
+          "answerIndex": 2,
+          "explanation": "The quote expresses the realist view that selfish human nature produces enmity and conflict."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Sun Tzu: Politics among Nations",
+            "Thucydides: The Art of War",
+            "Morgenthau: history of the Peloponnesian War",
+            "Waltz: Theory of International Politics"
+          ],
+          "answerIndex": 3,
+          "explanation": "Waltz wrote Theory of International Politics (1979). The Art of War is Sun Tzu's, the Peloponnesian War history is Thucydides', and Politics among Nations is Morgenthau's."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider: I. Realists argue that a state's ideology largely determines its foreign policy. II. Realists hold that states must rely on their own resources under anarchy. III. Realists see politics as a continuous quest to gain and use power. Which are correct?",
+          "options": [
+            "I and II only",
+            "II and III only",
+            "I and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 1,
+          "explanation": "II and III are realist claims. I is wrong: realists say ideology does not matter; power and anarchy drive behaviour."
+        },
+        {
+          "difficulty": 5,
+          "stem": "In realist reasoning, the link between human nature and state behaviour is that:",
+          "options": [
+            "States correct the selfishness of individuals through law",
+            "Greedy, insecure and aggressive people produce states with the same traits",
+            "Human nature is irrelevant because only structure matters",
+            "States are naturally more peaceful than individuals"
+          ],
+          "answerIndex": 1,
+          "explanation": "Classical realist reasoning carries human traits up to the state. Saying human nature is irrelevant is a later neo-realist move, not the general realist link described here."
+        },
+        {
+          "difficulty": 5,
+          "stem": "All of the following help explain the security dilemma EXCEPT:",
+          "options": [
+            "The absence of a central authority to guarantee safety",
+            "States acquiring power to protect themselves from uncertainty",
+            "Other states feeling more insecure as one state arms",
+            "A world government enforcing arms limits on all states"
+          ],
+          "answerIndex": 3,
+          "explanation": "The dilemma arises precisely because there is no world government. If one enforced arms limits, the spiral would not occur."
+        }
+      ]
+    },
+    {
+      "name": "Morgenthau's principles and assumptions",
+      "lesson": {
+        "title": "Morgenthau's six principles of realism",
+        "minutes": 9,
+        "hook": "In 1948 Hans Morgenthau tried to turn realism into a science of international politics. His six principles are still among the most examined lists in any IR paper.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Politics among Nations",
+            "body": "**Hans J. Morgenthau** set out realism's core in *Politics among Nations: The Struggle for Power and Peace* (first published 1948). There he gave his famous **six principles of political realism**.\n\nThink of them as the rules of the game: where politics comes from, what guides states, how flexible key ideas are, and how morality fits in.",
+            "visual": {
+              "type": "stat",
+              "value": "6 principles",
+              "label": "Morgenthau's political realism"
+            }
+          },
+          {
+            "kind": "steps",
+            "heading": "The six principles, simplified",
+            "steps": [
+              {
+                "title": "Objective laws",
+                "detail": "Politics follows objective laws rooted in human nature; understand them to improve society."
+              },
+              {
+                "title": "Interest as power",
+                "detail": "The guiding signpost is interest defined in terms of power."
+              },
+              {
+                "title": "Universal, not fixed",
+                "detail": "Interest-as-power is valid everywhere, but its content changes with time and place."
+              },
+              {
+                "title": "Moral awareness",
+                "detail": "Realism recognises that political action has moral significance."
+              },
+              {
+                "title": "No national moral crusade",
+                "detail": "One nation's moral goals are not the moral law of the universe."
+              },
+              {
+                "title": "Distinct school",
+                "detail": "Realism differs deeply and genuinely from other schools of thought."
+              }
+            ]
+          },
+          {
+            "kind": "check",
+            "question": "In Morgenthau's principles, the 'main signpost' that guides political realism through international politics is:",
+            "options": [
+              "Interest defined in terms of power",
+              "Respect for international law",
+              "The spread of democracy",
+              "Economic interdependence"
+            ],
+            "answerIndex": 0,
+            "why": "Morgenthau's second principle names interest defined as power as the central signpost. Law and democracy are liberal emphases."
+          },
+          {
+            "kind": "teach",
+            "heading": "Realism and morality",
+            "body": "Students often think realists ignore morality. Morgenthau did not. His fourth principle accepts that political action carries **moral significance**; realists simply refuse to pretend morality removes the need for power.\n\nHis fifth principle warns against something dangerous: a nation treating its *own* moral aims as if they were the moral laws of the whole universe. When a state believes its cause is God's cause, it can justify almost anything.",
+            "visual": {
+              "type": "scale",
+              "left": "National interest",
+              "right": "Moral awareness",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "A crusade gone wrong",
+            "story": "Imagine President Bello declaring that his country's values are the only true values in the world and that any state rejecting them is evil. He sends troops abroad to 'save' others. Morgenthau would object: Bello has mistaken his nation's moral preferences for universal moral law, and that confusion breeds endless, unwinnable wars.",
+            "takeaway": "Morgenthau's fifth principle rejects equating one nation's moral aspirations with the moral laws governing the universe."
+          },
+          {
+            "kind": "terms",
+            "heading": "Six assumptions of realism",
+            "terms": [
+              {
+                "term": "Key actors",
+                "meaning": "Sovereign states are the main actors in world politics."
+              },
+              {
+                "term": "Rational actors",
+                "meaning": "States act rationally, driven by power and national interest."
+              },
+              {
+                "term": "Anarchy",
+                "meaning": "The central problem: no sovereign authority above states."
+              },
+              {
+                "term": "Ever-present conflict",
+                "meaning": "Aggressive intent plus no world government makes conflict constant."
+              },
+              {
+                "term": "Balance of power",
+                "meaning": "Shifting alliances stop any one state becoming overwhelmingly strong."
+              },
+              {
+                "term": "Weak institutions",
+                "meaning": "Law and institutions only work when backed by force or real sanctions."
+              }
+            ]
+          },
+          {
+            "kind": "teach",
+            "heading": "Order without government",
+            "body": "If conflict is permanent, how is there any order at all? Realists answer with the **balance of power**. States form and switch alliances so that no single state becomes so strong that it threatens everyone else.\n\nInternational organisations, alliances and coalitions are, for realists, just **tools** states use to exercise power. International law matters only when force or effective sanctions stand behind it.",
+            "visual": {
+              "type": "scale",
+              "left": "Rising power",
+              "right": "Alliance of others",
+              "heavier": "even"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "According to realist assumptions, international law and institutions are effective only when:",
+            "options": [
+              "All states share the same ideology",
+              "They are backed by force or effective sanctions",
+              "Non-governmental organisations support them",
+              "They are written in a single treaty"
+            ],
+            "answerIndex": 1,
+            "why": "Realists accept that institutions play a role but insist they work only when backed by force or real sanctions."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'which is NOT one of Morgenthau's principles' with a liberal idea slipped in, such as cooperation through institutions. The trickiest is principle three: interest-as-power is universal, but its meaning is not fixed forever. Also, never write that realists ignore morality.",
+            "sampleQuestion": "Outline Morgenthau's six principles of political realism and assess their relevance to contemporary world politics.",
+            "howToAnswer": "State each principle in your own words, stress interest defined as power and the moral principles, then apply them to a current case and note a criticism.",
+            "scholars": [
+              "Hans Morgenthau (1948)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Morgenthau's six principles are in Politics among Nations.",
+              "Politics follows objective laws rooted in human nature.",
+              "Interest defined as power is the main signpost: universal but not fixed.",
+              "Realism is morally aware but rejects national moral crusades.",
+              "Realist assumptions: states, rationality, anarchy, conflict, balance of power, weak institutions."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Morgenthau's six principles of political realism are found in his book:",
+          "options": [
+            "Theory of International Politics",
+            "The Twenty Years' Crisis",
+            "Politics among Nations",
+            "Man, the State and War"
+          ],
+          "answerIndex": 2,
+          "explanation": "The principles are in Politics among Nations. Theory of International Politics and Man, the State and War are Waltz's books."
+        },
+        {
+          "difficulty": 1,
+          "stem": "According to realist assumptions, the central problem in international relations is:",
+          "options": [
+            "Poverty",
+            "Anarchy",
+            "Climate change",
+            "Overpopulation"
+          ],
+          "answerIndex": 1,
+          "explanation": "Realists identify anarchy, the absence of a central sovereign authority, as the central problem."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Realists believe a semblance of order can be kept in the international system mainly through:",
+          "options": [
+            "A world government",
+            "Universal disarmament",
+            "Shifting alliances that create a balance of power",
+            "Rule by the United Nations General Assembly"
+          ],
+          "answerIndex": 2,
+          "explanation": "Realists rely on balance of power through shifting alliances. A world government is exactly what realists say does not exist."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Morgenthau's first principle holds that politics, like society generally, is governed by:",
+          "options": [
+            "Objective laws rooted in human nature",
+            "The will of the majority",
+            "Divine revelation",
+            "Economic class struggle"
+          ],
+          "answerIndex": 0,
+          "explanation": "The first principle roots politics in objective laws based on human nature. Class struggle is a Marxist idea."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which of the following is NOT one of Morgenthau's six principles?",
+          "options": [
+            "Realism recognises that political acts carry moral weight",
+            "Interest defined as power is universally valid but not fixed in meaning",
+            "International institutions can replace power as the basis of order",
+            "The difference between realism and other schools is real and profound"
+          ],
+          "answerIndex": 2,
+          "explanation": "Replacing power with institutions is a liberal idea, not a Morgenthau principle. The other three are among his six."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Realists describe states as rational actors motivated by:",
+          "options": [
+            "Religious duty",
+            "Global justice",
+            "The interests of humanity as a whole",
+            "The drive for power and the pursuit of national interest"
+          ],
+          "answerIndex": 3,
+          "explanation": "The realist assumption is that states rationally pursue power and national interest."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A realist adviser says: 'What counts as power for us today, oil and armies, may be data and technology tomorrow.' This reflects which Morgenthau principle?",
+          "options": [
+            "Politics is governed by objective laws",
+            "Interest as power is universal but its meaning is not fixed for all time",
+            "Realism refuses to equate national morality with universal law",
+            "Realism is distinct from other schools"
+          ],
+          "answerIndex": 1,
+          "explanation": "The third principle says interest defined as power is universally valid, but its content changes with circumstances."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A great power justifies invading a smaller state by claiming its own values represent the moral law of the whole world. Morgenthau would criticise this using his principle that realism:",
+          "options": [
+            "Is aware of the moral significance of political action",
+            "Defines interest in terms of power",
+            "Refuses to identify one nation's moral aspirations with universal moral laws",
+            "Holds that politics follows objective laws"
+          ],
+          "answerIndex": 2,
+          "explanation": "The fifth principle forbids treating one nation's moral goals as the universe's moral law. The fourth principle (moral awareness) is related but is not the specific warning here."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A realist would describe an alliance such as NATO primarily as:",
+          "options": [
+            "A step towards world government",
+            "A tool states use to exercise and balance power",
+            "Proof that anarchy has ended",
+            "A body whose rules bind states regardless of force"
+          ],
+          "answerIndex": 1,
+          "explanation": "For realists, alliances and organisations are mechanisms states use to exercise power, not replacements for anarchy."
+        },
+        {
+          "difficulty": 4,
+          "stem": "The realist claim that conflict is an ever-present reality rests on the combination of:",
+          "options": [
+            "Economic interdependence and free trade",
+            "Democratic government and public opinion",
+            "International law and strong institutions",
+            "The aggressive intent of states and the lack of world government"
+          ],
+          "answerIndex": 3,
+          "explanation": "Realists see conflict as permanent because states have aggressive intentions and there is no world government to restrain them."
+        },
+        {
+          "difficulty": 4,
+          "stem": "A student writes: 'Realists ignore morality completely.' Based on Morgenthau, the best correction is:",
+          "options": [
+            "Realism accepts that political action has moral weight",
+            "Realism holds that morality is the main driver of foreign policy",
+            "Realism says each nation's morality is universal law",
+            "Realism treats morality as identical to international law"
+          ],
+          "answerIndex": 0,
+          "explanation": "Morgenthau's fourth principle shows realism does take morality seriously, while rejecting the idea that morality drives policy or that one nation's morality is universal."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement about realist views of international institutions is correct?",
+          "options": [
+            "Institutions are irrelevant and play no role at all",
+            "Institutions have replaced states as the main actors",
+            "Institutions play a role but work only when backed by force or sanctions",
+            "Institutions guarantee peace without any enforcement"
+          ],
+          "answerIndex": 2,
+          "explanation": "Realists accept institutions have some role, but only when enforcement backs them. Saying they play no role at all overstates the realist position."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider: I. Morgenthau held that understanding society's laws is needed before improving it. II. Morgenthau held that the concept of interest as power has a fixed meaning for all time. III. Realists assume states are rational actors. Which are correct?",
+          "options": [
+            "I and III only",
+            "I and II only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 0,
+          "explanation": "I and III are correct. II contradicts Morgenthau's third principle: the concept is universal but its meaning is not fixed once and for all."
+        },
+        {
+          "difficulty": 5,
+          "stem": "When several states join forces to stop one rising state from becoming overwhelmingly powerful, realists see this as:",
+          "options": [
+            "Collective security under a world government",
+            "A violation of realist assumptions",
+            "Evidence that institutions have replaced power",
+            "A balance of power maintaining a semblance of order"
+          ],
+          "answerIndex": 3,
+          "explanation": "Shifting alliances to block a dominant state are the realist balance-of-power mechanism. Collective security under a world government is not a realist idea."
+        },
+        {
+          "difficulty": 5,
+          "stem": "All of the following are realist assumptions EXCEPT:",
+          "options": [
+            "Sovereign states are the key actors",
+            "Anarchy is the central problem of international relations",
+            "Non-state actors are as important as states in shaping world politics",
+            "Conflict is ever-present in international relations"
+          ],
+          "answerIndex": 2,
+          "explanation": "Realists put states at the centre and treat non-state actors as secondary. Giving non-state actors equal weight is a liberal or pluralist view."
+        }
+      ]
+    },
+    {
+      "name": "Classical versus neo-realism",
+      "lesson": {
+        "title": "Human nature or system structure?",
+        "minutes": 9,
+        "hook": "Even if every world leader sincerely wanted peace, could war still happen? Classical realists say look at human nature; neo-realists say look at the system.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Two main strands",
+            "body": "Realism has several variants, but the two main ones are **classical realism** and **neo-realism**, also called **structural realism**.\n\nBoth agree that states, power and anarchy matter. They disagree on the *root cause* of power struggles: is it the nature of humans and states, or the structure of the international system?",
+            "visual": {
+              "type": "venn",
+              "left": "Classical realism",
+              "right": "Neo-realism",
+              "both": "States, power, anarchy"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Classical realism",
+            "body": "Classical realism, built by **Hans Morgenthau** and **E. H. Carr**, centres on **power, interest, agency and conflict**. Relations among states are explained mainly by two variables: **power and interest**.\n\nMorgenthau and **Reinhold Niebuhr** held that states, like people, have an **innate desire to dominate**, which leads to war. Dark human nature plus lawlessness create permissive conditions for war. The cure: a **balance of power** that deters aggression.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Human nature",
+                "Desire to dominate",
+                "War"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Neo-realism (structural realism)",
+            "body": "Neo-realism extends classical realism but aims to be more **scientific**. It is tied to **Kenneth Waltz's** *Theory of International Politics* (1979); **John Mearsheimer** is another key figure.\n\nFor Waltz, **anarchy** blocks cooperation that might end the state of war. A 'state of war' does not mean constant fighting; it means force is always possible, so war is always a live risk. The **structure** compels states to seek power, and can drive them to war even when leaders want peace.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Anarchic structure",
+                "Mistrust",
+                "Power seeking"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Neo-realism is most closely associated with which book?",
+            "options": [
+              "Politics among Nations (Morgenthau)",
+              "The Art of War (Sun Tzu)",
+              "Leviathan (Hobbes)",
+              "Theory of International Politics (Waltz)"
+            ],
+            "answerIndex": 3,
+            "why": "Waltz's 1979 book founded structural realism. Politics among Nations is the classical realist text."
+          },
+          {
+            "kind": "teach",
+            "heading": "Survival and military capability",
+            "body": "Neo-realists say states make decisions mainly to **survive** by responding to changes in the system. All states mistrust each other and build up their military power, though some can do so faster than others.\n\nStates boost capability in two ways: **internally**, through economic growth, and **externally**, through **alliances**. A leader's first duty is national security: at minimum, protecting the state's physical and territorial integrity. Hobbes called this a world with 'no common power'.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "trending-up",
+                  "label": "Internal: economy"
+                },
+                {
+                  "icon": "people",
+                  "label": "External: alliances"
+                },
+                {
+                  "icon": "shield",
+                  "label": "Goal: survival"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Peaceful leaders, tense region",
+            "story": "Imagine two newly elected presidents in neighbouring countries who genuinely like each other and talk of friendship. Yet each defence ministry still watches the other's army, because neither can be sure who will rule next door in ten years. Budgets for border forces keep rising quietly. Good intentions at the top do not remove the uncertainty.",
+            "takeaway": "Neo-realists argue that the anarchic structure, not leaders' personalities, pushes states to seek power."
+          },
+          {
+            "kind": "compare",
+            "heading": "The key differences",
+            "left": {
+              "title": "Classical realism",
+              "points": [
+                "Cause: human nature and the nature of states",
+                "Level of analysis: the state",
+                "Morgenthau, Carr, Niebuhr",
+                "Less formal, more historical"
+              ]
+            },
+            "right": {
+              "title": "Neo-realism",
+              "points": [
+                "Cause: structure of the international system",
+                "Level of analysis: the system",
+                "Waltz (1979), Mearsheimer",
+                "Aims at a scientific theory"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "An analyst explains a war by saying 'no matter what the leaders wanted, the anarchic system left them no choice'. This analyst is a:",
+            "options": [
+              "Neo-realist",
+              "Classical realist",
+              "Liberal",
+              "Constructivist"
+            ],
+            "answerIndex": 0,
+            "why": "Blaming the structure of the system rather than human nature or leaders is the neo-realist move. A classical realist would point to the drive to dominate."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "'Distinguish between classical realism and neo-realism' is a near-certain essay. Organise around cause (human nature versus structure), level of analysis (state versus system), key scholars and method. In objectives, watch for Morgenthau and Waltz being swapped, and for 'state of war' misread as constant fighting.",
+            "sampleQuestion": "What are the basic differences between classical realism and neo-realism?",
+            "howToAnswer": "Note what they share, then contrast their source of conflict, level of analysis, scholars and claim to science, with one example such as the Cold War.",
+            "scholars": [
+              "Hans Morgenthau",
+              "E. H. Carr",
+              "Reinhold Niebuhr",
+              "Kenneth Waltz (1979)",
+              "John Mearsheimer",
+              "Thomas Hobbes"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Two main strands: classical realism and neo-realism (structural realism).",
+              "Classical: human nature's drive to dominate causes war; analysis at state level.",
+              "Neo-realism: anarchic structure compels power seeking; analysis at system level.",
+              "A 'state of war' means war is always possible, not constant.",
+              "States raise capability internally (economy) and externally (alliances)."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Neo-realism is also known as:",
+          "options": [
+            "Neo-liberalism",
+            "Structural realism",
+            "Classical realism",
+            "Idealism"
+          ],
+          "answerIndex": 1,
+          "explanation": "Neo-realism and structural realism are the same strand. Neo-liberalism is a rival theory."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Classical realists explain relations among states mainly through which two variables?",
+          "options": [
+            "Trade and culture",
+            "Law and morality",
+            "Power and interest",
+            "Identity and norms"
+          ],
+          "answerIndex": 2,
+          "explanation": "Classical realism explains state relations mainly by power and interest. Identity and norms belong to constructivism."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Besides Kenneth Waltz, another key neo-realist named in the session is:",
+          "options": [
+            "John Mearsheimer",
+            "Reinhold Niebuhr",
+            "E. H. Carr",
+            "Thucydides"
+          ],
+          "answerIndex": 0,
+          "explanation": "Mearsheimer is a leading structural realist. Niebuhr and Carr are classical realists."
+        },
+        {
+          "difficulty": 2,
+          "stem": "According to classical realists such as Morgenthau and Niebuhr, states fight wars mainly because:",
+          "options": [
+            "The system's structure leaves them no choice",
+            "International law is too weak",
+            "Economic classes struggle for control",
+            "They, like humans, have an innate desire to dominate"
+          ],
+          "answerIndex": 3,
+          "explanation": "Classical realists trace war to an innate drive to dominate. Blaming the structure is the neo-realist view."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The level of analysis of neo-realism is the:",
+          "options": [
+            "Individual",
+            "State",
+            "International system",
+            "Bureaucracy"
+          ],
+          "answerIndex": 2,
+          "explanation": "Neo-realism analyses at the system level, while classical realism works at the state level."
+        },
+        {
+          "difficulty": 2,
+          "stem": "According to neo-realists, states increase their military capabilities externally through:",
+          "options": [
+            "Alliances",
+            "Economic expansion",
+            "Population growth",
+            "Domestic elections"
+          ],
+          "answerIndex": 0,
+          "explanation": "External balancing is done through alliances; internal balancing is through economic expansion."
+        },
+        {
+          "difficulty": 3,
+          "stem": "When neo-realists describe anarchy as a 'state of war', they mean that:",
+          "options": [
+            "Large-scale war happens every day",
+            "States have formally declared war on each other",
+            "The possibility of force makes war always a likely scenario",
+            "Only great powers can go to war"
+          ],
+          "answerIndex": 2,
+          "explanation": "A state of war means force is always possible, not that fighting is constant. Reading it as daily war is the classic misreading."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A scholar argues that the Cold War rivalry came from the two-superpower structure of the world, not from the personalities of Soviet or American leaders. This scholar is reasoning as a:",
+          "options": [
+            "Classical realist",
+            "Neo-realist",
+            "Liberal institutionalist",
+            "Normative theorist"
+          ],
+          "answerIndex": 1,
+          "explanation": "Explaining rivalry through the structure of the system rather than human nature is neo-realist."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A state responds to a rising neighbour by expanding its economy to fund a stronger army. In neo-realist terms, it is increasing capability:",
+          "options": [
+            "Externally, through alliances",
+            "Normatively, through moral claims",
+            "Collectively, through the UN",
+            "Internally, through economic expansion"
+          ],
+          "answerIndex": 3,
+          "explanation": "Economic growth to fund military strength is internal balancing. Alliances would be external."
+        },
+        {
+          "difficulty": 4,
+          "stem": "The main way neo-realism departs from classical realism is that it:",
+          "options": [
+            "Rejects the importance of power",
+            "Shifts the cause of power struggles from human nature to the international system",
+            "Argues that states are no longer the main actors",
+            "Claims that anarchy has ended"
+          ],
+          "answerIndex": 1,
+          "explanation": "Neo-realism keeps power and states but relocates the cause of conflict to the system's structure."
+        },
+        {
+          "difficulty": 4,
+          "stem": "According to classical realists, the most effective way to prevent war and aggression is to:",
+          "options": [
+            "Establish a world government",
+            "Spread democracy worldwide",
+            "Form balances of power that discourage states from waging war",
+            "Abolish national armies"
+          ],
+          "answerIndex": 2,
+          "explanation": "Classical realists favour balances of power to deter aggression. Spreading democracy is a liberal prescription."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Classical realism: system level of analysis",
+            "Neo-realism: innate human desire to dominate",
+            "Waltz: Politics among Nations",
+            "Neo-realism: attempt at a scientific theory of international politics"
+          ],
+          "answerIndex": 3,
+          "explanation": "Neo-realism sought a scientific explanation of the system. Classical realism works at the state level, and Politics among Nations is Morgenthau's."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider: I. Neo-realists argue the system's structure can drive states to war even if leaders want peace. II. Classical realists see the state as supreme and largely ignore other influences. III. Neo-realists hold that all states have equal capacity to improve their military. Which are correct?",
+          "options": [
+            "I and II only",
+            "II and III only",
+            "I and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 0,
+          "explanation": "I and II are correct. III is wrong: neo-realists note that some states can build military power more than others."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A neo-realist says that a leader's minimum duty is to protect the state's physical and territorial integrity. This follows from the claim that:",
+          "options": [
+            "International organisations guarantee every state's borders",
+            "Human nature is basically cooperative",
+            "No common power exists to enforce peace, so each state must secure itself",
+            "Economic interdependence makes war impossible"
+          ],
+          "answerIndex": 2,
+          "explanation": "With no common power above states (Hobbes' phrase), national security becomes the leader's first concern. The other options are liberal claims."
+        },
+        {
+          "difficulty": 5,
+          "stem": "All of the following are true of neo-realism EXCEPT:",
+          "options": [
+            "It is an extension of classical realism",
+            "It focuses on the constraints the system places on states",
+            "It sees survival as the driving force behind state decisions",
+            "It locates the cause of conflict mainly in the evil nature of man"
+          ],
+          "answerIndex": 3,
+          "explanation": "Neo-realism moves away from human nature and towards structure. Blaming man's evil nature is classical realism."
+        }
+      ]
+    }
+  ]
+}

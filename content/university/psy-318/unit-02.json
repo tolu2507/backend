@@ -1,0 +1,992 @@
+{
+  "unit": 2,
+  "title": "Classification and Diagnosis of Childhood Disorders",
+  "summary": "What makes a childhood problem a disorder, why diagnosing children is uniquely difficult, and the four broad clusters of childhood disorders.",
+  "sections": [
+    {
+      "name": "What counts as a disorder",
+      "lesson": {
+        "title": "From naughty phase to diagnosable disorder",
+        "minutes": 9,
+        "hook": "Nearly every Nigerian parent has said, 'This child wants to kill me!' after a tantrum. So when does an ordinary difficult child become a child with a disorder?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "The working definition",
+            "body": "A **childhood disorder** is a pattern of behaviour in which a child departs from what is expected for **their age and cultural setting**. Two more conditions apply: the pattern is **persistent and severe**, and it **interferes** with the child's development and daily functioning.\n\nThere is also a simple test: either the **child is suffering**, or the child's behaviour is **making other people suffer**.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                { "icon": "child", "label": "Age & culture norms" },
+                { "icon": "time", "label": "Persistent, severe" },
+                { "icon": "trending-down", "label": "Interferes with life" },
+                { "icon": "sad", "label": "Someone suffers" }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "A matter of degree",
+            "body": "What separates a disorder from normal variation is usually **how much**, not **what kind**. The difference is **quantitative, not qualitative**.\n\nMild versions of most problem behaviours appear in well-adjusted children. An occasional tantrum in a three-year-old is normal. Tantrums that are very frequent, happen in odd situations or go on for years may be abnormal. The behaviour is the same; its frequency, intensity and duration are not.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Occasional tantrums",
+              "right": "Constant, prolonged tantrums",
+              "marker": 80,
+              "label": "Disorder lies here"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Saying that the difference between normal and abnormal child behaviour is 'quantitative' means that:",
+            "options": [
+              "Abnormal behaviours are completely different in kind from normal ones",
+              "Abnormal behaviours are more frequent, intense or lasting versions of normal ones",
+              "Only behaviours that can be counted are disorders",
+              "Abnormal behaviour is always caused by genes"
+            ],
+            "answerIndex": 1,
+            "why": "Quantitative means a difference of degree: more often, more severe, longer. A difference in kind would be qualitative."
+          },
+          {
+            "kind": "teach",
+            "heading": "Age changes everything",
+            "body": "The child's **developmental stage** is central. Fear of strangers at eight months is healthy; extreme fear of strangers at ten years is not. Bedwetting at three is expected; regular bedwetting at nine deserves attention.\n\nThe same act can be normal at one age and a warning sign at another, so every judgement must be made against what is typical for the child's age.",
+            "visual": {
+              "type": "flow",
+              "nodes": ["Behaviour", "Child's age", "Typical for age?", "Judgement"]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Disorders borrowed from adulthood",
+            "body": "Some of the most serious mental illnesses, such as **bipolar disorder**, **major depressive disorder** and **schizophrenia**, were not listed among the disorders first diagnosed in childhood. They are uncommon in children.\n\nWhen a child does show them, clinicians apply the **adult diagnostic criteria**, sometimes with adjustments. DSM-5, for instance, accepts irritable rather than sad mood as a sign of depression in children and teenagers.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                { "icon": "pulse", "label": "Bipolar disorder" },
+                { "icon": "sad", "label": "Major depression" },
+                { "icon": "flash", "label": "Schizophrenia" }
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Ifeanyi and the angry silence",
+            "story": "Ifeanyi, 12, has started fighting at school in Enugu, skipping assignments and snapping at his grandmother. The school treats him as a troublemaker. A psychologist finds that he also has trouble sleeping, has lost interest in football and says he feels 'useless'. He meets criteria for depression as well as a behaviour problem.",
+            "takeaway": "Depression in children often travels with conduct and anxiety problems, and the more visible behaviour can hide it."
+          },
+          {
+            "kind": "teach",
+            "heading": "Comorbidity: disorders in company",
+            "body": "Many children meet criteria for **more than one diagnosis**, which is called **comorbidity**. Depression is especially likely to co-occur with **conduct disorder** and **anxiety disorders**.\n\nWhy disorders cluster is not fully understood. One explanation is **causal**: one disorder may lead to another. A depressed child, for example, might break rules to gain attention. Other explanations include shared risk factors, such as family stress, that feed several problems at once.",
+            "visual": {
+              "type": "venn",
+              "left": "Depression",
+              "right": "Conduct or anxiety",
+              "both": "Comorbidity"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "A researcher suggests that depressed children violate rules because misbehaviour wins them attention. This is an example of which explanation of comorbidity?",
+            "options": [
+              "A shared genetic explanation",
+              "A qualitative explanation",
+              "A causal explanation",
+              "A cultural explanation"
+            ],
+            "answerIndex": 2,
+            "why": "It proposes that one disorder (depression) produces the other (rule-breaking). That is a causal link between the two."
+          },
+          {
+            "kind": "teach",
+            "heading": "Many factors, some present at birth",
+            "body": "Abnormal development, like normal development, results from **many interacting factors**. Some **vulnerability is present at birth**, coming from **genetic factors** or **prenatal complications** such as maternal infection or poor nutrition in pregnancy.\n\n**Schizophrenia**, a disorder marked by disturbances in clear thinking and communication, is a well-known example where both genes and prenatal problems raise risk.",
+            "visual": {
+              "type": "flow",
+              "nodes": ["Genes", "Prenatal events", "Vulnerability", "Later disorder"]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Which of the following is NOT one of the conditions for calling a child's behaviour a disorder?",
+            "options": [
+              "It departs from what is expected for the child's age and culture",
+              "It is persistent and severe",
+              "It must be qualitatively different from anything normal children do",
+              "It causes suffering to the child or to others"
+            ],
+            "answerIndex": 2,
+            "why": "Disorders differ from normal behaviour mainly in degree, not kind, so qualitative difference is not required. The other three are part of the definition."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'define childhood disorder' essays and objective items on the quantitative versus qualitative point. Students lose marks by saying abnormal behaviour is 'completely different' from normal, or by forgetting the 'others suffering' part of the definition. Comorbidity questions usually test which disorders co-occur with depression.",
+            "sampleQuestion": "'The difference between normal and abnormal behaviour in children is one of degree, not kind.' Discuss, with examples, and explain how comorbidity complicates diagnosis.",
+            "howToAnswer": "Define a childhood disorder, explain quantitative difference with the tantrum example and developmental stage, then describe comorbidity, naming depression with conduct and anxiety disorders and the causal explanation.",
+            "scholars": ["American Psychiatric Association, DSM-IV-TR (2000)", "American Psychiatric Association, DSM-5 (2013)"]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "A childhood disorder departs from age and cultural expectations, persists and impairs development.",
+              "Either the child suffers or others suffer because of the behaviour.",
+              "Normal and abnormal differ in degree (quantitative), not kind.",
+              "Rare childhood bipolar disorder, depression and schizophrenia use adult criteria.",
+              "Comorbidity is common, especially depression with conduct and anxiety disorders."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "For a child's behavioural problem to be considered a disorder, which condition must be met?",
+          "options": [
+            "The child must have been diagnosed by two different doctors",
+            "The child must be suffering or making others suffer",
+            "The behaviour must have started before age three",
+            "The behaviour must occur only at school"
+          ],
+          "answerIndex": 1,
+          "explanation": "The key test is suffering: the child's own, or that caused to others. Age of onset and setting vary from disorder to disorder."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The difference between normal and abnormal child behaviour is described as mainly:",
+          "options": [
+            "Qualitative",
+            "Cultural only",
+            "Genetic only",
+            "Quantitative"
+          ],
+          "answerIndex": 3,
+          "explanation": "Abnormal behaviour is usually a more frequent, intense or prolonged version of normal behaviour, so the difference is quantitative. Qualitative would mean a difference in kind."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Having more than one diagnosis at the same time is called:",
+          "options": [
+            "Comorbidity",
+            "Differential diagnosis",
+            "Prognosis",
+            "Aetiology"
+          ],
+          "answerIndex": 0,
+          "explanation": "Comorbidity means two or more disorders occurring together. Differential diagnosis is the separate process of telling similar disorders apart."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Depression in children is especially likely to co-occur with:",
+          "options": [
+            "Rett's disorder and stuttering",
+            "Enuresis and Tourette's disorder",
+            "Conduct disorder and anxiety disorders",
+            "Asperger's disorder and anorexia"
+          ],
+          "answerIndex": 2,
+          "explanation": "Depression commonly appears alongside conduct disorder and anxiety disorders. The other pairs are real childhood disorders but are not the classic comorbid partners of depression."
+        },
+        {
+          "difficulty": 2,
+          "stem": "When a child shows signs of schizophrenia, the clinician will usually:",
+          "options": [
+            "Apply the adult diagnostic criteria",
+            "Refuse to diagnose until the child turns 18",
+            "Diagnose a developmental disorder instead",
+            "Label it a normal developmental phase"
+          ],
+          "answerIndex": 0,
+          "explanation": "Schizophrenia is rare in childhood, and when it occurs the adult criteria are used. Waiting until 18 would deny the child needed treatment."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Vulnerability to some childhood disorders that is present at birth is most often traced to:",
+          "options": [
+            "Peer pressure and school stress",
+            "Genetic factors or prenatal complications",
+            "Poor teaching methods",
+            "Exposure to television"
+          ],
+          "answerIndex": 1,
+          "explanation": "Inborn vulnerability comes from genes or problems during pregnancy. Peer and school stress act after birth."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Mrs Danjuma reports that her four-year-old has a tantrum about once a fortnight when tired. A psychologist would most likely conclude that this is:",
+          "options": [
+            "A disruptive behaviour disorder",
+            "Comorbid depression",
+            "A sign of schizophrenia",
+            "Within normal variation for the child's age"
+          ],
+          "answerIndex": 3,
+          "explanation": "Occasional tantrums in preschoolers are common and not a disorder. It would become a concern if tantrums were frequent, prolonged or occurred in unusual circumstances."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Musa, 13, often skips school and breaks rules, and a psychologist believes this started after he became depressed and found that misbehaving got his busy parents' attention. This reasoning illustrates:",
+          "options": [
+            "A causal explanation of comorbidity",
+            "A qualitative difference between normal and abnormal",
+            "A prenatal complication",
+            "A developmental disorder"
+          ],
+          "answerIndex": 0,
+          "explanation": "It proposes that one disorder led to the other, which is the causal explanation for why disorders co-occur. Nothing in the case concerns prenatal events."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A ten-year-old who wets the bed most nights is assessed while his three-year-old sister, who does the same, is not. The best reason for this difference is that:",
+          "options": [
+            "Bedwetting is always a disorder in boys",
+            "The behaviour is judged against what is typical for each child's developmental stage",
+            "Girls never develop elimination disorders",
+            "Only children over ten can be diagnosed with anything"
+          ],
+          "answerIndex": 1,
+          "explanation": "Night-time wetting is expected at three but unusual at ten, so the same behaviour means different things at different ages. Sex is not the reason."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are part of the definition of a childhood disorder EXCEPT that the behaviour:",
+          "options": [
+            "Deviates from age and cultural expectations",
+            "Is persistent and severe",
+            "Interferes with development and daily functioning",
+            "Is never seen, even mildly, in well-adjusted children"
+          ],
+          "answerIndex": 3,
+          "explanation": "Mild versions of problem behaviours are found in well-adjusted children; the difference is one of degree. The other three are core parts of the definition."
+        },
+        {
+          "difficulty": 4,
+          "stem": "A student argues that since bipolar disorder was not listed among disorders first diagnosed in childhood, children can never have it. The best correction is that:",
+          "options": [
+            "Bipolar disorder is diagnosed only after age 40",
+            "It is uncommon in children, but when it appears the adult criteria are applied",
+            "It is a developmental disorder and listed under that heading",
+            "Children with bipolar symptoms are given a habit disorder diagnosis"
+          ],
+          "answerIndex": 1,
+          "explanation": "Absence from the childhood list means it is uncommon, not impossible; adult criteria are used when a child shows it. It is not classed as a developmental or habit disorder."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement about comorbidity in childhood disorders is most accurate?",
+          "options": [
+            "Researchers have firmly established why disorders occur together",
+            "It is rare for a child to meet criteria for more than one diagnosis",
+            "The reasons disorders cluster are not fully known; a causal link is one explanation",
+            "Comorbidity occurs only between developmental disorders"
+          ],
+          "answerIndex": 2,
+          "explanation": "Many children have more than one diagnosis, and why disorders cluster is still debated, with a causal link as one possibility. It is neither rare nor fully explained."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider: I. Abnormal child behaviour differs from normal behaviour mainly in degree. II. Schizophrenia vulnerability can be influenced by genetic factors and prenatal complications. III. A behaviour that only makes others suffer can never be a disorder. Which are correct?",
+          "options": [
+            "I and III only",
+            "II and III only",
+            "I, II and III",
+            "I and II only"
+          ],
+          "answerIndex": 3,
+          "explanation": "I and II are correct. III is wrong because the definition explicitly includes behaviour that makes others suffer, even if the child is untroubled."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A clinician sees a 7-year-old whose tantrums occur daily, last over an hour, happen even in church and have continued for two years. Which combination of features most strongly justifies concern?",
+          "options": [
+            "Frequency, intensity, unusual setting and duration",
+            "The child's sex and birth order",
+            "The fact that tantrums occur at all",
+            "The parents' level of education"
+          ],
+          "answerIndex": 0,
+          "explanation": "Since tantrums are normal in small doses, what matters is degree: how often, how intense, in what circumstances and for how long. The mere presence of tantrums is not abnormal."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A lecturer says, 'A child disorder is defined relative to the child, not to an adult yardstick.' Which pair of ideas from this section best supports the statement?",
+          "options": [
+            "Comorbidity and the causal explanation",
+            "Prenatal complications and genetic vulnerability",
+            "Age and cultural expectations, and developmental stage",
+            "Adult criteria for schizophrenia and bipolar disorder"
+          ],
+          "answerIndex": 2,
+          "explanation": "Judging behaviour against what is expected for the child's age, culture and stage places the yardstick in the child's own development. Using adult criteria is the exception, applied to rare adult-type illnesses."
+        }
+      ]
+    },
+    {
+      "name": "Why diagnosing children is tricky",
+      "lesson": {
+        "title": "Four reasons children are hard to diagnose",
+        "minutes": 9,
+        "hook": "An adult with anxiety can walk into a clinic and say, 'I can't stop worrying.' A seven-year-old with the same problem may just start kicking classmates. How is a psychologist meant to read that?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Development never stands still",
+            "body": "Diagnosing children is mostly about weighing **maturational change** and **experience**. A child's abilities are constantly evolving: language, memory and concentration all grow.\n\n**Impulse control** improves dramatically through childhood, and in the teenage years **abstract reasoning** begins to approach adult levels. So a lapse that is normal at six may be a red flag at sixteen. The clinician is always aiming at a moving target.",
+            "visual": {
+              "type": "flow",
+              "nodes": ["Early childhood", "Middle childhood", "Adolescence", "Near-adult reasoning"]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Who notices first",
+            "body": "Early signs of childhood disorders are usually picked up not by psychologists but by **parents**, **primary care doctors** and **teachers**, the adults who see the child every day.\n\nThis makes their observations precious, but also means diagnosis depends on how those adults interpret what they see.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                { "icon": "home", "label": "Parents" },
+                { "icon": "medkit", "label": "Family doctor" },
+                { "icon": "school", "label": "Teachers" }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Why childhood onset is so costly",
+            "body": "We picture childhood as carefree, but it can be frightening. Children everywhere face some emotional and behavioural difficulties as they meet new people and situations.\n\nWhen a disorder interrupts development, the child **misses experiences** needed for psychological growth: making friends, learning in class, building confidence. A teenager who spent years withdrawn may lag in social skills even after recovering. That is why early identification matters so much.",
+            "visual": {
+              "type": "stat",
+              "value": "Lost experiences",
+              "label": "The hidden cost of early disorder"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Why is the onset of a mental disorder in childhood considered especially serious?",
+            "options": [
+              "Children cannot be treated for mental disorders",
+              "It can deprive the child of experiences needed for psychological growth",
+              "Childhood disorders always last for life",
+              "Children feel no emotional pain"
+            ],
+            "answerIndex": 1,
+            "why": "Disorder interrupts development, so the child misses important growth experiences. Many childhood disorders do improve, so 'always lifelong' is wrong."
+          },
+          {
+            "kind": "steps",
+            "heading": "Four unique challenges",
+            "steps": [
+              { "title": "Different rates", "detail": "Children develop at different speeds, so a slow developer can be mistaken for a disordered one." },
+              { "title": "Less predictable", "detail": "Children change quickly, so it is hard to tell whose problems will persist." },
+              { "title": "Limited communication", "detail": "Children cannot easily describe problems; distress may show up as disruptive behaviour." },
+              { "title": "Situation-specific", "detail": "Problems may appear in one setting, such as home, but not another, such as school." }
+            ]
+          },
+          {
+            "kind": "teach",
+            "heading": "Different rates, less predictable",
+            "body": "**First**, normal development runs at **different rates** for different children. A child who talks late may simply be on a slower timetable, or may have a language disorder. Telling a genuine problem from a temporary stage is hard.\n\n**Second**, childhood problems are **less predictable** than adult ones. Children can change dramatically in months, so it is difficult to know which ones will develop lasting problems and which will move on.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Slow but normal",
+              "right": "Genuine disorder",
+              "marker": 50,
+              "label": "Hard to call"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Limited communication and adult judgement",
+            "body": "**Third**, children cannot explain problems as adults do. A child's distress may come out **indirectly**, through disruptive behaviour.\n\nAdults then make two opposite mistakes. Some **mislabel a normal phase** as a psychological problem. Others **ignore real problems**, assuming the child will grow out of them. Adults also simply **differ** in how they see the same behaviour: what one parent calls 'lively', another calls 'uncontrollable'.",
+            "visual": {
+              "type": "compare_placeholder",
+              "left": "",
+              "right": ""
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Two opposite adult errors",
+            "left": {
+              "title": "Over-labelling",
+              "points": [
+                "Treats a normal phase as a disorder",
+                "Example: calling a toddler's 'no' stage defiance disorder",
+                "Risks needless worry and stigma"
+              ]
+            },
+            "right": {
+              "title": "Under-reacting",
+              "points": [
+                "Dismisses a real problem",
+                "Example: 'He will grow out of it'",
+                "Delays help the child needs"
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Zainab at home and at school",
+            "story": "Zainab, 8, hits her younger brothers and throws things at home in Kaduna, and her father is at his wits' end. Her teacher is shocked to hear it: at school Zainab is calm, quiet and helpful. Meanwhile her classmate Sola is described by one teacher as 'restless' and by another as 'full of energy'.",
+            "takeaway": "Children's problems can be tied to particular settings, and adults may describe the same behaviour very differently."
+          },
+          {
+            "kind": "check",
+            "question": "A teacher complains that a pupil is overactive, but the child is calm during one-to-one lessons at home. This best illustrates which unique aspect of childhood problems?",
+            "options": [
+              "Different rates of development",
+              "Situation-specific problems",
+              "Lower predictability",
+              "Prenatal vulnerability"
+            ],
+            "answerIndex": 1,
+            "why": "The behaviour appears in one context but not another, so the problem is situation-specific. Different rates of development concerns timing of milestones, not settings."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "A common essay asks for the unique difficulties in diagnosing childhood disorders. Students often list only 'children cannot talk' and stop. Give all four: different developmental rates, lower predictability, limited communication (with both adult errors) and situation-specific problems. Scenario questions test which aspect a case shows.",
+            "sampleQuestion": "Discuss four features that make the diagnosis of psychological problems in children different from diagnosis in adults.",
+            "howToAnswer": "Explain different rates of development, lower predictability, children's limited ability to communicate (with mislabelling and ignoring by adults), and situation-specific problems, each with a brief example.",
+            "scholars": ["Seligman, Walker & Rosenhan (2001)", "Phares (2003)"]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Diagnosis must weigh constant maturational change: impulse control and reasoning keep growing.",
+              "Parents, family doctors and teachers usually spot early signs.",
+              "Disorder in childhood can rob a child of growth experiences.",
+              "Four challenges: different rates, low predictability, limited communication, situation-specific problems.",
+              "Adults may mislabel normal phases or ignore genuine problems."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Early signs of childhood disorders are usually first recognised by:",
+          "options": [
+            "Psychiatrists in specialist hospitals",
+            "Parents, family doctors and teachers",
+            "The child, who reports symptoms directly",
+            "Researchers conducting surveys"
+          ],
+          "answerIndex": 1,
+          "explanation": "The adults who see the child every day, parents, primary care doctors and teachers, usually notice first. Children rarely report their own symptoms clearly."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which ability is described as approaching adult levels during the teenage years?",
+          "options": [
+            "Abstract reasoning",
+            "Reflexive sucking",
+            "Object permanence",
+            "Basic motor control"
+          ],
+          "answerIndex": 0,
+          "explanation": "Abstract reasoning develops strongly in adolescence and nears adult levels. Object permanence and reflexes belong to infancy."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which of these is NOT one of the unique difficulties in diagnosing childhood problems?",
+          "options": [
+            "Children develop at different rates",
+            "Children's problems are less predictable than adults'",
+            "Children always describe their feelings accurately",
+            "Children's problems can be specific to certain situations"
+          ],
+          "answerIndex": 2,
+          "explanation": "The difficulty is the opposite: children often cannot communicate problems easily. The other three are genuine challenges."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Childhood psychological problems are said to be 'less predictable' than adult disorders because:",
+          "options": [
+            "Children's problems never persist",
+            "Children can change dramatically within a short period",
+            "There are no diagnostic manuals for children",
+            "Adults hide their symptoms more than children"
+          ],
+          "answerIndex": 1,
+          "explanation": "Rapid change makes it hard to know which children will have lasting problems. Some childhood problems do persist, so 'never persist' is wrong."
+        },
+        {
+          "difficulty": 2,
+          "stem": "When a child's distress shows up as fighting or rule-breaking rather than words, it illustrates that:",
+          "options": [
+            "Distress may be expressed indirectly through disruptive behaviour",
+            "The child has no emotional problem",
+            "The problem is purely genetic",
+            "The child is developing faster than peers"
+          ],
+          "answerIndex": 0,
+          "explanation": "Children with limited ability to describe feelings may show distress through behaviour. Disruptive behaviour can hide an emotional problem rather than prove there is none."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The main reason impulse control matters in diagnosing children is that it:",
+          "options": [
+            "Is fully developed at birth",
+            "Never changes after age five",
+            "Is the only symptom of every disorder",
+            "Improves greatly across childhood, so expectations change with age"
+          ],
+          "answerIndex": 3,
+          "explanation": "Because impulse control keeps improving, impulsive behaviour must be judged against age. It is certainly not fully formed at birth or fixed at five."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Mr Oyelaran refuses to take his withdrawn, tearful son for help, saying, 'All boys pass through this; he will grow out of it.' The risk in this attitude is that:",
+          "options": [
+            "The child will be over-labelled with a disorder",
+            "A genuine problem needing professional help may be ignored",
+            "The child will develop faster than peers",
+            "The child will become more predictable"
+          ],
+          "answerIndex": 1,
+          "explanation": "Assuming a child will grow out of a problem can delay needed help. Over-labelling is the opposite error, treating a normal phase as a disorder."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Two children of the same age differ: one speaks full sentences, the other only single words, yet both later develop normally. This illustrates:",
+          "options": [
+            "Situation-specific problems",
+            "Comorbidity",
+            "Different rates of normal development",
+            "Indirect expression of distress"
+          ],
+          "answerIndex": 2,
+          "explanation": "Normal development proceeds at different speeds, making it hard to separate slow-but-normal from disordered. The case has nothing to do with setting or co-occurring disorders."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A pupil is described by her class teacher as 'disruptive and hyperactive' but by her Islamic studies teacher as 'lively and attentive'. Which point does this best support?",
+          "options": [
+            "Adults differ in how they perceive the same child's behaviour",
+            "Children always communicate well",
+            "Disorders are present from birth",
+            "Abnormal and normal behaviour differ in kind"
+          ],
+          "answerIndex": 0,
+          "explanation": "Different adults interpret behaviour differently, which affects referral and diagnosis. Context may also differ between the two classes, but the point here is adult perception."
+        },
+        {
+          "difficulty": 4,
+          "stem": "A parent takes her two-year-old for assessment because he keeps saying 'No!' to everything. A clinician would see the main risk here as:",
+          "options": [
+            "Ignoring a genuine disorder",
+            "Mislabelling a normal developmental phase as a psychological problem",
+            "Situation-specific aggression",
+            "Low predictability of adult disorders"
+          ],
+          "answerIndex": 1,
+          "explanation": "Saying 'no' a lot is typical of toddlers asserting independence, so calling it a disorder is over-labelling. Ignoring a disorder would be the opposite error."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pairing of challenge and example is correct?",
+          "options": [
+            "Situation-specific problems – a child who talks later than siblings",
+            "Different rates of development – a child aggressive only at home",
+            "Limited communication – an anxious child who expresses fear through tantrums",
+            "Low predictability – a child calm at school but aggressive at home"
+          ],
+          "answerIndex": 2,
+          "explanation": "Expressing fear through tantrums reflects limited ability to communicate distress. The other pairs mismatch: aggression in only one setting is situation-specific, and late talking reflects different rates."
+        },
+        {
+          "difficulty": 4,
+          "stem": "A clinician hesitates to predict that a six-year-old's fearfulness will become a lifelong anxiety disorder. This caution is best justified by:",
+          "options": [
+            "The rapid change that makes childhood problems less predictable",
+            "The fact that children cannot have anxiety disorders",
+            "The rule that childhood disorders always disappear by adolescence",
+            "The child's genetic make-up"
+          ],
+          "answerIndex": 0,
+          "explanation": "Children change quickly, so persistence is hard to forecast. Some childhood problems do persist, so 'always disappear' is false."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider: I. A child may be aggressive at home but not at school. II. Adults sometimes ignore real problems expecting the child to outgrow them. III. Normal development proceeds at the same rate for all children. Which are correct?",
+          "options": [
+            "I and III only",
+            "I and II only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 1,
+          "explanation": "I and II are correct. III is false: different rates of normal development are exactly what make diagnosis hard."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A psychologist insists on reports from both parents and the teacher, and on observing the child in two settings, before diagnosing. Which two challenges is she guarding against?",
+          "options": [
+            "Comorbidity and prenatal vulnerability",
+            "Low predictability and genetic risk",
+            "Different rates of development and impulse control",
+            "Differences in adult perception and situation-specific behaviour"
+          ],
+          "answerIndex": 3,
+          "explanation": "Multiple informants reduce the effect of one adult's perception, and multiple settings capture behaviour that is context-bound. Neither step addresses genetics or comorbidity."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which statement about the two opposite adult errors in judging children's behaviour is most accurate?",
+          "options": [
+            "Both errors lead to faster treatment",
+            "Only over-labelling causes harm, because ignoring problems is harmless",
+            "Over-labelling risks needless stigma, while dismissing problems delays needed help",
+            "Both errors arise because children communicate too well"
+          ],
+          "answerIndex": 2,
+          "explanation": "Treating a normal phase as disorder can create worry and stigma; ignoring a real problem denies timely help. Both errors are made worse because children communicate poorly, not too well."
+        }
+      ]
+    },
+    {
+      "name": "Four clusters of childhood disorders",
+      "lesson": {
+        "title": "Sorting childhood disorders into four families",
+        "minutes": 10,
+        "hook": "Your manual lists 'Asperger's disorder', 'Rett's disorder' and 'mental retardation'. Write those names in a clinic today and a colleague may correct you. Here is the classic map, and how DSM-5 redrew it.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Four broad families",
+            "body": "Children's problems can be grouped into four broad areas:\n\n**Emotional disorders**: problems of feeling, such as fear and sadness.\n**Developmental disorders**: problems in how core abilities unfold.\n**Eating and habit disorders**: problems with eating, elimination, speech and tics.\n**Disruptive behaviour disorders**: problems of conduct and attention that affect others.\n\nThis grouping comes from the DSM-IV era but is still a useful teaching map.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                { "icon": "sad", "label": "Emotional" },
+                { "icon": "layers", "label": "Developmental" },
+                { "icon": "repeat", "label": "Eating & habit" },
+                { "icon": "flash", "label": "Disruptive" }
+              ]
+            }
+          },
+          {
+            "kind": "terms",
+            "heading": "Emotional disorders",
+            "terms": [
+              { "term": "Reactive attachment disorder", "meaning": "Failure to form normal attachments after severe neglect; appears before about age 5." },
+              { "term": "Separation anxiety", "meaning": "Excessive fear of being apart from attachment figures; from the preschool years onward." },
+              { "term": "Phobias", "meaning": "Intense, irrational fears of specific objects or situations; age of onset depends on the type." },
+              { "term": "Childhood depression", "meaning": "Persistent low or irritable mood and loss of interest; can occur at any age in childhood." }
+            ]
+          },
+          {
+            "kind": "terms",
+            "heading": "Developmental disorders (old names)",
+            "terms": [
+              { "term": "Autistic disorder", "meaning": "Impaired social communication and restricted, repetitive behaviour, evident by about age 3. (The manual misprints it as 'artistic'.)" },
+              { "term": "Rett's disorder", "meaning": "Regression after early normal development, mostly in girls, from infancy to about age 4." },
+              { "term": "Childhood disintegrative disorder", "meaning": "Marked loss of skills after at least two years of normal development, often around ages 3 to 4." },
+              { "term": "Asperger's disorder", "meaning": "Social difficulties and narrow interests without language delay; noticed in the preschool years." },
+              { "term": "Mental retardation and learning disorders", "meaning": "Limited intellectual functioning, or specific academic difficulties; onset varies by subtype." }
+            ]
+          },
+          {
+            "kind": "check",
+            "question": "In the four-cluster scheme, reactive attachment disorder belongs with:",
+            "options": [
+              "Developmental disorders",
+              "Disruptive behaviour disorders",
+              "Emotional disorders",
+              "Eating and habit disorders"
+            ],
+            "answerIndex": 2,
+            "why": "It is grouped with separation anxiety, phobias and depression as an emotional disorder. Students often place it with developmental disorders because it starts so early."
+          },
+          {
+            "kind": "teach",
+            "heading": "Eating and habit disorders",
+            "body": "This cluster gathers problems of eating and of bodily habits:\n\n**Anorexia nervosa** (self-starvation) and **bulimia nervosa** (binge eating and purging) usually begin in adolescence, bulimia typically late adolescence.\n**Elimination disorders**, such as **enuresis** (repeated wetting), are diagnosed from about age 5.\n**Speech disorders** such as **stuttering** usually start between 2 and 7.\n**Tourette's disorder**, with motor and vocal tics, begins in childhood, before 18.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                { "icon": "fitness", "label": "Eating" },
+                { "icon": "home", "label": "Elimination" },
+                { "icon": "chatbubbles", "label": "Speech" },
+                { "icon": "flash", "label": "Tics" }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Disruptive behaviour disorders",
+            "body": "**Conduct disorder** involves serious violation of others' rights and social rules, such as aggression, theft or destruction; the manual's table places it between about 5 and 16 years.\n\n**Oppositional defiant disorder (ODD)** is a pattern of angry, argumentative, defiant behaviour, usually appearing before age 8. (The manual's table runs these two together, but they are separate diagnoses.)\n\n**ADHD**, marked by inattention, hyperactivity and impulsivity, is usually identified in **primary school**.",
+            "visual": {
+              "type": "flow",
+              "nodes": ["ODD (early)", "Conduct disorder", "ADHD (primary school)"]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "A child is first assessed at age 6 for wetting the bed most nights. Under the four-cluster scheme, this is a(n):",
+            "options": [
+              "Emotional disorder",
+              "Eating and habit disorder",
+              "Developmental disorder",
+              "Disruptive behaviour disorder"
+            ],
+            "answerIndex": 1,
+            "why": "Enuresis is an elimination disorder, grouped with eating, speech and tic problems. It is diagnosed from about age 5, so a six-year-old qualifies."
+          },
+          {
+            "kind": "example",
+            "heading": "Updating Dr Adebayo's notes",
+            "story": "Dr Adebayo trained in the 1990s and still writes 'Asperger's' and 'mental retardation' in her files at a Lagos clinic. A young colleague gently points out that DSM-5 now uses **autism spectrum disorder** and **intellectual disability**. They agree to use the new terms, which are both more accurate and more respectful to families.",
+            "takeaway": "Know the manual's older labels for exams, but use current DSM-5 terms in practice and in essays where you can."
+          },
+          {
+            "kind": "teach",
+            "heading": "How DSM-5 (2013) redrew the map",
+            "body": "**Autistic disorder, Asperger's disorder and childhood disintegrative disorder** were merged into one diagnosis: **autism spectrum disorder**. **Rett's disorder** was removed, since it is now known as a genetic condition.\n\n**Mental retardation** became **intellectual disability** (intellectual developmental disorder). **ADHD** moved into the new **neurodevelopmental disorders** chapter, along with autism, tic disorders such as Tourette's, and communication disorders. **Stuttering** is now **childhood-onset fluency disorder**.",
+            "visual": {
+              "type": "flow",
+              "nodes": ["Autistic disorder", "Asperger's", "CDD", "Autism spectrum disorder"]
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Old label versus DSM-5 label",
+            "left": {
+              "title": "DSM-IV (manual)",
+              "points": [
+                "Asperger's disorder",
+                "Mental retardation",
+                "Stuttering",
+                "Disorders first diagnosed in childhood"
+              ]
+            },
+            "right": {
+              "title": "DSM-5 (current)",
+              "points": [
+                "Autism spectrum disorder",
+                "Intellectual disability",
+                "Childhood-onset fluency disorder",
+                "Lifespan chapters, e.g. neurodevelopmental disorders"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Under DSM-5, a child who would once have been diagnosed with Asperger's disorder would now most likely receive a diagnosis of:",
+            "options": [
+              "Social phobia",
+              "Intellectual disability",
+              "Childhood disintegrative disorder",
+              "Autism spectrum disorder"
+            ],
+            "answerIndex": 3,
+            "why": "DSM-5 folded Asperger's, autistic disorder and childhood disintegrative disorder into autism spectrum disorder. CDD no longer exists as a separate diagnosis either."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'mention ten childhood disorders', sorting disorders into the four clusters, and matching disorders with typical age of onset. Traps: placing reactive attachment disorder or Tourette's in the wrong cluster, and forgetting that enuresis is diagnosed from about age 5. Showing you know the DSM-5 names earns credit, but answer within the cluster scheme when asked.",
+            "sampleQuestion": "Which of the following is correctly matched? A. Tourette's disorder – disruptive behaviour B. Separation anxiety – developmental C. Enuresis – eating and habit D. Rett's disorder – emotional",
+            "howToAnswer": "C is correct: enuresis is an elimination disorder in the eating and habit cluster. Tourette's is also eating and habit, separation anxiety is emotional and Rett's is developmental.",
+            "scholars": ["American Psychiatric Association, DSM-IV-TR (2000)", "American Psychiatric Association, DSM-5 (2013)"]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Four clusters: emotional, developmental, eating and habit, disruptive behaviour.",
+              "Emotional: reactive attachment, separation anxiety, phobias, depression.",
+              "Developmental: autism, Rett's, CDD, Asperger's, intellectual and learning disorders.",
+              "Eating and habit: anorexia, bulimia, enuresis, stuttering, Tourette's; disruptive: CD, ODD, ADHD.",
+              "DSM-5 merged autism diagnoses, renamed mental retardation and created neurodevelopmental disorders."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Which of the following is NOT one of the four broad clusters of childhood disorders?",
+          "options": [
+            "Emotional disorders",
+            "Personality disorders",
+            "Developmental disorders",
+            "Disruptive behaviour disorders"
+          ],
+          "answerIndex": 1,
+          "explanation": "The four clusters are emotional, developmental, eating and habit, and disruptive behaviour disorders. Personality disorders are generally not diagnosed in childhood."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Attention-deficit/hyperactivity disorder (ADHD) is placed in which cluster?",
+          "options": [
+            "Disruptive behaviour disorders",
+            "Emotional disorders",
+            "Eating and habit disorders",
+            "Developmental disorders"
+          ],
+          "answerIndex": 0,
+          "explanation": "In the four-cluster scheme, ADHD sits with conduct disorder and ODD. DSM-5 later moved it into the neurodevelopmental chapter, but the manual's table lists it as disruptive."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Phobias, separation anxiety and childhood depression all belong to the cluster of:",
+          "options": [
+            "Developmental disorders",
+            "Disruptive behaviour disorders",
+            "Emotional disorders",
+            "Eating and habit disorders"
+          ],
+          "answerIndex": 2,
+          "explanation": "These are problems of feeling (fear and sadness), so they are emotional disorders. Developmental disorders involve how core abilities unfold."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Tourette's disorder is classified in the four-cluster scheme as a(n):",
+          "options": [
+            "Emotional disorder",
+            "Disruptive behaviour disorder",
+            "Developmental disorder",
+            "Eating and habit disorder"
+          ],
+          "answerIndex": 3,
+          "explanation": "Tourette's, with its motor and vocal tics, is grouped with habit problems such as stuttering and enuresis. Its outbursts tempt students to call it disruptive, a common trap."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Rett's disorder and childhood disintegrative disorder both belong to which cluster?",
+          "options": [
+            "Developmental disorders",
+            "Emotional disorders",
+            "Eating and habit disorders",
+            "Disruptive behaviour disorders"
+          ],
+          "answerIndex": 0,
+          "explanation": "Both involve loss of skills after a period of normal development, so they are developmental disorders. Neither is mainly a problem of mood or conduct."
+        },
+        {
+          "difficulty": 2,
+          "stem": "In DSM-5, the term 'mental retardation' was replaced by:",
+          "options": [
+            "Specific learning disorder",
+            "Global developmental delay only",
+            "Intellectual disability",
+            "Autism spectrum disorder"
+          ],
+          "answerIndex": 2,
+          "explanation": "DSM-5 uses intellectual disability (intellectual developmental disorder). Specific learning disorder is a separate diagnosis for difficulties in reading, writing or mathematics."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Kunle, 4, repeats sounds and syllables ('b-b-b-ball') when excited, a pattern that started at age 3. In the four-cluster scheme, his problem is most likely a(n):",
+          "options": [
+            "Developmental disorder",
+            "Eating and habit disorder",
+            "Emotional disorder",
+            "Disruptive behaviour disorder"
+          ],
+          "answerIndex": 1,
+          "explanation": "Stuttering is a speech disorder grouped with eating and habit problems, typically starting between 2 and 7. DSM-5 calls it childhood-onset fluency disorder."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A seven-year-old in a Kano primary school constantly argues with adults, deliberately annoys others and refuses rules, but does not steal or hurt anyone. The best fit is:",
+          "options": [
+            "Conduct disorder",
+            "ADHD",
+            "Reactive attachment disorder",
+            "Oppositional defiant disorder"
+          ],
+          "answerIndex": 3,
+          "explanation": "Angry, argumentative, defiant behaviour without serious violation of others' rights fits ODD, which typically starts before 8. Conduct disorder involves aggression, theft or destruction."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A 16-year-old girl secretly eats large amounts of food and then makes herself vomit. Which disorder and cluster fit best?",
+          "options": [
+            "Bulimia nervosa – eating and habit disorders",
+            "Anorexia nervosa – emotional disorders",
+            "Bulimia nervosa – emotional disorders",
+            "Enuresis – eating and habit disorders"
+          ],
+          "answerIndex": 0,
+          "explanation": "Binge eating followed by purging is bulimia nervosa, grouped under eating and habit disorders and usually starting in adolescence. Anorexia involves self-starvation and low weight."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair of disorder and typical onset is correctly matched, according to the cluster table?",
+          "options": [
+            "Enuresis – diagnosed from about age 2",
+            "Reactive attachment disorder – from birth to about age 5",
+            "Bulimia nervosa – early childhood",
+            "Oppositional defiant disorder – late adolescence"
+          ],
+          "answerIndex": 1,
+          "explanation": "Reactive attachment disorder appears between birth and about 5. Enuresis is diagnosed from about age 5, bulimia typically begins in late adolescence and ODD usually appears before 8."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following were merged into autism spectrum disorder in DSM-5 EXCEPT:",
+          "options": [
+            "Autistic disorder",
+            "Asperger's disorder",
+            "Rett's disorder",
+            "Childhood disintegrative disorder"
+          ],
+          "answerIndex": 2,
+          "explanation": "Rett's disorder was removed from DSM-5 rather than merged, since it is now understood as a genetic condition. The other three were combined into autism spectrum disorder."
+        },
+        {
+          "difficulty": 4,
+          "stem": "A student's script lists 'artistic disorder' under developmental disorders. The examiner should recognise this as:",
+          "options": [
+            "A creative-arts learning disorder",
+            "A misprint for autistic disorder",
+            "A type of emotional disorder",
+            "A habit disorder involving drawing"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Artistic disorder' in the manual's table is a misprint for autistic disorder, which starts in the first three years. There is no recognised 'artistic' disorder."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider: I. ADHD is in the disruptive cluster of the classic table but in the neurodevelopmental chapter of DSM-5. II. Separation anxiety is a developmental disorder. III. Enuresis is an elimination disorder in the eating and habit cluster. Which are correct?",
+          "options": [
+            "I and II only",
+            "I and III only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 1,
+          "explanation": "I and III are correct. Separation anxiety is an emotional disorder, not a developmental one."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which set contains disorders from exactly one cluster only?",
+          "options": [
+            "Phobias, Tourette's disorder, childhood depression",
+            "Rett's disorder, ADHD, Asperger's disorder",
+            "Anorexia nervosa, stuttering, conduct disorder",
+            "Anorexia nervosa, enuresis, Tourette's disorder"
+          ],
+          "answerIndex": 3,
+          "explanation": "Anorexia, enuresis and Tourette's are all eating and habit disorders. Each other set mixes in one disorder from another cluster: Tourette's, ADHD and conduct disorder respectively."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A clinician diagnoses a 6-year-old with an elimination disorder, ADHD and separation anxiety. In the four-cluster scheme, the child's problems span:",
+          "options": [
+            "Eating and habit, disruptive behaviour and emotional clusters",
+            "Developmental, emotional and disruptive clusters",
+            "Eating and habit cluster only",
+            "Emotional and developmental clusters only"
+          ],
+          "answerIndex": 0,
+          "explanation": "Elimination disorders are eating and habit, ADHD is disruptive and separation anxiety is emotional, so three clusters are involved. None of the three is a developmental disorder in the scheme."
+        }
+      ]
+    }
+  ]
+}

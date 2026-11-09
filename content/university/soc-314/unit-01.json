@@ -1,0 +1,1805 @@
+{
+  "unit": 1,
+  "title": "General Introduction to the Study of Social Problems",
+  "summary": "What makes a condition a social problem, how sociologists measure and recognise one, and the main theories used to explain social problems.",
+  "sections": [
+    {
+      "name": "What is a social problem?",
+      "lesson": {
+        "title": "When a condition becomes a social problem",
+        "minutes": 10,
+        "hook": "Potholes, fuel queues, kidnapping, examination malpractice: Nigerians complain about all of them. But why do sociologists call some of these 'social problems' and not others?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Why the definition is contested",
+            "body": "Like most ideas in sociology, **social problem** has no single agreed definition. Each scholar looks at society through a particular lens, so each stresses different things.\n\nStill, if you set the definitions side by side, the same few ingredients keep appearing. Your job in this course is to know the main definitions, who gave them, and the shared ingredients underneath them. Lecturers love to test all three.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "search",
+                  "label": "Many lenses"
+                },
+                {
+                  "icon": "chatbubbles",
+                  "label": "Many definitions"
+                },
+                {
+                  "icon": "checkmark-circle",
+                  "label": "Shared ingredients"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The broad working picture",
+            "body": "Before the textbook definitions, here is the general picture. A social problem is:\n\n- **widespread**, not confined to one household;\n- a source of **intense, shared worry**;\n- a **threat** to the well-being, health, survival or prosperity of society;\n- something that calls for **social action**, usually including a response from government and community leaders.\n\nNotice the last point. A painful condition that nobody expects society to act on rarely gets the label.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Widespread condition",
+                "Shared worry",
+                "Seen as threat",
+                "Collective response"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Kornblum and Julian (1995)",
+            "body": "Kornblum and Julian put the emphasis on **agreement**. Society has defined something as a social problem when most of its members accept two things together:\n\n1. a condition exists that endangers their lives and the values they hold most dear; and\n2. something ought to be done to correct it.\n\nBoth parts matter. People may agree a condition is bad, yet if they see no point in acting, it has not yet been defined as a social problem.",
+            "visual": {
+              "type": "venn",
+              "left": "Threat to values",
+              "right": "Will to act",
+              "both": "Social problem"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "On Kornblum and Julian's view, which pair of conditions must hold before society defines something as a social problem?",
+            "options": [
+              "Experts measure it and the courts rule on it",
+              "It harms the economy and it is illegal",
+              "Most people see it as a threat to cherished values and agree it should be remedied",
+              "The media report it and government funds research on it"
+            ],
+            "answerIndex": 2,
+            "why": "Their definition joins popular agreement that a condition threatens life and values with agreement that remedy is needed. Illegality and media coverage are not part of it."
+          },
+          {
+            "kind": "teach",
+            "heading": "Horton, Leslie and Larson (1991)",
+            "body": "Horton, Leslie and Larson describe a social problem as a condition that touches a **significant number of people** in ways regarded as **undesirable**, where people feel it should be tackled through **collective or social action**.\n\nThree tests sit inside that sentence: *how many* are affected, *how* the condition is judged, and *what kind* of remedy is expected. A remedy that each person applies privately does not meet the third test.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "people",
+                  "label": "Many affected"
+                },
+                {
+                  "icon": "close-circle",
+                  "label": "Judged undesirable"
+                },
+                {
+                  "icon": "hand-left",
+                  "label": "Collective remedy"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Aderinto (2002): the fuller definition",
+            "body": "The manual treats **Aderinto (2002)** as the most inclusive definition. A social problem exists when people perceive an **undesirable gap between social ideals and social realities**, and believe **collective action** can close that gap.\n\nThe clever part is *who* must perceive it: either a **large number of people**, or a **small number of important (powerful) people**. A handful of influential leaders can put an issue on the national agenda even before the public takes notice.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Social ideal",
+                "Perceived gap",
+                "Social reality",
+                "Collective action"
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "When a few voices are enough",
+            "story": "For years, many people in a northern city saw children begging with bowls as a normal sight. Then a governor, a respected emir and several clerics began to speak about it on radio, calling it a failure of care. Within months there were committees, a state law and a school feeding plan. Most residents had not changed their minds yet, but a few weighty voices had defined the problem.",
+            "takeaway": "Aderinto's 'small number of significant people' can turn a condition into a recognised social problem."
+          },
+          {
+            "kind": "check",
+            "question": "What does Aderinto's definition add that a purely 'majority' definition misses?",
+            "options": [
+              "That social problems must be illegal",
+              "That a few powerful people can also define a problem",
+              "That natural disasters are social problems",
+              "That only government can perceive a problem"
+            ],
+            "answerIndex": 1,
+            "why": "Aderinto allows either many people or a few significant people to do the perceiving. That brings power into the definition, which a simple head-count misses."
+          },
+          {
+            "kind": "terms",
+            "heading": "Ingredients shared by the definitions",
+            "terms": [
+              {
+                "term": "Significant number",
+                "meaning": "Enough people are affected or concerned for it to be more than a private matter"
+              },
+              {
+                "term": "Significant people",
+                "meaning": "Powerful or influential persons whose concern carries special weight"
+              },
+              {
+                "term": "Undesirable condition",
+                "meaning": "Something judged harmful when measured against shared values"
+              },
+              {
+                "term": "Collective action",
+                "meaning": "A remedy pursued together, often through government and at public expense"
+              },
+              {
+                "term": "Social engineering",
+                "meaning": "Deliberate, planned intervention to change social conditions"
+              }
+            ]
+          },
+          {
+            "kind": "teach",
+            "heading": "A generic, umbrella term",
+            "body": "In summary, 'social problem' is an **umbrella term**. It covers conditions and abnormal behaviours that are taken as signs of **social disorganisation**, and that people believe should be changed through planned intervention.\n\nThe manual groups the usual cases into two families: **deviant behaviours** and **social conflicts**. Keep both in mind, because exam questions often ask you to classify an example.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Private misfortune",
+              "right": "Social disorganisation",
+              "marker": 85,
+              "label": "Where social problems sit"
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Two families of social problems",
+            "left": {
+              "title": "Deviant behaviours",
+              "points": [
+                "Crime",
+                "Prostitution",
+                "Suicide",
+                "Drug abuse and addiction"
+              ]
+            },
+            "right": {
+              "title": "Social conflicts",
+              "points": [
+                "Ethnic and religious tension",
+                "Domestic violence",
+                "Industrial (labour) conflict"
+              ]
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Definitions are examined by attribution and by key phrase. The trap is mixing up who said what: students give Aderinto's 'ideals versus realities' gap to Horton and Leslie, or forget that Aderinto lets a few powerful people define a problem. Learn each scholar's signature idea.",
+            "sampleQuestion": "'A social problem exists only when the majority of citizens say so.' Using at least three definitions, assess this statement.",
+            "howToAnswer": "Present Kornblum and Julian (majority agreement), Horton, Leslie and Larson (significant number, collective action) and Aderinto (many people or a few significant people). Conclude that Aderinto shows the statement is too narrow, because powerful minorities can also define problems.",
+            "scholars": [
+              "Kornblum & Julian (1995)",
+              "Horton, Leslie & Larson (1991)",
+              "Aderinto (2002)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "There is no single definition, but the definitions share core ingredients.",
+              "Kornblum and Julian: majority agreement on a threat plus a will to remedy it.",
+              "Horton, Leslie and Larson: many affected, judged undesirable, collective remedy.",
+              "Aderinto: a perceived gap between ideals and realities, seen by many or by a powerful few.",
+              "Social problems include deviant behaviours and social conflicts."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Which of these features is common to almost every sociological definition of a social problem?",
+          "options": [
+            "It affects only the poor",
+            "It is believed to call for collective action",
+            "It is always caused by government",
+            "It is always against the law"
+          ],
+          "answerIndex": 1,
+          "explanation": "Every major definition expects a collective or social remedy. Many social problems are not illegal and they cut across classes, so the other options fail."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The definition of a social problem as a perceived undesirable gap between social ideals and social realities is credited to:",
+          "options": [
+            "Kornblum and Julian (1995)",
+            "Lauer (2002)",
+            "Horton, Leslie and Larson (1991)",
+            "Aderinto (2002)"
+          ],
+          "answerIndex": 3,
+          "explanation": "Aderinto's definition centres on the gap between ideals and realities. Horton, Leslie and Larson stress numbers affected and collective action, a common mix-up."
+        },
+        {
+          "difficulty": 1,
+          "stem": "In the manual's grouping, crime, prostitution and suicide are examples of which family of social problems?",
+          "options": [
+            "Deviant behaviours",
+            "Natural problems",
+            "Social conflicts",
+            "Personal troubles"
+          ],
+          "answerIndex": 0,
+          "explanation": "These are forms of deviant behaviour. Social conflicts are things like ethnic tension and industrial disputes."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which of the following is classified as a social conflict rather than a form of deviant behaviour?",
+          "options": [
+            "Drug addiction",
+            "Prostitution",
+            "Industrial dispute between workers and employers",
+            "Suicide"
+          ],
+          "answerIndex": 2,
+          "explanation": "Industrial conflict is a clash between groups, so it falls under social conflict. The other three are classic deviant behaviours."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Kornblum and Julian argue that society has defined a condition as a social problem when most people agree that it threatens their cherished values and:",
+          "options": [
+            "that it has been caused by a natural disaster",
+            "that something should be done to remedy it",
+            "that its victims are personally responsible",
+            "that it has existed for at least a generation"
+          ],
+          "answerIndex": 1,
+          "explanation": "The second half of their definition is agreement that remedy is needed. Blaming the victims would make it look like a personal problem instead."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Describing 'social problem' as a generic term means that it:",
+          "options": [
+            "applies only to problems found in industrial societies",
+            "refers to one specific condition such as poverty",
+            "is a legal category defined by the constitution",
+            "covers a wide range of conditions seen as signs of social disorganisation"
+          ],
+          "answerIndex": 3,
+          "explanation": "A generic or umbrella term covers many conditions, from crime to ethnic conflict, linked by the idea of social disorganisation. It is a sociological, not legal, category."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A few senators, two governors and a leading cleric campaign loudly against ritual killings, and a new law follows, although most citizens had shown little concern. Which definition best explains why this became a social problem?",
+          "options": [
+            "Kornblum and Julian, because the majority agreed on a threat",
+            "Lauer, because the causes lie within individuals",
+            "Aderinto, because a number of significant people perceived it",
+            "Horton, Leslie and Larson, because a significant number were affected"
+          ],
+          "answerIndex": 2,
+          "explanation": "Aderinto allows a small number of significant (powerful) people to define a problem. Kornblum and Julian require majority agreement, which was missing here."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Residents of a town agree that frequent armed robbery is terrible but say 'na God go judge them' and see no reason for any community or government action. By the definitions studied, robbery in this town is:",
+          "options": [
+            "not yet fully defined as a social problem, because the will for collective action is missing",
+            "already a social problem, because it is illegal",
+            "a natural problem, because residents leave it to God",
+            "a social conflict, because it involves two groups"
+          ],
+          "answerIndex": 0,
+          "explanation": "The definitions need both recognition of harm and a belief that collective action should remedy it. Illegality alone does not make something a social problem."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Using Horton, Leslie and Larson's definition, which situation is LEAST likely to be treated as a social problem?",
+          "options": [
+            "Thousands of graduates unable to find work",
+            "One family's quarrel over a late father's wristwatch",
+            "Widespread cholera outbreaks in crowded settlements",
+            "Rising cases of drug abuse among secondary school students"
+          ],
+          "answerIndex": 1,
+          "explanation": "A single family quarrel does not affect a significant number of people or call for collective action. The others affect many and invite public response."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement about Aderinto's (2002) definition is NOT correct?",
+          "options": [
+            "It involves a gap between social ideals and social realities",
+            "It requires belief that the gap can be closed by collective action",
+            "It insists that only a numerical majority can define a social problem",
+            "It allows influential persons to define a problem"
+          ],
+          "answerIndex": 2,
+          "explanation": "Aderinto explicitly allows either many people or a few significant people to perceive the problem, so 'only a majority' is wrong. The other three are parts of the definition."
+        },
+        {
+          "difficulty": 4,
+          "stem": "The idea that social problems call for 'social engineering' implies that they are:",
+          "options": [
+            "unavoidable features of human nature",
+            "best left to individuals and families to solve",
+            "solved automatically as society develops",
+            "open to deliberate, planned intervention by society"
+          ],
+          "answerIndex": 3,
+          "explanation": "Social engineering means planned intervention to change social conditions. Seeing a condition as part of human nature or self-correcting would remove the need for such action."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Horton, Leslie and Larson: significant number affected, collective remedy",
+            "Kornblum and Julian: gap between ideals and realities",
+            "Aderinto: personal troubles of milieu",
+            "Lauer: majority agreement on cherished values"
+          ],
+          "answerIndex": 0,
+          "explanation": "Horton, Leslie and Larson stress numbers affected and collective action. The ideals-realities gap is Aderinto's, and personal troubles of milieu belong to C. Wright Mills."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider these statements. I. A condition must affect a large number of people to be a social problem under every definition. II. Collective or social action is expected in the major definitions. III. Aderinto allows powerful minorities to define a social problem. Which are correct?",
+          "options": [
+            "I and II only",
+            "II and III only",
+            "I and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 1,
+          "explanation": "II and III are correct. I is wrong because Aderinto lets a few significant people define a problem even if numbers affected or concerned are small."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A student argues: 'Since a powerful minority can define a social problem, the objective harm of a condition does not matter at all.' The best response from the definitions studied is that:",
+          "options": [
+            "the student is right, since social problems are purely subjective",
+            "the student is right, since only elites define problems in Nigeria",
+            "the student is wrong, because only a majority vote defines a social problem",
+            "the student is wrong, because definitions combine a real undesirable condition with how people perceive it"
+          ],
+          "answerIndex": 3,
+          "explanation": "The definitions refer to a real undesirable condition (an objective side) as well as perception by many or by the powerful (a subjective side). Neither side alone settles it, and no majority vote is required."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which of the following would weaken the claim that a condition is a social problem under Kornblum and Julian's definition, but NOT under Aderinto's?",
+          "options": [
+            "Most people are unconcerned, but several influential leaders see it as a threat and push for collective action",
+            "Nobody believes the condition can be changed by any human action",
+            "The condition harms nobody and nobody perceives it",
+            "The public sees it as an act of God beyond remedy"
+          ],
+          "answerIndex": 0,
+          "explanation": "Kornblum and Julian need majority agreement, so mass indifference weakens the claim; Aderinto accepts perception by a few significant people. The other options weaken the claim under both definitions."
+        }
+      ]
+    },
+    {
+      "name": "Personal troubles and public issues",
+      "lesson": {
+        "title": "Private trouble or public issue?",
+        "minutes": 10,
+        "hook": "If one graduate in your street cannot find a job, people say he did not try hard enough. If half the street is jobless, is it still about effort?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Lauer's dividing line",
+            "body": "**Lauer (2002)** offers a simple test for separating two kinds of problem.\n\nA **personal problem** is one whose causes and cures are found in the person and their immediate surroundings: their choices, their family, their close circle.\n\nA **social problem** is one whose causes and cures lie **beyond** the person and their immediate surroundings: in the economy, the law, institutions or culture. No amount of individual effort alone can fix it.",
+            "visual": {
+              "type": "scale",
+              "left": "Causes in individual",
+              "right": "Causes in society",
+              "heavier": "right"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "C. Wright Mills: troubles and issues",
+            "body": "The American sociologist **C. Wright Mills** made the same distinction in *The Sociological Imagination* (1959). He called personal problems **'personal troubles of milieu'** and social problems **'public issues of social structure'**.\n\nA *milieu* is your immediate world of family, friends and workplace. Mills' famous illustration: if one person in a large city is unemployed, look at that person's character and skills. If millions are jobless nationwide, the cause lies in the structure of the economy.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Personal trouble",
+                "Sociological imagination",
+                "Public issue"
+              ]
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Troubles versus issues",
+            "left": {
+              "title": "Personal trouble of milieu",
+              "points": [
+                "Rooted in the individual's character or close circle",
+                "Affects one person or a few",
+                "Solved by personal effort or family help"
+              ]
+            },
+            "right": {
+              "title": "Public issue of social structure",
+              "points": [
+                "Rooted in institutions and the wider society",
+                "Affects large numbers",
+                "Needs collective, often government, action"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Mills' phrase 'public issues of social structure' corresponds to what Lauer calls:",
+            "options": [
+              "a personal problem",
+              "a natural problem",
+              "a social problem",
+              "a latent function"
+            ],
+            "answerIndex": 2,
+            "why": "Both scholars draw the same line: Mills' public issue equals Lauer's social problem. Latent function is Merton's term, not part of this distinction."
+          },
+          {
+            "kind": "example",
+            "heading": "Tunde's job hunt",
+            "story": "Tunde finished his NYSC in Ilorin and has applied for jobs for two years. His uncle says he is too choosy. But at a recruitment test in Abuja, Tunde sits among thousands of graduates competing for a handful of posts. The hall tells a different story from the uncle: factories have closed, the public service has frozen hiring, and each year more graduates leave school.",
+            "takeaway": "When the same trouble hits huge numbers of people, its causes lie in social structure, so it becomes a public issue."
+          },
+          {
+            "kind": "teach",
+            "heading": "Objective facts and subjective judgement",
+            "body": "Whether a condition is treated as a social problem is **partly objective**: there are measurable facts, such as the number of jobless graduates.\n\nIt is also **partly subjective**. It depends on **power relations**, **ideologies**, **values**, and whether the **means** to solve it exist. Groups with different political and economic convictions will disagree about which conditions count as 'need' and what society owes the people affected.",
+            "visual": {
+              "type": "scale",
+              "left": "Objective facts",
+              "right": "Values and power",
+              "heavier": "even"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Help at public expense",
+            "body": "The definitions share an expectation: once society recognises a condition as a problem, it acts, usually **through government**, so that those badly affected are helped **at public expense**.\n\nWhy should the public pay? Because **deep inequalities** of living conditions and opportunity, and outright **destitution**, are widely accepted as justifying state intervention. The person in need is not left to private charity alone.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "warning",
+                  "label": "Condition recognised"
+                },
+                {
+                  "icon": "flag",
+                  "label": "Government acts"
+                },
+                {
+                  "icon": "cash",
+                  "label": "Public expense"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Which of these is described as partly objective and partly subjective in deciding what is a social problem?",
+            "options": [
+              "Only the number of people affected",
+              "Measurable facts plus power, values, ideology and available means",
+              "Only the opinions of sociologists",
+              "Only the decisions of courts"
+            ],
+            "answerIndex": 1,
+            "why": "Recognising a social problem mixes objective knowledge with power relations, ideologies, values and the means to act. Head-counts or experts alone do not settle it."
+          },
+          {
+            "kind": "teach",
+            "heading": "Why the list is almost endless",
+            "body": "In modern industrial societies, people hold different **statuses and roles** and face risks unequally. So they judge situations differently.\n\nA trader, a bishop, a banker and a farmer may each name different 'problems'. That is why the possible range of social problems is almost **unlimited**, stretching to things like **falling literacy standards** or a **decline of the work ethic**. Proposed solutions also vary, because the parties involved have different interests and values.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "briefcase",
+                  "label": "Different roles"
+                },
+                {
+                  "icon": "eye",
+                  "label": "Different views"
+                },
+                {
+                  "icon": "layers",
+                  "label": "Endless problems"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Disorder, yet also progress",
+            "body": "At its core, a social problem signals some **disorder**: norms and values break down, and social relationships suffer.\n\nBut the manual adds an important twist. **No society is free** of conflicts and conditions that breed social problems. Struggles over such conditions can even push a society forward, forcing reform and new institutions. Social problems are a normal, not freakish, part of social life.",
+            "visual": {
+              "type": "cycle",
+              "nodes": [
+                "Norms break down",
+                "Problem recognised",
+                "Reform pursued",
+                "New order"
+              ]
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect scenario questions where you must decide whether a case is a personal trouble or a public issue, and attribution questions matching the terms to Mills and Lauer. The trap: students judge by how painful the case is. The real test is where the causes and solutions lie.",
+            "sampleQuestion": "With relevant examples from Nigeria, distinguish between a personal problem and a social problem.",
+            "howToAnswer": "Give Lauer's test (location of causes and solutions) and Mills' terms (personal troubles of milieu versus public issues of social structure). Contrast one person's failure with mass graduate unemployment, showing why the latter needs collective action.",
+            "scholars": [
+              "Lauer (2002)",
+              "C. Wright Mills (1959)"
+            ]
+          },
+          {
+            "kind": "check",
+            "question": "A student says, 'Social problems only exist in failed states.' Which point from this lesson best answers the claim?",
+            "options": [
+              "Social problems exist only in industrial societies",
+              "Social problems disappear once a country is wealthy",
+              "Social problems are always caused by natural disasters",
+              "No existing society is free of conditions that generate social problems"
+            ],
+            "answerIndex": 3,
+            "why": "Every society has conflicts and conditions that produce social problems; they can even drive progress. Wealth changes the kind of problems, not their existence."
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Lauer: personal problems have causes and solutions within the person and close surroundings; social problems lie beyond.",
+              "Mills: personal troubles of milieu versus public issues of social structure.",
+              "Defining a problem is partly objective and partly about power, values and ideology.",
+              "Recognised problems are tackled collectively, often at public expense.",
+              "Different roles produce different views, so the list of problems is almost endless.",
+              "No society is free of social problems, and they can spur progress."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "According to Lauer (2002), what chiefly separates a personal problem from a social problem?",
+          "options": [
+            "Whether its causes and solutions lie within or beyond the individual and immediate environment",
+            "Whether it is reported in newspapers",
+            "Whether it is illegal or legal",
+            "Whether it affects men or women"
+          ],
+          "answerIndex": 0,
+          "explanation": "Lauer's test is the location of causes and solutions. Media coverage or legality are not part of his distinction."
+        },
+        {
+          "difficulty": 1,
+          "stem": "C. Wright Mills described social problems as:",
+          "options": [
+            "manifest functions of institutions",
+            "personal troubles of milieu",
+            "public issues of social structure",
+            "pathological conditions of nature"
+          ],
+          "answerIndex": 2,
+          "explanation": "Mills' term for social problems is 'public issues of social structure'. 'Personal troubles of milieu' is his term for personal problems, the usual trap."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The book in which C. Wright Mills drew the troubles-issues distinction is:",
+          "options": [
+            "The Social Construction of Reality",
+            "Outsiders",
+            "Social Theory and Social Structure",
+            "The Sociological Imagination"
+          ],
+          "answerIndex": 3,
+          "explanation": "Mills set out the distinction in The Sociological Imagination. The Social Construction of Reality is by Berger and Luckmann; Outsiders is Becker's."
+        },
+        {
+          "difficulty": 2,
+          "stem": "In Mills' phrase 'personal troubles of milieu', the word 'milieu' refers to:",
+          "options": [
+            "the national economy",
+            "a person's immediate social world of family, friends and work",
+            "the government's policy environment",
+            "the global capitalist system"
+          ],
+          "answerIndex": 1,
+          "explanation": "Milieu is the person's close, everyday world. The national economy and global system belong to social structure, the domain of public issues."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Why does the manual say the range of possible social problems is almost unlimited?",
+          "options": [
+            "Because people in different statuses and roles judge situations differently",
+            "Because sociologists invent new problems every year",
+            "Because laws change every year",
+            "Because natural disasters are increasing"
+          ],
+          "answerIndex": 0,
+          "explanation": "Different positions in society lead people to appraise situations differently, so many conditions can be claimed as problems. It is not about sociologists inventing them."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The justification commonly given for government intervention in social problems is the existence of:",
+          "options": [
+            "high levels of religious devotion",
+            "rapid technological progress",
+            "great inequalities in living conditions and opportunities, and absolute destitution",
+            "low levels of media coverage"
+          ],
+          "answerIndex": 2,
+          "explanation": "Deep inequalities and destitution are widely held to justify state action. Technology and religion are not the stated grounds."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Amaka fails her driving test three times because she will not practise. Meanwhile, thousands of Lagos commuters lose hours daily in traffic caused by poor road planning. Using Mills' terms:",
+          "options": [
+            "Both are public issues of social structure",
+            "Both are personal troubles of milieu",
+            "Amaka's case is a public issue; the traffic is a personal trouble",
+            "Amaka's case is a personal trouble; the traffic is a public issue"
+          ],
+          "answerIndex": 3,
+          "explanation": "Amaka's failure stems from her own conduct, so it is a personal trouble. Mass traffic delay has structural causes and needs collective action, so it is a public issue."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A sociologist who says 'whether this condition is treated as a social problem depends on who holds power and what values dominate' is emphasising the:",
+          "options": [
+            "objective side of social problems",
+            "subjective side of social problems",
+            "natural side of social problems",
+            "biological side of social problems"
+          ],
+          "answerIndex": 1,
+          "explanation": "Power relations, ideologies and values make up the subjective side. The objective side refers to measurable facts about the condition."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A pressure group in Kano argues that the decline in reading culture among young people is a national social problem; a businessman dismisses it as unimportant. This disagreement best illustrates that:",
+          "options": [
+            "people in different positions appraise social situations differently",
+            "reading culture cannot be a social problem",
+            "social problems must be illegal",
+            "only natural events are real problems"
+          ],
+          "answerIndex": 0,
+          "explanation": "The manual notes that declining literacy can be claimed as a problem, and that differing statuses and interests produce different appraisals. Nothing requires a social problem to be illegal."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are true of the personal/social problem distinction EXCEPT:",
+          "options": [
+            "Lauer locates the causes of social problems beyond the individual",
+            "Mills linked social problems to social structure",
+            "a painful condition is automatically a social problem",
+            "social problems call for collective solutions"
+          ],
+          "answerIndex": 2,
+          "explanation": "Pain alone does not make a condition social; the test is where causes and solutions lie. The other three statements are accurate."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement best captures the manual's conclusion about social problems and social progress?",
+          "options": [
+            "Social problems always destroy societies",
+            "Only primitive societies have social problems",
+            "Progress is only possible in societies without social problems",
+            "Conflicts and conditions that cause social problems may be necessary for progress"
+          ],
+          "answerIndex": 3,
+          "explanation": "The manual says no society is free of them and they may be needed for progress and development. The other options contradict that."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Under Lauer's test, a man's chronic lateness to work due to his late nights out would be a personal problem mainly because:",
+          "options": [
+            "the cause and the solution lie within him and his immediate environment",
+            "only one employer is involved",
+            "it is not reported to the police",
+            "it involves an economic institution"
+          ],
+          "answerIndex": 0,
+          "explanation": "The location of cause and remedy is what makes it personal. Involving a workplace (an economic setting) does not make it social."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Mills and Lauer draw essentially the same distinction using different terms. II. A personal trouble can become a public issue when its causes are found to be structural and widespread. III. Whether something is a social problem is purely a matter of objective measurement. Which are correct?",
+          "options": [
+            "I and III only",
+            "II and III only",
+            "I and II only",
+            "I, II and III"
+          ],
+          "answerIndex": 2,
+          "explanation": "I and II are correct. III is wrong because definitions are partly subjective, shaped by power, values, ideology and means."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Two analysts study widespread malnutrition among children in a district. Analyst A blames careless mothers; Analyst B points to failed harvests, joblessness and absent clinics. In Mills' terms, the key difference is that:",
+          "options": [
+            "A uses the sociological imagination and B does not",
+            "B uses the sociological imagination by linking a trouble to social structure",
+            "both treat the matter as a public issue",
+            "both treat the matter as a personal trouble"
+          ],
+          "answerIndex": 1,
+          "explanation": "The sociological imagination links private experience to wider structures, as Analyst B does. Analyst A treats it as a personal trouble of milieu."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which pair of claims would a sociologist most likely accept together?",
+          "options": [
+            "Social problems are value-free facts; they exist only in industrial societies",
+            "Social problems are purely subjective; objective data are irrelevant",
+            "Social problems are always caused by individuals; they need private solutions",
+            "Social problems combine objective conditions with value-laden judgement; no society is free of them"
+          ],
+          "answerIndex": 3,
+          "explanation": "The manual presents social problems as partly objective and partly subjective, and found in every society. Each other pair contains at least one claim the manual rejects."
+        }
+      ]
+    },
+    {
+      "name": "Sociology born from social problems",
+      "lesson": {
+        "title": "How social problems gave birth to sociology",
+        "minutes": 9,
+        "hook": "Sociology did not begin in a quiet library. It began in smoky factory towns, crowded slums and streets full of revolution, where thinkers asked: why is everything falling apart?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Social problems sit at sociology's core",
+            "body": "The study of social problems is not a side topic in sociology. It is close to the reason the discipline exists.\n\nSociology emerged as an attempt to bring **order out of social disorder**. Europe was in upheaval after the **Industrial Revolution** and the **French Revolution**, and faith in science (**scientism**) suggested that society, like nature, could be studied and repaired scientifically.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Revolutions",
+                "Social disorder",
+                "Birth of sociology",
+                "Search for order"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The problems early thinkers saw",
+            "body": "The upheavals threw up a cluster of urgent problems: **poverty**, **unemployment**, poor **housing**, **prostitution**, **crime and deviance**. Together these produced **social dislocation**: people torn from village life and old certainties, crowded into cities where old rules no longer worked.\n\nSociology set out to understand these conditions and to suggest remedies.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "cash",
+                  "label": "Poverty"
+                },
+                {
+                  "icon": "home",
+                  "label": "Bad housing"
+                },
+                {
+                  "icon": "warning",
+                  "label": "Crime"
+                },
+                {
+                  "icon": "briefcase",
+                  "label": "Joblessness"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Otite and Ogionwo's definition",
+            "body": "The manual singles out the definition of sociology by the Nigerian scholars **Otite and Ogionwo (1985)** as the most comprehensive. In short, sociology studies:\n\n- social aggregates and groups;\n- people and what follows from their membership of society;\n- social institutions and their organisation across societies and history;\n- social systems, subsystems and relationships inside groups.\n\nAbove all it is the **scientific study of social action** in human groups.",
+            "visual": {
+              "type": "pyramid",
+              "levels": [
+                "Social systems",
+                "Institutions",
+                "Groups",
+                "Individuals in society"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Which definition of sociology does the manual describe as the most comprehensive?",
+            "options": [
+              "Auguste Comte's",
+              "Otite and Ogionwo's",
+              "Emile Durkheim's",
+              "C. Wright Mills'"
+            ],
+            "answerIndex": 1,
+            "why": "The manual names Otite and Ogionwo (1985) as giving the most comprehensive definition. Comte coined the word 'sociology' but his definition is not the one singled out."
+          },
+          {
+            "kind": "teach",
+            "heading": "The purpose: an orderly society",
+            "body": "From such definitions the manual draws a conclusion: sociology aims at an **orderly society**, built on **patterned, predictable interactions** among people and groups.\n\nIts importance grows when **major social change** arrives. Changes that are too fast or too complex for people to cope with weaken the fabric of society, disturb relationships and produce disorder. That disorder is what we experience as social problems.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Rapid change",
+                "Weakened fabric",
+                "Disorder",
+                "Social problems"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Three forces of change",
+            "body": "What changed Western Europe so dramatically? The manual names three forces:\n\n1. the rise of **industrial capitalism**;\n2. the rise of the **bourgeoisie**, the new owning and trading class;\n3. the impact of **imperialism** on the links between religion, politics and the economy.\n\nThese forces, together with the **American, French and Industrial Revolutions**, left countries such as Britain, France, Germany and the United States in turmoil.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "briefcase",
+                  "label": "Industrial capitalism"
+                },
+                {
+                  "icon": "cash",
+                  "label": "Rising bourgeoisie"
+                },
+                {
+                  "icon": "globe",
+                  "label": "Imperialism"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The Industrial Revolution's price",
+            "body": "The manual dates the **Industrial Revolution** to roughly **1750–1850**. It brought machines and wealth, but also:\n\n- a **wide gulf** between rich and poor;\n- **pollution** and damage to the balance of nature;\n- fear of **technological tyranny**;\n- **rapid population growth** and grim **urban conditions**;\n- **poverty** and **unemployment**.\n\nThese became the burning questions for thinkers of the age, and sociologists have been offering solutions ever since.",
+            "visual": {
+              "type": "stat",
+              "value": "1750–1850",
+              "label": "Industrial Revolution, per the manual"
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Aba, Onitsha and Lagos today",
+            "story": "Chiamaka moves from her village near Owerri to Onitsha to work in a plastics factory. She rents a crowded room near a canal clogged with waste. Her wages barely cover rent, while factory owners build mansions in gated estates. Neighbours from many villages share the yard but not the same customs. The same mix of wealth, pollution, crowding and loosened norms that alarmed nineteenth-century thinkers surrounds her.",
+            "takeaway": "Industrialisation and urbanisation still generate the kinds of problems that gave birth to sociology."
+          },
+          {
+            "kind": "check",
+            "question": "All of these are listed in the manual as consequences of the Industrial Revolution EXCEPT:",
+            "options": [
+              "a widening gap between rich and poor",
+              "pollution and damage to ecological balance",
+              "the immediate end of poverty in cities",
+              "rapid population growth and poor urban conditions"
+            ],
+            "answerIndex": 2,
+            "why": "Industrialisation produced poverty and unemployment rather than ending them. The other three are named consequences."
+          },
+          {
+            "kind": "teach",
+            "heading": "No value-free study of problems",
+            "body": "Here is a point lecturers like to test. The study of social problems **cannot be value-free**.\n\nTo call something a 'problem' is already to say it **falls short of some standard**. Choosing which condition to investigate, and how to describe it, lets the researcher's values slip in. A sociologist can be careful and systematic, but cannot pretend that naming a problem is a neutral act.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Value-free",
+              "right": "Value-laden",
+              "marker": 80,
+              "label": "Study of social problems"
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Questions here test history (which revolutions, which dates, which forces), the Otite and Ogionwo definition, and the value-free debate. The trap is assuming sociology is neutral like physics: the manual says studying social problems is unavoidably value-laden, because 'problem' implies a standard.",
+            "sampleQuestion": "'Sociology emerged as a response to social problems.' Discuss with reference to the social changes in eighteenth- and nineteenth-century Europe.",
+            "howToAnswer": "Link the Industrial and French Revolutions, industrial capitalism, the bourgeoisie and imperialism to problems such as poverty, crowding and crime, then explain that sociology sought to restore order and remedy them.",
+            "scholars": [
+              "Otite & Ogionwo (1985)",
+              "Auguste Comte (1798–1857)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Sociology arose to restore order after the Industrial and French Revolutions.",
+              "Early problems: poverty, unemployment, housing, prostitution, crime.",
+              "Otite and Ogionwo (1985) give the most comprehensive definition of sociology.",
+              "Industrial capitalism, the bourgeoisie and imperialism drove the changes.",
+              "The Industrial Revolution (about 1750–1850) widened inequality and harmed the environment.",
+              "Studying social problems cannot be value-free."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "According to the manual, sociology emerged mainly to:",
+          "options": [
+            "restore order to the social disorder that followed major revolutions",
+            "record the history of European kings",
+            "study the physical environment",
+            "promote religious revival"
+          ],
+          "answerIndex": 0,
+          "explanation": "Sociology arose to make sense of, and restore order after, the disorder of the Industrial and French Revolutions. It was not a study of kings or nature."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The manual dates the Industrial Revolution to approximately:",
+          "options": [
+            "1650–1750",
+            "1850–1950",
+            "1750–1850",
+            "1900–1960"
+          ],
+          "answerIndex": 2,
+          "explanation": "The manual gives 1750–1850. The other ranges are either too early or too late."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The study of social problems is described in the manual as one that:",
+          "options": [
+            "is completely value-free",
+            "cannot be value-free",
+            "relies only on laboratory experiments",
+            "ignores the researcher's standards"
+          ],
+          "answerIndex": 1,
+          "explanation": "Naming something a problem implies it falls short of a standard, so values creep in. Claiming value-freedom is the trap."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which of the following is NOT one of the three forces the manual links to the upheavals in Western Europe?",
+          "options": [
+            "The rise of industrial capitalism",
+            "The rise of the bourgeoisie",
+            "The impact of imperialism",
+            "The spread of the internet"
+          ],
+          "answerIndex": 3,
+          "explanation": "The three forces are industrial capitalism, the bourgeoisie and imperialism. The internet belongs to a much later era."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Otite and Ogionwo (1985) describe sociology as, above all, the scientific study of:",
+          "options": [
+            "social action or behaviour in human groups",
+            "the human mind and its disorders",
+            "the physical evolution of humans",
+            "market prices and production"
+          ],
+          "answerIndex": 0,
+          "explanation": "Their definition stresses human interaction and social action in groups. The mind is psychology's focus, and market prices belong to economics."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The term 'scientism', mentioned in relation to the rise of sociology, refers to:",
+          "options": [
+            "rejection of all scientific methods",
+            "belief that religious authority should guide research",
+            "strong faith that scientific methods can explain and improve the world, including society",
+            "a type of industrial machinery"
+          ],
+          "answerIndex": 2,
+          "explanation": "Scientism is a strong belief in science's power to explain and fix things, which encouraged a science of society. It is the opposite of rejecting science."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A researcher calls the growth of roadside trading in Lagos a 'social problem'. A critic replies that by choosing that label she has already judged it against a standard of urban order. The critic's point illustrates that:",
+          "options": [
+            "roadside trading is a natural problem",
+            "the study of social problems cannot be value-free",
+            "sociology must avoid studying cities",
+            "only economists can study trade"
+          ],
+          "answerIndex": 1,
+          "explanation": "Labelling something a problem implies it falls short of some standard, so values enter the study. Nothing suggests trading is a natural problem."
+        },
+        {
+          "difficulty": 3,
+          "stem": "In a new industrial town, factory owners grow rich while workers crowd into slums and the river becomes polluted. Which period's effects, as described in the manual, does this most closely mirror?",
+          "options": [
+            "The Industrial Revolution",
+            "The Protestant Reformation",
+            "The Renaissance",
+            "The Stone Age"
+          ],
+          "answerIndex": 0,
+          "explanation": "The manual links the Industrial Revolution to a rich-poor gulf, pollution and poor urban conditions. The other periods are not presented that way."
+        },
+        {
+          "difficulty": 3,
+          "stem": "According to the manual's reasoning, why does sociology become more important during periods of major social change?",
+          "options": [
+            "Because change always brings prosperity",
+            "Because change reduces human interaction",
+            "Because sociologists cause the change",
+            "Because rapid, complex change weakens the social fabric and produces disorder"
+          ],
+          "answerIndex": 3,
+          "explanation": "Change too complex for people to cope with threatens social order and creates problems, which sociology tries to understand. Change does not always bring prosperity."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair correctly matches the revolutions mentioned in the manual with their setting?",
+          "options": [
+            "French Revolution: Germany",
+            "American Revolution: United States",
+            "Industrial Revolution: Nigeria",
+            "French Revolution: Britain"
+          ],
+          "answerIndex": 1,
+          "explanation": "The American Revolution took place in what became the United States. The French Revolution was in France, and the Industrial Revolution began in Britain."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement about the link between sociology and social problems is NOT supported by the manual?",
+          "options": [
+            "Social problems have remained a concern of sociologists to this day",
+            "Early thinkers were worried by changing social relationships in Western Europe",
+            "Sociologists stopped studying social problems after the nineteenth century",
+            "Offering solutions to emerging problems has been a preoccupation of sociologists"
+          ],
+          "answerIndex": 2,
+          "explanation": "The manual says concern with social problems has continued to the present. The other three statements agree with it."
+        },
+        {
+          "difficulty": 4,
+          "stem": "The fear of 'technological tyranny' associated with industrialisation refers to concern that:",
+          "options": [
+            "machines would replace kings",
+            "technology would end all inequality",
+            "workers would refuse to use machines",
+            "machines and technical systems would come to dominate human life"
+          ],
+          "answerIndex": 3,
+          "explanation": "Technological tyranny means technology dominating people instead of serving them. The manual lists it among growing threats of industrialisation."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Sociology aims at an orderly society built on patterned interactions. II. The Industrial Revolution reduced the gap between rich and poor. III. Imperialism affected the relationship between religion, politics and the economy. Which are consistent with the manual?",
+          "options": [
+            "I and III only",
+            "I and II only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 0,
+          "explanation": "I and III match the manual. II is false: the Industrial Revolution widened the rich-poor gulf."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A student argues that because sociology is a science, its study of social problems must be entirely objective. The strongest objection drawn from the manual is that:",
+          "options": [
+            "sociology is not interested in social problems",
+            "science cannot study human beings at all",
+            "identifying a phenomenon as a problem already implies it falls short of a standard",
+            "only natural problems can be studied objectively"
+          ],
+          "answerIndex": 2,
+          "explanation": "Defining the problem lets values in, since 'problem' presupposes a standard. This does not mean science cannot study people at all."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which combination best explains why nineteenth-century thinkers came to treat poverty and crime as matters for a new science of society?",
+          "options": [
+            "Stable village life plus a decline in faith in science",
+            "Rapid industrial and political upheaval plus a strong belief that science could explain society",
+            "Imperial expansion plus the disappearance of the bourgeoisie",
+            "Falling population plus improved urban conditions"
+          ],
+          "answerIndex": 1,
+          "explanation": "Revolutionary upheaval produced the problems, and scientism encouraged a scientific approach to them. The other combinations contradict the manual (population grew and cities worsened)."
+        }
+      ]
+    },
+    {
+      "name": "Measuring: recognition and solvability",
+      "lesson": {
+        "title": "What turns a problem into a social problem?",
+        "minutes": 10,
+        "hook": "A flood that sweeps through Lokoja is an act of nature. But the hunger, homelessness and camps that follow? Those are something else entirely.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Why measuring is tricky",
+            "body": "Because sociologists disagree on what a social problem is, they also struggle to **measure** one. Before measuring anything, the manual says we must settle two questions:\n\n1. What exactly do we mean by a social problem?\n2. What makes it different from a personal or individual problem?\n\nThe rest of this lesson gives you the yardsticks used to answer them.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "search",
+                  "label": "What is it?"
+                },
+                {
+                  "icon": "scale",
+                  "label": "Social or personal?"
+                },
+                {
+                  "icon": "checkmark-circle",
+                  "label": "Yardsticks"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Problems of human relationships",
+            "body": "Social problems are distinctive because they concern the **rules of relationship**, formal or informal, that people set up among themselves.\n\n**Nwabueze (1992)** sees them as objective conditions in society that block members from realising other norms and values. **Merton and Nisbet (1966)** call them problems of **human relationships**. A problem becomes social when it upsets relations between people and **disturbs the social order**. For Merton and Nisbet, its tie to the **institutional and normative context** is what sets it apart.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Condition",
+                "Disturbs relationships",
+                "Upsets social order",
+                "Social problem"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Merton and Nisbet distinguish social problems from other problems mainly by their link with:",
+            "options": [
+              "natural disasters",
+              "individual personality",
+              "the institutional and normative context",
+              "biological inheritance"
+            ],
+            "answerIndex": 2,
+            "why": "They define social problems as problems of human relationships tied to institutions and norms. Personality and biology belong to the individual, not the social order."
+          },
+          {
+            "kind": "steps",
+            "heading": "Three ideas common to social problems",
+            "steps": [
+              {
+                "title": "Recognised by those affected",
+                "detail": "The victims must be aware of the condition as a problem; unnoticed suffering does not yet count."
+              },
+              {
+                "title": "Brought to public attention",
+                "detail": "Aggrieved groups, such as civil rights and women's movements, dramatise their plight until the public notices."
+              },
+              {
+                "title": "Solvable collectively",
+                "detail": "The condition must be capable of solution through the joint action of society's members."
+              }
+            ]
+          },
+          {
+            "kind": "teach",
+            "heading": "Recognition and Marx's class consciousness",
+            "body": "The first idea links to **Karl Marx**. Marx argued that revolution would come only when the oppressed working class, the **proletariat**, became aware of its oppression, a state he called **class consciousness**, and then acted deliberately to end it.\n\nIn the same way, a condition may harm many people, but if they take it as normal and do not see it as a problem, it is unlikely to be treated as a social problem.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Oppression",
+                "Awareness",
+                "Class consciousness",
+                "Collective action"
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Making noise to be heard",
+            "story": "For years, widows in some communities were stripped of property after their husbands died. Many saw it as tradition. Then women's groups in Enugu and Lagos began holding press conferences, taking cases to court and sharing stories on radio. Once journalists, clerics and lawmakers took notice, widowhood rights became a public debate and laws followed in several states.",
+            "takeaway": "Aggrieved groups dramatise their plight; when the public pays attention, the condition becomes a social problem."
+          },
+          {
+            "kind": "teach",
+            "heading": "Social problems versus natural problems",
+            "body": "Social problems are **man-made**. Natural problems such as **floods, whirlwinds, typhoons, volcanic eruptions and earthquakes** come from nature (or, as many believe, from God).\n\n**Horton and Lee (1995)** sum it up: if people regard a condition as part of the natural order, an act of God, an unavoidable fact of earthly life or an inevitable result of humanity's brutish nature, it is not a social problem. For a problem to be social, people must make a **conscious effort to solve it**.",
+            "visual": {
+              "type": "venn",
+              "left": "Natural problem",
+              "right": "Social problem",
+              "both": "Disaster aftermath"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "According to Horton and Lee, a condition is NOT treated as a social problem when people regard it as:",
+            "options": [
+              "harmful to many families",
+              "an unavoidable act of God",
+              "caused by poor government policy",
+              "solvable through collective action"
+            ],
+            "answerIndex": 1,
+            "why": "If people see a condition as a fixed part of the natural order or God's will, they will not try to solve it, so it is not a social problem. Policy-caused, solvable conditions are exactly what social problems are."
+          },
+          {
+            "kind": "teach",
+            "heading": "Where nature and society meet",
+            "body": "The line between natural and social problems is not a wall. There is a **meeting point**.\n\nA natural disaster can **set off** serious social problems. Floods and earthquakes drive people from their homes and wipe out farmland and livelihoods. What follows, such as **famine**, **poverty** and **refugee** crises (displaced persons), are social problems, because human arrangements decide who suffers and how society responds.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Flood",
+                "Lost homes and farms",
+                "Famine and poverty",
+                "Displaced persons"
+              ]
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Natural versus social problems",
+            "left": {
+              "title": "Natural problem",
+              "points": [
+                "Caused by nature (floods, earthquakes)",
+                "Seen as unavoidable or God's will",
+                "Not an object of collective remedy in itself"
+              ]
+            },
+            "right": {
+              "title": "Social problem",
+              "points": [
+                "Man-made, rooted in human arrangements",
+                "Seen as changeable",
+                "Requires conscious collective effort",
+                "Can follow from natural disasters"
+              ]
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "A favourite question asks you to distinguish social from natural problems and then show the relationship between them. Many students stop at the difference. The marks lie in the link: natural disasters can produce social problems like famine, poverty and refugees.",
+            "sampleQuestion": "Distinguish between a social problem and a natural problem, and explain the relationship between the two.",
+            "howToAnswer": "State that social problems are man-made and need conscious collective solution, citing Horton and Lee, while natural problems come from nature. Then show how a flood or earthquake can trigger famine, poverty and displacement.",
+            "scholars": [
+              "Merton & Nisbet (1966)",
+              "Nwabueze (1992)",
+              "Horton & Lee (1995)",
+              "Karl Marx (1818–1883)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Social problems concern the rules of human relationships and disturb social order.",
+              "Nwabueze (1992) and Merton and Nisbet (1966) tie them to norms and institutions.",
+              "Three ideas: recognised by victims, brought to public attention, solvable collectively.",
+              "Marx's class consciousness explains why recognition matters.",
+              "Social problems are man-made; natural ones are not, per Horton and Lee.",
+              "Natural disasters can trigger social problems such as famine and displacement."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Social problems differ from natural problems mainly because social problems are:",
+          "options": [
+            "always more deadly",
+            "man-made and open to collective remedy",
+            "caused by the weather",
+            "limited to rural areas"
+          ],
+          "answerIndex": 1,
+          "explanation": "Social problems arise from human arrangements and invite conscious collective solution. Weather-caused events are natural problems."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Merton and Nisbet (1966) define social problems as problems pertaining to:",
+          "options": [
+            "the physical environment",
+            "individual personality",
+            "human relationships",
+            "divine punishment"
+          ],
+          "answerIndex": 2,
+          "explanation": "For Merton and Nisbet, social problems are problems of human relationships tied to norms and institutions. Personality points to personal problems instead."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which of the following is a natural problem rather than a social problem?",
+          "options": [
+            "An earthquake",
+            "Corruption",
+            "Armed robbery",
+            "Ethnic conflict"
+          ],
+          "answerIndex": 0,
+          "explanation": "An earthquake is a natural occurrence. Corruption, robbery and ethnic conflict all arise from human relationships."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The first idea common to social problems, that they must be recognised by those affected, is linked in the manual to Marx's concept of:",
+          "options": [
+            "anomie",
+            "class consciousness",
+            "the looking-glass self",
+            "latent function"
+          ],
+          "answerIndex": 1,
+          "explanation": "Marx held that the oppressed must become conscious of their oppression before acting. Anomie is Durkheim's term and latent function is Merton's."
+        },
+        {
+          "difficulty": 2,
+          "stem": "According to Nwabueze (1992), social problems are objective conditions in society that:",
+          "options": [
+            "are caused only by nature",
+            "affect only the ruling class",
+            "help members realise their values",
+            "hinder members from realising other norms and values"
+          ],
+          "answerIndex": 3,
+          "explanation": "Nwabueze sees them as conditions that block the realisation of other norms and values. They are not caused by nature nor confined to rulers."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The manual's second idea about social problems stresses the role of aggrieved groups such as civil rights and women's movements in:",
+          "options": [
+            "hiding their grievances from the public",
+            "bringing their plight to public attention through dramatic action",
+            "seeking divine intervention",
+            "accepting conditions as natural"
+          ],
+          "answerIndex": 1,
+          "explanation": "Such groups take dramatic action to win public attention, at which point the condition becomes a social problem. Hiding grievances or accepting them would do the opposite."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Heavy rains flood Kogi and Benue states, destroying farms. Months later, food prices soar and many families live in camps. Which statement best describes the situation?",
+          "options": [
+            "Everything here is a natural problem only",
+            "Everything here is a social problem only",
+            "A natural problem has triggered social problems such as hunger and displacement",
+            "Neither natural nor social problems are involved"
+          ],
+          "answerIndex": 2,
+          "explanation": "The flood is natural, but the famine-like price rises and displacement are social problems shaped by human arrangements. This is the meeting point the manual describes."
+        },
+        {
+          "difficulty": 3,
+          "stem": "In a village, high infant deaths are widely accepted as 'the will of God' and nobody seeks any remedy. Using Horton and Lee's reasoning, infant deaths there are:",
+          "options": [
+            "not being treated as a social problem, because they are regarded as unavoidable",
+            "already a social problem, because many children die",
+            "a social conflict between parents",
+            "a personal trouble of one family"
+          ],
+          "answerIndex": 0,
+          "explanation": "Horton and Lee say conditions viewed as acts of God or unavoidable are not treated as social problems. High numbers alone do not make it one."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Market women in Ibadan suffer a new levy for years without complaint. Only when they organise protests and radio stations cover them does government review the levy. Which idea common to social problems does this best show?",
+          "options": [
+            "Social problems are natural",
+            "Social problems become recognised when aggrieved groups bring them to public attention",
+            "Social problems never need collective action",
+            "Social problems affect only the wealthy"
+          ],
+          "answerIndex": 1,
+          "explanation": "The women's dramatic action brought their plight to public notice, which is the manual's second idea. Collective action was clearly needed here."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which of the following is NOT one of the three ideas common to social problems listed in the manual?",
+          "options": [
+            "They must be recognised by those affected",
+            "Aggrieved groups bring them to public attention",
+            "They must be solvable through collective action",
+            "They must be approved by an international body"
+          ],
+          "answerIndex": 3,
+          "explanation": "No international approval is required. The three ideas are recognition, public attention and collective solvability."
+        },
+        {
+          "difficulty": 4,
+          "stem": "The manual's discussion of the 'point of equilibrium' between natural and social problems means that:",
+          "options": [
+            "natural and social problems are exactly the same",
+            "natural problems can give rise to social problems",
+            "social problems cause earthquakes",
+            "natural problems are more important than social ones"
+          ],
+          "answerIndex": 1,
+          "explanation": "The meeting point is that natural events can produce social problems like famine and displacement. It does not say they are the same."
+        },
+        {
+          "difficulty": 4,
+          "stem": "A problem assumes a social dimension, according to the manual, when it:",
+          "options": [
+            "is discussed by academics",
+            "is caused by an individual's illness",
+            "affects relationships among people and disturbs the social order",
+            "is limited to one household"
+          ],
+          "answerIndex": 2,
+          "explanation": "Disturbing relationships and social order is what makes a problem social. Academic discussion alone does not."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Natural problems are man-made. II. Floods can lead to refugee problems. III. A condition seen as inevitable from humanity's brutish nature is not a social problem, per Horton and Lee. Which are correct?",
+          "options": [
+            "I and II only",
+            "I and III only",
+            "I, II and III",
+            "II and III only"
+          ],
+          "answerIndex": 3,
+          "explanation": "II and III are correct. I is wrong: social problems, not natural ones, are man-made."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A Marxist sociologist observes that factory workers endure poor wages but call it 'our lot in life'. Combining Marx with the manual's first idea, the sociologist would most likely conclude that:",
+          "options": [
+            "the workers' plight cannot yet function as a social problem until they become conscious of it as oppression",
+            "the condition is a natural problem",
+            "the workers' plight is a personal trouble",
+            "class consciousness is irrelevant to social problems"
+          ],
+          "answerIndex": 0,
+          "explanation": "Without awareness of oppression (class consciousness), victims do not recognise the condition as a problem, so collective action is unlikely. That makes it not natural, just unrecognised."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which pairing of scholar and claim is INCORRECT?",
+          "options": [
+            "Merton and Nisbet: social problems are linked to the institutional and normative context",
+            "Horton and Lee: conditions seen as acts of God are not social problems",
+            "Nwabueze: social problems hinder the realisation of norms and values",
+            "Marx: social problems are unavoidable features of nature"
+          ],
+          "answerIndex": 3,
+          "explanation": "Marx saw oppression as a human, changeable arrangement that conscious action could overturn, not a feature of nature. The other pairings are correct."
+        }
+      ]
+    },
+    {
+      "name": "Objective reality, subjective perception",
+      "lesson": {
+        "title": "Real conditions and how people see them",
+        "minutes": 10,
+        "hook": "You do not have to be poor to know poverty is real. But who decides that poverty, and not loud music at night, deserves a national response?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Two sides of every social problem",
+            "body": "The sociological definition of a social problem has **two sides**, and both are needed.\n\nThe **objective reality** is the actual condition: crime, disease, prostitution, poverty. The **subjective perception** is how people come to see and define that condition as a problem.\n\nA real condition that nobody defines as a problem is not yet a social problem. A loud fear with no real condition behind it is not one either.",
+            "visual": {
+              "type": "venn",
+              "left": "Objective reality",
+              "right": "Subjective perception",
+              "both": "Social problem"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The objective reality",
+            "body": "A social problem needs, first of all, a **real, harmful condition** whose effects can be confirmed through the experience of some people.\n\nCrucially, you do not need to **suffer it personally**. You need not be poor to know that millions live in poverty. And objective realities can be **verified with data**: surveys, crime statistics, hospital records. Poverty's harm, for instance, can be documented in every country of the world.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "warning",
+                  "label": "Real harm"
+                },
+                {
+                  "icon": "people",
+                  "label": "Others' experience"
+                },
+                {
+                  "icon": "search",
+                  "label": "Verified by data"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Which statement about the objective side of a social problem is correct?",
+            "options": [
+              "Everyone must personally experience the condition",
+              "It can be confirmed by collecting data in society",
+              "It depends only on people's feelings",
+              "It exists only if the government announces it"
+            ],
+            "answerIndex": 1,
+            "why": "Objective reality is a verifiable harmful condition, confirmed by data. Personal experience by everyone is not required, and feelings belong to the subjective side."
+          },
+          {
+            "kind": "teach",
+            "heading": "The subjective perception",
+            "body": "Objective reality alone is not enough. The **subjective perspective** asks *how* a condition comes to be defined as a problem.\n\nIt focuses on what goes on in people's minds and on how our social world is built through everyday thought and action. People must see the condition as **damaging the rules of human relationship** and blocking orderly life. If they see it as a social problem, it is one; if they see it as something else, it becomes that.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Real condition",
+                "People interpret it",
+                "Defined as problem"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Social constructionism",
+            "body": "The subjective perspective rests on **social constructionism**, associated with **Peter Berger and Thomas Luckmann** and their book *The Social Construction of Reality* (1966).\n\nTheir core idea: much of what we treat as 'reality' is created and kept alive by people as they interpret their world and share those interpretations. Applied here, a social problem is partly a **social creation**: it exists as a problem because people collectively define it that way.",
+            "visual": {
+              "type": "cycle",
+              "nodes": [
+                "People interpret",
+                "Shared meanings",
+                "Taken as real",
+                "Guide action"
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Okada riders in Lagos",
+            "story": "Musa has ridden an okada in Lagos for six years. To his passengers he is a lifesaver in traffic. Then hospital doctors publish data on crash injuries, the commissioner calls okadas 'a menace' and newspapers run photos of accidents. Soon the state bans okadas on major roads. Crashes had been happening all along; what changed was how powerful people described them.",
+            "takeaway": "The objective harm existed, but the condition became an official social problem when it was defined as one, largely by influential voices."
+          },
+          {
+            "kind": "teach",
+            "heading": "Statistical abnormality",
+            "body": "The subjective side leads to another yardstick, which criminologists call **statistical abnormality**: the **majority-minority** split.\n\nIt asks: how many people see the condition as threatening society? If only a few people, who lack power, see it as a problem, it stays a personal problem or a minor issue. If a **large share** of society sees it that way, it becomes a social problem.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Few, powerless see it",
+              "right": "Many see it",
+              "marker": 85,
+              "label": "Social problem status"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Numbers or power",
+            "body": "There is a twist. A condition becomes a social problem if a **significant number** of people perceive it, *or* if it is given importance by a **few influential people**: elites, political leaders and religious leaders.\n\nThis echoes **Howard Becker's labelling theory** (1963). Becker argued that people make rules and then label rule-breakers as **deviants**. The manual reads this as the powerful setting rules for the masses; likewise, elites decide which conditions get labelled social problems.",
+            "visual": {
+              "type": "scale",
+              "left": "Many ordinary people",
+              "right": "Few powerful elites",
+              "heavier": "even"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Under the majority-minority yardstick, a condition perceived as a problem only by a few people without power is most likely regarded as:",
+            "options": [
+              "a social problem of national importance",
+              "a natural problem",
+              "a personal problem or minor issue",
+              "a public issue of social structure"
+            ],
+            "answerIndex": 2,
+            "why": "If only a few powerless people see it, it stays personal or minor. It rises to a social problem when many people, or a powerful few, define it so."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect questions pairing objective and subjective sides, attribution of social constructionism to Berger and Luckmann, and labelling to Becker. A common trap is saying a social problem is 'purely subjective' or 'purely objective'. The manual insists on both, plus the role of numbers and power.",
+            "sampleQuestion": "'A social problem is whatever people say it is.' Critically examine this statement using the objective and subjective perspectives.",
+            "howToAnswer": "Explain the subjective view (social constructionism, statistical abnormality, labelling) that supports the statement, then show its limit: the manual also requires a real, verifiable harmful condition. Conclude that both sides are needed.",
+            "scholars": [
+              "Berger & Luckmann (1966)",
+              "Howard Becker (1963)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Social problems have an objective reality and a subjective perception.",
+              "Objective: a real, harmful, verifiable condition; you need not suffer it yourself.",
+              "Subjective: how people interpret and define the condition.",
+              "Social constructionism comes from Berger and Luckmann (1966).",
+              "Statistical abnormality: many people, or a powerful few, must see it as a problem.",
+              "Becker's labelling theory shows elites shaping what gets labelled."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The concept of social constructionism, on which the subjective perspective rests, is associated with:",
+          "options": [
+            "Peter Berger and Thomas Luckmann",
+            "Robert Merton and Robert Nisbet",
+            "Karl Marx and Friedrich Engels",
+            "Kornblum and Julian"
+          ],
+          "answerIndex": 0,
+          "explanation": "Berger and Luckmann wrote The Social Construction of Reality (1966). Merton and Nisbet defined social problems as problems of relationships."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The sociological definition of a social problem combines:",
+          "options": [
+            "legal rules and religious rules",
+            "an objective reality and a subjective perception",
+            "natural events and divine will",
+            "individual choices and personality traits"
+          ],
+          "answerIndex": 1,
+          "explanation": "A social problem needs both a real condition and people defining it as a problem. Individual traits point to personal problems."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The 'majority-minority dichotomy' used to judge whether something is a social problem is what criminologists call:",
+          "options": [
+            "labelling",
+            "class consciousness",
+            "statistical abnormality",
+            "social legitimation"
+          ],
+          "answerIndex": 2,
+          "explanation": "Statistical abnormality refers to how many people see the condition as threatening. Social legitimation is a stage in Blumer's model."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which statement best expresses the objective reality of a social problem?",
+          "options": [
+            "It exists once people talk about it",
+            "It exists only when everyone has experienced it",
+            "It exists only when elites declare it",
+            "It is a real harmful condition that can be verified through data and experience"
+          ],
+          "answerIndex": 3,
+          "explanation": "Objective reality means a verifiable harmful condition. Talk and elite declaration belong to the subjective side."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The subjective perspective on social problems is mainly concerned with:",
+          "options": [
+            "counting the number of victims",
+            "how a condition comes to be defined as a problem",
+            "the physical causes of disease",
+            "the legal penalties for crime"
+          ],
+          "answerIndex": 1,
+          "explanation": "The subjective side studies the process of defining a condition as a problem. Counting victims is part of documenting the objective reality."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Howard Becker's labelling theory, used in the manual to explain how problems are defined, holds that:",
+          "options": [
+            "deviance is inherited biologically",
+            "deviance is caused by poverty alone",
+            "people make rules and label those who break them as deviants",
+            "rules emerge naturally without human input"
+          ],
+          "answerIndex": 2,
+          "explanation": "Becker argued that deviance results from rule-making and labelling. Biological and poverty-only explanations are not his."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Kelechi has never been poor, yet she volunteers at a feeding programme because she knows many people in her state live in poverty. This illustrates that the objective reality of a social problem:",
+          "options": [
+            "does not require every person to experience the condition personally",
+            "depends on Kelechi's personal feelings",
+            "exists only if Kelechi becomes poor",
+            "is created by volunteering"
+          ],
+          "answerIndex": 0,
+          "explanation": "The manual says you need not personally experience a condition to recognise its reality. Feelings belong to the subjective side, not the objective one."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Only a few residents complain about noise from a nightclub in their estate, and none of them has influence. Using the majority-minority yardstick, the noise is likely to be seen as:",
+          "options": [
+            "a national social problem",
+            "a natural problem",
+            "a public issue of social structure",
+            "a personal or minor problem"
+          ],
+          "answerIndex": 3,
+          "explanation": "Perception by a few powerless people keeps it personal or minor. It would rise in status if many people, or influential people, took it up."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A sociologist argues that 'cultism on campus became a social problem only after the media and university authorities described it as one, even though campus violence had long existed.' This argument reflects which perspective?",
+          "options": [
+            "Purely objective perspective",
+            "Social constructionist (subjective) perspective",
+            "Natural problem perspective",
+            "Biological perspective"
+          ],
+          "answerIndex": 1,
+          "explanation": "Stressing how a condition is defined and described is social constructionism. A purely objective view would focus only on the violence itself."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which of the following is NOT true of the subjective perspective as presented in the manual?",
+          "options": [
+            "It concerns how people's world is socially created through everyday action",
+            "It is based on social constructionism",
+            "It holds that objective harm alone makes a condition a social problem",
+            "It requires people to see the condition as affecting rules of human relationship"
+          ],
+          "answerIndex": 2,
+          "explanation": "The subjective perspective says objective harm alone is not enough. The other three statements describe it accurately."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Under the manual's discussion of statistical abnormality, which group, though small in number, can give a condition the status of a social problem?",
+          "options": [
+            "Influential people such as elites, political and religious leaders",
+            "Primary school pupils",
+            "Victims who do not recognise the condition",
+            "Foreign tourists"
+          ],
+          "answerIndex": 0,
+          "explanation": "A powerful few, such as elites and leaders, can confer significance on a condition. Victims unaware of the condition cannot define it."
+        },
+        {
+          "difficulty": 4,
+          "stem": "The manual applies Becker's labelling idea to social problems by arguing that:",
+          "options": [
+            "social problems are labelled by random chance",
+            "only the poor decide what counts as a social problem",
+            "labels have no effect on social policy",
+            "what becomes labelled a social problem depends largely on what the upper class or elite want"
+          ],
+          "answerIndex": 3,
+          "explanation": "The manual reads labelling as elites setting rules and choosing which conditions are labelled problems. It is not random, and the poor are not the main definers."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. A social problem requires a real, verifiable condition. II. A condition becomes a social problem only if every citizen agrees. III. Social constructionism treats social problems partly as social creations. Which are correct?",
+          "options": [
+            "I and II only",
+            "II and III only",
+            "I and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 2,
+          "explanation": "I and III are correct. II is wrong: a significant number, or a powerful few, is enough; unanimity is not required."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Hospital data show rising deaths from a skin-bleaching chemical, yet the public sees bleaching as a private beauty choice and no leader raises the matter. By the manual's two-sided definition, bleaching-related deaths are currently:",
+          "options": [
+            "a social problem, because the objective harm is proven",
+            "an objective reality not yet defined as a social problem",
+            "a natural problem, because chemicals are involved",
+            "a subjective problem with no real condition"
+          ],
+          "answerIndex": 1,
+          "explanation": "The harm is objectively real, but without the subjective definition by many or by the powerful, it has not yet become a social problem. It is certainly not natural."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A critic says: 'If elites can label anything a social problem, then the objective perspective is useless.' The best reply drawn from the manual is that:",
+          "options": [
+            "elites never influence definitions of social problems",
+            "the objective perspective alone fully determines social problems",
+            "only majorities define problems, so elites are irrelevant",
+            "the manual requires both a real harmful condition and a definition by many or by the powerful"
+          ],
+          "answerIndex": 3,
+          "explanation": "Both sides are required, so elite labelling does not make objective harm irrelevant. The other replies contradict the manual's role for power or its two-sided view."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1058 @@
+{
+  "unit": 3,
+  "title": "Conceptual Models of Abnormality",
+  "summary": "The six main models used to explain and treat abnormal behaviour: biological, psychodynamic, behavioural, cognitive, humanistic-existential and socio-cultural, with their strengths and blind spots.",
+  "sections": [
+    {
+      "name": "Models and the biological view",
+      "lesson": {
+        "title": "Different lenses, one child",
+        "minutes": 10,
+        "hook": "Seven-year-old Tobi screams, bites and cannot sit still in class. A doctor suspects brain chemistry, a pastor suspects spiritual attack, a teacher blames the home, a psychologist asks what the outbursts get him. Who is right?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "What a model is",
+            "body": "In science, a **model** (or **paradigm**) is the perspective used to explain a phenomenon. It sets out the scientist's **basic assumptions**, **gives order** to the field, and **guides investigation**: what to observe, which questions to ask, and how to interpret answers.\n\nIn abnormal psychology, several models compete to explain and treat disorders, including those of children.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Assumptions",
+                "Questions asked",
+                "Evidence sought",
+                "Interpretation"
+              ]
+            }
+          },
+          {
+            "kind": "terms",
+            "heading": "Six models at a glance",
+            "terms": [
+              {
+                "term": "Biological",
+                "meaning": "Physical processes: brain, genes, chemistry"
+              },
+              {
+                "term": "Psychodynamic",
+                "meaning": "Unconscious inner forces and conflicts"
+              },
+              {
+                "term": "Behavioural",
+                "meaning": "Behaviour and how it is learned"
+              },
+              {
+                "term": "Cognitive",
+                "meaning": "The thinking that underlies behaviour"
+              },
+              {
+                "term": "Humanistic-existential",
+                "meaning": "Values, meaning and choice"
+              },
+              {
+                "term": "Socio-cultural",
+                "meaning": "Effects of family, society and culture"
+              }
+            ]
+          },
+          {
+            "kind": "teach",
+            "heading": "No model is complete",
+            "body": "The **biological** model sits at one end (the body), the **socio-cultural** model at the other (society). The four in between, **psychodynamic, behavioural, cognitive** and **humanistic-existential**, focus on psychological and personal functioning.\n\nEach model highlights **one aspect** of human functioning. **None** can explain all abnormality alone, which is why modern clinicians combine them.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Body (biological)",
+              "right": "Society (socio-cultural)",
+              "marker": 50,
+              "label": "Psychological models in between"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Which model concentrates on the thinking that underlies behaviour?",
+            "options": [
+              "Cognitive",
+              "Behavioural",
+              "Psychodynamic",
+              "Socio-cultural"
+            ],
+            "answerIndex": 0,
+            "why": "The cognitive model focuses on thought; the behavioural model on learned behaviour."
+          },
+          {
+            "kind": "teach",
+            "heading": "The biological model",
+            "body": "Biological theorists take a **medical** view: abnormal behaviour is an **illness** caused by malfunctioning parts of the body, especially the **brain's anatomy or chemistry**.\n\nMany disorders are linked to faulty **neurotransmission**. Some **anxiety disorders** are linked to **low GABA** activity; **schizophrenia** is linked mainly to **excess dopamine** activity. (Your course notes mention serotonin and norepinephrine here; dopamine is the classic link.)",
+            "visual": {
+              "type": "neuron",
+              "part": "synapse",
+              "label": "Chemical messages"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Hormones and stress",
+            "body": "The **endocrine system** works with neurons to control growth, reproduction, heart rate, temperature, energy and the **stress response**. Glands release **hormones** into the blood.\n\nUnder stress, the **adrenal glands** on top of the kidneys release **cortisol**. Abnormal cortisol secretion has been tied to **anxiety and mood disorders**. Head injury, poor **nutrition** and **vascular** disease can also disrupt brain function.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Stress",
+                "Adrenal glands",
+                "Cortisol",
+                "Mood and anxiety"
+              ]
+            }
+          },
+          {
+            "kind": "steps",
+            "heading": "Three sources of biological abnormality",
+            "steps": [
+              {
+                "title": "Genetics",
+                "detail": "Inherited genes contribute strongly to schizophrenia, mood disorders and intellectual disability."
+              },
+              {
+                "title": "Evolution",
+                "detail": "Some risk genes persisted because they once helped survival, such as strong fear responses to danger."
+              },
+              {
+                "title": "Viral infections",
+                "detail": "Exposure to certain viruses before birth has been linked to schizophrenia and other disorders."
+              }
+            ]
+          },
+          {
+            "kind": "example",
+            "heading": "The cautious ancestor",
+            "story": "Imagine two ancestors walking through long grass. One startles at every rustle; the other strolls calmly. When a snake strikes, the jumpy one survives and passes on their genes. Today, a child who inherits that sensitive fear system may develop an anxiety disorder in a world with far fewer snakes.",
+            "takeaway": "Evolutionary theorists argue some genes behind disorders persisted because they once helped survival."
+          },
+          {
+            "kind": "check",
+            "question": "Low activity of which neurotransmitter has been linked to some anxiety disorders?",
+            "options": [
+              "Dopamine",
+              "Cortisol",
+              "GABA",
+              "Melatonin"
+            ],
+            "answerIndex": 2,
+            "why": "Low GABA activity is linked to anxiety. Cortisol and melatonin are hormones, not neurotransmitters."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'define models' and 'list the six models of abnormality', often as matching: model to focus. For the biological model, know neurotransmitters, hormones and the three sources: genetics, evolution, viral infections. Trap: calling cortisol a neurotransmitter. It is a hormone from the adrenal glands.",
+            "sampleQuestion": "Match each model with its focus: biological, socio-cultural, psychodynamic, behavioural, cognitive, humanistic-existential.",
+            "howToAnswer": "Biological: physical processes; socio-cultural: society and culture; psychodynamic: unconscious conflicts; behavioural: learned behaviour; cognitive: thinking; humanistic-existential: values and choices.",
+            "scholars": [
+              "Comer (2004)",
+              "Seligman, Walker & Rosenhan (2001)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "A model sets assumptions, orders a field and guides investigation.",
+              "Six models: biological, psychodynamic, behavioural, cognitive, humanistic-existential, socio-cultural.",
+              "No model explains all abnormality alone.",
+              "Biological: brain anatomy and chemistry, hormones like cortisol.",
+              "Sources: genetics, evolution, viral infections."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "A scientific perspective that sets out assumptions and guides research on a phenomenon is called a:",
+          "options": [
+            "Hormones",
+            "Symptoms",
+            "Diagnoses",
+            "Models or paradigms"
+          ],
+          "answerIndex": 3,
+          "explanation": "Models, also called paradigms, guide how scientists explain phenomena."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The biological model views abnormal behaviour mainly as:",
+          "options": [
+            "An illness caused by malfunctioning body parts",
+            "A learned habit",
+            "A result of society's labels",
+            "A failure to find meaning"
+          ],
+          "answerIndex": 0,
+          "explanation": "It takes a medical view centred on the brain and body."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which model examines the effects of society and culture on behaviour?",
+          "options": [
+            "Socio-cultural",
+            "Biological",
+            "Cognitive",
+            "Psychodynamic"
+          ],
+          "answerIndex": 0,
+          "explanation": "The socio-cultural model looks outwards to social forces."
+        },
+        {
+          "difficulty": 2,
+          "stem": "During stress, the adrenal glands secrete:",
+          "options": [
+            "Dopamine",
+            "GABA",
+            "Cortisol",
+            "Serotonin"
+          ],
+          "answerIndex": 2,
+          "explanation": "Cortisol is the adrenal stress hormone."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The three sources of biological abnormality identified are:",
+          "options": [
+            "Diet, sleep and exercise",
+            "Id, ego and superego",
+            "Family, culture and labels",
+            "Genetics, evolution and viral infections"
+          ],
+          "answerIndex": 3,
+          "explanation": "Genetics, evolution and viral infections are the three sources."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Why do clinicians often combine models?",
+          "options": [
+            "Each model is complete",
+            "Models are identical",
+            "Each focuses on one aspect, and none explains all abnormality",
+            "Only one model is scientific"
+          ],
+          "answerIndex": 2,
+          "explanation": "Combining models captures more of the whole picture."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A researcher finds a child's anxiety is linked to low GABA activity. This researcher is working within the:",
+          "options": [
+            "Biological model",
+            "Behavioural model",
+            "Humanistic model",
+            "Socio-cultural model"
+          ],
+          "answerIndex": 0,
+          "explanation": "Neurotransmitter explanations belong to the biological model."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Studies linking schizophrenia to virus exposure before birth illustrate which biological source?",
+          "options": [
+            "Evolution",
+            "Viral infections",
+            "Genetics",
+            "Nutrition"
+          ],
+          "answerIndex": 1,
+          "explanation": "Prenatal viral exposure is the viral-infection source."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A theorist argues that children's strong fear responses persist because they helped ancestors survive danger. This is an explanation from:",
+          "options": [
+            "Socio-cultural labelling",
+            "Psychodynamic theory",
+            "Evolution",
+            "Cognitive therapy"
+          ],
+          "answerIndex": 2,
+          "explanation": "Evolutionary theorists explain inherited traits by their past survival value."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are psychological models lying between the biological and socio-cultural models EXCEPT:",
+          "options": [
+            "Psychodynamic",
+            "Endocrine",
+            "Cognitive",
+            "Behavioural"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Endocrine' refers to the hormone system, part of biology, not a model."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Excess activity of which neurotransmitter is most classically linked to schizophrenia?",
+          "options": [
+            "GABA",
+            "Dopamine",
+            "Melatonin",
+            "Insulin"
+          ],
+          "answerIndex": 1,
+          "explanation": "The dopamine hypothesis is the classic biochemical account of schizophrenia."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Cognitive model: thinking underlying behaviour",
+            "Behavioural model: unconscious conflicts",
+            "Humanistic model: brain chemistry",
+            "Psychodynamic model: social labels"
+          ],
+          "answerIndex": 0,
+          "explanation": "The cognitive model focuses on thinking."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. A model guides which questions a scientist asks. II. The biological model explains all abnormality. III. Abnormal cortisol has been tied to anxiety and mood disorders. Which are correct?",
+          "options": [
+            "I and II only",
+            "I, II and III",
+            "II and III only",
+            "I and III only"
+          ],
+          "answerIndex": 3,
+          "explanation": "I and III are correct. No single model, biological included, explains all abnormality."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A child develops behaviour problems after a head injury in a road accident. Which model offers the most direct explanation?",
+          "options": [
+            "Socio-cultural",
+            "Humanistic-existential",
+            "Biological",
+            "Psychodynamic"
+          ],
+          "answerIndex": 2,
+          "explanation": "Head injury causing brain dysfunction is a biological explanation."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Why do critics say the biological model alone may be insufficient for childhood disorders?",
+          "options": [
+            "Children have no brains",
+            "It can overlook family, learning and cultural influences that also shape behaviour",
+            "It is never correct",
+            "It only applies to adults"
+          ],
+          "answerIndex": 1,
+          "explanation": "Focusing only on biology misses psychological and social factors."
+        }
+      ]
+    },
+    {
+      "name": "The psychodynamic model",
+      "lesson": {
+        "title": "Hidden forces in the mind",
+        "minutes": 10,
+        "hook": "A child who was neglected as a baby grows into a teenager who clings to every friend and panics when left alone. Freud would say something from those first months is still at work, out of sight.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Underlying psychological forces",
+            "body": "Psychodynamic theorists believe behaviour, normal or abnormal, is driven by **psychological forces** we are **not consciously aware of**. These forces are **dynamic**: they interact, and their interaction produces behaviour, thoughts and emotions.\n\nAbnormal symptoms are seen as the result of **conflicts** between these forces.",
+            "visual": {
+              "type": "pyramid",
+              "levels": [
+                "Conscious behaviour",
+                "Hidden conflicts",
+                "Unconscious forces"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Freud and psychoanalysis",
+            "body": "**Sigmund Freud** (1856–1939), a neurologist in Vienna, created this model around 1900. He developed **psychoanalysis** to explain both normal and abnormal functioning.\n\nFreud proposed three central forces shaping personality: **instinctual needs**, **rational thinking** and **moral standards**. He called them the **id**, **ego** and **superego**.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "flash",
+                  "label": "Id: instinct"
+                },
+                {
+                  "icon": "bulb",
+                  "label": "Ego: reason"
+                },
+                {
+                  "icon": "scale",
+                  "label": "Superego: morals"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Id versus ego",
+            "left": {
+              "title": "Id",
+              "points": [
+                "Instinctual needs and drives",
+                "Pleasure principle: wants gratification now",
+                "Fuelled by libido"
+              ]
+            },
+            "right": {
+              "title": "Ego",
+              "points": [
+                "Separates off from the id",
+                "Reality principle: when it is safe to act",
+                "Uses defence mechanisms"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The superego",
+            "body": "The **superego** grows from the ego. As children learn from parents that many id impulses are unacceptable, they **introject** (absorb) their parents' values. They identify with their parents and judge themselves by those standards.\n\nThe result is a **conscience**: we feel good when we live up to these values and **guilty** when we break them.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Parents' values",
+                "Introjection",
+                "Conscience",
+                "Pride or guilt"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "The part of personality that operates on the pleasure principle is the:",
+            "options": [
+              "Id",
+              "Superego",
+              "Ego",
+              "Conscience"
+            ],
+            "answerIndex": 0,
+            "why": "The id seeks immediate gratification. The ego follows the reality principle."
+          },
+          {
+            "kind": "teach",
+            "heading": "Healthy balance and conflict",
+            "body": "The id, ego and superego are usually in **some conflict**. A **healthy** personality has an effective working relationship, an acceptable **compromise**, among the three.\n\nWhen conflict is **excessive**, behaviour may show signs of **dysfunction**. To cope, the ego uses **defence mechanisms** such as **repression, denial, projection, rationalisation, displacement, regression** and **sublimation**.",
+            "visual": {
+              "type": "venn",
+              "left": "Id",
+              "right": "Superego",
+              "both": "Ego compromise"
+            }
+          },
+          {
+            "kind": "steps",
+            "heading": "Freud's psychosexual stages",
+            "steps": [
+              {
+                "title": "Oral (0 to 18 months)",
+                "detail": "Pleasure centres on the mouth: feeding and sucking."
+              },
+              {
+                "title": "Anal (18 months to 3 years)",
+                "detail": "Focus on toilet training and control."
+              },
+              {
+                "title": "Phallic (3 to 5 or 6 years)",
+                "detail": "Focus on the genitals and identification with parents."
+              },
+              {
+                "title": "Latency (about 6 to 12)",
+                "detail": "Sexual interests quieten; school and friendships dominate."
+              },
+              {
+                "title": "Genital (puberty onwards)",
+                "detail": "Mature sexual interests develop."
+              }
+            ]
+          },
+          {
+            "kind": "teach",
+            "heading": "Fixation",
+            "body": "At each stage, new pressures require the id, ego and superego to adjust. Successful adjustment brings **growth**. If not, the person may become **fixated** at that stage, and later development suffers.\n\nBecause **parents** are the key figures in early life, they are often seen as the source of problems. A child whose **oral needs** are consistently unmet may become fixated orally, showing **extreme dependence or mistrust** and a higher risk of **depression**.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Stage challenge",
+                "Failed adjustment",
+                "Fixation",
+                "Later problems"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "According to Freud, the latency stage covers roughly:",
+            "options": [
+              "Birth to 18 months",
+              "18 months to 3 years",
+              "About 6 to 12 years",
+              "Puberty onwards"
+            ],
+            "answerIndex": 2,
+            "why": "Latency falls between the phallic stage and puberty, roughly ages 6 to 12, when sexual interests quieten."
+          },
+          {
+            "kind": "example",
+            "heading": "The new baby",
+            "story": "When her baby brother arrives, five-year-old Kemi, who had been toilet-trained for two years, starts wetting the bed and asking for a feeding bottle. A psychodynamic therapist would see regression: under the stress of losing her parents' full attention, Kemi's ego retreats to an earlier, safer stage.",
+            "takeaway": "Defence mechanisms like regression protect the ego from anxiety, especially in children under stress."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'explain the psychodynamic model' with id, ego, superego, the principles they follow, and fixation. Objectives test stage ages and defence mechanisms with child scenarios. Traps: saying the ego follows the pleasure principle (it follows reality), and forgetting that the superego develops from the ego.",
+            "sampleQuestion": "A child whose mother consistently failed to meet her feeding needs becomes extremely dependent. Freud would describe this as fixation at the: (a) anal stage (b) oral stage (c) phallic stage (d) genital stage",
+            "howToAnswer": "Answer (b). Explain fixation and link oral fixation to dependence, mistrust and vulnerability to depression.",
+            "scholars": [
+              "Freud (1856–1939)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Behaviour is driven by unconscious, interacting forces; symptoms reflect conflict.",
+              "Freud: id (pleasure principle), ego (reality principle), superego (conscience).",
+              "Healthy personality is a workable compromise among the three.",
+              "Defence mechanisms protect the ego from anxiety.",
+              "Unresolved stages cause fixation; oral fixation links to dependence and depression."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The psychodynamic model was first formulated by:",
+          "options": [
+            "B. F. Skinner",
+            "Sigmund Freud",
+            "Carl Rogers",
+            "Aaron Beck"
+          ],
+          "answerIndex": 1,
+          "explanation": "Freud developed psychoanalysis, the basis of the psychodynamic model."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The ego operates according to the:",
+          "options": [
+            "Pleasure principle",
+            "Moral principle",
+            "Reality principle",
+            "Libido principle"
+          ],
+          "answerIndex": 2,
+          "explanation": "The ego seeks gratification realistically, following the reality principle."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The conscience is part of the:",
+          "options": [
+            "Id",
+            "Ego",
+            "Libido",
+            "Superego"
+          ],
+          "answerIndex": 3,
+          "explanation": "The superego contains internalised moral standards, the conscience."
+        },
+        {
+          "difficulty": 2,
+          "stem": "According to Freud, the oral stage covers roughly:",
+          "options": [
+            "3 to 5 years",
+            "18 months to 3 years",
+            "Birth to 18 months",
+            "12 years to adulthood"
+          ],
+          "answerIndex": 2,
+          "explanation": "The oral stage spans the first 18 months."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The ego develops strategies to control unacceptable id impulses called:",
+          "options": [
+            "Defence mechanisms",
+            "Neurotransmitters",
+            "Schemas",
+            "Conditioned responses"
+          ],
+          "answerIndex": 0,
+          "explanation": "Defence mechanisms reduce anxiety from unacceptable impulses."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The superego develops when children:",
+          "options": [
+            "Ignore their parents",
+            "Satisfy every id impulse",
+            "Reach puberty",
+            "Introject their parents' values"
+          ],
+          "answerIndex": 3,
+          "explanation": "Absorbing parents' values forms the conscience."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A boy who is angry at his teacher goes home and kicks his younger brother. This defence mechanism is:",
+          "options": [
+            "Displacement",
+            "Sublimation",
+            "Repression",
+            "Denial"
+          ],
+          "answerIndex": 0,
+          "explanation": "Redirecting feelings to a safer target is displacement."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A child who failed an exam insists the teacher set unfair questions, though classmates did well. This is most likely:",
+          "options": [
+            "Rationalisation",
+            "Sublimation",
+            "Regression",
+            "Introjection"
+          ],
+          "answerIndex": 0,
+          "explanation": "Offering a plausible excuse to protect self-esteem is rationalisation."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A toddler grabs a sweet from a shop shelf the moment he sees it. Freud would say this impulse comes from the:",
+          "options": [
+            "Ego",
+            "Superego",
+            "Id",
+            "Latency stage"
+          ],
+          "answerIndex": 2,
+          "explanation": "Seeking immediate gratification reflects the id's pleasure principle."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which ordering of Freud's stages is correct?",
+          "options": [
+            "Anal, oral, phallic, latency, genital",
+            "Oral, anal, phallic, latency, genital",
+            "Oral, phallic, anal, genital, latency",
+            "Phallic, oral, anal, latency, genital"
+          ],
+          "answerIndex": 1,
+          "explanation": "The sequence is oral, anal, phallic, latency, genital."
+        },
+        {
+          "difficulty": 4,
+          "stem": "According to the psychodynamic model, a healthy personality is one in which:",
+          "options": [
+            "The id always wins",
+            "The id, ego and superego reach an acceptable compromise",
+            "The superego eliminates the id",
+            "There is no conflict at all"
+          ],
+          "answerIndex": 1,
+          "explanation": "Some conflict is normal; health means a workable compromise."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are defence mechanisms EXCEPT:",
+          "options": [
+            "Repression",
+            "Projection",
+            "Introspection",
+            "Sublimation"
+          ],
+          "answerIndex": 2,
+          "explanation": "Introspection is self-examination, not a defence mechanism."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. The id is fuelled by libido. II. The ego develops from the superego. III. Fixation can follow failed adjustment at a stage. Which are correct?",
+          "options": [
+            "I and II only",
+            "I, II and III",
+            "II and III only",
+            "I and III only"
+          ],
+          "answerIndex": 3,
+          "explanation": "I and III are correct. The ego separates off from the id; the superego grows from the ego."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Why are parents so central in psychodynamic explanations of childhood disorders?",
+          "options": [
+            "They are the key environmental figures during the early stages when fixation can occur",
+            "They choose the child's genes",
+            "They control neurotransmitters",
+            "They label the child"
+          ],
+          "answerIndex": 0,
+          "explanation": "Early stages are shaped by parental care, so failures there are often traced to parents."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A major criticism of the psychodynamic model is that:",
+          "options": [
+            "It ignores childhood",
+            "Its unconscious concepts are hard to test scientifically",
+            "It focuses only on brain chemistry",
+            "It denies conflict"
+          ],
+          "answerIndex": 1,
+          "explanation": "Unconscious forces are difficult to observe or measure, limiting scientific testing."
+        }
+      ]
+    },
+    {
+      "name": "Learning, thinking, meaning and society",
+      "lesson": {
+        "title": "Four more lenses",
+        "minutes": 10,
+        "hook": "A boy refuses to go to school. One psychologist asks what he gains by staying home; another asks what he believes will happen there; a third asks whether he feels his life has meaning; a fourth looks at bullying in his community. All four may find part of the answer.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "The behavioural model",
+            "body": "**Behaviourists** focus on **behaviour** and argue it develops through the **principles of learning**. Learned behaviours help us cope, but **abnormal behaviours can be learned too**.\n\nBehavioural therapy aims to **identify** problem behaviours and **replace** them with more appropriate ones using learning principles. For example, **systematic desensitisation**, based on classical conditioning, treats **phobias** effectively.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Experience",
+                "Learning",
+                "Behaviour",
+                "Relearning"
+              ]
+            }
+          },
+          {
+            "kind": "terms",
+            "heading": "Three types of conditioning",
+            "terms": [
+              {
+                "term": "Classical conditioning",
+                "meaning": "Learning that links two events because they keep happening at nearly the same moment"
+              },
+              {
+                "term": "Operant conditioning",
+                "meaning": "Learning to behave in ways that bring rewards"
+              },
+              {
+                "term": "Modelling",
+                "meaning": "Learning by observing and copying others"
+              }
+            ]
+          },
+          {
+            "kind": "example",
+            "heading": "The tantrum that works",
+            "story": "Every time four-year-old Bayo throws a tantrum at the supermarket, his embarrassed mother buys him biscuits to quieten him. Soon he throws a tantrum on every trip. A behaviour therapist teaches her to reward calm behaviour instead and ignore tantrums. Within weeks, they become rare.",
+            "takeaway": "Operant conditioning can teach problem behaviour, and the same principles can unlearn it."
+          },
+          {
+            "kind": "check",
+            "question": "A child learns to fear dogs after watching his older sister scream at one. This is:",
+            "options": [
+              "Modelling",
+              "Operant conditioning",
+              "Classical conditioning",
+              "Fixation"
+            ],
+            "answerIndex": 0,
+            "why": "Learning by observing someone else's reaction is modelling."
+          },
+          {
+            "kind": "teach",
+            "heading": "The cognitive model",
+            "body": "The **cognitive model** holds that to understand behaviour, we must understand **thought**. Abnormal functioning comes from **cognitive problems**: **maladaptive assumptions** and **illogical thinking**.\n\n**Cognitive therapists** help people **recognise and change** faulty ideas. A child who thinks 'If I get one answer wrong, everyone will laugh at me' can learn to test and revise that belief.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Event",
+                "Faulty thought",
+                "Distress",
+                "Revised thought"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Humanistic-existential model",
+            "body": "This model focuses on the human need to face **philosophical issues**: **self-awareness, values, meaning and choice**. **Humanists** believe people are driven to **self-actualise**; when that drive is blocked, abnormality may follow.\n\n**Client-centred** therapists (Carl Rogers) create a warm, accepting climate for honest self-exploration. **Gestalt** therapists use more active techniques to help people recognise their needs.",
+            "visual": {
+              "type": "pyramid",
+              "levels": [
+                "Self-actualisation",
+                "Self-acceptance",
+                "Supportive climate"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The existential view",
+            "body": "For **existentialists**, abnormality grows when people **run away from the responsibilities of living**. Their therapists encourage people to **accept responsibility** for their lives, recognise their **freedom to choose** a different course, and live with greater **meaning**.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "person",
+                  "label": "Responsibility"
+                },
+                {
+                  "icon": "git-network",
+                  "label": "Freedom to choose"
+                },
+                {
+                  "icon": "heart",
+                  "label": "Meaning"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The socio-cultural model",
+            "body": "This model turns its gaze **outwards**, to the social forces acting on people. **Family systems** theorists argue a family's structure or communication patterns can push members into abnormal behaviour. Others study **culture**, **social networks and support**, and **societal conditions** such as poverty.\n\n**Labelling** theorists say that when society calls someone 'mentally ill', the **label itself** can shape how they behave and how others treat them.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "home",
+                  "label": "Family system"
+                },
+                {
+                  "icon": "people",
+                  "label": "Social support"
+                },
+                {
+                  "icon": "megaphone",
+                  "label": "Labels"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "A theorist argues that calling a child 'the mad one' in his village changes how he behaves and how others treat him. This view comes from the:",
+            "options": [
+              "Biological model",
+              "Socio-cultural model",
+              "Cognitive model",
+              "Behavioural model"
+            ],
+            "answerIndex": 1,
+            "why": "Concern with societal labels and roles belongs to the socio-cultural model."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'explain the various models of abnormality' as an essay: one paragraph per model with key idea, cause of abnormality and treatment. Objectives use child scenarios to identify the model. Trap: confusing client-centred (supportive, Rogers) with Gestalt (active techniques), or modelling with operant conditioning.",
+            "sampleQuestion": "Which model traces abnormality to people dodging the responsibilities of their own lives? (a) behavioural (b) cognitive (c) existential (d) socio-cultural",
+            "howToAnswer": "Answer (c). Then contrast with humanists, who stress blocked self-actualisation.",
+            "scholars": [
+              "Rogers",
+              "Beck",
+              "Skinner",
+              "Bandura"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Behavioural: abnormal behaviour is learned through conditioning and modelling.",
+              "Cognitive: maladaptive assumptions and illogical thinking cause problems.",
+              "Humanistic: blocked self-actualisation; client-centred and Gestalt therapy.",
+              "Existential: hiding from responsibility; therapy restores choice and meaning.",
+              "Socio-cultural: family systems, culture, support and labels."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Behaviourists explain abnormal behaviour mainly through:",
+          "options": [
+            "Unconscious conflicts",
+            "Search for meaning",
+            "Principles of learning",
+            "Brain chemistry"
+          ],
+          "answerIndex": 2,
+          "explanation": "Behaviourists see behaviour, normal or abnormal, as learned."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Humanists believe people are driven to:",
+          "options": [
+            "Self-actualise",
+            "Avoid all responsibility",
+            "Seek only pleasure",
+            "Repress memories"
+          ],
+          "answerIndex": 0,
+          "explanation": "Self-actualisation is the central humanistic drive."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Systematic desensitisation is especially effective for treating:",
+          "options": [
+            "Phobias",
+            "Schizophrenia",
+            "Intellectual disability",
+            "Head injury"
+          ],
+          "answerIndex": 0,
+          "explanation": "This classical-conditioning technique treats phobias well."
+        },
+        {
+          "difficulty": 2,
+          "stem": "When a child links two events because they keep happening at nearly the same moment, the learning is called:",
+          "options": [
+            "Operant conditioning",
+            "Modelling",
+            "Classical conditioning",
+            "Self-actualisation"
+          ],
+          "answerIndex": 2,
+          "explanation": "Classical conditioning involves temporal association."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Cognitive theorists attribute abnormal functioning to:",
+          "options": [
+            "Excess dopamine",
+            "Family structure",
+            "Maladaptive assumptions and illogical thinking",
+            "Fixation at the oral stage"
+          ],
+          "answerIndex": 2,
+          "explanation": "Faulty thinking is the cognitive model's explanation."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Client-centred therapists aim to:",
+          "options": [
+            "Punish bad behaviour",
+            "Analyse dreams only",
+            "Change brain chemistry",
+            "Create a supportive climate for honest self-exploration"
+          ],
+          "answerIndex": 3,
+          "explanation": "Rogers' approach offers warmth and acceptance to foster self-actualisation."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A girl gets attention from her teacher only when she misbehaves, and her misbehaviour increases. This is best explained by:",
+          "options": [
+            "Classical conditioning",
+            "Modelling",
+            "Existential anxiety",
+            "Operant conditioning"
+          ],
+          "answerIndex": 3,
+          "explanation": "Behaviour followed by a reward (attention) increases: operant conditioning."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A therapist helps a child replace the thought 'I'm stupid at everything' with a more accurate view. This approach is:",
+          "options": [
+            "Cognitive",
+            "Psychodynamic",
+            "Biological",
+            "Socio-cultural"
+          ],
+          "answerIndex": 0,
+          "explanation": "Changing faulty beliefs is cognitive therapy."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A family therapist notices a child's problems worsen whenever his parents argue through him. This reflects the:",
+          "options": [
+            "Biological model",
+            "Family systems view within the socio-cultural model",
+            "Psychodynamic oral stage",
+            "Cognitive model"
+          ],
+          "answerIndex": 1,
+          "explanation": "Family structure and communication patterns are a socio-cultural focus."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are forms of conditioning in the behavioural model EXCEPT:",
+          "options": [
+            "Operant conditioning",
+            "Introjection",
+            "Modelling",
+            "Classical conditioning"
+          ],
+          "answerIndex": 1,
+          "explanation": "Introjection is a psychodynamic concept."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Gestalt therapy: purely passive listening",
+            "Existential therapy: accepting responsibility and choice",
+            "Client-centred therapy: punishment",
+            "Cognitive therapy: unconscious drives"
+          ],
+          "answerIndex": 1,
+          "explanation": "Existential therapy stresses responsibility, freedom and meaning."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Labelling theorists in the socio-cultural model argue that:",
+          "options": [
+            "Being labelled mentally ill can influence how a person behaves and is treated",
+            "Only doctors can label",
+            "Labels cure disorders",
+            "Labels have no effect"
+          ],
+          "answerIndex": 0,
+          "explanation": "The label itself can shape behaviour and others' responses."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Abnormal behaviour can be learned. II. Gestalt therapists use active techniques. III. Existentialists see abnormality as hiding from responsibility. Which are correct?",
+          "options": [
+            "I and II only",
+            "I, II and III",
+            "I and III only",
+            "II and III only"
+          ],
+          "answerIndex": 1,
+          "explanation": "All three statements are correct."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A child's school refusal is linked to low serotonin, fearful beliefs, a reward of staying home, and bullying in the community. Which conclusion best fits?",
+          "options": [
+            "No model applies",
+            "Only the biological model applies",
+            "Only the socio-cultural model applies",
+            "Several models each explain part of the problem"
+          ],
+          "answerIndex": 3,
+          "explanation": "No single model explains everything; an integrated approach captures the whole picture."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which model would most likely treat a child's phobia of the dark by gradually exposing them to dim light while they stay relaxed?",
+          "options": [
+            "Humanistic",
+            "Psychodynamic",
+            "Behavioural",
+            "Existential"
+          ],
+          "answerIndex": 2,
+          "explanation": "Gradual exposure paired with relaxation is systematic desensitisation, a behavioural technique."
+        }
+      ]
+    }
+  ]
+}

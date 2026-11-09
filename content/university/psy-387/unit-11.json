@@ -1,0 +1,634 @@
+{
+  "unit": 11,
+  "title": "Frustration-Aggression Theory",
+  "summary": "How hardship breeds aggression, why that aggression lands on weak and outnumbered groups, and what the theory can and cannot explain.",
+  "sections": [
+    {
+      "name": "Frustration breeds aggression",
+      "lesson": {
+        "title": "When hard times turn hostile",
+        "minutes": 8,
+        "hook": "A man's boss cuts his salary. He says nothing at work, then shouts at his children over a spilled cup of garri that evening. Why them, and not the boss?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "A motivational account",
+            "body": "**Frustration-aggression theory** explains prejudice through **motivation**: when people face hardship, they become more likely to criticise and attack out-groups.\n\nThe idea comes from **Dollard, Doob, Miller, Mowrer and Sears (1939)** at Yale, who proposed that **frustration**, being blocked from a goal, produces an urge to aggress. Hard times, the theory predicts, are hostile times.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Goal blocked",
+                "Frustration",
+                "Urge to aggress"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Generalised aggression",
+            "body": "Frustration does not produce a neat, targeted response. It raises **generalised aggression**: a readiness to lash out at almost anyone.\n\nThat is why we sometimes snap at the very people we love. The anger is real, but it is not really about them. It spills over from a frustration somewhere else.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "close-circle",
+                  "label": "Blocked goal"
+                },
+                {
+                  "icon": "flash",
+                  "label": "Anger builds"
+                },
+                {
+                  "icon": "warning",
+                  "label": "Spills over"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "According to frustration-aggression theory, aggression tends to rise when people:",
+            "options": [
+              "Are blocked from their goals",
+              "Achieve their goals easily",
+              "Feel very secure",
+              "Have plenty of resources"
+            ],
+            "answerIndex": 0,
+            "why": "Frustration means being blocked from a goal, and the theory says this raises aggression. Easy success and security reduce it."
+          },
+          {
+            "kind": "example",
+            "heading": "The salary cut",
+            "story": "Mr Okafor's company cuts salaries just as food prices rise. He cannot shout at the managing director without risking his job. At home, he becomes harsh with his children over small things: noise, a dirty plate, a late return from school. His frustration is real, but its source is out of reach.",
+            "takeaway": "Frustration from one source can raise aggression that is released somewhere safer."
+          },
+          {
+            "kind": "teach",
+            "heading": "Cotton prices and lynchings",
+            "body": "**Carl Hovland and Robert Sears (1940)** looked at records from the American South. They found a **negative correlation** between the **price of cotton** in a year and the **number of lynchings** of Black Americans that year.\n\nWhen cotton fetched little and farmers struggled, lynchings rose; in good years, they fell. Economic frustration seemed to turn into violence against a vulnerable group.",
+            "visual": {
+              "type": "scale",
+              "left": "Low cotton price",
+              "right": "High cotton price",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Hovland and Sears (1940) found that as cotton prices fell, lynchings:",
+            "options": [
+              "Fell",
+              "Stopped completely",
+              "Did not change",
+              "Rose"
+            ],
+            "answerIndex": 3,
+            "why": "The negative correlation means low prices went with more lynchings: lean times, more violence."
+          },
+          {
+            "kind": "terms",
+            "heading": "Key terms",
+            "terms": [
+              {
+                "term": "Frustration",
+                "meaning": "The state of being blocked from reaching a goal"
+              },
+              {
+                "term": "Generalised aggression",
+                "meaning": "A broad readiness to lash out, not aimed at one target"
+              },
+              {
+                "term": "Negative correlation",
+                "meaning": "As one measure goes down, the other goes up"
+              },
+              {
+                "term": "Motivational account",
+                "meaning": "Explaining prejudice by needs and drives, not beliefs alone"
+              }
+            ]
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'briefly explain frustration-aggression theory' and the cotton study. The favourite trap is the direction of the correlation: students write 'positive' because both 'go with' hardship. Cotton price and lynchings moved in opposite directions, so the correlation is negative.",
+            "sampleQuestion": "Hovland and Sears (1940) reported a ______ correlation between cotton prices and lynchings: (a) positive (b) negative (c) zero (d) curvilinear",
+            "howToAnswer": "Answer (b): as prices fell, lynchings rose. Then explain this supports the idea that hardship increases aggression toward weak groups.",
+            "scholars": [
+              "Dollard et al. (1939)",
+              "Hovland & Sears (1940)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Frustration-aggression theory is a motivational account of prejudice.",
+              "Dollard and colleagues (1939): frustration produces an urge to aggress.",
+              "Frustration raises generalised aggression, even towards loved ones.",
+              "Hovland and Sears (1940): cotton prices fell, lynchings rose.",
+              "That is a negative correlation."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Frustration-aggression theory offers which kind of account of prejudice?",
+          "options": [
+            "Cognitive",
+            "Cultural",
+            "Genetic",
+            "Motivational"
+          ],
+          "answerIndex": 3,
+          "explanation": "It explains prejudice through drives and needs triggered by hardship, so it is a motivational account."
+        },
+        {
+          "difficulty": 1,
+          "stem": "In frustration-aggression theory, 'frustration' means:",
+          "options": [
+            "Feeling bored",
+            "Being blocked from a goal",
+            "Feeling guilty",
+            "Being very successful"
+          ],
+          "answerIndex": 1,
+          "explanation": "Frustration is the blocking of goal-directed behaviour, which the theory links to aggression."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The cotton price study was carried out by:",
+          "options": [
+            "Hovland and Sears",
+            "Sherif and Sherif",
+            "Tajfel and Turner",
+            "Crosby and Taylor"
+          ],
+          "answerIndex": 0,
+          "explanation": "Carl Hovland and Robert Sears published the cotton price and lynching analysis in 1940."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The theory predicts that during times of hardship, aggression will:",
+          "options": [
+            "Decrease",
+            "Stay the same",
+            "Increase",
+            "Disappear"
+          ],
+          "answerIndex": 2,
+          "explanation": "Hardship is frustrating, and frustration raises aggression."
+        },
+        {
+          "difficulty": 2,
+          "stem": "'Generalised aggression' means aggression that:",
+          "options": [
+            "Is aimed only at the cause of frustration",
+            "Is always physical",
+            "Only happens in groups",
+            "Is a broad readiness to lash out at many targets"
+          ],
+          "answerIndex": 3,
+          "explanation": "Frustration produces a general readiness to aggress, not one focused only on its source."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The relationship Hovland and Sears found between cotton prices and lynchings was:",
+          "options": [
+            "Positive",
+            "Negative",
+            "Zero",
+            "Causal and proven"
+          ],
+          "answerIndex": 1,
+          "explanation": "Lower prices went with more lynchings, a negative correlation. Correlation alone does not prove cause."
+        },
+        {
+          "difficulty": 3,
+          "stem": "After failing her driving test, Bisi snaps at her younger brother for asking a simple question. This best illustrates:",
+          "options": [
+            "Generalised aggression from frustration",
+            "Social identity",
+            "Realistic group conflict",
+            "Basking in reflected glory"
+          ],
+          "answerIndex": 0,
+          "explanation": "Her frustration from the test spills over onto someone uninvolved, which is generalised aggression."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A researcher finds that hate crimes against migrants rise in years when unemployment rises. This pattern is most consistent with:",
+          "options": [
+            "The contact hypothesis",
+            "Frustration-aggression theory",
+            "Basking in reflected glory",
+            "The minimal group paradigm"
+          ],
+          "answerIndex": 1,
+          "explanation": "Economic hardship producing more aggression towards a vulnerable group fits frustration-aggression theory, like the cotton study."
+        },
+        {
+          "difficulty": 3,
+          "stem": "In a good harvest year in the cotton study, the theory would predict:",
+          "options": [
+            "More lynchings",
+            "No lynchings at all",
+            "Fewer lynchings",
+            "Only economic protests"
+          ],
+          "answerIndex": 2,
+          "explanation": "Good times mean less frustration and so less aggression. 'No lynchings at all' overstates it."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement about the Hovland and Sears findings is MOST accurate?",
+          "options": [
+            "They showed a correlation consistent with the theory",
+            "They proved that low prices cause lynchings",
+            "They showed a positive correlation",
+            "They studied laboratory participants"
+          ],
+          "answerIndex": 0,
+          "explanation": "It was archival correlational data, so it supports but cannot prove causation. The correlation was negative."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Frustration-aggression theory was first set out by:",
+          "options": [
+            "Tajfel and Turner (1979)",
+            "Allport (1954)",
+            "Dollard and colleagues (1939)",
+            "Sherif (1966)"
+          ],
+          "answerIndex": 2,
+          "explanation": "Dollard, Doob, Miller, Mowrer and Sears proposed it in 1939. Sears later co-authored the cotton study."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are consistent with frustration-aggression theory EXCEPT:",
+          "options": [
+            "Aggression rises in hard economic times",
+            "Frustration spills onto unrelated people",
+            "Aggression is always aimed at the true source of frustration",
+            "Prosperity reduces hostility towards minorities"
+          ],
+          "answerIndex": 2,
+          "explanation": "The theory stresses that aggression is often not aimed at the true source. That is the point of generalised and displaced aggression."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Frustration raises generalised aggression. II. The cotton study showed a negative correlation. III. The theory explains prejudice mainly through beliefs about groups. Which are correct?",
+          "options": [
+            "I and III only",
+            "I and II only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 1,
+          "explanation": "I and II are correct. III is wrong: it is a motivational account, not one based mainly on beliefs."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Why is frustration-aggression theory described as 'motivational' rather than 'cognitive'?",
+          "options": [
+            "It focuses on how people store stereotypes",
+            "It is based on social categories",
+            "It ignores emotion",
+            "It explains prejudice by a drive aroused by blocked goals"
+          ],
+          "answerIndex": 3,
+          "explanation": "It locates the cause in a drive or urge produced by frustration. Cognitive accounts focus on beliefs and categories."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A critic notes that some frustrated people respond by working harder or withdrawing, not by aggressing. This criticism suggests that:",
+          "options": [
+            "Frustration does not always lead to aggression",
+            "Frustration never causes aggression",
+            "Aggression always has a frustration cause",
+            "The cotton study was faked"
+          ],
+          "answerIndex": 0,
+          "explanation": "Frustration can lead to many responses, so the original claim that it always leads to aggression is too strong. It does not mean frustration never causes aggression."
+        }
+      ]
+    },
+    {
+      "name": "Displaced aggression and scapegoats",
+      "lesson": {
+        "title": "Hitting the safe target",
+        "minutes": 8,
+        "hook": "When fuel queues stretch for hours, people rarely march on the refinery. They curse the pump attendant, the okada rider, or 'those people'. Who gets blamed, and why them?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Displacement",
+            "body": "Often we **cannot attack the true source** of our frustration. It may be too powerful, too vague (like 'the economy'), or attacking it would bring bigger trouble.\n\nSo the aggression is **displaced**: redirected onto a **safer target**. This is **displaced aggression**, and it is the element that makes the theory relevant to discrimination.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Real source",
+                "Too risky",
+                "Safer target"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Why minorities become targets",
+            "body": "Who counts as 'safe'? Groups that are **outnumbered** and in a **weaker position**. They are less able to fight back, so hostility against them carries little cost.\n\nThe theory therefore predicts that hardship will produce **malice directed at minority groups**. It does not just say aggression rises; it says **where** the aggression goes: towards the relatively powerless.",
+            "visual": {
+              "type": "scale",
+              "left": "Powerful source",
+              "right": "Weak minority",
+              "heavier": "right"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Displaced aggression is aggression that is:",
+            "options": [
+              "Aimed at the true source of frustration",
+              "Redirected onto a safer, often weaker target",
+              "Turned inwards as depression",
+              "Expressed only in words"
+            ],
+            "answerIndex": 1,
+            "why": "Displacement means shifting the aggression from a risky source to a safer target. Aiming at the true source is direct aggression."
+          },
+          {
+            "kind": "teach",
+            "heading": "The scapegoat",
+            "body": "The word comes from an ancient ritual in which the community's sins were symbolically placed on a goat that was then driven away. A **scapegoat** today is a person or group **blamed for problems they did not cause**.\n\n**Scapegoating** combines displaced aggression with blame: 'prices are high because of them'. Minority traders, migrants and religious minorities have often played this role in history.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "trending-down",
+                  "label": "Hard times"
+                },
+                {
+                  "icon": "hand-left",
+                  "label": "Point the finger"
+                },
+                {
+                  "icon": "person",
+                  "label": "Scapegoat"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Blaming the stranger",
+            "story": "In a town hit by job losses, rumours spread that a small migrant community is 'taking all the jobs'. In truth, a factory closed because of import costs. But the factory owners are far away and powerful, while the migrants are few and nearby. Market stalls owned by migrants are attacked one night.",
+            "takeaway": "The frustration comes from the factory closure, but aggression is displaced onto a weaker, outnumbered group."
+          },
+          {
+            "kind": "teach",
+            "heading": "Insecurity and stereotyping",
+            "body": "From displacement, it is a small step to a wider prediction: people **stereotype more and give in to prejudice** when they feel **insecure** or when their **self-esteem is threatened**.\n\nA threatened ego looks for someone to feel superior to. Putting down an out-group can restore a sense of control and worth, which links this theory to social identity ideas.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Self-esteem threatened",
+                "Insecurity",
+                "More stereotyping"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Limits of the theory",
+            "body": "The original claim that frustration **always** leads to aggression proved too strong. Neal **Miller (1941)** softened it: frustration produces several responses, of which aggression is one.\n\nLeonard **Berkowitz** (1989) later argued frustration leads to aggression mainly when it creates **negative feelings**, and that cues in the environment can trigger it. The theory also struggles to explain **why one particular group** is chosen as the target.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Always aggression",
+              "right": "Many responses",
+              "marker": 75,
+              "label": "Revised view"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Which of the following is a recognised weakness of frustration-aggression theory?",
+            "options": [
+              "It ignores hardship",
+              "It denies that aggression exists",
+              "It cannot fully explain why a particular group becomes the target",
+              "It is based only on minimal groups"
+            ],
+            "answerIndex": 2,
+            "why": "The theory says weak groups are targeted, but not why one weak group rather than another. That gap needed other theories, such as stereotypes and norms."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "'Explain the concept of displaced aggression' appears often. Define it, explain why the true source is avoided, and say why minorities are targeted: outnumbered, weaker, safe. Then link it to discrimination. The trap: confusing displaced aggression with generalised aggression. Generalised is the spread; displaced is the redirection.",
+            "sampleQuestion": "Frustration-aggression theory predicts that hardship will produce hostility mainly towards: (a) the powerful source of frustration (b) outnumbered and weaker groups (c) the government only (d) one's own family only",
+            "howToAnswer": "Answer (b): weaker, outnumbered groups are safe targets. In an essay, use the cotton study and a Nigerian scapegoating example.",
+            "scholars": [
+              "Dollard et al. (1939)",
+              "Miller (1941)",
+              "Berkowitz (1989)",
+              "Hovland & Sears (1940)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Displaced aggression shifts anger from a risky source to a safer target.",
+              "Weak, outnumbered minorities are the usual safe targets.",
+              "Displacement is what links the theory to discrimination.",
+              "Scapegoats are blamed for problems they did not cause.",
+              "Revisions: frustration does not always produce aggression (Miller; Berkowitz)."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Displaced aggression is aggression directed at:",
+          "options": [
+            "The true source of frustration",
+            "Nobody at all",
+            "Oneself only",
+            "A safer substitute target"
+          ],
+          "answerIndex": 3,
+          "explanation": "Displacement redirects aggression from a risky source to a safer target."
+        },
+        {
+          "difficulty": 1,
+          "stem": "According to the theory, minority groups are often targeted because they are:",
+          "options": [
+            "Powerful and wealthy",
+            "The real cause of hardship",
+            "Outnumbered and in a weaker position",
+            "Always aggressive themselves"
+          ],
+          "answerIndex": 2,
+          "explanation": "Being outnumbered and weaker makes them safe targets for displaced aggression."
+        },
+        {
+          "difficulty": 1,
+          "stem": "A group blamed for problems it did not cause is called a:",
+          "options": [
+            "Reference group",
+            "Scapegoat",
+            "Superordinate group",
+            "Minimal group"
+          ],
+          "answerIndex": 1,
+          "explanation": "A scapegoat carries blame for troubles caused by others."
+        },
+        {
+          "difficulty": 2,
+          "stem": "What element makes frustration-aggression theory relevant to discrimination?",
+          "options": [
+            "Generalised aggression",
+            "Displacement",
+            "Positive stereotypes",
+            "Social mobility"
+          ],
+          "answerIndex": 1,
+          "explanation": "Displacement explains why aggression lands on weak out-groups, linking frustration to discrimination."
+        },
+        {
+          "difficulty": 2,
+          "stem": "People often cannot aggress against the true source of frustration because:",
+          "options": [
+            "They do not feel frustrated",
+            "It would bring further problems",
+            "The source is always a minority",
+            "Aggression is always illegal"
+          ],
+          "answerIndex": 1,
+          "explanation": "The real source is often powerful or vague, so attacking it would cause more trouble."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The theory predicts people stereotype more when they:",
+          "options": [
+            "Feel secure and successful",
+            "Feel insecure or their self-esteem is threatened",
+            "Are on holiday",
+            "Have just received a promotion"
+          ],
+          "answerIndex": 1,
+          "explanation": "Threat and insecurity push people towards stereotypes and prejudice."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Workers angry at a bank's loan rejection attack the shops of a small immigrant community instead. This is:",
+          "options": [
+            "Displaced aggression",
+            "Direct aggression",
+            "Social creativity",
+            "Basking in reflected glory"
+          ],
+          "answerIndex": 0,
+          "explanation": "The anger comes from the bank but lands on a weaker group, which is displacement."
+        },
+        {
+          "difficulty": 3,
+          "stem": "During a fuel scarcity, residents blame 'Hausa traders' for high prices, though the cause is national supply problems. The traders are acting as:",
+          "options": [
+            "A superordinate group",
+            "An in-group",
+            "A reference group",
+            "Scapegoats"
+          ],
+          "answerIndex": 3,
+          "explanation": "They are blamed for a problem they did not cause, which is scapegoating."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A student humiliated by a lecturer later mocks a weaker student from another ethnic group. Frustration-aggression theory would say he chose that target because it was:",
+          "options": [
+            "The cause of his humiliation",
+            "Stronger than the lecturer",
+            "His closest friend",
+            "Safe, with little risk of retaliation"
+          ],
+          "answerIndex": 3,
+          "explanation": "Displaced aggression goes to a target that cannot easily strike back."
+        },
+        {
+          "difficulty": 4,
+          "stem": "The difference between generalised and displaced aggression is that displaced aggression:",
+          "options": [
+            "Is redirected from the true source to a substitute target",
+            "Is not linked to frustration",
+            "Is always verbal",
+            "Is aimed at powerful groups"
+          ],
+          "answerIndex": 0,
+          "explanation": "Generalised aggression is a broad readiness to lash out; displaced aggression specifically shifts it to a substitute."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Neal Miller (1941) revised the original theory by arguing that:",
+          "options": [
+            "Frustration always leads to aggression",
+            "Aggression never follows frustration",
+            "Frustration can produce several responses, aggression being one",
+            "Only minorities feel frustration"
+          ],
+          "answerIndex": 2,
+          "explanation": "Miller weakened the 'always' claim: aggression is one of several possible responses to frustration."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are criticisms or limits of frustration-aggression theory EXCEPT:",
+          "options": [
+            "It ignores the role of hardship",
+            "It does not explain why a specific group is chosen",
+            "Frustration does not always produce aggression",
+            "Environmental cues and feelings also matter"
+          ],
+          "answerIndex": 0,
+          "explanation": "Hardship is central to the theory, so ignoring it is not a limit. The others are real criticisms."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Displacement makes the theory relevant to discrimination. II. The theory specifies the direction of hostility in hard times. III. The theory fully explains why one minority rather than another is targeted. Which are correct?",
+          "options": [
+            "II and III only",
+            "I and III only",
+            "I and II only",
+            "I, II and III"
+          ],
+          "answerIndex": 2,
+          "explanation": "I and II are correct. III is false: choosing one minority over another needs other explanations, such as stereotypes and social norms."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Berkowitz's revision suggests frustration leads to aggression especially when it:",
+          "options": [
+            "Comes with rewards",
+            "Is very mild",
+            "Produces negative feelings and aggressive cues are present",
+            "Is shared by everyone equally"
+          ],
+          "answerIndex": 2,
+          "explanation": "Berkowitz linked aggression to negative affect plus cues in the environment, refining the original theory."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A researcher finds that in a recession, hostility rises towards a small, poor minority but not towards a small, wealthy and well-connected minority. This best supports the idea that displaced aggression targets groups that are:",
+          "options": [
+            "Weak and unable to retaliate",
+            "Small in number only",
+            "Responsible for the recession",
+            "Highly visible in the media only"
+          ],
+          "answerIndex": 0,
+          "explanation": "Both groups are small, but only the weak one is targeted. Power and the ability to retaliate, not size alone, decide the 'safe' target."
+        }
+      ]
+    }
+  ]
+}

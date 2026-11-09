@@ -1,0 +1,778 @@
+{
+  "unit": 1,
+  "title": "Introduction to International Relations",
+  "summary": "What international relations means, who its actors are, why anarchy matters, and why we need theories to explain world politics.",
+  "sections": [
+    {
+      "name": "Meaning and scope of IR",
+      "lesson": {
+        "title": "What international relations really studies",
+        "minutes": 10,
+        "hook": "When OPEC cuts oil output in Vienna, the price of a litre of petrol in Ibadan can change within weeks. You are part of international relations whether you hold a passport or not.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "A first working definition",
+            "body": "**International relations (IR)** is the branch of political science that studies how actors deal with one another across national borders, and how those dealings affect people, states, regions and the whole world.\n\nNotice two parts. First, the *interactions* themselves: trade, treaties, wars, aid. Second, their *effects*: on a farmer in Kano, a student abroad or a whole continent. IR cares about both.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "flag",
+                  "label": "States"
+                },
+                {
+                  "icon": "globe",
+                  "label": "Across borders"
+                },
+                {
+                  "icon": "people",
+                  "label": "Effects on people"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Seymon Brown: states and their elites",
+            "body": "**Seymon Brown** defined IR as the study of recurring patterns of action and interaction among **sovereign states**, as represented by the people who govern them.\n\nThe definition is useful but too narrow. It sees only governments. Yet the UN, the World Bank, the IMF, the Red Cross, OPEC and giant companies like Shell also shape world events. Critics call this narrowness **parochialism**: looking at only one corner of a much bigger field.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Only states",
+              "right": "All actors",
+              "marker": 10,
+              "label": "Where Brown sits"
+            }
+          },
+          {
+            "kind": "terms",
+            "heading": "Who acts in international relations?",
+            "terms": [
+              {
+                "term": "States",
+                "meaning": "Sovereign countries such as Nigeria, Ghana or the USA, acting through their governments."
+              },
+              {
+                "term": "Intergovernmental organisations",
+                "meaning": "Bodies made up of states: the UN, IMF, World Bank, OPEC, ECOWAS."
+              },
+              {
+                "term": "Non-governmental organisations",
+                "meaning": "Private, non-profit groups that work across borders, such as the International Red Cross."
+              },
+              {
+                "term": "Multinational corporations",
+                "meaning": "Firms operating in many countries, for example oil majors or telecom giants."
+              },
+              {
+                "term": "Sub-national entities",
+                "meaning": "Bureaucracies and local or state governments that deal with foreign partners."
+              },
+              {
+                "term": "Individuals",
+                "meaning": "Leaders, activists or ordinary people whose actions cross borders."
+              }
+            ]
+          },
+          {
+            "kind": "check",
+            "question": "The main criticism of Seymon Brown's definition of international relations is that it:",
+            "options": [
+              "Ignores non-state actors such as the UN and multinational firms",
+              "Treats war as the only subject of the discipline",
+              "Gives too much weight to individual citizens",
+              "Rejects the idea of sovereign states altogether"
+            ],
+            "answerIndex": 0,
+            "why": "Brown looked only at sovereign states and their governing elites, so he left out non-state actors. That narrowness is called parochialism."
+          },
+          {
+            "kind": "teach",
+            "heading": "Broader definitions: Mingst, Wright, Hoffman",
+            "body": "**Karen Mingst** fixed Brown's gap: IR studies interactions among *all* the actors in world politics, from states and international organisations to NGOs, sub-national bodies and individuals.\n\n**Quincy Wright** said IR is both a **condition** (the international system and what happens in it) and the **study** of that condition.\n\n**Stanley Hoffmann** focused on the factors and activities that shape the foreign policies and power of the basic units the world is divided into.",
+            "visual": {
+              "type": "venn",
+              "left": "IR as condition",
+              "right": "IR as study",
+              "both": "Quincy Wright"
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "A war far away, a bill at home",
+            "story": "Musa runs a small provisions shop in Ibadan. He has never left Nigeria. When war breaks out between two countries thousands of kilometres away, wheat and fuel prices jump. His bread supplier raises prices, the danfo fare to Bodija goes up, and his customers buy less. Musa never voted on that war, yet it reached his counter.",
+            "takeaway": "International events affect ordinary citizens, not just governments, which is why IR concerns everyone."
+          },
+          {
+            "kind": "compare",
+            "heading": "The two faces of interaction",
+            "left": {
+              "title": "Cooperation",
+              "points": [
+                "States work together on shared concerns",
+                "Does not mean there is no disagreement",
+                "Means differences are settled peacefully",
+                "Examples: trade pacts, climate deals"
+              ]
+            },
+            "right": {
+              "title": "Conflict",
+              "points": [
+                "Arises from opposing interests",
+                "Seen as unavoidable among states",
+                "Takes over when cooperation fails",
+                "Can escalate into war"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Anarchy: no ruler, not chaos",
+            "body": "The international system is called **anarchical** because there is no central authority above states. Nigeria has a President; the world has no 'President of the World'.\n\nHere is the trap: **anarchy** in IR does *not* mean disorder. As Oran **Young** explains, it simply means a system with no formal government at the top and with power and authority spread out. States still follow rules, sign treaties and cooperate, even without a world police.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "close-circle",
+                  "label": "No world government"
+                },
+                {
+                  "icon": "git-network",
+                  "label": "Power spread out"
+                },
+                {
+                  "icon": "checkmark-circle",
+                  "label": "Order still possible"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "In international relations, describing the system as 'anarchical' means that:",
+            "options": [
+              "States are constantly at war with each other",
+              "There is no higher authority above sovereign states",
+              "International law has been formally abolished",
+              "Only the strongest state makes the rules"
+            ],
+            "answerIndex": 1,
+            "why": "Anarchy means the absence of an overarching ruler. It does not mean permanent war or chaos, which is the common misreading."
+          },
+          {
+            "kind": "teach",
+            "heading": "Normative questions in IR",
+            "body": "IR is not only about what *is*; it also asks what *ought* to be. **Norms** are standards of behaviour expressed as rights and obligations.\n\nNormative debates include the rules of war, military intervention, outsiders trying to build nations, spreading democracy, foreign aid, and whether Western values should be pressed on poorer states. Some of these questions are thousands of years old; others are very recent.",
+            "visual": {
+              "type": "scale",
+              "left": "Rights",
+              "right": "Obligations",
+              "heavier": "even"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Why study IR at all?",
+            "body": "Nigerian scholar **Ayo Akindele** argues that IR looks at how states cooperate to reduce, if not prevent, the conflicts born of their rivalry, and how they jointly manage the international system to promote peace, security and development.\n\nSo we study IR to understand why conflicts happen, how to prevent or limit them, and how to build peace deliberately. Our lives are increasingly international, through travel, trade, technology and ideas.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Understand conflict",
+                "Prevent or limit it",
+                "Promote peace"
+              ]
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'compare definitions' questions: Brown versus Mingst is a favourite, because one is state-centric and the other is broad. The other big trap is anarchy. Students who write that anarchy means chaos lose marks immediately.",
+            "sampleQuestion": "'International relations is the study of the relations among sovereign states.' Critically assess this statement with reference to at least three scholars.",
+            "howToAnswer": "Show that this is Brown's state-centric view, explain its parochialism, then contrast it with Mingst's broader list of actors and with Wright's and Hoffmann's definitions, giving examples like the UN and multinational firms.",
+            "scholars": [
+              "Seymon Brown",
+              "Karen Mingst",
+              "Quincy Wright",
+              "Stanley Hoffmann",
+              "Oran Young",
+              "Ayo Akindele"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "IR studies interactions across borders and their effects on people and states.",
+              "Brown's state-centric definition is criticised as parochial; Mingst adds non-state actors.",
+              "Wright: IR is both a condition and the study of it.",
+              "Interactions take two main forms: cooperation and conflict.",
+              "Anarchy means no world government, not chaos.",
+              "IR also asks normative questions about rights and obligations."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Which of the following best captures the general meaning of international relations?",
+          "options": [
+            "The study of how one government manages its internal ministries",
+            "The study of interactions among actors across territorial boundaries and their effects",
+            "The study of elections and party politics within a single country",
+            "The study of relations between local governments in one federation"
+          ],
+          "answerIndex": 1,
+          "explanation": "IR concerns interactions that cross national borders and how they affect people, states and the world. Elections and ministries are domestic politics."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The two dominant forms that interactions among actors in the international system take are:",
+          "options": [
+            "Sovereignty and dependence",
+            "Trade and migration",
+            "Cooperation and conflict",
+            "Diplomacy and propaganda"
+          ],
+          "answerIndex": 2,
+          "explanation": "The session identifies cooperation and conflict as the two main forms. Trade and diplomacy are channels through which both can happen."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which of these is an intergovernmental organisation rather than a non-governmental one?",
+          "options": [
+            "The International Red Cross",
+            "A multinational oil company",
+            "A local human rights pressure group",
+            "The Organization of Petroleum Exporting Countries"
+          ],
+          "answerIndex": 3,
+          "explanation": "OPEC's members are states, so it is intergovernmental. The Red Cross is a non-governmental body, and an oil company is a multinational corporation."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The definition of international relations as the study of patterns of interaction among sovereign states as represented by their governing elites is associated with:",
+          "options": [
+            "Seymon Brown",
+            "Karen Mingst",
+            "Stanley Hoffmann",
+            "Ayo Akindele"
+          ],
+          "answerIndex": 0,
+          "explanation": "This state-centric definition is Brown's. Mingst is the scholar who widened it to include non-state actors."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Quincy Wright's view of international relations is distinctive because it treats IR as:",
+          "options": [
+            "Purely the foreign policy of great powers",
+            "Both a condition in the world and the study of that condition",
+            "A branch of economics concerned with trade balances",
+            "The moral duty of states to promote democracy"
+          ],
+          "answerIndex": 1,
+          "explanation": "Wright says IR refers both to the international system and its interactions, and to the study of them. The other options narrow IR to one concern."
+        },
+        {
+          "difficulty": 2,
+          "stem": "According to the session, cooperation among states should be understood as:",
+          "options": [
+            "The total absence of disagreement between states",
+            "A situation in which one state dominates the others",
+            "The ability of states to settle their differences peacefully and acceptably",
+            "A temporary pause before inevitable war"
+          ],
+          "answerIndex": 2,
+          "explanation": "Cooperation does not mean there are no conflicts; it means differences are resolved peacefully in a way all parties accept."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A student argues that because there is no world government, any state can do whatever it likes without consequence. Which concept from the session does this student misunderstand?",
+          "options": [
+            "Parochialism",
+            "Sovereignty",
+            "Norms",
+            "Anarchy"
+          ],
+          "answerIndex": 3,
+          "explanation": "Anarchy only means the absence of a higher ruler; it does not mean disorder or that states face no limits. Cooperation and rules still exist under anarchy."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Shell negotiates directly with a foreign government over an oil concession, and the deal changes that country's foreign policy. A scholar who would most readily include this in IR is:",
+          "options": [
+            "Karen Mingst",
+            "Seymon Brown",
+            "Any scholar who limits IR to diplomats",
+            "A scholar who studies only domestic politics"
+          ],
+          "answerIndex": 0,
+          "explanation": "Mingst's definition covers multinational corporations and other non-state actors. Brown's state-centric definition would struggle to include a private firm."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A conference debates whether rich countries should attach democratic conditions to foreign aid given to poorer states. This debate is best classified as a:",
+          "options": [
+            "Purely empirical question about trade figures",
+            "Question about the anarchical structure of the system",
+            "Normative issue in international relations",
+            "Problem of the levels of analysis"
+          ],
+          "answerIndex": 2,
+          "explanation": "It asks what states ought to do, which involves rights, obligations and ethics, so it is normative. Foreign aid and democratisation are listed as normative concerns."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are correct about anarchy in international relations EXCEPT:",
+          "options": [
+            "It refers to the absence of a central governing authority above states",
+            "It describes a system where power and authority are decentralised",
+            "It is, by definition, the same thing as disorder and chaos",
+            "It does not rule out cooperation among states"
+          ],
+          "answerIndex": 2,
+          "explanation": "Young stresses that anarchy is not synonymous with disorder. The other three statements correctly describe anarchy."
+        },
+        {
+          "difficulty": 4,
+          "stem": "A scholar defines IR by its interest in whatever shapes the foreign policies and the power of the world's main units. This definition is credited to:",
+          "options": [
+            "Quincy Wright",
+            "Seymon Brown",
+            "Oran Young",
+            "Stanley Hoffmann"
+          ],
+          "answerIndex": 3,
+          "explanation": "That focus on external policies and power of the world's basic units is Hoffmann's. Wright's definition stresses IR as condition and study."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Oran Young: anarchy is not the same as chaos",
+            "Seymon Brown: IR includes NGOs and individuals",
+            "Karen Mingst: IR is limited to governing elites",
+            "Ayo Akindele: IR is a condition and the study of it"
+          ],
+          "answerIndex": 0,
+          "explanation": "Young argued anarchy means no ruler, not disorder. Brown and Mingst are swapped in the other options, and 'condition and study' is Wright's idea."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider these statements: I. Brown's definition is criticised for parochialism. II. Mingst includes sub-national entities among IR actors. III. Anarchy implies that cooperation among states is impossible. Which are correct?",
+          "options": [
+            "I and III only",
+            "I and II only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 1,
+          "explanation": "I and II are correct. III is false because anarchy does not rule out cooperation; it only means there is no world government."
+        },
+        {
+          "difficulty": 5,
+          "stem": "For Ayo Akindele, IR goes beyond how states limit the conflicts born of their rivalry. It also covers how states:",
+          "options": [
+            "Abolish sovereignty to form a single world state",
+            "Maximise power at the expense of weaker neighbours",
+            "Jointly manage the international system to promote peace, security and development",
+            "Replace governments with non-governmental organisations"
+          ],
+          "answerIndex": 2,
+          "explanation": "Akindele adds collective management of the system for peace, security and development. Maximising power at others' expense describes a realist emphasis, not his definition."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A lecturer says: 'The 2001 attacks on the US ended up affecting people in Iraq who had nothing to do with them.' The point being made most directly supports which claim?",
+          "options": [
+            "That only governing elites are affected by international events",
+            "That international interactions affect ordinary citizens across borders",
+            "That anarchy always produces chaos in the system",
+            "That non-state actors play no part in world politics"
+          ],
+          "answerIndex": 1,
+          "explanation": "The example shows that international events reach ordinary people beyond the governments involved. It contradicts, rather than supports, the elite-only and no-non-state-actor claims."
+        }
+      ]
+    },
+    {
+      "name": "Why IR needs theory",
+      "lesson": {
+        "title": "Theories: the lenses for world politics",
+        "minutes": 10,
+        "hook": "Two analysts watch the same news about a border clash. One says 'power politics, as usual'; the other says 'a failure of trade ties'. Same facts, different theories.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Too much happening to see clearly",
+            "body": "World politics throws up a flood of events, issues and relationships, many huge and tangled. Without some way of sorting them, you only see noise.\n\nA **theory** helps you think logically about this flood. It sorts events into manageable groups, helps you pick the right **units and levels of analysis**, and lets you spot connections and repeated patterns you might have treated as unrelated.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Messy events",
+                "Theory sorts",
+                "Patterns appear"
+              ]
+            }
+          },
+          {
+            "kind": "terms",
+            "heading": "Five ways scholars describe theory",
+            "terms": [
+              {
+                "term": "Waltz (1979)",
+                "meaning": "Theories explain the laws of international politics or recurring patterns of state behaviour."
+              },
+              {
+                "term": "Hollis & Smith (1990)",
+                "meaning": "Theories either explain and predict, or understand how actors themselves see the world."
+              },
+              {
+                "term": "Wight (1991)",
+                "meaning": "Theories are traditions of thought about power struggles, international society and world community."
+              },
+              {
+                "term": "Doyle (1983)",
+                "meaning": "Theories test hypotheses with evidence, e.g. that liberal democracies do not fight each other."
+              },
+              {
+                "term": "Butterfield & Wight (1966)",
+                "meaning": "Theories clarify how concepts such as the balance of power are used."
+              }
+            ]
+          },
+          {
+            "kind": "check",
+            "question": "A scholar gathers data to test whether liberal democracies ever go to war with one another. This matches which conception of theory?",
+            "options": [
+              "Butterfield and Wight (1966)",
+              "Wight (1991)",
+              "Doyle (1983)",
+              "Hollis and Smith (1990)"
+            ],
+            "answerIndex": 2,
+            "why": "Doyle described theory as testing hypotheses with empirical data, using the absence of war between liberal democracies as the example. Butterfield and Wight focused on clarifying concepts."
+          },
+          {
+            "kind": "teach",
+            "heading": "Theory, propositions and hypotheses",
+            "body": "Put simply, a theory is a **group of linked propositions and concepts**, which explains something by spelling out how those concepts relate. Its ultimate aim is to **predict**.\n\nA good theory produces **hypotheses**: precise statements that link two or more variables, such as 'the more two states trade, the less likely they are to fight'. Testing groups of hypotheses confirms, refines or corrects the theory and throws up new relationships to test.",
+            "visual": {
+              "type": "cycle",
+              "nodes": [
+                "Theory",
+                "Hypotheses",
+                "Testing",
+                "Refined theory"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Three things to remember about theory",
+            "body": "First, a theory is a set of ideas we build to see how parts of reality relate to other parts.\n\nSecond, every theory rests on **assumptions**: ideas taken as true without proof. Change the assumptions and the conclusions change.\n\nThird, in IR there is nearly always **more than one theory** for the same set of facts. That is not a weakness; it is how the field works.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "bulb",
+                  "label": "Set of ideas"
+                },
+                {
+                  "icon": "layers",
+                  "label": "Built on assumptions"
+                },
+                {
+                  "icon": "git-network",
+                  "label": "Many rival theories"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Chiamaka and the gate",
+            "story": "Chiamaka comes home late to her family house in Ibadan. Her brother was the last one up, so she takes it for granted that he locked the gate, and she sleeps soundly. She never checked. Her peaceful night rests entirely on an assumption she treated as true without proof.",
+            "takeaway": "Theories work the same way: they start from assumptions that are accepted rather than proved, and everything else is built on top."
+          },
+          {
+            "kind": "check",
+            "question": "In theory-building, an assumption is best described as:",
+            "options": [
+              "A statement linking two variables that must be tested",
+              "An idea accepted as true without proof",
+              "A conclusion reached after testing many cases",
+              "A policy recommendation made to governments"
+            ],
+            "answerIndex": 1,
+            "why": "Assumptions are taken for granted. A statement linking variables for testing is a hypothesis, the near-miss option."
+          },
+          {
+            "kind": "steps",
+            "heading": "Kegley's four tasks of an IR theory",
+            "steps": [
+              {
+                "title": "Describe",
+                "detail": "Say clearly what is happening in world affairs."
+              },
+              {
+                "title": "Explain",
+                "detail": "Show why it is happening: the causes behind events."
+              },
+              {
+                "title": "Predict",
+                "detail": "Anticipate what is likely to happen next."
+              },
+              {
+                "title": "Prescribe",
+                "detail": "Recommend what actors should do about it."
+              }
+            ]
+          },
+          {
+            "kind": "teach",
+            "heading": "Popper's net and imaginary constructs",
+            "body": "Philosopher **Karl Popper** pictured theory as a **net** we cast to catch the world, so we can make it rational, explain it and master it.\n\nIR theories are **imaginary constructs**: abstract, speculative pictures of reality. They help us make sense of events that look disconnected. For centuries, scholars have used them to ask why wars happen and what conditions produce peace, one of the oldest concerns of the field.",
+            "visual": {
+              "type": "stat",
+              "value": "4 tasks",
+              "label": "Describe, explain, predict, prescribe"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Why many theories beat one",
+            "body": "Theories help policymakers and academics place past and present events in context. They may not always predict accurately, but they help us **anticipate**.\n\nStephen **Walt** argues that no single approach can capture all the complexity of world politics, so we are better off with a range of competing ideas. Some theories share perspectives; others differ sharply. Each lets you see world affairs from a different angle.",
+            "visual": {
+              "type": "scale",
+              "left": "One theory",
+              "right": "Many competing theories",
+              "heavier": "right"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Stephen Walt's position on IR theory is that:",
+            "options": [
+              "One master theory should replace all the others",
+              "Theories are useless for policymakers",
+              "A diverse set of competing theories is better than a single one",
+              "Only theories that predict perfectly should be kept"
+            ],
+            "answerIndex": 2,
+            "why": "Walt holds that world politics is too complex for one approach, so diversity of theory is an advantage."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "The classic essay is 'Define theory and explain why it matters in IR'. Weak answers give one definition and stop. Strong answers combine definitions, mention assumptions and hypotheses, and list Kegley's four tasks. In objectives, watch for the scholars and their conceptions being swapped.",
+            "sampleQuestion": "Theories in IR are said to describe, explain, predict and prescribe. Whose view is this, and why is having many theories considered an advantage?",
+            "howToAnswer": "Credit the four tasks to Kegley, briefly explain each, then use Walt's argument that world politics is too complex for any single approach.",
+            "scholars": [
+              "Waltz (1979)",
+              "Hollis & Smith (1990)",
+              "Wight (1991)",
+              "Doyle (1983)",
+              "Butterfield & Wight (1966)",
+              "Karl Popper",
+              "Charles Kegley",
+              "Stephen Walt"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Theories sort complex world events into patterns we can analyse.",
+              "A theory is a set of related propositions aimed ultimately at prediction.",
+              "Good theories yield testable hypotheses linking variables.",
+              "Theories rest on assumptions, and rival theories explain the same facts.",
+              "Kegley: describe, explain, predict, prescribe.",
+              "Walt: many competing theories beat one."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "According to the session, the ultimate purpose of a theory is to:",
+          "options": [
+            "Predict phenomena",
+            "Replace the need for evidence",
+            "Describe a single event in detail",
+            "Justify a government's policy"
+          ],
+          "answerIndex": 0,
+          "explanation": "A theory's ultimate aim is prediction. Describing one event in detail is narrative, not theory."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Theories in international relations are best described as:",
+          "options": [
+            "Collections of historical dates",
+            "Lists of treaties signed by states",
+            "Imaginary constructs that help make sense of apparently disconnected events",
+            "Official statements of foreign policy"
+          ],
+          "answerIndex": 2,
+          "explanation": "IR theories are abstract constructs that help us find order in world events. Dates, treaties and policy statements are raw material, not theory."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Kegley's four principal tasks of an IR theory are to:",
+          "options": [
+            "Observe, record, publish and teach",
+            "Describe, explain, predict and prescribe",
+            "Negotiate, mediate, arbitrate and adjudicate",
+            "Define, classify, compare and conclude"
+          ],
+          "answerIndex": 1,
+          "explanation": "Kegley lists describe, explain, predict and prescribe. Negotiate and mediate are diplomatic activities, not tasks of theory."
+        },
+        {
+          "difficulty": 2,
+          "stem": "A hypothesis, as used in theory-building, is:",
+          "options": [
+            "An idea accepted as true without any proof",
+            "A broad tradition of speculation about world order",
+            "The final, proven law of international politics",
+            "A specific statement proposing a relationship between two or more variables"
+          ],
+          "answerIndex": 3,
+          "explanation": "A hypothesis states a testable relationship between variables. An idea accepted without proof is an assumption."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The description of theory as 'a net we cast to catch the world' in order to rationalise, explain and dominate it comes from:",
+          "options": [
+            "Karl Popper",
+            "Kenneth Waltz",
+            "Stephen Walt",
+            "Martin Wight"
+          ],
+          "answerIndex": 0,
+          "explanation": "The net image is Popper's. Waltz is known for theory as explaining recurrent patterns of state behaviour."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which of the following is NOT one of the three things the session says you must keep in mind about theories?",
+          "options": [
+            "A theory is a set of ideas about how aspects of reality relate",
+            "Theories are built on assumptions",
+            "Each set of facts can be explained by only one correct theory",
+            "More than one theory may explain the same facts"
+          ],
+          "answerIndex": 2,
+          "explanation": "The session stresses that several theories can explain the same facts, so the 'only one correct theory' claim is the odd one out."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A researcher argues that we can only understand a president's decision by grasping how that president personally saw the situation. This fits the part of theory described by:",
+          "options": [
+            "Doyle (1983)",
+            "Hollis and Smith (1990)",
+            "Butterfield and Wight (1966)",
+            "Waltz (1979)"
+          ],
+          "answerIndex": 1,
+          "explanation": "Hollis and Smith said theories either explain and predict, or try to understand the world 'inside the heads' of actors. Waltz focused on laws and recurring patterns."
+        },
+        {
+          "difficulty": 3,
+          "stem": "An analyst writes a paper clarifying what scholars actually mean when they use the phrase 'balance of power'. Which conception of theory is this closest to?",
+          "options": [
+            "Doyle (1983)",
+            "Waltz (1979)",
+            "Wight (1991)",
+            "Butterfield and Wight (1966)"
+          ],
+          "answerIndex": 3,
+          "explanation": "Butterfield and Wight saw theory as analysing and clarifying concepts like the balance of power. Wight (1991) is about traditions of speculation, a near miss."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A theory of IR tells the Nigerian government that it should join a regional security pact to deter attacks. Which of Kegley's tasks is the theory performing here?",
+          "options": [
+            "Describing",
+            "Explaining",
+            "Prescribing",
+            "Predicting"
+          ],
+          "answerIndex": 2,
+          "explanation": "Telling actors what they should do is prescription. Predicting would only say what is likely to happen."
+        },
+        {
+          "difficulty": 4,
+          "stem": "The conception of theories as traditions of speculation focusing on the struggle for power, the nature of international society and the possibility of a world community is associated with:",
+          "options": [
+            "Martin Wight (1991)",
+            "Kenneth Waltz (1979)",
+            "Michael Doyle (1983)",
+            "Hollis and Smith (1990)"
+          ],
+          "answerIndex": 0,
+          "explanation": "Wight's 1991 work framed theory as three traditions of thought about power, society and community. Doyle's concern was empirical hypothesis testing."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement about the relationship between theory and hypotheses is correct?",
+          "options": [
+            "Hypotheses are tested once and the theory is then fixed forever",
+            "Testing interrelated hypotheses verifies and refines a theory and reveals new relationships",
+            "Hypotheses replace the need for any theory in IR",
+            "A theory that generates many hypotheses is considered weak"
+          ],
+          "answerIndex": 1,
+          "explanation": "Testing groups of hypotheses refines theory and uncovers new relationships to test. A good theory generates many testable hypotheses, so the last option reverses the point."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which scholar is correctly matched with his or their view of theory?",
+          "options": [
+            "Wight (1991): testing hypotheses with empirical data",
+            "Hollis and Smith (1990): clarifying the balance of power",
+            "Waltz (1979): explaining recurrent patterns of state behaviour",
+            "Doyle (1983): traditions of speculation about world community"
+          ],
+          "answerIndex": 2,
+          "explanation": "Waltz saw theory as explaining the laws or recurring patterns of state behaviour. The other options mix up Wight, Doyle, Hollis and Smith, and Butterfield and Wight."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider: I. Theories help identify links between events thought to be unrelated. II. Theories always predict world events accurately. III. Theories help choose appropriate units and levels of analysis. Which are correct?",
+          "options": [
+            "I and II only",
+            "II and III only",
+            "I, II and III",
+            "I and III only"
+          ],
+          "answerIndex": 3,
+          "explanation": "I and III are correct. II is false: the session says theory helps us anticipate, if not always predict accurately."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Two scholars study the same civil war. One blames competition for power; the other blames a breakdown of shared norms. Based on the session, the best conclusion is that:",
+          "options": [
+            "One of them must be ignoring the facts",
+            "Different theories built on different assumptions can explain the same facts",
+            "Civil wars cannot be studied with IR theory",
+            "Only theories that use hypotheses are valid"
+          ],
+          "answerIndex": 1,
+          "explanation": "The session stresses that more than one theory can explain the same facts, because theories rest on different assumptions. This is the diversity Walt welcomes."
+        },
+        {
+          "difficulty": 5,
+          "stem": "All of the following are reasons the session gives for theories being important in IR EXCEPT that they:",
+          "options": [
+            "Provide a framework for making sense of international politics",
+            "Help policymakers place past and present events in context",
+            "Help us anticipate the course of world events",
+            "Remove the need for empirical evidence about the world"
+          ],
+          "answerIndex": 3,
+          "explanation": "Theories are tested against evidence through hypotheses, so they do not remove the need for data. The other three are reasons the session gives."
+        }
+      ]
+    }
+  ]
+}

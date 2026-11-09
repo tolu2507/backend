@@ -1,0 +1,699 @@
+{
+  "unit": 6,
+  "title": "Marxism",
+  "summary": "Marx's view of class, historical materialism and the dialectic, and how Marxists read world politics as the story of capitalism's global spread and inequality.",
+  "sections": [
+    {
+      "name": "Marx: class and history",
+      "lesson": {
+        "title": "Who owns, who works",
+        "minutes": 10,
+        "hook": "A factory in Aba makes shoes. The workers make the shoes; someone else owns the machines and keeps most of the profit. For Karl Marx, that single relationship explains more about politics than any election.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Origins of Marxism",
+            "body": "**Marxism** is named after **Karl Marx** (1818–1883). Its core ideas come from the writings of Marx and **Friedrich Engels**, and were developed further by **Lenin**, **Stalin**, **Mao Zedong** and others.\n\nIn the nineteenth and early twentieth centuries, it became one of the most influential ways of analysing politics and society, and it shaped revolutions across the world.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Marx and Engels",
+                "Lenin",
+                "Mao",
+                "Marxist IR"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Capitalism: progress and pain",
+            "body": "Marx wrote as **industrial capitalism**, a system where the means of production and exchange are **privately owned**, was replacing **feudalism** in Europe and North America.\n\nHe saw this as **progressive** in its time: it broke the power of landed aristocrats and drove technology forward. But capitalism also **impoverished and alienated workers**, binding them to owners who controlled labour and markets.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Feudalism",
+                "Industrial capitalism",
+                "Communism"
+              ]
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "The two great classes",
+            "left": {
+              "title": "Bourgeoisie",
+              "points": [
+                "Owns the means of production",
+                "Factories, land, capital",
+                "Keeps the profit"
+              ]
+            },
+            "right": {
+              "title": "Proletariat",
+              "points": [
+                "Owns only its labour",
+                "Sells work for wages",
+                "Exploited, says Marx"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Seeds of its own destruction",
+            "body": "Marx believed capitalism carried the **seeds of its own destruction**. The exploited working class would grow, organise and overthrow it.\n\nCapitalism, in his view, was an **unjust but historically necessary stage** on the road to a **communist revolution** that would create a **classless, just society**. Later Marxists applied the same logic to relations **between states**.",
+            "visual": {
+              "type": "cycle",
+              "nodes": [
+                "Capitalism grows",
+                "Workers exploited",
+                "Workers organise",
+                "Revolution"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "For Marx, the bourgeoisie is the class that:",
+            "options": [
+              "Owns the means of production",
+              "Sells its labour for wages",
+              "Farms communal land",
+              "Has no economic role"
+            ],
+            "answerIndex": 0,
+            "why": "The bourgeoisie owns factories, land and capital. The proletariat sells its labour."
+          },
+          {
+            "kind": "steps",
+            "heading": "Historical materialism: three assumptions",
+            "steps": [
+              {
+                "title": "Economic position",
+                "detail": "Your place in society, even your ideas and chances to flourish, depends on your link to economic production."
+              },
+              {
+                "title": "Economic base shapes all",
+                "detail": "A society's ideas, laws, religion and institutions reflect its economic structure."
+              },
+              {
+                "title": "Dialectical change",
+                "detail": "History moves through a set sequence of thesis, antithesis and synthesis."
+              }
+            ]
+          },
+          {
+            "kind": "teach",
+            "heading": "Material, not ideas, drives history",
+            "body": "For Marx, society's foundation is **material**. Social life changes through **technological and economic forces**, not through independent ideas.\n\nEven the most creative ideas grow from their **material environment**. So an industrial society will produce very different ideas of law, legitimate government and social order from a fishing or farming community. Whoever controls the economy, Marx argued, controls politics.",
+            "visual": {
+              "type": "pyramid",
+              "levels": [
+                "Ideas, law, religion",
+                "Political institutions",
+                "Economic base"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The dialectic",
+            "body": "A **dialectic** is development through stages. Each stage has a **thesis** (the prevailing system), an **antithesis** (its opposite), and a **synthesis** (a new, higher system resolving the clash).\n\nAgriculture gave way to crafts, then to industry. Capitalism, Marx predicted, would meet its own **contradictions** and be replaced by a final synthesis: **communism**. Hence: all history is the history of **class struggle**.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Thesis",
+                "Antithesis",
+                "Synthesis"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "In the dialectic, the new system that resolves the clash between the old system and its opposite is the:",
+            "options": [
+              "Thesis",
+              "Synthesis",
+              "Antithesis",
+              "Hegemony"
+            ],
+            "answerIndex": 1,
+            "why": "Thesis is the prevailing order, antithesis its opposite, and synthesis the higher order that resolves them."
+          },
+          {
+            "kind": "example",
+            "heading": "The plantation economy",
+            "story": "In colonial Nigeria, the economy was built around exporting cocoa, groundnuts and palm oil. Laws protected export firms, schools trained clerks for trading companies, and even ideas about 'progress' praised cash crops. A Marxist would say the economic base, export agriculture serving foreign capital, shaped the laws, schools and ideas built on top of it.",
+            "takeaway": "Historical materialism holds that a society's economic structure shapes its institutions and ideas."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'what are the essential characteristics of Marxism?' and 'why was Marx so critical of capitalism?'. Cover classes, historical materialism's three assumptions and the dialectic. Note Marx also called capitalism progressive for its time, a subtle point lecturers reward. Objectives test thesis, antithesis and synthesis.",
+            "sampleQuestion": "Why was Marx so critical of capitalism, even though he saw it as historically progressive?",
+            "howToAnswer": "Say it ended aristocratic privilege and advanced technology, but impoverished and alienated workers, concentrated ownership in the bourgeoisie, and so contained contradictions that would lead to its overthrow.",
+            "scholars": [
+              "Marx & Engels (1848)",
+              "Lenin",
+              "Mao Zedong"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Marxism comes from Marx and Engels, developed by Lenin, Stalin and Mao.",
+              "Capitalism was progressive but exploited and alienated workers.",
+              "Two classes: bourgeoisie (owners) and proletariat (workers).",
+              "Historical materialism: the economic base shapes ideas, law and politics.",
+              "The dialectic: thesis, antithesis, synthesis; history is class struggle."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Marxism is named after:",
+          "options": [
+            "Friedrich Engels",
+            "Vladimir Lenin",
+            "Karl Marx",
+            "Antonio Gramsci"
+          ],
+          "answerIndex": 2,
+          "explanation": "Karl Marx (1818–1883) is the founder; Engels was his collaborator."
+        },
+        {
+          "difficulty": 1,
+          "stem": "For Marx, the proletariat is the class that:",
+          "options": [
+            "Owns factories",
+            "Owns land through inheritance",
+            "Rules the state",
+            "Sells its labour for wages"
+          ],
+          "answerIndex": 3,
+          "explanation": "The proletariat owns only its labour power and is exploited by the bourgeoisie."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Marx believed capitalism would eventually be replaced by:",
+          "options": [
+            "Feudalism",
+            "Communism",
+            "Monarchy",
+            "Mercantilism"
+          ],
+          "answerIndex": 1,
+          "explanation": "Communism, a classless society, was Marx's predicted final stage."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Historical materialism holds that a society's ideas, laws and religion:",
+          "options": [
+            "Develop independently of the economy",
+            "Are set by religion alone",
+            "Reflect its economic structure",
+            "Never change"
+          ],
+          "answerIndex": 2,
+          "explanation": "The economic base shapes the superstructure of ideas and institutions."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Why did Marx see industrial capitalism as historically progressive?",
+          "options": [
+            "It ended exploitation",
+            "It removed power from landed aristocrats and advanced technology",
+            "It created a classless society",
+            "It abolished private property"
+          ],
+          "answerIndex": 1,
+          "explanation": "Capitalism broke feudal privilege and drove technological progress, even though it exploited workers."
+        },
+        {
+          "difficulty": 2,
+          "stem": "In Marxist dialectics, the prevailing system or idea is called the:",
+          "options": [
+            "Synthesis",
+            "Thesis",
+            "Antithesis",
+            "Proletariat"
+          ],
+          "answerIndex": 1,
+          "explanation": "The thesis is the prevailing order; antithesis opposes it; synthesis resolves them."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A Marxist explains a country's labour laws as favouring factory owners because owners control the economy. This applies the idea that:",
+          "options": [
+            "Whoever controls the economy controls politics",
+            "Ideas drive history",
+            "States are autonomous",
+            "Culture is independent of class"
+          ],
+          "answerIndex": 0,
+          "explanation": "Marxists hold that economic control translates into political control, shaping laws."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Marx argued that an industrial society and a fishing community would hold different ideas of law and government because:",
+          "options": [
+            "Fishermen are less educated",
+            "Ideas arise from the material environment",
+            "Industry has no laws",
+            "Religion differs randomly"
+          ],
+          "answerIndex": 1,
+          "explanation": "Historical materialism says ideas grow out of the material and economic setting."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Workers in a mining town unionise, strike and win new laws, forming a new order. In dialectical terms, the workers' challenge represents the:",
+          "options": [
+            "Thesis",
+            "Synthesis",
+            "Antithesis",
+            "Superstructure"
+          ],
+          "answerIndex": 2,
+          "explanation": "The challenge to the prevailing order is the antithesis; the new order would be the synthesis."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are assumptions of dialectical materialism EXCEPT:",
+          "options": [
+            "Independent ideas are the main force of historical change",
+            "Dominant ideas and laws are set by the economic structure",
+            "The world evolves through thesis, antithesis and synthesis",
+            "Position in society depends on links to production"
+          ],
+          "answerIndex": 0,
+          "explanation": "Marx rejected the primacy of independent ideas; material forces drive change."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement best captures Marx's attitude to capitalism?",
+          "options": [
+            "Wholly good and permanent",
+            "Identical to feudalism",
+            "Unjust but a historically necessary stage before communism",
+            "Irrelevant to politics"
+          ],
+          "answerIndex": 2,
+          "explanation": "Marx condemned capitalism's exploitation but saw it as a necessary stage in history."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Bourgeoisie: exploited labour",
+            "Proletariat: owners of production",
+            "Feudalism: industrial capitalism",
+            "Synthesis: resolution of thesis and antithesis"
+          ],
+          "answerIndex": 3,
+          "explanation": "Synthesis resolves the clash. The bourgeoisie owns production; the proletariat is labour."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Marx saw all history as the history of class struggle. II. Marx believed capitalism was permanent. III. Marx saw the economic base as shaping law and ideas. Which are correct?",
+          "options": [
+            "I and III only",
+            "I and II only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 0,
+          "explanation": "I and III are correct. II is wrong: Marx predicted capitalism's replacement by communism."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A critic says Marx underrated the power of nationalism and religion to unite workers with their rulers. This criticism targets Marx's assumption that:",
+          "options": [
+            "Class is the main source of identity and conflict",
+            "Ideas drive history",
+            "States are autonomous",
+            "Capitalism is progressive"
+          ],
+          "answerIndex": 0,
+          "explanation": "If national or religious loyalty outweighs class, Marx's focus on class as the key division is weakened."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Why is Marxism described as a 'vertical' rather than 'horizontal' theory?",
+          "options": [
+            "It studies relations between equal states",
+            "It ignores the economy",
+            "It studies only mountains and geography",
+            "It focuses on socio-economic class relations rather than relations between states"
+          ],
+          "answerIndex": 3,
+          "explanation": "Marxism looks up and down the class hierarchy; realism and liberalism look across at relations between states."
+        }
+      ]
+    },
+    {
+      "name": "Marxism in world politics",
+      "lesson": {
+        "title": "World politics as capitalism's story",
+        "minutes": 10,
+        "hook": "Nigeria exports crude oil and imports petrol refined from it. A Marxist asks: who arranged the world so that the country with the oil buys back its own product at a higher price?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "A different lens",
+            "body": "Marxist IR theory **rejects** both the realist focus on states' conflict and the liberal focus on cooperation. It looks instead at the **economic and material** basis of world politics, raising **class** above the state as the key unit.\n\nMarxism is a **vertical** view, about relations between **classes**, rather than a **horizontal** view of relations between **states**.",
+            "visual": {
+              "type": "pyramid",
+              "levels": [
+                "Global capitalist class",
+                "Middle classes",
+                "Workers and peasants"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "A world built by capitalism",
+            "body": "Over five centuries, capitalism spread to every corner of the world, often through **violent conquest** and the displacement of other ways of producing. For Marxists, today's international system **is a creation of world capitalism**.\n\nIts **hierarchy** came from capitalist expansion that **benefited a few** states and organisations and **pushed many others to the margins**.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Conquest",
+                "Colonialism",
+                "Independence",
+                "Dependence"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Colonialism to dependence",
+            "body": "For Marxists, **colonialism** supplied **raw materials** and **captive markets** for exports. **Decolonisation** did not end this; it opened new opportunities through **dependence**.\n\nWalter **Rodney's** *How Europe Underdeveloped Africa* (1972) argued that Africa's poverty was produced by its place in the world economy. Later **world-systems** theory (Wallerstein, 1974) described a wealthy **core** and an exploited **periphery**.",
+            "visual": {
+              "type": "scale",
+              "left": "Core states",
+              "right": "Periphery states",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "For Marxists, decolonisation mainly:",
+            "options": [
+              "Ended economic inequality",
+              "Replaced colonial control with new forms of dependence",
+              "Made all states equal",
+              "Ended capitalism"
+            ],
+            "answerIndex": 1,
+            "why": "Formal independence left former colonies economically dependent on the capitalist core."
+          },
+          {
+            "kind": "teach",
+            "heading": "States serve ruling classes",
+            "body": "In Marxist eyes, the state is **built by and for the privileged class**. States are **not autonomous**: capitalist states mainly serve the interests of their **bourgeoisie**.\n\nSo struggles between states, including **wars**, should be read as **competition between capitalist classes** of different countries. Since classes cut across borders, class conflict spreads worldwide with capitalism.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Ruling class interests",
+                "State policy",
+                "War or trade deals"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Endless expansion",
+            "body": "Capitalism is **expansive**: it constantly seeks **new markets and profits**. That expansion first took the form of **imperialism and colonisation**, and today takes the form of **economic globalisation** led by giant **transnational corporations**.\n\nEarly-twentieth-century Marxists, **Rosa Luxemburg**, **Rudolf Hilferding** and **Lenin**, built the **classical theories of imperialism**. Lenin's *Imperialism, the Highest Stage of Capitalism* (1917) blamed inter-imperial rivalry for the First World War.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Imperialism",
+                "Colonisation",
+                "Globalisation",
+                "Transnational firms"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Which group developed the classical theories of imperialism?",
+            "options": [
+              "Morgenthau, Waltz and Kennan",
+              "Keohane, Nye and Doyle",
+              "Luxemburg, Hilferding and Lenin",
+              "Locke, Rousseau and Kant"
+            ],
+            "answerIndex": 2,
+            "why": "Luxemburg, Hilferding and Lenin first applied Marxist ideas to international processes."
+          },
+          {
+            "kind": "teach",
+            "heading": "Neo-Marxism and hegemony",
+            "body": "Thinkers such as **Georg Lukács**, **Karl Korsch**, **Antonio Gramsci**, **Max Horkheimer** and **Theodor Adorno** revised parts of Marxism while keeping its core: **class struggle drives history**. The collapse of the Soviet Union in **1991** was a major setback for Marxism and pushed such revised, **neo-Marxist** approaches further forward.\n\n**Gramsci** (1891–1937) developed **hegemony**: dominance that rests on **consent** and shared ideas, not just force.",
+            "visual": {
+              "type": "venn",
+              "left": "Coercion",
+              "right": "Consent",
+              "both": "Hegemony"
+            }
+          },
+          {
+            "kind": "steps",
+            "heading": "Four Marxist assumptions about IR",
+            "steps": [
+              {
+                "title": "Economic structure",
+                "detail": "Structure matters, but the key structure is economic, not anarchy, with states and classes in different positions."
+              },
+              {
+                "title": "Structural economic power",
+                "detail": "What counts is control over the means of production, not just military might."
+              },
+              {
+                "title": "Economic causes of war",
+                "detail": "Wars arise from conflicting economic interests."
+              },
+              {
+                "title": "An unjust world",
+                "detail": "The capitalist world is fundamentally unjust and must be transformed."
+              }
+            ]
+          },
+          {
+            "kind": "example",
+            "heading": "Oil and the Niger Delta",
+            "story": "Oil from the Niger Delta has earned huge sums for foreign oil companies and Nigeria's elite, while many Delta communities live with polluted creeks and poor services. A Marxist reads this as global capital and a local ruling class sharing the gains, with the costs pushed onto workers and farmers.",
+            "takeaway": "Marxists explain inequality between and within states through the global capitalist economy and class interests."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'how does Marxism view the relationship between capitalism and the state?' and 'discuss Marxism's contributions to IR'. Name its strengths: the only mainstream theory centred on equality and emancipation, a systematic account of global unfairness, and a focus on development, dependency and exploitation that other theories neglect. Use a Nigerian or African case.",
+            "sampleQuestion": "Marxists claim that clashing economic interests lie behind wars between states. Assess this claim using two case studies.",
+            "howToAnswer": "Explain the assumption, then apply it, for example the First World War as inter-imperial rivalry (Lenin) and a recent resource conflict. Weigh it briefly against realist or identity-based explanations.",
+            "scholars": [
+              "Lenin (1917)",
+              "Gramsci",
+              "Rodney (1972)",
+              "Wallerstein (1974)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Marxist IR focuses on class and economics, not state conflict or cooperation.",
+              "The international system is a creation of world capitalism.",
+              "States serve ruling classes; wars reflect economic competition.",
+              "Imperialism, then dependence, then globalisation: capitalism's expansion.",
+              "Strengths: focus on equality, emancipation, development and exploitation."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Marxist IR theory places the main emphasis on:",
+          "options": [
+            "Economic and material factors",
+            "Military power",
+            "Democratic institutions",
+            "Religious identity"
+          ],
+          "answerIndex": 0,
+          "explanation": "Marxism grounds world politics in economic forces and class."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The concept of hegemony as dominance through consent is associated with:",
+          "options": [
+            "Karl Deutsch",
+            "Hans Morgenthau",
+            "Immanuel Kant",
+            "Antonio Gramsci"
+          ],
+          "answerIndex": 3,
+          "explanation": "Gramsci developed hegemony to explain rule by consent as well as force."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Marxists argue that wars between states are mainly caused by:",
+          "options": [
+            "Human nature",
+            "Conflicting economic interests",
+            "Misunderstandings",
+            "Religious differences"
+          ],
+          "answerIndex": 1,
+          "explanation": "Conflicting economic interests of ruling classes drive wars, according to Marxists."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Marxists view the state as:",
+          "options": [
+            "A neutral referee",
+            "Fully autonomous",
+            "A creation that serves the privileged class",
+            "An irrelevant actor"
+          ],
+          "answerIndex": 2,
+          "explanation": "States are seen as driven by ruling-class interests, not autonomous."
+        },
+        {
+          "difficulty": 2,
+          "stem": "According to Marxists, colonialism provided capitalist states with:",
+          "options": [
+            "Democracy and human rights",
+            "Military defeats",
+            "Raw materials and captive markets",
+            "Equal partners"
+          ],
+          "answerIndex": 2,
+          "explanation": "Colonies supplied raw materials and markets for exports."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Lenin's major work on imperialism described it as:",
+          "options": [
+            "The highest stage of capitalism",
+            "The lowest stage of feudalism",
+            "A liberal institution",
+            "A form of democracy"
+          ],
+          "answerIndex": 0,
+          "explanation": "Lenin's 1917 book was titled Imperialism, the Highest Stage of Capitalism."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A former colony exports raw cocoa cheaply and imports chocolate at high prices from its former colonial power. A Marxist would describe this as:",
+          "options": [
+            "Free and fair trade",
+            "Democratic peace",
+            "Collective security",
+            "Economic dependence"
+          ],
+          "answerIndex": 3,
+          "explanation": "Independence followed by unequal economic ties is dependence, in Marxist terms."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Two industrial powers go to war over control of overseas markets. A Marxist would explain this as:",
+          "options": [
+            "Competition between the capitalist classes of the two states",
+            "A clash of human natures",
+            "A misunderstanding",
+            "A failure of democracy"
+          ],
+          "answerIndex": 0,
+          "explanation": "Marxists read interstate wars as rivalry between national bourgeoisies."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A global media and education system makes people in poor countries admire and accept the rich world's economic rules without force. Gramsci would call this:",
+          "options": [
+            "Anarchy",
+            "Hegemony",
+            "Interdependence",
+            "Self-help"
+          ],
+          "answerIndex": 1,
+          "explanation": "Dominance through consent and shared ideas is Gramscian hegemony."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are Marxist assumptions about international relations EXCEPT:",
+          "options": [
+            "International anarchy is the key structure",
+            "Structural economic power matters most",
+            "The capitalist world is unjust and must change",
+            "The economic structure is fundamental"
+          ],
+          "answerIndex": 0,
+          "explanation": "Anarchy is the realist focus; Marxists emphasise the economic structure."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which group of thinkers is associated with revising Marxism (neo-Marxism)?",
+          "options": [
+            "Locke, Rousseau and Kant",
+            "Morgenthau, Waltz and Kennan",
+            "Keohane, Nye and Doyle",
+            "Lukács, Gramsci and Adorno"
+          ],
+          "answerIndex": 3,
+          "explanation": "Lukács, Korsch, Gramsci, Horkheimer and Adorno revised Marxism while keeping class struggle central."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Lenin: cobweb model",
+            "Wallerstein: Perpetual Peace",
+            "Rodney: How Europe Underdeveloped Africa",
+            "Gramsci: democratic peace"
+          ],
+          "answerIndex": 2,
+          "explanation": "Walter Rodney wrote How Europe Underdeveloped Africa (1972)."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Marxists see capitalism as expansive, always seeking new markets. II. Marxists see globalisation as ending capitalist expansion. III. Marxists see class conflict as crossing state borders. Which are correct?",
+          "options": [
+            "I and II only",
+            "I and III only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 1,
+          "explanation": "I and III are correct. II is wrong: globalisation is seen as the current form of capitalist expansion."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which is a recognised contribution of Marxism to IR theory?",
+          "options": [
+            "It explains why democracies rarely fight",
+            "It proves anarchy causes war",
+            "It is the only mainstream theory centred on equality and emancipation",
+            "It shows institutions guarantee cooperation"
+          ],
+          "answerIndex": 2,
+          "explanation": "Marxism uniquely centres equality, emancipation, development and exploitation, issues other theories neglect."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A realist critic argues that Marxism cannot explain wars between two socialist states, such as China and Vietnam in 1979. This criticism challenges the Marxist claim that:",
+          "options": [
+            "States exist",
+            "Wars stem mainly from capitalist economic competition",
+            "History has stages",
+            "Imperialism existed"
+          ],
+          "answerIndex": 1,
+          "explanation": "If socialist states fight each other, war cannot be explained solely by capitalist class rivalry."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,555 @@
+{
+  "unit": 9,
+  "title": "Eyewitness Testimony",
+  "summary": "Why eyewitness memory is persuasive yet error-prone, how lineups and questioning can be improved, and the factors that make witnesses right or wrong.",
+  "sections": [
+    {
+      "name": "Eyewitnesses and identification lineups",
+      "lesson": {
+        "title": "Why courts must handle witnesses carefully",
+        "minutes": 10,
+        "hook": "A woman studied her attacker's face on purpose so she could identify him, picked him out with total certainty, and sent an innocent man to prison for more than a decade. How can a careful, honest witness be so wrong?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "What eyewitness testimony is",
+            "body": "**Eyewitness testimony** is the account a victim or bystander gives in court of what they saw happen during the incident being tried.\n\nIt has two properties that make it dangerous together. First, it is often **unreliable**, because memory is reconstructed, not recorded. Second, it is **highly persuasive** to judges and jurors. A confident person pointing and saying 'that is the man' is very hard to argue against.",
+            "visual": { "type": "venn", "left": "Often unreliable", "right": "Very persuasive", "both": "Eyewitness testimony" }
+          },
+          {
+            "kind": "teach",
+            "heading": "The scale of the problem",
+            "body": "**Elizabeth Loftus** warned that a shocking number of wrongful convictions in the United States rest on eyewitness evidence. **Huff (1995)** estimated the figure at no fewer than **10,000 a year**.\n\nDespite this, the US Department of Justice issued its first national guidelines for collecting eyewitness evidence only in **October 1999** (Wells and colleagues, 2000). Psychology research drove those guidelines.",
+            "visual": { "type": "stat", "value": "10,000+", "label": "Estimated US wrongful convictions yearly" }
+          },
+          {
+            "kind": "teach",
+            "heading": "Caution, not rejection",
+            "body": "Loftus argued as early as **1979** that eyewitness evidence should always be treated with caution. But she did not say throw it out.\n\nIn some crimes, such as rape, the victim's account may be the **only evidence** there is, and it is often correct. The goal of research is therefore to make eyewitness evidence **safer**: to find out which procedures produce errors and replace them with better ones.",
+            "visual": { "type": "spectrum", "left": "Ignore it", "right": "Trust it blindly", "marker": 45, "label": "Use with caution" }
+          },
+          {
+            "kind": "check",
+            "question": "Loftus's position on eyewitness testimony is best summarised as:",
+            "options": [
+              "It should be banned from all courts",
+              "It is error-prone but too important to ignore",
+              "It is reliable whenever the witness is confident",
+              "It matters only in property crimes"
+            ],
+            "answerIndex": 1,
+            "why": "She urged caution because memory is fallible, yet noted it is sometimes the only evidence and often correct. Confidence, as you will see, does not guarantee accuracy."
+          },
+          {
+            "kind": "example",
+            "heading": "The Jennifer Thompson case",
+            "story": "In 1984 in North Carolina, student Jennifer Thompson was attacked and deliberately memorised her attacker's face. She chose Ronald Cotton from photos and a lineup, and was certain. Cotton was convicted. About eleven years later, DNA evidence cleared him and pointed to another man, Bobby Poole. Thompson had been honest and careful throughout, yet completely mistaken.",
+            "takeaway": "A confident, sincere witness can still be wrong, and the real offender stays free."
+          },
+          {
+            "kind": "teach",
+            "heading": "Photos before the lineup",
+            "body": "Witnesses usually identify suspects from a **lineup** (called an identity parade in Nigeria). Problems start earlier, though.\n\nIf a witness sees a photo of the suspect *before* the lineup, that face becomes familiar. At the lineup, the witness may pick the suspect simply because they have seen the face before, not because they saw it at the crime.\n\n**Pryke and colleagues (2000)** found it is better for the witness to **describe** the offender first, and for police then to search for matching photos.",
+            "visual": { "type": "flow", "nodes": ["Witness describes", "Police find matches", "Witness views lineup"] }
+          },
+          {
+            "kind": "teach",
+            "heading": "Building a fair lineup",
+            "body": "The other people in a lineup, the **fillers**, must look like the suspect in age, body build and race. If the suspect is the only tall, dark-skinned man in a row of short, fair men, the lineup is pointing at him.\n\nEven a fair lineup has a risk. If the real offender is **absent**, witnesses tend to choose whoever looks **most like** the offender, rather than saying 'he is not here' (Gonzalez and colleagues, 1993).",
+            "visual": { "type": "icons", "items": [ { "icon": "people", "label": "Similar fillers" }, { "icon": "search", "label": "Relative judgement" }, { "icon": "warning", "label": "Culprit absent risk" } ] }
+          },
+          {
+            "kind": "compare",
+            "heading": "Simultaneous versus sequential lineups",
+            "left": {
+              "title": "Simultaneous",
+              "points": [
+                "All lineup members seen together",
+                "Witness compares faces with each other",
+                "Picks the closest match",
+                "More false identifications"
+              ]
+            },
+            "right": {
+              "title": "Sequential",
+              "points": [
+                "Members seen one after another",
+                "Each face compared with memory",
+                "Yes or no decision per person",
+                "Fewer errors (Loftus, 1993)"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The show-up",
+            "body": "Some officers and researchers prefer a **show-up**: the witness is shown just **one suspect** and asked, 'Is this the person?'\n\n**Wells (1993)** found show-ups produce **fewer misidentifications**, but they also produce **more failures** to identify the real offender. It is a trade-off: you protect the innocent at some cost to catching the guilty. Many researchers also worry that showing a single person in police custody can itself be suggestive.",
+            "visual": { "type": "scale", "left": "Fewer wrong picks", "right": "More missed culprits", "heavier": "even" }
+          },
+          {
+            "kind": "check",
+            "question": "A lineup contains five fillers, but the real robber is not among them. Witnesses are most likely to:",
+            "options": [
+              "Always say the robber is absent",
+              "Pick the person who most resembles the robber",
+              "Pick a person at random",
+              "Refuse to view the lineup"
+            ],
+            "answerIndex": 1,
+            "why": "Witnesses make a relative judgement and choose the closest match, which is how innocent look-alikes get identified. Sequential lineups reduce this tendency."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect scenario questions about lineup procedures: which method gives fewer errors, what happens when the culprit is absent, and the show-up trade-off. The common trap is thinking show-ups are simply 'better'. They cut misidentifications but increase missed identifications.",
+            "sampleQuestion": "Discuss the procedures by which errors in eyewitness identification can be minimised.",
+            "howToAnswer": "Cover describe-then-search over photo browsing (Pryke et al., 2000), fair fillers, the culprit-absent problem, sequential over simultaneous lineups, and the show-up trade-off (Wells, 1993).",
+            "scholars": [ "Loftus (1979)", "Huff (1995)", "Pryke et al. (2000)", "Gonzalez et al. (1993)", "Wells (1993)" ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Eyewitness testimony is often unreliable yet highly persuasive.",
+              "Huff (1995): at least 10,000 US wrongful convictions a year.",
+              "Describe the offender first, then search photos (Pryke et al., 2000).",
+              "Fillers must resemble the suspect; culprit-absent lineups invite look-alike picks.",
+              "Sequential lineups give fewer errors than simultaneous ones.",
+              "Show-ups: fewer misidentifications but more missed culprits."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Eyewitness testimony is described as having two key properties. These are that it is:",
+          "options": [
+            "Reliable and rarely questioned",
+            "Often unreliable yet highly persuasive",
+            "Always accurate when given by victims",
+            "Inadmissible but widely discussed"
+          ],
+          "answerIndex": 1,
+          "explanation": "The danger lies in the combination: witnesses are often wrong, yet juries find them convincing. Victims' accounts are not automatically accurate."
+        },
+        {
+          "difficulty": 1,
+          "stem": "According to Huff (1995), how many people in the United States are wrongly convicted annually on eyewitness evidence? At least:",
+          "options": [ "100", "1,000", "10,000", "1,000,000" ],
+          "answerIndex": 2,
+          "explanation": "Huff estimated at least 10,000 a year. The other figures are distractors that understate or wildly overstate the estimate."
+        },
+        {
+          "difficulty": 1,
+          "stem": "In a sequential lineup, the witness:",
+          "options": [
+            "Views all members at the same time",
+            "Is shown only one suspect in total",
+            "Views members one after another",
+            "Describes the suspect without seeing anyone"
+          ],
+          "answerIndex": 2,
+          "explanation": "Sequential means one at a time, in sequence. Seeing just one suspect in total is a show-up, a different procedure."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The first US national guidelines for collecting eyewitness evidence were prepared by the Department of Justice in:",
+          "options": [ "1979", "1993", "1995", "1999" ],
+          "answerIndex": 3,
+          "explanation": "The guidelines came in October 1999. 1979 is when Loftus published her warning about eyewitness error, and 1995 is Huff's estimate."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Why can showing a witness a suspect's photograph before a lineup lead to a wrong identification?",
+          "options": [
+            "The suspect's face becomes familiar from the photo itself",
+            "Photographs erase the original memory completely",
+            "Witnesses refuse to view the lineup afterwards",
+            "Photos always show the real culprit"
+          ],
+          "answerIndex": 0,
+          "explanation": "The witness may recognise the suspect from the photo rather than from the crime. The original memory is not erased; it is confused with the new source of familiarity."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Fillers in a lineup should resemble the suspect in all of the following EXCEPT:",
+          "options": [ "Age", "Body build", "Race", "Occupation" ],
+          "answerIndex": 3,
+          "explanation": "Fillers must match visible features such as age, build and race so the suspect does not stand out. Occupation cannot be seen in a lineup and is irrelevant."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Police at an Ibadan station want a witness to identify a phone thief. Following Pryke and colleagues (2000), the best first step is to:",
+          "options": [
+            "Show the witness a single photo of the main suspect",
+            "Ask the witness to describe the thief, then search for matching photos",
+            "Let the witness browse all the station's mugshots for similar faces",
+            "Arrange a lineup immediately with only the suspect"
+          ],
+          "answerIndex": 1,
+          "explanation": "Describing first and then searching photos is safer than browsing photos and judging similarity. A single photo makes the suspect familiar and biases the later lineup."
+        },
+        {
+          "difficulty": 3,
+          "stem": "In a robbery lineup, the suspect is the only person with a beard, as the witness described. Which problem does this create?",
+          "options": [
+            "The lineup becomes sequential",
+            "The lineup is biased because the suspect stands out",
+            "The witness will experience weapon focus",
+            "The lineup becomes a show-up with fewer errors"
+          ],
+          "answerIndex": 1,
+          "explanation": "Fillers must resemble the suspect, or the lineup effectively points to one person. This is not weapon focus, which concerns attention during the crime."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A police chief switches from show-ups to lineups. Based on Wells (1993), she should expect:",
+          "options": [
+            "Fewer positive identifications and fewer errors",
+            "No change in either errors or identifications",
+            "More positive identifications but also more misidentifications",
+            "The end of all false identifications"
+          ],
+          "answerIndex": 2,
+          "explanation": "Show-ups produce fewer misidentifications but more failures to identify. Moving away from them should therefore raise both identifications and misidentifications."
+        },
+        {
+          "difficulty": 4,
+          "stem": "When the guilty person is absent from a lineup, witnesses often identify someone anyway. This is best explained by the fact that witnesses:",
+          "options": [
+            "Choose the person who most resembles their memory of the culprit",
+            "Have perfect memories but poor eyesight",
+            "Always choose the first person in the line",
+            "Are required by law to make a choice"
+          ],
+          "answerIndex": 0,
+          "explanation": "Gonzalez and colleagues (1993) found witnesses pick the closest resemblance, a relative judgement. There is no legal duty to choose, and position alone does not explain the effect."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement about the show-up procedure is correct?",
+          "options": [
+            "It produces more misidentifications than a lineup",
+            "It presents all suspects at once",
+            "It reduces misidentifications but increases failures to identify",
+            "It has been shown to remove all eyewitness bias"
+          ],
+          "answerIndex": 2,
+          "explanation": "Wells (1993) found a trade-off: fewer wrong identifications, more missed ones. It presents one suspect, not all at once, and does not remove bias."
+        },
+        {
+          "difficulty": 4,
+          "stem": "A student argues that Loftus wants eyewitness evidence removed from courts. The best correction is that Loftus:",
+          "options": [
+            "Wanted only expert witnesses to testify",
+            "Urged caution while noting it is sometimes the only, and often correct, evidence",
+            "Believed eyewitnesses are accurate if they are victims",
+            "Argued that confident witnesses should always be believed"
+          ],
+          "answerIndex": 1,
+          "explanation": "Loftus said it cannot be excluded or ignored, as in rape cases where it may be the only evidence. She did not claim victims or confident witnesses are reliable."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider: I. Sequential lineups reduce errors compared with simultaneous ones. II. Fillers need not resemble the suspect if the witness is confident. III. Pre-lineup photos of the suspect can create false familiarity. IV. Show-ups increase failures to identify. Which are correct?",
+          "options": [ "I and II only", "I, III and IV only", "II, III and IV only", "I, II, III and IV" ],
+          "answerIndex": 1,
+          "explanation": "Statements I, III and IV reflect the research. Statement II is false: fillers must always resemble the suspect, and confidence is no safeguard."
+        },
+        {
+          "difficulty": 5,
+          "stem": "The best explanation for why sequential lineups reduce false identifications is that they:",
+          "options": [
+            "Remove the need for fillers altogether",
+            "Show the witness only the suspect",
+            "Make witnesses compare faces with each other more carefully",
+            "Push witnesses to compare each face with memory rather than with the other faces"
+          ],
+          "answerIndex": 3,
+          "explanation": "Viewing one at a time discourages relative judgement (picking the best of the bunch) in favour of an absolute yes or no against memory. Comparing faces with each other is exactly what simultaneous lineups encourage."
+        },
+        {
+          "difficulty": 5,
+          "stem": "In the Jennifer Thompson case, a confident, careful victim identified the wrong man. Which pair of conclusions does this case most directly support?",
+          "options": [
+            "Confidence does not guarantee accuracy, and false identification leaves the real offender free",
+            "Victims always remember better than bystanders, and DNA is unreliable",
+            "Show-ups eliminate error, and photos before lineups improve accuracy",
+            "Memory works like a recorder, and stress improves all details"
+          ],
+          "answerIndex": 0,
+          "explanation": "Thompson was certain yet wrong, and the true attacker remained at large: a double injustice. DNA evidence in fact corrected the error, and photos before lineups increase risk."
+        }
+      ]
+    },
+    {
+      "name": "What makes witnesses right or wrong",
+      "lesson": {
+        "title": "Factors that distort eyewitness memory",
+        "minutes": 10,
+        "hook": "A robber points a gun at a POS attendant for thirty seconds. The attendant can describe the gun perfectly but cannot say whether the robber had a beard. Why would the brain choose the gun?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Many factors, one fragile memory",
+            "body": "Whether a witness gets it right depends on conditions **during the event**, the **witness** themselves, and what happens **after the event**.\n\nUseful factors to remember include **exposure time** (how long the face was seen), **delay** (time between the event and the identification), **attention and arousal**, **weapon focus**, and features of the witness such as **age, gender and race** relative to the offender.",
+            "visual": { "type": "flow", "nodes": ["During the event", "The witness", "After the event"] }
+          },
+          {
+            "kind": "teach",
+            "heading": "The cross-race effect",
+            "body": "Witnesses are more likely to pick the wrong person when the offender is of a **different race** from themselves. **Egeth (1993)** estimated that misidentifications are about **15% higher** in cross-race than same-race identifications.\n\nA common explanation is experience: we get more practice telling apart faces from our own group, so we notice finer differences in them. Faces from less familiar groups may seem more alike.",
+            "visual": { "type": "stat", "value": "~15%", "label": "More errors across races" }
+          },
+          {
+            "kind": "teach",
+            "heading": "Weapon focus",
+            "body": "When a **weapon** is used, misidentification becomes somewhat more likely. **Steblay (1992)** linked this to **weapon focus**: the witness's attention is pulled towards the gun or knife and away from the offender's face and body.\n\nAttention is limited. Whatever grabs it, because it is threatening or unusual, gets encoded well, and other details get encoded poorly or not at all.",
+            "visual": { "type": "icons", "items": [ { "icon": "warning", "label": "Weapon grabs attention" }, { "icon": "eye", "label": "Face less noticed" } ] }
+          },
+          {
+            "kind": "check",
+            "question": "A bank customer describes the robber's knife in detail but cannot describe his face. This best illustrates:",
+            "options": [
+              "The cross-race effect",
+              "The misinformation effect",
+              "Weapon focus",
+              "Source misattribution"
+            ],
+            "answerIndex": 2,
+            "why": "Attention was captured by the weapon at the expense of the face. The misinformation effect comes from information given after the event, not during it."
+          },
+          {
+            "kind": "teach",
+            "heading": "Leading questions",
+            "body": "Questioning after a crime can change what a witness later remembers. A **leading question** suggests its own answer, such as 'Did you see *the* red car?' instead of 'Did you see a car?'.\n\n**Leichtman and Ceci (1995)** showed how much leading questions can alter memory, especially in children, which is why interviewers must ask **neutral questions**.",
+            "visual": { "type": "icons", "items": [ { "icon": "chatbubbles", "label": "Leading question" }, { "icon": "close-circle", "label": "Memory altered" } ] }
+          },
+          {
+            "kind": "teach",
+            "heading": "The misinformation effect",
+            "body": "When misleading information is supplied **after** an event, people often fold it into their memory of the event itself. This is the **misinformation effect** (Kroll and colleagues, 1988; Loftus and Hoffman, 1989).\n\nLoftus and her students have run more than 20 experiments with over **20,000 participants** showing this. Newspaper reports, chats with other witnesses and police questions can all be sources of misinformation.",
+            "visual": { "type": "flow", "nodes": ["Original event", "Misleading information", "Blended memory"] }
+          },
+          {
+            "kind": "example",
+            "heading": "The hostel theft",
+            "story": "Two students in a Zik Hall room saw a laptop thief. Afterwards, Bisi kept telling everyone the thief wore a red cap. Ifeanyi, who had not noticed any cap, heard the story many times. When the security officer interviewed him a week later, Ifeanyi described a red cap clearly, and felt more sure each time he repeated it. CCTV showed the thief was bareheaded.",
+            "takeaway": "Post-event misinformation entered Ifeanyi's memory, and repeated recall made him more confident, not more accurate."
+          },
+          {
+            "kind": "teach",
+            "heading": "Repetition breeds confidence",
+            "body": "**Shaw (1996)** found that after witnesses recall information again and again, whether it is true or false, they become **more confident** in court. Each retrieval makes the memory come to mind more easily, and that ease feels like certainty.\n\nThis matters because the long gap between a crime and a trial is full of interviews and retellings. Confidence can grow steadily while accuracy stays flat or falls.",
+            "visual": { "type": "spectrum", "left": "Doubtful", "right": "Certain", "marker": 85, "label": "After many retellings" }
+          },
+          {
+            "kind": "check",
+            "question": "According to Shaw (1996), repeatedly recalling an event before a trial tends to make witnesses:",
+            "options": [
+              "More accurate and less confident",
+              "More confident, whether or not they are accurate",
+              "Less confident and less accurate",
+              "Unable to recall the event at all"
+            ],
+            "answerIndex": 1,
+            "why": "Repetition makes the memory easy to retrieve, which feels like certainty. It does not make an inaccurate memory accurate."
+          },
+          {
+            "kind": "teach",
+            "heading": "Stress and central details",
+            "body": "Witnessing a crime is very stressful. Does stress wreck memory? Not completely.\n\nResearch by **Burke and colleagues (1992)** and **Christianson (1992)** suggests that even highly aroused witnesses usually keep the **central**, crucial parts of what happened, but memory for **peripheral** or less important details suffers. Stress narrows the spotlight rather than switching it off.",
+            "visual": { "type": "scale", "left": "Central details", "right": "Peripheral details", "heavier": "left" }
+          },
+          {
+            "kind": "teach",
+            "heading": "Confidence is not accuracy",
+            "body": "Jennifer Thompson was certain, and wrong. Research agrees that a witness's **confidence** is a poor guide to **accuracy** (Loftus, 1993; Sporer and colleagues, 1995).\n\n**Geiselman and colleagues (2000)** found that witnesses who see themselves as especially **objective** are more confident whatever their accuracy, and include more wrong details. Yet confident witnesses persuade jurors. As Wells (1993) noted, a false identification is a double injustice: an innocent person suffers and the real offender stays free.",
+            "visual": { "type": "venn", "left": "Confidence", "right": "Accuracy", "both": "Weak overlap" }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "SAQ 9.2 asks for factors influencing eyewitness accuracy, so list several with a researcher each. Objective items test figures (15% cross-race), attribution (Steblay, Shaw, Egeth) and the stress finding. The trap: saying stress ruins all memory, or that confident witnesses are accurate.",
+            "sampleQuestion": "Highlight and discuss five factors that influence the accuracy of eyewitness testimony.",
+            "howToAnswer": "Pick factors such as cross-race (Egeth, 1993), weapon focus (Steblay, 1992), misinformation (Loftus), repeated recall (Shaw, 1996), stress (Christianson, 1992) and exposure time or delay, and explain how each affects accuracy.",
+            "scholars": [ "Egeth (1993)", "Steblay (1992)", "Leichtman & Ceci (1995)", "Shaw (1996)", "Christianson (1992)", "Geiselman et al. (2000)" ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Cross-race identifications have about 15% more errors (Egeth, 1993).",
+              "Weapon focus pulls attention from the offender (Steblay, 1992).",
+              "Leading questions and post-event misinformation reshape memory.",
+              "Repeated recall raises confidence, not accuracy (Shaw, 1996).",
+              "Stress spares central details but harms peripheral ones.",
+              "Confidence is a poor guide to accuracy."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The tendency for a witness's attention to be drawn to a gun or knife rather than the offender's face is called:",
+          "options": [ "Weapon focus", "Misinformation effect", "Cross-race effect", "Show-up bias" ],
+          "answerIndex": 0,
+          "explanation": "Weapon focus describes attention captured by the weapon. The misinformation effect arises from information received after the event."
+        },
+        {
+          "difficulty": 1,
+          "stem": "When misleading information given after an event changes a witness's memory of the event, this is known as:",
+          "options": [
+            "Weapon focus",
+            "Sequential bias",
+            "The misinformation effect",
+            "Proactive facilitation"
+          ],
+          "answerIndex": 2,
+          "explanation": "The misinformation effect is the blending of post-event information into memory. Weapon focus happens during the event, not after it."
+        },
+        {
+          "difficulty": 1,
+          "stem": "According to Egeth (1993), misidentifications in cross-race identifications are about how much higher than in same-race ones?",
+          "options": [ "5%", "50%", "3.5%", "15%" ],
+          "answerIndex": 3,
+          "explanation": "Egeth estimated about 15% higher. 3.5% is Penfield's flashback figure, a distractor from an earlier session."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Research by Burke and colleagues and by Christianson suggests that under high stress, eyewitnesses tend to:",
+          "options": [
+            "Forget every detail of the event",
+            "Remember central details but lose peripheral ones",
+            "Remember peripheral details better than central ones",
+            "Remember everything with perfect accuracy"
+          ],
+          "answerIndex": 1,
+          "explanation": "Stress narrows attention to the critical core of the event, so central details survive while minor ones suffer. It neither destroys nor perfects memory."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Interviewers of witnesses are advised to ask neutral questions mainly because:",
+          "options": [
+            "Neutral questions are shorter",
+            "Leading questions can substantially change what witnesses remember",
+            "Witnesses refuse to answer leading questions",
+            "Neutral questions guarantee a conviction"
+          ],
+          "answerIndex": 1,
+          "explanation": "Leading questions plant suggestions that can alter memory (Leichtman & Ceci, 1995). Neutral questions protect accuracy; they do not guarantee any verdict."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which of the following is NOT listed among factors that influence eyewitness accuracy?",
+          "options": [ "Exposure time", "Delay before identification", "The witness's blood group", "Weapon focus" ],
+          "answerIndex": 2,
+          "explanation": "Exposure time, delay and weapon focus all affect accuracy. Blood group has no known link to eyewitness memory, unlike age, gender and race."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Bola saw an accident for about two seconds from a moving keke, and was asked to identify the driver three months later. Which two factors most threaten her accuracy?",
+          "options": [
+            "Weapon focus and cross-race effect",
+            "Short exposure time and long delay",
+            "Show-up bias and sequential lineup",
+            "Repeated recall and high confidence"
+          ],
+          "answerIndex": 1,
+          "explanation": "Two seconds is a very brief exposure, and three months is a long delay before recognition. There was no weapon or stated race difference."
+        },
+        {
+          "difficulty": 3,
+          "stem": "After an armed robbery, several witnesses discuss the event in a WhatsApp group before police interviews. The greatest risk to accuracy here is:",
+          "options": [
+            "Weapon focus",
+            "The cross-race effect",
+            "The misinformation effect",
+            "Sequential lineup bias"
+          ],
+          "answerIndex": 2,
+          "explanation": "Details from other witnesses can be absorbed into each person's memory. Weapon focus would have operated during the robbery itself, not in later discussion."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A witness has told her story to police, lawyers and family many times. In court she is extremely confident. Based on Shaw (1996), the jury should conclude that:",
+          "options": [
+            "Her confidence may reflect repetition rather than accuracy",
+            "Her memory has become more accurate with each telling",
+            "She must be lying because she is confident",
+            "Her testimony should be accepted without question"
+          ],
+          "answerIndex": 0,
+          "explanation": "Repeated retrieval makes memories feel easy and certain whether true or false. Confidence is not proof of lying either; it is simply a weak indicator of accuracy."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement about the relationship between witness confidence and accuracy is correct?",
+          "options": [
+            "Confidence reliably shows that a witness is accurate",
+            "Confident witnesses are rarely believed by jurors",
+            "Witnesses who see themselves as objective tend to be more accurate",
+            "Confidence is a poor indicator of accuracy but persuades jurors"
+          ],
+          "answerIndex": 3,
+          "explanation": "Confidence and accuracy are only weakly linked, yet confident witnesses are very persuasive. Geiselman and colleagues found self-rated objective witnesses were more confident but included more wrong details."
+        },
+        {
+          "difficulty": 4,
+          "stem": "A student claims that stress makes eyewitnesses useless. Which finding best challenges this claim?",
+          "options": [
+            "Aroused witnesses still tend to recall the central details of an event",
+            "Cross-race identifications have more errors",
+            "Show-ups produce fewer misidentifications",
+            "Pre-lineup photos create false familiarity"
+          ],
+          "answerIndex": 0,
+          "explanation": "Burke and colleagues and Christianson found central details survive high arousal. The other findings are true but say nothing about stress."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pairing of researcher and finding is correct?",
+          "options": [
+            "Steblay (1992) – repeated recall raises confidence",
+            "Shaw (1996) – weapon presence increases misidentification",
+            "Egeth (1993) – cross-race misidentifications are about 15% higher",
+            "Geiselman et al. (2000) – sequential lineups reduce errors"
+          ],
+          "answerIndex": 2,
+          "explanation": "Egeth's figure is correct. Steblay and Shaw are swapped (Steblay: weapons; Shaw: repeated recall), and sequential lineups are linked to Loftus."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider: I. Weapon focus occurs because attention is limited. II. The misinformation effect arises from information encoded during the event. III. Stress harms peripheral more than central details. IV. Repeated recall increases confidence even for false details. Which are correct?",
+          "options": [ "I and II only", "II and IV only", "I, II and III only", "I, III and IV only" ],
+          "answerIndex": 3,
+          "explanation": "Statements I, III and IV are supported. Statement II is wrong because misinformation comes after the event, not during it."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A Yoruba witness misidentifies a Hausa suspect in a robbery where a machete was waved. Which combination of factors most plausibly contributed?",
+          "options": [
+            "Show-up bias and the misinformation effect",
+            "Long exposure time and neutral questioning",
+            "Cross-group identification and weapon focus",
+            "Repeated recall and sequential lineup"
+          ],
+          "answerIndex": 2,
+          "explanation": "Identifying someone from a less familiar group raises error, as Egeth's cross-race finding suggests, and the machete would draw attention away from the face. Nothing indicates a show-up, misinformation or long exposure."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A researcher finds that witnesses given a misleading post-event question later report details that were never present, and are confident about them. She would most likely conclude that:",
+          "options": [
+            "Post-event information can be blended into memory without the witness realising",
+            "The original memory was stored perfectly but retrieved slowly",
+            "Witnesses deliberately add details to please interviewers",
+            "Confidence proves the added details were really present"
+          ],
+          "answerIndex": 0,
+          "explanation": "This is the misinformation effect: suggested details become part of the remembered event and feel real. Nothing indicates deliberate lying, and confidence does not prove accuracy."
+        }
+      ]
+    }
+  ]
+}

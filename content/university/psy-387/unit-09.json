@@ -1,0 +1,989 @@
+{
+  "unit": 9,
+  "title": "Stereotyping",
+  "summary": "Why stereotypes form and persist, how they fulfil themselves and threaten performance, what they cost, and how they can be reduced.",
+  "sections": [
+    {
+      "name": "Stereotypes as mental shortcuts",
+      "lesson": {
+        "title": "Why the mind reaches for stereotypes",
+        "minutes": 9,
+        "hook": "You are rushing to an 8 a.m. exam, a stranger asks you for directions, and in half a second you have already guessed their job, their religion and their home state. How did your brain do that so fast, and how often is it wrong?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "What is a stereotype?",
+            "body": "A **stereotype** is a generalised belief about the characteristics of members of a group. It is the **cognitive** part of prejudice: the 'picture in the head', as the journalist Walter Lippmann first called it in 1922.\n\nStereotyping happens in every culture. It is ordinary, not a sign of a uniquely bad person. That is exactly why it is so hard to escape.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "people",
+                  "label": "A group"
+                },
+                {
+                  "icon": "bulb",
+                  "label": "A belief"
+                },
+                {
+                  "icon": "person",
+                  "label": "Applied to individual"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Categorising is everywhere",
+            "body": "From the **cognitive perspective**, stereotyping is close to inevitable because **categorisation** is everywhere. We sort natural things (water, grass, animals) and human-made things (cars, houses) into groups.\n\nWhy? Because sorting **simplifies** the flood of information around us and lets us process it efficiently. People are sorted in the same way, and once a category exists, beliefs about it come along for the ride.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Too much information",
+                "Sort into categories",
+                "Faster processing"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "A shortcut for a tired mind",
+            "body": "Stereotypes act as **mental shortcuts**. They are most likely to be used when we are **busy, distracted or low on mental energy**, for example under exam pressure or at the end of a long day.\n\nThey can also be **activated outside conscious awareness**. Once switched on, a stereotype can shape both **attitudes and behaviour** without the person realising it. Saving effort is the benefit; mistaken impressions and unfair judgements are the cost.",
+            "visual": {
+              "type": "scale",
+              "left": "Saves effort",
+              "right": "Unfair judgements",
+              "heavier": "right"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "According to the cognitive view, when are people most likely to fall back on stereotypes?",
+            "options": [
+              "When they have plenty of time to think",
+              "When they are busy, distracted or mentally tired",
+              "When they are strongly motivated to be accurate",
+              "Only when they are consciously hostile"
+            ],
+            "answerIndex": 1,
+            "why": "Stereotypes are shortcuts, so they take over when mental energy is low. Motivation to be accurate actually reduces stereotyping."
+          },
+          {
+            "kind": "teach",
+            "heading": "Biased processing keeps false stereotypes alive",
+            "body": "How can a stereotype with **no truth** in it survive? Through **biased information processing**.\n\nSuppose you heard a joke or a rumour suggesting a group is different. From then on, ambiguous evidence gets read as confirmation. A neutral act becomes 'typical of them'. Each reading makes the suspicion firmer and more detailed. This is **confirmation bias** at work in group perception.",
+            "visual": {
+              "type": "cycle",
+              "nodes": [
+                "Rumour or joke",
+                "Ambiguous event",
+                "Read as proof",
+                "Belief strengthens"
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "The 'troublemaker' corps member",
+            "story": "Before the NYSC camp, Seyi hears a joke suggesting corps members from a certain state are troublemakers. On the second day, a corps member from that state argues loudly with a platoon leader. Seyi thinks, 'I knew it.' When a corps member from Seyi's own state argues the same way the next day, Seyi decides he was simply 'standing up for himself'.",
+            "takeaway": "The same behaviour was read differently because one fitted the stereotype, which is how biased processing keeps an unfounded belief alive."
+          },
+          {
+            "kind": "teach",
+            "heading": "Stereotypes shape what we see",
+            "body": "Stereotypes also change how **events are interpreted**. In a well-known American study, **Duncan (1976)** showed white students a video of an ambiguous shove. When the person shoving was Black, far more viewers called it violent than when the person was white.\n\nThe general rule: information that **fits** a stereotype carries more weight than information that **contradicts** it. We do not weigh evidence evenly.",
+            "visual": {
+              "type": "scale",
+              "left": "Fits stereotype",
+              "right": "Contradicts it",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Which finding best shows that stereotypes influence how events are interpreted?",
+            "options": [
+              "People sort cars and houses into categories",
+              "The same ambiguous shove is judged more violent depending on the actor's race",
+              "Students walk slowly after reading words about old age",
+              "Women score lower when told a test shows gender differences"
+            ],
+            "answerIndex": 1,
+            "why": "Duncan's shove study shows the same act being read differently because of the actor's race. The walking and maths findings are about priming and stereotype threat."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect the gap-fill on what stereotypes influence once activated: the answer is attitude and behaviour. Also expect 'why do invalid stereotypes persist?' The trap is answering 'because they are true'. The examinable answer is biased processing: consistent information counts more than inconsistent information.",
+            "sampleQuestion": "Stereotypes can be switched on without our awareness. Explain how this can shape both what people think and how they act, with an example.",
+            "howToAnswer": "Choose (c). In an essay, add that stereotypes are used most when people are busy or tired, and explain how biased processing lets unfounded stereotypes endure.",
+            "scholars": [
+              "Lippmann (1922)",
+              "Duncan (1976)",
+              "Allport (1954)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Stereotypes are generalised beliefs about group members, found in every culture.",
+              "Cognitively, they grow out of the need to categorise and simplify.",
+              "They are used most when people are busy, distracted or tired.",
+              "Activated stereotypes can shape attitude and behaviour without awareness.",
+              "Biased processing makes stereotype-consistent information count more."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "From the cognitive perspective, stereotyping is considered almost inevitable because:",
+          "options": [
+            "All stereotypes are accurate",
+            "Humans constantly categorise to simplify information",
+            "Only prejudiced people think in groups",
+            "Stereotypes are taught only in schools"
+          ],
+          "answerIndex": 1,
+          "explanation": "Categorisation is universal and necessary for efficient processing, so stereotypes grow from it. This does not make stereotypes accurate."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Stereotypes are often described as mental shortcuts because they:",
+          "options": [
+            "Always lead to correct judgements",
+            "Require careful thought about each person",
+            "Save time and effort in judging others",
+            "Are only used by children"
+          ],
+          "answerIndex": 2,
+          "explanation": "Stereotypes let us judge quickly without examining each person, which saves effort. The cost is that they often produce mistaken impressions."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Once activated, stereotypes can influence a person's:",
+          "options": [
+            "Attitude and behaviour",
+            "Height and weight",
+            "Group conscientiousness only",
+            "Genetic make-up"
+          ],
+          "answerIndex": 0,
+          "explanation": "Activated stereotypes shape how we feel about and act towards people. 'Group conscientiousness' is a distractor from the manual's ITQ, not a recognised effect."
+        },
+        {
+          "difficulty": 2,
+          "stem": "People are MOST likely to rely on stereotypes when they are:",
+          "options": [
+            "Relaxed and unhurried",
+            "Strongly motivated to be accurate",
+            "Distracted or mentally fatigued",
+            "Personally close to the individual"
+          ],
+          "answerIndex": 2,
+          "explanation": "Low mental energy pushes people towards shortcuts. Motivation to be accurate and personal closeness both reduce reliance on stereotypes."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The session explains that stereotypes lacking any validity can still endure mainly because of:",
+          "options": [
+            "Biased information processing",
+            "Genetic transmission",
+            "Accurate observation of groups",
+            "Formal laws that require them"
+          ],
+          "answerIndex": 0,
+          "explanation": "Ambiguous information is read as confirming the stereotype, so it survives without real evidence. Stereotypes are learned, not inherited."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which statement about stereotype activation is correct?",
+          "options": [
+            "It always requires conscious intention",
+            "It can occur outside conscious awareness",
+            "It only happens among strangers",
+            "It cannot affect behaviour"
+          ],
+          "answerIndex": 1,
+          "explanation": "Stereotypes can switch on automatically without awareness and then shape behaviour. That is why well-meaning people can still act on them."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Kemi has heard a joke that students from a certain faculty are lazy. When one of them submits an assignment late, she says 'typical', but she ignores the many who submit early. Kemi's thinking best illustrates:",
+          "options": [
+            "Stereotype threat",
+            "Self-fulfilling prophecy",
+            "Biased processing that confirms a stereotype",
+            "Perspective taking"
+          ],
+          "answerIndex": 2,
+          "explanation": "She weighs confirming evidence and ignores disconfirming evidence, which is biased processing. Stereotype threat would be the targets' own fear of confirming the stereotype."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A researcher shows two groups the same video of an ambiguous push, changing only the actor's ethnicity. If viewers rate the push as more aggressive for one ethnicity, this would show that:",
+          "options": [
+            "Stereotypes influence how events are interpreted",
+            "Viewers have high self-esteem",
+            "Categorisation never affects perception",
+            "Stereotype threat lowers viewers' performance"
+          ],
+          "answerIndex": 0,
+          "explanation": "This design mirrors Duncan (1976): the same act is read differently depending on the actor's group. It concerns observers' interpretation, not the actor's performance."
+        },
+        {
+          "difficulty": 3,
+          "stem": "At the end of a twelve-hour shift, a nurse judges a patient by his tribal marks rather than his symptoms. The best explanation for her reliance on a stereotype is:",
+          "options": [
+            "High motivation to be accurate",
+            "Plenty of time to process information",
+            "Low mental energy encouraging a shortcut",
+            "Deliberate perspective taking"
+          ],
+          "answerIndex": 2,
+          "explanation": "Fatigue drains the energy needed for careful judgement, so shortcuts take over. Perspective taking would reduce, not cause, stereotyping."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are true of stereotypes according to the session EXCEPT:",
+          "options": [
+            "They are common across many cultures",
+            "They can lead to unfair judgements of individuals",
+            "Consistent and inconsistent information carry equal weight",
+            "They stem partly from the need to categorise"
+          ],
+          "answerIndex": 2,
+          "explanation": "People do not weigh evidence evenly: stereotype-consistent information has more impact. The other statements are correct."
+        },
+        {
+          "difficulty": 4,
+          "stem": "A student argues: 'If a stereotype survives for years, it must contain some truth.' Based on the session, the strongest reply is that:",
+          "options": [
+            "Stereotypes survive only if they are accurate",
+            "Biased processing can sustain stereotypes that have no validity",
+            "Stereotypes disappear automatically after one generation",
+            "Only accurate stereotypes are activated unconsciously"
+          ],
+          "answerIndex": 1,
+          "explanation": "Because ambiguous information is read as confirmation, stereotypes can persist without any truth. Survival is not evidence of accuracy."
+        },
+        {
+          "difficulty": 4,
+          "stem": "In the cognitive view, the main PURPOSE of categorising objects and people is to:",
+          "options": [
+            "Express hostility towards out-groups",
+            "Rank groups from best to worst",
+            "Simplify and speed up information processing",
+            "Increase the accuracy of every judgement"
+          ],
+          "answerIndex": 2,
+          "explanation": "Categorising exists to simplify and make processing efficient. It sacrifices some accuracy, which is why stereotypes can mislead; ranking groups is the social dominance idea."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider: I. Stereotypes can be activated without awareness. II. Stereotyping is limited to Western cultures. III. Information inconsistent with a stereotype usually has more impact. IV. Stereotypes save effort but can distort perception. Which are correct?",
+          "options": [
+            "I and IV only",
+            "II and III only",
+            "I, III and IV only",
+            "I, II and IV only"
+          ],
+          "answerIndex": 0,
+          "explanation": "II is false because stereotyping occurs in many cultures, and III reverses the finding: consistent information has more impact. I and IV are correct."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Two observers see the same corps member argue with an official. One shares the corps member's ethnicity and calls it 'standing up for himself'; the other does not and calls it 'typical aggression'. Which combination of ideas BEST explains the difference?",
+          "options": [
+            "Stereotype threat and self-esteem",
+            "Social dominance and the just-world belief",
+            "Self-fulfilling prophecy and subtyping",
+            "Stereotype-based interpretation and biased processing"
+          ],
+          "answerIndex": 3,
+          "explanation": "The same act is interpreted through a stereotype and the confirming reading is given more weight. Stereotype threat concerns the target's own anxiety, which is not described here."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which of the following conditions would MOST reduce the chance of a manager stereotyping job applicants?",
+          "options": [
+            "Interviewing forty applicants in one afternoon",
+            "Interviewing while handling phone calls",
+            "Using only a quick first impression",
+            "Having time and a clear goal of judging each applicant accurately"
+          ],
+          "answerIndex": 3,
+          "explanation": "Stereotypes thrive when people are rushed or distracted and fade when they have time and motivation to be accurate. The other three options all drain mental energy."
+        }
+      ]
+    },
+    {
+      "name": "Self-fulfilling prophecy and stereotype threat",
+      "lesson": {
+        "title": "When expectations come true",
+        "minutes": 10,
+        "hook": "A lecturer decides in week one that a student is 'not serious', stops calling on her, and by exams she really is behind. Was the lecturer right all along, or did the lecturer cause it?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "The self-fulfilling prophecy",
+            "body": "A **self-fulfilling prophecy** happens when we treat members of a group in ways that **bring about** the very behaviour we expected from them.\n\nThe sociologist **Robert Merton** coined the term (first in 1948, later in his 1957 book *Social Theory and Social Structure*). His point was sharp: the person who made the false prediction then points to the outcome as proof they were right from the start, and so the error keeps ruling.",
+            "visual": {
+              "type": "cycle",
+              "nodes": [
+                "False expectation",
+                "Biased treatment",
+                "Expected behaviour",
+                "Belief 'confirmed'"
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "The teacher who stopped explaining",
+            "story": "Mr Okon believes pupils from a particular community are 'not good at maths'. Without meaning to, he gives them less time, fewer explanations and easier questions. By the end of term they really are behind their classmates. He tells the staffroom, 'You see? I said so.'",
+            "takeaway": "His expectation shaped his teaching, his teaching shaped their results, and the results seemed to prove the expectation: a self-fulfilling prophecy."
+          },
+          {
+            "kind": "teach",
+            "heading": "Classic evidence",
+            "body": "**Rosenthal and Jacobson (1968)** told teachers that some randomly chosen pupils were about to 'bloom'. Many of those pupils later showed greater gains, apparently because teachers treated them differently.\n\n**Word, Zanna and Cooper (1974)** found that white interviewers gave Black applicants colder, shorter interviews. When trained interviewers then treated new applicants in that cold style, those applicants performed worse. Expectations produced the behaviour.",
+            "visual": {
+              "type": "stat",
+              "value": "1968",
+              "label": "Rosenthal & Jacobson: Pygmalion study"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Which of the following is the clearest example of a self-fulfilling prophecy?",
+            "options": [
+              "A student fears confirming a stereotype and freezes in an exam",
+              "A supervisor expects a worker to fail, gives poor training, and the worker fails",
+              "A person sees all members of another group as alike",
+              "A victim is blamed for a robbery"
+            ],
+            "answerIndex": 1,
+            "why": "The supervisor's expectation leads to treatment that produces the expected failure. Freezing for fear of confirming a stereotype is stereotype threat, which works through the target's own anxiety."
+          },
+          {
+            "kind": "teach",
+            "heading": "Stereotype threat",
+            "body": "**Stereotype threat** is the fear of **confirming** a negative stereotype about a group you belong to. Claude **Steele** and Joshua **Aronson** (1995) showed that this fear alone can lower performance.\n\nNobody has to treat you badly. Simply knowing the stereotype exists, and that this task could 'prove' it, creates anxiety and drains attention. Members of **stigmatised groups** are most exposed.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Stereotype made salient",
+                "Fear of confirming",
+                "Anxiety",
+                "Lower performance"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The women and maths study",
+            "body": "**Spencer, Steele and Quinn (1999)** gave men and women a difficult maths test. One group was told the test showed **no gender difference**. Another group was told it **did** show a difference favouring men.\n\nWhen told there was no difference, women and men scored about the same. When told there was a difference, women scored lower than men. The test was identical; only the threat changed.",
+            "visual": {
+              "type": "compare-skip"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "In Spencer, Steele and Quinn (1999), women performed as well as men when:",
+            "options": [
+              "They were told the test favoured men",
+              "The test was made easier for them",
+              "They were told the test showed no gender difference",
+              "They took the test in a separate room"
+            ],
+            "answerIndex": 2,
+            "why": "Removing the stereotype from the situation removed the gap. When told men did better, women's scores dropped even though the test was the same."
+          },
+          {
+            "kind": "compare",
+            "heading": "Prophecy versus threat",
+            "left": {
+              "title": "Self-fulfilling prophecy",
+              "points": [
+                "Starts in the perceiver's expectation",
+                "Works through how others treat you",
+                "Merton coined the term",
+                "Example: teacher gives less help"
+              ]
+            },
+            "right": {
+              "title": "Stereotype threat",
+              "points": [
+                "Starts in the target's own fear",
+                "Works through anxiety and distraction",
+                "Steele & Aronson (1995)",
+                "Example: maths test framed by gender"
+              ]
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "The classic question is 'differentiate between self-fulfilling prophecy and stereotype threat'. The trap is treating them as the same. In the prophecy, the perceiver's behaviour creates the outcome. In stereotype threat, the target's own fear does the damage, even if everyone treats them fairly.",
+            "sampleQuestion": "With relevant examples, distinguish between self-fulfilling prophecy and stereotype threat as consequences of stereotyping.",
+            "howToAnswer": "Define each, credit Merton for the prophecy and Steele and Aronson for stereotype threat, give the teacher example and the Spencer, Steele and Quinn maths study, then state the key difference: who starts the process.",
+            "scholars": [
+              "Merton (1948)",
+              "Rosenthal & Jacobson (1968)",
+              "Steele & Aronson (1995)",
+              "Spencer, Steele & Quinn (1999)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Self-fulfilling prophecy: treatment shaped by an expectation produces the expected behaviour.",
+              "Merton coined the term; the false prophet then cites the outcome as proof.",
+              "Stereotype threat: fear of confirming a group stereotype harms performance.",
+              "Spencer, Steele and Quinn (1999): women's maths gap appeared only under threat.",
+              "Prophecy starts with the perceiver; threat starts with the target's fear."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The term 'self-fulfilling prophecy' was coined by:",
+          "options": [
+            "Claude Steele",
+            "Robert Merton",
+            "Gordon Allport",
+            "Lee Ross"
+          ],
+          "answerIndex": 1,
+          "explanation": "Robert Merton introduced the term. Steele is associated with stereotype threat."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Stereotype threat refers to:",
+          "options": [
+            "The fear of confirming a negative stereotype about one's own group",
+            "Threatening members of an out-group",
+            "A law against stereotyping",
+            "The tendency to see out-groups as alike"
+          ],
+          "answerIndex": 0,
+          "explanation": "Stereotype threat is the target's worry about confirming a stereotype. Seeing out-groups as alike is out-group homogeneity."
+        },
+        {
+          "difficulty": 1,
+          "stem": "In a self-fulfilling prophecy, a false expectation about a group:",
+          "options": [
+            "Is quickly abandoned when tested",
+            "Has no effect on how people behave",
+            "Leads to treatment that produces the expected behaviour",
+            "Only affects the person holding the belief"
+          ],
+          "answerIndex": 2,
+          "explanation": "The expectation changes how the group is treated, and that treatment brings about the expected behaviour. It affects the target, not only the believer."
+        },
+        {
+          "difficulty": 2,
+          "stem": "In the Spencer, Steele and Quinn (1999) study, women scored lower than men when:",
+          "options": [
+            "They were told the test showed no gender difference",
+            "They were told the test showed a difference favouring men",
+            "The test was in English rather than maths",
+            "Men were not present in the room"
+          ],
+          "answerIndex": 1,
+          "explanation": "Making the stereotype relevant created the gap. When told there was no difference, the two groups performed equivalently."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Merton's remark that the false prophet cites the outcome as proof of being right means that self-fulfilling prophecies:",
+          "options": [
+            "Expose the error quickly",
+            "Only occur in religious settings",
+            "Make an originally false belief look true and so keep it going",
+            "Are always based on accurate information"
+          ],
+          "answerIndex": 2,
+          "explanation": "Because the outcome seems to confirm the belief, the original error is never questioned. The belief was false at the start; the treatment made it come true."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which group is most vulnerable to stereotype threat?",
+          "options": [
+            "Members of stigmatised groups facing a relevant task",
+            "Members of high-status groups in any task",
+            "People who have never heard of the stereotype",
+            "Perceivers who hold strong stereotypes about others"
+          ],
+          "answerIndex": 0,
+          "explanation": "The threat arises when someone from a negatively stereotyped group faces a task the stereotype is about. You must know the stereotype for it to threaten you."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Before a computer programming test, Zainab is reminded that 'girls are not usually good at coding'. She becomes anxious and performs below her usual standard, though the examiner treats everyone fairly. This illustrates:",
+          "options": [
+            "Self-fulfilling prophecy",
+            "Ultimate attribution error",
+            "Stereotype threat",
+            "Out-group homogeneity"
+          ],
+          "answerIndex": 2,
+          "explanation": "Her own fear of confirming the stereotype lowers her score, even without unfair treatment. A self-fulfilling prophecy would need the examiner's expectations to change how she was treated."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A manager believes staff from a certain region are unreliable, so he never gives them important tasks. Years later, they have little experience and few promotions, and he says 'I told you so'. This is best described as:",
+          "options": [
+            "Stereotype threat",
+            "A self-fulfilling prophecy",
+            "The just-world belief",
+            "Subtyping"
+          ],
+          "answerIndex": 1,
+          "explanation": "His expectation shaped his treatment, which produced the lack of experience he then cites as proof. The process starts with the perceiver, not the target's fear."
+        },
+        {
+          "difficulty": 3,
+          "stem": "In Rosenthal and Jacobson's (1968) classroom study, pupils randomly labelled as 'about to bloom' later showed larger gains. This is usually explained as evidence of:",
+          "options": [
+            "Self-fulfilling prophecy",
+            "Stereotype threat",
+            "Out-group homogeneity",
+            "Fundamental attribution error"
+          ],
+          "answerIndex": 0,
+          "explanation": "Teachers' raised expectations apparently changed how they treated those pupils, producing the gains. The labels were random, so the pupils were not truly different at the start."
+        },
+        {
+          "difficulty": 4,
+          "stem": "The KEY difference between self-fulfilling prophecy and stereotype threat is that:",
+          "options": [
+            "Only stereotype threat involves negative expectations",
+            "Only self-fulfilling prophecy affects performance",
+            "The prophecy works through others' treatment; the threat works through the target's own fear",
+            "The prophecy is about women; the threat is about ethnic groups"
+          ],
+          "answerIndex": 2,
+          "explanation": "In the prophecy, the perceiver's behaviour creates the outcome; in stereotype threat, the target's anxiety does, even with fair treatment. Both can affect performance and apply to any group."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Merton – stereotype threat",
+            "Steele and Aronson – self-fulfilling prophecy",
+            "Word, Zanna and Cooper – interviewers' treatment shaping applicants' performance",
+            "Spencer, Steele and Quinn – teachers' expectations of 'bloomers'"
+          ],
+          "answerIndex": 2,
+          "explanation": "Word, Zanna and Cooper (1974) showed cold interview treatment lowered applicants' performance. The 'bloomers' study is Rosenthal and Jacobson's."
+        },
+        {
+          "difficulty": 4,
+          "stem": "A researcher wants to remove stereotype threat from a maths test for women. Based on Spencer, Steele and Quinn (1999), the best step is to:",
+          "options": [
+            "Tell participants the test reveals gender differences",
+            "Tell participants the test shows no gender difference",
+            "Make the test harder for everyone",
+            "Remind women of the stereotype before they start"
+          ],
+          "answerIndex": 1,
+          "explanation": "Describing the test as showing no gender difference removed the gap in the study. Reminding women of the stereotype would create the threat."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider: I. Stereotype threat requires someone to treat the target unfairly. II. A self-fulfilling prophecy can begin with a false belief. III. Stereotype threat can lower performance through anxiety. IV. Merton argued the prophet uses the outcome as proof. Which are correct?",
+          "options": [
+            "I and II only",
+            "II, III and IV only",
+            "I, III and IV only",
+            "I, II, III and IV"
+          ],
+          "answerIndex": 1,
+          "explanation": "Statement I is wrong: stereotype threat can occur even when everyone is treated fairly. The other three are correct."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A lecturer expects students from one secondary school to be weak, so asks them only easy questions. Those students also know the lecturer's view and become anxious in her tests. Their poor performance is BEST explained as:",
+          "options": [
+            "Stereotype threat only",
+            "Self-fulfilling prophecy only",
+            "Out-group homogeneity and the just-world belief",
+            "A combination of self-fulfilling prophecy and stereotype threat"
+          ],
+          "answerIndex": 3,
+          "explanation": "The lecturer's treatment creates a prophecy, while the students' fear of confirming her view adds stereotype threat. Both processes are operating together."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which result would NOT support the stereotype-threat explanation of a group's lower test scores?",
+          "options": [
+            "The gap disappears when the test is described as fair to all groups",
+            "The gap grows when group identity is highlighted before the test",
+            "Anxiety measures rise when the stereotype is mentioned",
+            "The gap stays exactly the same whatever the test description"
+          ],
+          "answerIndex": 3,
+          "explanation": "If the gap does not change when the threat is added or removed, the threat is not causing it. The other three findings are exactly what stereotype threat predicts."
+        }
+      ]
+    },
+    {
+      "name": "Consequences and reducing stereotypes",
+      "lesson": {
+        "title": "The cost of stereotypes, and the cure",
+        "minutes": 10,
+        "hook": "Read a list of words about old age and you may walk out of the room more slowly. If a few words can do that, imagine what a lifetime of stereotypes can do, and how we might undo it.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Stereotypes change behaviour",
+            "body": "Once switched on, stereotypes affect **social perception and behaviour**. Research on **priming** shows this. In one well-known study by **Bargh, Chen and Burrows (1996)**, students exposed to words linked with old age walked more slowly afterwards.\n\nWheeler and Petty (2001) reviewed such findings and concluded that activating a stereotype can also activate behaviour linked to it. The stereotype does not just sit in the head; it leaks into action.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Stereotypic words",
+                "Stereotype activated",
+                "Matching behaviour"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The burden on the stereotyped",
+            "body": "A second consequence falls on the targets. They live with the threat that their behaviour will **confirm** a negative stereotype. **Steele (1997)** showed that this creates **anxiety** and can harm performance on many kinds of task.\n\nImagine sitting an exam while also carrying the weight of 'proving' something for your whole group. That extra load uses up attention that should go to the questions.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "warning",
+                  "label": "Fear of confirming"
+                },
+                {
+                  "icon": "pulse",
+                  "label": "Anxiety"
+                },
+                {
+                  "icon": "trending-down",
+                  "label": "Lower performance"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Self-perpetuating stereotypes",
+            "body": "Stereotypes are learned from the **media, family, direct experience** and elsewhere. Once learned, they can keep themselves going, becoming **self-perpetuating**.\n\nThis happens when stereotype threat lowers performance, which then seems to confirm the stereotype. It also happens when stereotyped people are made to feel **self-conscious or inadequate**, which undermines what they do. The stereotype manufactures its own evidence.",
+            "visual": {
+              "type": "cycle",
+              "nodes": [
+                "Stereotype learned",
+                "Threat or self-doubt",
+                "Lower performance",
+                "Stereotype 'confirmed'"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Which of these is an example of a stereotype becoming self-perpetuating?",
+            "options": [
+              "A child learns a stereotype from a cartoon and forgets it",
+              "Stereotype threat lowers a student's score, and the score is taken as proof of the stereotype",
+              "A student reads widely about other cultures",
+              "A manager hires based purely on test results"
+            ],
+            "answerIndex": 1,
+            "why": "The lowered score feeds back as apparent evidence, so the stereotype sustains itself. Forgetting a stereotype is the opposite of perpetuation."
+          },
+          {
+            "kind": "teach",
+            "heading": "Why stereotypes resist change: subtyping",
+            "body": "Stereotypes are learned **early** and are stubborn. When we meet someone who clearly breaks the stereotype, we often protect the stereotype by **subtyping**: putting that person into a special subcategory such as 'the exception'.\n\n**Richards and Hewstone (2001)** described how subtyping prevents change. The group stereotype stays intact because the counter-example is filed away as 'not really typical'.",
+            "visual": {
+              "type": "venn",
+              "left": "Group stereotype",
+              "right": "'Exception' subtype",
+              "both": "Stereotype stays intact"
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "'She is not like the others'",
+            "story": "Chinedu has always believed people from a particular community are poor at business. Then he meets Halima, who runs three thriving pharmacies in Kaduna. Instead of revising his view, he says, 'Halima is special; she is not like the rest of them.' His belief about the whole community does not change at all.",
+            "takeaway": "Filing Halima as an exception is subtyping, and it is exactly how a stereotype survives clear counter-evidence."
+          },
+          {
+            "kind": "teach",
+            "heading": "Motivation and empathy",
+            "body": "Stereotypes can be reduced and perceptions made more accurate when people are **motivated** to judge accurately (Fiske, 2000; Neuberg, 1989; Sinclair and Kunda, 1999).\n\nOne of the most effective tools is **empathy** through **perspective taking**: imagining the world through an out-group member's eyes. **Galinsky and Moskowitz (2000)** found that perspective taking reduced in-group favouritism and made stereotypes less accessible. Stereotype threat can also be eased by a **change in orientation**, such as how a task is framed.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "search",
+                  "label": "Motivation for accuracy"
+                },
+                {
+                  "icon": "heart",
+                  "label": "Empathy"
+                },
+                {
+                  "icon": "eye",
+                  "label": "Their perspective"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Galinsky and Moskowitz (2000) showed that stereotypes and in-group bias can be reduced by:",
+            "options": [
+              "Subtyping counter-stereotypical people",
+              "Priming people with stereotypic words",
+              "Taking the perspective of out-group members",
+              "Avoiding contact with out-groups"
+            ],
+            "answerIndex": 2,
+            "why": "Perspective taking lowered stereotype accessibility and in-group favouritism. Subtyping does the opposite: it protects stereotypes from change."
+          },
+          {
+            "kind": "steps",
+            "heading": "Five practical strategies",
+            "steps": [
+              {
+                "title": "Remove threatening cues",
+                "detail": "Take away signs that a setting belongs only to the majority group."
+              },
+              {
+                "title": "Show diversity is valued",
+                "detail": "Openly promote a multicultural outlook that welcomes difference."
+              },
+              {
+                "title": "Build a critical mass",
+                "detail": "Raise the number and visibility of minority members in a field."
+              },
+              {
+                "title": "Improve cross-group contact",
+                "detail": "Create good-quality interactions between groups."
+              },
+              {
+                "title": "Use diverse role models",
+                "detail": "Present and recruit successful people from many groups."
+              }
+            ]
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'state the consequences of stereotyping' and 'explain major ways of reducing stereotypes'. Students often list only empathy. Strong answers add motivation for accuracy, change in orientation and the five practical strategies, and explain subtyping as the reason stereotypes resist change.",
+            "sampleQuestion": "Discuss three consequences of stereotyping and explain how perspective taking helps to reduce stereotypes.",
+            "howToAnswer": "Give priming effects on behaviour, stereotype threat and self-perpetuating stereotypes with a study each, then explain perspective taking (Galinsky and Moskowitz, 2000) and why it lowers stereotype accessibility.",
+            "scholars": [
+              "Bargh, Chen & Burrows (1996)",
+              "Wheeler & Petty (2001)",
+              "Steele (1997)",
+              "Richards & Hewstone (2001)",
+              "Galinsky & Moskowitz (2000)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Priming studies show activated stereotypes can trigger matching behaviour.",
+              "Targets carry the anxiety of possibly confirming a stereotype (Steele, 1997).",
+              "Stereotypes become self-perpetuating through threat and self-doubt.",
+              "Subtyping lets stereotypes survive counter-examples (Richards & Hewstone, 2001).",
+              "Motivation, empathy and perspective taking reduce stereotypes, plus five practical strategies."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "According to the session, one of the most effective ways to reduce stereotypes is:",
+          "options": [
+            "Empathy through taking the out-group's perspective",
+            "Avoiding all contact with out-groups",
+            "Subtyping people who break the stereotype",
+            "Repeating stereotypes until they lose meaning"
+          ],
+          "answerIndex": 0,
+          "explanation": "Perspective taking builds empathy and lowers stereotype accessibility. Subtyping protects stereotypes rather than reducing them."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Putting a person who contradicts a stereotype into a special 'exception' category is called:",
+          "options": [
+            "Priming",
+            "Stereotype threat",
+            "Perspective taking",
+            "Subtyping"
+          ],
+          "answerIndex": 3,
+          "explanation": "Subtyping files the counter-example away so the group stereotype survives. Priming is the activation of a stereotype by cues."
+        },
+        {
+          "difficulty": 1,
+          "stem": "According to the session, stereotypes are typically learned:",
+          "options": [
+            "Only in adulthood",
+            "Early in life, from sources such as media and family",
+            "Only through direct contact with the group",
+            "Through genetic inheritance"
+          ],
+          "answerIndex": 1,
+          "explanation": "Stereotypes are learned early from media, family and experience, which helps explain their stubbornness. They are not inherited."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Priming studies in which students exposed to words about old age later walked more slowly show that:",
+          "options": [
+            "Stereotypes only affect beliefs, not actions",
+            "Old people walk slowly because of stereotypes",
+            "Activating a stereotype can activate related behaviour",
+            "Students were tired from reading"
+          ],
+          "answerIndex": 2,
+          "explanation": "Activating the stereotype of old age activated slow, age-linked behaviour. This is the link Wheeler and Petty (2001) reviewed."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Steele (1997) argued that the threat of confirming a negative stereotype mainly:",
+          "options": [
+            "Improves performance by increasing effort",
+            "Creates anxiety that can harm performance",
+            "Has no measurable effect",
+            "Affects only the perceivers, not the targets"
+          ],
+          "answerIndex": 1,
+          "explanation": "The fear of confirming a stereotype creates anxiety that drains attention and lowers performance. It burdens the targets, not the perceivers."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Research by Fiske (2000), Neuberg (1989) and Sinclair and Kunda (1999) suggests that stereotyping can be reduced when people are:",
+          "options": [
+            "Distracted and in a hurry",
+            "Motivated to form accurate impressions",
+            "Told the stereotype is true",
+            "Placed in competing groups"
+          ],
+          "answerIndex": 1,
+          "explanation": "Motivation to be accurate pushes people past shortcuts. Distraction and haste increase stereotyping."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A student who breaks the stereotype of her ethnic group is described by classmates as 'one of the good ones; she doesn't count'. Their view of her group stays the same. This shows:",
+          "options": [
+            "Perspective taking",
+            "Subtyping protecting a stereotype",
+            "Stereotype threat",
+            "A critical mass strategy"
+          ],
+          "answerIndex": 1,
+          "explanation": "Treating her as an exception keeps the group stereotype intact, which is subtyping. Perspective taking would instead weaken the stereotype."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A university wants more women in engineering to feel they belong. It increases the number of female students and lecturers so they are clearly visible in the department. This strategy is known as:",
+          "options": [
+            "Removing threatening cues",
+            "Conveying a multicultural ideology",
+            "Creating a critical mass",
+            "Subtyping"
+          ],
+          "answerIndex": 2,
+          "explanation": "Raising the numbers and visibility of a minority in a field is creating a critical mass. Removing cues concerns physical signs that a setting belongs to the majority."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Before a debate, a coach asks Musa to imagine a day in the life of a student from a community he has stereotyped. According to Galinsky and Moskowitz (2000), this should:",
+          "options": [
+            "Make the stereotype more accessible",
+            "Increase in-group favouritism",
+            "Have no effect on stereotypes",
+            "Reduce stereotype accessibility and in-group bias"
+          ],
+          "answerIndex": 3,
+          "explanation": "Perspective taking lowered both the accessibility of stereotypes and in-group favouritism in their research. It works by building empathy."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which of the following is NOT listed in the session as a practical way to reduce stereotypes?",
+          "options": [
+            "Presenting positive role models from diverse groups",
+            "Conveying that diversity is valued",
+            "Subtyping counter-stereotypical individuals",
+            "Improving cross-group interactions"
+          ],
+          "answerIndex": 2,
+          "explanation": "Subtyping is a reason stereotypes resist change, not a remedy. The other three are among the listed strategies."
+        },
+        {
+          "difficulty": 4,
+          "stem": "The session notes that stereotypes can become self-perpetuating. Which mechanism does it give?",
+          "options": [
+            "Stereotyped people being made to feel self-conscious or inadequate",
+            "Stereotypes being written into law",
+            "Perceivers taking the perspective of the target",
+            "Groups gaining a critical mass"
+          ],
+          "answerIndex": 0,
+          "explanation": "Feeling self-conscious or inadequate undermines performance, which then seems to confirm the stereotype. Perspective taking and critical mass reduce stereotypes."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Richards and Hewstone (2001) – perspective taking",
+            "Galinsky and Moskowitz (2000) – subtyping",
+            "Wheeler and Petty (2001) – stereotype activation affecting behaviour",
+            "Steele (1997) – priming old-age words"
+          ],
+          "answerIndex": 2,
+          "explanation": "Wheeler and Petty reviewed how stereotype activation leads to behaviour. Richards and Hewstone are linked with subtyping and Galinsky and Moskowitz with perspective taking."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider: I. Subtyping helps stereotypes change quickly. II. Stereotype threat can be lessened by a change in orientation. III. Motivation for accuracy can reduce stereotyping. IV. Removing cues that a setting belongs to the majority can reduce stereotype worries. Which are correct?",
+          "options": [
+            "I and II only",
+            "I, III and IV only",
+            "III and IV only",
+            "II, III and IV only"
+          ],
+          "answerIndex": 3,
+          "explanation": "Statement I is wrong: subtyping keeps stereotypes intact. The other three are correct."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A company notices that staff from minority ethnic groups underperform in assessments. The HR director proposes four actions. Which would be LEAST likely to help, according to the session?",
+          "options": [
+            "Featuring successful minority staff as mentors",
+            "Telling minority staff they will be compared with the majority before each test",
+            "Stating clearly that the company values diversity",
+            "Removing décor and materials that suggest only one group belongs"
+          ],
+          "answerIndex": 1,
+          "explanation": "Highlighting a group comparison before a test makes the stereotype salient and invites stereotype threat. The other three are listed strategies for reducing it."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Why might simply meeting ONE successful member of a stereotyped group fail to change a person's stereotype?",
+          "options": [
+            "Because perspective taking always increases stereotypes",
+            "Because priming only works with old-age words",
+            "Because stereotypes are not learned",
+            "Because the person may subtype the individual as an exception"
+          ],
+          "answerIndex": 3,
+          "explanation": "Subtyping lets the perceiver treat the successful person as unrepresentative, so the group stereotype survives. This is why lasting change usually needs many varied counter-examples."
+        }
+      ]
+    }
+  ]
+}

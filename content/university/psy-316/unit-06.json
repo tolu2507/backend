@@ -1,0 +1,633 @@
+{
+  "unit": 6,
+  "title": "Non-declarative (Implicit) Memory",
+  "summary": "The memory you use without knowing it: skills, habits, conditioned responses and priming, plus why the start and end of a list are remembered best.",
+  "sections": [
+    {
+      "name": "Skills, habits and priming",
+      "lesson": {
+        "title": "Remembering without knowing",
+        "minutes": 10,
+        "hook": "You can type on a phone keyboard at speed, yet if asked to recite the letters of the top row in order, most people stall. Where is that knowledge hiding?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Two branches of long-term memory",
+            "body": "Long-term memory has two broad subsystems. **Declarative (explicit)** memory holds what you can consciously **state**: facts and personal events. **Non-declarative (implicit)** memory holds what you show through **performance**, without needing to put it into words.\n\nSquire and colleagues (1993) described non-declarative memory as storing **motor skills, habits and simple classically conditioned responses**.",
+            "visual": {
+              "type": "pyramid",
+              "levels": [
+                "Long-term memory",
+                "Declarative / Non-declarative",
+                "Episodic, semantic / skills, habits, conditioning"
+              ]
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Explicit versus implicit",
+            "left": {
+              "title": "Declarative (explicit)",
+              "points": [
+                "Episodic: personal events",
+                "Semantic: facts and knowledge",
+                "Consciously recalled"
+              ]
+            },
+            "right": {
+              "title": "Non-declarative (implicit)",
+              "points": [
+                "Motor skills",
+                "Habits",
+                "Simple conditioned responses"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Motor skills",
+            "body": "**Motor skills**, like riding a bicycle, eating with a fork, plaiting hair or driving, are learned through **repeated practice**. They come slowly at first.\n\nOnce learned, they become **habits**: reliable and carried out with **little or no conscious effort**. That is why you can drive home while thinking about something else entirely. The **cerebellum** and deep brain structures play key roles in these skills.",
+            "visual": {
+              "type": "brain",
+              "region": "cerebellum",
+              "label": "Skilled movement"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Which of the following is stored in non-declarative memory?",
+            "options": [
+              "How to ride a bicycle",
+              "Your memory of your first day at university",
+              "The date of Nigeria's independence",
+              "The capital of Ghana"
+            ],
+            "answerIndex": 0,
+            "why": "Riding a bicycle is a motor skill, shown through doing. The others are facts (semantic) or personal events (episodic), which are declarative."
+          },
+          {
+            "kind": "example",
+            "heading": "The patient who learned without remembering",
+            "story": "The famous amnesic patient H.M. could not form new conscious memories after brain surgery. Yet when Brenda Milner had him practise tracing a star while watching his hand in a mirror, he improved day after day. Each session, he insisted he had never done the task before.",
+            "takeaway": "Skill learning can survive when explicit memory fails, showing implicit memory is a separate system."
+          },
+          {
+            "kind": "teach",
+            "heading": "Priming",
+            "body": "**Priming** is a key implicit memory effect: having met a word or picture before makes you **faster or more accurate** at naming that stimulus, or a related one, later.\n\nCrucially, this happens **without conscious awareness** of the earlier exposure. A word flashed too briefly to be seen can still speed up recognition of that word, or of related words, moments later.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Brief exposure",
+                "No awareness",
+                "Faster later response"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Priming shapes preferences too",
+            "body": "Priming affects more than speed. People briefly, even **subliminally**, shown pictures of abstract art later **preferred** that style more than people who had not seen them.\n\nIn another study, people subliminally shown faces of real people later **interacted more** with those people. This is related to the **mere exposure effect**: familiarity, even unnoticed, breeds liking.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "eye",
+                  "label": "Unnoticed exposure"
+                },
+                {
+                  "icon": "heart",
+                  "label": "More liking"
+                },
+                {
+                  "icon": "people",
+                  "label": "More interaction"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Priming occurs:",
+            "options": [
+              "Only when people remember the first exposure",
+              "Without conscious awareness of the earlier exposure",
+              "Only for motor skills",
+              "Only with sounds"
+            ],
+            "answerIndex": 1,
+            "why": "The defining feature of priming is that earlier exposure helps later performance even when people do not recall seeing it."
+          },
+          {
+            "kind": "example",
+            "heading": "The jingle in your head",
+            "story": "On a bus to Ibadan, Seyi half-hears a radio advert for a new noodle brand while chatting with a friend. Two days later at the supermarket, she picks that brand without knowing why it 'feels right'. Asked, she cannot recall ever hearing the advert.",
+            "takeaway": "Unnoticed exposure can prime preference and behaviour without conscious memory."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Lecturers test the long-term memory 'tree': which items belong under declarative and which under non-declarative. A favourite trap is placing semantic memory under implicit memory because facts feel 'automatic'. Also expect priming defined in a fill-in-the-gap with the key words 'speed or accuracy' and 'without awareness'.",
+            "sampleQuestion": "Which of these is NOT a component of non-declarative memory? (a) motor skills (b) habits (c) simple classically conditioned responses (d) semantic memory",
+            "howToAnswer": "Answer (d): semantic memory is declarative, alongside episodic memory. Draw the tree in essay answers.",
+            "scholars": [
+              "Squire et al. (1993)",
+              "Milner (1962)",
+              "Tulving (1972)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Declarative memory: episodic and semantic, consciously stated.",
+              "Non-declarative memory: motor skills, habits, simple conditioned responses.",
+              "Skills are learned slowly but run with little conscious effort.",
+              "Priming: earlier exposure speeds later naming, without awareness.",
+              "Priming can also shift preferences and behaviour."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Non-declarative memory is also called:",
+          "options": [
+            "Explicit memory",
+            "Semantic memory",
+            "Episodic memory",
+            "Implicit memory"
+          ],
+          "answerIndex": 3,
+          "explanation": "Non-declarative memory is implicit; declarative memory is explicit."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which of the following is a component of non-declarative memory?",
+          "options": [
+            "Episodic memory",
+            "Semantic memory",
+            "Motor skills",
+            "Autobiographical facts"
+          ],
+          "answerIndex": 2,
+          "explanation": "Motor skills belong to non-declarative memory. Episodic and semantic memory are declarative."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Declarative memory is divided into:",
+          "options": [
+            "Motor skills and habits",
+            "Sensory and short-term memory",
+            "Priming and conditioning",
+            "Episodic and semantic memory"
+          ],
+          "answerIndex": 3,
+          "explanation": "Episodic memory holds personal events; semantic memory holds facts."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Priming refers to:",
+          "options": [
+            "Earlier exposure improving later speed or accuracy without awareness",
+            "Conscious rehearsal of a list",
+            "Forgetting due to interference",
+            "Learning a skill by practice"
+          ],
+          "answerIndex": 0,
+          "explanation": "Priming is an implicit effect: prior exposure helps later processing without conscious recall of it."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Once learned, motor skills are typically:",
+          "options": [
+            "Reliable and performed with little conscious effort",
+            "Unreliable and effortful",
+            "Forgotten within days",
+            "Stored in semantic memory"
+          ],
+          "answerIndex": 0,
+          "explanation": "Skills become habits that run automatically and reliably."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Non-declarative memory, according to Squire and colleagues, stores all of the following EXCEPT:",
+          "options": [
+            "Motor skills",
+            "Personal life events",
+            "Simple classically conditioned responses",
+            "Habits"
+          ],
+          "answerIndex": 1,
+          "explanation": "Personal life events are episodic, a part of declarative memory."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A typist cannot name the keys in each row but types quickly without looking. This shows knowledge stored in:",
+          "options": [
+            "Episodic memory",
+            "Non-declarative memory",
+            "Semantic memory",
+            "Sensory memory"
+          ],
+          "answerIndex": 1,
+          "explanation": "The skill is shown through performance, not conscious report, so it is implicit."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A word is flashed too fast to be seen. Later, participants recognise that word faster than others. This is:",
+          "options": [
+            "Recency effect",
+            "Clustering",
+            "Priming",
+            "Rote rehearsal"
+          ],
+          "answerIndex": 2,
+          "explanation": "Faster later recognition from unnoticed exposure is priming."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Patient H.M. improved at mirror tracing over days but denied ever doing it. This suggests:",
+          "options": [
+            "His declarative memory was intact",
+            "Mirror tracing uses semantic memory",
+            "Skill learning can occur without explicit memory",
+            "Practice has no effect on amnesics"
+          ],
+          "answerIndex": 2,
+          "explanation": "His improving skill with no conscious memory of practice shows implicit and explicit memory are separate."
+        },
+        {
+          "difficulty": 4,
+          "stem": "People shown abstract art subliminally later preferred that art. This finding shows that priming can affect:",
+          "options": [
+            "Only reaction time",
+            "Only conscious memory",
+            "Preferences as well as performance",
+            "Only motor skills"
+          ],
+          "answerIndex": 2,
+          "explanation": "Priming can shift liking and behaviour, not just speed of naming."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Non-declarative memory: riding a bicycle",
+            "Semantic memory: your 18th birthday party",
+            "Episodic memory: knowing Abuja is the capital",
+            "Declarative memory: a conditioned fear response"
+          ],
+          "answerIndex": 0,
+          "explanation": "Riding a bicycle is a motor skill (non-declarative). The capital is semantic, the party episodic, and conditioned responses are non-declarative."
+        },
+        {
+          "difficulty": 4,
+          "stem": "A student flinches at the sound of a lecturer's chalk, because it used to come before surprise tests. This flinch is best classified as:",
+          "options": [
+            "A classically conditioned response in non-declarative memory",
+            "Episodic memory",
+            "Semantic memory",
+            "Priming of a word"
+          ],
+          "answerIndex": 0,
+          "explanation": "An automatic response learned by association is a simple conditioned response, part of implicit memory."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Priming requires conscious memory of the earlier stimulus. II. Motor skills are acquired through repeated practice. III. Semantic memory is part of declarative memory. Which are correct?",
+          "options": [
+            "I and II only",
+            "I, II and III",
+            "I and III only",
+            "II and III only"
+          ],
+          "answerIndex": 3,
+          "explanation": "II and III are correct. I is false: priming works without awareness."
+        },
+        {
+          "difficulty": 5,
+          "stem": "An amnesic patient cannot recall a list of words but completes word fragments with those words more often than chance. This dissociation suggests:",
+          "options": [
+            "Declarative memory is intact",
+            "Implicit memory can be preserved when explicit memory fails",
+            "Priming depends on episodic memory",
+            "The words were never encoded"
+          ],
+          "answerIndex": 1,
+          "explanation": "Above-chance fragment completion is priming, showing implicit memory works despite failed explicit recall."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which statement best distinguishes declarative from non-declarative memory?",
+          "options": [
+            "Declarative memory is shown by doing; non-declarative by stating",
+            "Declarative memory can be consciously stated; non-declarative is shown through performance",
+            "Both require conscious awareness",
+            "Non-declarative memory holds facts"
+          ],
+          "answerIndex": 1,
+          "explanation": "Declarative knowledge is 'knowing that', reported consciously; non-declarative is 'knowing how', shown in performance."
+        }
+      ]
+    },
+    {
+      "name": "Primacy and recency",
+      "lesson": {
+        "title": "Why first and last stick",
+        "minutes": 8,
+        "hook": "Your lecturer reads out twenty names for the excursion list. Afterwards, you remember the first few and the last few clearly. The middle? A blur. Why?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "The serial position effect",
+            "body": "When people learn a list and recall it in any order, **where** an item sat in the list strongly predicts whether it is remembered. This is the **serial position effect**.\n\nPlotting recall against position gives a **U-shaped curve**: high at the start, low in the middle, high again at the end (Murdock, 1962).",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Start: high",
+                "Middle: low",
+                "End: high"
+              ]
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "The two ends of the curve",
+            "left": {
+              "title": "Primacy effect",
+              "points": [
+                "First items recalled well",
+                "Had more rehearsal time",
+                "Reached long-term memory"
+              ]
+            },
+            "right": {
+              "title": "Recency effect",
+              "points": [
+                "Last items recalled best",
+                "Learned most recently",
+                "Still in short-term memory"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "The better recall of the last items in a list is called the:",
+            "options": [
+              "Primacy effect",
+              "Clustering effect",
+              "Priming effect",
+              "Recency effect"
+            ],
+            "answerIndex": 3,
+            "why": "Recency refers to the most recent items, at the end. Primacy refers to the first items."
+          },
+          {
+            "kind": "teach",
+            "heading": "Why primacy happens",
+            "body": "The first items get **extra rehearsal**: when you hear item 1, it is the only thing to rehearse; by item 10 your attention is split among many.\n\n**Rundus (1971)** had people rehearse aloud and found early items were repeated far more often. That extra rehearsal moved them into **long-term memory**, giving the primacy effect.",
+            "visual": {
+              "type": "stat",
+              "value": "More rehearsal",
+              "label": "Early items reach LTM"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Why recency happens",
+            "body": "The last items are still in **short-term memory** at the moment of recall, so they can be 'read off' directly.\n\n**Glanzer and Cunitz (1966)** showed this neatly. When people had to count backwards for 30 seconds before recalling, the **recency effect disappeared**, but the primacy effect stayed. The delay emptied short-term memory but left long-term memory untouched.",
+            "visual": {
+              "type": "scale",
+              "left": "Primacy after delay",
+              "right": "Recency after delay",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "The shopping errand",
+            "story": "Grandma lists ten things for Daniel to buy at Bodija market. He repeats 'palm oil, salt' to himself as she continues. At the market straight away, he remembers palm oil, salt and the last two items, matches and bread. When he stops to chat with a friend first, the last two vanish, but palm oil and salt remain.",
+            "takeaway": "Early items, rehearsed into long-term memory, survive a delay; late items, held briefly, fade with distraction."
+          },
+          {
+            "kind": "check",
+            "question": "Glanzer and Cunitz (1966) found that a 30-second distracting delay before recall:",
+            "options": [
+              "Removed the primacy effect",
+              "Removed the recency effect",
+              "Removed both effects",
+              "Improved middle items"
+            ],
+            "answerIndex": 1,
+            "why": "The delay cleared short-term memory, so recency vanished, while primacy, based in long-term memory, remained."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "'Differentiate between primacy and recency' is a standard short question. Define each, give the cause (rehearsal into LTM versus still in STM), and cite the evidence. Objectives twist it: what happens to each effect after a delay or with a fast list. Fast presentation reduces primacy, since there is less time to rehearse.",
+            "sampleQuestion": "If a list is presented very quickly, which effect would be most reduced? (a) recency (b) primacy (c) priming (d) clustering",
+            "howToAnswer": "Answer (b): fast presentation cuts rehearsal of early items, so less reaches long-term memory. Recency is unaffected because last items are still in short-term memory.",
+            "scholars": [
+              "Murdock (1962)",
+              "Glanzer & Cunitz (1966)",
+              "Rundus (1971)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Serial position effect: recall depends on list position; U-shaped curve.",
+              "Primacy: first items recalled well because of extra rehearsal into LTM.",
+              "Recency: last items recalled best because they are still in STM.",
+              "A distracting delay removes recency but not primacy.",
+              "Middle items get the least benefit from either."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Better recall of the first few items in a list is called the:",
+          "options": [
+            "Recency effect",
+            "Priming effect",
+            "Primacy effect",
+            "Middle effect"
+          ],
+          "answerIndex": 2,
+          "explanation": "Primacy refers to first items; recency refers to the last."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Items in the middle of a list are typically:",
+          "options": [
+            "Recalled best",
+            "Recalled worst",
+            "Recalled the same as others",
+            "Never encoded"
+          ],
+          "answerIndex": 1,
+          "explanation": "The serial position curve dips in the middle."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The serial position curve has which shape?",
+          "options": [
+            "U-shape",
+            "Straight line rising",
+            "Straight line falling",
+            "Flat"
+          ],
+          "answerIndex": 0,
+          "explanation": "Recall is high at both ends and low in the middle, giving a U-shape."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The primacy effect is usually explained by:",
+          "options": [
+            "Items still being in short-term memory",
+            "Priming",
+            "Extra rehearsal moving early items into long-term memory",
+            "Interference from later items"
+          ],
+          "answerIndex": 2,
+          "explanation": "Early items get more rehearsal, which transfers them to long-term memory."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The recency effect is usually explained by:",
+          "options": [
+            "Motor skills",
+            "Extra rehearsal of last items",
+            "Clustering",
+            "Last items still being in short-term memory"
+          ],
+          "answerIndex": 3,
+          "explanation": "The most recent items are still held briefly in short-term memory at recall."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Rundus (1971) asked people to rehearse aloud and found that early items were:",
+          "options": [
+            "Rehearsed less often",
+            "Rehearsed more often",
+            "Never rehearsed",
+            "Rehearsed only at the end"
+          ],
+          "answerIndex": 1,
+          "explanation": "Early items received more rehearsals, supporting the rehearsal account of primacy."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Amina hears a list of 15 phone contacts and immediately recalls the last three best. This is the:",
+          "options": [
+            "Recency effect",
+            "Primacy effect",
+            "Priming effect",
+            "Dual-coding effect"
+          ],
+          "answerIndex": 0,
+          "explanation": "Best recall of the final items is recency."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Participants learn a list, then count backwards for 30 seconds before recall. Compared with immediate recall, you would expect:",
+          "options": [
+            "Both disappear",
+            "Primacy disappears, recency remains",
+            "Recency disappears, primacy remains",
+            "Both get stronger"
+          ],
+          "answerIndex": 2,
+          "explanation": "The delay clears short-term memory, removing recency, while primacy in long-term memory survives."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A list is read very fast, leaving no time for rehearsal. Which effect should weaken most?",
+          "options": [
+            "Primacy",
+            "Recency",
+            "Both equally",
+            "Neither"
+          ],
+          "answerIndex": 0,
+          "explanation": "Primacy depends on rehearsal; fast presentation cuts it. Recency depends on short-term memory, which is unaffected."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Glanzer and Cunitz's (1966) results support the idea that:",
+          "options": [
+            "Short-term and long-term memory are one store",
+            "Primacy and recency reflect different memory stores",
+            "Recency depends on long-term memory",
+            "Primacy depends on short-term memory"
+          ],
+          "answerIndex": 1,
+          "explanation": "A delay affected recency but not primacy, suggesting two different stores underlie them."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Primacy: short-term memory",
+            "Recency: long-term memory",
+            "Primacy: extra rehearsal",
+            "Recency: extra rehearsal"
+          ],
+          "answerIndex": 2,
+          "explanation": "Primacy comes from extra rehearsal into LTM; recency from items still in STM."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are true of the serial position effect EXCEPT:",
+          "options": [
+            "First items are recalled well",
+            "A delay before recall removes the primacy effect",
+            "Middle items are recalled poorly",
+            "Last items are recalled well in immediate recall"
+          ],
+          "answerIndex": 1,
+          "explanation": "A delay removes recency, not primacy."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Primacy reflects transfer to long-term memory. II. Recency survives a 30-second distraction. III. The middle of the list receives the least benefit. Which are correct?",
+          "options": [
+            "I and II only",
+            "I, II and III",
+            "II and III only",
+            "I and III only"
+          ],
+          "answerIndex": 3,
+          "explanation": "I and III are correct. II is false: distraction removes recency."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A student must remember 12 points for an oral exam starting in one hour. Based on serial position research, the best strategy is to:",
+          "options": [
+            "Rehearse only the last points",
+            "Learn points only in the final minute",
+            "Avoid rehearsing at all",
+            "Give extra rehearsal to the middle points"
+          ],
+          "answerIndex": 3,
+          "explanation": "Middle items get neither primacy nor recency benefit, so extra rehearsal there pays off most. Recency will not survive an hour's delay anyway."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A researcher finds patients with damage that impairs long-term memory show normal recency but poor primacy. This is consistent with:",
+          "options": [
+            "Primacy depending on long-term memory",
+            "Recency depending on long-term memory",
+            "A single memory store",
+            "Priming causing both effects"
+          ],
+          "answerIndex": 0,
+          "explanation": "Poor primacy with intact recency fits primacy relying on LTM and recency on STM."
+        }
+      ]
+    }
+  ]
+}

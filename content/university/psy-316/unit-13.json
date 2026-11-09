@@ -1,0 +1,670 @@
+{
+  "unit": 13,
+  "title": "The Biological Basis of Memory",
+  "summary": "How researchers study memory in the brain, Hebb's cell assemblies and consolidation, Lashley's search for the engram, and which brain areas serve which memories.",
+  "sections": [
+    {
+      "name": "Studying memory and consolidation",
+      "lesson": {
+        "title": "From firing cells to lasting change",
+        "minutes": 10,
+        "hook": "A footballer knocked out on the pitch wakes up and cannot remember the tackle, yet remembers the whole first half. Why would a blow wipe the last minutes but spare the older ones?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Two kinds of evidence",
+            "body": "Psychologists studying the biology of memory want to know two things: how experience alters the **structure and chemistry** of the brain, and how brain tissue makes learning and storage possible.\n\nTheir data come from two sources: **laboratory experiments**, mostly with animals, and **studies of people with memory disorders**.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "search",
+                  "label": "Animal experiments"
+                },
+                {
+                  "icon": "medkit",
+                  "label": "Patients"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Two laboratory approaches",
+            "left": {
+              "title": "Somatic intervention",
+              "points": [
+                "Change the nervous system first",
+                "e.g. stimulate a brain area",
+                "Then measure behaviour"
+              ]
+            },
+            "right": {
+              "title": "Behavioural intervention",
+              "points": [
+                "Change behaviour or experience first",
+                "e.g. training, enriched cage",
+                "Then measure brain changes"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "A researcher raises rats in an enriched cage, then examines their synapses. This is:",
+            "options": [
+              "Somatic intervention",
+              "Behavioural intervention",
+              "A case study of amnesia",
+              "Electroconvulsive shock"
+            ],
+            "answerIndex": 1,
+            "why": "Experience is changed first and brain changes measured after, which is behavioural intervention (Rosenzweig, 1984). Somatic intervention changes the brain first."
+          },
+          {
+            "kind": "teach",
+            "heading": "Learning from amnesia",
+            "body": "**Amnesia** is a general term for memory disorders that have **different causes** and affect memory in **different ways**.\n\nUnlike in films, amnesia rarely comes from one knock on the head and vanishes with another. It is the most common complaint after **strokes, brain infections and traumatic injuries**, and memory problems are often among the **earliest signs** of illnesses such as **Alzheimer's disease**.",
+            "visual": {
+              "type": "brain",
+              "region": "hippocampus",
+              "label": "Often damaged in amnesia"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Hebb's cell assembly",
+            "body": "**Donald Hebb (1949)**, a founder of physiological psychology, saw short-term and long-term memory as **two stages of one storage process**.\n\nAt the short-term stage, a looped group of neurons he named a **cell assembly** fires in repeating patterns, creating a **fragile trace**. Kept active long enough, it produces a **lasting physical change** in the brain: stronger synaptic transmission, new synapses, or the pruning of unused ones.",
+            "visual": {
+              "type": "neuron",
+              "part": "synapse",
+              "label": "Where change happens"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Consolidation",
+            "body": "The shift from a **fragile** memory to a **permanent physical change** is called **consolidation**. It marks the move from the short-term phase to the long-term phase.\n\nA famous summary of Hebb's idea: **neurons that fire together, wire together**. Later, Bliss and Lømo (1973) found **long-term potentiation**, a lasting strengthening of synapses after repeated stimulation, which fits Hebb's prediction well.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Cell assembly fires",
+                "Fragile trace",
+                "Consolidation",
+                "Lasting change"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Consolidation refers to:",
+            "options": [
+              "The shift from a fragile memory to a permanent physical change",
+              "Forgetting old memories",
+              "Recalling items in order",
+              "Grouping items into categories"
+            ],
+            "answerIndex": 0,
+            "why": "Consolidation turns a fragile short-term trace into a stable long-term one through physical brain change."
+          },
+          {
+            "kind": "teach",
+            "heading": "Evidence: electroconvulsive shock",
+            "body": "If memories need time to consolidate, disrupting the brain **right after** learning should erase them. It does.\n\nRats given an **electroconvulsive shock**, strong enough to cause a seizure, **immediately** after learning a maze lose the memory. If the shock comes **later**, about an hour after learning, the memory **survives**. By then, it has consolidated.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Shock at once",
+              "right": "Shock an hour later",
+              "marker": 85,
+              "label": "Memory survives"
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "The concussed striker",
+            "story": "Bayo is knocked unconscious by a clash of heads. In hospital, he recalls the warm-up and the first goal, but nothing of the minute before the collision. His doctor explains that those last moments never had time to consolidate before the blow disrupted his brain.",
+            "takeaway": "Recent memories are fragile until consolidated, which is why head injury often wipes the moments just before it."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'discuss Hebb's theory of memory storage' with cell assembly, consolidation and the ECS evidence. Objectives test somatic versus behavioural intervention with scenarios. The trap: reversing them. Somatic means body first (change the brain, watch behaviour); behavioural means experience first (change behaviour, look at the brain).",
+            "sampleQuestion": "Rats shocked immediately after learning a maze forget it, but rats shocked an hour later remember it. This supports: (a) dual coding (b) consolidation (c) the recency effect (d) priming",
+            "howToAnswer": "Answer (b). Explain that the early memory was still a fragile cell-assembly trace, while an hour later it had consolidated into lasting physical change.",
+            "scholars": [
+              "Hebb (1949)",
+              "Rosenzweig (1984)",
+              "Bliss & Lømo (1973)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Evidence comes from animal experiments and people with memory disorders.",
+              "Somatic intervention changes the brain first; behavioural changes experience first.",
+              "Hebb: a cell assembly's firing creates a fragile trace.",
+              "Consolidation turns it into lasting physical change.",
+              "Electroconvulsive shock right after learning erases memory; later shock does not."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The shift from a fragile memory to a permanent physical change in the brain is called:",
+          "options": [
+            "Consolidation",
+            "Encoding",
+            "Priming",
+            "Clustering"
+          ],
+          "answerIndex": 0,
+          "explanation": "Consolidation stabilises a memory into long-term form."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Hebb called the circuit of neurons firing in short-term memory a:",
+          "options": [
+            "Cell assembly",
+            "Engram",
+            "Schema",
+            "Synaptic cleft"
+          ],
+          "answerIndex": 0,
+          "explanation": "Hebb's cell assembly fires repeatedly to create a memory trace. The engram is Lashley's term for a stored trace."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Amnesia is:",
+          "options": [
+            "A general term for memory disorders with different causes",
+            "A single disorder with one cause",
+            "Always caused by a blow to the head",
+            "A type of priming"
+          ],
+          "answerIndex": 0,
+          "explanation": "Amnesia covers various memory disorders with different causes and effects."
+        },
+        {
+          "difficulty": 2,
+          "stem": "In somatic intervention, the experimenter first:",
+          "options": [
+            "Changes the subject's experience",
+            "Gives a memory test",
+            "Interviews patients",
+            "Changes some aspect of the nervous system"
+          ],
+          "answerIndex": 3,
+          "explanation": "Somatic means body: the nervous system is altered, then behaviour is measured."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Hebb believed short-term and long-term memory were:",
+          "options": [
+            "Completely unrelated systems",
+            "Different stages of the same storage process",
+            "Both located in the cerebellum",
+            "Identical"
+          ],
+          "answerIndex": 1,
+          "explanation": "For Hebb, they were stages of one process, linked by consolidation."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Memory disorders are often among the earliest signs of:",
+          "options": [
+            "Diabetes",
+            "Malaria",
+            "Asthma",
+            "Alzheimer's disease"
+          ],
+          "answerIndex": 3,
+          "explanation": "Memory problems are often early signs of neurological illnesses such as Alzheimer's."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A researcher electrically stimulates a rat's hippocampus and then measures how fast it learns a maze. This is:",
+          "options": [
+            "Behavioural intervention",
+            "A case study",
+            "Somatic intervention",
+            "Relearning"
+          ],
+          "answerIndex": 2,
+          "explanation": "The brain is changed first and behaviour measured afterwards."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Rats shocked one hour after learning a maze still remember it. The best explanation is that:",
+          "options": [
+            "The shock was too weak",
+            "Rats cannot form memories",
+            "The memory had consolidated by then",
+            "The shock improved memory"
+          ],
+          "answerIndex": 2,
+          "explanation": "After an hour, the trace had become a stable long-term memory, so the shock did not erase it."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A motorcyclist remembers leaving home but not the seconds before a crash. This is best explained by:",
+          "options": [
+            "Interference from old memories",
+            "The primacy effect",
+            "Poor dual coding",
+            "Disruption of consolidation"
+          ],
+          "answerIndex": 3,
+          "explanation": "The latest memories were still fragile and the injury stopped them from consolidating."
+        },
+        {
+          "difficulty": 4,
+          "stem": "According to Hebb, the move to long-term memory may involve all of the following EXCEPT:",
+          "options": [
+            "Better synaptic transmission",
+            "Growth of a new brain lobe",
+            "Elimination of unused synapses",
+            "Formation of new synapses"
+          ],
+          "answerIndex": 1,
+          "explanation": "Hebb described synaptic-level changes, not growth of whole new brain regions."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which finding most directly supports Hebb's idea of synaptic strengthening?",
+          "options": [
+            "The serial position effect",
+            "Long-term potentiation",
+            "The tip-of-the-tongue state",
+            "Clustering"
+          ],
+          "answerIndex": 1,
+          "explanation": "Long-term potentiation shows synapses strengthen with repeated stimulation, as Hebb predicted."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Behavioural intervention: training first, then brain examined",
+            "Behavioural intervention: brain stimulation first",
+            "Somatic intervention: enriched environment first",
+            "Somatic intervention: patient interviews"
+          ],
+          "answerIndex": 0,
+          "explanation": "Behavioural intervention changes experience first, then looks for brain changes."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Electroconvulsive shock straight after learning can erase the memory. II. Hebb saw STM and LTM as unrelated. III. Consolidation involves physical brain change. Which are correct?",
+          "options": [
+            "I and II only",
+            "I and III only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 1,
+          "explanation": "I and III are correct. II is wrong: Hebb saw them as stages of one process."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A researcher finds that blocking protein synthesis right after training stops rats forming lasting memories, but blocking it days later has no effect. This best supports:",
+          "options": [
+            "State-dependent memory",
+            "Dual coding",
+            "A time window for consolidation",
+            "The recency effect"
+          ],
+          "answerIndex": 2,
+          "explanation": "Disruption only matters early, while the memory is still consolidating, just like the ECS findings."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Why is amnesia in real life usually unlike amnesia in films?",
+          "options": [
+            "It is never caused by injury",
+            "It always lasts one day",
+            "It rarely comes from one blow and rarely disappears with another; it follows stroke, infection or injury",
+            "It only affects implicit memory"
+          ],
+          "answerIndex": 2,
+          "explanation": "Real amnesia has varied causes such as strokes and infections, and does not reverse with a second shock."
+        }
+      ]
+    },
+    {
+      "name": "Where memories live",
+      "lesson": {
+        "title": "Searching for the engram",
+        "minutes": 10,
+        "hook": "One scientist spent decades cutting into rats' brains to find the exact spot where a memory lives. He never found it. Was he looking for the wrong thing?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Lashley's search",
+            "body": "**Karl Lashley** spent much of his career hunting the **engram**: the physical memory trace in the brain.\n\nHe trained rats on mazes and discrimination tasks, made **lesions** (surgical damage) in different parts of the **cortex**, then retested them. No single cortical region, when damaged, reliably destroyed the memory.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Train rats",
+                "Lesion cortex",
+                "Retest memory"
+              ]
+            }
+          },
+          {
+            "kind": "steps",
+            "heading": "Lashley's method",
+            "steps": [
+              {
+                "title": "Train",
+                "detail": "Rats learn a maze or a discrimination task."
+              },
+              {
+                "title": "Lesion",
+                "detail": "Damage is made in a chosen area of the cortex."
+              },
+              {
+                "title": "Retest",
+                "detail": "Memory for the task is measured."
+              },
+              {
+                "title": "Result",
+                "detail": "No single area's damage always removed the memory."
+              }
+            ]
+          },
+          {
+            "kind": "teach",
+            "heading": "A famous joke",
+            "body": "Frustrated, Lashley (1950) joked that, judging by the evidence on where memories are stored, he might conclude learning **cannot happen at all**.\n\nHis real lesson was that memory is **not stored in one isolated spot**. It is **distributed** across networks of neurons. But later research showed that some structures matter **much more** than others.",
+            "visual": {
+              "type": "brain",
+              "region": "whole-brain",
+              "label": "Memory is distributed"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Lashley's lesion studies suggested that memories:",
+            "options": [
+              "Are stored in one small cortical spot",
+              "Exist only in the cerebellum",
+              "Are not stored in any single isolated region",
+              "Cannot be studied in animals"
+            ],
+            "answerIndex": 2,
+            "why": "No single lesion reliably erased the memory, suggesting distributed storage."
+          },
+          {
+            "kind": "teach",
+            "heading": "The limbic system and new memories",
+            "body": "Parts of the **limbic system** lying beneath the **temporal lobes**, especially the **hippocampus**, are essential for forming **new permanent memories**.\n\nDestroying parts of an animal's hippocampus makes it unable to learn **more difficult tasks**. The **amygdala** adds emotional weight, helping emotional events stick.",
+            "visual": {
+              "type": "brain",
+              "region": "hippocampus",
+              "label": "Forms new memories"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The rabbit's blink",
+            "body": "Different kinds of memory use different areas. In a classic line of work, rabbits were **conditioned** to blink to a **tone** that came just before a **puff of air**.\n\nWhen cells in a specific part of the **cerebellum** were destroyed, the rabbits **stopped blinking to the tone** but **still blinked to the air puff**. The reflex was intact; only the **conditioned response** was lost. That procedural memory lived in the cerebellum.",
+            "visual": {
+              "type": "brain",
+              "region": "cerebellum",
+              "label": "Conditioned blink"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "After cerebellar damage, conditioned rabbits still blinked to the air puff but not to the tone. This shows:",
+            "options": [
+              "The learned (conditioned) response depended on the cerebellum",
+              "The blink reflex was destroyed",
+              "The hippocampus stores all memories",
+              "The rabbits became deaf"
+            ],
+            "answerIndex": 0,
+            "why": "The reflex survived; only the learned link to the tone disappeared, pointing to the cerebellum."
+          },
+          {
+            "kind": "terms",
+            "heading": "Memory map of the brain",
+            "terms": [
+              {
+                "term": "Hippocampus",
+                "meaning": "Forming new explicit (episodic and semantic) memories"
+              },
+              {
+                "term": "Neocortex",
+                "meaning": "Long-term storage of explicit memories"
+              },
+              {
+                "term": "Amygdala",
+                "meaning": "Emotional memories"
+              },
+              {
+                "term": "Basal ganglia and cerebellum",
+                "meaning": "Implicit memories such as motor skills"
+              },
+              {
+                "term": "Prefrontal cortex",
+                "meaning": "Short-term working memory"
+              }
+            ]
+          },
+          {
+            "kind": "example",
+            "heading": "The grandmother who still sews",
+            "story": "Mama Ngozi has early Alzheimer's disease. She forgets what she ate for breakfast and asks the same question twice in an hour. Yet she still sews perfect hems on her machine, a skill she learned at 15. Her hippocampus is struggling; her cerebellum and basal ganglia are still doing their job.",
+            "takeaway": "Different memory types rely on different brain areas, so damage can hit one and spare another."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'where are memories stored in the brain?' Answer: not in one place; then map types to areas. Objectives test Lashley's conclusion and the rabbit blink study. The trap: saying the hippocampus stores all memories. It is vital for forming new explicit memories, while skills rely on the cerebellum and basal ganglia.",
+            "sampleQuestion": "Short-term working memory relies most heavily on the: (a) cerebellum (b) basal ganglia (c) prefrontal cortex (d) amygdala",
+            "howToAnswer": "Answer (c). For essays, open with Lashley's failed search for the engram, then give the modern map: hippocampus, neocortex, amygdala, cerebellum, basal ganglia, prefrontal cortex.",
+            "scholars": [
+              "Lashley (1950)",
+              "Hebb (1949)",
+              "Thompson (1986)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Lashley searched for the engram but found no single storage site.",
+              "Memory is distributed, but some areas matter more.",
+              "Hippocampus: forming new explicit memories; amygdala: emotion.",
+              "Cerebellum and basal ganglia: implicit and motor memory (rabbit blink).",
+              "Prefrontal cortex: working memory."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The physical memory trace Lashley searched for is called the:",
+          "options": [
+            "Cell assembly",
+            "Schema",
+            "Engram",
+            "Synapse"
+          ],
+          "answerIndex": 2,
+          "explanation": "Lashley's lifelong search was for the engram."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Implicit memories such as motor skills rely mainly on the:",
+          "options": [
+            "Amygdala and hippocampus",
+            "Occipital lobe",
+            "Prefrontal cortex only",
+            "Basal ganglia and cerebellum"
+          ],
+          "answerIndex": 3,
+          "explanation": "Motor and procedural memories depend on the basal ganglia and cerebellum."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Short-term working memory relies most heavily on the:",
+          "options": [
+            "Cerebellum",
+            "Prefrontal cortex",
+            "Brainstem",
+            "Basal ganglia"
+          ],
+          "answerIndex": 1,
+          "explanation": "The prefrontal cortex is central to working memory."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Lashley's main conclusion from his lesion experiments was that:",
+          "options": [
+            "Memory is stored in one spot",
+            "The cerebellum stores all memories",
+            "Rats cannot learn mazes",
+            "No single cortical area reliably stored the memory"
+          ],
+          "answerIndex": 3,
+          "explanation": "Damage to no single region reliably erased memory, suggesting distributed storage."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Parts of the limbic system essential for forming new permanent memories lie beneath the:",
+          "options": [
+            "Temporal lobes",
+            "Frontal lobes",
+            "Occipital lobes",
+            "Parietal lobes"
+          ],
+          "answerIndex": 0,
+          "explanation": "The hippocampus and related structures sit beneath the temporal lobes."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The brain structure most associated with emotional memory is the:",
+          "options": [
+            "Cerebellum",
+            "Amygdala",
+            "Basal ganglia",
+            "Brainstem"
+          ],
+          "answerIndex": 1,
+          "explanation": "The amygdala adds emotional significance to memories."
+        },
+        {
+          "difficulty": 3,
+          "stem": "An animal with hippocampal damage learns simple tasks but fails difficult ones. This supports the idea that the hippocampus:",
+          "options": [
+            "Is irrelevant to memory",
+            "Is needed for learning more complex tasks",
+            "Controls only reflexes",
+            "Stores motor skills"
+          ],
+          "answerIndex": 1,
+          "explanation": "Destroying parts of the hippocampus prevents learning of harder tasks."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A patient cannot remember new names or events but can still learn to ride a new bicycle. Damage is most likely in the:",
+          "options": [
+            "Cerebellum",
+            "Basal ganglia",
+            "Hippocampus",
+            "Motor cortex"
+          ],
+          "answerIndex": 2,
+          "explanation": "New explicit memory depends on the hippocampus; motor learning uses the cerebellum and basal ganglia, which are spared."
+        },
+        {
+          "difficulty": 3,
+          "stem": "In the rabbit blink studies, destroying a specific part of the cerebellum removed the:",
+          "options": [
+            "Conditioned blink to the tone",
+            "Blink reflex to an air puff",
+            "Ability to hear",
+            "Ability to see"
+          ],
+          "answerIndex": 0,
+          "explanation": "The learned response to the tone vanished while the reflex to the puff remained."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are important for explicit memory EXCEPT:",
+          "options": [
+            "Hippocampus",
+            "Neocortex",
+            "Cerebellum",
+            "Amygdala"
+          ],
+          "answerIndex": 2,
+          "explanation": "The cerebellum supports implicit and motor memory; the other three are key for explicit memory."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Cerebellum: conditioned eyeblink",
+            "Hebb: search for the engram",
+            "Lashley: cell assembly",
+            "Prefrontal cortex: motor skills"
+          ],
+          "answerIndex": 0,
+          "explanation": "The cerebellum supports the conditioned eyeblink. Hebb proposed cell assemblies; Lashley searched for the engram."
+        },
+        {
+          "difficulty": 4,
+          "stem": "The rabbit blink finding shows that the reflex and the conditioned response:",
+          "options": [
+            "Depend on exactly the same circuit",
+            "Are both stored in the hippocampus",
+            "Can be separated, with the learned link relying on a specific cerebellar region",
+            "Cannot be studied in animals"
+          ],
+          "answerIndex": 2,
+          "explanation": "Losing the conditioned response but not the reflex shows they depend on different mechanisms."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Lashley found a single cortical site for maze memory. II. Different types of memory involve different brain areas. III. The hippocampus is essential for forming new permanent memories. Which are correct?",
+          "options": [
+            "I and II only",
+            "I, II and III",
+            "I and III only",
+            "II and III only"
+          ],
+          "answerIndex": 3,
+          "explanation": "II and III are correct. I is false: Lashley found no single site."
+        },
+        {
+          "difficulty": 5,
+          "stem": "How can Lashley's failure be reconciled with later findings that the hippocampus is crucial for memory?",
+          "options": [
+            "Lashley's rats were faulty",
+            "Memories are stored across distributed networks, but certain structures are critical for forming or handling particular types",
+            "The hippocampus stores every memory in one spot",
+            "Later findings are wrong"
+          ],
+          "answerIndex": 1,
+          "explanation": "Storage is distributed, yet some structures are vital for specific memory processes. Lashley also lesioned the cortex, not deep limbic structures."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A woman with early Alzheimer's forgets recent conversations but still plays the piano well. The best explanation is that:",
+          "options": [
+            "Explicit memory systems are affected while implicit motor memory areas are spared",
+            "Her memory is fully intact",
+            "Her cerebellum is damaged",
+            "Piano playing uses the hippocampus"
+          ],
+          "answerIndex": 0,
+          "explanation": "Alzheimer's often affects the hippocampus early, while cerebellum and basal ganglia, supporting skills, may still work."
+        }
+      ]
+    }
+  ]
+}

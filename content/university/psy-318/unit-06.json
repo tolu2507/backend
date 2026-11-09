@@ -1,0 +1,1010 @@
+{
+  "unit": 6,
+  "title": "Disruptive Behaviour Disorders",
+  "summary": "Oppositional defiant disorder, conduct disorder and ADHD: how they show, how they differ, what causes them and how they are treated.",
+  "sections": [
+    {
+      "name": "Disruptive behaviour and ODD",
+      "lesson": {
+        "title": "Beyond ordinary naughtiness",
+        "minutes": 9,
+        "hook": "Every child says 'No!' sometimes. But what about a child who argues with every adult, every day, for months, blames everyone else and seems to enjoy annoying people? When does defiance become a disorder?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "What disruptive behaviour disorders share",
+            "body": "Children often break rules. **Disruptive behaviour disorders** go further: they involve **deficits in self-control** with tendencies such as **hyperactivity, inattention, aggressiveness, destructiveness** and **defiance of authority**.\n\nSymptoms usually emerge in the **preschool and primary school** years.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "flash",
+                  "label": "Hyperactivity"
+                },
+                {
+                  "icon": "eye",
+                  "label": "Inattention"
+                },
+                {
+                  "icon": "warning",
+                  "label": "Aggression"
+                },
+                {
+                  "icon": "hand-left",
+                  "label": "Defiance"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "steps",
+            "heading": "Three disruptive behaviour disorders",
+            "steps": [
+              {
+                "title": "Oppositional defiant disorder (ODD)",
+                "detail": "Persistent hostility, arguing and defiance towards authority."
+              },
+              {
+                "title": "Conduct disorder",
+                "detail": "Serious violation of others' rights and basic social rules."
+              },
+              {
+                "title": "Attention deficit/hyperactivity disorder (ADHD)",
+                "detail": "Inattention, hyperactivity and impulsivity beyond what is normal for age."
+              }
+            ]
+          },
+          {
+            "kind": "teach",
+            "heading": "Oppositional defiant disorder",
+            "body": "Children with **ODD** repeatedly **argue with adults**, **lose their temper**, and feel strong **anger and resentment**. They ignore rules, **deliberately annoy** others, and **blame others** for their own mistakes.\n\nTo be diagnosed, they must be **negativistic, hostile, temperamental and defiant** towards authority figures for **at least six months**. Their defiance targets mainly adults but can extend to **peers**.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Argues",
+                "Loses temper",
+                "Annoys others",
+                "Blames others"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "For an ODD diagnosis, the hostile and defiant behaviour must last at least:",
+            "options": [
+              "Six months",
+              "One month",
+              "One week",
+              "Five years"
+            ],
+            "answerIndex": 0,
+            "why": "The pattern must persist for at least six months to be diagnosed as ODD."
+          },
+          {
+            "kind": "teach",
+            "heading": "Who develops ODD",
+            "body": "Between **2 and 16%** of children show this pattern (APA, 2000). Before **puberty**, ODD is **more common in boys**; after puberty, rates are about **equal**.\n\nOne likely reason: many boys with ODD **worsen** in adolescence and move on to a more severe antisocial pattern, **conduct disorder**, so they leave the ODD group.",
+            "visual": {
+              "type": "stat",
+              "value": "2–16%",
+              "label": "Of children show ODD"
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "ODD versus conduct disorder",
+            "left": {
+              "title": "ODD",
+              "points": [
+                "Hostile, argumentative, defiant",
+                "No repeated aggression, theft or destruction",
+                "Does not break laws or basic social rules"
+              ]
+            },
+            "right": {
+              "title": "Conduct disorder",
+              "points": [
+                "Violates others' rights and social norms",
+                "Aggression, cruelty, theft, lying",
+                "Often breaks the law"
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "The endless argument",
+            "story": "Ten-year-old Kayode argues about everything: bath time, homework, even what day it is. He slams doors when told no, hides his sister's books to provoke her, and insists every punishment is someone else's fault. But he has never stolen, hit anyone or damaged property. His pattern has lasted over a year.",
+            "takeaway": "ODD involves persistent hostility and defiance without the law-breaking and aggression of conduct disorder."
+          },
+          {
+            "kind": "check",
+            "question": "What mainly distinguishes conduct disorder from ODD?",
+            "options": [
+              "Arguing with adults",
+              "Violating laws or basic social rules, such as aggression and theft",
+              "Losing temper",
+              "Blaming others"
+            ],
+            "answerIndex": 1,
+            "why": "ODD children are defiant but do not repeatedly aggress, steal or destroy property; conduct disorder involves such violations."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'list five characteristics of disruptive behaviour disorders', 'name the three types' and 'explain briefly ODD'. For ODD include the six-month rule, 2 to 16% prevalence, the sex ratio change at puberty and why. Trap: describing theft and assault under ODD; those belong to conduct disorder.",
+            "sampleQuestion": "Why is ODD more common in boys before puberty but equal in both sexes afterwards?",
+            "howToAnswer": "Many boys with ODD worsen in adolescence and develop conduct disorder, which removes them from the ODD count and evens the ratio.",
+            "scholars": [
+              "APA (2000)",
+              "Phares (2003)",
+              "Comer (2004)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Disruptive disorders: poor self-control, hyperactivity, inattention, aggression, defiance.",
+              "Three types: ODD, conduct disorder, ADHD.",
+              "ODD: argumentative, hostile, defiant for at least six months.",
+              "2 to 16% of children; more boys before puberty, equal after.",
+              "Conduct disorder adds law-breaking and violation of others' rights."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The three disruptive behaviour disorders are:",
+          "options": [
+            "Autism, Rett's and Asperger's",
+            "Depression, mania and phobia",
+            "ODD, conduct disorder and ADHD",
+            "Dyslexia, dyscalculia and dysgraphia"
+          ],
+          "answerIndex": 2,
+          "explanation": "ODD, conduct disorder and ADHD make up the disruptive behaviour disorders."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Disruptive behaviour disorders are characterised mainly by:",
+          "options": [
+            "Deficits in self-control",
+            "Excessive shyness",
+            "Loss of memory",
+            "Hallucinations"
+          ],
+          "answerIndex": 0,
+          "explanation": "Poor self-control underlies disruptive behaviour."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Children with ODD typically:",
+          "options": [
+            "Withdraw silently",
+            "Argue with adults and blame others",
+            "Repeat words they hear",
+            "Have no temper"
+          ],
+          "answerIndex": 1,
+          "explanation": "Arguing, temper and blaming others are hallmarks of ODD."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Approximately what percentage of children display ODD?",
+          "options": [
+            "0.1 to 0.5%",
+            "30 to 40%",
+            "2 to 16%",
+            "Over 50%"
+          ],
+          "answerIndex": 2,
+          "explanation": "APA (2000) cites 2 to 16%."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Symptoms of disruptive behaviour disorders usually emerge in:",
+          "options": [
+            "Infancy only",
+            "Old age",
+            "Late adulthood",
+            "Preschool and primary school years"
+          ],
+          "answerIndex": 3,
+          "explanation": "They tend to appear in preschool and elementary years."
+        },
+        {
+          "difficulty": 2,
+          "stem": "ODD is more common in boys:",
+          "options": [
+            "Throughout life",
+            "Never",
+            "Only after puberty",
+            "Before puberty"
+          ],
+          "answerIndex": 3,
+          "explanation": "Boys predominate before puberty; rates even out afterwards."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A nine-year-old defies every teacher, argues constantly and annoys classmates on purpose, but has never fought or stolen. The most likely diagnosis is:",
+          "options": [
+            "ODD",
+            "Conduct disorder",
+            "ADHD",
+            "Autism"
+          ],
+          "answerIndex": 0,
+          "explanation": "Defiance and hostility without aggression or theft fit ODD."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A 13-year-old repeatedly bullies younger pupils, steals phones and breaks into cars. This pattern goes beyond ODD into:",
+          "options": [
+            "Conduct disorder",
+            "ADHD",
+            "Separation anxiety",
+            "Dyslexia"
+          ],
+          "answerIndex": 0,
+          "explanation": "Aggression, theft and law-breaking indicate conduct disorder."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A girl has been unusually argumentative for two weeks since her parents' quarrel. Should ODD be diagnosed?",
+          "options": [
+            "Yes, immediately",
+            "Yes, if she is a girl",
+            "No, the pattern must persist for at least six months",
+            "Only if she steals"
+          ],
+          "answerIndex": 2,
+          "explanation": "A brief reaction to stress does not meet the six-month criterion."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are characteristics of disruptive behaviour disorders EXCEPT:",
+          "options": [
+            "Hyperactivity",
+            "Excessive fear of separation",
+            "Defiance of authority",
+            "Aggressiveness"
+          ],
+          "answerIndex": 1,
+          "explanation": "Separation fear belongs to emotional disorders."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Why do ODD rates become equal for boys and girls after puberty?",
+          "options": [
+            "Girls develop more ODD",
+            "Puberty cures ODD",
+            "ODD disappears in all boys",
+            "Many boys with ODD progress to conduct disorder"
+          ],
+          "answerIndex": 3,
+          "explanation": "Boys whose behaviour worsens are reclassified with conduct disorder."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which feature belongs to conduct disorder rather than ODD?",
+          "options": [
+            "Arguing with adults",
+            "Cruelty to people and theft",
+            "Losing temper",
+            "Blaming others"
+          ],
+          "answerIndex": 1,
+          "explanation": "Cruelty and theft violate others' rights, defining conduct disorder."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. ODD and conduct disorder often occur in sequence. II. Both are linked to problems solving interpersonal problems. III. ODD involves repeated property destruction. Which are correct?",
+          "options": [
+            "I and III only",
+            "I and II only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 1,
+          "explanation": "I and II are correct. Repeated property destruction is a conduct disorder feature."
+        },
+        {
+          "difficulty": 5,
+          "stem": "The key line separating ODD from conduct disorder is:",
+          "options": [
+            "Age of onset only",
+            "Whether the child is male",
+            "Whether laws or basic social rules are violated",
+            "IQ level"
+          ],
+          "answerIndex": 2,
+          "explanation": "Violation of laws and others' rights marks conduct disorder."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Both ODD and conduct disorder are associated with increased risk of:",
+          "options": [
+            "Antisocial behaviour in adulthood",
+            "Down syndrome",
+            "Dyslexia",
+            "Rett's disorder"
+          ],
+          "answerIndex": 0,
+          "explanation": "Both raise the risk of adult antisocial behaviour."
+        }
+      ]
+    },
+    {
+      "name": "Conduct disorder",
+      "lesson": {
+        "title": "Violating the rights of others",
+        "minutes": 9,
+        "hook": "A 12-year-old area boy is caught stealing from a market woman, then beats a younger child who refuses to hand over his lunch money. Is he simply bad, or is something deeper driving this pattern?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "What conduct disorder is",
+            "body": "**Conduct disorder** involves **persistent** behaviour that **seriously violates the rights of others** and **basic social norms**. Children are often **physically aggressive** and **cruel**, and may **habitually lie and cheat**.\n\nTypical offences include **stealing from shops**, **faking documents**, **burgling homes or cars**, **attacking people** and even **robbery with weapons**. In older adolescents, violence may extend to **rape** or, rarely, **homicide** (APA, 2000).",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "warning",
+                  "label": "Aggression"
+                },
+                {
+                  "icon": "close-circle",
+                  "label": "Rules broken"
+                },
+                {
+                  "icon": "cash",
+                  "label": "Theft"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Course",
+            "body": "Onset typically falls somewhere from **age 7 to age 15** (APA, 2000). **Mild** cases may improve over time, but **severe** cases often continue into adulthood, developing into **antisocial personality disorder** or other problems (Phares, 2003).\n\nSome children with conduct disorder end up in trouble with the **law** repeatedly, and a few become **career criminals**.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "ODD",
+                "Conduct disorder (7–15)",
+                "Antisocial personality"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Conduct disorder usually begins between the ages of:",
+            "options": [
+              "1 and 3",
+              "7 and 15",
+              "18 and 25",
+              "30 and 40"
+            ],
+            "answerIndex": 1,
+            "why": "Onset is usually between 7 and 15 years."
+          },
+          {
+            "kind": "steps",
+            "heading": "Causes",
+            "steps": [
+              {
+                "title": "Biological vulnerability",
+                "detail": "A constitutional vulnerability, partly inherited; genes influence which children develop conduct problems."
+              },
+              {
+                "title": "Family factors",
+                "detail": "Harsh, inconsistent or absent parenting and family conflict."
+              },
+              {
+                "title": "Drugs and trauma",
+                "detail": "Drug abuse and traumatic experiences raise the risk."
+              },
+              {
+                "title": "Social conditions",
+                "detail": "Poverty, violent peers and community violence, especially in the most serious cases."
+              }
+            ]
+          },
+          {
+            "kind": "example",
+            "heading": "Gbenga's path",
+            "story": "Gbenga's father was often violent, and the family moved to a crowded area where older boys sold drugs. By eight he was defying teachers; by 11 he was stealing and fighting; by 14 he joined a gang. A youth worker notes how genes, harsh parenting, poverty and violent peers combined. A community programme with family sessions finally starts to change his course.",
+            "takeaway": "Conduct disorder usually reflects several interacting causes: biology, family, drugs, trauma and social conditions."
+          },
+          {
+            "kind": "teach",
+            "heading": "Treatment",
+            "body": "Treatment is generally **most effective before age 13**. Because **family factors** matter so much, therapists often use **family interventions**, such as training parents in consistent discipline.\n\n**Socio-cultural** approaches, including **community residential treatment**, **school programmes** and **group therapy**, help some children (Phares, 2003). **Individual** therapy and **medication** for aggressive outbursts are sometimes used. **Juvenile detention** has **not** been very successful.",
+            "visual": {
+              "type": "scale",
+              "left": "Family and community help",
+              "right": "Juvenile detention",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Which approach to conduct disorder has had little success?",
+            "options": [
+              "Institutionalisation in juvenile training centres",
+              "School programmes",
+              "Family interventions",
+              "Group therapy"
+            ],
+            "answerIndex": 0,
+            "why": "Detention in juvenile centres has not worked well; family and community approaches show more promise."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect questions on causes (genes, family, drugs, poverty, trauma, violent peers) and treatment (best before 13, family interventions). Objectives test onset age (7 to 15) and the link to antisocial personality disorder. Trap: saying juvenile detention is the most effective treatment; evidence says otherwise.",
+            "sampleQuestion": "Up to what age does treatment for conduct disorder tend to work best? (a) 5 (b) 13 (c) 18 (d) 21",
+            "howToAnswer": "Answer (b). Add that family interventions are central because family factors are so important.",
+            "scholars": [
+              "APA (2000)",
+              "Phares (2003)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Conduct disorder: persistent violation of others' rights and social norms.",
+              "Aggression, cruelty, lying, theft, sometimes serious violence.",
+              "Onset 7 to 15; severe cases may become antisocial personality disorder.",
+              "Causes: genes, family, drugs, trauma, poverty, violent peers.",
+              "Treat early (before 13) with family and community approaches."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Conduct disorder involves persistent behaviour that violates:",
+          "options": [
+            "The rights of others and basic social norms",
+            "Only school rules about uniforms",
+            "Sleep schedules",
+            "Dietary rules"
+          ],
+          "answerIndex": 0,
+          "explanation": "Serious violation of others' rights and norms defines conduct disorder."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Severe conduct disorder may develop in adulthood into:",
+          "options": [
+            "Antisocial personality disorder",
+            "Dyslexia",
+            "Down syndrome",
+            "Separation anxiety"
+          ],
+          "answerIndex": 0,
+          "explanation": "Severe cases often continue as antisocial personality disorder."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Treatment for conduct disorder works best with children younger than:",
+          "options": [
+            "13",
+            "5",
+            "20",
+            "25"
+          ],
+          "answerIndex": 0,
+          "explanation": "Interventions are most effective before 13."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which of the following is a recognised cause of conduct disorder?",
+          "options": [
+            "High intelligence",
+            "Exposure to community violence",
+            "Good nutrition",
+            "Regular exercise"
+          ],
+          "answerIndex": 1,
+          "explanation": "Community violence, along with genes, poverty and trauma, raises risk."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Because family factors are important in conduct disorder, therapists often use:",
+          "options": [
+            "Colour therapy",
+            "Surgery",
+            "Sleep therapy",
+            "Family interventions"
+          ],
+          "answerIndex": 3,
+          "explanation": "Family interventions target a key cause."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Mild conduct disorder:",
+          "options": [
+            "Always worsens",
+            "Only occurs in adults",
+            "Is untreatable",
+            "May improve over time"
+          ],
+          "answerIndex": 3,
+          "explanation": "Mild cases may improve; severe cases often persist."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A 14-year-old regularly lies, steals from shops and threatens younger children with a knife. The most fitting diagnosis is:",
+          "options": [
+            "ODD",
+            "Conduct disorder",
+            "ADHD",
+            "Childhood depression"
+          ],
+          "answerIndex": 1,
+          "explanation": "Theft, lying and threats violate others' rights: conduct disorder."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Twin studies showing conduct problems run in families even when twins are raised apart point to:",
+          "options": [
+            "Purely social causes",
+            "Diet only",
+            "A genetic contribution",
+            "Bad luck"
+          ],
+          "answerIndex": 2,
+          "explanation": "Heredity is one source of vulnerability to conduct disorder."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A state sends adolescents with conduct disorder to a juvenile detention centre. Evidence suggests this approach:",
+          "options": [
+            "Is the most effective",
+            "Cures all cases",
+            "Has not met with much success",
+            "Works only for girls"
+          ],
+          "answerIndex": 2,
+          "explanation": "Institutionalisation in juvenile centres has had limited success."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are linked to conduct disorder EXCEPT:",
+          "options": [
+            "Drug abuse",
+            "Being an only child with secure attachment",
+            "Traumatic events",
+            "Poverty"
+          ],
+          "answerIndex": 1,
+          "explanation": "Secure attachment is a protective factor, not a cause."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement about the course of conduct disorder is correct?",
+          "options": [
+            "It always disappears by 15",
+            "It begins only in adulthood",
+            "Severe cases frequently continue into adulthood",
+            "It never involves the law"
+          ],
+          "answerIndex": 2,
+          "explanation": "Severe cases often persist and may become antisocial personality disorder."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Socio-cultural treatments for conduct disorder include:",
+          "options": [
+            "Brain surgery",
+            "Community residential treatment, school programmes and group therapy",
+            "Bed rest",
+            "Fasting"
+          ],
+          "answerIndex": 1,
+          "explanation": "These community-based approaches help some children."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Conduct disorder usually begins between 7 and 15. II. Medication may be used for aggressive outbursts. III. Conduct disorder has a single cause. Which are correct?",
+          "options": [
+            "I, II and III",
+            "I and III only",
+            "II and III only",
+            "I and II only"
+          ],
+          "answerIndex": 3,
+          "explanation": "I and II are correct. Conduct disorder has multiple interacting causes."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Why might early family intervention be especially valuable in conduct disorder?",
+          "options": [
+            "Families cause all cases",
+            "It replaces school",
+            "Treatment works best before 13, and family factors strongly influence the disorder",
+            "It changes genes"
+          ],
+          "answerIndex": 2,
+          "explanation": "Early action on a major cause gives the best chance of change."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A child shows years of ODD, then at 12 begins stealing and fighting. This progression illustrates that:",
+          "options": [
+            "ODD and conduct disorder can occur in sequence",
+            "ODD always cures itself",
+            "Conduct disorder precedes ODD",
+            "They are unrelated"
+          ],
+          "answerIndex": 0,
+          "explanation": "The two disorders often occur in sequence, ODD first."
+        }
+      ]
+    },
+    {
+      "name": "ADHD",
+      "lesson": {
+        "title": "Driven by a motor",
+        "minutes": 10,
+        "hook": "Victor climbed everything as soon as he could crawl, slept little, and exhausted every teacher by age four. His parents were not lazy and he was not wicked. He had a severe form of ADHD.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "The most diagnosed disruptive disorder",
+            "body": "No disruptive disorder of childhood is diagnosed more often than **attention deficit/hyperactivity disorder (ADHD)**. Children have great difficulty **attending to tasks**, or are **overactive and impulsive**, or **both**.\n\nThe behaviour must be **developmentally inappropriate**, beyond what is normal for the child's age.",
+            "visual": {
+              "type": "venn",
+              "left": "Inattention",
+              "right": "Hyperactivity-impulsivity",
+              "both": "Combined type"
+            }
+          },
+          {
+            "kind": "steps",
+            "heading": "Three DSM-IV subtypes",
+            "steps": [
+              {
+                "title": "Combined type",
+                "detail": "Problems with both attention and activity level; the most common."
+              },
+              {
+                "title": "Predominantly inattentive type",
+                "detail": "Mainly attention problems."
+              },
+              {
+                "title": "Predominantly hyperactive-impulsive type",
+                "detail": "Mainly overactivity and impulsivity."
+              }
+            ]
+          },
+          {
+            "kind": "teach",
+            "heading": "How it shows",
+            "body": "In class, children struggle to **stick with a task**, **organise and finish work**, and often seem **not to be listening**. Sitting still is a huge challenge. With peers they may be **awkward and disorganised**; at home they fail to follow through on requests or sustain play.\n\nSymptoms **feed each other**: a child who cannot focus keeps switching tasks until they seem to run in every direction at once.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "eye",
+                  "label": "Can't focus"
+                },
+                {
+                  "icon": "flash",
+                  "label": "Can't sit still"
+                },
+                {
+                  "icon": "chatbubbles",
+                  "label": "Blurts out"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Which ADHD subtype involves both attention problems and overactivity?",
+            "options": [
+              "Combined type",
+              "Predominantly hyperactive-impulsive",
+              "Predominantly inattentive",
+              "Oppositional type"
+            ],
+            "answerIndex": 0,
+            "why": "The combined type, the most common, includes both sets of symptoms."
+          },
+          {
+            "kind": "terms",
+            "heading": "DSM-IV diagnostic criteria in brief",
+            "terms": [
+              {
+                "term": "Inattention",
+                "meaning": "Six or more signs, such as careless mistakes, not listening, losing things, easy distraction, forgetfulness"
+              },
+              {
+                "term": "Hyperactivity-impulsivity",
+                "meaning": "Six or more signs, such as fidgeting, leaving seat, excessive talking, blurting answers, interrupting"
+              },
+              {
+                "term": "Duration",
+                "meaning": "Symptoms persist for at least six months"
+              },
+              {
+                "term": "Onset and settings",
+                "meaning": "Some symptoms before age 7 (DSM-5: 12); impairment in at least two settings"
+              }
+            ]
+          },
+          {
+            "kind": "example",
+            "heading": "Victor's story",
+            "story": "From age three, Victor rushed around all day, could not sit for story time, made no friends and climbed dangerously high on swings. Doctors found no brain damage and near-average intelligence. In a structured class with two teachers, small tasks and lavish praise, he slowly learned to sit longer. By 16 he was calmer, but his conversation still jumped between topics and he had no friends his age.",
+            "takeaway": "Severe ADHD involves hyperactivity, impulsivity and inattention; structure and reward help, but some problems may persist."
+          },
+          {
+            "kind": "teach",
+            "heading": "Associated problems and course",
+            "body": "Roughly **half** of these children struggle with **learning or communication** as well; many do **poorly at school**, have **peer difficulties**, and about **80% misbehave**, often seriously. **Mood or anxiety** problems are common.\n\nADHD usually persists through childhood. Symptoms often ease by the **mid-teens**, yet **half or more** still face difficulties (Phares, 2003).",
+            "visual": {
+              "type": "stat",
+              "value": "≥ 1/2",
+              "label": "Still affected after adolescence"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Causes and prevalence",
+            "body": "ADHD has **several interacting causes**: **biological** factors including **genes**, environmental factors that disrupt brain function, **high stress** and **family dysfunction** (Barkley, 2002).\n\nDSM-IV gives a prevalence of **3 to 5%** before adolescence. Rates vary with **who reports** (parents, teachers, clinicians), the **setting** (class, playground, home) and **family background**. **Teachers** are often first to notice.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "git-network",
+                  "label": "Genes"
+                },
+                {
+                  "icon": "pulse",
+                  "label": "Stress"
+                },
+                {
+                  "icon": "home",
+                  "label": "Family"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "According to Barkley (2002), ADHD is best explained by:",
+            "options": [
+              "A single gene",
+              "Several interacting causes, including biology, stress and family dysfunction",
+              "Poor diet alone",
+              "Lazy parenting alone"
+            ],
+            "answerIndex": 1,
+            "why": "ADHD reflects interacting biological, stress and family factors, not one cause."
+          },
+          {
+            "kind": "teach",
+            "heading": "Treatment",
+            "body": "The two main treatments are **medication** and **behaviour therapy**. **Stimulant** medicines such as **methylphenidate (Ritalin)** often improve attention and calm activity, surprising as that sounds.\n\n**Behaviour therapy** uses **structure, clear small tasks and rewards** for focused, calm behaviour, as with Victor. Combined treatment, involving parents and teachers, works best for many children.",
+            "visual": {
+              "type": "venn",
+              "left": "Medication",
+              "right": "Behaviour therapy",
+              "both": "Best results"
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'state the three subtypes of ADHD' and a description of its features and treatment. Objectives test prevalence (3 to 5%), associated problems (half with learning problems, 80% misbehaving), the 'at least half still affected' outcome, and DSM criteria (six symptoms, six months, before 7, two settings). Trap: thinking all children outgrow ADHD.",
+            "sampleQuestion": "Which of the following is NOT a DSM-IV subtype of ADHD? (a) combined (b) predominantly inattentive (c) predominantly hyperactive-impulsive (d) predominantly oppositional",
+            "howToAnswer": "Answer (d). List the three real subtypes and add the two main treatments: medication and behaviour therapy.",
+            "scholars": [
+              "Barkley (2002)",
+              "Phares (2003)",
+              "APA (2000)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "ADHD: the most diagnosed disruptive disorder; inattention and/or hyperactivity-impulsivity.",
+              "Subtypes: combined, predominantly inattentive, predominantly hyperactive-impulsive.",
+              "DSM-IV: 6+ symptoms, 6+ months, before age 7, two settings.",
+              "Half have learning problems; at least half still affected after adolescence.",
+              "Causes interact; treat with medication and behaviour therapy."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The most frequently diagnosed disruptive disorder of childhood is:",
+          "options": [
+            "ODD",
+            "ADHD",
+            "Conduct disorder",
+            "Autism"
+          ],
+          "answerIndex": 1,
+          "explanation": "ADHD is the most frequently diagnosed."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The two main treatments for ADHD are:",
+          "options": [
+            "Surgery and diet",
+            "Medication and behaviour therapy",
+            "Hypnosis and rest",
+            "Detention and punishment"
+          ],
+          "answerIndex": 1,
+          "explanation": "Medication and behaviour therapy are the main approaches."
+        },
+        {
+          "difficulty": 1,
+          "stem": "DSM-IV prevalence of ADHD before adolescence is about:",
+          "options": [
+            "3 to 5%",
+            "0.1%",
+            "25%",
+            "50%"
+          ],
+          "answerIndex": 0,
+          "explanation": "DSM-IV cites 3 to 5%."
+        },
+        {
+          "difficulty": 2,
+          "stem": "In DSM-IV, some ADHD symptoms must be present before age:",
+          "options": [
+            "3",
+            "21",
+            "15",
+            "7"
+          ],
+          "answerIndex": 3,
+          "explanation": "DSM-IV required onset before 7; DSM-5 raised this to 12."
+        },
+        {
+          "difficulty": 2,
+          "stem": "About how many children with ADHD also have learning or communication problems?",
+          "options": [
+            "Very few",
+            "None",
+            "All",
+            "About half"
+          ],
+          "answerIndex": 3,
+          "explanation": "Roughly half have learning or communication problems."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Who is often the first to recognise ADHD in a child?",
+          "options": [
+            "Shopkeepers",
+            "Dentists",
+            "Neighbours",
+            "Teachers"
+          ],
+          "answerIndex": 3,
+          "explanation": "Teachers often notice ADHD first, particularly in lower-income families."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A girl daydreams, loses her books, misses instructions and makes careless errors, but sits quietly. Her likely ADHD subtype is:",
+          "options": [
+            "Combined",
+            "Predominantly hyperactive-impulsive",
+            "Predominantly inattentive",
+            "Oppositional"
+          ],
+          "answerIndex": 2,
+          "explanation": "Attention problems without hyperactivity fit the inattentive type."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A boy fidgets constantly, leaves his seat, blurts out answers and interrupts, but focuses well when interested. His likely subtype is:",
+          "options": [
+            "Predominantly inattentive",
+            "Predominantly hyperactive-impulsive",
+            "Combined",
+            "Conduct type"
+          ],
+          "answerIndex": 1,
+          "explanation": "Mainly overactivity and impulsivity indicates the hyperactive-impulsive type."
+        },
+        {
+          "difficulty": 3,
+          "stem": "In Victor's case, his behaviour improved mainly through:",
+          "options": [
+            "Punishment",
+            "Surgery",
+            "A structured class with small achievable tasks and lavish praise",
+            "Removing him from school"
+          ],
+          "answerIndex": 2,
+          "explanation": "Structure, small tasks and praise gradually increased his ability to sit and focus."
+        },
+        {
+          "difficulty": 4,
+          "stem": "DSM-IV requires ADHD impairment to appear in at least:",
+          "options": [
+            "One setting",
+            "Five settings",
+            "Two settings",
+            "Only at school"
+          ],
+          "answerIndex": 2,
+          "explanation": "Impairment must be seen in at least two settings, such as home and school."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are inattention symptoms of ADHD EXCEPT:",
+          "options": [
+            "Careless mistakes",
+            "Easy distraction",
+            "Excessive talking",
+            "Forgetfulness in daily activities"
+          ],
+          "answerIndex": 2,
+          "explanation": "Excessive talking is a hyperactivity-impulsivity symptom."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement about ADHD outcomes is correct?",
+          "options": [
+            "Many improve in adolescence, but at least half continue to have problems",
+            "All children outgrow it by 10",
+            "It always worsens",
+            "It only begins in adulthood"
+          ],
+          "answerIndex": 0,
+          "explanation": "Symptoms often lessen, yet at least half remain affected."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. ADHD rates vary with who reports and in what setting. II. About 80% of children with ADHD misbehave. III. ADHD has a single known cause. Which are correct?",
+          "options": [
+            "I and II only",
+            "I and III only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 0,
+          "explanation": "I and II are correct. ADHD has several interacting causes (Barkley, 2002)."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Why might a stimulant drug help a hyperactive child become calmer?",
+          "options": [
+            "It makes the child sleep all day",
+            "It improves attention and self-control systems in the brain",
+            "It removes energy completely",
+            "It cures the disorder permanently"
+          ],
+          "answerIndex": 1,
+          "explanation": "Stimulants such as methylphenidate enhance attention and impulse control."
+        },
+        {
+          "difficulty": 5,
+          "stem": "How do ADHD symptoms 'feed into one another'?",
+          "options": [
+            "Inattention leads to constant task-switching, which looks like hyperactivity",
+            "Hyperactivity cures inattention",
+            "They never interact",
+            "Medication causes them"
+          ],
+          "answerIndex": 0,
+          "explanation": "Trouble focusing drives rapid switching between tasks, amplifying overactivity."
+        }
+      ]
+    }
+  ]
+}

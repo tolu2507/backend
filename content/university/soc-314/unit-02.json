@@ -1,0 +1,1907 @@
+{
+  "unit": 2,
+  "title": "Causes of Social Problems",
+  "summary": "How social change, social disorganisation, the parts of social structure and culture, and individual personality combine to cause social problems.",
+  "sections": [
+    {
+      "name": "Social change and its features",
+      "lesson": {
+        "title": "Why social problems have no single cause",
+        "minutes": 10,
+        "hook": "Ask ten people at a Lagos bus stop why crime is rising and you may hear ten different answers: poverty, bad parenting, the devil, politicians. Sociologists face the same puzzle, and their honest answer is that no single cause explains it.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "No society wants social problems",
+            "body": "No community welcomes a social problem. Problems such as crime, divorce or mass unemployment unsettle people and make it hard for them to fit into society. Yet they keep appearing everywhere.\n\nSociologists have searched hard for *the* cause, and the search keeps failing. The reason is simple: societies differ. A factor that produces a problem in one place or period may produce nothing in another. So instead of one cause, sociologists speak of **groups of contributing factors**.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "warning",
+                  "label": "Problems persist"
+                },
+                {
+                  "icon": "globe",
+                  "label": "Societies differ"
+                },
+                {
+                  "icon": "search",
+                  "label": "No single cause"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Three families of causes",
+            "body": "This session sorts the causes into three families.\n\n**Historical factors** are the big changes a society passes through, such as industrialisation and westernisation, which replace older ways of life.\n\n**Sociological factors** concern social disorganisation and the parts of social structure and culture.\n\n**Psychological factors** concern the personality traits of individuals.\n\nKeep these three labels in mind: the whole session hangs on them, and lecturers love asking you to match a cause to its family.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "time",
+                  "label": "Historical"
+                },
+                {
+                  "icon": "people",
+                  "label": "Sociological"
+                },
+                {
+                  "icon": "person",
+                  "label": "Psychological"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "A writer explains rising youth crime by pointing to the personality traits of the offenders. Which family of causes is this writer using?",
+            "options": [
+              "Historical factors",
+              "Sociological factors",
+              "Psychological factors",
+              "Institutional factors"
+            ],
+            "answerIndex": 2,
+            "why": "Personality traits belong to the psychological family. Sociological factors would point to disorganisation or to structure and culture, not to individual personality."
+          },
+          {
+            "kind": "teach",
+            "heading": "What is social change?",
+            "body": "The historical factors all rest on one idea: **social change**. Put simply, it is the transformation of a society's structure over time. Institutions, or parts of them, are altered and modified as people communicate and interact.\n\nWhy does this matter for social problems? Because when institutions change faster or differently from the norms and values that guide people, the mismatch produces strain. That clash between changing institutions, norms and values is a recurring source of social problems.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Institutions change",
+                "Norms lag behind",
+                "Strain and clash",
+                "Social problem"
+              ]
+            }
+          },
+          {
+            "kind": "terms",
+            "heading": "Scholars' definitions of social change",
+            "terms": [
+              {
+                "term": "Lauer (1977)",
+                "meaning": "Change in social phenomena at every level of human life, from the individual right up to the global."
+              },
+              {
+                "term": "Boudon (1986)",
+                "meaning": "A broad, inclusive idea covering alterations in social phenomena from the individual level to the global level."
+              },
+              {
+                "term": "Giddens (1989)",
+                "meaning": "The modification of a society's basic institutions within a particular period."
+              },
+              {
+                "term": "Harper (1998)",
+                "meaning": "A significant alteration of social structure and of cultural patterns over time."
+              }
+            ]
+          },
+          {
+            "kind": "check",
+            "question": "Which scholar's definition of social change stresses BOTH social structure and cultural patterns?",
+            "options": [
+              "Giddens (1989)",
+              "Charles Harper (1998)",
+              "Boudon (1986)",
+              "Macionis (2003)"
+            ],
+            "answerIndex": 1,
+            "why": "Harper speaks of significant alteration of structure and cultural patterns through time. Giddens focuses on basic institutions in a given period, and Macionis gave characteristics, not this definition."
+          },
+          {
+            "kind": "teach",
+            "heading": "One change, two verdicts",
+            "body": "It is hard to draw neat boundaries between kinds of change, and many changes are tied to a particular time and place.\n\nA change can also be **progressive** for one group and **retrogressive** for another inside the same society. Think of a new expressway: commuters gain, but traders whose shops were demolished lose. Whether a change is 'good' depends on where you stand, which is exactly why change so often breeds problems.",
+            "visual": {
+              "type": "scale",
+              "left": "Progressive for some",
+              "right": "Retrogressive for others",
+              "heavier": "even"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Macionis: change is everywhere, unevenly",
+            "body": "Macionis (2003) summed up four characteristics of social change. The first: **change happens everywhere, but its rate varies**. Developed countries tend to change faster than developing ones, partly because they have greater exposure to, and access to, information technology.\n\nThe second: **change is sometimes intentional but often unplanned**. People design an innovation for one purpose and it produces results nobody predicted.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "globe",
+                  "label": "Everywhere"
+                },
+                {
+                  "icon": "trending-up",
+                  "label": "Uneven speed"
+                },
+                {
+                  "icon": "bulb",
+                  "label": "Often unplanned"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "The aeroplane nobody fully predicted",
+            "story": "The aeroplane was built so people could cover long distances quickly. Its inventors did not picture Chiamaka's family today: one brother in Houston, a sister in Manchester, parents in Enugu, all scattered because a quick flight home makes distance feel manageable. Nor did they plan for the crashes and deaths that air travel would bring.",
+            "takeaway": "Change may be intended for one purpose, yet its unplanned effects can reshape family life and create new risks."
+          },
+          {
+            "kind": "teach",
+            "heading": "Controversy, and changes that matter more",
+            "body": "Third, **change often generates controversy**. When government-owned companies such as NITEL were privatised, workers' unions and the company's managers clashed repeatedly over the terms.\n\nFourth, **some changes matter more than others**. Nigeria's move from military to civilian rule reshaped the whole political system. A court ruling on one politician's election, though newsworthy, changes far less. Lecturers expect you to rank changes by their reach, not by how loud the headlines were.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "megaphone",
+                  "label": "Controversy"
+                },
+                {
+                  "icon": "layers",
+                  "label": "Unequal weight"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Labour unions and managers fight bitterly over the sale of a state-owned company. Which of Macionis's characteristics of change does this best illustrate?",
+            "options": [
+              "Change happens everywhere at the same rate",
+              "Some changes matter more than others",
+              "Change is always carefully planned",
+              "Change often generates controversy"
+            ],
+            "answerIndex": 3,
+            "why": "The dispute shows change provoking controversy, as with NITEL's privatisation. 'Some changes matter more' is about ranking importance, not conflict."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect the four characteristics of change to be tested through Nigerian examples: privatisation, the return to civil rule, technology gaps between countries. The trap is mixing up 'unplanned' and 'controversial', or writing that change happens at the same speed everywhere. Also be ready to attach the right scholar to each definition.",
+            "sampleQuestion": "'Social problems are rooted in social change.' Using Macionis's characteristics of social change, discuss this statement with Nigerian examples.",
+            "howToAnswer": "Define social change with one scholar, state the four characteristics, give a Nigerian illustration of each, and show how unevenness, unplanned effects and controversy each generate problems.",
+            "scholars": [
+              "Macionis (2003)",
+              "Giddens (1989)",
+              "Harper (1998)",
+              "Boudon (1986)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "No single cause explains social problems; causes vary by society.",
+              "Causes fall into historical, sociological and psychological factors.",
+              "Social change is the transformation of social structure over time.",
+              "A change can be progressive for one group and retrogressive for another.",
+              "Macionis: change is universal but uneven, often unplanned, controversial, and unequal in importance."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Sociologists have not identified one cause of social problems mainly because:",
+          "options": [
+            "Social problems are too rare to study properly",
+            "What causes a problem in one society or situation may not cause it in another",
+            "Governments forbid research into the causes of social problems",
+            "Social problems are purely individual and have no social roots"
+          ],
+          "answerIndex": 1,
+          "explanation": "Societies differ, so a factor that produces a problem in one setting may not do so elsewhere. Saying problems have no social roots contradicts the whole sociological approach."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which of the following is NOT one of the three families of causes of social problems discussed in this session?",
+          "options": [
+            "Historical factors",
+            "Psychological factors",
+            "Sociological factors",
+            "Astrological factors"
+          ],
+          "answerIndex": 3,
+          "explanation": "The session groups causes into historical, sociological and psychological factors. Astrological explanations play no part in sociological analysis."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Social change, in its simplest sociological sense, refers to:",
+          "options": [
+            "The transformation of social structure over time",
+            "The personality differences between individuals",
+            "The money a government spends on development",
+            "The movement of a person from one job to another"
+          ],
+          "answerIndex": 0,
+          "explanation": "Social change is the transformation of social structure through time. Personality differences belong to psychological explanations, not to the definition of change."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The historical factors in the causation of social problems are mainly concerned with:",
+          "options": [
+            "The id, ego and superego of offenders",
+            "Primary and secondary groups in the community",
+            "Major changes that replace traditional ways of life with modern ones",
+            "The gap between cultural goals and legitimate means"
+          ],
+          "answerIndex": 2,
+          "explanation": "Historical factors focus on major societal changes, such as industrialisation, that displace older ways of life. The goals-means gap is Merton's sociological idea, a common near-miss."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Giddens (1989) defined social change as:",
+          "options": [
+            "Major change over time in how a society is organised and in its cultural patterns",
+            "An inclusive concept covering change from the individual to the global level",
+            "A struggle between social classes over scarce resources",
+            "The modification of basic institutions during a specific period"
+          ],
+          "answerIndex": 3,
+          "explanation": "Giddens stressed the modification of basic institutions within a particular period. The 'structure and cultural patterns' wording belongs to Harper (1998)."
+        },
+        {
+          "difficulty": 2,
+          "stem": "According to Macionis (2003), developed countries tend to change faster than developing countries largely because of:",
+          "options": [
+            "Unequal exposure and access to information technology",
+            "Their larger populations",
+            "Their older cultures",
+            "A lower rate of controversy"
+          ],
+          "answerIndex": 0,
+          "explanation": "The text links the faster pace of change in developed countries to their greater exposure and access to information technology. Population size is not the reason given."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A state government builds a new road that cuts travel time for motorists but forces the demolition of a busy roadside market. Traders call it a disaster; commuters call it progress. This illustrates that:",
+          "options": [
+            "Social change happens at the same rate everywhere",
+            "A change that is progressive for one group may be retrogressive for another",
+            "Social change is always intentional and never unplanned",
+            "Only changes in values can produce social problems"
+          ],
+          "answerIndex": 1,
+          "explanation": "The same change helps one group and harms another within one society, which is why change is hard to classify neatly. Nothing in the scene concerns the rate of change."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Mobile money was introduced to make payments easier, but it also opened new routes for fraud that its designers did not anticipate. This best illustrates which characteristic of social change?",
+          "options": [
+            "Some changes matter more than others",
+            "Change happens everywhere but at varying rates",
+            "Change is sometimes intentional but often unplanned",
+            "Change often generates controversy"
+          ],
+          "answerIndex": 2,
+          "explanation": "An innovation designed for one purpose produced unforeseen effects, just like the aeroplane example. Controversy would require open disagreement between groups."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A student argues that Nigeria's return to civil rule in 1999 was a more important change than a tribunal ruling on a governorship election. Which of Macionis's characteristics supports the student?",
+          "options": [
+            "Change often generates controversy",
+            "Change is often unplanned",
+            "Change happens everywhere",
+            "Some changes matter more than others"
+          ],
+          "answerIndex": 3,
+          "explanation": "Ranking a system-wide political transition above a single court verdict reflects the idea that some changes matter more than others. Controversy alone says nothing about relative importance."
+        },
+        {
+          "difficulty": 4,
+          "stem": "The view that social change is 'an inclusive concept referring to alterations in social phenomena from the individual to the global level' is associated in the course text with:",
+          "options": [
+            "Boudon (1986)",
+            "Giddens (1989)",
+            "Harper (1998)",
+            "Nwabueze (1988)"
+          ],
+          "answerIndex": 0,
+          "explanation": "Boudon described change as an inclusive concept spanning the individual to the global, close to Lauer's view. Nwabueze is known here for the four kinds of change, not this definition."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which of the following statements about social change is FALSE according to the session?",
+          "options": [
+            "Boundaries between categories of change are hard to draw",
+            "Some categories of change are limited by time and space",
+            "Societies remain static unless a revolution occurs",
+            "Political, economic and cultural changes recur in society"
+          ],
+          "answerIndex": 2,
+          "explanation": "The session stresses that society is never static; change is recurrent, not confined to revolutions. The other three statements are all made in the text."
+        },
+        {
+          "difficulty": 4,
+          "stem": "In the course text, the privatisation of NITEL is used to illustrate which feature of social change?",
+          "options": [
+            "That change in developed countries is faster",
+            "That change often generates controversy",
+            "That change is mostly intentional",
+            "That some changes matter more than others"
+          ],
+          "answerIndex": 1,
+          "explanation": "The NITEL privatisation sparked disputes between labour and the company's administrators, illustrating controversy. Students often wrongly attach it to 'some changes matter more'."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider these statements about Macionis's characteristics of social change:\nI. Change is universal but its rate varies.\nII. Change is always deliberately planned.\nIII. Change often generates controversy.\nIV. All changes are of equal importance.\nWhich are correct?",
+          "options": [
+            "I and II only",
+            "II and IV only",
+            "I, II and III only",
+            "I and III only"
+          ],
+          "answerIndex": 3,
+          "explanation": "Macionis says change is universal but uneven and often controversial. Change is sometimes intentional but often unplanned (II is wrong), and some changes matter more than others (IV is wrong)."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A sociologist argues: 'Social problems arise when institutions change while the norms and values that guide behaviour do not keep pace.' Which conclusion from the session does this statement best support?",
+          "options": [
+            "Psychological traits alone explain social problems",
+            "Social problems are part of the price a society pays for change",
+            "Social change is always progressive for everyone",
+            "Social problems disappear once a society industrialises"
+          ],
+          "answerIndex": 1,
+          "explanation": "The session concludes that clashes between institutional change, norms and values make social problems part of the price of change. Industrialisation actually created new problems rather than ending them."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Giddens (1989): significant alteration of structure and cultural patterns",
+            "Macionis (2003): four kinds of change including normative change",
+            "Harper (1998): modification of basic institutions in a specific period",
+            "Macionis (2003): four characteristics of social change"
+          ],
+          "answerIndex": 3,
+          "explanation": "Macionis summarised four characteristics of change. The four kinds of change (normative, values, institutional, actors) are Nwabueze's, and the Giddens and Harper definitions have been swapped in the other options."
+        }
+      ]
+    },
+    {
+      "name": "Nwabueze's four kinds of change",
+      "lesson": {
+        "title": "Norms, values, institutions and actors",
+        "minutes": 10,
+        "hook": "Remember the struggle to board a molue before the BRT came? Then, almost overnight, Lagosians were standing in neat queues at bus terminals. What changed: the people, the rules, or the system around them?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Four kinds of change",
+            "body": "Society is never still. Nwabueze (1988) helps us see *what* exactly changes by naming four kinds of change:\n\n1. **Normative change**: change in the rules that guide behaviour.\n2. **Change in social values**: change in what people consider good or worthy.\n3. **Institutional change**: change in the family, economy, polity and other institutions.\n4. **Change of actors or personnel**: change in the people occupying key positions.\n\nEach can disturb society on its own, but the real lesson is how they affect one another.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "scale",
+                  "label": "Norms"
+                },
+                {
+                  "icon": "heart",
+                  "label": "Values"
+                },
+                {
+                  "icon": "school",
+                  "label": "Institutions"
+                },
+                {
+                  "icon": "person",
+                  "label": "Actors"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Normative change",
+            "body": "A **social norm** is a standard that limits and guides how members of a group behave towards one another and towards other groups. Chirot (1994) saw its job as coordinating people's expectations when many competing pressures are at play. Norms govern contracts, property, bargaining, justice and administration.\n\nNorms can be **active**, meaning deviation attracts punishment, or **passive**, meaning breaches often go unnoticed and unpunished. Normative change happens when these standards shift.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Passive norm",
+              "right": "Active norm",
+              "marker": 80,
+              "label": "Active: breaking it brings punishment"
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "The BRT and the queue",
+            "story": "Before 2008, Tunde fought his way onto buses at Ojota, elbows out like everyone else. When Lagos State introduced the Bus Rapid Transit, the new terminals, fixed boarding points and officials changed the setting. Within months Tunde was queuing patiently, and pushing in drew angry looks from fellow passengers.",
+            "takeaway": "A change in another part of the social structure (transport) brought back a norm: the queue culture."
+          },
+          {
+            "kind": "teach",
+            "heading": "Bodies created to enforce new norms",
+            "body": "Normative change can also lead to new institutions set up to teach and enforce the new rules.\n\nThe **War Against Indiscipline (WAI)**, launched in 1984 under the Buhari–Idiagbon regime, pushed orderliness, work ethic, patriotism and a fight against corruption and economic sabotage. Related efforts include Lagos State's **Kick Against Indiscipline (KAI)**, the anti-corruption work of the **EFCC** and **ICPC**, and the **Rebranding Nigeria** campaign of the National Orientation Agency. Each tries to institutionalise new norms and bring offenders to trial.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "New norm desired",
+                "Agency created",
+                "Orientation",
+                "Enforcement"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "The War Against Indiscipline launched in 1984 is best classified as an example of:",
+            "options": [
+              "Change of personnel only",
+              "Establishing an institution to enforce new norms",
+              "A passive norm that goes unnoticed",
+              "Change caused by industrialisation"
+            ],
+            "answerIndex": 1,
+            "why": "WAI was a programme set up to orient citizens and enforce new norms of orderliness and work ethic. A passive norm, by contrast, carries no enforcement."
+          },
+          {
+            "kind": "teach",
+            "heading": "Change in social values",
+            "body": "**Social values** exist in every society and institution. Ogionwo and Otite (2006) describe them as the standards by which things are compared and judged: approved or disapproved, desirable or undesirable, more or less right, more or less honourable.\n\nIn short, a value is what a society or group holds in high esteem. Values may come from ideas, actions, feelings, qualities, goals and expectations. When what people prize shifts, say from communal honour towards personal wealth, we have a change in values.",
+            "visual": {
+              "type": "scale",
+              "left": "Desirable",
+              "right": "Undesirable",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Institutional change",
+            "body": "Society is made up of institutions that work together, and none of them can run without norms and values. Every institution has its stated values and expected ways of interacting.\n\nAs society develops, institutions change, and **a change in one usually affects at least one other**. Westernisation has reshaped Nigerian marriage: polygamy is declining while monogamy and single parenthood are spreading, and that in turn is shrinking family size.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Westernisation",
+                "Marriage changes",
+                "Family size shrinks"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Change of actors or personnel",
+            "body": "Institutions need people in positions carrying out roles. Every actor brings personal ideas, attitudes, policies and ideology, which shape their leadership style and the quality of service they deliver.\n\nSo a **change of actor** can bring new norms, values and policies. Compare regimes: military governments ruled by **decrees**, while civilian governments work through a **constitution** that the legislature can amend. Same country, different actors, different guiding rules.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "shield",
+                  "label": "Military: decrees"
+                },
+                {
+                  "icon": "book",
+                  "label": "Civilian: constitution"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "A new vice-chancellor arrives and quickly introduces fresh rules on lecture attendance and dress. In Nwabueze's terms, the source of this change is:",
+            "options": [
+              "Change in social values",
+              "Institutional change",
+              "Normative change",
+              "Change of actor or personnel"
+            ],
+            "answerIndex": 3,
+            "why": "The trigger was a new person in a key position, whose ideas brought new rules. Normative change is the result here, but the source is the change of actor."
+          },
+          {
+            "kind": "teach",
+            "heading": "The four depend on each other",
+            "body": "The four kinds of change are **interdependent**; none works in isolation. A normative change needs values that society upholds, and values need norms to express them. An influential person or group may plant new values, displacing old ones. How firmly norms and values are held then shapes what happens to institutions and who leads the change.\n\nWhen the four move together, society adjusts. When they pull apart, social problems follow.",
+            "visual": {
+              "type": "cycle",
+              "nodes": [
+                "Values",
+                "Norms",
+                "Institutions",
+                "Actors"
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "When change is pushed carelessly",
+            "story": "Imagine a powerful group in a state campaigns to replace an old value, such as respect for elders' say in land matters, with a new one. They pick no credible leader to guide the shift and make no plans for the courts, families and markets it will affect. Soon land disputes multiply, families split and youths clash with elders.",
+            "takeaway": "Changing values without the right actors and without planning for other institutions is a recipe for social problems."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Lecturers like to give a Nigerian case (BRT, WAI, military decrees, polygamy declining) and ask which kind of change it shows. The trap is the BRT: it is normative change triggered by change elsewhere, not a change of actors. Also expect 'Are the four kinds of change related?' Always answer yes, and explain how.",
+            "sampleQuestion": "Identify Nwabueze's four kinds of social change and explain, with Nigerian examples, why they must operate together if social problems are to be avoided.",
+            "howToAnswer": "Name and define each kind with one Nigerian example, then show their interdependence: values feed norms, both shape institutions and actors, and pushing one alone produces strain and social problems.",
+            "scholars": [
+              "Nwabueze (1988)",
+              "Chirot (1994)",
+              "Ogionwo & Otite (2006)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Nwabueze (1988): normative, value, institutional and actor change.",
+              "Norms guide behaviour; they may be active (punished) or passive (unnoticed).",
+              "Agencies like WAI, EFCC, ICPC and NOA try to institutionalise new norms.",
+              "Values are what a society holds in high esteem (Ogionwo & Otite, 2006).",
+              "A change in one institution usually affects another.",
+              "The four kinds of change are interdependent; imbalance breeds social problems."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The classification of social change into normative, value, institutional and personnel change is credited to:",
+          "options": [
+            "Macionis (2003)",
+            "Giddens (1989)",
+            "Nwabueze (1988)",
+            "Chirot (1994)"
+          ],
+          "answerIndex": 2,
+          "explanation": "Nwabueze (1988) identified these four kinds of change. Macionis is known in this session for the four characteristics of change, a frequent mix-up."
+        },
+        {
+          "difficulty": 1,
+          "stem": "In the session, a social value is best described as:",
+          "options": [
+            "Something a society or group holds in high esteem",
+            "A formal law passed by the legislature",
+            "A position a person occupies in a group",
+            "A punishment for breaking a rule"
+          ],
+          "answerIndex": 0,
+          "explanation": "Values are the standards by which things are judged desirable or not; they are what a group esteems. A position in a group is a status, not a value."
+        },
+        {
+          "difficulty": 1,
+          "stem": "A norm whose violation is likely to attract punishment is described in the session as:",
+          "options": [
+            "A passive norm",
+            "A latent norm",
+            "A personal norm",
+            "An active norm"
+          ],
+          "answerIndex": 3,
+          "explanation": "Active norms attract punishment when broken. Passive norms often go unnoticed and so may not be punished."
+        },
+        {
+          "difficulty": 2,
+          "stem": "According to Chirot (1994), the main function of a social norm is to:",
+          "options": [
+            "Coordinate people's expectations in interaction",
+            "Replace the constitution in times of crisis",
+            "Allow individuals to satisfy the id freely",
+            "Measure how fast a society industrialises"
+          ],
+          "answerIndex": 0,
+          "explanation": "Chirot saw norms as coordinating expectations where many opposing influences operate. Norms restrain impulses; they do not free the id."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The decline of polygamy and the spread of monogamy and single parenthood in Nigeria are given in the session as an example of:",
+          "options": [
+            "Change of personnel",
+            "Passive norms",
+            "Institutional change",
+            "Psychological factors"
+          ],
+          "answerIndex": 2,
+          "explanation": "Marriage is an institution, and its transformation under westernisation is institutional change, which then affects family size. It has nothing to do with a change of personnel."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which of the following was NOT mentioned among the bodies or programmes set up to institutionalise new norms in Nigeria?",
+          "options": [
+            "War Against Indiscipline",
+            "Economic and Financial Crimes Commission",
+            "Rebranding Nigeria programme",
+            "Nigerian Stock Exchange"
+          ],
+          "answerIndex": 3,
+          "explanation": "WAI, KAI, EFCC, ICPC and NOA's Rebranding Nigeria were the examples given. The Stock Exchange is a market institution, not a norm-enforcing agency."
+        },
+        {
+          "difficulty": 3,
+          "stem": "After Lagos introduced the BRT, commuters began to queue at terminals instead of scrambling for buses. In the session, this is used to show that normative change can:",
+          "options": [
+            "Only happen through military decrees",
+            "Result from change in another part of the social structure",
+            "Occur without any change in behaviour",
+            "Be caused only by psychological factors"
+          ],
+          "answerIndex": 1,
+          "explanation": "A change in transport arrangements brought back the queue culture, so the norm changed because another part of the structure changed. No decree or personality factor was involved."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Under military rule a country was governed by decrees; after the handover, a constitution amendable by the legislature became the guiding law. In Nwabueze's scheme, this shift is most directly linked to:",
+          "options": [
+            "Change in social values",
+            "Change of actors or personnel",
+            "Passive normative change",
+            "Change in family size"
+          ],
+          "answerIndex": 1,
+          "explanation": "The session uses military versus civilian regimes to show that a change of actors brings new guiding rules and policies. The change in rules follows from who holds power."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Students in a hostel start regarding wealth displayed on social media as more honourable than academic excellence. Which kind of change does this best represent?",
+          "options": [
+            "Institutional change",
+            "Change of personnel",
+            "Change in social values",
+            "Active normative change"
+          ],
+          "answerIndex": 2,
+          "explanation": "What the group esteems and judges honourable has shifted, which is a change in values. No institution or office-holder has changed."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement about Nwabueze's four kinds of change is correct according to the session?",
+          "options": [
+            "Each kind operates independently of the others",
+            "Institutional change never affects other institutions",
+            "Normative change can occur without any supporting values",
+            "The four kinds are interdependent and balance one another"
+          ],
+          "answerIndex": 3,
+          "explanation": "The session insists none of the four can operate alone; norms need upheld values and both shape institutions and actors. The other options contradict this."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Ogionwo and Otite (2006) are cited in the session for their definition of:",
+          "options": [
+            "Social values",
+            "Social norms",
+            "Social change",
+            "Social disorganisation"
+          ],
+          "answerIndex": 0,
+          "explanation": "They defined values as standards by which things are compared, approved or disapproved. The definition of norms as coordinating expectations came from Chirot."
+        },
+        {
+          "difficulty": 4,
+          "stem": "A traffic rule that motorists routinely break at night, with no one ever sanctioned, best fits which description?",
+          "options": [
+            "An active norm",
+            "A more",
+            "A passive norm",
+            "A master status"
+          ],
+          "answerIndex": 2,
+          "explanation": "Passive norms are those whose breaches go largely unnoticed and unpunished. An active norm would attract punishment; mores are moral norms, not defined by enforcement."
+        },
+        {
+          "difficulty": 5,
+          "stem": "An influential group replaces an old value with a new one, but chooses no capable leader for the change and makes no plans for its effects on other institutions. According to the session, the most likely outcome is:",
+          "options": [
+            "Smooth adjustment, because values drive all other change",
+            "Social problems, because the four kinds of change are out of balance",
+            "Faster industrialisation, because old values are removed",
+            "No effect, because values do not influence institutions"
+          ],
+          "answerIndex": 1,
+          "explanation": "The session warns that changing values without a suitable actor and without planning for other institutions will create social problems. Values do influence institutions, so 'no effect' is wrong."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which Nigerian example is correctly paired with the kind of change Nwabueze's scheme assigns to it?",
+          "options": [
+            "Institutional change: military decrees replaced by a constitution",
+            "Change of actors: polygamy giving way to monogamy",
+            "Normative change: the return of queue culture with the BRT",
+            "Change in values: privatisation of NITEL"
+          ],
+          "answerIndex": 2,
+          "explanation": "The BRT and queue culture is the session's example of normative change. Decrees versus constitution illustrates change of actors, and polygamy's decline illustrates institutional change, so those pairs are swapped."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider these statements:\nI. Norms govern areas such as contracts, property rights and justice.\nII. All social institutions have stated values and expected ways of interacting.\nIII. A change in one institution rarely affects any other.\nIV. A new actor's personal ideology can alter service delivery.\nWhich are correct?",
+          "options": [
+            "I, II and IV only",
+            "I and III only",
+            "II, III and IV only",
+            "III and IV only"
+          ],
+          "answerIndex": 0,
+          "explanation": "Statements I, II and IV all come from the session. III is false: a change in one institution usually affects at least one other."
+        }
+      ]
+    },
+    {
+      "name": "Change and Nigeria's social problems",
+      "lesson": {
+        "title": "Social problems as the price of change",
+        "minutes": 9,
+        "hook": "Your grandparents' marriage probably involved two whole families, long negotiations and a bride price nobody dared skip. Today some couples simply announce their wedding on Instagram. Sociologists ask: what has that shift cost Nigerian society?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Modern ways replacing old ones",
+            "body": "All four kinds of change have occurred in Nigeria. Together they have pushed aside traditional ways of doing things and brought in modern lifestyles.\n\nThe problem is not change itself. It is that many cherished values were neglected or discarded along the way, and this disrupted social structures at several levels. Those disruptions are what the session sees behind many of Nigeria's social problems.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Traditional ways",
+                "Modern ways",
+                "Values discarded",
+                "Structures disrupted"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Marriage under westernisation",
+            "body": "Marriage and kinship show this clearly. Westernisation and industrialisation have weakened the old requirements for marriage: involving both families, paying **bride price**, checking family background and considering religion.\n\nSome weddings now happen without parental consent; even when parents agree, the extended family may be left out. Bride price is no longer treated as compulsory, whereas in the past every requirement had to be met before the ceremony could hold.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "people",
+                  "label": "Families sidelined"
+                },
+                {
+                  "icon": "cash",
+                  "label": "Bride price optional"
+                },
+                {
+                  "icon": "heart",
+                  "label": "Couple decides"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Smaller families, weaker ties",
+            "body": "The number of people involved in marriage has shrunk too. **Monogamy**, single parenthood and separate nuclear households are increasingly common, while **polygamy** fades quickly.\n\nThis reduces family size and loosens the ties that once bound relatives together. The session links these shifts to rising **divorce** and more children born outside marriage, which it describes as a serious threat to the structure of Nigerian society.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Weaker family checks",
+                "Looser ties",
+                "More divorce",
+                "Births outside marriage"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "According to the session, the decline of family involvement and bride price in marriage has been linked to:",
+            "options": [
+              "A fall in urban unemployment",
+              "Rising divorce and more children born outside marriage",
+              "A return to polygamy",
+              "Stronger extended-family protection"
+            ],
+            "answerIndex": 1,
+            "why": "The session connects weakened marriage requirements to more divorce and out-of-wedlock births. Polygamy is fading, not returning."
+          },
+          {
+            "kind": "teach",
+            "heading": "Industrialisation and the growth of cities",
+            "body": "Industrialisation drew people into cities in search of jobs and a better life. In pre-industrial times, kinship structures held people together and protected them. As crowds poured into towns, that **kin protection** weakened.\n\nGrowing urban populations, with all their complexity, brought **poverty**, **insecurity** and **unemployment** to the cities. A young person who would once have been fed and watched by relatives in the village is now alone in Lagos or Kano.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Industrialisation",
+                "Migration to cities",
+                "Kin ties weaken",
+                "Urban problems"
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Musa leaves home",
+            "story": "Musa grew up in a village near Bauchi, where uncles corrected him and aunties fed him when money was short. At nineteen he moves to Kano to find factory work. The jobs are fewer than promised, rent eats his savings, and nobody around him knows his family. Within a year he is sleeping in a motor park and drifting towards petty theft.",
+            "takeaway": "Urban migration weakens the kinship controls and support that once kept people from poverty and crime."
+          },
+          {
+            "kind": "terms",
+            "heading": "The historical processes behind problems",
+            "terms": [
+              {
+                "term": "Industrialisation",
+                "meaning": "The shift to factory and machine production, which pulls labour away from farms and villages."
+              },
+              {
+                "term": "Urbanisation",
+                "meaning": "The growth of towns and cities as more of the population comes to live in them."
+              },
+              {
+                "term": "Mobility",
+                "meaning": "The movement of people between places, jobs or social positions, loosening ties to origin."
+              },
+              {
+                "term": "Heterogeneity",
+                "meaning": "The mixing of people of different ethnic groups, religions and backgrounds, especially in cities."
+              },
+              {
+                "term": "Westernisation",
+                "meaning": "The adoption of Western cultural patterns, such as the nuclear family and individual choice of partner."
+              }
+            ]
+          },
+          {
+            "kind": "check",
+            "question": "Which of the following does the session list as a historical process that helped produce social problems in Nigeria?",
+            "options": [
+              "Heterogeneity",
+              "The superego",
+              "Master status",
+              "Folkways"
+            ],
+            "answerIndex": 0,
+            "why": "Industrialisation, urbanisation, mobility and heterogeneity are named as historical factors. Folkways and master status belong to culture and structure, and the superego to psychology."
+          },
+          {
+            "kind": "teach",
+            "heading": "The chain reaction",
+            "body": "The key principle is that **a change in one institution produces change in at least one other**. Industrialisation alters the economy; that pulls people to cities; that weakens the family; that leaves young people less supervised.\n\nSo the session's conclusion is: social problems arise when institutional change clashes with a society's norms and values. In that sense, **social problems are part of the price of social change**.",
+            "visual": {
+              "type": "cycle",
+              "nodes": [
+                "Economy changes",
+                "People migrate",
+                "Family weakens",
+                "New problems"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Beyond the manual: cultural lag",
+            "body": "A classic idea that fits this argument comes from William Ogburn (1922). He noticed that **material culture** (technology, machines, factories) usually changes faster than **non-material culture** (norms, values, beliefs, laws). The gap between them he called **cultural lag**.\n\nThe internet arrived in Nigeria long before laws on cybercrime caught up. During that lag, fraudsters exploited the gap. Cultural lag is a neat way to explain *why* change produces problems.",
+            "visual": {
+              "type": "scale",
+              "left": "Technology races ahead",
+              "right": "Norms and laws",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Mobile phones spread across a country years before any law addressed SIM-card fraud. Ogburn would describe the gap as:",
+            "options": [
+              "Anomie",
+              "Role conflict",
+              "Cultural lag",
+              "Ascribed status"
+            ],
+            "answerIndex": 2,
+            "why": "Cultural lag is the delay between fast-changing material culture and slower non-material culture such as law. Anomie is Durkheim's term for normlessness, a related but different idea."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Essay questions here ask you to show how social change produces social problems in Nigeria. Weak answers just list problems. Strong answers trace the chain: a historical process, its effect on an institution, the knock-on effect on another, and the resulting problem. The phrase 'price of social change' is worth quoting as your conclusion.",
+            "sampleQuestion": "'Social problems are the price societies pay for social change.' Discuss with reference to marriage and urbanisation in Nigeria.",
+            "howToAnswer": "Define social change, then trace how westernisation weakened marriage (divorce, out-of-wedlock births) and how industrialisation and urbanisation eroded kin protection (poverty, insecurity, unemployment), concluding that clashes between institutional change and values create problems.",
+            "scholars": [
+              "Nwabueze (1988)",
+              "Ogburn (1922)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Modern ways have displaced cherished values, disrupting social structures.",
+              "Marriage now often sidelines families, bride price and religion.",
+              "Weaker marriage ties are linked to divorce and births outside wedlock.",
+              "Industrialisation and urbanisation weakened kin protection, bringing urban poverty and insecurity.",
+              "A change in one institution changes others; problems are the price of change."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The session concludes that social problems are best seen as:",
+          "options": [
+            "Purely the result of evil individuals",
+            "Part of the price of social change",
+            "Problems found only in developing countries",
+            "Temporary events that disappear on their own"
+          ],
+          "answerIndex": 1,
+          "explanation": "The session's conclusion is that problems arise from clashes between institutional change, norms and values, making them part of the price of change. It does not blame only individuals."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which of these is NOT given in the session as a traditional requirement of marriage that is now often taken lightly?",
+          "options": [
+            "Payment of bride price",
+            "Involvement of both families",
+            "Registration at a foreign embassy",
+            "Checking family background"
+          ],
+          "answerIndex": 2,
+          "explanation": "Bride price, family involvement, family background checks and religion are the requirements mentioned. Embassy registration has nothing to do with them."
+        },
+        {
+          "difficulty": 1,
+          "stem": "In the session, the movement of people into cities in search of jobs weakened:",
+          "options": [
+            "Kin protection",
+            "Industrial production",
+            "Information technology",
+            "Formal sanctions"
+          ],
+          "answerIndex": 0,
+          "explanation": "As people flooded into cities, the emphasis on protection by kin declined. Industrial production was the reason people moved, not what weakened."
+        },
+        {
+          "difficulty": 2,
+          "stem": "According to the session, which urban problems emerged with the growth and complexity of city populations?",
+          "options": [
+            "Polygamy, bride price and arranged marriage",
+            "Folkways, mores and laws",
+            "Poverty, public insecurity and unemployment",
+            "Id, ego and superego"
+          ],
+          "answerIndex": 2,
+          "explanation": "Poverty, insecurity and unemployment are named as problems of growing cities. Folkways, mores and laws are types of norms, not problems."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Westernisation has affected the Nigerian family mainly by:",
+          "options": [
+            "Increasing the practice of polygamy",
+            "Strengthening the role of the extended family in marriage",
+            "Making bride price more compulsory",
+            "Spreading monogamy, single parenthood and separate households"
+          ],
+          "answerIndex": 3,
+          "explanation": "The session reports the spread of monogamy, single parenting and separate families as polygamy fades. The other options describe the opposite trend."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The principle that 'a change in one social institution will bring change in at least one other' implies that:",
+          "options": [
+            "Institutions are interconnected, so change can ripple into new problems",
+            "Institutions never influence each other",
+            "Only the family institution can change",
+            "Social problems arise only from psychological factors"
+          ],
+          "answerIndex": 0,
+          "explanation": "Interconnection means change in, say, the economy spills into the family and beyond, sometimes creating problems. The other options deny that interconnection."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Ada and Femi marry in a registry without informing their parents, pay no bride price and ignore their religious differences. Within the session's argument, this scene illustrates:",
+          "options": [
+            "Psychological factors in social problems",
+            "Weakening of traditional marriage requirements due to westernisation",
+            "A change of personnel in government",
+            "The strengthening of kinship control"
+          ],
+          "answerIndex": 1,
+          "explanation": "Skipping parental consent, bride price and religious considerations shows traditional marriage requirements weakening under westernisation. Kinship control is weakening here, not strengthening."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A young man moves from his village to Port Harcourt, finds no work, and has no relatives nearby to support or supervise him. He soon joins a gang. A sociologist using the session's historical factors would point mainly to:",
+          "options": [
+            "His overactive id",
+            "A breakdown in folkways only",
+            "His ascribed status as a man",
+            "Urbanisation and the weakening of kin protection"
+          ],
+          "answerIndex": 3,
+          "explanation": "Historical factors stress how migration to cities eroded the kinship ties that once supported and controlled people. The id points to psychological, not historical, explanations."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Internet banking spreads rapidly in a country, but laws against online fraud are passed only years later. Fraud flourishes in between. This is best explained by:",
+          "options": [
+            "Ogburn's idea of cultural lag",
+            "Durkheim's altruistic suicide",
+            "Achieved status",
+            "Positive formal sanctions"
+          ],
+          "answerIndex": 0,
+          "explanation": "Cultural lag (Ogburn, 1922) is the gap when material culture changes faster than norms and laws. Altruistic suicide and achieved status are unrelated concepts."
+        },
+        {
+          "difficulty": 4,
+          "stem": "In Ogburn's theory of cultural lag, which part of culture usually changes first?",
+          "options": [
+            "Non-material culture such as values",
+            "Mores and folkways",
+            "Material culture such as technology",
+            "Religious beliefs"
+          ],
+          "answerIndex": 2,
+          "explanation": "Material culture, especially technology, typically changes faster; norms, values and beliefs (non-material culture) lag behind. Mores and folkways are non-material."
+        },
+        {
+          "difficulty": 4,
+          "stem": "According to the session, social problems arise most directly when there is:",
+          "options": [
+            "A complete absence of social change",
+            "Conflict between institutional change and the norms and values of society",
+            "Too much kin protection in cities",
+            "Agreement between norms and institutions"
+          ],
+          "answerIndex": 1,
+          "explanation": "The session sums up that conflict between institutional change, norms and values produces social problems. Agreement between them would mean adjustment, not problems."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are listed in the session as historical processes that precipitated social problems in Nigeria EXCEPT:",
+          "options": [
+            "Industrialisation",
+            "Urbanisation",
+            "Mobility",
+            "Socialisation"
+          ],
+          "answerIndex": 3,
+          "explanation": "Industrialisation, urbanisation, mobility and heterogeneity are the historical processes named. Socialisation is how individuals learn their culture; it is linked to the superego, not listed here."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider these claims about marriage in modern Nigeria as presented in the session:\nI. Bride price is now treated as less compulsory.\nII. Polygamy is fading while monogamy spreads.\nIII. The extended family has become more central in weddings.\nIV. These shifts are linked to rising divorce.\nWhich are correct?",
+          "options": [
+            "I and III only",
+            "II and III only",
+            "I, II and IV only",
+            "I, III and IV only"
+          ],
+          "answerIndex": 2,
+          "explanation": "I, II and IV match the session. III is wrong: the extended family's involvement is often considered unnecessary today."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A student writes: 'Industrialisation solved Nigeria's social problems by giving people jobs in cities.' Based on the session, the strongest objection is that industrialisation:",
+          "options": [
+            "Had no effect on Nigerian society",
+            "Strengthened kinship structures and removed poverty",
+            "Affected only the political institution",
+            "Weakened kinship ties and, with urban growth, brought poverty, insecurity and unemployment"
+          ],
+          "answerIndex": 3,
+          "explanation": "The session argues industrialisation weakened the kinship system and, through urban growth, brought new urban problems. It clearly did affect society, and it weakened, not strengthened, kinship."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which sequence best captures the session's chain from historical process to social problem?",
+          "options": [
+            "Industrialisation, migration to cities, weakened kin ties, urban poverty",
+            "Urban poverty, industrialisation, stronger kin ties, migration",
+            "Weakened kin ties, polygamy, industrialisation, bride price",
+            "Migration, stronger extended family, lower crime, industrialisation"
+          ],
+          "answerIndex": 0,
+          "explanation": "Industrialisation drew people to cities, which weakened kin protection and produced urban problems such as poverty. The other sequences reverse cause and effect or claim kin ties grew stronger."
+        }
+      ]
+    },
+    {
+      "name": "Social disorganisation: Durkheim and Merton",
+      "lesson": {
+        "title": "When society loses its grip",
+        "minutes": 11,
+        "hook": "Why would a wealthy professional, with a car, a house and a good salary, take their own life, while a struggling farmer in a close-knit village does not? Émile Durkheim thought the answer lay not in the person but in their society.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Sociological factors: two routes",
+            "body": "The sociological causes of social problems are explained in two ways in this session: through the **social disorganisation** perspective, and through the **elements of social structure and culture**.\n\nThis class takes the first route. Social disorganisation grew out of several theoretical traditions, including the Chicago School's studies of crime in city neighbourhoods. Its central claim is easy to state: order breeds conformity, disorder breeds deviance.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "git-network",
+                  "label": "Disorganisation"
+                },
+                {
+                  "icon": "layers",
+                  "label": "Structure and culture"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Organised versus disorganised society",
+            "left": {
+              "title": "Socially organised",
+              "points": [
+                "Members broadly agree on norms and values",
+                "Strong cohesion among members",
+                "Interaction proceeds in an orderly way",
+                "Conformity is encouraged"
+              ]
+            },
+            "right": {
+              "title": "Socially disorganised",
+              "points": [
+                "Cohesion or integration is disrupted",
+                "Social control breaks down",
+                "Parts of society are out of alignment",
+                "Crime and deviance flourish"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "A community where residents disagree about basic rules, rarely know their neighbours and where informal control has collapsed would be described as:",
+            "options": [
+              "Socially organised",
+              "Socially disorganised",
+              "Highly integrated",
+              "Mechanically solidary"
+            ],
+            "answerIndex": 1,
+            "why": "Lack of consensus, weak cohesion and broken social control are the marks of social disorganisation. An organised or integrated society has the opposite traits."
+          },
+          {
+            "kind": "teach",
+            "heading": "Durkheim: a problem of adjustment",
+            "body": "For **Émile Durkheim**, the troubles of modern people were mainly a matter of **maladjustment** to modern conditions. Rapid change had left them without a suitable moral framework. The remedy, he believed, was to build a morality fitted to modern life, one that would let people adjust and live contentedly.\n\nHis famous test case was **suicide** (1897). If even this most private act follows social patterns, then society must shape individual behaviour.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Rapid modern change",
+                "Old morality fails",
+                "Maladjustment",
+                "Social problems"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Why modern people kill themselves",
+            "body": "Studying suicide, Durkheim was in effect looking at the upper and middle classes and the liberal professions, where, as Zeitlin (1968) notes, suicide was unusually frequent.\n\nDurkheim linked modern suicide to two things: modern society's **weakening social bonds**, and the **absence of suitable moral norms** to guide people. Without strong bonds and clear rules, individuals are left adrift. He called the state of normlessness **anomie**.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "people",
+                  "label": "Lost cohesion"
+                },
+                {
+                  "icon": "close-circle",
+                  "label": "Missing norms"
+                },
+                {
+                  "icon": "sad",
+                  "label": "Suicide rises"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "terms",
+            "heading": "Durkheim's four types of suicide",
+            "terms": [
+              {
+                "term": "Egoistic",
+                "meaning": "Too little integration: the person is weakly tied to family, religion or community."
+              },
+              {
+                "term": "Altruistic",
+                "meaning": "Too much integration: the person sacrifices self for the group."
+              },
+              {
+                "term": "Anomic",
+                "meaning": "Too little regulation: norms collapse, often during sudden boom or crisis."
+              },
+              {
+                "term": "Fatalistic",
+                "meaning": "Too much regulation: life is so tightly controlled that hope disappears."
+              }
+            ]
+          },
+          {
+            "kind": "teach",
+            "heading": "Merton: deviance comes from structure",
+            "body": "**Robert K. Merton** built on Durkheim. He argued that deviant behaviour can be traced to the **social structure** itself, not just to bad individuals. In the course text, this is framed as **culture conflict** being the principal source of crime.\n\nMerton (1968) picked out two key elements of social structure: **culturally defined goals**, which everyone is told are worth pursuing, and **regulatory norms**, which define and control the approved means of reaching them.",
+            "visual": {
+              "type": "venn",
+              "left": "Cultural goals",
+              "right": "Approved means",
+              "both": "Conformity"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The gap between goals and means",
+            "body": "Deviance arises from the **gap** between what culture tells people to aspire to and the socially acceptable routes for getting there.\n\nNigerian society celebrates wealth: big cars, mansions, flashy owambe spending. Yet good jobs, capital and connections are scarce for many young people. When the goal is pushed hard and the legitimate means are blocked, some people take illegitimate shortcuts.",
+            "visual": {
+              "type": "scale",
+              "left": "Goal of wealth",
+              "right": "Legitimate means",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Emeka and the 'quick money'",
+            "story": "Emeka graduates with a second-class lower and spends three years job hunting. Every weekend his church and his friends' Instagram pages celebrate people who 'have made it'. Nobody asks how. A former classmate offers him a role in an online romance scam. Emeka still wants what society says success looks like, but he drops the approved means.",
+            "takeaway": "Merton's gap: strong cultural goals with blocked legitimate means push some people into deviance."
+          },
+          {
+            "kind": "steps",
+            "heading": "Beyond the manual: Merton's five adaptations",
+            "steps": [
+              {
+                "title": "Conformity",
+                "detail": "Accepts the goals and the approved means; the most common response."
+              },
+              {
+                "title": "Innovation",
+                "detail": "Accepts the goals but uses illegitimate means, as with fraud or theft."
+              },
+              {
+                "title": "Ritualism",
+                "detail": "Gives up on the goals but sticks rigidly to the rules and routines."
+              },
+              {
+                "title": "Retreatism",
+                "detail": "Rejects both goals and means and withdraws, for example into drug addiction."
+              },
+              {
+                "title": "Rebellion",
+                "detail": "Rejects both and replaces them with new goals and means, as revolutionaries do."
+              }
+            ]
+          },
+          {
+            "kind": "check",
+            "question": "In Merton's scheme, Emeka, who keeps the goal of wealth but turns to internet fraud, is an example of:",
+            "options": [
+              "Ritualism",
+              "Retreatism",
+              "Rebellion",
+              "Innovation"
+            ],
+            "answerIndex": 3,
+            "why": "Innovation means accepting cultural goals but using illegitimate means. Retreatism rejects both goals and means."
+          },
+          {
+            "kind": "teach",
+            "heading": "What the two theorists share",
+            "body": "Put Durkheim and Merton together and one principle stands out: **the weaker the solidarity, cohesion or integration of a group, the higher its rate of deviance and crime**.\n\nBoth show how the plight of a seemingly isolated individual is tied to the wider social context. The suicide, the fraudster and the drug user are not just personal stories; they are signs of how society is organised, which is why social problems arise.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Strong cohesion",
+              "right": "Weak cohesion",
+              "marker": 85,
+              "label": "Deviance rises as cohesion weakens"
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "The SAQ for this session asks directly for Durkheim's and Merton's positions on social disorganisation. Expect objectives on Merton's 'two most important elements' (goals and regulatory norms) and on 'the principal source of crime' (culture conflict, as the text puts it). The trap: crediting the goals–means gap to Durkheim, or saying Durkheim found suicide commonest among the poor.",
+            "sampleQuestion": "Examine the contributions of Durkheim and Merton to the social disorganisation explanation of social problems.",
+            "howToAnswer": "Define social disorganisation, explain Durkheim's maladjustment and suicide argument (lost cohesion, missing norms), then Merton's goals–means gap, and conclude that weaker cohesion means more deviance.",
+            "scholars": [
+              "Durkheim (1897/1951)",
+              "Merton (1938, 1968)",
+              "Zeitlin (1968)",
+              "Shaw & McKay (1942)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Disorganisation: broken consensus, cohesion and control breed deviance.",
+              "Durkheim: modern problems stem from maladjustment and the need for a fitting morality.",
+              "Modern suicide rises with lost cohesion and missing norms (anomie).",
+              "Merton: deviance stems from the gap between cultural goals and regulatory norms.",
+              "Shared lesson: less solidarity means more deviance and crime."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "According to the social disorganisation perspective, conformity is encouraged by:",
+          "options": [
+            "Disorder and malintegration",
+            "Social order, stability and integration",
+            "Weak social control",
+            "Rapid migration into cities"
+          ],
+          "answerIndex": 1,
+          "explanation": "The perspective holds that order, stability and integration favour conformity, while disorder and malintegration favour crime. Weak social control is a sign of disorganisation."
+        },
+        {
+          "difficulty": 1,
+          "stem": "In Merton's analysis, the two most important elements of social structure are:",
+          "options": [
+            "Id and superego",
+            "Folkways and mores",
+            "Culturally defined goals and regulatory norms",
+            "Primary and secondary groups"
+          ],
+          "answerIndex": 2,
+          "explanation": "Merton focused on culturally defined goals and the norms that regulate the means of reaching them. Folkways and mores are types of norms, not Merton's pair."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Durkheim's study used to illustrate the social roots of individual behaviour was on:",
+          "options": [
+            "Suicide",
+            "Witchcraft",
+            "Divorce",
+            "Juvenile gangs"
+          ],
+          "answerIndex": 0,
+          "explanation": "Durkheim's Suicide showed that even this private act follows social patterns. Juvenile gangs were studied by the Chicago School, not in this work."
+        },
+        {
+          "difficulty": 2,
+          "stem": "According to the course text, Robert Merton regarded the principal source of crime as:",
+          "options": [
+            "Biological inheritance",
+            "An overactive id",
+            "Poor diet in childhood",
+            "Culture conflict"
+          ],
+          "answerIndex": 3,
+          "explanation": "The text states that Merton's explanation treats culture conflict, the clash between cultural goals and available means, as the main source of crime. The id is a psychological, not a structural, explanation."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Durkheim traced modern suicide mainly to which two conditions?",
+          "options": [
+            "Poverty and poor education",
+            "Loss of social cohesion and absence of suitable moral norms",
+            "Overpopulation and urban crowding",
+            "Strong religion and tight family control"
+          ],
+          "answerIndex": 1,
+          "explanation": "Durkheim pointed to weakened cohesion and missing moral norms. Tight family and religious control are the opposite of what he blamed for modern suicide."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Durkheim's general view was that the problems of modern people were essentially a matter of:",
+          "options": [
+            "Maladjustment to modern conditions",
+            "Class exploitation by capitalists",
+            "Inherited criminal traits",
+            "Excessive cultural goals only"
+          ],
+          "answerIndex": 0,
+          "explanation": "Durkheim saw modern problems as maladjustment and called for a morality suited to modern life. Class exploitation is a Marxian explanation, not his."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A neighbourhood experiences a rapid turnover of residents; people do not know each other, there is no agreement on acceptable behaviour, and nobody intervenes when youths vandalise property. A social disorganisation theorist would predict:",
+          "options": [
+            "Very low crime because of personal freedom",
+            "No link between the setting and deviance",
+            "Rising crime and deviance",
+            "Stronger informal control over time"
+          ],
+          "answerIndex": 2,
+          "explanation": "Disrupted cohesion, lack of consensus and broken control are exactly the conditions the theory links to crime. Informal control has collapsed, not strengthened."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A civil servant has given up hope of promotion but still follows every office procedure to the letter. In Merton's typology this is:",
+          "options": [
+            "Innovation",
+            "Ritualism",
+            "Conformity",
+            "Rebellion"
+          ],
+          "answerIndex": 1,
+          "explanation": "Ritualism abandons the cultural goal but clings to the approved means. Conformity would mean still pursuing the goal through those means."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Society strongly celebrates wealth, but a large group of young graduates has no access to jobs or capital. Merton would expect:",
+          "options": [
+            "Everyone to lower their goals peacefully",
+            "Deviance to disappear as goals rise",
+            "Crime to depend only on personality traits",
+            "Some to turn to illegitimate means to reach the goal"
+          ],
+          "answerIndex": 3,
+          "explanation": "A gap between strongly promoted goals and blocked legitimate means pushes some people towards deviance. Merton located the cause in structure, not personality."
+        },
+        {
+          "difficulty": 4,
+          "stem": "According to the course text (citing Zeitlin, 1968), Durkheim found suicide to be unusually frequent among:",
+          "options": [
+            "The upper and middle classes and liberal professions",
+            "Rural peasants and farm labourers",
+            "Children and adolescents",
+            "Prison inmates"
+          ],
+          "answerIndex": 0,
+          "explanation": "The text notes that Durkheim was in effect studying the upper and middle classes and liberal professions, where suicide was exceptionally common. Students often wrongly assume the poor were his focus."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which of the following is NOT a feature of a socially organised system in the social disorganisation perspective?",
+          "options": [
+            "Internal consensus on norms and values",
+            "Strong cohesion among members",
+            "Orderly social interaction",
+            "Malalignment among the elements of society"
+          ],
+          "answerIndex": 3,
+          "explanation": "Malalignment among society's elements marks disorganisation. Consensus, cohesion and orderly interaction mark an organised system."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Durkheim's concept describing a condition of normlessness, in which people lack clear rules to guide them, is:",
+          "options": [
+            "Alienation",
+            "Cultural lag",
+            "Anomie",
+            "Ritualism"
+          ],
+          "answerIndex": 2,
+          "explanation": "Anomie is Durkheim's term for normlessness. Alienation is Marx's concept, and cultural lag is Ogburn's."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider these statements:\nI. Merton built his ideas on Durkheim's work.\nII. Merton traced deviance to the social structure.\nIII. Durkheim argued that suicide is purely a matter of individual psychology.\nIV. Both imply that weaker cohesion brings higher deviance.\nWhich are correct?",
+          "options": [
+            "I, II and IV only",
+            "I and III only",
+            "II, III and IV only",
+            "III and IV only"
+          ],
+          "answerIndex": 0,
+          "explanation": "I, II and IV reflect the session. III is false: Durkheim's whole point was that suicide has social causes such as lost cohesion and missing norms."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which pairing of theorist and idea is correct?",
+          "options": [
+            "Durkheim: gap between cultural goals and institutional means",
+            "Merton: modern suicide caused by loss of cohesion",
+            "Merton: culturally defined goals and regulatory norms",
+            "Durkheim: innovation, ritualism and retreatism"
+          ],
+          "answerIndex": 2,
+          "explanation": "Merton identified cultural goals and regulatory norms as key structural elements. The goals–means gap and the adaptations are Merton's, while the suicide argument is Durkheim's, so the other pairs are swapped."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A researcher finds that suicide rates are lowest in close-knit communities with shared moral rules, and highest where bonds are weak and rules unclear. This finding most strongly supports:",
+          "options": [
+            "Freud's view that the id drives all deviance",
+            "Durkheim's link between cohesion, norms and suicide",
+            "Merton's mode of rebellion",
+            "Ogburn's theory of material culture"
+          ],
+          "answerIndex": 1,
+          "explanation": "The pattern matches Durkheim's argument that lost cohesion and absent norms raise suicide. Rebellion concerns rejecting goals and means, not suicide rates."
+        }
+      ]
+    },
+    {
+      "name": "Elements of social structure",
+      "lesson": {
+        "title": "Institutions, groups, statuses and roles",
+        "minutes": 10,
+        "hook": "You are a student, someone's child, maybe a fellowship member and a part-time POS operator, all in one day. Each of those positions comes with its own rules. Sociologists say this web of positions is what 'society' actually looks like.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Society as a coin",
+            "body": "Society surrounds us, yet it is hard to *see*. A useful picture: society is a **coin with two sides**. One side is **social structure**, the way society is organised. The other side is **culture**, the meanings and ways of life people share.\n\nEach side is distinct, but you cannot have one without the other. Looking closely at each side helps us find some root causes of social problems. This class takes the structure side.",
+            "visual": {
+              "type": "venn",
+              "left": "Social structure",
+              "right": "Culture",
+              "both": "Society"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Four building blocks of structure",
+            "body": "Social structure has four parts that nest inside each other.\n\n**Institutions** are made up of **social groups**. Groups are made up of **statuses**. And every status carries a set of **roles**.\n\nThink of it as moving from the widest to the most personal: from 'the family' as an institution, down to your own family, down to your position as first daughter, down to what is expected of you in that position.",
+            "visual": {
+              "type": "pyramid",
+              "levels": [
+                "Institutions",
+                "Social groups",
+                "Statuses",
+                "Roles"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Institutions",
+            "body": "An **institution** is an established, lasting pattern of social relationships. The five traditional ones are **family, religion, politics, economics and education**. Modern societies add others: science and technology, the mass media, medicine, sport and the military.\n\nMany social problems come from weaknesses in institutions. Unemployment, for example, may grow when schools fail to prepare graduates for the labour market and when the economy itself is restructured.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "home",
+                  "label": "Family"
+                },
+                {
+                  "icon": "book",
+                  "label": "Education"
+                },
+                {
+                  "icon": "cash",
+                  "label": "Economy"
+                },
+                {
+                  "icon": "flag",
+                  "label": "Politics"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Which of the following is NOT one of the five traditional social institutions?",
+            "options": [
+              "Religion",
+              "Education",
+              "Mass media",
+              "Family"
+            ],
+            "answerIndex": 2,
+            "why": "The traditional five are family, religion, politics, economics and education. The mass media is one of the newer institutions important in modern society."
+          },
+          {
+            "kind": "compare",
+            "heading": "Primary and secondary groups",
+            "left": {
+              "title": "Primary groups",
+              "points": [
+                "Usually small",
+                "Intimate, informal interaction",
+                "Valued for the relationship itself",
+                "Family, close friends"
+              ]
+            },
+            "right": {
+              "title": "Secondary groups",
+              "points": [
+                "Small or large",
+                "Impersonal, formal interaction",
+                "Task-oriented",
+                "Employer and staff, clerk and customer"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Social groups",
+            "body": "A **social group** is two or more people who share an identity, interact and form a relationship. Your family is a group inside the family institution; your church or mosque association is a group inside religion.\n\nThe primary–secondary distinction goes back to Charles Horton Cooley, who coined the term primary group. Social problems often deepen when primary groups weaken and people are left with only impersonal, secondary ties.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Primary: intimate",
+              "right": "Secondary: formal",
+              "marker": 25,
+              "label": "A family sits near the intimate end"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Status: ascribed and achieved",
+            "body": "A **status** is a position a person holds in a group, and our statuses largely define our social identity.\n\nAn **ascribed status** is assigned by society on the basis of things we cannot control: sex, race, ethnic group, the class we are born into, and age categories like 'teenager' or 'senior citizen'.\n\nAn **achieved status** depends on our own effort and choices: graduate, spouse, parent, bank manager, or even prison inmate.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "child",
+                  "label": "Ascribed: born with"
+                },
+                {
+                  "icon": "briefcase",
+                  "label": "Achieved: earned"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Born poor in Ajegunle",
+            "story": "Kunle and Bisi are equally bright. Bisi is born into a wealthy family in Lekki; Kunle grows up in Ajegunle, where his mother sells pepper. Bisi's school fees are never in doubt. Kunle drops out twice to help at home and gets his degree four years late. Both statuses, 'graduate', were achieved, but one road was far steeper.",
+            "takeaway": "Ascribed statuses such as the class you are born into affect how easily you can achieve other statuses."
+          },
+          {
+            "kind": "teach",
+            "heading": "Master status",
+            "body": "Everyone holds many statuses at once: student, sister, tutor, volunteer, Yoruba, female. Your **master status** is the one seen as most significant to your social identity. Usually it is your occupation; for a full-time undergraduate it is likely 'student'.\n\nA master status can also be negative. Once someone is labelled 'ex-convict', employers may ignore every other status they hold, which can push them back into crime. The term is linked to Everett Hughes (1945).",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "person",
+                  "label": "Many statuses"
+                },
+                {
+                  "icon": "flash",
+                  "label": "One dominates"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Ifeoma is a wife, a mother, a Catholic and a medical doctor. Sociologists would most likely regard which as her master status?",
+            "options": [
+              "Wife",
+              "Catholic",
+              "Mother",
+              "Medical doctor"
+            ],
+            "answerIndex": 3,
+            "why": "Occupation is typically treated as the master status because it shapes how others see a person most. Her other statuses are real but usually less defining."
+          },
+          {
+            "kind": "teach",
+            "heading": "Roles",
+            "body": "Every status carries **roles**: the rights, duties and expectations attached to it. Roles guide our behaviour and let us predict others'. You know a student should attend class and sit exams, so you can also predict that a lecturer will teach, set papers and award grades.\n\nOne status involves **several roles**. A prison inmate acts one way with warders and another with fellow inmates; a nurse relates differently to doctors and to patients. Merton (1957) called this bundle a **role set**.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "One status",
+                "Several roles",
+                "Predictable behaviour"
+              ]
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect scenario objectives: 'Which is an ascribed status?', 'Identify the master status', 'Which is a secondary group?'. The common traps are calling 'prison inmate' ascribed (it is achieved, because it follows behaviour) and treating 'teenager' as achieved (age statuses are ascribed). Know the nesting order: institutions, groups, statuses, roles.",
+            "sampleQuestion": "With examples, explain how the elements of social structure can contribute to social problems such as unemployment.",
+            "howToAnswer": "Define social structure, list institutions, groups, statuses and roles with examples, then show one link each, e.g. failing education and economy causing unemployment, or ascribed poverty blocking achieved statuses.",
+            "scholars": [
+              "Mooney, Knox & Schacht (2007)",
+              "Cooley (1909)",
+              "Hughes (1945)",
+              "Merton (1957)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Society is a coin: structure on one side, culture on the other.",
+              "Structure nests: institutions, groups, statuses, roles.",
+              "Five traditional institutions: family, religion, politics, economics, education.",
+              "Primary groups are intimate; secondary groups are formal and task-oriented.",
+              "Ascribed statuses are assigned; achieved statuses depend on effort; master status dominates.",
+              "Each status carries several roles that guide behaviour."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The structure of society refers to:",
+          "options": [
+            "The meanings and ways of life of a people",
+            "The way society is organised",
+            "The personality traits of its members",
+            "The symbols used in communication"
+          ],
+          "answerIndex": 1,
+          "explanation": "Social structure is how society is organised into institutions, groups, statuses and roles. Meanings and ways of life describe culture, the other side of the coin."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which of the following correctly lists the elements of social structure?",
+          "options": [
+            "Beliefs, values, norms and symbols",
+            "Id, ego and superego",
+            "Institutions, social groups, statuses and roles",
+            "Folkways, mores and laws"
+          ],
+          "answerIndex": 2,
+          "explanation": "Institutions, social groups, statuses and roles make up social structure. Beliefs, values, norms and symbols are elements of culture."
+        },
+        {
+          "difficulty": 1,
+          "stem": "A status that society assigns on the basis of factors the individual cannot control is called:",
+          "options": [
+            "An ascribed status",
+            "An achieved status",
+            "A master status",
+            "A role set"
+          ],
+          "answerIndex": 0,
+          "explanation": "Ascribed statuses, such as sex, ethnicity or the class one is born into, are assigned without choice. Achieved statuses depend on effort and behaviour."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which of the following is an example of a secondary group?",
+          "options": [
+            "A nuclear family",
+            "A circle of childhood friends",
+            "Siblings sharing a room",
+            "A bank clerk and the customers being served"
+          ],
+          "answerIndex": 3,
+          "explanation": "Clerk–customer relationships are impersonal, formal and task-oriented, the marks of a secondary group. Families and close friends are primary groups."
+        },
+        {
+          "difficulty": 2,
+          "stem": "According to the session, unemployment may be influenced by:",
+          "options": [
+            "The failure of education to prepare people for the job market, and changes in the economic institution",
+            "The decline of folkways such as greeting elders",
+            "Too many primary groups in society",
+            "The existence of master statuses"
+          ],
+          "answerIndex": 0,
+          "explanation": "The session uses unemployment to show institutional inadequacy: schools not preparing graduates and economic restructuring. Folkways are a cultural element unrelated to this example."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Roles are best defined as:",
+          "options": [
+            "Positions a person occupies in a group",
+            "Enduring patterns of social relationships",
+            "Rights, obligations and expectations attached to a status",
+            "Two or more people with a common identity"
+          ],
+          "answerIndex": 2,
+          "explanation": "Roles are the expectations attached to a status. A position in a group is the status itself, and the other options define institutions and groups."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Which of these is an ACHIEVED status?",
+          "options": [
+            "Being Igbo",
+            "Being a teenager",
+            "Being born into a royal family",
+            "Being a prison inmate"
+          ],
+          "answerIndex": 3,
+          "explanation": "Becoming a prison inmate depends largely on one's own behaviour, so it is achieved. Ethnicity, age category and birth into royalty are ascribed."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A nurse speaks formally to the consultant on the ward round but comforts patients warmly an hour later. This illustrates that:",
+          "options": [
+            "A single status involves more than one role",
+            "Nurses have no master status",
+            "Roles are the same in every situation",
+            "Nursing is an ascribed status"
+          ],
+          "answerIndex": 0,
+          "explanation": "One status (nurse) carries different roles for different partners, as the session's nurse example shows. Nursing is achieved, not ascribed."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Chukwudi, a full-time 300 Level student, is also a church usher, a younger brother and a part-time football coach. His master status is most likely:",
+          "options": [
+            "Church usher",
+            "Student",
+            "Younger brother",
+            "Football coach"
+          ],
+          "answerIndex": 1,
+          "explanation": "For a full-time student, the master status is usually 'student', the most significant part of his identity at this stage. The other statuses are secondary to it."
+        },
+        {
+          "difficulty": 4,
+          "stem": "The session points out that one's ascribed status may affect the chance of achieving other statuses. Which example best supports this?",
+          "options": [
+            "A student chooses to study law rather than medicine",
+            "A man becomes a husband by marrying",
+            "A child born into poverty struggles to afford a university degree",
+            "A worker resigns to start a business"
+          ],
+          "answerIndex": 2,
+          "explanation": "Being born poor (ascribed) makes the achieved status of graduate harder to reach. The other options involve only choices, not the effect of an ascribed status."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which of the following is correctly described as a newer social institution important in modern society, rather than one of the five traditional ones?",
+          "options": [
+            "Religion",
+            "The military",
+            "Family",
+            "Economics"
+          ],
+          "answerIndex": 1,
+          "explanation": "The military, along with science and technology, media, medicine and sport, is listed among the newer institutions. Religion, family and economics are among the traditional five."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement about primary and secondary groups is FALSE?",
+          "options": [
+            "Primary groups tend to involve small numbers of people",
+            "Secondary groups are task-oriented",
+            "Secondary groups must always be large",
+            "Primary group interaction is intimate and informal"
+          ],
+          "answerIndex": 2,
+          "explanation": "Secondary groups may be small or large; what defines them is formal, impersonal, task-focused interaction. The other statements are accurate."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Arrange the elements of social structure from the broadest to the most specific:",
+          "options": [
+            "Roles, statuses, social groups, institutions",
+            "Social groups, institutions, roles, statuses",
+            "Statuses, roles, institutions, social groups",
+            "Institutions, social groups, statuses, roles"
+          ],
+          "answerIndex": 3,
+          "explanation": "Institutions consist of groups, groups consist of statuses, and each status carries roles. The first option is the correct order reversed, a common trap."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider these statements:\nI. Age categories such as 'senior citizen' are ascribed statuses.\nII. A person holds only one status at a time.\nIII. Occupation is typically regarded as the master status.\nIV. Roles allow us to predict the behaviour of others.\nWhich are correct?",
+          "options": [
+            "I, III and IV only",
+            "I and II only",
+            "II, III and IV only",
+            "II and IV only"
+          ],
+          "answerIndex": 0,
+          "explanation": "I, III and IV match the session. II is false: everyone holds numerous statuses simultaneously."
+        },
+        {
+          "difficulty": 5,
+          "stem": "An ex-convict with a degree and good references keeps being rejected by employers who see only his criminal record, and he eventually returns to crime. Which concept best explains how his structure-based identity contributes to this social problem?",
+          "options": [
+            "A primary group",
+            "A negative master status",
+            "A folkway",
+            "An ascribed role"
+          ],
+          "answerIndex": 1,
+          "explanation": "'Ex-convict' has become a master status that overrides his other statuses and blocks legitimate opportunities. A folkway is a cultural custom, not a feature of identity."
+        }
+      ]
+    }
+  ]
+}

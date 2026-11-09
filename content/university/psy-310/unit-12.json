@@ -1,0 +1,732 @@
+{
+  "unit": 12,
+  "title": "Emotional Behaviour",
+  "summary": "What emotions are, their bodily signatures, how emotional understanding develops socially, the brain structures and chemicals behind emotion, and how mood shapes thinking.",
+  "sections": [
+    {
+      "name": "Body and social development",
+      "lesson": {
+        "title": "Feelings in the body and between people",
+        "minutes": 10,
+        "hook": "When you are angry, your face feels hot; when you are afraid, your hands go cold. Could a thermometer tell which emotion you are feeling?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "What emotions are",
+            "body": "**Emotions** give colour, meaning and intensity to life. They are usually **reactions to stimuli**, with **physiological arousal** and **characteristic behaviour**.\n\nWatson and Tellegen (1985) argued that the many human emotions can be seen as combinations of just **two basic dimensions**: **positive** and **negative** feeling. Fear, for example, is acutely unpleasant, arouses the **sympathetic** nervous system, and shows in behaviour.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Negative affect",
+              "right": "Positive affect",
+              "marker": 50,
+              "label": "Two basic dimensions"
+            }
+          },
+          {
+            "kind": "steps",
+            "heading": "Three parts of an emotion",
+            "steps": [
+              {
+                "title": "Feeling",
+                "detail": "The subjective experience: pleasant or unpleasant, mild or intense."
+              },
+              {
+                "title": "Physiological arousal",
+                "detail": "Bodily changes driven largely by the autonomic nervous system."
+              },
+              {
+                "title": "Behaviour and expression",
+                "detail": "Facial expressions, posture and actions such as fleeing or attacking."
+              }
+            ]
+          },
+          {
+            "kind": "teach",
+            "heading": "Faces and bodies match",
+            "body": "**Ekman and colleagues (1983)** and **Levenson and colleagues (1990)** asked people to pose facial expressions of six emotions: **fear, anger, sadness, happiness, surprise and disgust**. Meanwhile they measured how fast the **heart** beat, how much the **skin conducted electricity** (sweating), how **warm the hands** were, and how **tense the forearm muscles** became.\n\nEach posed expression produced its **own physiological pattern**, suggesting emotions have distinct bodily signatures.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "happy",
+                  "label": "Face posed"
+                },
+                {
+                  "icon": "pulse",
+                  "label": "Heart rate"
+                },
+                {
+                  "icon": "bulb",
+                  "label": "Skin temperature"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Heart rate by emotion",
+            "left": {
+              "title": "Lower heart rate",
+              "points": [
+                "Happiness",
+                "Disgust",
+                "Surprise"
+              ]
+            },
+            "right": {
+              "title": "Higher heart rate",
+              "points": [
+                "Sadness",
+                "Anger",
+                "Fear"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "In Ekman's studies, which emotion was marked by high skin temperature compared with fear and sadness?",
+            "options": [
+              "Anger",
+              "Happiness",
+              "Disgust",
+              "Surprise"
+            ],
+            "answerIndex": 0,
+            "why": "Anger showed warmer skin; fear and sadness showed cooler skin, though all three raised heart rate."
+          },
+          {
+            "kind": "teach",
+            "heading": "Emotion as communication",
+            "body": "From infancy, emotions are a **social signal** between baby and caregiver. Caregivers read the baby's signals, keep in time with them, and adjust the surroundings to keep stimulation at the **right level**.\n\n**Field (1994)** called this **attunement**. Without it, the infant's behaviour can become **disorganised and chaotic**.",
+            "visual": {
+              "type": "cycle",
+              "nodes": [
+                "Baby signals",
+                "Caregiver reads",
+                "Caregiver adjusts",
+                "Baby settles"
+              ]
+            }
+          },
+          {
+            "kind": "steps",
+            "heading": "Hoffman's stages of empathy",
+            "steps": [
+              {
+                "title": "Global empathy",
+                "detail": "The infant catches distress from others by emotional contagion and feels distressed too."
+              },
+              {
+                "title": "Egocentric empathy",
+                "detail": "The child knows another is upset but responds as if their own feelings are the same."
+              },
+              {
+                "title": "Others' feelings differ",
+                "detail": "The child understands another person's feelings can differ from their own."
+              },
+              {
+                "title": "True empathy",
+                "detail": "Genuine understanding of another's experience, which supports cooperation towards shared goals."
+              }
+            ]
+          },
+          {
+            "kind": "example",
+            "heading": "The crying classmate",
+            "story": "In a crèche, when one baby cries, others start crying too: global empathy. At three, Dayo sees a friend crying and offers him his own favourite toy, assuming what comforts him will comfort his friend. By seven, Dayo asks what is wrong and fetches the friend's mother, because he knows the friend needs something different.",
+            "takeaway": "Empathy grows from emotional contagion to truly understanding another person's feelings, enabling cooperation."
+          },
+          {
+            "kind": "check",
+            "question": "A baby starts crying simply because another baby nearby is crying. This is Hoffman's stage of:",
+            "options": [
+              "True empathy",
+              "Egocentric empathy",
+              "Global empathy",
+              "Attunement"
+            ],
+            "answerIndex": 2,
+            "why": "Catching distress through contagion, without understanding it, is global empathy."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'explain the social aspects of emotional development' with attunement and Hoffman's four stages, and objectives on Ekman's heart-rate and temperature findings. Trap: grouping disgust with high heart rate. Disgust, happiness and surprise went with lower heart rate.",
+            "sampleQuestion": "Field (1994) used the term 'attunement' to describe: (a) children's empathy (b) caregivers regulating infants' arousal by reading their signals (c) the amygdala's role (d) mood-congruent memory",
+            "howToAnswer": "Answer (b). In an essay, add that without attunement, infant behaviour becomes disorganised, then describe Hoffman's stages.",
+            "scholars": [
+              "Watson & Tellegen (1985)",
+              "Ekman et al. (1983)",
+              "Levenson et al. (1990)",
+              "Field (1994)",
+              "Hoffman (1984)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Emotions combine feeling, arousal and behaviour.",
+              "Watson and Tellegen: two basic dimensions, positive and negative.",
+              "Ekman: each emotion has its own bodily pattern.",
+              "Attunement: caregivers regulate infants' arousal (Field, 1994).",
+              "Hoffman: global, egocentric, differing feelings, true empathy."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Watson and Tellegen (1985) proposed that emotions combine two basic elements:",
+          "options": [
+            "Fear and anger",
+            "Positive and negative",
+            "Love and hate",
+            "Arousal and sleep"
+          ],
+          "answerIndex": 1,
+          "explanation": "They reduced emotions to positive and negative dimensions."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which branch of the nervous system is aroused when we feel fear?",
+          "options": [
+            "Sympathetic",
+            "Parasympathetic",
+            "Somatic",
+            "Enteric"
+          ],
+          "answerIndex": 0,
+          "explanation": "Fear triggers sympathetic, fight-or-flight arousal."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The first stage in Hoffman's development of empathy is:",
+          "options": [
+            "True empathy",
+            "Global empathy",
+            "Egocentric empathy",
+            "Attunement"
+          ],
+          "answerIndex": 1,
+          "explanation": "Global empathy, catching others' distress, comes first."
+        },
+        {
+          "difficulty": 2,
+          "stem": "In Ekman's studies, lower heart rate was associated with:",
+          "options": [
+            "Anger, fear and sadness",
+            "Only fear",
+            "Happiness, disgust and surprise",
+            "Only anger"
+          ],
+          "answerIndex": 2,
+          "explanation": "Happiness, disgust and surprise showed lower heart rate."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Field (1994) warned that without attunement, an infant's behaviour may become:",
+          "options": [
+            "More empathic",
+            "Highly cooperative",
+            "Disorganised and chaotic",
+            "Unemotional"
+          ],
+          "answerIndex": 2,
+          "explanation": "Lack of caregiver attunement leads to disorganised behaviour."
+        },
+        {
+          "difficulty": 2,
+          "stem": "In Hoffman's final stage, children develop:",
+          "options": [
+            "True empathy for another's experience",
+            "Emotional contagion only",
+            "Egocentric reactions",
+            "Fear of strangers"
+          ],
+          "answerIndex": 0,
+          "explanation": "True empathy allows cooperation towards joint goals."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A participant posing an angry face shows rising heart rate and warmer hands. This matches findings by:",
+          "options": [
+            "Clark and Teasdale",
+            "Hoffman",
+            "LeDoux",
+            "Ekman and colleagues"
+          ],
+          "answerIndex": 3,
+          "explanation": "Ekman found anger linked with high heart rate and high skin temperature."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A mother notices her baby is overstimulated by noise, dims the lights and rocks him until he calms. This is:",
+          "options": [
+            "Global empathy",
+            "Mood-congruent memory",
+            "Attunement",
+            "Egocentric empathy"
+          ],
+          "answerIndex": 2,
+          "explanation": "Reading the infant's signals and adjusting the environment is attunement."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A four-year-old knows his sister is sad but offers her his own toy car, assuming it will cheer her as it cheers him. He is at:",
+          "options": [
+            "Global empathy",
+            "Egocentric empathy",
+            "True empathy",
+            "Attunement"
+          ],
+          "answerIndex": 1,
+          "explanation": "He recognises distress but responds through his own perspective."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following were physiological measures in Ekman's studies EXCEPT:",
+          "options": [
+            "Brain MRI scans",
+            "Skin conductance",
+            "Hand temperature",
+            "Heart rate"
+          ],
+          "answerIndex": 0,
+          "explanation": "They measured heart rate, skin conductance, hand temperature and muscle tension, not MRI."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which emotions showed low skin temperature relative to anger?",
+          "options": [
+            "Happiness and surprise",
+            "Anger and surprise",
+            "Disgust and happiness",
+            "Fear and sadness"
+          ],
+          "answerIndex": 3,
+          "explanation": "Fear and sadness had cooler skin than anger."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Why is the development of true empathy important socially?",
+          "options": [
+            "It lets people cooperate with peers to achieve joint goals",
+            "It removes all negative emotions",
+            "It stops infants crying",
+            "It raises heart rate"
+          ],
+          "answerIndex": 0,
+          "explanation": "Understanding others' perspectives supports cooperation."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Each posed facial expression matched a specific physiological pattern. II. Fear and anger both raised heart rate. III. Disgust raised heart rate more than anger. Which are correct?",
+          "options": [
+            "II and III only",
+            "I and III only",
+            "I and II only",
+            "I, II and III"
+          ],
+          "answerIndex": 2,
+          "explanation": "I and II are correct. Disgust was associated with lower heart rate."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Ekman's finding that posing a facial expression produced matching body changes suggests that:",
+          "options": [
+            "Facial expressions are unrelated to physiology",
+            "Faces and bodily arousal are linked in emotion",
+            "Only the brain matters",
+            "Emotions are purely learned"
+          ],
+          "answerIndex": 1,
+          "explanation": "Distinct physiological patterns with posed faces point to tight face-body links."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which sequence correctly orders Hoffman's stages?",
+          "options": [
+            "True empathy, egocentric, global, differing feelings",
+            "Differing feelings, global, egocentric, true empathy",
+            "Egocentric, global, true empathy, differing feelings",
+            "Global, egocentric, differing feelings, true empathy"
+          ],
+          "answerIndex": 3,
+          "explanation": "Empathy develops from contagion to egocentric, to recognising differences, to true empathy."
+        }
+      ]
+    },
+    {
+      "name": "The emotional brain and cognition",
+      "lesson": {
+        "title": "Where emotions live and what they do to thought",
+        "minutes": 10,
+        "hook": "You jump back from a stick on the path before you even realise it looked like a snake. Your brain reacted to danger before 'you' knew about it. How?",
+        "slides": [
+          {
+            "kind": "steps",
+            "heading": "Three ways to study the emotional brain",
+            "steps": [
+              {
+                "title": "Lesion method",
+                "detail": "Study effects of brain damage, accidental in people or surgical in animal experiments."
+              },
+              {
+                "title": "Stimulation",
+                "detail": "Chemically or electrically stimulate a brain area and observe the behaviour that follows."
+              },
+              {
+                "title": "Brain imaging",
+                "detail": "Use scans to see which regions become active as emotions change."
+              }
+            ]
+          },
+          {
+            "kind": "teach",
+            "heading": "Hypothalamus and septum",
+            "body": "The **hypothalamus**, below the thalamus, monitors **internal states** such as water balance, temperature and hormones, and organises **appropriate behaviour**.\n\nWorking with the **septum**, the hypothalamus handles **emotional and motivational** signals and helps arrange fitting responses, such as fleeing danger or seeking food.",
+            "visual": {
+              "type": "brain",
+              "region": "hypothalamus",
+              "label": "Internal states"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The amygdala: emotional computer",
+            "body": "The **amygdala** is a limbic structure (your course notes link it closely with the hypothalamus; anatomically it sits in the temporal lobe). It is often called the brain's **central emotional computer**.\n\n**LeDoux (1993, 1996)** showed it receives input from cortical areas for **visual and auditory recognition**, and also **directly from the thalamus**. That direct route is fast but rough, which is why you can jump at a snake-shaped stick before you see it clearly.",
+            "visual": {
+              "type": "brain",
+              "region": "amygdala",
+              "label": "Emotional computer"
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "LeDoux's two routes to the amygdala",
+            "left": {
+              "title": "Direct from thalamus",
+              "points": [
+                "Fast",
+                "Rough, few details",
+                "Triggers quick reaction"
+              ]
+            },
+            "right": {
+              "title": "Via the cortex",
+              "points": [
+                "Slower",
+                "Detailed recognition",
+                "Can confirm or cancel the alarm"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "According to LeDoux, the amygdala receives sensory information:",
+            "options": [
+              "Both directly from the thalamus and from recognition areas of the cortex",
+              "Only from the cerebellum",
+              "Only from the spinal cord",
+              "Only through hormones"
+            ],
+            "answerIndex": 0,
+            "why": "The direct thalamic route is fast; the cortical route is slower but more detailed."
+          },
+          {
+            "kind": "terms",
+            "heading": "Three kinds of neurochemical",
+            "terms": [
+              {
+                "term": "Transmitter substances",
+                "meaning": "Released into the synapse to pass signals between nerve cells"
+              },
+              {
+                "term": "Hormones",
+                "meaning": "Carried in the blood to affect organs sensitive to them"
+              },
+              {
+                "term": "Neuromodulators",
+                "meaning": "Often peptides that adjust signalling, for example in the pain system; some resemble opiates"
+              }
+            ]
+          },
+          {
+            "kind": "teach",
+            "heading": "Emotion shapes thinking",
+            "body": "Emotions affect basic **cognitive processes**: perception, attention and memory. **Anxious** people are especially **vigilant for threat**, often involuntarily noticing danger cues others miss.\n\n**Sad or depressed** people tend to **remember negative material**, especially past losses linked to how they feel now.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "warning",
+                  "label": "Anxiety: threat focus"
+                },
+                {
+                  "icon": "sad",
+                  "label": "Sadness: negative recall"
+                },
+                {
+                  "icon": "bulb",
+                  "label": "Thinking shifts"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Mood-congruent memory",
+            "body": "**Clark and Teasdale (1982)** studied people whose depression varied through the day. At their **most depressed** times, they recalled **more unhappy memories**; at their **least depressed** times, **more happy memories**.\n\nThis is **mood-congruent memory**: we more easily recall memories that **match our current mood**, which can keep a low mood going.",
+            "visual": {
+              "type": "cycle",
+              "nodes": [
+                "Low mood",
+                "Sad memories",
+                "Lower mood"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Clark and Teasdale (1982) found that at their most depressed times of day, participants recalled:",
+            "options": [
+              "More happy memories",
+              "Only neutral memories",
+              "No memories",
+              "More unhappy memories"
+            ],
+            "answerIndex": 3,
+            "why": "Recall matched current mood: more unhappy memories when most depressed, more happy ones when least depressed."
+          },
+          {
+            "kind": "example",
+            "heading": "Two students, one exam",
+            "story": "Before a test, anxious Ngozi scans the hall and notices every frowning face and the invigilator's stern tone. Her calm friend Seun barely notices either. After failing an earlier test, Seun's low mood made him remember every past failure that week, until a good result lifted his mood and brought back memories of past successes.",
+            "takeaway": "Anxiety biases attention towards threat; mood biases memory towards matching experiences."
+          },
+          {
+            "kind": "teach",
+            "heading": "Classic theories in brief",
+            "body": "Psychologists have long debated how body and mind combine in emotion. The **James-Lange** theory says we feel emotion **because** of bodily changes. The **Cannon-Bard** theory says body and feeling arise **together** from the brain. **Schachter and Singer's** two-factor theory says we **label** our arousal using cues from the situation.\n\nEkman's body patterns and LeDoux's fast amygdala route both feed into this debate.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Stimulus",
+                "Arousal",
+                "Appraisal",
+                "Emotion"
+              ]
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'what neurochemicals are necessary for brain communication?' (transmitters, hormones, neuromodulators) and 'the role of the hypothalamus and septum'. Objectives test mood-congruent memory (Clark & Teasdale) and LeDoux's amygdala inputs. Note: the amygdala is a limbic structure in the temporal lobe, not part of the hypothalamus.",
+            "sampleQuestion": "Depressed participants recalled more unhappy memories at their most depressed time of day. This is known as: (a) state-dependent memory (b) mood-congruent memory (c) attunement (d) global empathy",
+            "howToAnswer": "Answer (b). Explain that memories matching current mood are more accessible (Clark & Teasdale, 1982).",
+            "scholars": [
+              "LeDoux (1996)",
+              "Clark & Teasdale (1982)",
+              "James-Lange",
+              "Cannon-Bard",
+              "Schachter & Singer (1962)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Methods: lesions, stimulation and brain imaging.",
+              "Hypothalamus and septum process emotional and motivational information.",
+              "Amygdala: emotional computer with fast thalamic and slower cortical inputs.",
+              "Neurochemicals: transmitters, hormones, neuromodulators.",
+              "Anxiety biases attention to threat; mood-congruent memory biases recall."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The brain structure often called the 'central emotional computer' is the:",
+          "options": [
+            "Amygdala",
+            "Cerebellum",
+            "Pons",
+            "Medulla"
+          ],
+          "answerIndex": 0,
+          "explanation": "The amygdala integrates emotional information."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which neurochemicals are carried in the blood to affect sensitive organs?",
+          "options": [
+            "Transmitter substances",
+            "Neuromodulators only",
+            "Hormones",
+            "Enzymes"
+          ],
+          "answerIndex": 2,
+          "explanation": "Hormones travel in the blood to target organs."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Mood-congruent memory was demonstrated by:",
+          "options": [
+            "LeDoux",
+            "Field",
+            "Ekman",
+            "Clark and Teasdale"
+          ],
+          "answerIndex": 3,
+          "explanation": "Clark and Teasdale (1982) showed recall matches current mood."
+        },
+        {
+          "difficulty": 2,
+          "stem": "In the lesion method, psychologists study emotion by:",
+          "options": [
+            "Examining effects of brain damage",
+            "Scanning healthy brains",
+            "Measuring hormones only",
+            "Interviewing infants"
+          ],
+          "answerIndex": 0,
+          "explanation": "Lesion studies look at what changes after damage to a brain area."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Many neuromodulators are peptides that:",
+          "options": [
+            "Modulate the pain system and resemble opiates",
+            "Build bones",
+            "Produce cerebrospinal fluid",
+            "Control eye colour"
+          ],
+          "answerIndex": 0,
+          "explanation": "Peptide neuromodulators such as endorphins act on pain and resemble opiates."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Anxious individuals tend to show:",
+          "options": [
+            "Involuntary vigilance for threat",
+            "Reduced attention to threat",
+            "Better recall of happy memories",
+            "No change in attention"
+          ],
+          "answerIndex": 0,
+          "explanation": "Anxiety biases attention towards danger cues."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Researchers electrically stimulate a cat's brain region and observe sudden aggression. This method is:",
+          "options": [
+            "Lesion",
+            "Self-report",
+            "Imaging",
+            "Stimulation"
+          ],
+          "answerIndex": 3,
+          "explanation": "Stimulating an area and observing behaviour is the stimulation method."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A hiker leaps back from a curved stick before consciously recognising it. LeDoux would explain this through the:",
+          "options": [
+            "Slow cortical route to the amygdala",
+            "Fast direct route from the thalamus to the amygdala",
+            "Cerebellum",
+            "Pituitary gland"
+          ],
+          "answerIndex": 1,
+          "explanation": "The quick thalamus-amygdala route triggers fear before detailed recognition."
+        },
+        {
+          "difficulty": 3,
+          "stem": "During a sad week, Emeka keeps remembering past disappointments. This illustrates:",
+          "options": [
+            "Attunement",
+            "Global empathy",
+            "Mood-congruent memory",
+            "Dark adaptation"
+          ],
+          "answerIndex": 2,
+          "explanation": "Recall biased towards mood-matching memories is mood-congruent memory."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are methods for studying brain and emotion EXCEPT:",
+          "options": [
+            "Lesion method",
+            "Chemical or electrical stimulation",
+            "Colour mixing",
+            "Brain imaging"
+          ],
+          "answerIndex": 2,
+          "explanation": "Colour mixing relates to vision, not methods for studying emotion."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Transmitter substances: carried in blood",
+            "Hormones: released into the synapse",
+            "Hormones: only in the cerebellum",
+            "Neuromodulators: often peptides modulating pain"
+          ],
+          "answerIndex": 3,
+          "explanation": "Neuromodulators are often peptides affecting pain; transmitters act at synapses; hormones travel in blood."
+        },
+        {
+          "difficulty": 4,
+          "stem": "The hypothalamus and septum together contribute to:",
+          "options": [
+            "Colour vision",
+            "Processing emotional and motivational information and organising behaviour",
+            "Producing tears",
+            "Balance"
+          ],
+          "answerIndex": 1,
+          "explanation": "They process emotional and motivational signals to organise appropriate responses."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. The amygdala receives input directly from the thalamus. II. Mood-congruent memory makes it easier to recall mood-matching memories. III. Depression improves recall of happy events. Which are correct?",
+          "options": [
+            "I and III only",
+            "I and II only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 1,
+          "explanation": "I and II are correct. Depression biases recall towards negative events."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Why might mood-congruent memory help keep depression going?",
+          "options": [
+            "It removes memories",
+            "Low mood brings up sad memories, which deepen the low mood",
+            "It raises heart rate",
+            "It improves attention"
+          ],
+          "answerIndex": 1,
+          "explanation": "A self-reinforcing cycle forms between mood and recall."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A person's heart pounds after climbing stairs; meeting an attractive stranger at the top, they decide they are 'falling in love'. Which theory best explains this labelling?",
+          "options": [
+            "James-Lange",
+            "Cannon-Bard",
+            "Schachter and Singer's two-factor theory",
+            "Opponent-process theory"
+          ],
+          "answerIndex": 2,
+          "explanation": "Two-factor theory says we label general arousal using situational cues, here wrongly as attraction."
+        }
+      ]
+    }
+  ]
+}

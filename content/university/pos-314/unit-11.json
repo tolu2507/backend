@@ -1,0 +1,680 @@
+{
+  "unit": 11,
+  "title": "Green Theory",
+  "summary": "How green theory brings the environment into international relations, blames humanity's drive to dominate nature, and calls for a radical rethink of world order.",
+  "sections": [
+    {
+      "name": "The environment enters IR",
+      "lesson": {
+        "title": "A planet without borders",
+        "minutes": 9,
+        "hook": "Lake Chad, shared by Nigeria, Niger, Chad and Cameroon, has lost most of its surface area since the 1960s. No army can refill it, and no single country can save it. Is this a question for international relations?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "A late arrival in IR",
+            "body": "Environmental issues only began to gain real attention in International Relations from the **1980s**. Yet **global warming**, **acid rain**, **eroding soil**, **food scarcity** and the **running down of resources** affect the whole world.\n\nThey are now **pushing onto the international agenda**, and because they cross borders, they can only be solved through **international cooperation**.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "globe",
+                  "label": "Global warming"
+                },
+                {
+                  "icon": "leaf",
+                  "label": "Soil erosion"
+                },
+                {
+                  "icon": "warning",
+                  "label": "Food shortages"
+                },
+                {
+                  "icon": "trending-down",
+                  "label": "Resource depletion"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Beyond problem-solving",
+            "body": "**Green theory** is more than a list of environmental problems to fix. It **challenges the problem-solving approach** that treats each issue as a technical glitch in an otherwise sound system.\n\nGreen theorists argue the **relationship between humans and nature** is what explains today's environmental crisis, and that this relationship must be **fundamentally restructured** if the earth and its inhabitants are to have a secure future.",
+            "visual": {
+              "type": "scale",
+              "left": "Restructure the system",
+              "right": "Fix single problems",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "A holistic world view",
+            "body": "Green theory offers a **holistic** view that stresses the **close connection** between **human life and the global ecosystem**. People are not separate from nature; they are part of it.\n\nGreen theorists worry that **human interference** in the natural world now threatens the **survival of humankind and of other species**.",
+            "visual": {
+              "type": "venn",
+              "left": "Human life",
+              "right": "Global ecosystem",
+              "both": "One system"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Green theorists explain the environmental crisis mainly through:",
+            "options": [
+              "Bad luck and natural cycles",
+              "Class struggle alone",
+              "The balance of military power",
+              "The relationship between human beings and nature"
+            ],
+            "answerIndex": 3,
+            "why": "The core green claim is that the human-nature relationship causes the crisis and must be restructured."
+          },
+          {
+            "kind": "compare",
+            "heading": "From respect to conquest",
+            "left": {
+              "title": "Pre-modern view",
+              "points": [
+                "Deference towards nature",
+                "Humans as part of nature",
+                "Limits respected"
+              ]
+            },
+            "right": {
+              "title": "Modern view",
+              "points": [
+                "Humans can conquer nature",
+                "Nature as a resource",
+                "Control through science"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "What drove the damage",
+            "body": "Green theorists blame the shift from pre-modern to modern thinking, plus three forces: the **Industrial Revolution** of the nineteenth century, the growing **concentration of people in cities**, and an **explosion in the use of technology**.\n\nThe results include **nuclear weapons, greenhouse gases and ozone depletion**, bringing threats from **nuclear winter** and **acid rain** to **global warming** and **skin cancer**.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Industrial Revolution",
+                "Urbanisation",
+                "Technology boom",
+                "Environmental damage"
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Ogoniland",
+            "story": "Decades of oil spills in Ogoniland, Rivers State, poisoned creeks, farmland and drinking water. A 2011 UN Environment Programme study found contamination so deep that clean-up could take decades. Fishing families lost their livelihoods while oil revenue flowed elsewhere.",
+            "takeaway": "Green theorists see such cases as the product of treating nature as something to exploit rather than a system humans depend on."
+          },
+          {
+            "kind": "check",
+            "question": "Which change in world views do green theorists see as crucial to understanding environmental problems?",
+            "options": [
+              "From modern to pre-modern",
+              "From democracy to monarchy",
+              "From pre-modern deference to nature to modern efforts to conquer it",
+              "From capitalism to feudalism"
+            ],
+            "answerIndex": 2,
+            "why": "Modern thinking stresses taming nature, replacing the pre-modern deference that respected its limits."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'evaluate the contribution of green theory to IR'. Show that it brought the environment, a cross-border issue, into a field focused on states and war, and that it questions the whole human-nature relationship. Objectives test when environmental issues entered IR (the 1980s) and the three drivers of degradation.",
+            "sampleQuestion": "Green theorists identify all of the following as causes of environmental degradation EXCEPT: (a) the Industrial Revolution (b) concentration of people in cities (c) explosion in technology use (d) pre-modern deference to nature",
+            "howToAnswer": "Answer (d): pre-modern deference respected nature. The modern drive to conquer it, with industry, cities and technology, caused the damage.",
+            "scholars": [
+              "Paterson (2000)",
+              "Adams (1990)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Environmental issues gained attention in IR from the 1980s.",
+              "They cross borders and need international cooperation.",
+              "Green theory challenges the problem-solving approach.",
+              "The human-nature relationship explains the crisis and must change.",
+              "Modern conquest of nature, industry, cities and technology drove damage."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Environmental issues began to gain significant attention in International Relations from the:",
+          "options": [
+            "1880s",
+            "1980s",
+            "1920s",
+            "2010s"
+          ],
+          "answerIndex": 1,
+          "explanation": "Green concerns moved onto the IR agenda from the 1980s."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Green theory explains the environmental crisis mainly through:",
+          "options": [
+            "The relationship between humans and nature",
+            "The balance of power",
+            "Class conflict",
+            "Gender relations"
+          ],
+          "answerIndex": 0,
+          "explanation": "The human-nature relationship is the central focus of green theory."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Green theory offers which kind of world view?",
+          "options": [
+            "State-centred",
+            "Materialist only",
+            "Holistic",
+            "Purely economic"
+          ],
+          "answerIndex": 2,
+          "explanation": "It stresses the connection between human life and the global ecosystem."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Green theory challenges the problem-solving approach because it:",
+          "options": [
+            "Ignores environmental problems",
+            "Prefers military solutions",
+            "Argues the whole human-nature relationship must be restructured",
+            "Believes technology will fix everything"
+          ],
+          "answerIndex": 2,
+          "explanation": "Green theorists want deep change, not technical fixes inside an unchanged system."
+        },
+        {
+          "difficulty": 2,
+          "stem": "In pre-modern times, according to green theorists, people's attitude to nature was one of:",
+          "options": [
+            "Conquest",
+            "Deference",
+            "Indifference",
+            "Industrial exploitation"
+          ],
+          "answerIndex": 1,
+          "explanation": "Pre-modern people deferred to nature; modern thought emphasised conquering it."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which of these is a factor green theorists blame for environmental degradation?",
+          "options": [
+            "Pre-modern farming",
+            "The Industrial Revolution",
+            "Feminism",
+            "Constructivism"
+          ],
+          "answerIndex": 1,
+          "explanation": "The nineteenth-century Industrial Revolution is one of the main drivers named."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Desertification in northern Nigeria pushes herders south, causing clashes. A green theorist would argue the conflict is best addressed by:",
+          "options": [
+            "Military force alone",
+            "Ignoring the environment",
+            "Restructuring how humans use land and nature, with cooperation",
+            "Building more cities"
+          ],
+          "answerIndex": 2,
+          "explanation": "Green theory links conflict to the human-nature relationship and calls for structural change and cooperation."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A government responds to river pollution only by fining one company, without changing industrial policy. Green theorists would criticise this as:",
+          "options": [
+            "A narrow problem-solving approach",
+            "A holistic approach",
+            "A Marxist solution",
+            "Too radical"
+          ],
+          "answerIndex": 0,
+          "explanation": "Treating one symptom without changing the underlying relationship is the problem-solving approach green theory rejects."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Lake Chad's shrinking affects four countries. Why does this make it an IR issue, according to green theory?",
+          "options": [
+            "It involves one city only",
+            "It is a domestic matter",
+            "It concerns military power",
+            "It crosses borders and requires international cooperation"
+          ],
+          "answerIndex": 3,
+          "explanation": "Environmental problems cross borders, so they belong on the international agenda."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are environmental threats green theorists link to modern human activity EXCEPT:",
+          "options": [
+            "Nuclear winter",
+            "Pre-modern deference to nature",
+            "Ozone depletion",
+            "Acid rain"
+          ],
+          "answerIndex": 1,
+          "explanation": "Deference to nature is the pre-modern attitude, not a threat."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Green theorists worry that human interference in nature threatens:",
+          "options": [
+            "Both humankind and other species",
+            "Only humans",
+            "Only plants",
+            "Only rich countries"
+          ],
+          "answerIndex": 0,
+          "explanation": "The survival of humans and other species is at stake."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Pre-modern view: conquest of nature",
+            "Modern view: deference to nature",
+            "Modern view: control of nature through science",
+            "Green theory: problem-solving approach"
+          ],
+          "answerIndex": 2,
+          "explanation": "The modern view stresses controlling nature; green theory rejects the problem-solving approach."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Environmental problems can be solved only through cooperation. II. Green theory treats humans as separate from nature. III. The Industrial Revolution contributed to degradation. Which are consistent with green theory?",
+          "options": [
+            "I and II only",
+            "I, II and III",
+            "II and III only",
+            "I and III only"
+          ],
+          "answerIndex": 3,
+          "explanation": "I and III fit. II is wrong: green theory's holistic view sees humans as part of nature."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A realist argues that environmental issues are 'low politics' compared with security. A green theorist would most likely reply that:",
+          "options": [
+            "Environmental collapse threatens survival itself, so it is a core security issue",
+            "The environment is irrelevant",
+            "Only military threats matter",
+            "Environmental issues are purely domestic"
+          ],
+          "answerIndex": 0,
+          "explanation": "Green theorists see environmental threats as threats to human survival, making them central."
+        },
+        {
+          "difficulty": 5,
+          "stem": "What is green theory's most distinctive contribution to IR?",
+          "options": [
+            "Explaining the balance of power",
+            "Proving democracies never fight",
+            "Explaining class struggle",
+            "Bringing the human-nature relationship and ecological survival into the study of world politics"
+          ],
+          "answerIndex": 3,
+          "explanation": "Green theory uniquely centres ecology and the human-nature relationship in IR."
+        }
+      ]
+    },
+    {
+      "name": "Radical change and assumptions",
+      "lesson": {
+        "title": "Rethinking power over nature",
+        "minutes": 9,
+        "hook": "We call it 'conquering' a river when we dam it, and 'taming' a forest when we clear it. Green theorists ask: what if the language of conquest is the real problem?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Radical restructuring",
+            "body": "Green theory calls for a **radical restructuring** of human organisation, from **everyday practices** to the whole **world order**.\n\nThat order, green theorists argue, is built on **exploiting the natural world** and on the **oppression or marginalisation** of certain social groups. Fixing one without the other will not work.",
+            "visual": {
+              "type": "pyramid",
+              "levels": [
+                "World order",
+                "National policies",
+                "Everyday practices"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The costs of control",
+            "body": "Green theorists argue that **scientific knowledge** and the drive for **absolute control over nature** have done great **harm** to the planet and its creatures, rather than simply helping humanity.\n\nThey also claim the modern period and its science helped **men dominate women** and **legitimised Western domination** over the rest of the world. Domination of nature and domination of people are linked.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "leaf",
+                  "label": "Nature dominated"
+                },
+                {
+                  "icon": "person",
+                  "label": "Women dominated"
+                },
+                {
+                  "icon": "globe",
+                  "label": "Global South dominated"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Green theorists link the modern drive to control nature with:",
+            "options": [
+              "Equality between men and women",
+              "Pre-modern traditions",
+              "The end of colonialism",
+              "Men's domination of women and the West's domination of the rest"
+            ],
+            "answerIndex": 3,
+            "why": "Green theorists see domination of nature as tied to domination of women and of non-Western peoples."
+          },
+          {
+            "kind": "teach",
+            "heading": "Positive peace and security",
+            "body": "Green theorists warn that the spread of **nuclear technology** and the development of **chemical weapons** could bring disaster.\n\nThey call for a **positive** idea of peace and security: not just the **absence of war**, but conditions in which people and ecosystems can **flourish** together, with clean air, water and land.",
+            "visual": {
+              "type": "spectrum",
+              "left": "No war only",
+              "right": "Flourishing life",
+              "marker": 85,
+              "label": "Positive peace"
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Two attitudes to nature",
+            "left": {
+              "title": "Anthropocentric",
+              "points": [
+                "Humans at the centre",
+                "Nature valued for human use",
+                "Domination is acceptable"
+              ]
+            },
+            "right": {
+              "title": "Ecocentric (green)",
+              "points": [
+                "Whole ecosystem matters",
+                "Nature has its own value",
+                "Domination is the problem"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Green theory versus critical theory",
+            "body": "**Critical theory** seeks **human emancipation** and often treats mastery over nature as a tool for human freedom. Green theorists such as Robyn **Eckersley** (1992) argue this remains **anthropocentric**: it frees people while still treating nature as an object to use.\n\nGreen theory extends concern **beyond humans** and rejects the domination of nature for human ends.",
+            "visual": {
+              "type": "scale",
+              "left": "Ecosystem",
+              "right": "Humans only",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "steps",
+            "heading": "Five assumptions of green theory",
+            "steps": [
+              {
+                "title": "Serious problems",
+                "detail": "The world faces grave environmental problems."
+              },
+              {
+                "title": "A threat to wellbeing",
+                "detail": "Depletion, warming, degradation and pollution threaten human wellbeing."
+              },
+              {
+                "title": "IR's business",
+                "detail": "Because humans cause many of these problems, IR scholars should study them."
+              },
+              {
+                "title": "Cooperation works",
+                "detail": "Global problems can be solved or managed through existing or reformed institutions."
+              },
+              {
+                "title": "Weapons threaten disaster",
+                "detail": "Nuclear spread and chemical weapons risk future catastrophe."
+              }
+            ]
+          },
+          {
+            "kind": "example",
+            "heading": "From Stockholm to Paris",
+            "story": "The 1972 UN Stockholm conference first put the environment on the global agenda. The 1987 Brundtland Report popularised 'sustainable development'. In 2015, nearly every country, Nigeria included, joined the Paris Agreement to limit global warming. Each step reflects the green belief that cooperation through institutions can manage shared problems.",
+            "takeaway": "Global environmental agreements show green theory's assumption that cooperation in global forums can address planetary problems."
+          },
+          {
+            "kind": "check",
+            "question": "Which of the following is an assumption of green theory?",
+            "options": [
+              "Environmental issues are too technical for IR scholars",
+              "Global environmental problems can be managed through cooperation in global institutions",
+              "Nuclear technology poses no risk",
+              "Only military security matters"
+            ],
+            "answerIndex": 1,
+            "why": "Green theory assumes cooperation in existing or reformed forums can solve or manage global problems."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "A tricky question: 'how does green theory differ from critical theory in attitudes to dominating nature?' The key is anthropocentrism: critical theory aims at human emancipation and may accept mastering nature; green theory rejects domination of nature itself. Also learn the five assumptions for 'list and explain' questions.",
+            "sampleQuestion": "Compare green theory and critical theory on one question: is it acceptable for humans to dominate nature for their own purposes?",
+            "howToAnswer": "Explain that critical theory seeks human emancipation and remains human-centred, while green theory is ecocentric, rejects domination of nature, and links it to domination of women and the global South.",
+            "scholars": [
+              "Eckersley (1992)",
+              "Paterson (2000)",
+              "Brundtland Report (1987)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Green theory demands radical restructuring from daily life to world order.",
+              "Control of nature is linked to domination of women and the non-West.",
+              "Positive peace means flourishing, not just no war.",
+              "Green theory is ecocentric; critical theory is more human-centred.",
+              "Five assumptions: serious problems, threat to wellbeing, IR's business, cooperation, weapons risk."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Green theory calls for:",
+          "options": [
+            "Minor technical adjustments",
+            "More industrialisation",
+            "Radical restructuring of human organisation",
+            "Abolishing all institutions"
+          ],
+          "answerIndex": 2,
+          "explanation": "It demands change from everyday practices to world order."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Green theorists favour which conception of peace and security?",
+          "options": [
+            "Positive: conditions for flourishing",
+            "Negative: only the absence of war",
+            "Military deterrence",
+            "Balance of power"
+          ],
+          "answerIndex": 0,
+          "explanation": "They argue for a positive conception that includes ecological wellbeing."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which threat do green theorists highlight as risking future disaster?",
+          "options": [
+            "Tourism",
+            "Free trade",
+            "Democracy",
+            "Spread of nuclear technology and chemical weapons"
+          ],
+          "answerIndex": 3,
+          "explanation": "Nuclear proliferation and chemical weapons threaten potential disasters."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Green theorists claim the modern world order is built on:",
+          "options": [
+            "Respect for nature",
+            "Pre-modern values",
+            "Equality among all peoples",
+            "Exploitation of nature and marginalisation of some social groups"
+          ],
+          "answerIndex": 3,
+          "explanation": "They link environmental exploitation with social oppression."
+        },
+        {
+          "difficulty": 2,
+          "stem": "An ecocentric view holds that:",
+          "options": [
+            "The whole ecosystem has value, not only humans",
+            "Nature matters only for human use",
+            "Humans are the only species that matters",
+            "Technology must conquer nature"
+          ],
+          "answerIndex": 0,
+          "explanation": "Ecocentrism values the ecosystem itself; anthropocentrism puts humans at the centre."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which of the following is NOT an assumption of green theory?",
+          "options": [
+            "The world faces serious environmental problems",
+            "Environmental problems threaten human wellbeing",
+            "Environmental problems can only be solved by war",
+            "IR scholars should study environmental issues"
+          ],
+          "answerIndex": 2,
+          "explanation": "Green theory assumes cooperation, not war, can address global problems."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A scholar argues that the same mindset that justified clearing forests also justified colonial rule over Africa. This view reflects green theory's claim that:",
+          "options": [
+            "Domination of nature is linked to domination of peoples",
+            "Science always helps humanity",
+            "Colonialism was beneficial",
+            "Nature has no value"
+          ],
+          "answerIndex": 0,
+          "explanation": "Green theorists link mastery of nature with Western domination of the rest of the world."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Nigeria signing the Paris Agreement on climate change best illustrates which green assumption?",
+          "options": [
+            "Environmental problems are purely domestic",
+            "Nuclear weapons are safe",
+            "Global problems can be managed through cooperation in global forums",
+            "IR should ignore the environment"
+          ],
+          "answerIndex": 2,
+          "explanation": "Joining a global agreement reflects faith in cooperation through institutions."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A community has no war but its water is poisoned and its farmland dead. A green theorist would say it lacks:",
+          "options": [
+            "Negative peace",
+            "Positive peace and security",
+            "A balance of power",
+            "Military strength"
+          ],
+          "answerIndex": 1,
+          "explanation": "Without conditions for flourishing, there is no positive peace, even without war."
+        },
+        {
+          "difficulty": 4,
+          "stem": "How does green theory differ from critical theory on the domination of nature?",
+          "options": [
+            "Both fully reject it equally",
+            "Critical theory is more human-centred and may accept mastering nature for emancipation; green theory rejects domination of nature",
+            "Green theory supports domination of nature",
+            "Critical theory ignores human freedom"
+          ],
+          "answerIndex": 1,
+          "explanation": "Green theorists like Eckersley call critical theory anthropocentric for treating nature as a tool of human freedom."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are claims green theorists make about modern science EXCEPT:",
+          "options": [
+            "It sought absolute control over nature",
+            "It did great harm to the planet's creatures",
+            "It helped legitimise Western domination",
+            "It restored pre-modern deference to nature"
+          ],
+          "answerIndex": 3,
+          "explanation": "Modern science replaced deference with the drive to control; it did not restore it."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Anthropocentric: ecosystem has its own value",
+            "Green theory: positive conception of peace",
+            "Ecocentric: nature valued only for human use",
+            "Critical theory: rejects human emancipation"
+          ],
+          "answerIndex": 1,
+          "explanation": "Green theory favours positive peace. The other pairs are reversed or wrong."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Green theory links environmental harm to social oppression. II. Green theory sees scientific control of nature as purely beneficial. III. Green theory assumes global institutions can help manage problems. Which are correct?",
+          "options": [
+            "I and III only",
+            "I and II only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 0,
+          "explanation": "I and III are correct. II contradicts green theory's critique of scientific mastery."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A critic says green theory demands radical change yet also trusts existing global institutions. This points to a tension between:",
+          "options": [
+            "Realism and liberalism",
+            "Its radical critique of world order and its reformist reliance on institutions",
+            "Marxism and feminism",
+            "Pre-modern and modern farming"
+          ],
+          "answerIndex": 1,
+          "explanation": "Calling for radical restructuring while assuming reformed institutions can help sits uneasily together."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which statement best evaluates green theory's contribution to IR?",
+          "options": [
+            "It explains why states balance power",
+            "It has made no contribution",
+            "It widens IR beyond states and war to include ecological survival and the human-nature relationship",
+            "It focuses only on economic growth"
+          ],
+          "answerIndex": 2,
+          "explanation": "Its key contribution is widening IR's agenda to ecology and questioning humanity's domination of nature."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1039 @@
+{
+  "unit": 4,
+  "title": "Major Anatomical Divisions and Subdivisions of the Brain",
+  "summary": "A guided tour of the brain: how it is protected, the forebrain and cerebrum, the thalamus, hypothalamus and limbic system, and the midbrain, hindbrain and cerebellum.",
+  "sections": [
+    {
+      "name": "Overview, protection and cerebrum",
+      "lesson": {
+        "title": "The body's control centre",
+        "minutes": 10,
+        "hook": "An okada rider who falls without a helmet may walk away with a scratch, or lose the ability to speak. Same fall, different damage. Why? Because each part of the brain does a different job.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "A complex control centre",
+            "body": "The human brain is the **control centre** of the body. It contains **billions of neural connections** working together, and different parts handle **specific functions**. Injury to one part can rob a person of particular abilities, which is why knowing brain anatomy helps us understand **traumatic brain injury**.\n\nThe adult brain weighs roughly **1.3 to 1.4 kg** and looks whitish-pink.",
+            "visual": {
+              "type": "brain",
+              "region": "whole-brain",
+              "label": "Control centre"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Brain, nerves and spinal cord",
+            "body": "The brain sends messages along **nerves**, like cables carried on poles across a city. Some nerves link directly to the brain; others reach it through the **spinal cord** running down the back.\n\nThe **brain and spinal cord** together form the **central nervous system (CNS)**. The brain controls organs and also **thinks and remembers**, the activity we often call the mind.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Body",
+                "Nerves",
+                "Spinal cord",
+                "Brain"
+              ]
+            }
+          },
+          {
+            "kind": "steps",
+            "heading": "Three layers of protection",
+            "steps": [
+              {
+                "title": "The cranium",
+                "detail": "Eight interlocking skull bones give maximum protection for minimum weight."
+              },
+              {
+                "title": "Cerebrospinal fluid",
+                "detail": "Made by the choroid plexuses, this fluid lets the brain float and cushions it."
+              },
+              {
+                "title": "Blood-brain barrier",
+                "detail": "Special capillaries filter out harmful chemicals but let oxygen, water and glucose in."
+              }
+            ]
+          },
+          {
+            "kind": "teach",
+            "heading": "A hungry organ",
+            "body": "The brain is only about 2% of body weight, yet it receives **nearly one-fifth of the blood** the heart pumps. A dense network of vessels carries that blood, with its oxygen and glucose, to where it is needed.\n\nThis is why a **stroke**, which cuts blood supply to part of the brain, can cause damage within minutes.",
+            "visual": {
+              "type": "stat",
+              "value": "~1/5 of blood",
+              "label": "Goes to the brain"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Which structure filters harmful chemicals out of the blood but lets oxygen and glucose reach the brain?",
+            "options": [
+              "The cranium",
+              "The choroid plexus",
+              "The blood-brain barrier",
+              "The corpus callosum"
+            ],
+            "answerIndex": 2,
+            "why": "The blood-brain barrier is a network of specialised capillaries acting as a filter. The choroid plexuses produce cerebrospinal fluid."
+          },
+          {
+            "kind": "terms",
+            "heading": "The three main divisions",
+            "terms": [
+              {
+                "term": "Forebrain",
+                "meaning": "Cerebrum, thalamus, hypothalamus and limbic structures"
+              },
+              {
+                "term": "Midbrain",
+                "meaning": "Tectum and tegmentum, with the substantia nigra"
+              },
+              {
+                "term": "Hindbrain",
+                "meaning": "Medulla, pons and cerebellum"
+              },
+              {
+                "term": "Brainstem",
+                "meaning": "Medulla, pons and midbrain (often with the diencephalon), linking brain and spinal cord"
+              }
+            ]
+          },
+          {
+            "kind": "teach",
+            "heading": "The cerebrum",
+            "body": "The **cerebrum** is the **largest part** of the brain and handles **higher functions** such as thought, language and planned action. Its thin, folded outer layer is the **cerebral cortex**; beneath it lie **subcortical** structures: thalamus, hypothalamus, limbic system and basal ganglia.\n\nThe brain's **anatomy** is largely **hierarchical**, but its **working** organisation is not: parts at many levels cooperate (Bloom et al., 2001).",
+            "visual": {
+              "type": "brain",
+              "region": "frontal-lobe",
+              "label": "Higher functions"
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Two injuries, two outcomes",
+            "story": "Two okada riders fall on the same Ibadan road. Emeka hits the back of his head and the brainstem is shaken: his breathing needs support in the emergency room. Sola hits the front: he breathes normally but later struggles to plan his day and control his temper. Same accident, different parts of the brain hurt.",
+            "takeaway": "Because each brain region has its own job, where an injury lands decides which abilities are lost."
+          },
+          {
+            "kind": "teach",
+            "heading": "Two hemispheres, one bridge",
+            "body": "A deep groove divides the forebrain into **left and right hemispheres**. They look nearly symmetrical but work slightly differently. Popular accounts link the **left** with **language and logic** and the **right** with **spatial and creative** tasks, though real abilities draw on both sides.\n\nThe **corpus callosum**, a thick bundle of axons, connects the two hemispheres so they can share information.",
+            "visual": {
+              "type": "brain",
+              "region": "corpus-callosum",
+              "label": "Links hemispheres"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "The bundle of axons that connects the left and right hemispheres is the:",
+            "options": [
+              "Corpus callosum",
+              "Thalamus",
+              "Pons",
+              "Reticular formation"
+            ],
+            "answerIndex": 0,
+            "why": "The corpus callosum is the main bridge between the hemispheres. The pons is a bridge in the brainstem."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'identify the parts of the brain' and 'discuss the anatomical organisation of the brain'. Learn which structures belong to forebrain, midbrain and hindbrain, and the three protections. Objectives test the blood-brain barrier versus choroid plexus, and cortex versus subcortex. Trap: putting the thalamus in the midbrain; it is forebrain.",
+            "sampleQuestion": "Which of the following is NOT a forebrain structure? (a) cerebrum (b) thalamus (c) hypothalamus (d) medulla",
+            "howToAnswer": "Answer (d): the medulla is in the hindbrain. Present the three divisions as a table in essays.",
+            "scholars": [
+              "Bloom et al. (2001)",
+              "Kosslyn & Rosenberg (2006)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Brain and spinal cord form the central nervous system.",
+              "Protection: cranium, cerebrospinal fluid, blood-brain barrier.",
+              "Three divisions: forebrain, midbrain, hindbrain.",
+              "The cerebrum is largest; its outer layer is the cortex.",
+              "Two hemispheres are linked by the corpus callosum."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The central nervous system is made up of:",
+          "options": [
+            "Brain and nerves in the limbs",
+            "Spinal cord and muscles",
+            "Brain and spinal cord",
+            "Heart and brain"
+          ],
+          "answerIndex": 2,
+          "explanation": "The CNS is the brain plus the spinal cord; other nerves form the peripheral system."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The largest part of the human brain is the:",
+          "options": [
+            "Cerebellum",
+            "Thalamus",
+            "Medulla",
+            "Cerebrum"
+          ],
+          "answerIndex": 3,
+          "explanation": "The cerebrum is the largest part and handles higher functions."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Cerebrospinal fluid is produced by the:",
+          "options": [
+            "Choroid plexuses",
+            "Corpus callosum",
+            "Cerebellum",
+            "Pons"
+          ],
+          "answerIndex": 0,
+          "explanation": "Specialised vessels called choroid plexuses make cerebrospinal fluid."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The cranium is formed by how many interlocking skull bones?",
+          "options": [
+            "Four",
+            "Six",
+            "Twelve",
+            "Eight"
+          ],
+          "answerIndex": 3,
+          "explanation": "Eight interlocking plates form the cranium."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which of these is a subcortical structure?",
+          "options": [
+            "Cerebral cortex",
+            "Skull",
+            "Thalamus",
+            "Spinal nerve"
+          ],
+          "answerIndex": 2,
+          "explanation": "The thalamus lies beneath the cortex, so it is subcortical."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The blood-brain barrier allows which of the following into the brain?",
+          "options": [
+            "Most harmful chemicals",
+            "Oxygen, water and glucose",
+            "All bacteria",
+            "Nothing at all"
+          ],
+          "answerIndex": 1,
+          "explanation": "It filters out many harmful substances but admits essentials like oxygen, water and glucose."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A patient whose corpus callosum has been cut would most likely have difficulty with:",
+          "options": [
+            "Breathing",
+            "Sharing information between the two hemispheres",
+            "Heart rate",
+            "Producing cerebrospinal fluid"
+          ],
+          "answerIndex": 1,
+          "explanation": "The corpus callosum connects the hemispheres; cutting it limits communication between them."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A stroke causes rapid damage mainly because the brain:",
+          "options": [
+            "Stores large energy reserves",
+            "Is protected by the cranium",
+            "Has no blood vessels",
+            "Depends on a constant blood supply carrying oxygen and glucose"
+          ],
+          "answerIndex": 3,
+          "explanation": "The brain uses about a fifth of the heart's output and has little reserve, so loss of blood flow quickly harms it."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A head blow that leaves a person unable to plan or reason but able to breathe normally most likely damaged the:",
+          "options": [
+            "Medulla",
+            "Pons",
+            "Cerebrum",
+            "Spinal cord"
+          ],
+          "answerIndex": 2,
+          "explanation": "Planning and reasoning are higher functions of the cerebrum; breathing is controlled by the brainstem."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following protect the brain EXCEPT:",
+          "options": [
+            "The cranium",
+            "The corpus callosum",
+            "The blood-brain barrier",
+            "Cerebrospinal fluid"
+          ],
+          "answerIndex": 1,
+          "explanation": "The corpus callosum connects hemispheres; it is not a protective structure."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Bloom and colleagues (2001) noted that the brain's organisation is:",
+          "options": [
+            "Hierarchical in anatomy but not in operation",
+            "Hierarchical in both anatomy and operation",
+            "Random in anatomy",
+            "Not hierarchical at all"
+          ],
+          "answerIndex": 0,
+          "explanation": "Its structure is layered, but its parts work together across levels rather than in a strict chain of command."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pairing of division and structure is correct?",
+          "options": [
+            "Hindbrain: pons",
+            "Midbrain: hypothalamus",
+            "Forebrain: cerebellum",
+            "Forebrain: medulla"
+          ],
+          "answerIndex": 0,
+          "explanation": "The pons is in the hindbrain. The cerebellum and medulla are hindbrain; the hypothalamus is forebrain."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. The brain receives nearly a fifth of the heart's blood output. II. The blood-brain barrier blocks glucose. III. Cerebrospinal fluid cushions the brain. Which are correct?",
+          "options": [
+            "I and II only",
+            "I and III only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 1,
+          "explanation": "I and III are correct. II is wrong: glucose passes the barrier because the brain needs it."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Why is the popular claim that the 'left brain is logical and the right brain is creative' treated with caution?",
+          "options": [
+            "The hemispheres are identical",
+            "Only the right hemisphere works",
+            "Hemispheres differ somewhat, but complex abilities draw on both sides working together",
+            "The corpus callosum prevents any difference"
+          ],
+          "answerIndex": 2,
+          "explanation": "There are real differences, but most abilities involve both hemispheres communicating through the corpus callosum."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A drug designed to act on brain cells fails because it cannot reach them from the bloodstream. The most likely reason is the:",
+          "options": [
+            "Blood-brain barrier",
+            "Corpus callosum",
+            "Cerebellum",
+            "Cranium"
+          ],
+          "answerIndex": 0,
+          "explanation": "The blood-brain barrier filters many substances, which is a major challenge in designing brain drugs."
+        }
+      ]
+    },
+    {
+      "name": "Thalamus, hypothalamus and limbic system",
+      "lesson": {
+        "title": "Relay, regulator and emotion",
+        "minutes": 10,
+        "hook": "You are reading this sentence while ignoring the fan, the traffic and your own heartbeat. A small structure deep in your brain is deciding which signals reach your awareness right now.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "The thalamus: a hub",
+            "body": "The **thalamus** is often called a **switching centre**. Kosslyn and Rosenberg (2006) compare it to an **airline hub** where planes converge and then fly off to distant places.\n\nSignals from the **senses**, such as vision and hearing, and from **motor** systems pass through the thalamus, which **routes** them to the right parts of the cortex. (Smell is the main exception.)",
+            "visual": {
+              "type": "brain",
+              "region": "thalamus",
+              "label": "Relay hub"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Attention, sleep and survival",
+            "body": "The thalamus also helps with **attention**: it is helping you focus on each word right now. It plays a part in **sleep** control too.\n\nIts role is so critical that **severe thalamic damage can be fatal**, even if the cortex is untouched.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "eye",
+                  "label": "Attention"
+                },
+                {
+                  "icon": "time",
+                  "label": "Sleep"
+                },
+                {
+                  "icon": "git-network",
+                  "label": "Routing"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The hypothalamus: small but vital",
+            "body": "The **hypothalamus** sits **under** the thalamus and makes up only about **3%** of the brain (Hofman & Swaab, 1992). Yet it controls **eating and drinking**, **body temperature**, **blood pressure**, **heart rate** and **sexual behaviour** (Swaab, 2003).\n\nIt also triggers hormones that prepare the body to **fight or flee** when facing danger.",
+            "visual": {
+              "type": "brain",
+              "region": "hypothalamus",
+              "label": "Keeps balance"
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Two kinds of hypothalamic messages",
+            "left": {
+              "title": "Neural messages",
+              "points": [
+                "Regulate the autonomic nervous system",
+                "Sympathetic and parasympathetic",
+                "Reach other brain areas"
+              ]
+            },
+            "right": {
+              "title": "Chemical messages",
+              "points": [
+                "Regulate endocrine glands",
+                "Signal the pituitary",
+                "Control hormone release"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Which structure regulates hunger, thirst and body temperature?",
+            "options": [
+              "Thalamus",
+              "Hypothalamus",
+              "Corpus callosum",
+              "Cerebellum"
+            ],
+            "answerIndex": 1,
+            "why": "The hypothalamus keeps the body in balance (homeostasis). The thalamus mainly relays sensory signals."
+          },
+          {
+            "kind": "teach",
+            "heading": "When the hypothalamus fails",
+            "body": "Damage or disorder of the hypothalamus can cause a range of problems: **memory loss**, **depression**, **low body temperature**, **overeating**, **diabetes-like** symptoms and **chronic drowsiness** (Martin & Riskind, 1992).\n\nThe variety of symptoms reflects how many body systems it keeps in balance.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "sad",
+                  "label": "Mood"
+                },
+                {
+                  "icon": "pulse",
+                  "label": "Body balance"
+                },
+                {
+                  "icon": "time",
+                  "label": "Drowsiness"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The limbic system",
+            "body": "The **limbic system** lies close to the hypothalamus, between the thalamus and the cortex. It includes the **amygdala** and **hippocampus**, and is involved in **emotion, motivation**, food and water intake and **homeostasis**.\n\nThe **amygdala**, named from the Greek for **almond**, is central to **fear and anger** and even to reading emotion in faces (Adolphs et al., 1996).",
+            "visual": {
+              "type": "brain",
+              "region": "amygdala",
+              "label": "Fear and anger"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The basal ganglia",
+            "body": "The **basal ganglia** lie on the outer sides of the thalami. They help **plan and produce movement** and play a key role in forming **habits**.\n\nThey depend heavily on the neurotransmitter **dopamine**. In **Parkinson's disease**, loss of dopamine input to the basal ganglia leads to tremor, stiffness and difficulty starting movements.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Dopamine",
+                "Basal ganglia",
+                "Smooth movement"
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "The dog at the gate",
+            "story": "Adaeze walks past a gate and a large dog suddenly barks. Before she even thinks, her heart races, her breathing speeds up and she jumps back. Her amygdala detected danger; her hypothalamus fired the fight-or-flight response through the autonomic nervous system and hormones.",
+            "takeaway": "The amygdala and hypothalamus work together to produce fast emotional and bodily reactions to threat."
+          },
+          {
+            "kind": "check",
+            "question": "Parkinson's disease is linked to problems with which structure and neurotransmitter?",
+            "options": [
+              "Hypothalamus and serotonin",
+              "Thalamus and GABA",
+              "Amygdala and acetylcholine",
+              "Basal ganglia and dopamine"
+            ],
+            "answerIndex": 3,
+            "why": "The basal ganglia depend on dopamine; its loss causes Parkinson's movement problems."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Common: 'describe the thalamus' and 'do the thalamus and hypothalamus perform the same function?'. Answer: no; one relays, the other regulates. Objectives test the airline-hub analogy, the 3% figure, the almond-shaped amygdala, and Parkinson's with dopamine. Know the two kinds of hypothalamic messages.",
+            "sampleQuestion": "Distinguish between the thalamus and the hypothalamus in location and function.",
+            "howToAnswer": "Thalamus: above, relays sensory and motor signals to the cortex, aids attention and sleep. Hypothalamus: below it, about 3% of the brain, regulates homeostasis through autonomic nerves and hormones.",
+            "scholars": [
+              "Kosslyn & Rosenberg (2006)",
+              "Hofman & Swaab (1992)",
+              "Adolphs et al. (1996)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Thalamus: relay hub for sensory and motor signals; attention and sleep.",
+              "Hypothalamus: ~3% of brain; hunger, thirst, temperature, hormones.",
+              "It sends neural (autonomic) and chemical (endocrine) messages.",
+              "Limbic system: emotion and motivation; amygdala for fear and anger.",
+              "Basal ganglia: movement and habits; dopamine; Parkinson's disease."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The thalamus is often compared to a:",
+          "options": [
+            "Storage warehouse",
+            "Pump",
+            "Switching centre or airline hub",
+            "Filter for blood"
+          ],
+          "answerIndex": 2,
+          "explanation": "It routes incoming signals to the right brain areas, like a hub."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The amygdala's name comes from the Greek word for:",
+          "options": [
+            "Seahorse",
+            "Almond",
+            "Bridge",
+            "Tree"
+          ],
+          "answerIndex": 1,
+          "explanation": "Amygdala means almond, after its shape. Hippocampus means seahorse."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The hypothalamus makes up roughly what proportion of the brain?",
+          "options": [
+            "75%",
+            "20%",
+            "50%",
+            "3%"
+          ],
+          "answerIndex": 3,
+          "explanation": "It is tiny, about 3%, yet controls many vital functions."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The hypothalamus regulates the endocrine system mainly through:",
+          "options": [
+            "Neural messages to muscles",
+            "The corpus callosum",
+            "Chemical messages to glands",
+            "The cerebellum"
+          ],
+          "answerIndex": 2,
+          "explanation": "Its chemical messages control endocrine glands, notably via the pituitary."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The basal ganglia are mainly involved in:",
+          "options": [
+            "Hearing",
+            "Planning and producing movement and forming habits",
+            "Producing cerebrospinal fluid",
+            "Regulating temperature"
+          ],
+          "answerIndex": 1,
+          "explanation": "They support movement and habit learning, relying on dopamine."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Severe damage to the thalamus can be fatal because:",
+          "options": [
+            "It produces blood",
+            "It pumps cerebrospinal fluid",
+            "It plays critical roles in routing signals, attention and sleep",
+            "It controls digestion only"
+          ],
+          "answerIndex": 2,
+          "explanation": "Its relay and arousal roles are so vital that serious damage can kill even if the cortex survives."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A patient after a tumour near the base of the brain eats constantly, feels cold and is always drowsy. The structure most likely affected is the:",
+          "options": [
+            "Thalamus",
+            "Hypothalamus",
+            "Corpus callosum",
+            "Occipital lobe"
+          ],
+          "answerIndex": 1,
+          "explanation": "Overeating, low temperature and drowsiness are signs of hypothalamic disorder."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A woman with amygdala damage cannot tell when faces look frightened. This supports the amygdala's role in:",
+          "options": [
+            "Movement",
+            "Recognising emotion, especially fear",
+            "Hearing",
+            "Temperature control"
+          ],
+          "answerIndex": 1,
+          "explanation": "The amygdala is linked to fear and to reading emotional expressions."
+        },
+        {
+          "difficulty": 3,
+          "stem": "An elderly man shows hand tremor and struggles to start walking. Doctors suspect loss of dopamine affecting the:",
+          "options": [
+            "Hypothalamus",
+            "Corpus callosum",
+            "Thalamus",
+            "Basal ganglia"
+          ],
+          "answerIndex": 3,
+          "explanation": "These are classic Parkinson's signs, linked to dopamine and the basal ganglia."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are functions of the hypothalamus EXCEPT:",
+          "options": [
+            "Connecting the two hemispheres",
+            "Controlling eating and drinking",
+            "Triggering fight-or-flight hormones",
+            "Regulating body temperature"
+          ],
+          "answerIndex": 0,
+          "explanation": "Connecting hemispheres is the corpus callosum's job."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Thalamus: homeostasis",
+            "Hypothalamus: sensory relay",
+            "Amygdala: fear and anger",
+            "Basal ganglia: hormone release"
+          ],
+          "answerIndex": 2,
+          "explanation": "The amygdala handles fear and anger. The thalamus relays; the hypothalamus regulates homeostasis."
+        },
+        {
+          "difficulty": 4,
+          "stem": "The hypothalamus's neural messages mainly regulate the:",
+          "options": [
+            "Autonomic nervous system",
+            "Endocrine glands directly",
+            "Corpus callosum",
+            "Skull bones"
+          ],
+          "answerIndex": 0,
+          "explanation": "Neural messages regulate sympathetic and parasympathetic activity; chemical messages regulate glands."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. The thalamus relays most sensory signals to the cortex. II. The hypothalamus sits above the thalamus. III. The limbic system includes the amygdala and hippocampus. Which are correct?",
+          "options": [
+            "I and III only",
+            "I and II only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 0,
+          "explanation": "I and III are correct. II is reversed: the hypothalamus lies under the thalamus."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Do the thalamus and hypothalamus perform the same function?",
+          "options": [
+            "Yes, both relay sensory signals",
+            "No: the thalamus controls emotion only",
+            "Yes, both regulate hormones",
+            "No: the thalamus relays signals, the hypothalamus regulates homeostasis and hormones"
+          ],
+          "answerIndex": 3,
+          "explanation": "They are neighbours with different jobs: relay versus regulation."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A researcher finds that rats with basal ganglia damage can learn new facts but struggle to form automatic habits. This supports the role of the basal ganglia in:",
+          "options": [
+            "Habit formation",
+            "Declarative memory",
+            "Temperature control",
+            "Visual relay"
+          ],
+          "answerIndex": 0,
+          "explanation": "The basal ganglia are critical for habit learning, distinct from fact-based memory."
+        }
+      ]
+    },
+    {
+      "name": "Midbrain, hindbrain and cerebellum",
+      "lesson": {
+        "title": "Life support and coordination",
+        "minutes": 10,
+        "hook": "A police officer asks a suspected drunk driver to walk a straight line and touch his nose. That test is really checking one part of the brain. Which one?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "The midbrain",
+            "body": "The **midbrain** lies between the forebrain and hindbrain, above the pons. It surrounds the **cerebral aqueduct**, the channel linking the third and fourth ventricles.\n\nIts main parts are the **tectum** (roof) and **tegmentum**, along with the **substantia nigra**. The tegmentum carries fibre tracts between hindbrain and forebrain and has nuclei controlling **eye muscles**.",
+            "visual": {
+              "type": "brain",
+              "region": "brainstem",
+              "label": "Midbrain within stem"
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "The colliculi",
+            "left": {
+              "title": "Superior colliculi",
+              "points": [
+                "Upper pair of bumps",
+                "Input from the optic nerves",
+                "Visual reflexes"
+              ]
+            },
+            "right": {
+              "title": "Inferior colliculi",
+              "points": [
+                "Lower pair of bumps",
+                "Hearing and auditory reflexes",
+                "Locate sounds by timing at each ear"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Substantia nigra",
+            "body": "The **substantia nigra**, meaning '**black substance**' for its dark pigment, is closely linked to the **basal ganglia**. Its neurons supply **dopamine** that helps process motor commands from higher centres.\n\nIts **degeneration** is the hallmark of **Parkinson's disease**, which makes movement difficult.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Substantia nigra",
+                "Dopamine",
+                "Basal ganglia",
+                "Movement"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Reticular activating system",
+            "body": "The **reticular activating system (RAS)** is a diffuse network running from the **medulla and pons** through the **midbrain** towards the forebrain.\n\nIts fibres rising to the **cortex** produce a general state of **arousal and wakefulness** (Steriade, 1996). The related **reticular formation** (Latin *reticulum*, 'network') regulates **sleep and arousal**.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Deep sleep",
+              "right": "Alert",
+              "marker": 80,
+              "label": "RAS sets arousal"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "The inferior colliculi are mainly involved in:",
+            "options": [
+              "Vision",
+              "Smell",
+              "Hearing and locating sounds",
+              "Heart rate"
+            ],
+            "answerIndex": 2,
+            "why": "The inferior colliculi handle auditory processing and reflexes. The superior colliculi handle visual input."
+          },
+          {
+            "kind": "teach",
+            "heading": "The medulla: life support",
+            "body": "The **medulla** (medulla oblongata) is the lowest part of the brain, just above the spinal cord. Nearly all information passing between the brain and body travels through it.\n\nIts **nuclei** control **breathing, heart rate and blood pressure**, and some give rise to **cranial nerves**. Because these functions are vital, **damage to the medulla is quickly fatal**.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "pulse",
+                  "label": "Heart rate"
+                },
+                {
+                  "icon": "leaf",
+                  "label": "Breathing"
+                },
+                {
+                  "icon": "warning",
+                  "label": "Damage fatal"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The pons: a bridge",
+            "body": "**Pons** is Latin for **bridge**. It connects the **medulla** with higher centres and with the **cerebellum**.\n\nIt contains the **cochlear nucleus** (sound) and **vestibular nucleus** (balance). Nuclei in the pons are needed for **REM sleep**, and the **raphe nuclei** and **locus coeruleus** project widely to influence arousal and sleep.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Medulla",
+                "Pons (bridge)",
+                "Higher centres"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The cerebellum: little brain",
+            "body": "The **cerebellum** ('little brain' in Latin) sits at the back of the brainstem. Cut lengthwise, its white matter forms a **tree-like** pattern.\n\nIt **coordinates voluntary movement**, maintains **muscle tone** and regulates **balance**. It combines input about where the body **is** (from the spinal cord) with what you **intend** to do (from the cortex via the pons) and works out the sequence of muscle actions. It also stores learned motor routines.",
+            "visual": {
+              "type": "brain",
+              "region": "cerebellum",
+              "label": "Coordination and balance"
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "The roadside sobriety test",
+            "story": "At a checkpoint, an officer asks a driver to walk heel to toe and touch his nose with eyes closed. The driver sways and misses. Alcohol affects the cerebellum early, so these simple tests of coordination are really tests of cerebellar function. Slurred, uneven speech is another sign.",
+            "takeaway": "Cerebellar damage or intoxication disrupts skilled, coordinated movement, balance and speech."
+          },
+          {
+            "kind": "check",
+            "question": "Damage to which structure is most rapidly fatal because it controls breathing and heart rate?",
+            "options": [
+              "Cerebellum",
+              "Medulla",
+              "Superior colliculi",
+              "Corpus callosum"
+            ],
+            "answerIndex": 1,
+            "why": "The medulla's nuclei control vital functions, so damage there quickly kills."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'describe the midbrain and the hindbrain'. Name the parts and functions. Objectives love: superior versus inferior colliculi, substantia nigra ('black substance') and Parkinson's, pons ('bridge') and REM sleep, cerebellum and sobriety tests. Trap: confusing the medulla (vital functions) with the cerebellum (coordination).",
+            "sampleQuestion": "Which hindbrain structure contains nuclei necessary for REM sleep? (a) medulla (b) pons (c) cerebellum (d) tectum",
+            "howToAnswer": "Answer (b). Then list the three hindbrain parts with one function each: medulla (vital functions), pons (bridge, REM sleep), cerebellum (coordination).",
+            "scholars": [
+              "Steriade (1996)",
+              "Bloom et al. (2001)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Midbrain: tectum (colliculi) and tegmentum; substantia nigra.",
+              "Superior colliculi: vision; inferior colliculi: hearing.",
+              "RAS and reticular formation: arousal and sleep.",
+              "Medulla: breathing, heart rate, blood pressure; damage fatal.",
+              "Pons: bridge, REM sleep; cerebellum: coordination, balance, alcohol-sensitive."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The three main parts of the hindbrain are:",
+          "options": [
+            "Medulla, pons and cerebellum",
+            "Thalamus, hypothalamus and cerebrum",
+            "Tectum, tegmentum and colliculi",
+            "Cortex, amygdala and hippocampus"
+          ],
+          "answerIndex": 0,
+          "explanation": "The hindbrain consists of the medulla, pons and cerebellum."
+        },
+        {
+          "difficulty": 1,
+          "stem": "'Pons' means:",
+          "options": [
+            "Bridge",
+            "Little brain",
+            "Almond",
+            "Black substance"
+          ],
+          "answerIndex": 0,
+          "explanation": "Pons is Latin for bridge; cerebellum means little brain."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The cerebellum is mainly responsible for:",
+          "options": [
+            "Coordinating voluntary movement and balance",
+            "Vision",
+            "Hormone release",
+            "Language comprehension"
+          ],
+          "answerIndex": 0,
+          "explanation": "It coordinates movement, maintains muscle tone and regulates balance."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The superior colliculi receive input from the:",
+          "options": [
+            "Ears",
+            "Optic nerves",
+            "Spinal cord",
+            "Nose"
+          ],
+          "answerIndex": 1,
+          "explanation": "The superior colliculi handle visual input; the inferior colliculi handle hearing."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Degeneration of the substantia nigra is associated with:",
+          "options": [
+            "Alzheimer's disease",
+            "Epilepsy",
+            "Parkinson's disease",
+            "Stroke"
+          ],
+          "answerIndex": 2,
+          "explanation": "Loss of dopamine neurons there underlies Parkinson's disease."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The reticular activating system is responsible for:",
+          "options": [
+            "Wakefulness and arousal",
+            "Hearing",
+            "Producing hormones",
+            "Balance only"
+          ],
+          "answerIndex": 0,
+          "explanation": "Its fibres activate the cortex to produce arousal."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A man turns his head instantly towards a sudden car horn on his left. This auditory reflex involves the:",
+          "options": [
+            "Superior colliculi",
+            "Inferior colliculi",
+            "Hypothalamus",
+            "Medulla only"
+          ],
+          "answerIndex": 1,
+          "explanation": "The inferior colliculi support auditory reflexes and sound localisation."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A patient after a brainstem stroke cannot enter REM sleep. Damage most likely involves the:",
+          "options": [
+            "Hypothalamus",
+            "Cerebrum",
+            "Pons",
+            "Corpus callosum"
+          ],
+          "answerIndex": 2,
+          "explanation": "Nuclei in the pons are necessary for REM sleep."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A footballer after a head injury walks unsteadily and slurs some words. The most likely damaged structure is the:",
+          "options": [
+            "Medulla",
+            "Thalamus",
+            "Cerebellum",
+            "Pituitary"
+          ],
+          "answerIndex": 2,
+          "explanation": "Unsteady gait and slurred speech are classic cerebellar signs."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are found in or associated with the midbrain EXCEPT:",
+          "options": [
+            "Tectum",
+            "Medulla oblongata",
+            "Substantia nigra",
+            "Tegmentum"
+          ],
+          "answerIndex": 1,
+          "explanation": "The medulla is part of the hindbrain."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Why are roadside sobriety tests effectively tests of cerebellar function?",
+          "options": [
+            "Alcohol only affects vision",
+            "Alcohol affects the cerebellum early, disrupting coordination and balance",
+            "The cerebellum controls breathing",
+            "The tests measure memory"
+          ],
+          "answerIndex": 1,
+          "explanation": "The cerebellum is among the first structures affected by alcohol, so coordination tests reveal intoxication."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Medulla: REM sleep",
+            "Superior colliculi: hearing",
+            "Cerebellum: heart rate",
+            "Pons: cochlear and vestibular nuclei"
+          ],
+          "answerIndex": 3,
+          "explanation": "The pons contains the cochlear (sound) and vestibular (balance) nuclei."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. The medulla controls breathing, heart rate and blood pressure. II. The cerebellum receives information about intended movements from the cortex via the pons. III. The inferior colliculi receive input from the optic nerves. Which are correct?",
+          "options": [
+            "II and III only",
+            "I and III only",
+            "I and II only",
+            "I, II and III"
+          ],
+          "answerIndex": 2,
+          "explanation": "I and II are correct. III is wrong: the superior colliculi receive optic input."
+        },
+        {
+          "difficulty": 5,
+          "stem": "The cerebellum works out the sequence of muscle movements by combining:",
+          "options": [
+            "Hormone levels and temperature",
+            "Heart rate and breathing",
+            "Visual and smell signals only",
+            "Current body position from the spinal cord and intended movement from the cortex"
+          ],
+          "answerIndex": 3,
+          "explanation": "It compares where the body is with what the cortex plans, then coordinates the movement."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A patient is in a prolonged coma though the cortex appears intact. Damage to which system could best explain the loss of arousal?",
+          "options": [
+            "Choroid plexus",
+            "Corpus callosum",
+            "Inferior colliculi",
+            "Reticular activating system"
+          ],
+          "answerIndex": 3,
+          "explanation": "The RAS activates the cortex; without it, the cortex cannot maintain wakefulness."
+        }
+      ]
+    }
+  ]
+}

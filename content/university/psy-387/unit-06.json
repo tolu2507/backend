@@ -1,0 +1,648 @@
+{
+  "unit": 6,
+  "title": "Characterising Intergroup Bias: Stereotyping, Prejudice and Discrimination",
+  "summary": "The three faces of intergroup bias, how they differ as thought, feeling and action, and why each can appear without the others.",
+  "sections": [
+    {
+      "name": "Prejudice and stereotypes",
+      "lesson": {
+        "title": "Judging before knowing",
+        "minutes": 10,
+        "hook": "'Don't rent your flat to students, they never pay.' The landlord has never met you. What exactly is going on in their head, and in their heart?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Prejudice is a pre-judgement",
+            "body": "**Prejudice** is a negative attitude towards a group and its members, formed **without enough information** and **resistant to evidence** that contradicts it.\n\nThe word itself tells the story: *pre*-judge. The verdict comes before the facts. Show the prejudiced person a counter-example and they often call it 'the exception', keeping the original view intact.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Group label",
+                "Quick verdict",
+                "Ignore contrary facts"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "More than an opinion",
+            "body": "In psychology, prejudice is not just a belief like 'they are lazy'. It is an **attitude**, and attitudes carry **feelings**: contempt, dislike, fear, even loathing.\n\nThat emotional charge is what makes prejudice so stubborn and so dangerous. Extreme cases, such as calls to kill a whole national or religious group, show how hatred of a category can override any judgement of individuals.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "bulb",
+                  "label": "Belief"
+                },
+                {
+                  "icon": "heart",
+                  "label": "Feeling"
+                },
+                {
+                  "icon": "warning",
+                  "label": "Hostility"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Two kinds of prejudice",
+            "left": {
+              "title": "Explicit",
+              "points": [
+                "Openly stated",
+                "Made public in words",
+                "Person is aware of it"
+              ]
+            },
+            "right": {
+              "title": "Implicit",
+              "points": [
+                "Unspoken",
+                "May be outside awareness",
+                "Shows in quick reactions"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "A man insists he treats all ethnic groups equally, yet he reacts faster when pairing one group with negative words. This suggests:",
+            "options": [
+              "Explicit prejudice",
+              "Institutional discrimination",
+              "Implicit prejudice",
+              "A positive stereotype"
+            ],
+            "answerIndex": 2,
+            "why": "Bias that is unspoken and may lie outside awareness is implicit. Explicit prejudice is openly stated, which he denies."
+          },
+          {
+            "kind": "teach",
+            "heading": "Where 'stereotype' came from",
+            "body": "The word began in **printing**. Around 1798 the French printer **Didot** used it for a metal plate that made identical copies again and again.\n\nIn 1922 the journalist **Walter Lippmann** borrowed it for '**pictures in our heads**': fixed mental copies of what a group is like. The image fits: a stereotype stamps the same impression onto every member, whoever they actually are.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Printing plate",
+                "Identical copies",
+                "Pictures in head"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Generalising about groups",
+            "body": "A **stereotype** is a generalisation, often an **over-generalisation**, about the members of a group. Stereotypes can be **positive** ('they are great at business') as well as negative, though most are negative and **resist change**.\n\nOn their own, stereotypes are beliefs. Their harm comes from what they feed: prejudice and discrimination.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Positive",
+              "right": "Negative",
+              "marker": 75,
+              "label": "Most stereotypes"
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "The 'smart tribe' stereotype",
+            "story": "In Chinedu's class, people joke that students from one state 'are all born engineers'. It sounds like praise. But when Musa from that state struggles in calculus, classmates assume he is lazy rather than offering help, and a lecturer expects top marks he cannot yet deliver.",
+            "takeaway": "Even a positive stereotype is an over-generalisation that can hurt the individual it is pinned on."
+          },
+          {
+            "kind": "check",
+            "question": "Lippmann's description of stereotypes as 'pictures in our heads' highlights that stereotypes are:",
+            "options": [
+              "Fixed mental images of a group",
+              "Always accurate",
+              "Acts of unfair treatment",
+              "Laws made by institutions"
+            ],
+            "answerIndex": 0,
+            "why": "The phrase stresses that stereotypes are mental copies of a group. Unfair treatment is discrimination, a behaviour."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect definitions dressed up as fill-in-the-gap: 'a set of negative attitudes formed without sufficient information and resistant to contrary evidence is…'. The trap is choosing stereotype. Remember: prejudice is the attitude with feeling; stereotype is the generalisation. Also know who coined the term and the implicit versus explicit split.",
+            "sampleQuestion": "The term 'stereotype' was first used by: (a) Lippmann for a mental image (b) Didot for a printing process (c) Allport for prejudice (d) Tajfel for social categories",
+            "howToAnswer": "Answer (b): Didot, a French printer, around 1798. Lippmann later applied it to 'pictures in our heads' in 1922.",
+            "scholars": [
+              "Lippmann (1922)",
+              "Allport (1954)",
+              "Fiske (1993)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Prejudice: a negative attitude formed without enough information, resistant to evidence.",
+              "Prejudice includes feelings such as contempt and loathing.",
+              "Explicit prejudice is stated; implicit prejudice is unspoken or unconscious.",
+              "'Stereotype' came from printing (Didot, 1798); Lippmann: pictures in our heads.",
+              "Stereotypes are over-generalisations, positive or negative."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "A negative attitude towards a group, formed without enough information and resistant to contrary evidence, is:",
+          "options": [
+            "Discrimination",
+            "Stereotype",
+            "Prejudice",
+            "Ethnocentrism"
+          ],
+          "answerIndex": 2,
+          "explanation": "That is the standard description of prejudice. A stereotype is a generalisation; discrimination is behaviour."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The term 'stereotype' was originally used in:",
+          "options": [
+            "Medicine",
+            "Agriculture",
+            "Law",
+            "Printing"
+          ],
+          "answerIndex": 3,
+          "explanation": "It began as a printing process for making identical copies, used by the French printer Didot."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Prejudice that is openly stated is called:",
+          "options": [
+            "Implicit prejudice",
+            "Explicit prejudice",
+            "Institutional prejudice",
+            "Latent prejudice"
+          ],
+          "answerIndex": 1,
+          "explanation": "Explicit prejudice is verbalised and made public. Implicit prejudice stays unspoken."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which of the following is TRUE of stereotypes?",
+          "options": [
+            "They are always negative",
+            "They are a form of behaviour",
+            "They are always accurate",
+            "They can be positive or negative"
+          ],
+          "answerIndex": 3,
+          "explanation": "Stereotypes can be positive or negative, though most are negative. They are beliefs, not behaviour."
+        },
+        {
+          "difficulty": 2,
+          "stem": "In psychology, prejudice is treated as an attitude rather than a mere opinion because it includes:",
+          "options": [
+            "Accurate facts",
+            "Feelings such as contempt or dislike",
+            "Legal rules",
+            "Physical actions"
+          ],
+          "answerIndex": 1,
+          "explanation": "Attitudes carry emotional content. Prejudice involves feelings like contempt, which opinions alone need not have."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The phrase 'pictures in our heads' is associated with:",
+          "options": [
+            "Walter Lippmann",
+            "Didot",
+            "Muzafer Sherif",
+            "Henri Tajfel"
+          ],
+          "answerIndex": 0,
+          "explanation": "Lippmann (1922) used the phrase for stereotypes. Didot used the word only for printing."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Amaka says 'Northerners are very honest' about every northerner she meets. Her belief is best described as:",
+          "options": [
+            "Discrimination",
+            "Explicit hostility",
+            "A positive stereotype",
+            "Institutional bias"
+          ],
+          "answerIndex": 2,
+          "explanation": "It is a generalisation about a whole group, so a stereotype, and a positive one. No unfair treatment is described, so it is not discrimination."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A landlord refuses to believe a student tenant who has paid on time for two years is reliable, calling him 'the exception'. This shows prejudice is:",
+          "options": [
+            "Based on sufficient information",
+            "Resistant to contrary evidence",
+            "Always unconscious",
+            "Purely positive"
+          ],
+          "answerIndex": 1,
+          "explanation": "Dismissing contrary evidence as an exception is the classic way prejudice resists change."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A participant denies any bias but is slower to link a minority group with positive words in a reaction-time test. The bias revealed is:",
+          "options": [
+            "Explicit prejudice",
+            "A positive stereotype",
+            "Personal discrimination",
+            "Implicit prejudice"
+          ],
+          "answerIndex": 3,
+          "explanation": "Unspoken bias that shows in quick reactions, possibly outside awareness, is implicit prejudice."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following describe prejudice EXCEPT:",
+          "options": [
+            "It is a pre-judgement",
+            "It is usually negative",
+            "It is the unfair treatment of group members",
+            "It can include feelings of loathing"
+          ],
+          "answerIndex": 2,
+          "explanation": "Unfair treatment is discrimination, a behaviour. Prejudice is the attitude behind it."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Stereotype: unfair behaviour",
+            "Implicit prejudice: may be outside awareness",
+            "Prejudice: generalisation about a group",
+            "Explicit prejudice: always unconscious"
+          ],
+          "answerIndex": 1,
+          "explanation": "Implicit prejudice can lie outside awareness. Explicit prejudice is conscious and stated; generalisation is a stereotype; unfair behaviour is discrimination."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Why are stereotypes described as harmful even though they are 'only beliefs'?",
+          "options": [
+            "They foster prejudice and discrimination",
+            "They are illegal",
+            "They are always false",
+            "They change easily"
+          ],
+          "answerIndex": 0,
+          "explanation": "Their danger lies in what they feed: hostile feelings and unfair treatment. They are not always false, and they resist change."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Prejudice includes an emotional component. II. Stereotypes are always negative. III. Implicit prejudice may operate outside awareness. Which are correct?",
+          "options": [
+            "I and II only",
+            "II and III only",
+            "I and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 2,
+          "explanation": "I and III are correct. II is wrong because stereotypes can be positive."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A researcher shows that a group's stereotype persists even after members are shown many disconfirming cases. The researcher would most likely conclude that stereotypes:",
+          "options": [
+            "Are resistant to change",
+            "Are based on careful observation",
+            "Disappear with exposure to facts",
+            "Exist only in prejudiced people"
+          ],
+          "answerIndex": 0,
+          "explanation": "Survival in the face of contrary evidence shows resistance to change. If facts dissolved stereotypes, they would have disappeared."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which statement best captures the relationship between stereotypes and prejudice?",
+          "options": [
+            "Stereotypes are beliefs that can fuel prejudiced attitudes",
+            "They are the same thing",
+            "Prejudice always comes before any stereotype",
+            "Stereotypes are feelings and prejudice is behaviour"
+          ],
+          "answerIndex": 0,
+          "explanation": "Stereotypes are the generalised beliefs; prejudice is the negative attitude they often feed. Behaviour is discrimination."
+        }
+      ]
+    },
+    {
+      "name": "Discrimination and how they connect",
+      "lesson": {
+        "title": "From thinking to doing",
+        "minutes": 10,
+        "hook": "A hiring manager says he has nothing against anyone, yet every new staff member is from his hometown. Is that discrimination if there is no hatred behind it?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Discrimination is behaviour",
+            "body": "**Discrimination** is treating people differently, usually worse, **because of the group they belong to**. It puts members of a group at a disadvantage.\n\nWhere a stereotype lives in the head and prejudice in the heart, discrimination shows in the **hands**: who gets hired, admitted, served, promoted or rented a flat.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Stereotype",
+                "Prejudice",
+                "Discrimination"
+              ]
+            }
+          },
+          {
+            "kind": "steps",
+            "heading": "Head, heart and hands",
+            "steps": [
+              {
+                "title": "Stereotype (thinking)",
+                "detail": "The cognitive part: a generalised belief about what group members are like."
+              },
+              {
+                "title": "Prejudice (feeling)",
+                "detail": "The emotional part: a negative attitude such as dislike or contempt."
+              },
+              {
+                "title": "Discrimination (doing)",
+                "detail": "The behavioural part: unequal treatment because of group membership."
+              }
+            ]
+          },
+          {
+            "kind": "check",
+            "question": "Which of these is discrimination rather than prejudice or stereotype?",
+            "options": [
+              "Believing a group is lazy",
+              "Disliking a group",
+              "Refusing to serve customers of a group",
+              "Imagining a group is dishonest"
+            ],
+            "answerIndex": 2,
+            "why": "Discrimination is an action. Believing and imagining are stereotypes; disliking is prejudice."
+          },
+          {
+            "kind": "compare",
+            "heading": "Two levels of discrimination",
+            "left": {
+              "title": "Personal",
+              "points": [
+                "Committed by individuals",
+                "A manager won't hire a Hausa applicant",
+                "A trader overcharges one group"
+              ]
+            },
+            "right": {
+              "title": "Institutional",
+              "points": [
+                "Built into policies and practices",
+                "Admission rules favouring one ethnic group",
+                "Can continue without any one bigot"
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "The admission rule",
+            "story": "A private college quietly reserves most places for applicants from its founder's home area. No single admissions officer dislikes anyone; they are just following the rule. Yet year after year, equally qualified students like Zainab from other states are turned away.",
+            "takeaway": "Institutional discrimination is built into rules and practices, so it can harm people even when no individual feels hatred."
+          },
+          {
+            "kind": "teach",
+            "heading": "Love for 'us', not hate for 'them'",
+            "body": "**Marilynn Brewer (1999)** argued that much discrimination grows from **in-group favouritism** rather than hostility towards the out-group.\n\nThe manager who hires only people from his hometown may feel no hatred for anyone else. He simply trusts and helps 'his own'. The result for outsiders is the same: fewer chances. Brewer's question became famous: is prejudice **in-group love or out-group hate**?",
+            "visual": {
+              "type": "scale",
+              "left": "In-group love",
+              "right": "Out-group hate",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "They do not always travel together",
+            "body": "Stereotype, prejudice and discrimination often go together, but **one can exist without the others**.\n\nSomeone can dislike 'foreigners' in general without holding specific stereotypes or ever acting on it. And discrimination can happen **without prejudice**, intentionally or not, as when a rule or habit disadvantages a group nobody set out to harm. In a classic 1930s study, **Richard LaPiere** found hotels that served a Chinese couple in person later said in letters they would refuse Chinese guests: attitudes and actions did not match.",
+            "visual": {
+              "type": "venn",
+              "left": "Prejudice",
+              "right": "Discrimination",
+              "both": "Often, not always"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "A hospital form that only accepts names in one language, unintentionally excluding some patients, is an example of:",
+            "options": [
+              "Explicit prejudice",
+              "Discrimination without prejudice",
+              "A positive stereotype",
+              "Basking in reflected glory"
+            ],
+            "answerIndex": 1,
+            "why": "The rule disadvantages a group though nobody intended harm. That shows discrimination can occur without prejudice."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "The favourite is 'differentiate between stereotype, prejudice and discrimination'. Use the thinking, feeling, doing frame and give one example of each. Objectives test personal versus institutional discrimination with Nigerian scenarios, and whether discrimination can exist without prejudice. The trap: assuming discrimination always needs hatred.",
+            "sampleQuestion": "A university's quota system admits fewer candidates from some states regardless of their scores. This is best described as: (a) personal discrimination (b) institutional discrimination (c) implicit prejudice (d) a stereotype",
+            "howToAnswer": "Answer (b): it is a policy carried out by an institution, not an act by one individual. In essays, explain that it can exist even if no officer is prejudiced.",
+            "scholars": [
+              "Brewer (1999)",
+              "LaPiere (1934)",
+              "Allport (1954)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Discrimination is unequal treatment because of group membership.",
+              "Stereotype = thinking, prejudice = feeling, discrimination = doing.",
+              "Personal discrimination: individuals; institutional: policies and practices.",
+              "Brewer (1999): much discrimination is in-group love, not out-group hate.",
+              "Each of the three can occur without the others."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Discrimination is best defined as:",
+          "options": [
+            "Unequal treatment of people because of their group",
+            "A negative feeling towards a group",
+            "A belief about a group",
+            "A picture in the head"
+          ],
+          "answerIndex": 0,
+          "explanation": "Discrimination is behaviour: treating people differently because of group membership. Beliefs are stereotypes; feelings are prejudice."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Discrimination committed by an individual person is called:",
+          "options": [
+            "Institutional discrimination",
+            "Personal discrimination",
+            "Implicit prejudice",
+            "Structural bias"
+          ],
+          "answerIndex": 1,
+          "explanation": "Acts by individuals are personal discrimination. Policies of organisations are institutional discrimination."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which component of intergroup bias is behavioural?",
+          "options": [
+            "Stereotype",
+            "Prejudice",
+            "Discrimination",
+            "Attitude"
+          ],
+          "answerIndex": 2,
+          "explanation": "Discrimination is the action; stereotypes are thoughts and prejudice is a feeling-laden attitude."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Brewer (1999) argued that much discrimination stems from:",
+          "options": [
+            "Out-group hate",
+            "Genetic differences",
+            "In-group favouritism",
+            "Economic competition only"
+          ],
+          "answerIndex": 2,
+          "explanation": "Brewer stressed in-group love: helping one's own group can disadvantage others without hatred."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Institutional discrimination refers to:",
+          "options": [
+            "Insults shouted by individuals",
+            "Positive stereotypes",
+            "Unconscious attitudes",
+            "Discriminatory policies or practices of organisations"
+          ],
+          "answerIndex": 3,
+          "explanation": "It is built into organisational rules and practices, unlike personal discrimination by individuals."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which statement is TRUE?",
+          "options": [
+            "Discrimination always requires prejudice",
+            "Prejudice always leads to discrimination",
+            "Stereotypes are a form of behaviour",
+            "Discrimination can occur without prejudice"
+          ],
+          "answerIndex": 3,
+          "explanation": "Rules or habits can disadvantage a group without anyone feeling prejudice. The other statements overstate the links."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A shop owner in Kano refuses to employ any applicant from a particular ethnic group. This is:",
+          "options": [
+            "Institutional discrimination",
+            "Personal discrimination",
+            "Implicit prejudice",
+            "A stereotype"
+          ],
+          "answerIndex": 1,
+          "explanation": "An individual's own act of unequal treatment is personal discrimination."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A state civil service rule gives automatic promotion priority to 'indigenes', disadvantaging equally qualified non-indigenes. This is:",
+          "options": [
+            "Personal discrimination",
+            "Institutional discrimination",
+            "Basking in reflected glory",
+            "Explicit prejudice"
+          ],
+          "answerIndex": 1,
+          "explanation": "The disadvantage comes from an organisational policy, which is institutional discrimination."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A manager always hires people from his own church, not because he dislikes others but because he trusts members. Brewer would describe this as:",
+          "options": [
+            "Out-group hate",
+            "Implicit stereotype",
+            "In-group love",
+            "Realistic conflict"
+          ],
+          "answerIndex": 2,
+          "explanation": "Favouring one's own without hostility to others is the in-group love Brewer described. The effect on outsiders is still discriminatory."
+        },
+        {
+          "difficulty": 4,
+          "stem": "LaPiere's 1930s study, in which hotels served a Chinese couple but later said they would refuse Chinese guests, shows that:",
+          "options": [
+            "Stated attitudes and actual behaviour can differ",
+            "Attitudes always predict behaviour",
+            "Discrimination is always institutional",
+            "Stereotypes are always positive"
+          ],
+          "answerIndex": 0,
+          "explanation": "The gap between the letters and the actual service shows attitude and behaviour can come apart."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Stereotype: behavioural component",
+            "Prejudice: emotional component",
+            "Discrimination: cognitive component",
+            "Institutional discrimination: acts by individuals"
+          ],
+          "answerIndex": 1,
+          "explanation": "Prejudice is the feeling component. Stereotypes are cognitive, discrimination behavioural, and institutional discrimination works through policies."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are examples of discrimination EXCEPT:",
+          "options": [
+            "Privately believing a group is untidy",
+            "Refusing admission because of ethnicity",
+            "Charging one group higher rent",
+            "Promoting staff only from one region"
+          ],
+          "answerIndex": 0,
+          "explanation": "A private belief is a stereotype, not behaviour. The others are unequal treatment."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Discrimination can exist without prejudice. II. Prejudice can exist without specific stereotypes. III. Institutional discrimination needs a prejudiced individual to operate. Which are correct?",
+          "options": [
+            "I and II only",
+            "I and III only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 0,
+          "explanation": "I and II are correct. III is false: institutional discrimination can continue through rules even if no individual is prejudiced."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A researcher finds a company disadvantages women in promotion, yet every manager scores low on prejudice. The best explanation is:",
+          "options": [
+            "The managers are lying",
+            "Positive stereotyping of women",
+            "Institutional discrimination built into company practices",
+            "Personal discrimination by each manager"
+          ],
+          "answerIndex": 2,
+          "explanation": "Discrimination without prejudiced individuals points to policies and practices, which is institutional discrimination. Assuming lies ignores the possibility the theory describes."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which statement best explains why Brewer's work matters for reducing discrimination?",
+          "options": [
+            "In-group love never harms anyone",
+            "Discrimination ends once stereotypes are positive",
+            "Only laws against hate speech are needed",
+            "Removing hatred alone may not end discrimination if in-group favouritism remains"
+          ],
+          "answerIndex": 3,
+          "explanation": "If discrimination often flows from favouring one's own, then reducing hostility is not enough; favouritism must be tackled too."
+        }
+      ]
+    }
+  ]
+}

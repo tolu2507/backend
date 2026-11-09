@@ -1,0 +1,1031 @@
+{
+  "unit": 9,
+  "title": "Feminist Theory",
+  "summary": "How feminists read world politics through gender, why that matters for IR, and the radical, liberal, Marxist and critical strands.",
+  "sections": [
+    {
+      "name": "Gender as a lens on IR",
+      "lesson": {
+        "title": "Sex, gender and a gendered world",
+        "minutes": 9,
+        "hook": "Look at a photo of any ECOWAS summit. Count the women. Feminists say that empty space is not an accident; it tells you something about how world politics is built.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "A theory that looks through gender",
+            "body": "**Feminist theory** views international relations mainly from a **gender perspective**. It asks how world politics affects men and women, and how men and women in turn shape world politics.\n\nIt also makes a sharper claim: the core concepts of the discipline, such as **war, security and power**, are themselves **gendered**. They were built around men's experiences and male-coded values, and then presented as neutral.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "eye",
+                  "label": "Gender lens"
+                },
+                {
+                  "icon": "shield",
+                  "label": "Security gendered"
+                },
+                {
+                  "icon": "flash",
+                  "label": "Power gendered"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Sex is not gender",
+            "left": {
+              "title": "Sex",
+              "points": [
+                "Biological difference",
+                "Male and female bodies",
+                "Largely given at birth"
+              ]
+            },
+            "right": {
+              "title": "Gender",
+              "points": [
+                "Socially constructed identities",
+                "Masculine and feminine roles",
+                "Relationship between the sexes",
+                "Varies across societies"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Four things to get right first",
+            "body": "First, feminism studies **gender**, not just women, and the difference gender makes to world politics. Second, it examines how **masculine and feminine** are linked, socially built categories that shape how we see the world. Third, because roles are **socially constructed**, feminists question any fixed idea of what women 'naturally' are. Fourth, you do not have to be a woman to be a feminist: anyone, **male or female**, concerned with gender issues can be one.",
+            "visual": {
+              "type": "venn",
+              "left": "Masculine",
+              "right": "Feminine",
+              "both": "Socially constructed"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "In feminist theory, 'gender' refers mainly to:",
+            "options": [
+              "The biological difference between male and female",
+              "The social construction of men's and women's identities in relation to each other",
+              "The number of women in parliament",
+              "A synonym for 'women'"
+            ],
+            "answerIndex": 1,
+            "why": "Gender is about socially built identities and the relationship between the sexes. Biological difference is 'sex', which feminists insist is not the same thing."
+          },
+          {
+            "kind": "teach",
+            "heading": "Roots in a movement",
+            "body": "Modern feminism grew out of the **women's liberation movement**, a protest against gender-based power structures and the accepted norms about men and women.\n\nThe protest took different forms. Some demanded that women be allowed into spheres historically reserved for men, such as parliament, the army or the boardroom. Others demanded deeper, more **fundamental social change**. This split foreshadows the strands of feminism you will meet later.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Admit women in",
+              "right": "Transform society",
+              "marker": 50,
+              "label": "Range of feminist demands"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Power between men and women",
+            "body": "Feminists analyse **relations of power between men and women**: how that power is exercised and how it has been built up through habit, history and society over time. Crucially, they deny it comes from **inherent biological differences**.\n\nThey argue that in almost every part of the world women remain **second-class citizens** economically, politically and socially, and that society is arranged so men benefit at women's expense.",
+            "visual": {
+              "type": "scale",
+              "left": "Men's advantage",
+              "right": "Women's advantage",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Who cooks for the summit?",
+            "story": "At a big conference in Abuja, Tunde reports on the ministers and generals in the hall. Few are women. Outside, women run the food stalls, clean the venue and care for the delegates' children at home. The newspapers call the summit 'international relations'; nobody calls the cooking and childcare that.",
+            "takeaway": "Feminists ask why the public, male-dominated sphere counts as IR while women's work in the private sphere stays invisible."
+          },
+          {
+            "kind": "teach",
+            "heading": "Beyond war and diplomacy",
+            "body": "Feminist IR studies the traditional topics of **states, wars, diplomacy and security**, but also looks at how gender shapes the **global political economy**: who works in factories, who sends remittances, who does unpaid care.\n\nIts key questions are: Where do 'women' and 'men' fit in IR? How do constructed genders affect world politics? How is the international system, and the study of IR, itself gendered?",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "flag",
+                  "label": "States and war"
+                },
+                {
+                  "icon": "cash",
+                  "label": "Political economy"
+                },
+                {
+                  "icon": "home",
+                  "label": "Private sphere"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Feminists argue that the international system has a strongly masculine orientation. Which observation best supports this claim?",
+            "options": [
+              "Women are naturally more peaceful than men",
+              "Men hold most prominent positions while women are pushed into a 'domestic sphere'",
+              "International law forbids women from holding office",
+              "Gender differences are purely biological"
+            ],
+            "answerIndex": 1,
+            "why": "Men dominate the visible public roles while women are confined to a largely invisible private sphere. Feminists reject both the 'naturally peaceful' and purely biological claims."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "The classic trap is confusing sex with gender, or saying feminism is 'the study of women' only. Lecturers also set objectives asking who can be a feminist. Use Cynthia Enloe's question 'Where are the women?' to show you have read beyond the manual.",
+            "sampleQuestion": "'Feminism in IR is the study of gender, not women.' Discuss.",
+            "howToAnswer": "Distinguish sex from gender, explain gender as socially constructed and relational, and show that feminists study how masculine and feminine shape core IR concepts like security and power.",
+            "scholars": [
+              "J. Ann Tickner (1988, 2001)",
+              "Cynthia Enloe (1989)",
+              "Steans & Pettiford (2005)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Feminist theory views IR through a gender lens.",
+              "Sex is biological; gender is the social construction of identities in relation to each other.",
+              "Feminism studies gender, not only women; men can be feminists.",
+              "It grew from the women's liberation movement.",
+              "It covers war and security and also the global political economy."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Feminists insist that 'gender' is not a synonym for 'sex' because gender refers to:",
+          "options": [
+            "Biological differences between men and women",
+            "Hormonal and chromosomal traits",
+            "Socially constructed identities and behaviours of men and women",
+            "Legal status at birth"
+          ],
+          "answerIndex": 2,
+          "explanation": "Gender is the social construction of identities in relation to each other. Biological, hormonal and chromosomal traits belong to 'sex'."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Contemporary feminism has its roots in which social movement?",
+          "options": [
+            "The women's liberation movement",
+            "The anti-nuclear movement",
+            "The trade union movement",
+            "The non-aligned movement"
+          ],
+          "answerIndex": 0,
+          "explanation": "Modern feminism grew from the women's liberation movement, which protested gender-based power structures. The Non-Aligned Movement was a Cold War grouping of states."
+        },
+        {
+          "difficulty": 1,
+          "stem": "According to feminist theory, who can be a feminist?",
+          "options": [
+            "Only women",
+            "Only women in politics",
+            "Only scholars of gender",
+            "Anyone, male or female, concerned with gender issues"
+          ],
+          "answerIndex": 3,
+          "explanation": "Feminists include all who are concerned with gender, whether male or female. Restricting it to women is a common misconception."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Feminists claim that concepts such as war, security and power are 'gendered'. This means that these concepts:",
+          "options": [
+            "Apply only to women",
+            "Were shaped around male experiences and masculine values yet presented as neutral",
+            "Are irrelevant to International Relations",
+            "Have biological origins"
+          ],
+          "answerIndex": 1,
+          "explanation": "Feminists argue core IR concepts carry masculine assumptions while appearing neutral. Saying they apply only to women gets the point backwards."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Feminists explain the unequal power between men and women mainly as the result of:",
+          "options": [
+            "Inherent biological differences",
+            "Divine order",
+            "Habit, history and social practice over time",
+            "International anarchy"
+          ],
+          "answerIndex": 2,
+          "explanation": "Feminists see the power gap as built up historically and socially, not from biology. Anarchy is a realist explanation for state behaviour."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Beyond states, wars and diplomacy, feminist IR has stressed how gender shapes:",
+          "options": [
+            "The global political economy",
+            "Nuclear physics",
+            "The rules of football",
+            "Planetary geography"
+          ],
+          "answerIndex": 0,
+          "explanation": "Feminists highlight the gendered nature of the global political economy, such as unpaid care and low-wage factory work. The other options are outside IR."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Amaka argues that because roles like 'caregiver' and 'warrior' are learned, we should not assume we know what women naturally are. Her argument reflects the feminist view that gender roles are:",
+          "options": [
+            "Biologically fixed",
+            "Socially constructed",
+            "Determined by the economy alone",
+            "Set by international law"
+          ],
+          "answerIndex": 1,
+          "explanation": "Feminists see gender roles as socially constructed, so they question fixed ideas of feminine nature. 'Determined by the economy alone' is closer to a crude Marxist claim."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A researcher counts that most foreign ministers, generals and IR professors are men, while women's work is largely in the home. A feminist would use this to argue that:",
+          "options": [
+            "Women are uninterested in politics",
+            "The international system has a masculine orientation that renders women invisible",
+            "The balance of power favours small states",
+            "Biology explains political leadership"
+          ],
+          "answerIndex": 1,
+          "explanation": "Feminists see male dominance of prominent roles and women's confinement to the domestic sphere as evidence of a masculine system. They reject biological and 'lack of interest' explanations."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Two activists disagree: one wants women admitted into the army and parliament; the other wants society completely transformed. Both positions are consistent with:",
+          "options": [
+            "The range of demands within the feminist movement",
+            "Realist theory",
+            "Structuralist core–periphery analysis",
+            "Functionalism"
+          ],
+          "answerIndex": 0,
+          "explanation": "Feminist protest has ranged from entry into male spheres to fundamental social change. Neither demand is a realist or functionalist position."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement about feminist theory is NOT correct?",
+          "options": [
+            "It studies the interdependence of masculine and feminine",
+            "It treats gender as a socially constructed category",
+            "It is concerned only with women and ignores men",
+            "It examines how IR as a discipline is gendered"
+          ],
+          "answerIndex": 2,
+          "explanation": "Feminism studies gender, which includes men and masculinity, not women alone. The other statements are accurate."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Sex – social construction of identities",
+            "Gender – relationship between the sexes in a society",
+            "Sex – masculine and feminine roles",
+            "Gender – chromosomes and anatomy"
+          ],
+          "answerIndex": 1,
+          "explanation": "Gender describes the relationship between the sexes in a given society. The other pairs swap the meanings of sex and gender."
+        },
+        {
+          "difficulty": 4,
+          "stem": "The question 'Where are the women?' in international politics is most closely associated with:",
+          "options": [
+            "Hans Morgenthau",
+            "Robert Cox",
+            "Kenneth Waltz",
+            "Cynthia Enloe"
+          ],
+          "answerIndex": 3,
+          "explanation": "Enloe's Bananas, Beaches and Bases (1989) asked where women are in world politics. Cox is a critical theorist; Morgenthau and Waltz are realists."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider: I. Feminism is the study of gender rather than only women. II. Feminists accept that gender inequality is biologically determined. III. Men can be feminists. IV. Feminists ask how IR studies are themselves gendered. Which are correct?",
+          "options": [
+            "I and II only",
+            "I, III and IV only",
+            "II and III only",
+            "II, III and IV only"
+          ],
+          "answerIndex": 1,
+          "explanation": "Feminists reject biological explanations of inequality, so II is false. I, III and IV are correct statements."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A realist claims that 'security' simply means protecting the state from military attack. A feminist critique would most likely reply that:",
+          "options": [
+            "Security is a purely biological matter",
+            "This definition is neutral and should not be questioned",
+            "This view is gendered, overlooking insecurities such as domestic violence and economic exclusion",
+            "Only women can define security correctly"
+          ],
+          "answerIndex": 2,
+          "explanation": "Feminists argue that core concepts like security are gendered and ignore insecurities women face. They do not claim only women can define security."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which combination best captures feminism's approach to world politics?",
+          "options": [
+            "Gender as a social construction plus attention to power between men and women",
+            "Human nature plus anarchy",
+            "Class struggle plus surplus value only",
+            "Interdependence plus international regimes"
+          ],
+          "answerIndex": 0,
+          "explanation": "Feminism combines a view of gender as constructed with analysis of gendered power relations. Human nature and anarchy are realist foundations."
+        }
+      ]
+    },
+    {
+      "name": "Why feminism matters in IR",
+      "lesson": {
+        "title": "Making gender visible in world politics",
+        "minutes": 8,
+        "hook": "When the news reports women as Boko Haram suicide bombers, many people are shocked: 'women are supposed to be peaceful'. Feminists say that shock reveals a hidden assumption worth examining.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Late arrival",
+            "body": "Feminist IR emerged mainly from the **late 1980s**. Before then, women and gender were **ignored or marginalised** in the discipline.\n\nThe **end of the Cold War** and the rethinking of traditional theories in the **1990s** opened space for 'gendering' IR. Once the old superpower contest no longer dominated every debate, scholars could ask questions that had long been pushed aside.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Gender ignored",
+                "Late 1980s",
+                "Cold War ends",
+                "Gendering IR"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Male players, competitive politics",
+            "body": "Feminists note that most key players in IR, such as **policymakers, heads of government and academics**, have been and still are **men from patriarchal backgrounds**.\n\nThey argue that IR is **competitive, power-oriented and exploitative** largely because of this male domination. Socially built gender identities shape how power is distributed, and that decides where women stand in global politics.",
+            "visual": {
+              "type": "stat",
+              "value": "Few at the top",
+              "label": "Women in global leadership"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Expected masculinity and femininity",
+            "body": "Men can be feminine and women can be masculine. But societies **expect** masculinity of men and femininity of women, and reward people who conform.\n\nFeminists argue that IR would be **more balanced and effective** if women had their due share of politics. So a key goal is to **increase women's participation** and the positions they hold at all levels, and to improve women's lot in the international system.",
+            "visual": {
+              "type": "trending-up",
+              "label": "x"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Feminist IR emerged largely from which period?",
+            "options": [
+              "The late 1980s onwards",
+              "Immediately after the First World War",
+              "The 1950s",
+              "The early 1700s"
+            ],
+            "answerIndex": 0,
+            "why": "Feminist IR took shape from the late 1980s, helped by the end of the Cold War. Idealism, not feminism, followed the First World War."
+          },
+          {
+            "kind": "teach",
+            "heading": "Challenging 'peaceful victim' images",
+            "body": "Feminist theory challenges the picture of women as **naturally peaceful**, as **needing protection** or as **victims**. These images are themselves evidence of inequality.\n\nWhen women are pictured only as victims, never as actors, as gentle by nature, and as belonging at home instead of in public life, what they actually do gets brushed aside as minor. Cases of women as **agents of political violence** break these stereotypes.",
+            "visual": {
+              "type": "compare-placeholder"
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "The Aba Women's War",
+            "story": "In 1929, thousands of Igbo and Ibibio women in south-eastern Nigeria rose against colonial warrant chiefs and feared taxation of women. They organised across villages, besieged officials and forced the British to change the system. Colonial reports had treated these women as passive; their action proved them political agents.",
+            "takeaway": "Treating women only as passive or peaceful hides their real role in politics, which feminists insist on recovering."
+          },
+          {
+            "kind": "check",
+            "question": "Why do feminists object to portraying women mainly as peaceful victims needing protection?",
+            "options": [
+              "Because women are biologically more violent",
+              "Because such images make it easier to ignore women's experiences and keep them from power",
+              "Because women never need protection",
+              "Because victims are not part of IR"
+            ],
+            "answerIndex": 1,
+            "why": "These images push women's perspectives to the margins and limit their access to power. Feminists do not claim women are biologically more violent."
+          },
+          {
+            "kind": "teach",
+            "heading": "A fuller picture of world politics",
+            "body": "Taking feminism seriously is not only about correcting women's historic exclusion. It gives a **more complete picture** of global politics by counting a wider range of **actors and actions**.\n\nFeminists want the link between **global order and gender relations** made visible, so we understand how humanity as a whole shapes, and is shaped by, the global system. IR, they argue, rests on and repeats gendered ideas about who does what and who suffers what.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "people",
+                  "label": "More actors"
+                },
+                {
+                  "icon": "globe",
+                  "label": "Global order"
+                },
+                {
+                  "icon": "eye",
+                  "label": "Hidden made visible"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "'Examine the importance of feminist theory to IR' is a standard essay. Weak answers just say 'women are oppressed'. Strong ones cover timing (late 1980s, end of Cold War), male domination of policy, the challenge to 'peaceful victim' images and the fuller picture of world politics. A real example lifts your grade.",
+            "sampleQuestion": "Why does feminist theory matter for understanding world politics today? Argue your case.",
+            "howToAnswer": "Explain how feminism exposes male domination and gendered concepts, challenges stereotypes of women as passive, pushes for women's participation, and broadens the actors IR studies. Illustrate with cases such as UN Security Council Resolution 1325 (2000).",
+            "scholars": [
+              "J. Ann Tickner (2001)",
+              "Marysia Zalewski (1995)",
+              "Cynthia Enloe (1989)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Feminist IR emerged from the late 1980s; the Cold War's end gave it space.",
+              "Key IR players remain mostly men from patriarchal backgrounds.",
+              "Feminists link competitive, exploitative IR to male domination.",
+              "They seek more women in decision-making at all levels.",
+              "They reject images of women as only peaceful victims, giving a fuller picture of IR."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Which development in the 1990s opened space for 'gendering' International Relations?",
+          "options": [
+            "The founding of the League of Nations",
+            "The end of the Cold War and re-evaluation of traditional theory",
+            "The Treaty of Westphalia",
+            "The Cuban Missile Crisis"
+          ],
+          "answerIndex": 1,
+          "explanation": "The end of the Cold War and rethinking of traditional theories in the 1990s made room for gender analysis. The League and Westphalia belong to much earlier periods."
+        },
+        {
+          "difficulty": 1,
+          "stem": "One major goal of feminists in IR is to:",
+          "options": [
+            "Increase women's participation in political decision-making at all levels",
+            "Abolish all international organisations",
+            "Restore the balance of power",
+            "End all international trade"
+          ],
+          "answerIndex": 0,
+          "explanation": "Feminists seek greater participation of women in politics and better positions for them. The other goals are not feminist aims."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Feminists attribute the competitive, power-oriented and exploitative nature of IR mainly to:",
+          "options": [
+            "Climate change",
+            "The spread of democracy",
+            "Male domination in politics",
+            "Free trade agreements"
+          ],
+          "answerIndex": 2,
+          "explanation": "Feminists link the aggressive character of IR to male domination of political life. Democracy and trade are not their explanation."
+        },
+        {
+          "difficulty": 2,
+          "stem": "According to feminists, socially constructed gender identities matter in IR because they:",
+          "options": [
+            "Have no link to politics",
+            "Only affect family life",
+            "Shape how power is distributed and where women stand in global politics",
+            "Are fixed by biology"
+          ],
+          "answerIndex": 2,
+          "explanation": "Gender identities determine distributions of power that place women in global politics. Feminists reject the idea that they are fixed by biology."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Feminists argue that taking gender seriously in IR provides:",
+          "options": [
+            "A narrower focus on military power",
+            "A more complete picture of global politics with more actors and actions",
+            "Proof that states are unitary actors",
+            "A replacement for all economic analysis"
+          ],
+          "answerIndex": 1,
+          "explanation": "Feminism broadens the range of actors and actions studied, giving a fuller account. It does not narrow analysis to military power."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Before the late 1980s, women and gender issues in the study of IR were mostly:",
+          "options": [
+            "Central to realist theory",
+            "Ignored or marginalised",
+            "The main topic of idealism",
+            "Studied only by structuralists"
+          ],
+          "answerIndex": 1,
+          "explanation": "Gender was largely ignored or pushed to the margins before feminist IR emerged. Realism, idealism and structuralism did not centre it."
+        },
+        {
+          "difficulty": 3,
+          "stem": "News reports express surprise that women carried out attacks for an armed group. A feminist analyst would most likely say this surprise reflects:",
+          "options": [
+            "A gendered assumption that women are naturally peaceful",
+            "Proof that women are biologically violent",
+            "The absence of gender in politics",
+            "The success of collective security"
+          ],
+          "answerIndex": 0,
+          "explanation": "Feminists see the 'peaceful women' image as a gendered construction that cases of female political violence disrupt. They do not argue for biological violence."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Women in 1929 south-eastern Nigeria organised against colonial taxation and forced policy changes. Feminists would use this case mainly to show that:",
+          "options": [
+            "Women only act in the domestic sphere",
+            "Women have been political actors despite being portrayed as passive",
+            "Colonial rule was gender neutral",
+            "Gender has no bearing on resistance"
+          ],
+          "answerIndex": 1,
+          "explanation": "The Aba Women's War shows women acting in the public political sphere, challenging images of women as passive. It contradicts the idea that women only act at home."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Ngozi became the first woman to head a major global trade body. A feminist would see her appointment mainly as:",
+          "options": [
+            "Proof that gender inequality has ended worldwide",
+            "Irrelevant to IR",
+            "A step toward increasing women's share of international decision-making",
+            "Evidence that biology decides leadership"
+          ],
+          "answerIndex": 2,
+          "explanation": "Feminists seek more women in decision-making positions, so such appointments are progress. One appointment does not mean inequality has ended."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Feminists argue that images of women as victims, in need of protection, or confined to the private realm are harmful mainly because they:",
+          "options": [
+            "Increase women's military power",
+            "Make women's perspectives easier to dismiss and limit their access to power",
+            "Are accurate descriptions of all women",
+            "Encourage women to enter politics"
+          ],
+          "answerIndex": 1,
+          "explanation": "Such constructions marginalise women's experiences and help keep them out of power. Feminists do not see them as accurate for all women."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement about masculinity and femininity is consistent with feminist theory?",
+          "options": [
+            "Men can never be feminine",
+            "Masculinity is biologically fixed in men",
+            "Men can be feminine and women masculine, but society expects the reverse",
+            "Femininity has no political effects"
+          ],
+          "answerIndex": 2,
+          "explanation": "Feminists accept that both sexes can show either trait, but social expectations tie masculinity to men and femininity to women. That expectation has political effects."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Who wrote 'Gendering World Politics' (2001), a key text of feminist IR?",
+          "options": [
+            "Robert Keohane",
+            "J. Ann Tickner",
+            "Immanuel Wallerstein",
+            "Andrew Linklater"
+          ],
+          "answerIndex": 1,
+          "explanation": "J. Ann Tickner wrote Gendering World Politics. Wallerstein is a world-systems theorist and Linklater a critical theorist."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider: I. Feminist IR emerged mainly in the late 1980s. II. Feminists say most IR policymakers come from patriarchal backgrounds. III. Feminists accept the image of women as inherently peaceful. IV. Feminists want the link between global order and gender relations made visible. Which are correct?",
+          "options": [
+            "I, II and III only",
+            "II and III only",
+            "I, II and IV only",
+            "III and IV only"
+          ],
+          "answerIndex": 2,
+          "explanation": "Feminists challenge the image of women as inherently peaceful, so III is false. The other three statements are correct."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A student says, 'Feminism in IR is just about adding a few women to the list of leaders.' The strongest feminist rebuttal is that feminism also:",
+          "options": [
+            "Denies that men have any role in IR",
+            "Shows how IR concepts and practices rest on gendered assumptions and widens what counts as IR",
+            "Focuses only on biological differences",
+            "Rejects the study of states entirely"
+          ],
+          "answerIndex": 1,
+          "explanation": "Feminism goes beyond adding women; it exposes gendered assumptions and broadens the actors and actions IR studies. It does not reject states or men."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A researcher concludes that a war ministry's policies reflect gendered ideas about who fights and who is protected. Which feminist claim does this best support?",
+          "options": [
+            "IR rests on, and repeats, gendered ideas about who does what in global politics",
+            "War is caused by international anarchy alone",
+            "Gender is identical to sex",
+            "Women do not experience war"
+          ],
+          "answerIndex": 0,
+          "explanation": "The finding supports the feminist claim that IR depends on gendered ideas about roles. Anarchy alone is a realist explanation."
+        }
+      ]
+    },
+    {
+      "name": "Strands and assumptions of feminism",
+      "lesson": {
+        "title": "Radical, liberal, Marxist and critical feminism",
+        "minutes": 11,
+        "hook": "Four feminists walk into a seminar. They all want gender equality, yet they disagree about the enemy: men, discrimination, capitalism, or ideas. Knowing which is which is a sure exam question.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "One goal, several roads",
+            "body": "Like most IR theories, feminism has **several strands**. All share the agenda of **gender equality**, but they differ in their assumptions about the cause of women's oppression and the cure.\n\nThis course covers four: **radical**, **liberal**, **Marxist** and **critical** feminism. A useful trick is to ask of each: what is the root problem, and what is the solution?",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "warning",
+                  "label": "Radical"
+                },
+                {
+                  "icon": "scale",
+                  "label": "Liberal"
+                },
+                {
+                  "icon": "cash",
+                  "label": "Marxist"
+                },
+                {
+                  "icon": "bulb",
+                  "label": "Critical"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Radical feminism",
+            "body": "**Radical feminism** argues that oppression of women came **first**, reaches **furthest**, and cuts **deepest** of all forms of oppression. The basic division in every society is between **men and women**, with men as oppressors.\n\nRadical feminists developed the concept of **patriarchy** to explain institutionalised male domination, showing gender is not just a matter of personal identity. Oppression of women as women is more basic than class, ethnic or religious oppression. The aim: **overthrow patriarchy** and radically reorder society.",
+            "visual": {
+              "type": "pyramid",
+              "levels": [
+                "Patriarchy",
+                "Gender roles",
+                "Women's oppression"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Liberal feminism",
+            "body": "**Liberal feminism** says **participation in public life** is the key to improving women's status. It asks for **no special privileges**, only equal consideration without sex discrimination.\n\nWomen, like men, are **rational and equally intelligent**, so they belong in public life, not only the home. Perceived differences are effects of **discrimination**. Change can come **without restructuring society**, through education, political mobilisation, better laws and removing institutional bias, with the **state** as a helper.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Remove barriers",
+                "Equal access",
+                "Public participation",
+                "Equal status"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Which strand believes women's status can improve without changing the basic structure of society?",
+            "options": [
+              "Radical feminism",
+              "Marxist feminism",
+              "Liberal feminism",
+              "Critical feminism"
+            ],
+            "answerIndex": 2,
+            "why": "Liberal feminists rely on equal rights, education and better laws within the existing order. Radical and Marxist feminists call for deep structural change."
+          },
+          {
+            "kind": "teach",
+            "heading": "Marxist feminism",
+            "body": "**Marxist feminism** sees **dismantling capitalism** as the route to women's liberation. **Private property** is the root of oppression, producing economic inequality and dependence.\n\nGender oppression is a form of **class oppression**: man is to woman as **bourgeoisie** is to **proletariat**. Capitalism split the **public realm of work** from the **private realm of home**, reducing women and children to men's property and hiding the value of women's **unpaid domestic labour** to the economy.",
+            "visual": {
+              "type": "venn",
+              "left": "Class oppression",
+              "right": "Gender oppression",
+              "both": "Serves capital"
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Mama Bisi's unpaid shift",
+            "story": "Mama Bisi wakes at five to fetch water, cook, get the children ready and care for her sick mother-in-law before opening her shop. Her husband's factory wage is counted in the national accounts; her hours of housework are not. Without her, he could not work at all.",
+            "takeaway": "Marxist feminists say capitalism depends on women's unpaid domestic labour while treating it as worthless."
+          },
+          {
+            "kind": "teach",
+            "heading": "Critical feminism",
+            "body": "**Critical feminism** borrows from Marxism but stresses how **ideas about gender legitimise inequality**. A socially relevant difference is used to justify treating men and women differently, so gender becomes **institutionalised** in practice.\n\nIt sees the **state as patriarchal** where it backs institutions like **marriage** that sustain male dominance, defining women as **dependants**, wives and mothers, which limits their citizenship. Yet the state is also a site where patriarchy is both **constructed and contested**.",
+            "visual": {
+              "type": "cycle",
+              "nodes": [
+                "Gender ideas",
+                "Justify difference",
+                "Institutions",
+                "Inequality"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Which strand views the state as a set of power relations in which patriarchy is both constructed and contested?",
+            "options": [
+              "Critical feminism",
+              "Liberal feminism",
+              "Radical feminism",
+              "Marxist feminism"
+            ],
+            "answerIndex": 0,
+            "why": "Critical feminists see the state as patriarchal yet open to contest. Liberal feminists see the state more simply as a tool for better laws."
+          },
+          {
+            "kind": "compare",
+            "heading": "Root cause at a glance",
+            "left": {
+              "title": "Radical and Marxist",
+              "points": [
+                "Radical: patriarchy is the root",
+                "Radical: overthrow it, reorder society",
+                "Marxist: private property and capitalism",
+                "Marxist: dismantle capitalism"
+              ]
+            },
+            "right": {
+              "title": "Liberal and critical",
+              "points": [
+                "Liberal: discrimination and barriers",
+                "Liberal: equal rights, laws, education",
+                "Critical: gender ideas legitimise inequality",
+                "Critical: expand women's autonomy"
+              ]
+            }
+          },
+          {
+            "kind": "terms",
+            "heading": "Eight feminist assumptions",
+            "terms": [
+              {
+                "term": "Gender as category",
+                "meaning": "Gender is the central unit of analysis, viewed through 'gender lenses'."
+              },
+              {
+                "term": "Gender as power",
+                "meaning": "Gender is a particular kind of power relationship."
+              },
+              {
+                "term": "Public and private",
+                "meaning": "The split between spheres is central to understanding IR."
+              },
+              {
+                "term": "Institutions",
+                "meaning": "Gender ideas shape how international institutions work; their laws can sustain or change gender relations."
+              },
+              {
+                "term": "Embedded and marginal",
+                "meaning": "Gender is built into world order; feminists challenge what counts as central or marginal."
+              },
+              {
+                "term": "Participation",
+                "meaning": "More women in national and international decisions and economic life."
+              }
+            ]
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'which strand is matched with which claim' objectives and 'analyse four strands' essays. The big trap: mixing up radical (patriarchy, men as oppressors) with Marxist (capitalism, private property), or calling liberal feminists revolutionaries. Remember that liberals want equality without special privileges.",
+            "sampleQuestion": "Analyse any four strands of feminist theory, showing how each explains the oppression of women.",
+            "howToAnswer": "For each strand give the root cause and remedy: radical (patriarchy; overthrow it), liberal (discrimination; equal rights within existing society), Marxist (capitalism and private property; end capitalism), critical (gender ideas legitimising inequality; expand autonomy, contest the patriarchal state).",
+            "scholars": [
+              "J. Ann Tickner (2001)",
+              "Steans & Pettiford (2005)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "All strands seek gender equality but differ on cause and cure.",
+              "Radical: patriarchy is the deepest oppression; reorder society.",
+              "Liberal: equal participation through laws and education, no special privileges.",
+              "Marxist: capitalism and private property oppress women; unpaid labour is hidden.",
+              "Critical: gender ideas legitimise inequality; the state is patriarchal but contested.",
+              "Feminists use gender as a central category and a form of power."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Which strand of feminism developed the concept of patriarchy to explain institutionalised male domination?",
+          "options": [
+            "Liberal feminism",
+            "Radical feminism",
+            "Marxist feminism",
+            "Critical feminism"
+          ],
+          "answerIndex": 1,
+          "explanation": "Radical feminists developed patriarchy to show male domination is institutionalised. Marxist feminists locate the root in capitalism instead."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Marxist feminists see the root of women's oppression in:",
+          "options": [
+            "Biological differences",
+            "Private property and the capitalist mode of production",
+            "Lack of education alone",
+            "International anarchy"
+          ],
+          "answerIndex": 1,
+          "explanation": "Marxist feminists blame private property and capitalism for women's subordination. Lack of education is closer to a liberal feminist concern."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Liberal feminists believe the key to advancing women's status is:",
+          "options": [
+            "Overthrowing patriarchy through revolution",
+            "Abolishing private property",
+            "Participation in public life on equal terms",
+            "Withdrawing from the state"
+          ],
+          "answerIndex": 2,
+          "explanation": "Liberal feminists see equal participation in public life as the key. Overthrowing patriarchy is the radical feminist goal."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Radical feminists hold that oppression of women is:",
+          "options": [
+            "Less important than class oppression",
+            "The first, most widespread and deepest form of oppression",
+            "A temporary effect of discrimination",
+            "Caused mainly by the state system"
+          ],
+          "answerIndex": 1,
+          "explanation": "Radical feminists see women's oppression as more fundamental than class, ethnic or religious oppression. Seeing it as an effect of discrimination is the liberal view."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which statement about liberal feminism is NOT correct?",
+          "options": [
+            "It seeks equal consideration without sex discrimination",
+            "It demands special privileges for women above men",
+            "It sees women as rational and equally intelligent",
+            "It believes better laws can improve women's status"
+          ],
+          "answerIndex": 1,
+          "explanation": "Liberal feminists explicitly seek no special privileges, only equal treatment. The other statements accurately describe the strand."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Critical feminists stress the importance of ideas about gender because such ideas:",
+          "options": [
+            "Legitimise social inequality between men and women",
+            "Have no effect on institutions",
+            "Are biologically determined",
+            "Only matter in private life"
+          ],
+          "answerIndex": 0,
+          "explanation": "Critical feminists argue gender ideas justify differential treatment and become institutionalised. They reject the view that gender is biologically fixed."
+        },
+        {
+          "difficulty": 3,
+          "stem": "An activist argues that the real enemy of women is capitalism, which separated paid work from the home and made women's housework invisible. This activist is a:",
+          "options": [
+            "Radical feminist",
+            "Liberal feminist",
+            "Critical feminist",
+            "Marxist feminist"
+          ],
+          "answerIndex": 3,
+          "explanation": "Linking women's oppression to capitalism and the public–private split of work is Marxist feminism. Radical feminists would blame patriarchy, not capitalism."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Kemi campaigns for scholarships for girls, equal pay laws and an end to sex discrimination in hiring, but does not seek to overturn the social system. Her position is closest to:",
+          "options": [
+            "Liberal feminism",
+            "Radical feminism",
+            "Marxist feminism",
+            "Structuralism"
+          ],
+          "answerIndex": 0,
+          "explanation": "Equal rights through education and laws within the existing order is liberal feminism. Radical and Marxist feminists demand structural change."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A scholar argues that the state upholds marriage laws that define women as dependants, limiting their citizenship, but that women can also contest these laws through the state. This is the view of:",
+          "options": [
+            "Liberal feminism",
+            "Critical feminism",
+            "Radical feminism",
+            "Classical realism"
+          ],
+          "answerIndex": 1,
+          "explanation": "Critical feminists see the state as patriarchal through institutions like marriage, yet as a site where patriarchy is contested. Liberal feminists see the state mainly as a reform tool."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Radical feminism – women's subordination as class oppression",
+            "Marxist feminism – men as the primary oppressors of women",
+            "Liberal feminism – perceived gender differences as effects of discrimination",
+            "Critical feminism – change without any role for ideas"
+          ],
+          "answerIndex": 2,
+          "explanation": "Liberal feminists treat perceived differences as products of discrimination. Class oppression belongs to Marxist feminism and 'men as oppressors' to radical feminism."
+        },
+        {
+          "difficulty": 4,
+          "stem": "In Marxist feminism, the relationship between men and women is compared to the relationship between:",
+          "options": [
+            "Core and periphery states",
+            "Bourgeoisie and proletariat",
+            "Hegemon and challenger",
+            "Citizens and the state"
+          ],
+          "answerIndex": 1,
+          "explanation": "Marxist feminists see the man–woman relationship as similar to that between bourgeoisie and proletariat. Core and periphery is structuralist vocabulary for states."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are basic assumptions of feminist theory EXCEPT:",
+          "options": [
+            "Gender is a central category of analysis",
+            "Gender is a particular kind of power relationship",
+            "The division between public and private spheres is central to IR",
+            "Gender is irrelevant to international institutions"
+          ],
+          "answerIndex": 3,
+          "explanation": "Feminists trace how gender ideas shape international institutions and their policies. The first three options are listed feminist assumptions."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider: I. Radical feminism seeks to overthrow patriarchy. II. Liberal feminism requires restructuring society before change can occur. III. Marxist feminism sees capitalism as the root of women's oppression. IV. Critical feminism sees the state as a site where patriarchy is constructed and contested. Which are correct?",
+          "options": [
+            "I and II only",
+            "I, III and IV only",
+            "II, III and IV only",
+            "I, II and III only"
+          ],
+          "answerIndex": 1,
+          "explanation": "Liberal feminists believe change can happen without altering the structure of society, so II is false. I, III and IV are correct."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A radical feminist and a Marxist feminist both condemn women's oppression. The key difference between them is that:",
+          "options": [
+            "The radical feminist sees gender oppression as more basic than class; the Marxist feminist treats it as a form of class oppression",
+            "Both see private property as the root cause",
+            "The Marxist feminist rejects any link between gender and economics",
+            "The radical feminist seeks equality through gradual legal reform"
+          ],
+          "answerIndex": 0,
+          "explanation": "Radical feminists place gender oppression above class, while Marxist feminists fold it into class oppression under capitalism. Gradual legal reform is the liberal approach."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A UN agency changes its loan rules after finding they excluded women farmers. Which pair of feminist assumptions does this case best illustrate?",
+          "options": [
+            "Gender is biological; institutions are neutral",
+            "Gender shapes how international institutions work; their policies can perpetuate or change gender relations",
+            "Gender is irrelevant to the economy; women belong in the private sphere",
+            "Anarchy drives policy; gender is marginal"
+          ],
+          "answerIndex": 2,
+          "explanation": "The case shows gender built into an institution's rules and changed through policy. Wait: the correct choice is the second option, which states exactly this; the third contradicts feminist assumptions."
+        }
+      ]
+    }
+  ]
+}

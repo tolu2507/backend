@@ -1,0 +1,1033 @@
+{
+  "unit": 10,
+  "title": "Sleep and Dreaming",
+  "summary": "The stages of sleep, REM and non-REM dreaming, theories of why we sleep, common sleep phenomena and disorders, and the circadian rhythm that times it all.",
+  "sections": [
+    {
+      "name": "Stages of sleep and dreaming",
+      "lesson": {
+        "title": "A night in the sleeping brain",
+        "minutes": 10,
+        "hook": "You spend about a third of your life asleep. Yet sleep is not one long blank: your brain cycles through distinct stages all night, and for around two hours you are living vivid stories you mostly forget.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Sleep is not one state",
+            "body": "Sleep is a **combination of states**, mixing degrees of awareness and unconsciousness. We usually slip gently from waking into sleep, then pass through several **stages** across the night.\n\nResearchers define these stages using the **electroencephalogram (EEG)**, which records the brain's electrical activity. Sleep depth rises and falls **many times** each night.",
+            "visual": {
+              "type": "cycle",
+              "nodes": [
+                "Light sleep",
+                "Deep sleep",
+                "REM",
+                "Light sleep"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The hypnagogic state",
+            "body": "As we drift off, we enter the **hypnagogic state** (Mavromatis, 1987), a 'twilight' between waking and dreaming. We begin to **lose voluntary control** of body movement, become **less sensitive** to outside stimuli, and our thoughts become **less bound by reality**.\n\nMost people find it a pleasant, relaxed state. Sudden jerks or brief dream-like images are common here.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Fully awake",
+              "right": "Asleep",
+              "marker": 45,
+              "label": "Hypnagogic twilight"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "REM sleep",
+            "body": "**Rapid eye movement (REM)** sleep is marked by the eyes darting beneath closed lids. Most people woken during REM report that they were **dreaming**.\n\nDreaming fills about **90%** of REM time. We spend around **2 hours** a night in REM dreams, and the **longest** REM period, up to about an hour, usually comes **near morning** (Hobson, 1989).",
+            "visual": {
+              "type": "stat",
+              "value": "~2 hours",
+              "label": "REM dreaming per night"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "An autonomic storm",
+            "body": "Wilse **Webb** likened REM dreaming to an '**autonomic storm**'. Not just the eyes are busy: **blood flow to the brain rises**, the **heartbeat** and **breathing** become **irregular**, and **face and finger muscles twitch**.\n\nYet **voluntary control of large muscles** is largely lost, which may stop us **acting out our dreams**.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "pulse",
+                  "label": "Irregular heart"
+                },
+                {
+                  "icon": "flash",
+                  "label": "Brain active"
+                },
+                {
+                  "icon": "hand-left",
+                  "label": "Big muscles still"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "During REM sleep, which of the following is largely lost?",
+            "options": [
+              "Voluntary control of large body muscles",
+              "Eye movements",
+              "Brain activity",
+              "Heartbeat"
+            ],
+            "answerIndex": 0,
+            "why": "Large muscles are effectively paralysed in REM, possibly to stop us acting out dreams, while the eyes and brain stay very active."
+          },
+          {
+            "kind": "compare",
+            "heading": "REM versus non-REM dreams",
+            "left": {
+              "title": "REM dreams",
+              "points": [
+                "Vivid, story-like, emotional",
+                "Rich visual images",
+                "Like watching a play",
+                "Often recalled"
+              ]
+            },
+            "right": {
+              "title": "Non-REM dreams",
+              "points": [
+                "Brief, fragmentary",
+                "Less emotional, fewer images",
+                "Like ordinary daytime thinking",
+                "Often not seen as dreams"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Dreaming outside REM",
+            "body": "REM was once thought to be the **only** dreaming stage. In fact, people report dreams in about **half** of the remaining 4 to 6 hours of non-REM sleep (Foulkes, 1989).\n\nNon-REM dreams feel so much like daytime thought that people woken during them often **deny they were asleep**. Adding both kinds, we are mentally active during sleep far more than we might suspect.",
+            "visual": {
+              "type": "venn",
+              "left": "REM dreams",
+              "right": "Non-REM dreams",
+              "both": "Mental life in sleep"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Compared with REM dreams, non-REM dreams are usually:",
+            "options": [
+              "Longer and more emotional",
+              "Full of vivid images",
+              "Brief, fragmentary and thought-like",
+              "Accompanied by rapid eye movements"
+            ],
+            "answerIndex": 2,
+            "why": "Non-REM dreams resemble ordinary daytime thinking; REM dreams are vivid and story-like."
+          },
+          {
+            "kind": "example",
+            "heading": "The two awakenings",
+            "story": "In a sleep lab, Chioma is woken twice. The first time, her eyes had been darting under her lids; she describes flying over Lagos lagoon chased by a masquerade. The second time, from quieter sleep, she says she was 'just thinking about tomorrow's test' and insists she wasn't really asleep.",
+            "takeaway": "REM dreams are vivid stories; non-REM dreams resemble ordinary thinking and are often not recognised as dreams."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'explain the stage of sleep when dreams usually occur' and 'physiological reactions in REM and non-REM'. Know the numbers: 90% of REM is dreaming, about 2 hours of REM dreams, the longest near morning. Trap: saying dreams occur only in REM; non-REM dreams exist but differ.",
+            "sampleQuestion": "Which of the following best describes non-REM dreams? (a) vivid and highly emotional (b) brief, fragmentary and thought-like (c) the longest dreams of the night (d) accompanied by an autonomic storm",
+            "howToAnswer": "Answer (b). Contrast with REM dreams: vivid, visual, play-like, with irregular heart rate and breathing.",
+            "scholars": [
+              "Hobson (1989)",
+              "Foulkes (1989)",
+              "Mavromatis (1987)",
+              "Webb"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Sleep stages are defined by EEG; depth rises and falls through the night.",
+              "Hypnagogic state: the twilight between waking and dreaming.",
+              "REM: darting eyes, vivid dreams, about 2 hours a night.",
+              "Autonomic storm: irregular heart and breathing, but big muscles paralysed.",
+              "Non-REM dreams: brief, thought-like, often not recognised."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Sleep stages are defined mainly using the:",
+          "options": [
+            "Electroencephalogram (EEG)",
+            "X-ray",
+            "Blood test",
+            "Thermometer"
+          ],
+          "answerIndex": 0,
+          "explanation": "The EEG records brain electrical activity, which distinguishes sleep stages."
+        },
+        {
+          "difficulty": 1,
+          "stem": "REM stands for:",
+          "options": [
+            "Resting energy mode",
+            "Regular electrical motion",
+            "Rapid eye movement",
+            "Reduced eye muscles"
+          ],
+          "answerIndex": 2,
+          "explanation": "REM sleep is named for the rapid eye movements beneath closed lids."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The 'twilight' state between waking and dreaming is the:",
+          "options": [
+            "Hypnagogic state",
+            "REM state",
+            "Autonomic storm",
+            "Deep sleep"
+          ],
+          "answerIndex": 0,
+          "explanation": "The hypnagogic state is the drowsy transition into sleep."
+        },
+        {
+          "difficulty": 2,
+          "stem": "About what percentage of REM sleep is spent dreaming?",
+          "options": [
+            "10%",
+            "90%",
+            "50%",
+            "100%"
+          ],
+          "answerIndex": 1,
+          "explanation": "Dreaming fills roughly 90% of REM time."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The longest REM period usually occurs:",
+          "options": [
+            "Just after falling asleep",
+            "In the middle of the day",
+            "In the last part of the night",
+            "Only during naps"
+          ],
+          "answerIndex": 2,
+          "explanation": "REM periods lengthen through the night, the longest near morning."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Who likened REM sleep to an 'autonomic storm'?",
+          "options": [
+            "Webb",
+            "Freud",
+            "Hubel",
+            "Marr"
+          ],
+          "answerIndex": 0,
+          "explanation": "Wilse Webb used the phrase to describe REM's bodily turbulence."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A sleeper's heartbeat becomes irregular, her breathing uneven and her fingers twitch, yet her limbs do not move. She is most likely in:",
+          "options": [
+            "Hypnagogic state",
+            "Wakefulness",
+            "Deep non-REM sleep",
+            "REM sleep"
+          ],
+          "answerIndex": 3,
+          "explanation": "These are signs of the REM 'autonomic storm' with large-muscle paralysis."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A student woken in the lab says he was 'just thinking about lunch' and denies being asleep. He was most likely woken from:",
+          "options": [
+            "REM sleep",
+            "Non-REM sleep",
+            "The hypnagogic state only",
+            "An autonomic storm"
+          ],
+          "answerIndex": 1,
+          "explanation": "Non-REM dreams resemble daytime thought and are often not recognised as dreams."
+        },
+        {
+          "difficulty": 3,
+          "stem": "As Tunde drifts off, his thoughts become dreamlike and he stops noticing the fan's noise, though he isn't fully asleep. This is the:",
+          "options": [
+            "Deep sleep",
+            "REM state",
+            "Hypnagogic state",
+            "Night terror"
+          ],
+          "answerIndex": 2,
+          "explanation": "Reduced sensitivity and loosened thinking mark the hypnagogic state."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following occur during REM sleep EXCEPT:",
+          "options": [
+            "Increased blood flow to the brain",
+            "Irregular breathing",
+            "Active control of large body muscles",
+            "Twitching of facial muscles"
+          ],
+          "answerIndex": 2,
+          "explanation": "Large-muscle voluntary control is largely lost in REM."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement about non-REM dreams is correct?",
+          "options": [
+            "They do not exist",
+            "They are reported in about half of non-REM sleep and resemble daytime thinking",
+            "They are more vivid than REM dreams",
+            "They always involve nightmares"
+          ],
+          "answerIndex": 1,
+          "explanation": "Non-REM dreams are common but brief and thought-like."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Why might large-muscle paralysis during REM be useful?",
+          "options": [
+            "It saves eye energy",
+            "It stops dreaming",
+            "It raises body temperature",
+            "It may prevent us from acting out our dreams"
+          ],
+          "answerIndex": 3,
+          "explanation": "Paralysis likely protects us from physically enacting dreams."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. We spend about 2 hours a night in REM dreams. II. Dreams occur only in REM. III. Sleep depth alternates many times a night. Which are correct?",
+          "options": [
+            "I and II only",
+            "I and III only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 1,
+          "explanation": "I and III are correct. II is false: non-REM dreams also occur."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Given REM and non-REM dreaming, what conclusion do sleep researchers draw about consciousness in sleep?",
+          "options": [
+            "We have far more mental activity during sleep than we might suspect",
+            "We are completely unconscious all night",
+            "Consciousness is identical to waking",
+            "Only REM involves any mental activity"
+          ],
+          "answerIndex": 0,
+          "explanation": "Combined REM and non-REM dreaming shows substantial mental activity during sleep."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A researcher wakes participants at random times and finds vivid, story-like reports mostly when eye movements were present. This supports the link between:",
+          "options": [
+            "Non-REM sleep and vivid dreams",
+            "Deep sleep and sleep talking",
+            "Hypnagogic state and nightmares",
+            "REM sleep and vivid dreams"
+          ],
+          "answerIndex": 3,
+          "explanation": "Vivid, narrative dreams are strongly associated with REM sleep."
+        }
+      ]
+    },
+    {
+      "name": "Why we sleep and sleep phenomena",
+      "lesson": {
+        "title": "Debts, defences and night-time surprises",
+        "minutes": 9,
+        "hook": "Stay up all night reading for an exam and you will crash harder the next night, almost as if your body is collecting a debt. What exactly is sleep paying back?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "No agreement yet",
+            "body": "Sleep researchers still **disagree** about exactly why we sleep. But it is clear we **need** it: miss sleep and we build up a **sleep debt** that must be repaid.\n\nIn one study, Florida university students were limited to **2 hours** of sleep for a night. Next day they were **irritable, tired and inefficient**, and the following night they fell asleep faster and slept longer (Webb & Bonnet, 1979).",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Lost sleep",
+                "Sleep debt",
+                "Longer, faster sleep"
+              ]
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Two theories of sleep",
+            "left": {
+              "title": "Restorative (Hobson, 1989)",
+              "points": [
+                "Sleep repairs and replenishes",
+                "A sleep-inhibiting centre tires while awake",
+                "Sleep lets it recover"
+              ]
+            },
+            "right": {
+              "title": "Protective (Webb, 1975)",
+              "points": [
+                "Sleep keeps us still at night",
+                "Saves energy, avoids danger in the dark",
+                "Little physiological need"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Hobson's restorative theory",
+            "body": "**Allan Hobson (1989)** proposed that a **sleep-inhibiting** system in the **brainstem** is active while we are awake, and two **sleep-promoting** centres switch on during sleep.\n\nWe need to sleep and dream, he argued, so the **sleep-inhibiting system can rest and replenish** itself. Growth hormone released in deep sleep also supports body repair.",
+            "visual": {
+              "type": "brain",
+              "region": "brainstem",
+              "label": "Sleep centres"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Webb's protective theory",
+            "body": "**Wilse Webb (1975)** doubted that humans have much **physiological** need for sleep. Instead, sleep is **protective**: it keeps us from **moving about in the dark**, where we would waste energy, risk falls and face animals with better night vision.\n\nOn this view, sleep evolved as a safe way to pass the dangerous hours of darkness.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "shield",
+                  "label": "Stay safe"
+                },
+                {
+                  "icon": "time",
+                  "label": "Pass the night"
+                },
+                {
+                  "icon": "fitness",
+                  "label": "Save energy"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Webb's (1975) explanation of sleep is mainly:",
+            "options": [
+              "Protective",
+              "Restorative",
+              "Psychoanalytic",
+              "Cognitive"
+            ],
+            "answerIndex": 0,
+            "why": "Webb saw sleep as keeping us still and safe at night; Hobson stressed restoration."
+          },
+          {
+            "kind": "terms",
+            "heading": "Sleep phenomena",
+            "terms": [
+              {
+                "term": "Nightmare",
+                "meaning": "A frightening REM dream that often wakes us and is vividly remembered"
+              },
+              {
+                "term": "Night terror",
+                "meaning": "Sudden waking in panic, often screaming, from deep non-REM sleep, with little dream recall"
+              },
+              {
+                "term": "Sleepwalking",
+                "meaning": "Carrying out complex actions while asleep, in deep non-REM sleep"
+              },
+              {
+                "term": "Sleep talking",
+                "meaning": "Speaking, often incoherently, during any stage of sleep"
+              }
+            ]
+          },
+          {
+            "kind": "compare",
+            "heading": "Nightmare versus night terror",
+            "left": {
+              "title": "Nightmare",
+              "points": [
+                "REM sleep",
+                "Vivid dream recalled",
+                "Wakes us during the dream"
+              ]
+            },
+            "right": {
+              "title": "Night terror",
+              "points": [
+                "Deepest non-REM sleep",
+                "Little or no dream recall",
+                "Panic, screaming; most common in preschoolers"
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "The screaming toddler",
+            "story": "At 11pm, three-year-old Ifeanyi sits up screaming, eyes wide, not responding to his mother. Ten minutes later he is calm and asleep again. In the morning he remembers nothing. His older sister, who woke at dawn from a dream about falling from a mango tree, can describe every detail.",
+            "takeaway": "Night terrors arise in deep non-REM sleep with no recall; nightmares occur in REM and are vividly remembered."
+          },
+          {
+            "kind": "check",
+            "question": "Sleepwalking usually occurs during:",
+            "options": [
+              "REM sleep",
+              "The deepest non-REM sleep",
+              "The hypnagogic state",
+              "Wakefulness"
+            ],
+            "answerIndex": 1,
+            "why": "Sleepwalking and night terrors occur in deep non-REM sleep, when the body is not paralysed."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "A classic objective matches phenomena to stages: nightmares in REM, night terrors and sleepwalking in deep non-REM, sleep talking in any stage. Know who said what on why we sleep: Hobson restorative, Webb protective. Trap: putting sleepwalking in REM, when the body is paralysed and cannot walk.",
+            "sampleQuestion": "In which sleep stage would a lecturer expect a sleepwalking episode to occur, and why not during REM? (a) REM, because dreams are vivid (b) deep non-REM, because the large muscles are not paralysed (c) the hypnagogic state, because awareness fades (d) any stage at random",
+            "howToAnswer": "Answer (b). Then give the full match: nightmares in REM; night terrors and sleepwalking in deep non-REM; sleep talking in any stage.",
+            "scholars": [
+              "Hobson (1989)",
+              "Webb (1975)",
+              "Webb & Bonnet (1979)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Missing sleep creates a sleep debt (Webb & Bonnet, 1979).",
+              "Hobson: sleep restores a tired sleep-inhibiting system.",
+              "Webb: sleep protects us by keeping us still at night.",
+              "Nightmares in REM; night terrors and sleepwalking in deep non-REM.",
+              "Sleep talking can happen at any stage."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The restorative theory of sleep is associated with:",
+          "options": [
+            "Wilse Webb",
+            "Hubel and Wiesel",
+            "Sigmund Freud",
+            "Allan Hobson"
+          ],
+          "answerIndex": 3,
+          "explanation": "Hobson argued sleep lets the sleep-inhibiting system replenish itself."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Nightmares occur during:",
+          "options": [
+            "Wakefulness",
+            "Deep non-REM sleep",
+            "The hypnagogic state",
+            "REM sleep"
+          ],
+          "answerIndex": 3,
+          "explanation": "Nightmares are frightening REM dreams."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Sleep talking can occur during:",
+          "options": [
+            "Any stage of sleep",
+            "Non-REM only",
+            "REM only",
+            "Only when awake"
+          ],
+          "answerIndex": 0,
+          "explanation": "Sleep talking can happen in any stage."
+        },
+        {
+          "difficulty": 2,
+          "stem": "In Webb and Bonnet's study, students limited to 2 hours of sleep the next night:",
+          "options": [
+            "Slept less than usual",
+            "Fell asleep faster and slept longer",
+            "Could not sleep at all",
+            "Showed no change"
+          ],
+          "answerIndex": 1,
+          "explanation": "They repaid the sleep debt by sleeping sooner and longer."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Night terrors are most common in:",
+          "options": [
+            "Older adults",
+            "Preschool children",
+            "Teenagers only",
+            "Pregnant women"
+          ],
+          "answerIndex": 1,
+          "explanation": "They are most common in young children, though some adults have them."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Webb proposed that sleep mainly:",
+          "options": [
+            "Protects us by keeping us inactive at night",
+            "Repairs brain cells",
+            "Creates dreams for wish fulfilment",
+            "Burns extra energy"
+          ],
+          "answerIndex": 0,
+          "explanation": "Webb saw sleep as a protective adaptation to darkness."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A child wakes screaming and panicked, cannot be comforted, and remembers nothing in the morning. This is most likely a:",
+          "options": [
+            "Nightmare",
+            "Hypnagogic jerk",
+            "Night terror",
+            "Sleep talking episode"
+          ],
+          "answerIndex": 2,
+          "explanation": "Panic with little recall from deep non-REM sleep is a night terror."
+        },
+        {
+          "difficulty": 3,
+          "stem": "An adult under exam stress walks to the kitchen and opens the fridge while sound asleep. This sleepwalking is happening in:",
+          "options": [
+            "Deep non-REM sleep",
+            "Light wakefulness",
+            "The hypnagogic state",
+            "REM sleep"
+          ],
+          "answerIndex": 0,
+          "explanation": "Sleepwalking occurs in deep non-REM sleep; in adults it often appears under stress."
+        },
+        {
+          "difficulty": 3,
+          "stem": "After two nights of little sleep, Ade is irritable and makes careless errors. This illustrates:",
+          "options": [
+            "Narcolepsy",
+            "A sleep debt",
+            "Night terror",
+            "Sleep apnoea"
+          ],
+          "answerIndex": 1,
+          "explanation": "Missed sleep accumulates as a debt that impairs mood and performance."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which correctly matches phenomenon and stage?",
+          "options": [
+            "Nightmare: deep non-REM",
+            "Sleepwalking: deep non-REM",
+            "Night terror: REM",
+            "Sleep talking: REM only"
+          ],
+          "answerIndex": 1,
+          "explanation": "Sleepwalking occurs in deep non-REM sleep."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Why can sleepwalking not occur during REM sleep?",
+          "options": [
+            "The eyes are closed",
+            "The brain is inactive in REM",
+            "REM only occurs in children",
+            "Large body muscles are largely paralysed in REM"
+          ],
+          "answerIndex": 3,
+          "explanation": "REM muscle atonia prevents walking."
+        },
+        {
+          "difficulty": 4,
+          "stem": "According to Hobson, sleep allows which system to rest and replenish?",
+          "options": [
+            "The sleep-promoting system",
+            "The visual system",
+            "The sleep-inhibiting system",
+            "The immune system only"
+          ],
+          "answerIndex": 2,
+          "explanation": "The waking (sleep-inhibiting) brainstem system recovers during sleep."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Nightmares are vividly remembered. II. Night terrors usually include detailed dream recall. III. Sleepwalking in adults often appears during stress. Which are correct?",
+          "options": [
+            "I and II only",
+            "II and III only",
+            "I and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 2,
+          "explanation": "I and III are correct. Night terrors usually involve little or no dream recall."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A critic notes that sleep deprivation causes serious harm even in perfectly safe settings. This finding challenges which theory most?",
+          "options": [
+            "Opponent-process theory",
+            "Hobson's restorative theory",
+            "Webb's protective theory",
+            "Trichromatic theory"
+          ],
+          "answerIndex": 2,
+          "explanation": "If sleep were only protective, losing it in a safe place should not harm us; harm suggests a physiological need."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which evidence most directly supports the idea that sleep meets a physiological need?",
+          "options": [
+            "After deprivation, people fall asleep faster and sleep longer to repay a debt",
+            "Animals see well at night",
+            "People sleep at night",
+            "Dreams are vivid"
+          ],
+          "answerIndex": 0,
+          "explanation": "Rebound sleep after deprivation suggests the body is making up a real need."
+        }
+      ]
+    },
+    {
+      "name": "Sleep disorders and circadian rhythm",
+      "lesson": {
+        "title": "When the body clock breaks",
+        "minutes": 9,
+        "hook": "A bus driver dozes off mid-sentence at noon; a retired teacher snores loudly and wakes exhausted. Both slept 'enough' hours. Something is wrong with how they sleep, not how long.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Troublesome but treatable",
+            "body": "**Sleep disorders** can seriously disrupt life, but most are **highly treatable**. The most common is **insomnia**, a range of difficulties in which people sleep **less than they want**.\n\nInsomnia often appears during periods of **stress, anxiety or depression**.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "time",
+                  "label": "Insomnia"
+                },
+                {
+                  "icon": "flash",
+                  "label": "Narcolepsy"
+                },
+                {
+                  "icon": "pulse",
+                  "label": "Sleep apnoea"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Two types of insomnia",
+            "left": {
+              "title": "Sleep-onset insomnia",
+              "points": [
+                "Hard to fall asleep at the desired time",
+                "Sleep is normal once it starts"
+              ]
+            },
+            "right": {
+              "title": "Early-waking insomnia",
+              "points": [
+                "Waking earlier than wanted",
+                "Several times at night or too early in the morning"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Narcolepsy",
+            "body": "**Narcolepsy** is a rare but serious disorder. People fall **suddenly asleep** in the middle of work or conversation, often when **upset or stressed**, and may lose **muscle tone** as if dropping straight into dream sleep.\n\nModern research links it to loss of **orexin (hypocretin)** cells in the hypothalamus and to REM-like states **intruding** into waking. It makes driving and using machinery dangerous.",
+            "visual": {
+              "type": "brain",
+              "region": "hypothalamus",
+              "label": "Orexin cells"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Sleep apnoea",
+            "body": "**Sleep apnoea** is a sudden, temporary **stop in breathing** during sleep. It is common in **older adults**, especially those who **snore**.\n\nIt happens either because **throat muscles relax too much** and block the airway, or because **brain signals for breathing** briefly stop. A few apnoeas a night are harmless; **many** starve the brain of oxygen, leaving the person **exhausted** next day.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Airway collapses",
+                "Breathing stops",
+                "Brief waking",
+                "Daytime exhaustion"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "A person who falls asleep suddenly during a conversation, losing muscle tone, most likely has:",
+            "options": [
+              "Sleep-onset insomnia",
+              "Night terrors",
+              "Sleep apnoea",
+              "Narcolepsy"
+            ],
+            "answerIndex": 3,
+            "why": "Sudden daytime sleep attacks with loss of muscle tone are typical of narcolepsy."
+          },
+          {
+            "kind": "teach",
+            "heading": "The circadian rhythm",
+            "body": "The **circadian rhythm** is the roughly 24-hour cycle of **waking and sleeping**. A master clock in the hypothalamus, the **suprachiasmatic nucleus**, is set by light, and the **pineal gland** releases **melatonin**, which rises in the evening and promotes **sleepiness**.\n\nWhen the rhythm is thrown off, by shift work, jet lag or late-night screens, sleep problems follow.",
+            "visual": {
+              "type": "cycle",
+              "nodes": [
+                "Daylight",
+                "Clock reset",
+                "Evening melatonin",
+                "Sleep"
+              ]
+            }
+          },
+          {
+            "kind": "steps",
+            "heading": "Body rhythms through the night",
+            "steps": [
+              {
+                "title": "Growth hormone",
+                "detail": "Released mostly in the first two hours of sleep, supporting growth and repair."
+              },
+              {
+                "title": "Body temperature",
+                "detail": "Falls as you get sleepy and keeps falling until the middle of the night."
+              },
+              {
+                "title": "Cortisol",
+                "detail": "Begins rising soon after you fall asleep and peaks just before waking."
+              }
+            ]
+          },
+          {
+            "kind": "example",
+            "heading": "The night-shift nurse",
+            "story": "Blessing switches to night shifts at a Lagos hospital. During the day she lies in bed but cannot fall asleep; at 3am on duty she fights to keep her eyes open. Her body clock, set by sunlight, still expects sleep at night. Blackout curtains, steady shift schedules and bright light at work help her adjust.",
+            "takeaway": "Throwing off the circadian rhythm disrupts sleep; managing light and routine can help reset it."
+          },
+          {
+            "kind": "check",
+            "question": "Which hormone, released by the pineal gland, promotes sleepiness?",
+            "options": [
+              "Cortisol",
+              "Melatonin",
+              "Growth hormone",
+              "Adrenaline"
+            ],
+            "answerIndex": 1,
+            "why": "Melatonin rises in the evening to promote sleep. Cortisol peaks before waking."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'briefly explain sleep disorders and their causes' and circadian rhythm questions. Know the two insomnia types, the two causes of apnoea, and hormone timing: growth hormone early in sleep, cortisol peaking before waking, melatonin promoting sleep. Note: your course notes state narcolepsy is not caused by REM sleep; current research links it to REM intrusion and orexin loss.",
+            "sampleQuestion": "Sleep apnoea may be caused by: (a) excessive melatonin (b) over-relaxation of throat muscles or a pause in brain signals for breathing (c) too much growth hormone (d) REM paralysis of the eyes",
+            "howToAnswer": "Answer (b). Add that frequent apnoeas cut oxygen to the brain and cause daytime exhaustion.",
+            "scholars": [
+              "Hobson (1989)",
+              "Webb (1975)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Insomnia: sleep-onset or early-waking; linked to stress and depression.",
+              "Narcolepsy: sudden sleep attacks with loss of muscle tone.",
+              "Sleep apnoea: breathing stops; relaxed throat or paused brain signals.",
+              "Circadian rhythm: about 24 hours, melatonin from the pineal gland.",
+              "Growth hormone early in sleep; cortisol peaks before waking."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Difficulty falling asleep at the desired time, with normal sleep afterwards, is:",
+          "options": [
+            "Sleep-onset insomnia",
+            "Early-waking insomnia",
+            "Narcolepsy",
+            "Sleep apnoea"
+          ],
+          "answerIndex": 0,
+          "explanation": "Trouble starting sleep is sleep-onset insomnia."
+        },
+        {
+          "difficulty": 1,
+          "stem": "A temporary interruption of breathing during sleep is called:",
+          "options": [
+            "Narcolepsy",
+            "Sleep apnoea",
+            "Insomnia",
+            "Night terror"
+          ],
+          "answerIndex": 1,
+          "explanation": "Apnoea means a pause in breathing."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The hormone most linked to sleepiness in the circadian cycle is:",
+          "options": [
+            "Insulin",
+            "Cortisol",
+            "Melatonin",
+            "Adrenaline"
+          ],
+          "answerIndex": 2,
+          "explanation": "Melatonin from the pineal gland promotes sleepiness."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Growth hormone is secreted mostly:",
+          "options": [
+            "In the first two hours of sleep",
+            "During the day",
+            "Just before waking",
+            "Only in childhood"
+          ],
+          "answerIndex": 0,
+          "explanation": "Most growth hormone is released early in the night's sleep."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Cortisol secretion during the night:",
+          "options": [
+            "Rises after sleep onset and peaks just before waking",
+            "Falls steadily until morning",
+            "Stays constant",
+            "Peaks at midnight"
+          ],
+          "answerIndex": 0,
+          "explanation": "Cortisol climbs through the night and peaks before waking."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Sleep apnoea is most common in:",
+          "options": [
+            "Infants",
+            "Older adults who snore",
+            "Teenagers",
+            "Pregnant women only"
+          ],
+          "answerIndex": 1,
+          "explanation": "It is common in older adults, particularly snorers."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A widow grieving her husband wakes at 3am every night and cannot get back to sleep. She most likely has:",
+          "options": [
+            "Early-waking insomnia",
+            "Sleep-onset insomnia",
+            "Narcolepsy",
+            "Night terrors"
+          ],
+          "answerIndex": 0,
+          "explanation": "Waking earlier than desired is early-waking insomnia, common during stress or depression."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A taxi driver snores heavily, stops breathing many times each night and is exhausted every day. The most likely diagnosis is:",
+          "options": [
+            "Narcolepsy",
+            "Sleep-onset insomnia",
+            "Sleep apnoea",
+            "Sleepwalking"
+          ],
+          "answerIndex": 2,
+          "explanation": "Frequent breathing pauses with snoring and daytime fatigue point to sleep apnoea."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A student flies from Lagos to London and struggles to sleep at night for days. The main cause is:",
+          "options": [
+            "Narcolepsy",
+            "Low growth hormone",
+            "Night terrors",
+            "A disrupted circadian rhythm"
+          ],
+          "answerIndex": 3,
+          "explanation": "Travel across time zones throws off the body clock."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following follow a circadian rhythm EXCEPT:",
+          "options": [
+            "Body temperature",
+            "Cortisol",
+            "Eye colour",
+            "Melatonin"
+          ],
+          "answerIndex": 2,
+          "explanation": "Eye colour does not vary through the day."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Sleep apnoea can be caused by:",
+          "options": [
+            "Excess melatonin",
+            "Too much REM sleep",
+            "Over-relaxed throat muscles or a pause in brain signals for breathing",
+            "Low cortisol"
+          ],
+          "answerIndex": 2,
+          "explanation": "These are the two main causes of apnoea."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Body temperature, according to the circadian rhythm, typically:",
+          "options": [
+            "Rises as you get sleepy",
+            "Peaks at midnight",
+            "Stays fixed all night",
+            "Falls as you get sleepy and continues falling until mid-sleep"
+          ],
+          "answerIndex": 3,
+          "explanation": "Temperature drops at sleep onset and keeps falling until the middle of the night."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. A few apnoeas a night are not usually a problem. II. Narcolepsy makes operating machinery risky. III. Insomnia is unrelated to stress. Which are correct?",
+          "options": [
+            "I, II and III",
+            "I and III only",
+            "II and III only",
+            "I and II only"
+          ],
+          "answerIndex": 3,
+          "explanation": "I and II are correct. Insomnia is common during stress, anxiety and depression."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Why does many episodes of sleep apnoea a night leave a person exhausted?",
+          "options": [
+            "It increases REM sleep",
+            "It reduces oxygen to the brain and repeatedly disrupts sleep",
+            "It raises melatonin",
+            "It causes sleepwalking"
+          ],
+          "answerIndex": 1,
+          "explanation": "Repeated oxygen drops and arousals prevent restful sleep."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A researcher finds a narcolepsy patient's daytime sleep attacks go straight into REM-like states with muscle weakness. This best supports the view that narcolepsy involves:",
+          "options": [
+            "Too much deep non-REM sleep",
+            "REM-like states intruding into waking",
+            "Excess cortisol",
+            "Night terrors"
+          ],
+          "answerIndex": 1,
+          "explanation": "Sudden REM-like intrusions with lost muscle tone are a hallmark of narcolepsy."
+        }
+      ]
+    }
+  ]
+}

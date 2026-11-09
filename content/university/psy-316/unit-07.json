@@ -1,0 +1,683 @@
+{
+  "unit": 7,
+  "title": "The Three Kinds of Memory Tasks",
+  "summary": "Recall, recognition and relearning: what each asks of memory, why recognition is easier than recall, and why relearning is the most sensitive measure.",
+  "sections": [
+    {
+      "name": "Recall: producing from memory",
+      "lesson": {
+        "title": "Pulling it out yourself",
+        "minutes": 9,
+        "hook": "Why do so many students dread theory papers but relax for objectives? The answer is not laziness. It is a real difference in how memory is being tested.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Three ways to test memory",
+            "body": "Psychologists measure memory with three kinds of task: **recall**, **recognition** and **relearning**. Each asks something different of memory, and each can give a different picture of how much you actually know.\n\nThis matters for exams too: the same knowledge can look strong on one kind of test and weak on another.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "search",
+                  "label": "Recall"
+                },
+                {
+                  "icon": "checkmark-circle",
+                  "label": "Recognition"
+                },
+                {
+                  "icon": "repeat",
+                  "label": "Relearning"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "What recall demands",
+            "body": "In **recall**, you must **produce** the information yourself by searching memory, with little or no help. Bringing back a classmate's name, reciting a poem, or listing what you were sent to buy are all recall tasks.\n\nEssay and theory questions are recall tasks. That is why they feel harder: nothing on the page hands you the answer.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Question",
+                "Search memory",
+                "Produce answer"
+              ]
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Same knowledge, two questions",
+            "left": {
+              "title": "Recall",
+              "points": [
+                "Name the three basic memory processes",
+                "You must supply all three",
+                "Feels harder"
+              ]
+            },
+            "right": {
+              "title": "Recognition",
+              "points": [
+                "Which is NOT a memory process: encoding, storage, retrieval, relearning?",
+                "Answer is on the page",
+                "Feels easier"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Retrieval cues",
+            "body": "A **retrieval cue** is any stimulus or piece of information that helps bring a memory back. Cues make recall easier.\n\nA fill-in-the-gap with first letters, like 'The three memory processes are e____, s____ and r____', is **cued recall**. The cue does not give the answer, but it narrows the search.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Cue: e___",
+                "Narrower search",
+                "'Encoding'"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "A question that gives the first letter of each missing word is an example of:",
+            "options": [
+              "Free recall",
+              "Cued recall",
+              "Recognition",
+              "Relearning"
+            ],
+            "answerIndex": 1,
+            "why": "First letters act as retrieval cues, but you still produce the word, so it is cued recall, not recognition."
+          },
+          {
+            "kind": "compare",
+            "heading": "Serial versus free recall",
+            "left": {
+              "title": "Serial recall",
+              "points": [
+                "Items in a fixed order",
+                "ABCs, poems, procedures",
+                "Each item cues the next"
+              ]
+            },
+            "right": {
+              "title": "Free recall",
+              "points": [
+                "Items in any order",
+                "List all you remember",
+                "No chain of cues"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Why order helps",
+            "body": "**Serial recall** is often **easier** than free recall because each item acts as a cue for the next: once you say 'A, B', the 'C' follows.\n\nResearch by **Howard (2002)** suggests that in recall tasks, **order associations** hold up better against distraction than **meaningful associations**. A memorised sequence can survive interruptions surprisingly well.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Item 1",
+                "cues Item 2",
+                "cues Item 3"
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "The national anthem",
+            "story": "Ask Emeka to list words from the national anthem in any order and he struggles after a few. Ask him to sing it from the start and every line flows, each one pulling out the next. He has not learned more; the order itself is doing the remembering.",
+            "takeaway": "In serial recall, each item cues the next, which can make it easier than free recall."
+          },
+          {
+            "kind": "check",
+            "question": "Why is serial recall often easier than free recall?",
+            "options": [
+              "The list is always shorter",
+              "It only needs recognition",
+              "Each item serves as a cue for the next",
+              "It uses no long-term memory"
+            ],
+            "answerIndex": 2,
+            "why": "In a fixed sequence, recalling one item helps bring out the next. Serial recall is still recall, not recognition."
+          },
+          {
+            "kind": "teach",
+            "heading": "Failing recall is not forgetting",
+            "body": "You may fail to recall something even with many cues. That does **not** prove the information is gone from long-term memory.\n\nIt might be available but **not accessible** right now. A more sensitive task, such as **recognition**, may show the memory is still there.",
+            "visual": {
+              "type": "scale",
+              "left": "Stored",
+              "right": "Accessible now",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Lecturers test the types of recall with scenarios: reciting a poem (serial), listing anything you remember (free), fill-in with first letters (cued). A common trap: calling a fill-in-the-gap with cues 'recognition'. If you must produce the answer, it is recall, however many hints you get.",
+            "sampleQuestion": "Reciting the alphabet from A to Z is an example of: (a) free recall (b) serial recall (c) recognition (d) relearning",
+            "howToAnswer": "Answer (b): the items must come out in a set order. In essays, explain why serial recall is often easier: each item cues the next.",
+            "scholars": [
+              "Howard (2002)",
+              "Tulving (1974)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Three memory tasks: recall, recognition, relearning.",
+              "Recall means producing information by searching memory.",
+              "Retrieval cues make recall easier (cued recall).",
+              "Serial recall is often easier than free recall; order resists distraction.",
+              "Failing to recall does not mean the memory is gone."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "In which memory task must a person produce information simply by searching memory?",
+          "options": [
+            "Recognition",
+            "Relearning",
+            "Recall",
+            "Priming"
+          ],
+          "answerIndex": 2,
+          "explanation": "Recall requires producing information; recognition only requires identifying it."
+        },
+        {
+          "difficulty": 1,
+          "stem": "A retrieval cue is:",
+          "options": [
+            "The time saved in relearning",
+            "A sign of forgetting",
+            "A type of recognition test",
+            "A stimulus that helps bring back a memory"
+          ],
+          "answerIndex": 3,
+          "explanation": "Any information that aids retrieval of a memory is a retrieval cue."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Recalling items in a specific order is called:",
+          "options": [
+            "Free recall",
+            "Recognition",
+            "Cued recall",
+            "Serial recall"
+          ],
+          "answerIndex": 3,
+          "explanation": "Serial recall requires a fixed order, like the alphabet."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Essay examinations mainly test:",
+          "options": [
+            "Recall",
+            "Recognition",
+            "Relearning",
+            "Priming"
+          ],
+          "answerIndex": 0,
+          "explanation": "Essays require students to produce information without options to choose from."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Serial recall is often easier than free recall because:",
+          "options": [
+            "Serial lists are shorter",
+            "It uses recognition",
+            "Each item acts as a cue for the next",
+            "It needs no memory"
+          ],
+          "answerIndex": 2,
+          "explanation": "The chain of order means each item helps retrieve the following one."
+        },
+        {
+          "difficulty": 2,
+          "stem": "According to Howard (2002), in recall tasks order associations are:",
+          "options": [
+            "More resistant to distraction than meaningful associations",
+            "Weaker than meaningful associations",
+            "Useless",
+            "Only found in children"
+          ],
+          "answerIndex": 0,
+          "explanation": "Order associations held up better against distraction than meaning-based ones."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A student is asked to write down every Nigerian state she can remember, in any order. This is:",
+          "options": [
+            "Serial recall",
+            "Recognition",
+            "Free recall",
+            "Relearning"
+          ],
+          "answerIndex": 2,
+          "explanation": "Remembering items in any order is free recall."
+        },
+        {
+          "difficulty": 3,
+          "stem": "'The three memory processes are e____, s____ and r____.' This question tests:",
+          "options": [
+            "Cued recall",
+            "Recognition",
+            "Relearning",
+            "Free recall"
+          ],
+          "answerIndex": 0,
+          "explanation": "The first letters are cues, but the student must still produce the words, so it is cued recall."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Tunde cannot remember his old teacher's name even when given her subject and school. Later, he picks it correctly from a list. This shows that:",
+          "options": [
+            "The name was never stored",
+            "Cues always guarantee recall",
+            "Recognition is harder than recall",
+            "Failure to recall does not mean the information is lost"
+          ],
+          "answerIndex": 3,
+          "explanation": "The name was in memory but not accessible to recall; recognition revealed it."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are recall tasks EXCEPT:",
+          "options": [
+            "Reciting a poem",
+            "Choosing the correct answer in a multiple-choice question",
+            "Listing items from a shopping list",
+            "Writing an essay"
+          ],
+          "answerIndex": 1,
+          "explanation": "Multiple choice presents the answer among options, which is recognition."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Serial recall: items in any order",
+            "Cued recall: hints help retrieval",
+            "Free recall: items in a fixed order",
+            "Recall: identifying familiar items"
+          ],
+          "answerIndex": 1,
+          "explanation": "Cued recall uses hints to help production. Serial is fixed order; free is any order; identifying familiar items is recognition."
+        },
+        {
+          "difficulty": 4,
+          "stem": "A pharmacist recites the steps for preparing a solution even after being interrupted by a phone call. Howard's finding helps explain this because:",
+          "options": [
+            "Meaningful associations resist distraction best",
+            "Order associations are relatively resistant to distraction",
+            "Interruptions improve memory",
+            "Recognition replaces recall"
+          ],
+          "answerIndex": 1,
+          "explanation": "Sequences held by order associations tend to survive distraction."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Recall requires producing information. II. Retrieval cues make recall harder. III. Failing recall proves the memory is gone. Which are correct?",
+          "options": [
+            "I only",
+            "I and II only",
+            "I and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 0,
+          "explanation": "Only I is correct. Cues make recall easier, and failing recall does not prove the memory is lost."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A researcher finds that students given a list of first letters recall far more words than students given no cues. The best conclusion is that:",
+          "options": [
+            "The uncued students had not stored the words",
+            "Cues created new memories",
+            "Some stored words were available but needed cues to be accessed",
+            "First letters are recognition tests"
+          ],
+          "answerIndex": 2,
+          "explanation": "Cues improved access to words already stored. It does not show uncued students never stored them."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A student revises by reciting topics in the same order each time, then panics when the exam asks them in a different order. This is most likely because:",
+          "options": [
+            "Recognition is harder than recall",
+            "Serial recall relied on each item cueing the next",
+            "Free recall is always easier",
+            "Order associations are weak"
+          ],
+          "answerIndex": 1,
+          "explanation": "Learning in a fixed sequence makes each item depend on the one before as a cue. Out of order, those cues are missing."
+        }
+      ]
+    },
+    {
+      "name": "Recognition and relearning",
+      "lesson": {
+        "title": "Familiar faces and saved time",
+        "minutes": 9,
+        "hook": "You walk past someone at the market and think, 'I know that face', yet the name will not come. Recognition has beaten recall again. Why is it so much easier?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "What recognition asks",
+            "body": "**Recognition** asks you only to identify something as **familiar** or as encountered before: a face, a name, a song, an answer.\n\nMultiple-choice, matching and true/false questions are recognition tasks. The key difference from recall: the **correct answer is already in front of you** among other options. You do not supply it; you spot it.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "eye",
+                  "label": "See options"
+                },
+                {
+                  "icon": "checkmark-circle",
+                  "label": "Spot the familiar"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Which exam question type is a recognition task?",
+            "options": [
+              "Essay question",
+              "Matching question",
+              "Fill in the blank with no options",
+              "Short-answer definition"
+            ],
+            "answerIndex": 1,
+            "why": "Matching presents the answers for you to identify, which is recognition. The others require you to produce the answer."
+          },
+          {
+            "kind": "teach",
+            "heading": "The hippocampus and recognition",
+            "body": "Brain-imaging studies show the **hippocampus** plays a large role in recognition, with its activity varying by task. Recognising **famous faces** sets off **widespread activity** in both hemispheres, including prefrontal and temporal areas and the hippocampal region. Recognising **recently seen** faces produces less widespread activity (Henson et al., 2002).\n\nMonkeys with damage limited to the hippocampal region struggle to recognise things they have seen before (Zola et al., 2000; Teng et al., 2000), so this region is essential for normal recognition.",
+            "visual": {
+              "type": "brain",
+              "region": "hippocampus",
+              "label": "Essential for recognition"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Relearning: the savings method",
+            "body": "**Relearning** is the **most sensitive** measure of memory. It was pioneered by **Hermann Ebbinghaus (1885)**, who memorised lists of nonsense syllables and timed how long it took to learn them again later.\n\nRetention is expressed as a **savings score**: the percentage of time saved when relearning compared with the original learning time.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Learn: time A",
+                "Forget",
+                "Relearn: time B",
+                "Savings"
+              ]
+            }
+          },
+          {
+            "kind": "steps",
+            "heading": "Working out a savings score",
+            "steps": [
+              {
+                "title": "Original learning",
+                "detail": "You take 40 minutes to learn a list of words."
+              },
+              {
+                "title": "Test later",
+                "detail": "A month later, you cannot recall or recognise a single word."
+              },
+              {
+                "title": "Relearn",
+                "detail": "You relearn the list in 20 minutes."
+              },
+              {
+                "title": "Calculate",
+                "detail": "(40 − 20) ÷ 40 × 100 = 50% savings. Half the original effort was saved, so something remained."
+              }
+            ]
+          },
+          {
+            "kind": "check",
+            "question": "Original learning took 60 minutes; relearning took 15 minutes. The savings score is:",
+            "options": [
+              "25%",
+              "45%",
+              "75%",
+              "15%"
+            ],
+            "answerIndex": 2,
+            "why": "(60 − 15) ÷ 60 × 100 = 75%. Students often wrongly give 25%, which is the relearning time as a share of the original."
+          },
+          {
+            "kind": "teach",
+            "heading": "Why relearning is most sensitive",
+            "body": "Recall and recognition may show **zero** memory when traces are faint. Relearning can still detect a **remnant**: if you relearn faster than you first learned, some memory survived.\n\nThat is why sensitivity runs: **relearning** detects the most, then **recognition**, then **recall** the least.",
+            "visual": {
+              "type": "pyramid",
+              "levels": [
+                "Recall (least sensitive)",
+                "Recognition",
+                "Relearning (most sensitive)"
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Final exam revision",
+            "story": "In week one, Fatima spent ten hours learning the topic on neurotransmitters. By exam week, she could hardly recall any of it. Yet revising the same topic took her only three hours. Those seven saved hours were her old learning, quietly waiting.",
+            "takeaway": "Relearning for comprehensive exams is faster than first learning, showing memory remains even when recall fails."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect a savings-score calculation, so practise the formula: (original − relearning) ÷ original × 100. Also expect 'which is the most sensitive measure of memory' and the recall versus recognition difference. A trap: picking recognition as most sensitive because it is easier. Easier for students is not the same as most sensitive for researchers.",
+            "sampleQuestion": "It took 50 minutes to learn a list and 10 minutes to relearn it. What is the savings score? (a) 20% (b) 40% (c) 80% (d) 10%",
+            "howToAnswer": "Answer (c): (50 − 10) ÷ 50 × 100 = 80%. Then state that relearning is the most sensitive measure.",
+            "scholars": [
+              "Ebbinghaus (1885)",
+              "Henson et al. (2002)",
+              "Zola et al. (2000)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Recognition: identify material as familiar; the answer is presented.",
+              "Recognition is easier than recall.",
+              "The hippocampus is essential for normal recognition.",
+              "Relearning measures savings: (original − relearn) ÷ original × 100.",
+              "Relearning is the most sensitive measure of memory."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Which is the most sensitive measure of memory?",
+          "options": [
+            "Recall",
+            "Relearning",
+            "Recognition",
+            "Free recall"
+          ],
+          "answerIndex": 1,
+          "explanation": "Relearning can detect traces that recall and recognition miss."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Multiple-choice questions are examples of:",
+          "options": [
+            "Recall",
+            "Relearning",
+            "Recognition",
+            "Serial recall"
+          ],
+          "answerIndex": 2,
+          "explanation": "The answer is among the options, so you only need to recognise it."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The relearning method expresses retention as:",
+          "options": [
+            "Number of items recalled",
+            "Reaction time",
+            "Number of correct recognitions",
+            "Percentage of time saved in relearning"
+          ],
+          "answerIndex": 3,
+          "explanation": "The savings score is the percentage of time saved compared with original learning."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The main difference between recall and recognition is that recognition:",
+          "options": [
+            "Requires producing the answer",
+            "Presents the correct answer among other items",
+            "Is always harder",
+            "Uses no memory"
+          ],
+          "answerIndex": 1,
+          "explanation": "Recognition only needs you to identify the answer when you see it."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The brain region found essential for normal recognition in monkey studies is the:",
+          "options": [
+            "Occipital lobe",
+            "Cerebellum",
+            "Hippocampal region",
+            "Brainstem"
+          ],
+          "answerIndex": 2,
+          "explanation": "Damage limited to the hippocampal region impaired recognition (Teng et al.; Zola et al., 2000)."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The savings method was pioneered by:",
+          "options": [
+            "Squire",
+            "Ebbinghaus",
+            "Bousfield",
+            "Paivio"
+          ],
+          "answerIndex": 1,
+          "explanation": "Hermann Ebbinghaus (1885) used relearning savings with nonsense syllables."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Learning a poem took 30 minutes; relearning it a month later took 12 minutes. The savings score is:",
+          "options": [
+            "60%",
+            "40%",
+            "18%",
+            "12%"
+          ],
+          "answerIndex": 0,
+          "explanation": "(30 − 12) ÷ 30 × 100 = 60%. 40% would be the relearning time as a share of the original."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Ada recognises a classmate's face at a wedding but cannot recall her name. This happens because:",
+          "options": [
+            "Recognition is easier than recall",
+            "Recall is easier than recognition",
+            "Faces are never stored",
+            "Names are stored in implicit memory"
+          ],
+          "answerIndex": 0,
+          "explanation": "Recognition only needs a sense of familiarity; recall needs the name produced."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A student cannot recall or recognise any words from a list learned a year ago, but relearns it faster than before. This shows:",
+          "options": [
+            "Some memory remained that recall and recognition missed",
+            "The list was completely forgotten",
+            "Relearning creates new memories only",
+            "Recognition is the most sensitive test"
+          ],
+          "answerIndex": 0,
+          "explanation": "Faster relearning reveals a remnant of memory undetectable by the other tasks."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Henson and colleagues (2002) found that recognising famous faces, compared with recently seen faces, produced:",
+          "options": [
+            "More widespread activity across both hemispheres",
+            "Less brain activity",
+            "Activity only in the cerebellum",
+            "No hippocampal activity"
+          ],
+          "answerIndex": 0,
+          "explanation": "Famous faces triggered widespread activity including prefrontal, temporal and hippocampal regions."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which ordering from MOST to LEAST sensitive measure of memory is correct?",
+          "options": [
+            "Recall, recognition, relearning",
+            "Relearning, recognition, recall",
+            "Recognition, relearning, recall",
+            "Recognition, recall, relearning"
+          ],
+          "answerIndex": 1,
+          "explanation": "Relearning detects the most retained information, then recognition, then recall."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are recognition tasks EXCEPT:",
+          "options": [
+            "True/false questions",
+            "Matching questions",
+            "Identifying a suspect in a line-up",
+            "Writing a list of all suspects seen"
+          ],
+          "answerIndex": 3,
+          "explanation": "Writing a list requires producing items, which is recall."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Original learning took 80 minutes. A savings score of 75% means relearning took:",
+          "options": [
+            "60 minutes",
+            "75 minutes",
+            "5 minutes",
+            "20 minutes"
+          ],
+          "answerIndex": 3,
+          "explanation": "75% of 80 is 60 minutes saved, so relearning took 80 − 60 = 20 minutes."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Recognition presents the correct answer. II. Relearning can detect memory when recall fails. III. Hippocampal damage leaves recognition normal. Which are correct?",
+          "options": [
+            "II and III only",
+            "I and III only",
+            "I and II only",
+            "I, II and III"
+          ],
+          "answerIndex": 2,
+          "explanation": "I and II are correct. III is false: hippocampal damage impairs recognition."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A researcher wants to show that children still retain some of a language they stopped speaking years ago, though they cannot recall or recognise any words. The best method is:",
+          "options": [
+            "Free recall test",
+            "Multiple-choice test",
+            "Relearning the language and measuring savings",
+            "Asking them if they remember"
+          ],
+          "answerIndex": 2,
+          "explanation": "Relearning is sensitive enough to reveal remnants that recall and recognition miss."
+        }
+      ]
+    }
+  ]
+}

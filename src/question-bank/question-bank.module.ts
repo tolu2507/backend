@@ -4,5 +4,5 @@ import { PracticeController, QuestionBankController } from './question-bank.cont
 import { PracticeService } from './practice.service.js';
 import { QuestionBankService } from './question-bank.service.js';
 
-@Module({ controllers: [PracticeController, QuestionBankController], providers: [PracticeService, QuestionBankService] })
+@Module({ controllers: [PracticeController, QuestionBankController], providers: [PracticeService, QuestionBankService], exports: [PracticeService] })
 export class QuestionBankModule {}

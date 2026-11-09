@@ -1,0 +1,1004 @@
+{
+  "unit": 4,
+  "title": "Emotional and Social Disorders",
+  "summary": "Four emotional and social disorders of childhood: reactive attachment disorder, separation anxiety disorder, phobias including school phobia, and childhood depression.",
+  "sections": [
+    {
+      "name": "Reactive attachment disorder",
+      "lesson": {
+        "title": "When early care fails",
+        "minutes": 9,
+        "hook": "Two toddlers from the same understaffed orphanage meet a visitor. One freezes, watching silently, refusing to be held. The other runs to the stranger and climbs into their lap. Both behaviours, opposite as they look, can come from the same early neglect.",
+        "slides": [
+          {
+            "kind": "steps",
+            "heading": "Four emotional and social disorders",
+            "steps": [
+              {
+                "title": "Reactive attachment disorder",
+                "detail": "Disturbed ability to relate to others after early neglect or abuse."
+              },
+              {
+                "title": "Separation anxiety disorder",
+                "detail": "Excessive fear of being apart from parents or caregivers."
+              },
+              {
+                "title": "Phobias",
+                "detail": "Extreme fears out of proportion to real danger, such as school phobia."
+              },
+              {
+                "title": "Childhood depression",
+                "detail": "Persistent sadness, irritability and withdrawal in children."
+              }
+            ]
+          },
+          {
+            "kind": "teach",
+            "heading": "What it is",
+            "body": "**Reactive attachment disorder (RAD)** is a marked disturbance in a child's ability to **relate to other people**, beginning **before age five**. Affected children fail to show the **social attachments** normal for their age.\n\nAttachment theory (Bowlby) holds that infants need a consistent, responsive caregiver to form secure bonds. When that care is missing, the capacity to bond can be damaged.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Neglect or abuse",
+                "No secure bond",
+                "Disturbed relating"
+              ]
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Two subtypes",
+            "left": {
+              "title": "Inhibited",
+              "points": [
+                "Fails to start or respond to social contact",
+                "Watchful, constantly observing others",
+                "Resists physical contact and comfort"
+              ]
+            },
+            "right": {
+              "title": "Disinhibited",
+              "points": [
+                "Indiscriminate with people",
+                "Little fear of unfamiliar adults; approaches them",
+                "Treats strangers like family, seeks lots of contact"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "A four-year-old warmly hugs and follows any stranger as readily as her own carers. This fits which subtype of RAD?",
+            "options": [
+              "Inhibited",
+              "Disinhibited",
+              "Separation anxiety",
+              "School phobia"
+            ],
+            "answerIndex": 1,
+            "why": "Indiscriminate approach to strangers, treating them like familiar people, marks the disinhibited subtype."
+          },
+          {
+            "kind": "teach",
+            "heading": "Neglect is part of the diagnosis",
+            "body": "Unusually, the diagnosis requires a **history**, not just symptoms. The child must have experienced **serious neglect or outright abuse** before the symptoms began. **Inadequate care** is assumed to cause the syndrome.\n\nIn the later DSM-5, the disinhibited pattern became a separate diagnosis, **disinhibited social engagement disorder**.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "close-circle",
+                  "label": "Serious neglect"
+                },
+                {
+                  "icon": "warning",
+                  "label": "Abuse"
+                },
+                {
+                  "icon": "child",
+                  "label": "Symptoms before 5"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Which subtype of reactive attachment disorder involves resisting comfort and constantly watching others?",
+            "options": [
+              "Inhibited",
+              "Disinhibited",
+              "Separation anxiety",
+              "School phobia"
+            ],
+            "answerIndex": 0,
+            "why": "The inhibited subtype withdraws and resists contact; the disinhibited subtype is indiscriminately friendly."
+          },
+          {
+            "kind": "example",
+            "heading": "Lessons from orphanages",
+            "story": "After 1989, thousands of children were found in severely understaffed Romanian orphanages with almost no individual care. Many, once adopted, struggled to form attachments or were overly friendly with strangers. Those adopted earlier generally did better than those adopted later, a pattern researchers followed for years.",
+            "takeaway": "Severe early deprivation can disrupt attachment; earlier placement in a caring family improves outcomes."
+          },
+          {
+            "kind": "teach",
+            "heading": "Limited research, debated treatments",
+            "body": "Because RAD was a relatively **new** diagnostic category in DSM-IV, there has been **little research** on how common it is, its specific causes, or which treatments work.\n\nSome practitioners promote particular therapies; others **doubt** they are appropriate. Most experts agree the priority is a **stable, caring, responsive caregiver**.",
+            "visual": {
+              "type": "scale",
+              "left": "Stable caring home",
+              "right": "Unproven therapies",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'identify four emotional and social disorders' and 'discuss reactive attachment disorder'. Key points: onset before five, two subtypes, required history of neglect or abuse, little research. Trap: thinking RAD can be diagnosed from symptoms alone; the neglect history is part of the criteria.",
+            "sampleQuestion": "Which of the following is a requirement for diagnosing reactive attachment disorder? (a) onset after age ten (b) a history of serious neglect or abuse before symptoms (c) a fear of school (d) low serotonin",
+            "howToAnswer": "Answer (b). Add onset before age five and describe both subtypes.",
+            "scholars": [
+              "Bowlby",
+              "APA DSM-IV-TR (2000)",
+              "Comer (2004)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Four disorders: RAD, separation anxiety disorder, phobias, childhood depression.",
+              "RAD: disturbed relating to others, beginning before age five.",
+              "Inhibited subtype withdraws; disinhibited subtype is indiscriminately friendly.",
+              "Diagnosis requires a history of serious neglect or abuse.",
+              "Research is limited; a stable caring home is the priority."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Reactive attachment disorder begins before the age of:",
+          "options": [
+            "Five",
+            "Two",
+            "Ten",
+            "Fifteen"
+          ],
+          "answerIndex": 0,
+          "explanation": "The disturbance begins before age five."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which of the following is NOT one of the four emotional and social disorders discussed?",
+          "options": [
+            "Reactive attachment disorder",
+            "Separation anxiety disorder",
+            "Dyslexia",
+            "Childhood depression"
+          ],
+          "answerIndex": 2,
+          "explanation": "Dyslexia is a learning disorder, not one of the four emotional and social disorders."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The two subtypes of reactive attachment disorder are:",
+          "options": [
+            "Primary and secondary",
+            "Mild and severe",
+            "Oral and anal",
+            "Inhibited and disinhibited"
+          ],
+          "answerIndex": 3,
+          "explanation": "RAD has inhibited and disinhibited subtypes."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The inhibited subtype of RAD is marked by:",
+          "options": [
+            "Indiscriminate friendliness",
+            "Mania",
+            "Fear of school",
+            "Persistent failure to start or respond to social contact"
+          ],
+          "answerIndex": 3,
+          "explanation": "Inhibited children withdraw, watch others and resist comfort."
+        },
+        {
+          "difficulty": 2,
+          "stem": "RAD is assumed to be caused mainly by:",
+          "options": [
+            "Genetic mutation",
+            "Inadequate early care",
+            "Viral infection",
+            "High intelligence"
+          ],
+          "answerIndex": 1,
+          "explanation": "Serious neglect or abuse, meaning inadequate care, is assumed to cause it."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Why is relatively little known about RAD's prevalence and treatment?",
+          "options": [
+            "It is extremely common",
+            "It only affects adults",
+            "It was a new diagnostic category in DSM-IV",
+            "It is purely genetic"
+          ],
+          "answerIndex": 2,
+          "explanation": "As a newer category, it had attracted little research."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A three-year-old raised in a neglectful home stiffens when hugged, watches others silently and never seeks comfort. The most likely diagnosis is:",
+          "options": [
+            "Separation anxiety disorder",
+            "RAD, disinhibited subtype",
+            "School phobia",
+            "RAD, inhibited subtype"
+          ],
+          "answerIndex": 3,
+          "explanation": "Withdrawal and resisting comfort after neglect fit the inhibited subtype."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A child adopted from an under-resourced orphanage happily goes off with any adult who smiles at him. This is most consistent with:",
+          "options": [
+            "RAD, inhibited subtype",
+            "Childhood depression",
+            "RAD, disinhibited subtype",
+            "Mania"
+          ],
+          "answerIndex": 2,
+          "explanation": "Lack of wariness and indiscriminate approach to strangers marks the disinhibited subtype."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A clinician sees a withdrawn four-year-old but finds no history of neglect or abuse. Can RAD be diagnosed?",
+          "options": [
+            "No, a history of serious neglect or abuse is required",
+            "Yes, symptoms are enough",
+            "Yes, if the child is shy",
+            "Only after age ten"
+          ],
+          "answerIndex": 0,
+          "explanation": "The criteria include a history of pathogenic care before symptoms began."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which feature distinguishes RAD's disinhibited subtype from normal friendliness?",
+          "options": [
+            "Treating strangers and familiar carers the same way, with no wariness",
+            "Smiling at people",
+            "Liking play",
+            "Talking early"
+          ],
+          "answerIndex": 0,
+          "explanation": "Normal children prefer familiar carers and show some wariness of strangers."
+        },
+        {
+          "difficulty": 4,
+          "stem": "In DSM-5, the disinhibited pattern of RAD became:",
+          "options": [
+            "Separation anxiety disorder",
+            "Disinhibited social engagement disorder",
+            "Bipolar disorder",
+            "Conduct disorder"
+          ],
+          "answerIndex": 1,
+          "explanation": "DSM-5 separated it as disinhibited social engagement disorder."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are true of RAD EXCEPT:",
+          "options": [
+            "It begins before age five",
+            "It is caused mainly by high intelligence",
+            "It requires a history of neglect or abuse",
+            "It involves disturbed social relating"
+          ],
+          "answerIndex": 1,
+          "explanation": "RAD is linked to inadequate care, not intelligence."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. RAD has inhibited and disinhibited subtypes. II. Treatments for RAD are well established by extensive research. III. Inadequate care is assumed to cause RAD. Which are correct?",
+          "options": [
+            "I and III only",
+            "I and II only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 0,
+          "explanation": "I and III are correct. Research on RAD treatment is limited and some therapies are disputed."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Research on children adopted from severely deprived orphanages suggests that outcomes are generally better when children are:",
+          "options": [
+            "Adopted later",
+            "Kept in the orphanage",
+            "Adopted earlier into caring families",
+            "Given no contact with adults"
+          ],
+          "answerIndex": 2,
+          "explanation": "Earlier placement in responsive care tends to improve attachment outcomes."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which model of abnormality most directly explains RAD as described in the course?",
+          "options": [
+            "Biological model, through genes",
+            "A model stressing early caregiving environment and relationships",
+            "Existential model",
+            "Cognitive model alone"
+          ],
+          "answerIndex": 1,
+          "explanation": "RAD is defined by inadequate early care, pointing to environmental and relational explanations."
+        }
+      ]
+    },
+    {
+      "name": "Separation anxiety and phobias",
+      "lesson": {
+        "title": "Fears that take over",
+        "minutes": 10,
+        "hook": "Every morning, nine-year-old Ife gets a stomach ache at the school gate, then feels fine by 10am at home. Her mother wonders if she is pretending. She is not. Something real is going on.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Normal separation anxiety",
+            "body": "**Separation anxiety**, fear and distress when apart from parents or caregivers, is a **normal** part of development. It usually begins around **8 or 9 months**, **peaks about 14 months**, then gradually fades.\n\nIts onset matches the development of **object permanence**: the understanding that people and objects still exist when out of sight. (Your notes print this as 'object romance'.) Babies cry or become distressed when separated.",
+            "visual": {
+              "type": "spectrum",
+              "left": "8 to 9 months: begins",
+              "right": "Fades after",
+              "marker": 50,
+              "label": "Peak about 14 months"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Separation anxiety disorder",
+            "body": "When separation anxiety **continues well into childhood**, or returns later, it may be **separation anxiety disorder**. Children worry excessively that their **parents will die, fall ill**, or be lost through **kidnapping or accidents**.\n\nThey fear being alone, may **refuse school**, demand attention, insist someone stays at bedtime, and may get **headaches or nausea** when separation looms. Sometimes it continues into **adulthood**.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "home",
+                  "label": "Won't leave home"
+                },
+                {
+                  "icon": "warning",
+                  "label": "Fears for parents"
+                },
+                {
+                  "icon": "medkit",
+                  "label": "Headache, nausea"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Normal separation anxiety typically peaks at about:",
+            "options": [
+              "5 years",
+              "3 months",
+              "14 months",
+              "12 years"
+            ],
+            "answerIndex": 2,
+            "why": "It begins around 8 to 9 months, peaks about 14 months, then subsides."
+          },
+          {
+            "kind": "teach",
+            "heading": "Causes and treatment",
+            "body": "Causes are **unclear**, but symptoms often appear after the child **loses** someone or something loved, for example when a grandparent or a pet dies.\n\nTreatment involves **gradual exposure** to separation (such as attending school) and teaching the child to manage **anxiety and irrational thoughts**. Therapists also work with **parents** so that **overprotection** does not accidentally feed the anxiety.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Small separations",
+                "Coping skills",
+                "Parents step back",
+                "Confidence"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "From fear to phobia",
+            "body": "Childhood **fears are universal**, though their **content and intensity** differ by culture and change with **age**: toddlers fear strangers and noises, older children fear the dark, monsters or injury.\n\nA fear becomes a **phobia** when it is **out of proportion** to the real danger the object presents, so extreme that the child may become **immobilised**.",
+            "visual": {
+              "type": "scale",
+              "left": "Fear felt",
+              "right": "Actual danger",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "School phobia versus truancy",
+            "left": {
+              "title": "School phobia",
+              "points": [
+                "Often a good student who wants to attend",
+                "Intense anxiety: toilet trips, sickness, sweating",
+                "Stays home; parents know where the child is"
+              ]
+            },
+            "right": {
+              "title": "Truancy",
+              "points": [
+                "Avoids school deliberately",
+                "No anxiety about school itself",
+                "Parents often unaware the child is absent"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Treating school phobia",
+            "body": "School phobia is among the **most common and troublesome** childhood phobias. Its causes are not always separation fear; they can include **social or academic fears**, **depression**, or fear of **specific people or objects** at school.\n\nEffective behavioural treatment uses **desensitisation**, gradual exposure to the feared situation, plus **work with parents**, who monitor the child and learn to spot any behaviour of their own that **subtly maintains** the phobia."
+          },
+          {
+            "kind": "example",
+            "heading": "The hidden fear",
+            "story": "A 13-year-old, Sara, was referred for fears of planes, bees and lifts. As trust grew, her therapist found one fear beneath them all: anaesthesia. During an earlier tooth extraction under general anaesthetic, everything went dark while she could still hear rushing voices, which terrified her. She now avoided anything that might send her to hospital. Relaxation training ended her difficulties within three months.",
+            "takeaway": "Several phobias may share one underlying fear; finding it, and teaching relaxation, can resolve them."
+          },
+          {
+            "kind": "check",
+            "question": "How does a child with school phobia usually differ from a truant?",
+            "options": [
+              "The truant feels intense anxiety about school",
+              "There is no difference",
+              "The child with school phobia hates learning",
+              "The child with school phobia stays at home, and parents know where they are"
+            ],
+            "answerIndex": 3,
+            "why": "School-phobic children often want to attend but are overwhelmed by anxiety and stay home; truants' parents are often unaware."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'discuss separation anxiety and phobias in children'. Know the normal timeline (8 to 9 months, peak 14 months), object permanence, signs of the disorder, treatment, and school phobia versus truancy. Trap: treating all separation anxiety as a disorder; it is normal in infancy.",
+            "sampleQuestion": "A fear becomes a phobia when it is: (a) shared by many children (b) out of proportion to the real danger the object presents (c) learned from parents (d) present before age two",
+            "howToAnswer": "Answer (b). Then explain school phobia, how it differs from truancy, and treatment with desensitisation and parental involvement.",
+            "scholars": [
+              "Comer (2004)",
+              "Phares (2003)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Separation anxiety is normal from 8 to 9 months, peaking about 14 months.",
+              "It links to object permanence.",
+              "The disorder: excessive, persistent fears for parents, school refusal, physical symptoms.",
+              "Phobia: fear out of proportion to real danger.",
+              "School phobia differs from truancy; treat with desensitisation and parent work."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Normal separation anxiety usually begins when a child is about:",
+          "options": [
+            "8 or 9 months",
+            "7 years",
+            "3 years",
+            "1 month"
+          ],
+          "answerIndex": 0,
+          "explanation": "It begins around 8 or 9 months."
+        },
+        {
+          "difficulty": 1,
+          "stem": "A fear becomes a phobia when it is:",
+          "options": [
+            "Out of proportion to the real danger",
+            "Learned",
+            "Common",
+            "About animals"
+          ],
+          "answerIndex": 0,
+          "explanation": "Disproportionate fear defines a phobia."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The ability to understand that people still exist when out of sight is called:",
+          "options": [
+            "Attachment",
+            "Conservation",
+            "Desensitisation",
+            "Object permanence"
+          ],
+          "answerIndex": 3,
+          "explanation": "Object permanence coincides with the onset of separation anxiety."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Children with separation anxiety disorder often worry that:",
+          "options": [
+            "They will become famous",
+            "They will fail exams",
+            "Their parents will die, fall ill or be lost",
+            "Animals will talk"
+          ],
+          "answerIndex": 2,
+          "explanation": "Excessive fears for parents' safety are typical."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Symptoms of separation anxiety disorder often begin after:",
+          "options": [
+            "A loss, such as a death in the family",
+            "A school prize",
+            "Starting to walk",
+            "Learning to read"
+          ],
+          "answerIndex": 0,
+          "explanation": "Onset often follows the death of a relative or pet."
+        },
+        {
+          "difficulty": 2,
+          "stem": "An effective behavioural treatment for phobias is:",
+          "options": [
+            "Punishment",
+            "Ignoring the child",
+            "Desensitisation through gradual exposure",
+            "Bed rest"
+          ],
+          "answerIndex": 2,
+          "explanation": "Gradual exposure reduces fear."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A 10-year-old insists his mother sit beside him until he sleeps, refuses sleepovers and gets headaches when she travels. The most likely diagnosis is:",
+          "options": [
+            "School phobia only",
+            "Separation anxiety disorder",
+            "RAD",
+            "Truancy"
+          ],
+          "answerIndex": 1,
+          "explanation": "Persistent excessive distress about separation in later childhood fits the disorder."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A bright pupil sweats and vomits every school morning but is happy at home, and her parents know she is at home. This suggests:",
+          "options": [
+            "Truancy",
+            "Mania",
+            "RAD",
+            "School phobia"
+          ],
+          "answerIndex": 3,
+          "explanation": "Intense anxiety about school, with parents aware, marks school phobia."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A therapist helping a child with separation anxiety also works with the parents mainly to:",
+          "options": [
+            "Blame them",
+            "Teach them the school syllabus",
+            "Ensure overprotection does not accidentally worsen the anxiety",
+            "Prescribe medication"
+          ],
+          "answerIndex": 2,
+          "explanation": "Overprotective responses can maintain the child's anxiety."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are possible causes of school phobia EXCEPT:",
+          "options": [
+            "Separation fears",
+            "A deliberate wish to skip lessons for fun",
+            "Depression",
+            "Social or academic fears"
+          ],
+          "answerIndex": 1,
+          "explanation": "Deliberate avoidance for fun describes truancy, not phobia."
+        },
+        {
+          "difficulty": 4,
+          "stem": "In the case of Sara, her fears of planes, lifts and bees were linked by an underlying fear of:",
+          "options": [
+            "Darkness",
+            "Heights",
+            "Insects only",
+            "Anaesthesia and being taken to hospital"
+          ],
+          "answerIndex": 3,
+          "explanation": "All three could injure her and send her to hospital, where she feared anaesthesia."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement about childhood fears is correct?",
+          "options": [
+            "They are universal, though content and intensity vary by culture and age",
+            "They occur only in Western cultures",
+            "They never change with age",
+            "They always become phobias"
+          ],
+          "answerIndex": 0,
+          "explanation": "Fears are universal, shaped by culture and development."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Separation anxiety is normal in infancy. II. Separation anxiety disorder can continue into adulthood. III. School phobia and truancy are the same. Which are correct?",
+          "options": [
+            "I and III only",
+            "I and II only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 1,
+          "explanation": "I and II are correct. School phobia involves anxiety and parental awareness; truancy does not."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Why is parental involvement important in treating school phobia?",
+          "options": [
+            "Parents must be punished",
+            "Parents should take the child out of school",
+            "Parents can monitor progress and identify their own behaviour that subtly maintains the phobia",
+            "Parents set the exam"
+          ],
+          "answerIndex": 2,
+          "explanation": "Parents may unknowingly reinforce avoidance, so their involvement aids recovery."
+        },
+        {
+          "difficulty": 5,
+          "stem": "In Sara's case, what treatment resolved her phobias within three months?",
+          "options": [
+            "Medication only",
+            "Relaxation techniques for high-anxiety situations",
+            "Flooding with bees",
+            "Hospital admission"
+          ],
+          "answerIndex": 1,
+          "explanation": "Her therapist taught relaxation techniques for anxious situations."
+        }
+      ]
+    },
+    {
+      "name": "Childhood depression",
+      "lesson": {
+        "title": "When children lose their spark",
+        "minutes": 9,
+        "hook": "For years, many experts believed young children could not really be depressed. Then researchers looked more carefully at irritable, withdrawn children complaining of constant stomach aches.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Children can be depressed",
+            "body": "Before the **1970s**, many clinicians assumed **pre-adolescents** rarely developed depression. Research has since shown that children **can and do** develop the full syndrome.\n\nAbout **2 to 4%** of children and adolescents under 17 experience **major depressive disorder**, and depression has the **highest lifetime prevalence** of the emotional disorders.",
+            "visual": {
+              "type": "stat",
+              "value": "2–4%",
+              "label": "Under-17s with major depression"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "How it looks in children",
+            "body": "**Depression** involves deep, unshakeable **sadness** and loss of interest in nearly all activities, with feelings of **despair, hopelessness and worthlessness**.\n\nIn **young children**, it often shows differently: **physical complaints** such as **stomach aches and headaches**, **irritability**, moping, **social withdrawal**, changes in **eating**, and loss of interest in school and play (APA, 2000).",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "medkit",
+                  "label": "Aches and pains"
+                },
+                {
+                  "icon": "flash",
+                  "label": "Irritability"
+                },
+                {
+                  "icon": "person",
+                  "label": "Withdrawal"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Which of these is a common sign of depression in young children?",
+            "options": [
+              "Boundless energy",
+              "Improved school interest",
+              "Grandiose plans",
+              "Physical complaints, irritability and social withdrawal"
+            ],
+            "answerIndex": 3,
+            "why": "Young children often show depression through aches, irritability and withdrawal rather than stated sadness."
+          },
+          {
+            "kind": "terms",
+            "heading": "What triggers childhood depression",
+            "terms": [
+              {
+                "term": "Loss",
+                "meaning": "Death of a parent, separation, losing a close relationship"
+              },
+              {
+                "term": "Learned helplessness",
+                "meaning": "Believing nothing one does can change bad outcomes"
+              },
+              {
+                "term": "Negative cognitions",
+                "meaning": "Pessimistic beliefs about oneself, the world and the future"
+              },
+              {
+                "term": "Low serotonin or norepinephrine",
+                "meaning": "Reduced activity of mood-related neurotransmitters"
+              },
+              {
+                "term": "Life events",
+                "meaning": "Major change, rejection or ongoing abuse"
+              }
+            ]
+          },
+          {
+            "kind": "example",
+            "heading": "After the move",
+            "story": "When her father loses his job, eight-year-old Chiamaka's family moves from Lagos to a village she does not know. She leaves her best friends, her grades slip, she complains of headaches most mornings and snaps at her siblings. Her new teacher notices she sits alone at break. A school counsellor recognises signs of depression.",
+            "takeaway": "Major change and loss can trigger childhood depression, which often shows as physical complaints, irritability and withdrawal."
+          },
+          {
+            "kind": "teach",
+            "heading": "Risk and treatment",
+            "body": "Like depressed adults, depressed children are at **high risk of suicide**, so signs must be taken seriously.\n\nChildhood depression is often helped by **cognitive therapy**, **interpersonal** approaches such as **social skills training**, and **family therapy**. **Antidepressant** medication helps some depressed **adolescents**, with careful monitoring.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "bulb",
+                  "label": "Cognitive therapy"
+                },
+                {
+                  "icon": "people",
+                  "label": "Social skills"
+                },
+                {
+                  "icon": "home",
+                  "label": "Family therapy"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Bipolar disorder in brief",
+            "body": "Depression can take other forms. In **bipolar disorder**, once called **manic-depressive illness**, mood **swings** between **depression** and **mania**.\n\nIn children and teenagers, these swings can be harder to recognise and may be mistaken for ordinary moodiness or behaviour problems.",
+            "visual": {
+              "type": "cycle",
+              "nodes": [
+                "Depression",
+                "Normal mood",
+                "Mania",
+                "Normal mood"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Before the 1970s, many clinicians believed that:",
+            "options": [
+              "Depression was common in young children",
+              "Only children got depressed",
+              "Pre-adolescent children were unlikely to develop depression",
+              "Depression was caused by phobias"
+            ],
+            "answerIndex": 2,
+            "why": "Earlier clinicians doubted pre-adolescent depression; research later showed it is real."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'mention five factors that trigger childhood depression': loss, learned helplessness, negative cognitions, low serotonin or norepinephrine, negative life events, major change, rejection or abuse. Also know prevalence (2 to 4%) and child-specific symptoms. Trap: expecting children to report sadness like adults; they often show physical complaints and irritability.",
+            "sampleQuestion": "Mention five factors that may trigger depression in children.",
+            "howToAnswer": "List loss, learned helplessness, negative cognitions, low serotonin or norepinephrine activity, and negative life events such as rejection or abuse. Give a one-line example of each.",
+            "scholars": [
+              "APA (2000)",
+              "Seligman (learned helplessness)",
+              "Comer (2004)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Children can develop depression; 2 to 4% of under-17s have major depression.",
+              "Young children show aches, irritability, withdrawal and eating changes.",
+              "Triggers: loss, learned helplessness, negative thinking, neurotransmitters, life events.",
+              "High suicide risk; treat with cognitive, interpersonal and family therapy.",
+              "Bipolar disorder: swings between depression and mania."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "About what percentage of children and adolescents under 17 experience major depressive disorder?",
+          "options": [
+            "2 to 4%",
+            "0.1 to 0.5%",
+            "20 to 40%",
+            "60%"
+          ],
+          "answerIndex": 0,
+          "explanation": "Between 2 and 4% of under-17s experience major depression."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Bipolar disorder was formerly called:",
+          "options": [
+            "Manic-depressive illness",
+            "Separation anxiety",
+            "School phobia",
+            "Attachment disorder"
+          ],
+          "answerIndex": 0,
+          "explanation": "Bipolar disorder used to be called manic-depressive illness."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which of the following is a common symptom of depression in young children?",
+          "options": [
+            "Indiscriminate friendliness",
+            "Stomach aches and headaches",
+            "Excessive energy",
+            "Grandiose plans"
+          ],
+          "answerIndex": 1,
+          "explanation": "Physical complaints are common in depressed young children."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Learned helplessness as a trigger of depression means:",
+          "options": [
+            "Learning many helpful skills",
+            "Believing one's actions cannot change bad outcomes",
+            "Helping others too much",
+            "Fear of school"
+          ],
+          "answerIndex": 1,
+          "explanation": "Repeated uncontrollable bad events teach a sense of helplessness."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which treatment approach is often helpful for childhood depression?",
+          "options": [
+            "Punishment",
+            "Ignoring the child",
+            "Cognitive therapy",
+            "Isolation"
+          ],
+          "answerIndex": 2,
+          "explanation": "Cognitive therapy, interpersonal approaches and family therapy help."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Depressed children, like adults, are at high risk of:",
+          "options": [
+            "Phobias of animals",
+            "Mania",
+            "Suicide",
+            "Reactive attachment disorder"
+          ],
+          "answerIndex": 2,
+          "explanation": "Suicide risk is high, so signs must be taken seriously."
+        },
+        {
+          "difficulty": 3,
+          "stem": "After being bullied for months, a 10-year-old says 'Whatever I do, they'll still pick on me' and stops trying. This reflects:",
+          "options": [
+            "Learned helplessness",
+            "Separation anxiety",
+            "School phobia",
+            "Mania"
+          ],
+          "answerIndex": 0,
+          "explanation": "Believing efforts are useless after uncontrollable bad events is learned helplessness."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A teacher notices a pupil has become irritable, eats little, sits alone and complains of headaches daily since his parents' divorce. The most likely concern is:",
+          "options": [
+            "Mania",
+            "RAD",
+            "Truancy",
+            "Childhood depression"
+          ],
+          "answerIndex": 3,
+          "explanation": "These are typical childhood depression signs following a major loss."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A therapist teaches a withdrawn, depressed child how to join games and start conversations. This is:",
+          "options": [
+            "Social skills training",
+            "Desensitisation",
+            "Medication",
+            "Psychoanalysis"
+          ],
+          "answerIndex": 0,
+          "explanation": "Social skills training is an interpersonal approach to childhood depression."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are triggers of childhood depression EXCEPT:",
+          "options": [
+            "Loss",
+            "High serotonin activity",
+            "Ongoing abuse",
+            "Negative cognitions"
+          ],
+          "answerIndex": 1,
+          "explanation": "Low, not high, serotonin activity is linked to depression."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Why was childhood depression underdiagnosed before the 1970s?",
+          "options": [
+            "Children never get sad",
+            "There were no children",
+            "It was confused with mania",
+            "Clinicians assumed pre-adolescents rarely became depressed"
+          ],
+          "answerIndex": 3,
+          "explanation": "The belief that young children could not be depressed led to missed cases."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Explanations of childhood depression are described as:",
+          "options": [
+            "Completely different from adult depression",
+            "Only biological",
+            "Only social",
+            "Similar to explanations of adult depression"
+          ],
+          "answerIndex": 3,
+          "explanation": "Loss, helplessness, cognition and neurochemistry explain both."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Depression has the highest lifetime prevalence of the emotional disorders. II. Antidepressants help some depressed adolescents. III. Depressed young children usually describe their sadness clearly. Which are correct?",
+          "options": [
+            "I and III only",
+            "I and II only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 1,
+          "explanation": "I and II are correct. Young children often show depression through aches and irritability rather than words."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Why might a doctor who sees a child with repeated stomach aches and no physical cause consider depression?",
+          "options": [
+            "Stomach aches always mean depression",
+            "Depression causes infections",
+            "Depression in children often appears as physical complaints",
+            "It rules out all other conditions"
+          ],
+          "answerIndex": 2,
+          "explanation": "Unexplained physical complaints can be a sign of childhood depression."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A comprehensive treatment plan for a depressed 12-year-old would most likely include:",
+          "options": [
+            "Only punishment",
+            "Isolation from family",
+            "Cognitive therapy, family involvement and, where appropriate, carefully monitored medication",
+            "Ignoring symptoms until adulthood"
+          ],
+          "answerIndex": 2,
+          "explanation": "Combining cognitive, family and, for some adolescents, medication approaches is most effective."
+        }
+      ]
+    }
+  ]
+}

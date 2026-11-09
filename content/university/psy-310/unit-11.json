@@ -1,0 +1,710 @@
+{
+  "unit": 11,
+  "title": "Sexual Behaviour",
+  "summary": "Sexual motivation as a primary motive, how it resembles hunger and thirst, the role of hormones, atypical sexual behaviour, forced sexual behaviour and sexually transmitted infections.",
+  "sections": [
+    {
+      "name": "Sexual motivation and hormones",
+      "lesson": {
+        "title": "A motive for the species",
+        "minutes": 9,
+        "hook": "Skip a meal and you will die eventually. Skip sex and you won't. So why do psychologists list sexual motivation alongside hunger and thirst as a primary motive?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Survival of the species",
+            "body": "Hunger and thirst are **primary motives** needed for the survival of the **individual**. **Sexual motivation** is also a primary motive, but it is essential for the survival of the **species**.\n\nWithout it, humans and animals that reproduce sexually would soon die out. It is driven by the **hypothalamus**, **external stimuli**, **learning**, **emotions** and **hormones**."
+          },
+          {
+            "kind": "compare",
+            "heading": "Individual versus species",
+            "left": {
+              "title": "Hunger and thirst",
+              "points": [
+                "Primary motives",
+                "Needed for the individual's survival",
+                "Deprivation is fatal"
+              ]
+            },
+            "right": {
+              "title": "Sexual motivation",
+              "points": [
+                "Primary motive",
+                "Needed for the species' survival",
+                "Individual can survive without it"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Hypothalamic control",
+            "body": "Like hunger and thirst, sexual motivation is controlled by the **hypothalamus**. If it is surgically destroyed in animals, sexual behaviour is **not initiated**, even with strong sexual stimuli.\n\nOne part of the hypothalamus **inhibits** sexual behaviour: destroy it in laboratory animals and they show **unrestrained** sexual activity. The hypothalamus also influences female sexuality indirectly through the **menstrual cycle**.",
+            "visual": {
+              "type": "brain",
+              "region": "hypothalamus",
+              "label": "Starts and brakes"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Destroying the part of the hypothalamus that inhibits sexual behaviour in laboratory animals leads to:",
+            "options": [
+              "No sexual behaviour",
+              "Sleep disorders",
+              "Increased hunger only",
+              "Unrestrained sexual behaviour"
+            ],
+            "answerIndex": 3,
+            "why": "Removing the brake produces excessive sexual behaviour; destroying the initiating areas abolishes it."
+          },
+          {
+            "kind": "teach",
+            "heading": "External stimuli",
+            "body": "Just as the sight and smell of food can trigger hunger, sexual motivation is highly sensitive to **external stimuli**: an attractive partner, romantic fantasies, images.\n\nThe **Coolidge effect**, seen in many animal species, is renewed sexual interest after mating when a **new** receptive partner is introduced, showing how novelty acts as a stimulus. (Some course notes describe it with the same partner; the standard definition involves a new one.)",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "External cue",
+                "Arousal",
+                "Motivation"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Learning and emotion",
+            "body": "**Learning** shapes sexuality: the huge variety of sexual behaviour within and between societies, across history, shows culture and experience at work.\n\n**Emotions** matter too. **Stress, anxiety and depression** bring **sympathetic** arousal, while sexual arousal depends on **parasympathetic** activity, which opposes it. So these emotions usually **reduce** sexual motivation, though anxiety or depression occasionally increase it.",
+            "visual": {
+              "type": "scale",
+              "left": "Sympathetic (stress)",
+              "right": "Parasympathetic (arousal)",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Stress usually reduces sexual motivation because:",
+            "options": [
+              "It raises growth hormone",
+              "It destroys the hypothalamus",
+              "Sympathetic arousal opposes the parasympathetic activity that sexual arousal needs",
+              "It improves learning"
+            ],
+            "answerIndex": 2,
+            "why": "Sexual arousal relies on parasympathetic activity, which stress-driven sympathetic arousal works against."
+          },
+          {
+            "kind": "teach",
+            "heading": "Hormones",
+            "body": "In many animals, **hormones** strongly regulate sexual motivation. Female cats, dogs and rats are receptive mainly when **ovulating** ('in heat'). **Males** are generally less tied to hormonal cycles.\n\nIn humans, hormones and sexuality are linked but less rigidly. Brecher and Brecher (1979) found that men's **testosterone** levels rose significantly while they were sexually aroused.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "pulse",
+                  "label": "Hormones"
+                },
+                {
+                  "icon": "time",
+                  "label": "Cycles in animals"
+                },
+                {
+                  "icon": "person",
+                  "label": "Less rigid in humans"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Exam season",
+            "story": "During final exams, a married postgraduate student notices his interest in intimacy has almost vanished. After the exams, with rest and less worry, it returns. His doctor explains that prolonged stress keeps the body in 'fight or flight' mode, which works against sexual arousal.",
+            "takeaway": "Emotional states such as stress shift autonomic balance and usually lower sexual motivation."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'state the similarities between sexual motivation and other primary motives'. List the four: hypothalamic control, external stimuli, learning, emotion; then add hormones. The key difference: hunger and thirst serve the individual, sex serves the species. Trap: confusing which nervous system branch supports sexual arousal (parasympathetic).",
+            "sampleQuestion": "Which of the following is NOT a way sexual motivation resembles hunger and thirst? (a) hypothalamic control (b) sensitivity to external stimuli (c) influence of learning (d) necessity for the individual's survival",
+            "howToAnswer": "Answer (d): sex is necessary for the species, not the individual. Then explain the four real similarities.",
+            "scholars": [
+              "Brecher & Brecher (1979)",
+              "Masters & Johnson (1966)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Sexual motivation is a primary motive for the survival of the species.",
+              "Like hunger: hypothalamic control, external stimuli, learning, emotion.",
+              "The hypothalamus both starts and inhibits sexual behaviour.",
+              "Stress (sympathetic) opposes sexual arousal (parasympathetic).",
+              "Hormones strongly drive animals; in humans testosterone rises with arousal."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Sexual motivation is essential mainly for the survival of the:",
+          "options": [
+            "Individual",
+            "Species",
+            "Brain",
+            "Hypothalamus"
+          ],
+          "answerIndex": 1,
+          "explanation": "Hunger and thirst keep the individual alive; sex keeps the species going."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which brain structure controls sexual motivation as well as hunger and thirst?",
+          "options": [
+            "Cerebellum",
+            "Occipital lobe",
+            "Hypothalamus",
+            "Pons"
+          ],
+          "answerIndex": 2,
+          "explanation": "The hypothalamus regulates these primary motives."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Sexual arousal is mainly mediated by which branch of the autonomic nervous system?",
+          "options": [
+            "Parasympathetic",
+            "Sympathetic",
+            "Somatic",
+            "Central"
+          ],
+          "answerIndex": 0,
+          "explanation": "Parasympathetic activity supports arousal; sympathetic activity opposes it."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Surgically destroying the hypothalamic areas that initiate sexual behaviour in animals results in:",
+          "options": [
+            "Unrestrained sexual behaviour",
+            "No change",
+            "Increased hunger",
+            "No initiation of sexual behaviour even with stimuli"
+          ],
+          "answerIndex": 3,
+          "explanation": "Without these areas, sexual behaviour does not begin."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Female cats, dogs and rats are most sexually receptive when:",
+          "options": [
+            "Asleep",
+            "Ovulating (in heat)",
+            "Hungry",
+            "Stressed"
+          ],
+          "answerIndex": 1,
+          "explanation": "Hormonal cycles tied to ovulation control receptivity in these animals."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Brecher and Brecher (1979) found that when men viewed erotic films, their:",
+          "options": [
+            "Cortisol fell",
+            "Heart rate stopped",
+            "Melatonin rose",
+            "Testosterone rose significantly"
+          ],
+          "answerIndex": 3,
+          "explanation": "Sexual arousal was accompanied by higher testosterone."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Sexual practices vary widely between Nigerian cultures and across eras. This mainly shows the role of:",
+          "options": [
+            "Hormones",
+            "Learning",
+            "The cerebellum",
+            "Genes alone"
+          ],
+          "answerIndex": 1,
+          "explanation": "Cultural and historical variety points to learning and experience."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A man who has lost interest in sex during months of job insecurity regains it after finding work. The best explanation is:",
+          "options": [
+            "His hypothalamus was removed",
+            "Stress-related sympathetic arousal reduced sexual motivation",
+            "Testosterone always falls with employment",
+            "The Coolidge effect"
+          ],
+          "answerIndex": 1,
+          "explanation": "Chronic stress opposes the parasympathetic state needed for arousal."
+        },
+        {
+          "difficulty": 3,
+          "stem": "In many animal species, a male's sexual interest returns after mating when a new receptive female is introduced. This is called the:",
+          "options": [
+            "Refractory effect",
+            "Hypnagogic effect",
+            "Coolidge effect",
+            "Primacy effect"
+          ],
+          "answerIndex": 2,
+          "explanation": "The Coolidge effect describes renewed interest triggered by a novel partner."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are similarities between sexual motivation and hunger EXCEPT:",
+          "options": [
+            "Necessity for the individual's survival",
+            "Sensitivity to external stimuli",
+            "Influence of learning",
+            "Hypothalamic control"
+          ],
+          "answerIndex": 0,
+          "explanation": "Unlike hunger, sex is not needed for the individual to survive."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Compared with females in many animal species, males' sexual behaviour is:",
+          "options": [
+            "Less influenced by hormonal cycles",
+            "More tied to hormonal cycles",
+            "Not influenced by the hypothalamus",
+            "Only learned"
+          ],
+          "answerIndex": 0,
+          "explanation": "Male animals are generally less bound to cyclical hormonal changes."
+        },
+        {
+          "difficulty": 4,
+          "stem": "The hypothalamus influences female sexuality indirectly through:",
+          "options": [
+            "The menstrual cycle",
+            "Sleep apnoea",
+            "The cerebellum",
+            "Colour vision"
+          ],
+          "answerIndex": 0,
+          "explanation": "Its control of reproductive hormones shapes the menstrual cycle."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. The hypothalamus contains areas that both initiate and inhibit sexual behaviour. II. Anxiety always reduces sexual motivation. III. Human sexuality is shaped by learning as well as biology. Which are correct?",
+          "options": [
+            "I and II only",
+            "I, II and III",
+            "II and III only",
+            "I and III only"
+          ],
+          "answerIndex": 3,
+          "explanation": "I and III are correct. Anxiety usually reduces motivation but sometimes increases it, so 'always' is wrong."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Why is the human link between hormones and sexual behaviour described as less rigid than in many animals?",
+          "options": [
+            "Humans have no sex hormones",
+            "Humans are only driven by hormones",
+            "Learning, emotion and culture strongly shape human sexuality alongside hormones",
+            "Human hormones do not change"
+          ],
+          "answerIndex": 2,
+          "explanation": "Hormones matter in humans, but cognition, learning and culture play much larger roles."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A researcher lesions an animal's hypothalamus and finds it eats normally but shows no sexual behaviour. This most directly supports:",
+          "options": [
+            "Sex is purely learned",
+            "The cerebellum controls sex",
+            "Separate hypothalamic areas control different primary motives",
+            "Hunger and sex are identical"
+          ],
+          "answerIndex": 2,
+          "explanation": "Different hypothalamic regions can be damaged selectively, affecting one motive but not another."
+        }
+      ]
+    },
+    {
+      "name": "Atypical and forced sexual behaviour",
+      "lesson": {
+        "title": "Variation, harm and consent",
+        "minutes": 10,
+        "hook": "Where should psychology draw the line between sexual behaviour that is simply unusual and behaviour that is harmful? The answer turns on two words: distress and consent.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Unusual is not the same as abnormal",
+            "body": "People differ widely in sexual preferences and practices. Your course treats many practices as **abnormal only if** the people involved find them distressing or abnormal **for themselves**.\n\nModern clinical practice (DSM-5) makes a similar distinction: an unusual interest becomes a **disorder** only when it causes **distress** or **harm**, or involves people who have **not consented**.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Unusual",
+              "right": "Harmful or non-consensual",
+              "marker": 50,
+              "label": "Where concern begins"
+            }
+          },
+          {
+            "kind": "terms",
+            "heading": "Atypical practices",
+            "terms": [
+              {
+                "term": "Transvestism",
+                "meaning": "Dressing in clothes of the other sex, often for arousal or to escape gender stereotypes"
+              },
+              {
+                "term": "Fetishism",
+                "meaning": "Arousal mainly or only from specific objects, such as shoes or underwear"
+              },
+              {
+                "term": "Sadism and masochism",
+                "meaning": "Pleasure from inflicting (sadism) or receiving (masochism) pain, usually with consenting partners"
+              },
+              {
+                "term": "Voyeurism",
+                "meaning": "Arousal from secretly watching unaware people undress or have sex"
+              },
+              {
+                "term": "Exhibitionism",
+                "meaning": "Arousal from exposing one's genitals to unsuspecting others"
+              }
+            ]
+          },
+          {
+            "kind": "teach",
+            "heading": "Transsexualism and gender dysphoria",
+            "body": "Your course describes **transsexualism** as feeling **trapped in a body of the wrong sex**: for example, someone anatomically male who feels he is a woman. Unlike transvestism, cross-dressing here is **not about arousal**; the person feels they are wearing the clothes of their **true sex**. Some undergo hormone treatment or surgery.\n\nToday's clinical term is **gender dysphoria**, which focuses on the **distress** caused by the mismatch.",
+            "visual": {
+              "type": "venn",
+              "left": "Body",
+              "right": "Felt gender",
+              "both": "Mismatch"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "What mainly distinguishes transsexualism from transvestism, as described in the course?",
+            "options": [
+              "For transsexuals, cross-dressing reflects felt gender, not sexual arousal",
+              "Transsexuals never change clothes",
+              "Transvestites feel trapped in the wrong body",
+              "There is no difference"
+            ],
+            "answerIndex": 0,
+            "why": "Transvestism is often linked to arousal; transsexualism concerns feeling one's true sex differs from one's body."
+          },
+          {
+            "kind": "teach",
+            "heading": "Why voyeurism and exhibitionism are abnormal",
+            "body": "**Voyeurs** are aroused only when those watched are **unaware**, often with an element of **danger**. They are usually males who struggle to form normal sexual relationships. **Exhibitionists**, often shy men with inhibited sex lives, want to **shock** but are rarely dangerous.\n\nBoth are treated as abnormal because they **frighten victims** who have **not consented**, and both are **illegal**.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "eye",
+                  "label": "No consent"
+                },
+                {
+                  "icon": "warning",
+                  "label": "Victim frightened"
+                },
+                {
+                  "icon": "scale",
+                  "label": "Illegal"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Forced sexual behaviour",
+            "body": "**Forced sexual behaviour** involves **actual, threatened or implied force** against a victim. It includes **rape**, **sexual abuse of children**, **incest** and **sexual harassment**.\n\nAfter **rape**, victims often feel their whole life has changed, with intense **anxiety**, **depression**, and disturbed **sleep, relationships** and daily functioning. Most rapists are male and most victims female, though not always.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "No consent",
+                "Force or threat",
+                "Serious harm"
+              ]
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Forms of child sexual abuse",
+            "left": {
+              "title": "Defined by relationship",
+              "points": [
+                "Incest: abuser is a family member",
+                "Most abusers know the child",
+                "Often neighbours or relatives"
+              ]
+            },
+            "right": {
+              "title": "Defined by force",
+              "points": [
+                "Child rape: force or threat used",
+                "Child molestation: no force",
+                "Abusers often win trust first"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Sexual harassment",
+            "body": "**Sexual harassment** includes **sexual approaches the person does not want**, **demands for sex in exchange for favours** (such as grades or jobs), and **touching without consent**. It usually happens between people with **unequal power**, such as lecturer and student, or boss and worker.\n\nBecause of that power gap, most cases **go unreported**. Victims become uneasy at school or work and may develop serious **anxiety and depression**. In Nigeria, the VAPP Act (2015) and university policies provide routes to report it.",
+            "visual": {
+              "type": "scale",
+              "left": "Powerful harasser",
+              "right": "Victim",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Speaking up",
+            "story": "A 200-level student, Ruth, is told by a course adviser that her missing result can be 'sorted' if she visits his house. She refuses, saves the messages and reports to the university's gender desk with a friend. The investigation finds other students had faced the same demand but stayed silent, fearing their grades.",
+            "takeaway": "Power imbalance keeps most harassment hidden; evidence, support and formal reporting channels help victims come forward."
+          },
+          {
+            "kind": "check",
+            "question": "Most incidents of sexual harassment go unreported mainly because of:",
+            "options": [
+              "Lack of interest",
+              "Victims not being affected",
+              "Harassment being legal",
+              "The power imbalance between harasser and victim"
+            ],
+            "answerIndex": 3,
+            "why": "Victims fear consequences from someone with power over their grades, job or safety."
+          },
+          {
+            "kind": "teach",
+            "heading": "Sexually transmitted infections",
+            "body": "**Sexually transmitted infections (STIs)** are caused by micro-organisms spread through sexual contact. Common ones include **syphilis, gonorrhoea, chlamydia, genital herpes, genital warts** and **HIV**, which can lead to **AIDS**.\n\nSome are easily cured if caught early; others are incurable. Untreated STIs can cause **infertility** and endanger **pregnant women and babies**. Risk rises sharply with **unsafe sex**, so all STIs need prompt medical care.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "medkit",
+                  "label": "Early treatment"
+                },
+                {
+                  "icon": "shield",
+                  "label": "Safer sex"
+                },
+                {
+                  "icon": "warning",
+                  "label": "Untreated risks"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'explain five forms of unusual sexual behaviour' and 'when does sexual behaviour become forced?'. Define each clearly and give the key feature: objects (fetishism), pain (sadism/masochism), unaware targets (voyeurism), exposing (exhibitionism). Forced behaviour always turns on consent. Use clinical language in answers.",
+            "sampleQuestion": "Mention three forms of forced sexual behaviour and explain when sexual behaviour becomes forced.",
+            "howToAnswer": "Name rape, child sexual abuse (including incest) and sexual harassment. Explain that behaviour is forced when it involves actual, threatened or implied force, or lacks the victim's consent, and note the psychological effects.",
+            "scholars": [
+              "DSM-5 (APA, 2013)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Unusual practices become disorders when they cause distress, harm or lack consent.",
+              "Atypical: transvestism, fetishism, sadism/masochism, voyeurism, exhibitionism.",
+              "Transsexualism, now gender dysphoria, concerns felt gender, not arousal.",
+              "Forced: rape, child sexual abuse, incest, harassment; consent is the key.",
+              "STIs: some curable, some not; untreated, they threaten fertility and babies."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Sexual arousal mainly from specific objects such as shoes is called:",
+          "options": [
+            "Voyeurism",
+            "Fetishism",
+            "Exhibitionism",
+            "Transvestism"
+          ],
+          "answerIndex": 1,
+          "explanation": "Fetishism centres arousal on objects."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Gaining sexual pleasure from secretly watching unaware people undress is:",
+          "options": [
+            "Exhibitionism",
+            "Masochism",
+            "Voyeurism",
+            "Fetishism"
+          ],
+          "answerIndex": 2,
+          "explanation": "Voyeurism involves watching people who do not know they are observed."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Sexual abuse of a child by a family member is termed:",
+          "options": [
+            "Harassment",
+            "Fetishism",
+            "Exhibitionism",
+            "Incest"
+          ],
+          "answerIndex": 3,
+          "explanation": "Incest is sexual contact by a family member."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Sexual masochism refers to:",
+          "options": [
+            "Pleasure from inflicting pain",
+            "Pleasure from receiving pain",
+            "Arousal from objects",
+            "Exposing oneself"
+          ],
+          "answerIndex": 1,
+          "explanation": "Masochism is arousal from receiving pain; sadism is from inflicting it."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Sexual harassment most often occurs between people who:",
+          "options": [
+            "Have different levels of power",
+            "Are strangers of equal status",
+            "Are married",
+            "Are children"
+          ],
+          "answerIndex": 0,
+          "explanation": "Power imbalance, at school or work, is typical."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which of the following is a sexually transmitted infection?",
+          "options": [
+            "Malaria",
+            "Cholera",
+            "Typhoid",
+            "Gonorrhoea"
+          ],
+          "answerIndex": 3,
+          "explanation": "Gonorrhoea spreads through sexual contact."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A man repeatedly exposes his genitals to women at a bus stop to shock them. This is:",
+          "options": [
+            "Voyeurism",
+            "Exhibitionism",
+            "Fetishism",
+            "Transvestism"
+          ],
+          "answerIndex": 1,
+          "explanation": "Exposing oneself to unsuspecting others is exhibitionism."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A lecturer hints that a student's grade depends on a 'favour' and touches her without consent. This is:",
+          "options": [
+            "Fetishism",
+            "Transsexualism",
+            "Sexual harassment",
+            "Exhibitionism"
+          ],
+          "answerIndex": 2,
+          "explanation": "Unwanted advances and touching by someone with power is harassment."
+        },
+        {
+          "difficulty": 3,
+          "stem": "An adult abuses a child without using force, after first gaining the child's trust. This is best termed:",
+          "options": [
+            "Child rape",
+            "Masochism",
+            "Voyeurism",
+            "Child molestation"
+          ],
+          "answerIndex": 3,
+          "explanation": "Abuse without force or threat of force is described as child molestation; with force it is child rape."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which feature makes voyeurism abnormal in the course's view?",
+          "options": [
+            "It frightens unaware victims and is illegal",
+            "It involves consenting partners",
+            "It is common in women",
+            "It involves objects"
+          ],
+          "answerIndex": 0,
+          "explanation": "Lack of consent, fear caused to victims and illegality mark it as abnormal."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are forms of forced sexual behaviour EXCEPT:",
+          "options": [
+            "Consensual fetishism between adults",
+            "Child sexual abuse",
+            "Sexual harassment",
+            "Rape"
+          ],
+          "answerIndex": 0,
+          "explanation": "Consensual adult practices do not involve force."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Why are child abusers often hard to detect?",
+          "options": [
+            "They are usually strangers",
+            "They always use force",
+            "They are often known to the child and first gain trust",
+            "They only target adults"
+          ],
+          "answerIndex": 2,
+          "explanation": "Most abusers are neighbours or relatives who build trust before abusing."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Untreated STIs can cause infertility. II. All STIs are easily curable. III. Risk of STIs rises with unsafe sex. Which are correct?",
+          "options": [
+            "I and III only",
+            "I and II only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 0,
+          "explanation": "I and III are correct. Some STIs, such as HIV, are incurable."
+        },
+        {
+          "difficulty": 5,
+          "stem": "What single principle best separates acceptable sexual variation from forced sexual behaviour?",
+          "options": [
+            "Frequency",
+            "Age of the partners only",
+            "Consent",
+            "Whether objects are involved"
+          ],
+          "answerIndex": 2,
+          "explanation": "Forced behaviour lacks consent and involves actual, threatened or implied force."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A rape survivor reports months of sleeplessness, fear and withdrawal from friends. These reactions are best described as:",
+          "options": [
+            "Unusual and unrelated to the assault",
+            "Common psychological after-effects of rape",
+            "Signs of fetishism",
+            "Caused by STIs only"
+          ],
+          "answerIndex": 1,
+          "explanation": "Anxiety, depression, sleep and relationship problems commonly follow rape."
+        }
+      ]
+    }
+  ]
+}

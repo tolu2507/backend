@@ -1,0 +1,707 @@
+{
+  "unit": 10,
+  "title": "Social Constructivism",
+  "summary": "How constructivists explain world politics through ideas, identities, norms and rules, and why Wendt says anarchy is what states make of it.",
+  "sections": [
+    {
+      "name": "Ideas, identities and rules",
+      "lesson": {
+        "title": "A world made of ideas",
+        "minutes": 10,
+        "hook": "Britain has hundreds of nuclear warheads; North Korea has a few dozen. Yet Washington worries far more about North Korea. If weapons alone decided threat, this would make no sense.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Social, not material",
+            "body": "**Social constructivism** (or simply constructivism) is a major IR theory. Realism explains state behaviour by the **distribution of material power**: armies, economies, balances of power. Constructivism says the most important part of international relations is **social**, not material.\n\nIt takes an **ideational** view: the international system is made up of **ideas**, beliefs and **shared understandings**, not just physical forces.",
+            "visual": {
+              "type": "scale",
+              "left": "Ideas and meanings",
+              "right": "Material power",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Reality is always under construction",
+            "body": "For constructivists, the world, and what we can know of it, is **socially constructed**. Meanings are **not fixed**: they shift as actors' ideas and beliefs change.\n\nThis opens the door to **change**. If enmity is built from ideas, it can be rebuilt. France and Germany fought three wars in 70 years; today, war between them is unthinkable. Their weapons did not vanish; their ideas about each other changed.",
+            "visual": {
+              "type": "cycle",
+              "nodes": [
+                "Shared ideas",
+                "Actions",
+                "New meanings",
+                "Changed ideas"
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Weapons and meaning",
+            "story": "Alexander Wendt pointed out that 500 British nuclear weapons are less threatening to the United States than five North Korean ones. The difference is not in the metal but in the relationship: Britain is understood as a friend and ally, North Korea as a hostile adversary.",
+            "takeaway": "The meaning actors give to material power, not the power itself, shapes how threatening it is."
+          },
+          {
+            "kind": "check",
+            "question": "Constructivists argue the international system is made up mainly of:",
+            "options": [
+              "Material forces such as armies and wealth",
+              "Ideas, beliefs and shared understandings",
+              "Geography alone",
+              "Fixed human nature"
+            ],
+            "answerIndex": 1,
+            "why": "Constructivism is ideational. Material forces matter only through the meanings actors give them."
+          },
+          {
+            "kind": "teach",
+            "heading": "Identities shape interests",
+            "body": "Constructivists stress **identities and interests**. States can have **multiple identities**, built through **interaction** with others. An identity is an actor's understanding of **who it is**, and that signals **what it wants**.\n\nA **small state's** identity points to survival; a **great power's** identity points to shaping world affairs. Identity comes **first**; interests and actions follow from it.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Interaction",
+                "Identity",
+                "Interests",
+                "Actions"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Acting in line with identity",
+            "body": "A state's actions must fit its identity. Acting **against** it would call the identity, and its preferences, into question.\n\nThis helps explain why **Germany**, a great power with a leading economy, did **not** become a major military power in the late twentieth century: its post-war identity was built around peace and restraint. Likewise, Nigeria's self-image as the '**giant of Africa**' helped drive its leading role in ECOMOG peacekeeping in Liberia and Sierra Leone in the 1990s.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "flag",
+                  "label": "Identity"
+                },
+                {
+                  "icon": "shield",
+                  "label": "Restraint or lead"
+                },
+                {
+                  "icon": "checkmark-circle",
+                  "label": "Consistent action"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Why, according to constructivists, did post-war Germany not become a major military power despite its economic strength?",
+            "options": [
+              "It could not afford weapons",
+              "Realist balance of power prevented it",
+              "Its identity was built around peace and restraint",
+              "It had no army at all"
+            ],
+            "answerIndex": 2,
+            "why": "Constructivists argue states act consistently with their identity; Germany's post-war identity discouraged militarism."
+          },
+          {
+            "kind": "teach",
+            "heading": "Onuf: rules and practices",
+            "body": "**Nicholas Onuf** (1989) introduced and **named** constructivism in IR. Other founders include **Friedrich Kratochwil**, **John Ruggie** and **Raymond Duvall**, while **Alexander Wendt** became its best-known voice.\n\nFor Onuf, **rules** are central: they tell people what to do. The way rules are carried out are **practices**, and by watching practices we can discover the rules. Accepted rules backed by law form **institutions and regimes**, which define '**appropriate behaviour**' and sanction those who stray.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Rules",
+                "Practices",
+                "Institutions",
+                "Appropriate behaviour"
+              ]
+            }
+          },
+          {
+            "kind": "terms",
+            "heading": "Key terms",
+            "terms": [
+              {
+                "term": "Ideational",
+                "meaning": "Explaining the world through ideas, beliefs and meanings"
+              },
+              {
+                "term": "Identity",
+                "meaning": "An actor's understanding of who it is, which signals its interests"
+              },
+              {
+                "term": "Rules",
+                "meaning": "Statements of what actors should do (Onuf)"
+              },
+              {
+                "term": "Practices",
+                "meaning": "The ways rules are carried out in behaviour"
+              },
+              {
+                "term": "Norms",
+                "meaning": "Shared expectations about appropriate behaviour"
+              }
+            ]
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "'What is the difference between constructivism and realism?' is a classic. Contrast material versus ideational, fixed versus changeable reality, given versus constructed interests. Objectives test who coined the term (Onuf, 1989) versus who is best known (Wendt). Trap: picking Wendt as the coiner.",
+            "sampleQuestion": "The term 'constructivism' was introduced into IR by: (a) Alexander Wendt (b) Nicholas Onuf (c) John Ruggie (d) Kenneth Waltz",
+            "howToAnswer": "Answer (b): Onuf in 1989. Wendt is the best-known advocate, especially for 'Anarchy is what states make of it' (1992).",
+            "scholars": [
+              "Onuf (1989)",
+              "Wendt (1992)",
+              "Kratochwil",
+              "Ruggie"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Constructivism stresses the social and ideational, not the material.",
+              "Reality is socially constructed and can change.",
+              "Identities, built through interaction, shape interests and actions.",
+              "States act in line with their identity (post-war Germany, 'giant of Africa').",
+              "Onuf (1989) coined the term; rules and practices form institutions."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Social constructivism focuses mainly on the:",
+          "options": [
+            "Material aspects of IR",
+            "Economic class struggle",
+            "Social and ideational aspects of IR",
+            "Military balance only"
+          ],
+          "answerIndex": 2,
+          "explanation": "Constructivism stresses ideas, norms and identities over material power."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Who coined the term 'constructivism' in international relations?",
+          "options": [
+            "Nicholas Onuf",
+            "Alexander Wendt",
+            "Hans Morgenthau",
+            "Karl Marx"
+          ],
+          "answerIndex": 0,
+          "explanation": "Nicholas Onuf introduced the term in 1989; Wendt is its best-known advocate."
+        },
+        {
+          "difficulty": 1,
+          "stem": "For constructivists, identities:",
+          "options": [
+            "Are fixed by nature",
+            "Are socially constructed through interaction",
+            "Do not matter",
+            "Are decided by geography"
+          ],
+          "answerIndex": 1,
+          "explanation": "Identities are built through interaction with other actors."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Constructivists see the relationship between identity and interests as:",
+          "options": [
+            "Interests come first and shape identity",
+            "Both are fixed",
+            "They are unrelated",
+            "Identity shapes interests and actions"
+          ],
+          "answerIndex": 3,
+          "explanation": "Who a state thinks it is signals what it wants and how it acts."
+        },
+        {
+          "difficulty": 2,
+          "stem": "According to Onuf, the ways in which rules are carried out are called:",
+          "options": [
+            "Norms",
+            "Practices",
+            "Regimes",
+            "Identities"
+          ],
+          "answerIndex": 1,
+          "explanation": "Practices are how rules are executed; observing practices reveals the rules."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Constructivists say reality is 'always under construction'. This means:",
+          "options": [
+            "Meanings can change as actors' ideas change",
+            "Reality never changes",
+            "Only buildings matter",
+            "Material power is fixed"
+          ],
+          "answerIndex": 0,
+          "explanation": "Because meanings rest on ideas, they can shift, opening the prospect of change."
+        },
+        {
+          "difficulty": 3,
+          "stem": "The USA feels more threatened by a few North Korean nuclear weapons than by many British ones. A constructivist explains this by:",
+          "options": [
+            "The number of weapons",
+            "Geographic distance alone",
+            "The meaning given to each relationship: friend versus enemy",
+            "Economic size"
+          ],
+          "answerIndex": 2,
+          "explanation": "Shared understandings of friendship or enmity give material power its meaning."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Nigeria's view of itself as 'the giant of Africa' leads it to fund and lead regional peacekeeping. This illustrates:",
+          "options": [
+            "Class struggle",
+            "Pure balance-of-power logic",
+            "Identity shaping interests and actions",
+            "Absolute gains"
+          ],
+          "answerIndex": 2,
+          "explanation": "A leadership identity implies interests and actions consistent with that role."
+        },
+        {
+          "difficulty": 3,
+          "stem": "France and Germany, once repeated enemies, now treat war between them as unthinkable though both remain armed. Constructivists would credit this to:",
+          "options": [
+            "Disarmament",
+            "Changed shared ideas and identities",
+            "A world government",
+            "Nuclear deterrence alone"
+          ],
+          "answerIndex": 1,
+          "explanation": "Their weapons remain; their mutual understandings changed, transforming the relationship."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which of the following is NOT one of the founding figures of constructivism in IR?",
+          "options": [
+            "Kenneth Waltz",
+            "John Ruggie",
+            "Raymond Duvall",
+            "Friedrich Kratochwil"
+          ],
+          "answerIndex": 0,
+          "explanation": "Waltz founded neo-realism, which constructivists criticise."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Why would a state avoid acting against its own identity, according to constructivists?",
+          "options": [
+            "It would lose money",
+            "Its army would refuse",
+            "International law forbids it",
+            "It would call the identity and its preferences into question"
+          ],
+          "answerIndex": 3,
+          "explanation": "Actions inconsistent with identity undermine the identity's validity."
+        },
+        {
+          "difficulty": 4,
+          "stem": "For Onuf, institutions and regimes are formed when:",
+          "options": [
+            "Armies are built",
+            "Classes revolt",
+            "Markets expand",
+            "Accepted rules and practices are backed by law"
+          ],
+          "answerIndex": 3,
+          "explanation": "Rules and practices accepted by people and backed by law become institutions and regimes that define appropriate behaviour."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Constructivists deny that material power exists. II. Constructivists argue that material power gets its meaning from ideas. III. States can hold multiple identities. Which are correct?",
+          "options": [
+            "I and II only",
+            "I and III only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 2,
+          "explanation": "II and III are correct. I is wrong: constructivists accept material power but say its meaning is social."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A realist says Germany's restraint after 1945 was simply forced by occupying powers. A constructivist would reply that:",
+          "options": [
+            "Germany was weak",
+            "Restraint continued long after constraints eased because it became part of Germany's identity",
+            "Occupation never happened",
+            "Material power fully explains it"
+          ],
+          "answerIndex": 1,
+          "explanation": "Constructivists point to restraint persisting after the original constraints faded, suggesting an internalised identity."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which statement best captures the difference between constructivism and realism?",
+          "options": [
+            "Constructivism sees interests as constructed by ideas; realism sees them as given by the material structure and human nature",
+            "Realism sees interests as constructed; constructivism sees them as given",
+            "Both reject the role of ideas",
+            "Both focus mainly on class"
+          ],
+          "answerIndex": 0,
+          "explanation": "Realism takes interests (survival, power) as given; constructivism asks how they are socially built."
+        }
+      ]
+    },
+    {
+      "name": "Wendt and the cultures of anarchy",
+      "lesson": {
+        "title": "Anarchy is what states make of it",
+        "minutes": 10,
+        "hook": "Two states with no world government above them can be deadly enemies, wary rivals or close friends. Same anarchy, three very different worlds. Who decides which one we get?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Wendt's famous article",
+            "body": "In 1992, **Alexander Wendt** published a famous article titled '**Anarchy is What States Make of It**' in the journal *International Organization*. It took aim at a flaw he saw in both **neo-realism** and **liberal institutionalism**: a crude **materialism**.\n\nHe argued that even **power politics** is a social creation, not a fact of nature, and so it **can be transformed**. He built this out in *Social Theory of International Politics* (1999).",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "1992 article",
+                "Power politics is social",
+                "1999 book"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Wendt's two core claims",
+            "body": "Wendt sums up constructivism in two claims.\n\nFirst, the **structures** that bind people and states together rest mainly on **shared ideas**, not on material forces.\n\nSecond, the **identities and interests** of actors are **built by those shared ideas**; nature does not hand them down ready-made. Realism, by contrast, starts from a flawed human nature and a fixed struggle to survive.",
+            "visual": {
+              "type": "venn",
+              "left": "Shared ideas",
+              "right": "Identities and interests",
+              "both": "Constructed world"
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Realism versus constructivism on anarchy",
+            "left": {
+              "title": "Realism",
+              "points": [
+                "Human nature is flawed",
+                "Anarchy forces a struggle to survive",
+                "Anarchy is a fixed feature"
+              ]
+            },
+            "right": {
+              "title": "Constructivism",
+              "points": [
+                "Relations are built by people",
+                "Anarchy's meaning depends on interaction",
+                "Anarchy can be transformed"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Wendt's phrase 'anarchy is what states make of it' means that:",
+            "options": [
+              "Anarchy does not exist",
+              "Anarchy always produces war",
+              "States must abolish anarchy",
+              "The effects of anarchy depend on how states interpret and practise it"
+            ],
+            "answerIndex": 3,
+            "why": "Anarchy has no fixed logic; its meaning is made through states' interactions."
+          },
+          {
+            "kind": "teach",
+            "heading": "Cultures of anarchy",
+            "body": "Wendt describes different **cultures of anarchy**. In a **Hobbesian** anarchy, states see each other as **enemies** in a life-or-death struggle, so the system is marked by **war**. In a **Lockean** anarchy, states are **rivals** who compete but accept each other's survival, so the system is **more peaceful**.\n\nIn his 1999 book he added a **Kantian** culture, where states are **friends** who settle disputes without force.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Hobbesian: enemies",
+              "right": "Kantian: friends",
+              "marker": 50,
+              "label": "Lockean: rivals"
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "West Africa's changing culture",
+            "story": "In the 1990s, wars in Liberia and Sierra Leone spilled across borders and neighbours eyed each other with suspicion. Over time, ECOWAS norms against coups, regular summits and shared peacekeeping built more trust. States still have armies, but most now expect disputes to be handled through talks rather than invasion.",
+            "takeaway": "Interaction can shift a region's culture of anarchy towards the Lockean or Kantian end without removing anyone's weapons."
+          },
+          {
+            "kind": "teach",
+            "heading": "Arms races are not inevitable",
+            "body": "For Wendt, material power and state interests are formed by **ideas and social interaction**. States in anarchy may hold weapons that others could see as threatening, but **enmity and arms races are not inevitable**.\n\nSocial interaction can produce **friendlier cultures** of anarchy. Constructivists also claim their focus on ideas explains **change** better, such as the peaceful end of the Cold War and the Soviet Union's breakup.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Interaction",
+                "Trust or fear",
+                "Friend or enemy"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Norms that change: R2P",
+            "body": "Constructivists point to the **Responsibility to Protect (R2P)**, endorsed by world leaders in 2005. It holds that the international community must act to stop **genocide, war crimes, ethnic cleansing and crimes against humanity**.\n\nSince the 1990s, R2P has gained ground at the expense of the older norm of **non-intervention**. A purely material, power-balancing view struggles to explain such a shift in shared expectations.",
+            "visual": {
+              "type": "scale",
+              "left": "Protect civilians",
+              "right": "Non-intervention",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "In Wendt's terms, a system where states see each other as enemies in a life-or-death struggle is a:",
+            "options": [
+              "Kantian anarchy",
+              "Lockean anarchy",
+              "Hobbesian anarchy",
+              "Security community"
+            ],
+            "answerIndex": 2,
+            "why": "Hobbesian anarchy is the culture of enmity and war. Lockean is rivalry; Kantian is friendship."
+          },
+          {
+            "kind": "steps",
+            "heading": "Six assumptions of constructivism",
+            "steps": [
+              {
+                "title": "Structure and agency",
+                "detail": "They study how structures and actors shape each other."
+              },
+              {
+                "title": "Ideas, norms, institutions",
+                "detail": "These are central to explaining behaviour."
+              },
+              {
+                "title": "Process over structure",
+                "detail": "How states interact, not structure alone, decides their relations."
+              },
+              {
+                "title": "Identity and culture",
+                "detail": "Both matter in international politics."
+              },
+              {
+                "title": "Constructed interests",
+                "detail": "Interests are real but must be explained, not assumed."
+              },
+              {
+                "title": "Multiple identities",
+                "detail": "States hold several identities built through interaction."
+              }
+            ]
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'explain two assumptions of constructivism' and Wendt's two core claims. Objectives test Hobbesian versus Lockean anarchy and the title and year of Wendt's article. Trap: thinking constructivists deny anarchy or interests. They accept both but ask how their meaning is built. Use R2P or ECOWAS as examples of norm change.",
+            "sampleQuestion": "Wendt's 'Hobbesian' anarchy differs from his 'Lockean' anarchy in that: (a) Hobbesian is peaceful (b) Lockean sees others as enemies (c) Hobbesian treats relations as life-or-death and warlike, while Lockean is restrained rivalry (d) they are the same",
+            "howToAnswer": "Answer (c). In essays, add that the culture depends on states' interactions, so it can change, which is the heart of 'anarchy is what states make of it'.",
+            "scholars": [
+              "Wendt (1992)",
+              "Wendt (1999)",
+              "Onuf (1989)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Wendt (1992): anarchy is what states make of it; power politics is social.",
+              "Two claims: structures rest on shared ideas; identities and interests are constructed.",
+              "Hobbesian (enemies), Lockean (rivals), Kantian (friends) cultures of anarchy.",
+              "Arms races and enmity are not inevitable; interaction can change them.",
+              "Norm change such as R2P shows ideas reshaping world politics."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "'Anarchy is What States Make of It' (1992) was written by:",
+          "options": [
+            "Nicholas Onuf",
+            "Alexander Wendt",
+            "Kenneth Waltz",
+            "Robert Keohane"
+          ],
+          "answerIndex": 1,
+          "explanation": "Alexander Wendt published it in International Organization in 1992."
+        },
+        {
+          "difficulty": 1,
+          "stem": "In a Lockean culture of anarchy, states treat each other as:",
+          "options": [
+            "Enemies",
+            "Friends",
+            "Rivals",
+            "Colonies"
+          ],
+          "answerIndex": 2,
+          "explanation": "Lockean anarchy is restrained rivalry; Hobbesian is enmity; Kantian is friendship."
+        },
+        {
+          "difficulty": 1,
+          "stem": "R2P stands for:",
+          "options": [
+            "Right to Peace",
+            "Rule to Power",
+            "Responsibility to Protect",
+            "Return to Politics"
+          ],
+          "answerIndex": 2,
+          "explanation": "The Responsibility to Protect aims to stop mass atrocity crimes."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Wendt's central book developing constructivist theory is:",
+          "options": [
+            "Politics Among Nations",
+            "Social Theory of International Politics",
+            "Theory of International Politics",
+            "After Hegemony"
+          ],
+          "answerIndex": 1,
+          "explanation": "Wendt's Social Theory of International Politics appeared in 1999."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Wendt criticised neo-realism and liberal institutionalism for sharing a commitment to:",
+          "options": [
+            "Idealism",
+            "A crude materialism",
+            "Marxism",
+            "Feminism"
+          ],
+          "answerIndex": 1,
+          "explanation": "He argued both treated material forces as decisive and ignored social construction."
+        },
+        {
+          "difficulty": 2,
+          "stem": "According to constructivists, arms races between states are:",
+          "options": [
+            "Not inevitable; they depend on how states interpret each other",
+            "Inevitable under anarchy",
+            "Caused only by economics",
+            "Impossible"
+          ],
+          "answerIndex": 0,
+          "explanation": "Material capabilities need not produce enmity; interaction shapes the outcome."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Two neighbouring states compete economically but accept each other's right to exist and never threaten invasion. In Wendt's terms, they share a:",
+          "options": [
+            "Hobbesian culture",
+            "Marxist culture",
+            "Kantian culture",
+            "Lockean culture"
+          ],
+          "answerIndex": 3,
+          "explanation": "Rivalry with mutual recognition of survival is Lockean."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Since the 1990s, the international community has increasingly accepted intervention to stop genocide, overriding non-intervention. Constructivists cite this as an example of:",
+          "options": [
+            "Norm change driven by ideas",
+            "Balance of power",
+            "Class struggle",
+            "Absolute gains"
+          ],
+          "answerIndex": 0,
+          "explanation": "R2P's rise shows shared norms changing, which material accounts struggle to explain."
+        },
+        {
+          "difficulty": 3,
+          "stem": "States in a region hold regular summits, adopt rules against coups and run joint peacekeeping until war among them becomes unthinkable. Constructivists would say the region moved towards a:",
+          "options": [
+            "Hobbesian culture",
+            "Self-help system",
+            "Realist balance",
+            "Kantian culture"
+          ],
+          "answerIndex": 3,
+          "explanation": "A culture where states are friends who settle disputes without force is Kantian."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which of the following is NOT an assumption of social constructivism?",
+          "options": [
+            "Identity and culture matter",
+            "Interests are constructed and must be explained",
+            "Process shapes how states interact",
+            "The anarchic structure alone determines state behaviour"
+          ],
+          "answerIndex": 3,
+          "explanation": "Structure-alone determinism is a neo-realist view; constructivists stress process and interaction."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Wendt's two basic claims are that the structures of human association are determined mainly by shared ideas, and that:",
+          "options": [
+            "Material forces decide everything",
+            "Identities and interests are built by shared ideas, not given by nature",
+            "Class struggle drives history",
+            "Democracies never fight"
+          ],
+          "answerIndex": 1,
+          "explanation": "His second claim is that identities and interests are socially constructed."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Hobbesian anarchy: friendship",
+            "Lockean anarchy: life-or-death enmity",
+            "Kantian anarchy: disputes settled without force",
+            "Hobbesian anarchy: restrained rivalry"
+          ],
+          "answerIndex": 2,
+          "explanation": "Kantian anarchy is the culture of friendship. Hobbesian is enmity; Lockean is rivalry."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Constructivists accept that anarchy exists. II. They argue anarchy's effects are fixed. III. They argue interaction can produce friendlier cultures of anarchy. Which are correct?",
+          "options": [
+            "I and III only",
+            "I and II only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 0,
+          "explanation": "I and III are correct. II contradicts the core claim that anarchy is what states make of it."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Constructivists claim to explain the peaceful end of the Cold War better than neo-realists because:",
+          "options": [
+            "Material power shifted suddenly",
+            "War broke out",
+            "Changes in leaders' ideas and identities, not just material power, transformed relations",
+            "The UN abolished anarchy"
+          ],
+          "answerIndex": 2,
+          "explanation": "Constructivists credit new ideas about security and identity, which material balance-of-power accounts missed."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A critic says constructivism explains change after it happens but rarely predicts it. This criticism suggests constructivism:",
+          "options": [
+            "Offers varied approaches without a unified set of predictions",
+            "Has no concept of ideas",
+            "Is a form of Marxism",
+            "Ignores identity"
+          ],
+          "answerIndex": 0,
+          "explanation": "Constructivist approaches are varied and do not offer one unified set of expectations, limiting prediction."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1034 @@
+{
+  "unit": 1,
+  "title": "Brief History of Physiological Psychology",
+  "summary": "Where physiological psychology came from, the tools it uses to study the body and brain, and what the field actually studies.",
+  "sections": [
+    {
+      "name": "Roots of the field",
+      "lesson": {
+        "title": "How physiology and psychology grew together",
+        "minutes": 9,
+        "hook": "Before there were departments of psychology, the people asking how the mind works were philosophers and doctors. Physiological psychology is what happened when their questions met the laboratory.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Two parents: philosophy and biology",
+            "body": "Physiological psychology has two parents. **Philosophy** gave it the questions. Thinkers such as **John Locke (1690)** and **John Stuart Mill** asked how we come to know reality and how the mind relates to the body, the famous **mind–body problem**.\n\n**Biology** gave it the tools. Biologists built experimental methods for probing how the body works, and supplied big organising ideas such as **natural selection, evolution and genetics** that let findings from rats, monkeys and humans be fitted together.",
+            "visual": {
+              "type": "venn",
+              "left": "Philosophy: questions",
+              "right": "Biology: methods",
+              "both": "Physiological psychology"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Why test ideas instead of arguing?",
+            "body": "The philosophers' lasting gift was not their answers but their attitude. They pushed for ideas to be checked by **observation and experiment**, and they took a **pragmatic** view: an idea is worth keeping if it works when tested.\n\nThat attitude became the backbone of physiological psychology. Instead of debating whether the mind lives in the brain, researchers began to damage, stimulate and record from the brain and watch what happened to behaviour.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Question",
+                "Testable idea",
+                "Experiment",
+                "Revised idea"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Which contribution to physiological psychology came mainly from biology rather than philosophy?",
+            "options": [
+              "Posing the mind–body problem",
+              "Asking how we understand reality",
+              "Principles of natural selection and genetics",
+              "Arguing about the nature of knowledge"
+            ],
+            "answerIndex": 2,
+            "why": "Biology supplied experimental tools and unifying principles such as evolution and genetics. The other three options are philosophical questions."
+          },
+          {
+            "kind": "teach",
+            "heading": "One discipline at the start",
+            "body": "In the nineteenth century, physiology and psychology were not yet separate subjects. Physiologists were busy with problems we now call psychological.\n\n**Johannes Müller (about 1840)** proposed the **doctrine of specific nerve energies**: each sensory nerve produces its own kind of sensation, whatever stimulates it. Press gently on your closed eyelid and you 'see' light, because the optic nerve can only signal vision. **Hermann von Helmholtz** studied how the senses work. Historians such as Thompson (1967) note how much the two fields fed each other before they parted.",
+            "visual": {
+              "type": "neuron",
+              "part": "axon",
+              "label": "Nerve signals one sense"
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Stars after a knock",
+            "story": "During a football match on the hostel pitch at Ibadan, Tunde gets an elbow near the eye. He shouts that he 'saw stars'. Nothing bright was in front of him. The blow simply excited the cells and nerve that carry visual signals, and his brain read that activity the only way it knows how: as light.",
+            "takeaway": "This is Müller's doctrine of specific nerve energies: the nerve, not the stimulus, decides what we experience."
+          },
+          {
+            "kind": "teach",
+            "heading": "Psychologists who looked at the body",
+            "body": "Early psychologists also turned to physiology. **Wilhelm Wundt** published *Principles of Physiological Psychology* (1873–74). **William James (1890)** gave the nervous system serious space in his textbook. **Edward Thorndike (1898)** measured animal learning with numbers. **Ivan Pavlov (1927)** reported his work on conditioned reflexes, and **Karl Lashley (1929)** studied brain mechanisms and intelligence by damaging rats' cortex.\n\nTogether they gave the field **objective, reliable and quantitative** measures of behaviour, which it needed to take off.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Wundt 1874",
+                "James 1890",
+                "Thorndike 1898",
+                "Pavlov 1927",
+                "Lashley 1929"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Which pairing of scholar and contribution is correct?",
+            "options": [
+              "Pavlov: doctrine of specific nerve energies",
+              "Thorndike: quantitative studies of animal learning",
+              "Müller: conditioned reflexes",
+              "Lashley: first textbook of psychology"
+            ],
+            "answerIndex": 1,
+            "why": "Thorndike measured animal learning numerically in 1898. Müller gave the nerve-energies doctrine and Pavlov the conditioned reflex."
+          },
+          {
+            "kind": "teach",
+            "heading": "A field nobody owns",
+            "body": "What we know about the biology of behaviour has come from many workers: psychologists, cell physiologists, molecular biologists, biochemists, endocrinologists, neuroanatomists, neurologists and neurophysiologists.\n\nBecause **no single discipline can claim it**, the field wears several names: **physiological psychology, biological psychology, biopsychology, behavioural neuroscience** and psychobiology. For your exams, treat these as roughly the same field seen from slightly different doors.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "person",
+                  "label": "Psychologists"
+                },
+                {
+                  "icon": "medkit",
+                  "label": "Neurologists"
+                },
+                {
+                  "icon": "leaf",
+                  "label": "Biologists"
+                },
+                {
+                  "icon": "pulse",
+                  "label": "Endocrinologists"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "terms",
+            "heading": "Specialists and what they study",
+            "terms": [
+              {
+                "term": "Neuroanatomist",
+                "meaning": "Maps the structure of the nervous system"
+              },
+              {
+                "term": "Neurophysiologist",
+                "meaning": "Studies how nerve cells and circuits work, often by recording their electrical activity"
+              },
+              {
+                "term": "Endocrinologist",
+                "meaning": "Studies hormones and the glands that release them"
+              },
+              {
+                "term": "Biochemist",
+                "meaning": "Studies the chemical reactions inside living tissue"
+              },
+              {
+                "term": "Neurologist",
+                "meaning": "A doctor who diagnoses and treats diseases of the nervous system"
+              }
+            ]
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "History questions are usually attribution or matching: who wrote what, and when. The trap is mixing up names that sound similar or swapping contributions, for example giving Pavlov the nerve-energies doctrine. Another favourite asks why the field has many names; the answer is that many disciplines contribute.",
+            "sampleQuestion": "Discuss the historical roots of physiological psychology, showing the contributions of philosophy, biology and early psychologists.",
+            "howToAnswer": "Start with philosophy (mind–body question, experimental attitude), then biology (methods, evolution, genetics), then name two or three physiologists and psychologists with their dates and contributions. End by explaining why the field is multidisciplinary.",
+            "scholars": [
+              "Locke (1690)",
+              "Müller (1840)",
+              "Wundt (1874)",
+              "James (1890)",
+              "Thorndike (1898)",
+              "Pavlov (1927)",
+              "Lashley (1929)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Philosophy supplied the questions; biology supplied methods and evolutionary principles.",
+              "Physiology and psychology started as one discipline.",
+              "Müller's doctrine: each sensory nerve gives its own kind of sensation.",
+              "Wundt, James, Thorndike, Pavlov and Lashley gave objective, quantitative measures.",
+              "Many disciplines contribute, so the field has several near-equivalent names."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The philosophers whose ideas fed into physiological psychology are best remembered for which lasting question?",
+          "options": [
+            "How the mind relates to the body",
+            "How hormones control growth",
+            "How neurons release chemicals",
+            "How species evolve over time"
+          ],
+          "answerIndex": 0,
+          "explanation": "Locke, Mill and others posed the mind–body problem, which the field still works on. Evolution was a biological contribution, not a philosophical one."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which of these is NOT one of the names commonly used for the field of physiological psychology?",
+          "options": [
+            "Biopsychology",
+            "Behavioural neuroscience",
+            "Psychoanalysis",
+            "Biological psychology"
+          ],
+          "answerIndex": 2,
+          "explanation": "Psychoanalysis is Freud's approach to the unconscious and has nothing to do with the biology of behaviour. The other three are near-synonyms for physiological psychology."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Historically, physiology and psychology are best described as disciplines that:",
+          "options": [
+            "Were always rivals with separate methods",
+            "Began together and later went separate ways",
+            "Only met after the invention of brain scanners",
+            "Were joined by Freud in the twentieth century"
+          ],
+          "answerIndex": 1,
+          "explanation": "In the nineteenth century both fields were one and influenced each other heavily before they split. Brain scanners came much later."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The major reason physiological psychology goes by several different titles is that:",
+          "options": [
+            "Each Nigerian university chooses a different name",
+            "The field has changed its subject matter many times",
+            "Many different disciplines contribute and none can claim it alone",
+            "Early psychologists refused to use the word physiology"
+          ],
+          "answerIndex": 2,
+          "explanation": "Psychologists, biochemists, neurologists and others all add to it, so it is labelled from different angles. The subject matter itself, brain and behaviour, has stayed the same."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The doctrine of specific nerve energies is associated with:",
+          "options": [
+            "Wilhelm Wundt",
+            "Karl Lashley",
+            "Ivan Pavlov",
+            "Johannes Müller"
+          ],
+          "answerIndex": 3,
+          "explanation": "Müller proposed that each sensory nerve gives rise to one kind of sensation. Wundt is linked with the first physiological psychology textbook, Pavlov with conditioned reflexes."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The early psychologists such as Thorndike and Pavlov helped physiological psychology mainly by providing:",
+          "options": [
+            "Objective and quantitative measures of behaviour",
+            "Detailed maps of brain anatomy",
+            "Theories of unconscious motivation",
+            "Drugs for treating mental illness"
+          ],
+          "answerIndex": 0,
+          "explanation": "Measuring learning and reflexes objectively gave the field reliable behavioural data to link with the body. Brain maps came from anatomists, not from these psychologists."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Amaka presses gently on her closed eyelid and sees flashes of light. This experience best supports:",
+          "options": [
+            "Pavlov's work on conditioned reflexes",
+            "Lashley's study of brain mechanisms",
+            "Müller's doctrine of specific nerve energies",
+            "Thorndike's quantitative study of learning"
+          ],
+          "answerIndex": 2,
+          "explanation": "Pressure, not light, excites the visual pathway, yet she experiences light, because that pathway can only signal vision. Conditioning has nothing to do with this instant sensation."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A student argues that physiological psychology belongs entirely to the psychology department. The best counter-argument is that:",
+          "options": [
+            "Psychology does not study behaviour",
+            "Knowledge in the field comes from neurologists, biochemists, endocrinologists and others",
+            "The field uses only invasive methods",
+            "The field was founded by philosophers alone"
+          ],
+          "answerIndex": 1,
+          "explanation": "The field draws on many specialists, so no single department owns it. Philosophers gave it questions, but biologists and physiologists gave it methods too."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A historian says nineteenth-century physiologists 'were doing psychology without the name'. Which observation best supports this?",
+          "options": [
+            "They avoided studying the senses",
+            "They worked only on digestion and blood",
+            "They rejected experiments in favour of argument",
+            "They studied sensation and learning, problems now counted as psychological"
+          ],
+          "answerIndex": 3,
+          "explanation": "Müller and Helmholtz worked on how the senses produce experience, which is now psychology's territory. They were experimenters, not armchair debaters."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair of scholar and contribution is correctly matched?",
+          "options": [
+            "William James (1890): paid considerable attention to the nervous system in his psychology",
+            "Wundt (1874): reported conditioned reflexes in dogs",
+            "Pavlov (1927): studied brain mechanisms and intelligence",
+            "Lashley (1929): doctrine of specific nerve energies"
+          ],
+          "answerIndex": 0,
+          "explanation": "James gave the nervous system serious attention in his 1890 textbook. Lashley studied brain mechanisms and intelligence; conditioned reflexes belong to Pavlov."
+        },
+        {
+          "difficulty": 4,
+          "stem": "The 'pragmatic approach' that philosophy passed on to physiological psychology means that:",
+          "options": [
+            "Ideas should be accepted because famous thinkers hold them",
+            "Ideas are judged by whether they work when tested in practice",
+            "Only mental events, never the body, should be studied",
+            "Animal research should never be used"
+          ],
+          "answerIndex": 1,
+          "explanation": "Pragmatism values an idea by its practical, testable success. Accepting ideas because of authority is the very attitude it rejected."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Biology helped physiological psychology integrate findings from many species chiefly by supplying:",
+          "options": [
+            "Self-report questionnaires",
+            "The mind–body problem",
+            "The principles of evolution, natural selection and genetics",
+            "The doctrine of specific nerve energies"
+          ],
+          "answerIndex": 2,
+          "explanation": "Shared evolutionary history explains why a rat's brain can tell us about a human's. The mind–body problem came from philosophy, and questionnaires are general psychology tools."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider these statements. I. Philosophy contributed the experimental and observational testing of ideas. II. Biology contributed tools for studying body mechanisms. III. Physiology and psychology were separate from the start. Which are correct?",
+          "options": [
+            "I and III only",
+            "II and III only",
+            "I, II and III",
+            "I and II only"
+          ],
+          "answerIndex": 3,
+          "explanation": "Statements I and II describe the two parents of the field. Statement III is false because the two disciplines began as one."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Arrange these contributions in the order in which they appeared: (1) Pavlov on conditioned reflexes, (2) Thorndike's animal learning studies, (3) Wundt's physiological psychology text, (4) James's attention to the nervous system.",
+          "options": [
+            "3, 2, 4, 1",
+            "4, 3, 2, 1",
+            "3, 4, 2, 1",
+            "2, 3, 4, 1"
+          ],
+          "answerIndex": 2,
+          "explanation": "Wundt (1874), James (1890), Thorndike (1898), then Pavlov (1927). Option A wrongly places Thorndike before James."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A lecturer claims that 'without the physiologists of the 1800s there would be no physiological psychology, but without the psychologists there would be no behaviour to explain.' Which statement best captures the point?",
+          "options": [
+            "Physiologists gave knowledge of body mechanisms, psychologists gave reliable measures of behaviour, and the field needs both",
+            "Psychologists alone created the field, and physiologists only borrowed from them",
+            "Physiologists alone created the field, and psychology is a later add-on",
+            "The field was created by philosophers, with no role for physiologists or psychologists"
+          ],
+          "answerIndex": 0,
+          "explanation": "The field links body mechanisms to behaviour, so it needs both physiology's knowledge and psychology's objective measures. The one-sided options ignore this mutual influence."
+        }
+      ]
+    },
+    {
+      "name": "Research techniques",
+      "lesson": {
+        "title": "Tools for studying body and brain",
+        "minutes": 11,
+        "hook": "If you ask a nervous student whether they are anxious, they may say no. Their sweaty palms and racing heart will tell the truth. That is why physiological psychologists love their machines.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Two families of techniques",
+            "body": "Physiological psychologists use two families of methods.\n\nThe first is **shared with general psychology**: psychological tests, interviews with people, and experiments with human and animal participants.\n\nThe second is **unique to the speciality**: biochemical analysis of blood and urine, blood pressure, heart rate, the brain's electrical activity and hormone levels. These look directly at the body instead of relying on what a person says.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {"icon": "book", "label": "Shared methods"},
+                {"icon": "pulse", "label": "Unique body measures"}
+              ]
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Shared versus unique methods",
+            "left": {
+              "title": "Shared with psychology",
+              "points": [
+                "Psychological tests",
+                "Interviews with participants",
+                "Experiments on humans and animals"
+              ]
+            },
+            "right": {
+              "title": "Unique to the speciality",
+              "points": [
+                "Blood and urine biochemistry",
+                "Heart rate and blood pressure",
+                "Brain electrical activity",
+                "Hormone levels"
+              ]
+            }
+          },
+          {
+            "kind": "terms",
+            "heading": "The body-recording instruments",
+            "terms": [
+              {
+                "term": "EEG (electroencephalogram)",
+                "meaning": "Records the brain's electrical activity from the scalp; used to study sleep"
+              },
+              {
+                "term": "ECG or EKG (electrocardiogram)",
+                "meaning": "Records the heart's electrical activity, giving heart rate"
+              },
+              {
+                "term": "EMG (electromyogram)",
+                "meaning": "Records electrical activity in muscles"
+              },
+              {
+                "term": "GSR (galvanic skin response)",
+                "meaning": "Records changes in skin conductance caused by sweat gland activity"
+              },
+              {
+                "term": "SCR (skin conductance response)",
+                "meaning": "Measures arousal through changes in how well the skin conducts electricity"
+              }
+            ]
+          },
+          {
+            "kind": "teach",
+            "heading": "Why these measures are prized",
+            "body": "A questionnaire depends on honesty and self-knowledge. People can fake answers, play down their fear or simply not notice their own feelings.\n\nYour sweat glands, heart and brain waves are much harder to control on purpose. That is the big advantage of physiological measures: the person being tested **cannot easily distort them** the way they can distort a **self-report**. It is the logic behind the polygraph, which records several of these signals together.",
+            "visual": {
+              "type": "scale",
+              "left": "Self-report",
+              "right": "Body signals",
+              "heavier": "right"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "A researcher wants to know how tense a driver's neck muscles get in Lagos traffic. Which instrument fits best?",
+            "options": [
+              "EEG",
+              "ECG",
+              "EMG",
+              "GSR"
+            ],
+            "answerIndex": 2,
+            "why": "The electromyogram records muscle activity. The EEG records the brain and the ECG the heart."
+          },
+          {
+            "kind": "teach",
+            "heading": "Invasive and non-invasive approaches",
+            "body": "Brain activity can be studied in two broad ways.\n\nThe **non-invasive** approach uses instruments that stay outside the body, such as scalp electrodes for an EEG. It is used with **human** participants.\n\nThe **invasive** approach puts instruments inside the brain, or removes and examines the brain itself. Because it damages tissue, it is done with **animals**. Its tissue-preparation methods are called **histological techniques**.",
+            "visual": {
+              "type": "brain",
+              "region": "whole-brain",
+              "label": "Outside or inside?"
+            }
+          },
+          {
+            "kind": "steps",
+            "heading": "Preparing brain tissue for study",
+            "steps": [
+              {
+                "title": "Perfusion",
+                "detail": "Blood is flushed out of the brain tissue and replaced with a dilute salt solution. This must come first."
+              },
+              {
+                "title": "Fixation",
+                "detail": "The tissue goes into a fixative, usually formalin (formaldehyde in water), which hardens it and kills bacteria and moulds."
+              },
+              {
+                "title": "Sectioning",
+                "detail": "The hardened brain is cut into thin slices."
+              },
+              {
+                "title": "Staining",
+                "detail": "Dyes are applied so that cells and structures become visible under the microscope."
+              }
+            ]
+          },
+          {
+            "kind": "check",
+            "question": "Which step must be completed before fixation can be done?",
+            "options": [
+              "Staining",
+              "Perfusion",
+              "Sectioning",
+              "Ablation"
+            ],
+            "answerIndex": 1,
+            "why": "Perfusion clears blood from the tissue and is the condition for fixation. Staining and sectioning come after the brain has hardened."
+          },
+          {
+            "kind": "teach",
+            "heading": "Ablation: learning by removing",
+            "body": "**Experimental ablation** means destroying part of the brain and then watching how behaviour changes. If an animal can no longer do something, that area probably played a role.\n\nIn the surgical version the animal is anaesthetised, the skull is opened and tissue is removed by **suction**. Lesions can also be made with electrodes: **direct current** destroys cells through chemical reactions at the electrode tip, while **radio-frequency** current destroys them with heat. **Neurotoxins** such as kainic acid or ibotenic acid can also kill cells.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Damage an area",
+                "Observe behaviour",
+                "Infer its function"
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Reading a hormone report",
+            "story": "Mr Okafor, a bank manager in Abuja, has been tired, irritable and short of breath under months of pressure at work. His doctor orders blood tests, including stress hormone levels, alongside a blood pressure reading. The results help explain why his heart and stomach have been playing up.",
+            "takeaway": "Measuring hormones is a technique unique to the speciality, and it has helped link stress to heart disease, hypertension and ulcers."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Lecturers love matching instruments to what they measure, and asking which step comes first in tissue preparation. Common traps: confusing ECG with EEG, thinking fixation comes before perfusion, and forgetting that invasive work is done on animals. Know why physiological measures beat self-report.",
+            "sampleQuestion": "Distinguish between the research techniques physiological psychology shares with general psychology and those unique to it. Why are the unique measures considered more objective?",
+            "howToAnswer": "List the shared methods (tests, interviews, experiments) and the unique ones (EEG, ECG, EMG, GSR, SCR, blood and hormone analysis), then explain that bodily signals cannot easily be faked, unlike self-reports.",
+            "scholars": []
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Methods are either shared with general psychology or unique to the speciality.",
+              "EEG: brain; ECG: heart; EMG: muscle; GSR and SCR: skin and arousal.",
+              "Bodily measures cannot easily be faked, unlike self-reports.",
+              "Non-invasive methods are used on humans, invasive ones on animals.",
+              "Perfusion comes before fixation; ablation destroys tissue to infer function."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Which of the following is a technique physiological psychology shares with the general field of psychology?",
+          "options": [
+            "Interviewing human participants",
+            "Recording the electrocardiogram",
+            "Analysing urine biochemistry",
+            "Measuring hormone levels"
+          ],
+          "answerIndex": 0,
+          "explanation": "Interviews are used across psychology. The other three look directly at the body and are unique to the speciality."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The electroencephalogram (EEG) is mainly used to record:",
+          "options": [
+            "Heart rate",
+            "Muscle tension",
+            "Electrical activity of the brain",
+            "Sweat gland activity"
+          ],
+          "answerIndex": 2,
+          "explanation": "EEG records brain waves and has been widely used to study sleep. Heart rate comes from the ECG and muscle activity from the EMG."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Invasive brain techniques are normally carried out on:",
+          "options": [
+            "Human volunteers",
+            "Animals",
+            "Hospital patients only",
+            "Computer models"
+          ],
+          "answerIndex": 1,
+          "explanation": "Invasive work damages tissue, so it is done with animals; humans are studied non-invasively. Patients are studied when disease has already damaged the brain, not by deliberate lesions."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Physiological measures are often preferred to self-report measures because:",
+          "options": [
+            "They are cheaper to administer",
+            "They require no trained staff",
+            "They work without any equipment",
+            "Participants cannot easily distort or control them"
+          ],
+          "answerIndex": 3,
+          "explanation": "Heart rate and sweating are hard to fake on purpose, unlike questionnaire answers. They are usually more expensive, not cheaper."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The main purpose of fixing brain tissue in formalin is to:",
+          "options": [
+            "Harden the tissue and prevent decay by microorganisms",
+            "Remove all blood from the tissue",
+            "Make individual cells visible in colour",
+            "Destroy a chosen brain area"
+          ],
+          "answerIndex": 0,
+          "explanation": "Fixation hardens the soft brain and kills bacteria and moulds. Removing blood is perfusion, and colouring cells is staining."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Experimental ablation as a research method involves:",
+          "options": [
+            "Recording brain waves through the scalp",
+            "Measuring hormone levels in blood",
+            "Destroying part of the brain and observing behaviour",
+            "Stimulating muscles electrically"
+          ],
+          "answerIndex": 2,
+          "explanation": "Ablation removes or destroys tissue so that later behavioural changes reveal what the area did. Recording brain waves is non-invasive EEG."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Funmi is told a scary story while electrodes on her fingers record rising sweat gland activity. The instrument being used is most likely the:",
+          "options": [
+            "Electromyogram",
+            "Galvanic skin response",
+            "Electrocardiogram",
+            "Electroencephalogram"
+          ],
+          "answerIndex": 1,
+          "explanation": "The GSR records skin conductance changes caused by sweat glands, a sign of arousal. The EMG records muscles, not sweat."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A researcher wants to measure how fast a student's heart beats before an exam. Which instrument should be chosen?",
+          "options": [
+            "EEG",
+            "EMG",
+            "GSR",
+            "ECG"
+          ],
+          "answerIndex": 3,
+          "explanation": "The electrocardiogram records the heart's electrical activity and gives heart rate. EEG and ECG are often confused because the abbreviations look alike."
+        },
+        {
+          "difficulty": 3,
+          "stem": "In a lesion study, a rat's electrode delivers very high-frequency alternating current. The cells near the tip are destroyed mainly by:",
+          "options": [
+            "Heat produced by the current",
+            "Chemical products of the reaction",
+            "A nerve poison injected with it",
+            "Suction from a vacuum pump"
+          ],
+          "answerIndex": 0,
+          "explanation": "Radio-frequency lesions kill cells with heat. Chemical products at the tip are the mechanism of direct-current lesions."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which sequence correctly describes the preparation of brain tissue for microscopic study?",
+          "options": [
+            "Fixation, perfusion, staining, sectioning",
+            "Perfusion, fixation, sectioning, staining",
+            "Staining, perfusion, fixation, sectioning",
+            "Perfusion, staining, fixation, sectioning"
+          ],
+          "answerIndex": 1,
+          "explanation": "Blood is cleared first (perfusion), then the tissue is hardened (fixation), sliced and stained. Fixation cannot come before perfusion."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Kainic acid and ibotenic acid are used in physiological psychology as:",
+          "options": [
+            "Fixatives to harden brain tissue",
+            "Stains to colour neurons",
+            "Neurotoxins to destroy brain cells",
+            "Salt solutions for perfusion"
+          ],
+          "answerIndex": 2,
+          "explanation": "They are nerve poisons used to make chemical lesions. The fixative is formalin, and perfusion uses dilute salt solution."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which of the following is NOT correctly matched with what it measures?",
+          "options": [
+            "EMG: muscle activity",
+            "SCR: arousal",
+            "EEG: brain electrical activity",
+            "ECG: sweat gland activity"
+          ],
+          "answerIndex": 3,
+          "explanation": "The ECG records the heart. Sweat gland activity is recorded by the GSR."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider these statements about invasive techniques. I. Perfusion replaces blood with a dilute salt solution. II. Direct-current lesions destroy cells through chemical reactions at the electrode tip. III. Fixation is done before perfusion so the tissue does not decay. Which are correct?",
+          "options": [
+            "I and II only",
+            "II and III only",
+            "I and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 0,
+          "explanation": "Statements I and II are accurate. Statement III reverses the order: perfusion is the condition that must be met before fixation."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A researcher studying exam stress collects questionnaires, blood cortisol levels and heart rate from the same students. The best justification for combining these is that:",
+          "options": [
+            "Questionnaires are invasive and need checking",
+            "Shared and unique techniques complement each other, giving a fuller and more balanced picture",
+            "Blood tests are only valid when a questionnaire is also given",
+            "Heart rate cannot be measured without first measuring hormones"
+          ],
+          "answerIndex": 1,
+          "explanation": "Self-report shows how students feel, while body measures give objective data that cannot easily be faked; together they balance each other. Questionnaires are not invasive."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which statement about ablation methods is accurate?",
+          "options": [
+            "Ablation is a non-invasive human technique using scalp electrodes",
+            "Radio-frequency lesions work by injecting kainic acid",
+            "Surgical ablation removes tissue by suction after the cortex is exposed",
+            "Ablation is used to harden tissue before sectioning"
+          ],
+          "answerIndex": 2,
+          "explanation": "In surgical ablation the skull is opened and tissue is sucked away with a vacuum pump. Hardening tissue is fixation, and kainic acid is a separate chemical method."
+        }
+      ]
+    },
+    {
+      "name": "What the field studies",
+      "lesson": {
+        "title": "Defining physiological psychology",
+        "minutes": 8,
+        "hook": "Blinking takes a fraction of a second, yet it needs your eyes, nerves, brainstem and muscles to work together perfectly. Physiological psychology asks what is going on beneath every visible act.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Linking brain to behaviour",
+            "body": "**Physiological psychology** studies the bodily processes behind how we think, feel and act. It links the physical workings of the brain to what we actually say and do.\n\nIts topics include brain cells, brain structures, brain chemistry, how the senses take in information, heredity, the nervous system and the **endocrine (hormone) system**. Its goal is to explain how these systems work together to produce the behaviour humans and animals display.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Cells and chemistry",
+                "Brain systems",
+                "Behaviour"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Overt and covert behaviour",
+            "body": "Most people think of behaviour as what they can see: reading, dancing, fighting, driving. This is **overt behaviour**.\n\nBut behaviour has a second side. The unseen nerve signals, chemical changes and brain activity going on inside are **covert behaviour**. Physiological psychology insists that you cannot really understand the overt part without the covert part that produces it.",
+            "visual": {
+              "type": "venn",
+              "left": "Overt: visible acts",
+              "right": "Covert: hidden processes",
+              "both": "Behaviour"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Which of these is an example of covert behaviour?",
+            "options": [
+              "Writing notes in class",
+              "Driving to campus",
+              "Neurons firing as you recall a name",
+              "Dancing at a wedding"
+            ],
+            "answerIndex": 2,
+            "why": "Neural firing cannot be seen with the eye, so it is covert. The other three are visible, overt acts."
+          },
+          {
+            "kind": "teach",
+            "heading": "The core assumption",
+            "body": "The field rests on one big assumption: **most, if not all, behaviour is determined by physiological processes inside the organism**.\n\nEven simple acts depend on many coordinated systems. Taking notes in a lecture needs vision, hearing, memory, language and fine finger control. Sleeping needs brain circuits that switch you off and back on. If any link fails, the behaviour changes, which is exactly what researchers exploit.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "eye",
+                  "label": "See"
+                },
+                {
+                  "icon": "ear",
+                  "label": "Hear"
+                },
+                {
+                  "icon": "bulb",
+                  "label": "Think"
+                },
+                {
+                  "icon": "hand-left",
+                  "label": "Write"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "After the accident",
+            "story": "Musa, a commercial driver, survives a crash on the Lagos–Ibadan expressway with an injury to the back of his head. Weeks later he talks normally and remembers his family, but his walking is clumsy and his hands shake when he reaches for a cup. His doctors link the change to damage in the region that coordinates movement.",
+            "takeaway": "Much early knowledge in the field came from watching how behaviour changes after particular brain areas are damaged."
+          },
+          {
+            "kind": "teach",
+            "heading": "Learning from damage",
+            "body": "Before brain scanners, the main window into brain function was **damage**. Researchers studied people with strokes or injuries, and in animals they deliberately removed or cut parts of the brain, then compared behaviour before and after.\n\nAnimal experiments have always been **controversial**, because they harm creatures that feel pain. Today they are tightly regulated, but much of what we know about the brain was first learned this way.",
+            "visual": {
+              "type": "brain",
+              "region": "cerebellum",
+              "label": "Coordinates movement"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Why is physiological psychology regarded as a scientific discipline?",
+            "options": [
+              "It relies on personal opinion about the mind",
+              "It uses objective, reliable and standardised methods",
+              "It avoids measuring behaviour",
+              "It depends mainly on case stories"
+            ],
+            "answerIndex": 1,
+            "why": "Its measures are objective, reliable, standardised and quantitative, borrowed from experimental psychology. Opinion and anecdote are what science tries to move beyond."
+          },
+          {
+            "kind": "terms",
+            "heading": "Key ideas in the definition",
+            "terms": [
+              {
+                "term": "Neurophysiological processes",
+                "meaning": "The electrical and chemical workings of the nervous system"
+              },
+              {
+                "term": "Endocrine activity",
+                "meaning": "Hormone release by glands into the bloodstream"
+              },
+              {
+                "term": "Overt behaviour",
+                "meaning": "Actions that can be directly observed"
+              },
+              {
+                "term": "Covert behaviour",
+                "meaning": "Hidden internal processes that cannot be seen directly"
+              }
+            ]
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Definition questions are often twisted into 'the field focuses on the relationship between...' with near-miss options. The expected answer is mental concepts and physical behaviour, not 'physiology and psychology'. Also expect overt versus covert examples and why the field counts as a science.",
+            "sampleQuestion": "Explain what is meant by physiological psychology, and show why behaviour cannot be fully understood without its covert component.",
+            "howToAnswer": "Define the field as the study of the neurophysiological processes behind behaviour, describe overt and covert behaviour with examples, and argue that visible acts depend on hidden coordinated processes.",
+            "scholars": []
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "The field links brain function to what we say and do.",
+              "Behaviour has overt (visible) and covert (hidden) parts.",
+              "Core assumption: behaviour is largely determined by bodily processes.",
+              "Much was learned from brain damage in patients and animals.",
+              "It is scientific because its methods are objective, reliable and standardised."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Physiological psychology is best described as the study of:",
+          "options": [
+            "Unconscious conflicts that shape personality",
+            "Social influences on group behaviour",
+            "The neurophysiological processes underlying brain function and behaviour",
+            "The history of psychological ideas"
+          ],
+          "answerIndex": 2,
+          "explanation": "The field explains behaviour through the workings of the nervous system and body. Social influence belongs to social psychology."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which of these is an example of overt behaviour?",
+          "options": [
+            "Hormone release from a gland",
+            "Electrical signals in the brain",
+            "Chemical changes at a synapse",
+            "A student writing an answer script"
+          ],
+          "answerIndex": 3,
+          "explanation": "Writing can be seen directly, so it is overt. The other three happen inside the body and are covert."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The central assumption of physiological psychology is that:",
+          "options": [
+            "Most, if not all, behaviour is determined by physiological processes",
+            "Behaviour is caused only by the environment",
+            "The mind works independently of the body",
+            "Animals cannot tell us anything about humans"
+          ],
+          "answerIndex": 0,
+          "explanation": "The field assumes behaviour arises from processes within the organism. The idea that the mind is independent of the body is the opposite view."
+        },
+        {
+          "difficulty": 2,
+          "stem": "At its heart, physiological psychology examines the link between which two things?",
+          "options": [
+            "Physiology and psychology as subjects",
+            "Mental concepts and physical behaviour",
+            "Physical and physiological behaviour",
+            "Mental and psychological behaviour"
+          ],
+          "answerIndex": 1,
+          "explanation": "The field connects mental events with physical behaviour and its bodily basis. 'Physiology and psychology' names the parent subjects, not the relationship studied."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Physiological psychology counts as a scientific discipline mainly because:",
+          "options": [
+            "It studies only animals",
+            "It rejects all theories",
+            "Its methods are objective, reliable and standardised",
+            "It is taught in medical schools"
+          ],
+          "answerIndex": 2,
+          "explanation": "Science rests on objective, repeatable measurement, which the field borrows from experimental psychology. It studies humans too, not only animals."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Much early knowledge of brain function came from:",
+          "options": [
+            "Observing how behaviour changes after particular brain areas are damaged",
+            "Asking people to describe their brain activity",
+            "Studying dreams and their symbols",
+            "Measuring intelligence in schoolchildren"
+          ],
+          "answerIndex": 0,
+          "explanation": "Damage, whether from injury or animal lesions, showed which areas mattered for which behaviours. People cannot report their own brain activity directly."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Ngozi blinks when dust blows into her eye on a windy day at the motor park. A physiological psychologist would be most interested in:",
+          "options": [
+            "Whether she feels embarrassed",
+            "Her childhood experiences with dust",
+            "Her friends' opinion of the motor park",
+            "The nerve and muscle processes that coordinate the blink"
+          ],
+          "answerIndex": 3,
+          "explanation": "The field explains visible acts through the hidden neural processes behind them. Embarrassment and opinions are social or emotional questions."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A researcher cuts a pathway in a rat's brain and the rat stops eating normally. The method being used is:",
+          "options": [
+            "Self-report",
+            "Observing behaviour after brain damage",
+            "Non-invasive recording",
+            "A psychological test"
+          ],
+          "answerIndex": 1,
+          "explanation": "Damaging a brain part and watching behaviour change is the classic lesion approach. Cutting into the brain is invasive, not non-invasive."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Someone says 'behaviour is just what you can see people do'. A physiological psychologist would reply that this view ignores:",
+          "options": [
+            "Overt behaviour",
+            "The social setting",
+            "Covert behaviour",
+            "Self-report data"
+          ],
+          "answerIndex": 2,
+          "explanation": "The visible part is overt behaviour; the speaker is missing the hidden, covert neurophysiological part. Overt behaviour is exactly what the speaker already counts."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following fall within the scope of physiological psychology EXCEPT:",
+          "options": [
+            "Endocrine activity and behaviour",
+            "Inheritance and behaviour",
+            "Cellular functions in the nervous system",
+            "Literary analysis of novels about madness"
+          ],
+          "answerIndex": 3,
+          "explanation": "Literary analysis is not a biological study of behaviour. Heredity, cells and hormones are all part of the field's scope."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Why have animal experiments in physiological psychology always been controversial?",
+          "options": [
+            "They often harm animals by removing or cutting parts of the brain",
+            "They never produce useful knowledge",
+            "Animals have no nervous system like ours",
+            "They are cheaper than human studies"
+          ],
+          "answerIndex": 0,
+          "explanation": "The controversy is ethical: brain lesions harm animals. They have produced much useful knowledge, precisely because animal nervous systems resemble ours."
+        },
+        {
+          "difficulty": 4,
+          "stem": "The ultimate goal of physiological psychology is to:",
+          "options": [
+            "Replace psychology with medicine",
+            "Understand how bodily systems work to produce the behaviour organisms display",
+            "Cure all brain diseases",
+            "Prove that the mind does not exist"
+          ],
+          "answerIndex": 1,
+          "explanation": "Its aim is explanation of behaviour through body systems. Curing disease is a medical aim that may benefit from it, but is not its defining goal."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider these statements. I. Behaviour has overt and covert components. II. Physiological psychology studies only overt behaviour. III. Taking notes in a lecture depends on many integrated neural processes. Which are correct?",
+          "options": [
+            "I and II only",
+            "II and III only",
+            "I and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 2,
+          "explanation": "Statements I and III are true. Statement II is false because the field's special focus is the covert processes behind overt acts."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A critic argues that physiological psychology is not a science because the brain cannot be seen working. The strongest reply is that:",
+          "options": [
+            "Science only needs good theories, not measurement",
+            "The brain can always be seen with the naked eye",
+            "Covert processes are unimportant to behaviour",
+            "Its quantitative, objective and standardised measures make covert processes measurable"
+          ],
+          "answerIndex": 3,
+          "explanation": "Tools such as EEG and hormone assays make hidden processes measurable, which is what makes the field scientific. Saying covert processes are unimportant abandons the field's core idea."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which statement best explains why behaviour 'cannot be clearly understood' without physiological knowledge?",
+          "options": [
+            "Behaviour depends on many processes that must coordinate for any act to occur",
+            "Behaviour is random and has no causes",
+            "Only physiologists are allowed to study behaviour",
+            "Overt behaviour has no link with the brain"
+          ],
+          "answerIndex": 0,
+          "explanation": "Every visible act rests on coordinated internal processes, so knowing them explains the act. Saying overt behaviour has no link with the brain contradicts the field's foundation."
+        }
+      ]
+    }
+  ]
+}

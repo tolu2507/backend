@@ -1,0 +1,742 @@
+{
+  "unit": 5,
+  "title": "Vision I: The Eye",
+  "summary": "How the eye is protected and built in three layers, how rods and cones turn light into nerve signals, and how the eye focuses, adapts to darkness and tracks the day.",
+  "sections": [
+    {
+      "name": "Protection and the three layers",
+      "lesson": {
+        "title": "Building a camera from living tissue",
+        "minutes": 10,
+        "hook": "If you could not sense the world, it would not exist for you. Vision is the sense most of us rely on most. So how does a ball of jelly the size of a ping-pong ball let you read this?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Why sensation matters",
+            "body": "Nearly all our knowledge and action rests on **sensation** and **perception**. Whatever our senses cannot pick up is, in practice, absent from our lives; whatever they pick up wrongly reaches us **bent out of shape**.\n\nTo understand behaviour, psychologists must understand how the senses connect us to the world, starting with **vision**.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "World",
+                "Senses",
+                "Brain",
+                "Experience"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "A protected sphere",
+            "body": "The eye is roughly a sphere just under an inch (about 2.4 cm) across. The tough white **sclera** helps the fluid-filled eyeball keep its shape.\n\nThe eye sits in the bony **orbit** of the skull, which deflects many blows, and is cushioned by **fat**. People who are starving look hollow-eyed partly because this fat cushion shrinks.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "shield",
+                  "label": "Bony orbit"
+                },
+                {
+                  "icon": "eye",
+                  "label": "Sclera"
+                },
+                {
+                  "icon": "layers",
+                  "label": "Fat cushion"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "steps",
+            "heading": "Eyelids and tears",
+            "steps": [
+              {
+                "title": "Blinking",
+                "detail": "Eyelids close voluntarily or by reflex, shielding the eye from incoming objects."
+              },
+              {
+                "title": "Cleaning",
+                "detail": "Each blink moistens and cleans the front of the eye."
+              },
+              {
+                "title": "Tears",
+                "detail": "Made mainly in the lacrimal gland at the outer corner; water, salt, glucose, proteins and bacteria-killing substances."
+              },
+              {
+                "title": "Flushing",
+                "detail": "Tears wash away dust and stop the lids scratching the eye; emotional tears differ in composition."
+              }
+            ]
+          },
+          {
+            "kind": "check",
+            "question": "Tears are produced mainly in the:",
+            "options": [
+              "Lacrimal gland",
+              "Ciliary body",
+              "Choroid",
+              "Optic nerve"
+            ],
+            "answerIndex": 0,
+            "why": "Most tears come from the lacrimal gland, tucked at the outer edge of each eye. The ciliary body secretes aqueous humour inside the eye."
+          },
+          {
+            "kind": "teach",
+            "heading": "Two eyes working as a pair",
+            "body": "The two eyes are separate organs, but many of their actions are **coordinated** so they work as a pair. You can see with one eye, but **three-dimensional (depth) vision** suffers, especially for judging **distance**.\n\nInside, each eye has **three layers of tissue** and inner contents: the **lens**, **aqueous humour** and **vitreous humour**.",
+            "visual": {
+              "type": "venn",
+              "left": "Left eye",
+              "right": "Right eye",
+              "both": "Depth vision"
+            }
+          },
+          {
+            "kind": "terms",
+            "heading": "The three layers",
+            "terms": [
+              {
+                "term": "Outer fibrous layer",
+                "meaning": "Sclera and cornea: the tough coat and the clear front window"
+              },
+              {
+                "term": "Middle vascular layer (uveal tract)",
+                "meaning": "Choroid, ciliary body and iris"
+              },
+              {
+                "term": "Inner nervous layer",
+                "meaning": "The retina, which turns light into nerve signals"
+              },
+              {
+                "term": "Inner contents",
+                "meaning": "Lens, aqueous humour and vitreous humour"
+              }
+            ]
+          },
+          {
+            "kind": "teach",
+            "heading": "Cornea, pupil and iris",
+            "body": "The **cornea** is the clear front covering. It does much of the **focusing**, bending light that enters through the **pupil** towards the back of the eye.\n\nAround the pupil is the **iris**, a circular muscle that gives eyes their colour. It **widens or narrows the pupil** to let in more or less light: wide in a dark room, tiny in bright sunshine.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Light",
+                "Cornea",
+                "Pupil (iris sets size)",
+                "Lens",
+                "Retina"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Choroid and ciliary body",
+            "body": "The **choroid** is a dark brown layer packed with **blood vessels**. It nourishes the eye and **absorbs** light after it passes the retina, reducing stray reflections.\n\nThe **ciliary body** has **ciliary muscles**, which change the **thickness of the lens** so it can focus near or far objects, and **epithelial cells** that secrete **aqueous humour** into the front chamber.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "pulse",
+                  "label": "Choroid: blood supply"
+                },
+                {
+                  "icon": "fitness",
+                  "label": "Ciliary muscle"
+                },
+                {
+                  "icon": "eye",
+                  "label": "Lens shape"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Which structure adjusts the size of the pupil?",
+            "options": [
+              "Cornea",
+              "Choroid",
+              "Iris",
+              "Retina"
+            ],
+            "answerIndex": 2,
+            "why": "The iris is the circular muscle around the pupil. The ciliary muscles change the lens, not the pupil."
+          },
+          {
+            "kind": "example",
+            "heading": "Walking out of a dark hall",
+            "story": "Musa leaves a dim lecture theatre into the midday sun at UI and squints painfully. Within seconds, his irises shrink his pupils to pinpoints and he can see comfortably. That evening, in a power cut, his pupils open wide to catch what little light there is.",
+            "takeaway": "The iris constantly adjusts pupil size to control how much light reaches the retina."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'describe the anatomy of the eye' organised by the three layers. Objectives test which structure belongs to which layer and its job. Traps: putting the iris in the outer layer (it is middle/uveal), or confusing the ciliary body (lens shape) with the iris (pupil size).",
+            "sampleQuestion": "The middle vascular layer (uveal tract) of the eye consists of: (a) sclera and cornea (b) choroid, ciliary body and iris (c) retina and optic nerve (d) lens and vitreous humour",
+            "howToAnswer": "Answer (b). In essays, list each layer with its parts and a function for each.",
+            "scholars": [
+              "Wässle (2004)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Sensation and perception connect us to the world.",
+              "Protection: bony orbit, fat, eyelids and tears from the lacrimal gland.",
+              "Outer layer: sclera and cornea; middle: choroid, ciliary body, iris; inner: retina.",
+              "The iris sets pupil size; ciliary muscles change lens shape.",
+              "Two eyes together give depth vision."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The tough white outer covering of the eye is the:",
+          "options": [
+            "Sclera",
+            "Cornea",
+            "Iris",
+            "Retina"
+          ],
+          "answerIndex": 0,
+          "explanation": "The sclera is the white of the eye; the cornea is the clear front."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The inner nervous layer of the eye is the:",
+          "options": [
+            "Retina",
+            "Choroid",
+            "Iris",
+            "Sclera"
+          ],
+          "answerIndex": 0,
+          "explanation": "The retina contains the cells that turn light into nerve impulses."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The outer fibrous layer of the eye consists of the:",
+          "options": [
+            "Lens and ciliary body",
+            "Choroid and iris",
+            "Retina and fovea",
+            "Sclera and cornea"
+          ],
+          "answerIndex": 3,
+          "explanation": "Sclera and cornea make up the outer fibrous layer."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The ciliary muscles function to:",
+          "options": [
+            "Change the thickness of the lens for focusing",
+            "Change pupil size",
+            "Produce tears",
+            "Absorb light"
+          ],
+          "answerIndex": 0,
+          "explanation": "They reshape the lens to focus near or far; the iris sets pupil size."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The choroid is notable for being:",
+          "options": [
+            "Transparent",
+            "A tear-producing gland",
+            "Made of rods and cones",
+            "Rich in blood vessels and dark in colour"
+          ],
+          "answerIndex": 3,
+          "explanation": "The dark choroid supplies blood and absorbs light."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Using only one eye most impairs:",
+          "options": [
+            "Colour vision",
+            "Depth perception, especially of distance",
+            "Night vision",
+            "Blinking"
+          ],
+          "answerIndex": 1,
+          "explanation": "Two coordinated eyes are needed for good three-dimensional vision."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A severely malnourished child appears hollow-eyed. This is mainly due to loss of:",
+          "options": [
+            "The cornea",
+            "Tears",
+            "Fat cushioning the eye",
+            "The iris"
+          ],
+          "answerIndex": 2,
+          "explanation": "The fat cushion in the orbit shrinks with starvation."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A student's pupils become very small on entering bright sunlight. The structure responsible is the:",
+          "options": [
+            "Iris",
+            "Ciliary body",
+            "Choroid",
+            "Lens"
+          ],
+          "answerIndex": 0,
+          "explanation": "The iris narrows the pupil to cut incoming light."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Dust blows into Zainab's eye; she blinks rapidly and her eyes water. Which protective systems are working?",
+          "options": [
+            "Choroid and retina",
+            "Eyelids and tears",
+            "Iris and lens",
+            "Optic nerve and fovea"
+          ],
+          "answerIndex": 1,
+          "explanation": "Blinking and tear flushing protect and clean the eye surface."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following belong to the middle vascular layer EXCEPT the:",
+          "options": [
+            "Choroid",
+            "Cornea",
+            "Iris",
+            "Ciliary body"
+          ],
+          "answerIndex": 1,
+          "explanation": "The cornea is part of the outer fibrous layer."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Cornea: absorbs stray light",
+            "Ciliary epithelium: secretes aqueous humour",
+            "Iris: changes lens thickness",
+            "Sclera: converts light to impulses"
+          ],
+          "answerIndex": 1,
+          "explanation": "Ciliary epithelial cells secrete aqueous humour."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement about tears is correct?",
+          "options": [
+            "They contain only water",
+            "They are made in the ciliary body",
+            "They contain salt, glucose, proteins and bacteria-killing substances",
+            "Emotional tears are identical to other tears"
+          ],
+          "answerIndex": 2,
+          "explanation": "Tears are a mix including antibacterial substances; emotional tears differ somewhat."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. The cornea helps focus light. II. The iris is part of the outer fibrous layer. III. The retina is the inner nervous layer. Which are correct?",
+          "options": [
+            "I and II only",
+            "II and III only",
+            "I and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 2,
+          "explanation": "I and III are correct. The iris belongs to the middle vascular layer."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which sequence correctly traces light through the eye?",
+          "options": [
+            "Retina, lens, pupil, cornea",
+            "Lens, cornea, retina, pupil",
+            "Cornea, pupil, lens, retina",
+            "Pupil, retina, cornea, lens"
+          ],
+          "answerIndex": 2,
+          "explanation": "Light passes the cornea, enters through the pupil, is focused by the lens, and lands on the retina."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Why do psychologists say that if we sense the world incorrectly, our world becomes distorted?",
+          "options": [
+            "Because perception does not depend on the senses",
+            "Because vision is unimportant",
+            "Because the brain ignores the senses",
+            "Because our experience is built from sensory information, so faulty input changes what we experience"
+          ],
+          "answerIndex": 3,
+          "explanation": "Everything we perceive starts with sensation; errors there shape our whole picture of reality."
+        }
+      ]
+    },
+    {
+      "name": "Retina, rods, cones and adaptation",
+      "lesson": {
+        "title": "Turning light into signals",
+        "minutes": 10,
+        "hook": "Under moonlight, a red tomato looks black and an orange cat looks grey. The tomato has not changed colour. Your eyes have switched to a different set of cells.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "The retina",
+            "body": "Lining the rear of the eyeball is the **retina**, a layer about as thin as paper (Wässle, 2004), containing cells that convert light into **nerve impulses**.\n\nThis conversion of light energy into neural signals is called **transduction**, and its critical step happens in the retina.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Light energy",
+                "Retina",
+                "Transduction",
+                "Nerve impulses"
+              ]
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Rods versus cones",
+            "left": {
+              "title": "Rods",
+              "points": [
+                "About 100 to 120 million per eye",
+                "Very sensitive to light",
+                "Shades of grey only",
+                "Everywhere except the fovea"
+              ]
+            },
+            "right": {
+              "title": "Cones",
+              "points": [
+                "About 5 to 6 million per eye",
+                "Less sensitive to light",
+                "Three types: colour vision",
+                "Densest in the fovea"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Why night is grey",
+            "body": "In very dim light there is not enough light for the **cones** to work, so **night vision relies on rods alone**. Rods register only shades of grey.\n\nSo under moonlight, a red tomato appears black and an orange cat appears grey. The three types of **cones** each respond most strongly to a particular **wavelength**, and their combined output produces **colour**.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Dim light: rods",
+              "right": "Bright light: cones",
+              "marker": 20,
+              "label": "Moonlight"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Night vision depends mainly on:",
+            "options": [
+              "Cones",
+              "The fovea",
+              "Rods",
+              "The iris"
+            ],
+            "answerIndex": 2,
+            "why": "Rods are highly light-sensitive; cones need more light, so they stop working in dim conditions."
+          },
+          {
+            "kind": "teach",
+            "heading": "The fovea: sharpest sight",
+            "body": "The **fovea** is a small central region of the retina packed with **cones**, giving the **sharpest, highest-resolution** images.\n\nWe rarely notice how blurry most of our visual field is, because we keep moving our eyes so that whatever interests us falls on the fovea.",
+            "visual": {
+              "type": "stat",
+              "value": "Fovea",
+              "label": "Densest cones, sharpest image"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Accommodation",
+            "body": "**Accommodation** is the automatic adjustment of the eye to see at different distances. Muscles change the **shape of the lens** so it focuses near or far objects onto the retina.\n\nWith **age**, the lens **thickens and stiffens** (Fatt & Weissman, 1992), so many older people struggle to see **near** objects like print and need reading glasses.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Object distance",
+                "Ciliary muscles",
+                "Lens reshapes",
+                "Sharp focus"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The optic nerve and the blind spot",
+            "body": "The **optic nerve** is a thick bundle of fibres, about as thick as your little finger, carrying impulses from the retina to the brain.\n\nWhere it leaves the retina there are **no rods or cones**, creating a **blind spot**. You never notice it because the brain **fills in** patterns across the gap.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Retina",
+                "Optic nerve",
+                "Brain"
+              ]
+            }
+          },
+          {
+            "kind": "steps",
+            "heading": "Dark adaptation",
+            "steps": [
+              {
+                "title": "Enter darkness",
+                "detail": "At first, a dark cinema looks pitch black."
+              },
+              {
+                "title": "Pupils widen",
+                "detail": "They can let in about 16 times more light than in full daylight."
+              },
+              {
+                "title": "Rhodopsin builds up",
+                "detail": "Rods produce more of this light-sensitive pigment and grow more sensitive."
+              },
+              {
+                "title": "After about 30 minutes",
+                "detail": "The eye is roughly 100,000 times more sensitive than in daylight; rods can respond to a single photon."
+              }
+            ]
+          },
+          {
+            "kind": "example",
+            "heading": "Spotting a star",
+            "story": "On a camping trip far from city lights, Tolu struggles to see a faint star when she stares straight at it. Her friend tells her to look slightly to one side. The star appears. Off-centre vision falls on rod-rich parts of the retina, away from the cone-packed fovea.",
+            "takeaway": "Because rods are absent from the fovea, faint objects at night are best seen by looking slightly to the side."
+          },
+          {
+            "kind": "teach",
+            "heading": "A third light-sensing cell",
+            "body": "Rods and cones are not the whole story. **Berson and colleagues (2002)** found that certain retinal **ganglion cells** respond to light in ways that match light's effect on **circadian behaviour**: daily rhythms such as **waking and sleeping**.\n\nSo the retina has **three** kinds of light-transducing cells, and the third helps set your body clock.",
+            "visual": {
+              "type": "cycle",
+              "nodes": [
+                "Daylight",
+                "Ganglion cells",
+                "Body clock",
+                "Sleep and waking"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Berson and colleagues (2002) showed that certain retinal ganglion cells help regulate:",
+            "options": [
+              "Circadian rhythms",
+              "Colour vision",
+              "Depth perception",
+              "Pupil colour"
+            ],
+            "answerIndex": 0,
+            "why": "These light-sensitive ganglion cells link light to daily rhythms of sleep and waking."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Favourites: rods versus cones (numbers, sensitivity, colour, location), dark adaptation numbers (30 minutes, 100,000 times, pupil 16 times), and why the blind spot goes unnoticed. Trap: saying rods are densest in the fovea. The fovea has cones; rods are everywhere else.",
+            "sampleQuestion": "Which of the following is true of cones? (a) about 120 million per eye (b) see only shades of grey (c) densest in the fovea and responsible for colour vision (d) work best in dim light",
+            "howToAnswer": "Answer (c). The other options describe rods. In essays, tabulate rods versus cones.",
+            "scholars": [
+              "Berson et al. (2002)",
+              "Wässle (2004)",
+              "Fatt & Weissman (1992)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Transduction turns light into nerve impulses in the retina.",
+              "Rods: many, sensitive, grey, night vision; cones: fewer, colour, fovea.",
+              "Accommodation reshapes the lens; it weakens with age.",
+              "Blind spot where the optic nerve leaves; the brain fills it in.",
+              "Dark adaptation: wider pupils plus rhodopsin; ganglion cells set circadian rhythms."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The conversion of light energy into nerve impulses is called:",
+          "options": [
+            "Accommodation",
+            "Transduction",
+            "Adaptation",
+            "Refraction"
+          ],
+          "answerIndex": 1,
+          "explanation": "Transduction converts physical energy into neural signals."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which retinal cells allow us to see colour?",
+          "options": [
+            "Cones",
+            "Rods",
+            "Ganglion cells only",
+            "Choroid cells"
+          ],
+          "answerIndex": 0,
+          "explanation": "Three types of cones respond to different wavelengths, producing colour vision."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The region of the retina with the sharpest vision is the:",
+          "options": [
+            "Blind spot",
+            "Fovea",
+            "Choroid",
+            "Optic disc"
+          ],
+          "answerIndex": 1,
+          "explanation": "The fovea has the densest cones and highest resolution."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Roughly how many rods does each eye contain?",
+          "options": [
+            "5 to 6 million",
+            "1,000",
+            "100 to 120 million",
+            "500 million"
+          ],
+          "answerIndex": 2,
+          "explanation": "Each eye has 100–120 million rods and 5–6 million cones."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The blind spot occurs because:",
+          "options": [
+            "The fovea lacks cones",
+            "The iris blocks light",
+            "The lens is cloudy",
+            "There are no rods or cones where the optic nerve leaves the retina"
+          ],
+          "answerIndex": 3,
+          "explanation": "No receptors exist at the optic nerve's exit point."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Accommodation refers to:",
+          "options": [
+            "Getting used to darkness",
+            "Pupil widening",
+            "Changing lens shape to focus at different distances",
+            "Colour mixing"
+          ],
+          "answerIndex": 2,
+          "explanation": "Accommodation adjusts the lens for near or far focus."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A 55-year-old lecturer holds exam scripts at arm's length to read them. This is most likely due to:",
+          "options": [
+            "Loss of rods",
+            "A larger blind spot",
+            "A thicker, less flexible lens",
+            "Damaged choroid"
+          ],
+          "answerIndex": 2,
+          "explanation": "With age the lens stiffens, reducing near focus."
+        },
+        {
+          "difficulty": 3,
+          "stem": "In a dark cinema, Ada can barely see at first but sees well after half an hour. The main changes are:",
+          "options": [
+            "Pupils narrow and cones activate",
+            "The lens thickens",
+            "Pupils widen and rods produce more rhodopsin",
+            "The fovea fills with rods"
+          ],
+          "answerIndex": 2,
+          "explanation": "Dark adaptation combines larger pupils and increased rod sensitivity through rhodopsin."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Under moonlight, a red car looks dark grey. This is because:",
+          "options": [
+            "Cones dominate at night",
+            "Only rods are working, and they register no colour",
+            "The car changed colour",
+            "The iris filters red"
+          ],
+          "answerIndex": 1,
+          "explanation": "In dim light, colourless rod vision takes over."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are true of rods EXCEPT:",
+          "options": [
+            "They are highly sensitive to light",
+            "They are densest in the fovea",
+            "They register shades of grey",
+            "They can respond to a single photon"
+          ],
+          "answerIndex": 1,
+          "explanation": "The fovea contains cones; rods are absent there."
+        },
+        {
+          "difficulty": 4,
+          "stem": "After about 30 minutes in the dark, the eye becomes roughly how much more sensitive than in daylight?",
+          "options": [
+            "100,000 times",
+            "1,000 times",
+            "10 times",
+            "16 times"
+          ],
+          "answerIndex": 0,
+          "explanation": "Sensitivity rises about 100,000-fold; 16 times refers to how much more light a wide pupil admits."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Ganglion cells: circadian light detection",
+            "Rhodopsin: cone pigment for colour",
+            "Fovea: no receptors",
+            "Blind spot: densest cones"
+          ],
+          "answerIndex": 0,
+          "explanation": "Some ganglion cells detect light for circadian rhythms. Rhodopsin is the rod pigment."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. There are three kinds of light-transducing cells in the retina. II. Cones work well in very dim light. III. The brain fills in the blind spot. Which are correct?",
+          "options": [
+            "I and II only",
+            "I, II and III",
+            "II and III only",
+            "I and III only"
+          ],
+          "answerIndex": 3,
+          "explanation": "I and III are correct. II is false: cones need more light than rods."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Why do astronomers advise looking slightly to the side of a faint star?",
+          "options": [
+            "To use the cone-rich fovea",
+            "To use the blind spot",
+            "To avoid the lens",
+            "To place the image on rod-rich retina outside the fovea"
+          ],
+          "answerIndex": 3,
+          "explanation": "Rods, absent from the fovea, are more sensitive to faint light."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A person with damaged rods but healthy cones would most likely report:",
+          "options": [
+            "Difficulty seeing at night",
+            "Poor colour vision in daylight",
+            "No blind spot",
+            "Inability to read in bright light"
+          ],
+          "answerIndex": 0,
+          "explanation": "Rods support night vision, so their loss causes night blindness while daytime colour vision survives."
+        }
+      ]
+    }
+  ]
+}

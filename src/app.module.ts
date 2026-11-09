@@ -30,6 +30,7 @@ import { StudentModule } from './student/student.module.js';
 import { SupportModule } from './support/support.module.js';
 import { TuckShopModule } from './tuckshop/tuckshop.module.js';
 import { TutorModule } from './tutor/tutor.module.js';
+import { UniversityModule } from './university/university.module.js';
 import { HealthController } from './health.controller.js';
 
 @Module({
@@ -60,6 +61,7 @@ import { HealthController } from './health.controller.js';
     SupportModule,
     RankingsModule,
     ArenaModule,
+    UniversityModule,
   ],
   controllers: [CatalogController, EnquiriesController, HealthController],
   providers: [{ provide: APP_INTERCEPTOR, useClass: ActivityLogInterceptor }],

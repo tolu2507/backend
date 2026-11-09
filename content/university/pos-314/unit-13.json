@@ -1,0 +1,732 @@
+{
+  "unit": 13,
+  "title": "Normative Theory",
+  "summary": "Theory about what ought to be in world politics: norms, ethics and values, the nuclear non-proliferation norm, and the cosmopolitan versus communitarian debate.",
+  "sections": [
+    {
+      "name": "What ought to be",
+      "lesson": {
+        "title": "From 'what is' to 'what should be'",
+        "minutes": 10,
+        "hook": "Realism can tell you why a state might build a nuclear bomb. It cannot tell you whether it should. That second question belongs to a different kind of theory.",
+        "slides": [
+          {
+            "kind": "compare",
+            "heading": "Empirical versus normative",
+            "left": {
+              "title": "Empirical theory",
+              "points": [
+                "Explains what is",
+                "Predicts what will be",
+                "Tested against evidence",
+                "Realism, liberalism, Marxism"
+              ]
+            },
+            "right": {
+              "title": "Normative theory",
+              "points": [
+                "Asks what ought to be",
+                "Deals with norms, morality, ethics",
+                "Not settled by empirical tests",
+                "Guides choices"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "What is a norm?",
+            "body": "A **norm** is a shared expectation of proper behaviour. It can be as simple as **greeting elders by kneeling or prostrating** in Yoruba culture, or **bowing** in Japan.\n\nIn world politics, norms set expectations for **states**: respecting **human rights**, being **transparent** about security matters, not using certain weapons. **Normative theory** studies such standards, along with **obligations, rights, duties and responsibilities** of individuals and states.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "people",
+                  "label": "Social norms"
+                },
+                {
+                  "icon": "scale",
+                  "label": "Rights and duties"
+                },
+                {
+                  "icon": "globe",
+                  "label": "State behaviour"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The big contested questions",
+            "body": "Normative IR tackles hard questions:\n\n- Do **states and borders** carry moral weight?\n- Can a **war be just**, and how should soldiers behave in one?\n- Are **human rights** universal?\n- When is **intervention** legitimate?\n- Should wealth be **redistributed** between rich and poor countries?\n\nThese questions cannot be answered by data alone; they need **moral reasoning**.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "flag",
+                  "label": "Borders"
+                },
+                {
+                  "icon": "shield",
+                  "label": "Just war"
+                },
+                {
+                  "icon": "hand-left",
+                  "label": "Intervention"
+                },
+                {
+                  "icon": "cash",
+                  "label": "Justice"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "What distinguishes normative theory from empirical theory?",
+            "options": [
+              "Normative theory is tested by experiments",
+              "Normative theory ignores ethics",
+              "Normative theory asks what ought to be rather than explaining what is",
+              "Normative theory only predicts wars"
+            ],
+            "answerIndex": 2,
+            "why": "Normative theory is about values and obligations; empirical theory explains and predicts, and can be tested."
+          },
+          {
+            "kind": "teach",
+            "heading": "Sidelined, then revived",
+            "body": "For a long time, **positivist** theories (realism, liberalism, Marxism) dominated IR, and normative theory was **downplayed**. The rise of **post-positivist** thinking in the **1980s** brought it back.\n\nIts roots are ancient: **Plato, Aristotle, Kant, Hegel and Marx**. It borrows **cosmopolitanism** and **communitarianism** from political theory, and **deontology** and **consequentialism** from moral philosophy.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Positivist dominance",
+                "1980s post-positivism",
+                "Normative revival"
+              ]
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Two styles of moral reasoning",
+            "left": {
+              "title": "Deontology",
+              "points": [
+                "Some acts are right or wrong in themselves",
+                "Duties and rules come first",
+                "Kant's categorical imperative"
+              ]
+            },
+            "right": {
+              "title": "Consequentialism",
+              "points": [
+                "Judge acts by their outcomes",
+                "The best result is the right act",
+                "Weighs costs and benefits"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Values are everywhere",
+            "body": "**Values** sit at the core of normative theory, but they are present in **all** theories. Empirical theorists try to limit bias through **objective testing**, yet personal values can never be fully filtered out: they shape which topics a scholar picks and how.\n\nIn **constructivism, critical theory and feminism**, values are less of a problem because they are openly part of **interpretive** understanding.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Value-free claim",
+              "right": "Values openly central",
+              "marker": 90,
+              "label": "Normative theory"
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "The nuclear norm",
+            "story": "The Nuclear Non-Proliferation Treaty, negotiated in 1968 and in force from 1970, commits non-nuclear states not to acquire nuclear weapons and nuclear states to move towards disarmament. Nigeria was an early signatory. South Africa, Brazil and Argentina gave up their programmes in the 1990s; Belarus, Kazakhstan and Ukraine surrendered Soviet-era weapons. Yet India, Israel and Pakistan never joined, and North Korea withdrew in 2003.",
+            "takeaway": "Norms can spread widely and change state behaviour, though adherence is never perfect."
+          },
+          {
+            "kind": "teach",
+            "heading": "Why policymakers need it",
+            "body": "Policy-making is about **choices**. Leaders choose not only by asking 'what will happen?' but also 'what **ought** we to do?'. Normative theory develops the **grounds** for such choices.\n\nIt offers **ethical guidelines** to policymakers and anyone engaged in world politics, while accepting that **choice is constrained by circumstance**. It also underpins **international law**: its principles, treaties, customs and the writings of jurists.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Facts: what is",
+                "Values: what ought",
+                "Policy choice"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Under the NPT, states without nuclear weapons agree to:",
+            "options": [
+              "Not acquire or develop nuclear weapons",
+              "Build weapons only for defence",
+              "Transfer technology to their neighbours",
+              "Leave the treaty after ten years"
+            ],
+            "answerIndex": 0,
+            "why": "Non-nuclear members pledge not to acquire weapons; nuclear members pledge not to transfer them and to move towards disarmament."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Two classic essays: 'differences between normative and empirical theories' and 'evaluate the relevance of normative theory to policymakers'. Objectives test the NPT dates (negotiated 1968, in force 1970), which states gave up weapons, and which never joined. Trap: thinking normative claims can be proved true by data.",
+            "sampleQuestion": "Which of the following states dismantled their nuclear weapons programmes in the 1990s and joined the NPT? (a) India, Israel, Pakistan (b) South Africa, Brazil, Argentina (c) North Korea, Iran, Iraq (d) China, France, Russia",
+            "howToAnswer": "Answer (b). India, Israel and Pakistan stayed outside; North Korea withdrew in 2003.",
+            "scholars": [
+              "Brown (1992)",
+              "Cochran (2000)",
+              "Kant",
+              "Walzer (1977)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Normative theory asks what ought to be; empirical theory explains what is.",
+              "It covers norms, ethics, rights, duties, just war, intervention and justice.",
+              "Sidelined by positivism, revived by 1980s post-positivism.",
+              "Values shape all theories, openly or not.",
+              "The NPT shows a norm spreading, with imperfect adherence."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Normative theory is mainly concerned with:",
+          "options": [
+            "What is",
+            "Predicting elections",
+            "What ought to be",
+            "Measuring military power"
+          ],
+          "answerIndex": 2,
+          "explanation": "Normative theory deals with what ought to be, unlike empirical theory."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The Nuclear Non-Proliferation Treaty entered into force in:",
+          "options": [
+            "1945",
+            "1968",
+            "2003",
+            "1970"
+          ],
+          "answerIndex": 3,
+          "explanation": "It was negotiated in 1968 and entered into force in 1970."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which of these is an example of an empirical theory?",
+          "options": [
+            "Cosmopolitanism",
+            "Realism",
+            "Deontology",
+            "Communitarianism"
+          ],
+          "answerIndex": 1,
+          "explanation": "Realism explains how the world is. The others are normative categories."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Propositions in normative theory, unlike empirical theory:",
+          "options": [
+            "Are proved by experiments",
+            "Are not settled by empirical tests",
+            "Never involve values",
+            "Are only about economics"
+          ],
+          "answerIndex": 1,
+          "explanation": "Moral claims cannot be confirmed or refuted simply by data."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Normative theory returned to prominence in IR with the rise of:",
+          "options": [
+            "Post-positivist thinking in the 1980s",
+            "Positivism in the 1950s",
+            "Realism after 1945",
+            "Marxism in the 1910s"
+          ],
+          "answerIndex": 0,
+          "explanation": "Post-positivist approaches in the 1980s revived normative theory."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which state withdrew from the NPT in 2003?",
+          "options": [
+            "South Africa",
+            "Ukraine",
+            "Brazil",
+            "North Korea"
+          ],
+          "answerIndex": 3,
+          "explanation": "North Korea withdrew in 2003 and continued its weapons programme."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A minister asks whether it is morally right to deport refugees back to a war zone. This is a question for:",
+          "options": [
+            "Empirical theory",
+            "Neo-realism only",
+            "Normative theory",
+            "Statistics alone"
+          ],
+          "answerIndex": 2,
+          "explanation": "Questions of moral obligation are the domain of normative theory."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A leader refuses to torture prisoners even if it might save lives, because torture is wrong in itself. This reasoning is:",
+          "options": [
+            "Consequentialist",
+            "Marxist",
+            "Realist",
+            "Deontological"
+          ],
+          "answerIndex": 3,
+          "explanation": "Judging an act as wrong in itself, regardless of outcomes, is deontological."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A government supports an intervention because it expects to save more lives than it costs. This reasoning is:",
+          "options": [
+            "Deontological",
+            "Communitarian only",
+            "Consequentialist",
+            "Positivist"
+          ],
+          "answerIndex": 2,
+          "explanation": "Judging by outcomes is consequentialist."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following states gave up nuclear weapons or programmes EXCEPT:",
+          "options": [
+            "Pakistan",
+            "Kazakhstan",
+            "Ukraine",
+            "South Africa"
+          ],
+          "answerIndex": 0,
+          "explanation": "Pakistan remains outside the NPT with nuclear weapons."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Why do normative theorists argue that empirical theories also contain values?",
+          "options": [
+            "Personal values cannot be fully filtered out, even with objective testing",
+            "Empirical theories openly reject facts",
+            "Empirical theories are religious",
+            "Values only exist in normative theory"
+          ],
+          "answerIndex": 0,
+          "explanation": "Values shape topic choice and method, even when scholars try to be objective."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Deontology: judge acts by outcomes",
+            "Consequentialism: duties regardless of results",
+            "Deontology: Kant's categorical imperative",
+            "Positivism: what ought to be"
+          ],
+          "answerIndex": 2,
+          "explanation": "Kant's categorical imperative is the classic deontological principle."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Normative theory underpins international law. II. Normative theory ignores circumstances when giving guidance. III. The NPT norm has been followed perfectly. Which are correct?",
+          "options": [
+            "I and II only",
+            "I only",
+            "I and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 1,
+          "explanation": "Only I is correct. Normative theorists accept choice is constrained by circumstance, and NPT adherence is imperfect."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Why is normative theory described as 'inescapable' in foreign policy?",
+          "options": [
+            "Because laws require it",
+            "Because every policy choice involves a judgement about what ought to be done",
+            "Because empirical theories are false",
+            "Because it predicts outcomes perfectly"
+          ],
+          "answerIndex": 1,
+          "explanation": "Policymaking always involves choosing among alternatives, which requires value judgements."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A realist says the NPT works only because great powers enforce it. A normative theorist would point to which evidence that the norm itself matters?",
+          "options": [
+            "States like South Africa and Brazil voluntarily abandoning their programmes",
+            "North Korea's withdrawal",
+            "India staying outside",
+            "The size of nuclear arsenals"
+          ],
+          "answerIndex": 0,
+          "explanation": "Voluntary abandonment of programmes suggests the norm shaped state choices, not just coercion."
+        }
+      ]
+    },
+    {
+      "name": "Cosmopolitans and communitarians",
+      "lesson": {
+        "title": "Humanity or the nation?",
+        "minutes": 9,
+        "hook": "When floods hit Pakistan, should a Nigerian taxpayer feel any duty to help? A cosmopolitan says yes, as a fellow human. A communitarian says your first duty is to your own community. Who is right?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Two competing world views",
+            "body": "**Cosmopolitanism** and **communitarianism** are competing, idealised world views. They help us think about our **moral identity**, where our **values come from**, **how far** our obligations to others reach, and what **motivates** our actions.\n\nAt stake is a central question: are **states** or **individuals** (and humanity as a whole) the true bearers of rights and duties in world politics?",
+            "visual": {
+              "type": "scale",
+              "left": "Humanity",
+              "right": "Political community",
+              "heavier": "even"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Cosmopolitanism",
+            "body": "**Cosmopolitanism** is **individual-centred**. It says normative theory should focus on **humanity as a whole** or on **individuals**. Ethical values come from every person's **universal human rights**, wherever they live or were born.\n\nIt began with the **Stoics** of ancient Greece, who called humans citizens of the **cosmos**, not just of their city-state. **Kant** gave it its deepest roots through his **categorical imperative**.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "person",
+                  "label": "Each individual"
+                },
+                {
+                  "icon": "globe",
+                  "label": "Citizen of world"
+                },
+                {
+                  "icon": "shield",
+                  "label": "Universal rights"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Communitarianism",
+            "body": "**Communitarianism** is **state-centred**. It holds that the right focus is the **political community**, the state. Belonging to that community is what gives people's lives **meaning and identity**.\n\nOn this view, our strongest duties are to fellow members, and communities have the right to shape their own moral life.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "flag",
+                  "label": "The state"
+                },
+                {
+                  "icon": "home",
+                  "label": "Community"
+                },
+                {
+                  "icon": "heart",
+                  "label": "Shared identity"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Which world view is individual-centred and rooted in universal human rights?",
+            "options": [
+              "Realism",
+              "Communitarianism",
+              "Cosmopolitanism",
+              "Mercantilism"
+            ],
+            "answerIndex": 2,
+            "why": "Cosmopolitanism centres on individuals and humanity; communitarianism centres on the political community."
+          },
+          {
+            "kind": "compare",
+            "heading": "Who said what",
+            "left": {
+              "title": "Cosmopolitans",
+              "points": [
+                "Charles Beitz, Thomas Pogge",
+                "Brian Barry, Jürgen Habermas",
+                "Andrew Linklater, Onora O'Neill",
+                "Simon Caney, Allen Buchanan"
+              ]
+            },
+            "right": {
+              "title": "Communitarians",
+              "points": [
+                "Michael Walzer, Mervyn Frost",
+                "Michael Sandel, Charles Taylor",
+                "David Miller, James Tully",
+                "Hedley Bull, Alasdair MacIntyre"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The debates that follow",
+            "body": "This divide drives hard debates. Do states have the right to hold **nuclear arsenals** for self-defence if those weapons could **wipe out humanity**?\n\nIs it acceptable for a culture to practise **female genital cutting** because 'that is our way', or do the **rights of the women** affected outweigh a community's right to decide? These questions lead straight into **intervention** and **human rights**.",
+            "visual": {
+              "type": "scale",
+              "left": "Individual rights",
+              "right": "Community's choice",
+              "heavier": "even"
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Nigeria's own debate",
+            "story": "Nigeria banned female genital mutilation nationally in 2015 through the Violence Against Persons (Prohibition) Act. Supporters cited the universal rights of girls and women. Some communities argued it was a cultural matter for them to decide. The law took the cosmopolitan side; the debate showed both positions are deeply held.",
+            "takeaway": "Cosmopolitan and communitarian views clash over whether universal rights or community traditions should prevail."
+          },
+          {
+            "kind": "check",
+            "question": "A communitarian is most likely to argue that:",
+            "options": [
+              "Every individual is a citizen of the world first",
+              "Membership of the political community gives life meaning, so duties to fellow members come first",
+              "States have no moral significance",
+              "Universal rights override every tradition"
+            ],
+            "answerIndex": 1,
+            "why": "Communitarians centre the political community as the source of identity and the main focus of obligation."
+          },
+          {
+            "kind": "steps",
+            "heading": "Three assumptions of normative theory",
+            "steps": [
+              {
+                "title": "Normative elements everywhere",
+                "detail": "Every theory contains normative choices, from its topic to its methods."
+              },
+              {
+                "title": "Morality in policy evaluation",
+                "detail": "No assessment of foreign policy is complete without weighing moral issues."
+              },
+              {
+                "title": "Values are central",
+                "detail": "Values are key phenomena in international relations."
+              }
+            ]
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'distinguish cosmopolitanism from communitarianism' with scholars. Objectives test who belongs where: Walzer and Bull are communitarians; Beitz, Pogge and Linklater are cosmopolitans. Also know the Stoic origin and Kant's role. A strong essay applies both views to a case such as intervention, nuclear weapons or cultural practices.",
+            "sampleQuestion": "Which of these scholars is associated with communitarianism? (a) Thomas Pogge (b) Charles Beitz (c) Michael Walzer (d) Andrew Linklater",
+            "howToAnswer": "Answer (c). Pogge, Beitz and Linklater are cosmopolitans. In essays, define both, give origins, list scholars, and apply them to a real dilemma.",
+            "scholars": [
+              "Kant",
+              "Beitz",
+              "Pogge",
+              "Walzer",
+              "Bull"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Cosmopolitanism: individual-centred, universal human rights, from the Stoics and Kant.",
+              "Communitarianism: state-centred, the community gives life meaning.",
+              "The debate asks whether states or individuals hold rights and duties.",
+              "It shapes debates on nuclear weapons, intervention and cultural practices.",
+              "Assumptions: normative elements everywhere, morality in policy, values central."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Communitarianism is best described as:",
+          "options": [
+            "Individual-centred",
+            "State-centred",
+            "Class-centred",
+            "Gender-centred"
+          ],
+          "answerIndex": 1,
+          "explanation": "Communitarianism focuses on the political community, the state."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Cosmopolitanism originated with the:",
+          "options": [
+            "Constructivists of the 1990s",
+            "Marxists of the nineteenth century",
+            "Stoics of ancient Greece",
+            "Realists of the 1940s"
+          ],
+          "answerIndex": 2,
+          "explanation": "The Stoics saw humans as citizens of the cosmos."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Who gave cosmopolitanism its deepest intellectual roots through the categorical imperative?",
+          "options": [
+            "Kant",
+            "Hobbes",
+            "Machiavelli",
+            "Marx"
+          ],
+          "answerIndex": 0,
+          "explanation": "Kant's moral philosophy grounds modern cosmopolitanism."
+        },
+        {
+          "difficulty": 2,
+          "stem": "For cosmopolitans, the source of ethical values lies in:",
+          "options": [
+            "The state's interests",
+            "Every person's universal human rights",
+            "Military power",
+            "Religious authority alone"
+          ],
+          "answerIndex": 1,
+          "explanation": "Cosmopolitans ground ethics in rights held by every human being."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which of these scholars is a cosmopolitan?",
+          "options": [
+            "Michael Walzer",
+            "Hedley Bull",
+            "Thomas Pogge",
+            "Alasdair MacIntyre"
+          ],
+          "answerIndex": 2,
+          "explanation": "Pogge is a leading cosmopolitan; the others are communitarians."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which is an assumption of normative theory?",
+          "options": [
+            "Foreign policy evaluation is incomplete without moral appraisal",
+            "Values are irrelevant to IR",
+            "Theories can be fully value-free",
+            "Only material power matters"
+          ],
+          "answerIndex": 0,
+          "explanation": "Normative theorists hold that moral issues must be part of any policy evaluation."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A student argues Nigeria owes the same aid to flood victims in Pakistan as to those in Kogi, because all are human. This view is:",
+          "options": [
+            "Cosmopolitan",
+            "Communitarian",
+            "Realist",
+            "Mercantilist"
+          ],
+          "answerIndex": 0,
+          "explanation": "Treating all humans as equally owed duties regardless of nationality is cosmopolitan."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A politician argues that Nigerians' first duty is to fellow citizens, and foreign aid must wait until local needs are met. This view is:",
+          "options": [
+            "Marxist",
+            "Cosmopolitan",
+            "Feminist",
+            "Communitarian"
+          ],
+          "answerIndex": 3,
+          "explanation": "Prioritising the political community's members is communitarian."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Debate over whether a community may continue a harmful cultural practice against women's wishes reflects the clash between:",
+          "options": [
+            "Realism and liberalism",
+            "Empirical and positivist theory",
+            "Monadic and dyadic approaches",
+            "Cosmopolitan individual rights and communitarian self-determination"
+          ],
+          "answerIndex": 3,
+          "explanation": "It sets universal individual rights against a community's right to shape its own norms."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are communitarians EXCEPT:",
+          "options": [
+            "Charles Beitz",
+            "Mervyn Frost",
+            "Michael Sandel",
+            "Michael Walzer"
+          ],
+          "answerIndex": 0,
+          "explanation": "Charles Beitz is a cosmopolitan."
+        },
+        {
+          "difficulty": 4,
+          "stem": "The cosmopolitan-communitarian debate is ultimately about whether:",
+          "options": [
+            "Wars can be won",
+            "Democracies fight each other",
+            "Rights and obligations belong mainly to states or to individuals and humanity",
+            "Trade increases wealth"
+          ],
+          "answerIndex": 2,
+          "explanation": "It asks who the real bearers of rights and duties in world politics are."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Hedley Bull: cosmopolitan",
+            "Andrew Linklater: communitarian",
+            "Jürgen Habermas: cosmopolitan",
+            "David Miller: cosmopolitan"
+          ],
+          "answerIndex": 2,
+          "explanation": "Habermas is a cosmopolitan. Bull and Miller are communitarians; Linklater is a cosmopolitan."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Every theory contains normative elements. II. Values are central phenomena in IR. III. Moral appraisal is optional in evaluating foreign policy. Which are assumptions of normative theory?",
+          "options": [
+            "I, II and III",
+            "I and III only",
+            "II and III only",
+            "I and II only"
+          ],
+          "answerIndex": 3,
+          "explanation": "I and II are assumptions. III contradicts the claim that evaluation is incomplete without moral appraisal."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A cosmopolitan and a communitarian debate whether a state may keep nuclear weapons that could destroy humanity. The cosmopolitan is most likely to argue that:",
+          "options": [
+            "State security always comes first",
+            "Humanity's survival and individuals' rights outweigh one state's claim to such weapons",
+            "Nuclear weapons are morally neutral",
+            "Only the state's citizens matter"
+          ],
+          "answerIndex": 1,
+          "explanation": "Cosmopolitans weigh obligations to humanity as a whole above a single state's claims."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Why might a communitarian be cautious about humanitarian intervention?",
+          "options": [
+            "They reject all moral reasoning",
+            "They value political communities' right to self-determination and fear outsiders imposing values",
+            "They support all wars",
+            "They deny states exist"
+          ],
+          "answerIndex": 1,
+          "explanation": "Communitarians stress the moral standing of communities, making them wary of external imposition."
+        }
+      ]
+    }
+  ]
+}

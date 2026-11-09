@@ -1,0 +1,676 @@
+{
+  "unit": 10,
+  "title": "Discrimination",
+  "summary": "Why discrimination is hard to spot in one's own life, what it does to the mind and body of its targets, and four practical ways to reduce it.",
+  "sections": [
+    {
+      "name": "Detecting it and its toll",
+      "lesson": {
+        "title": "The bias you cannot see",
+        "minutes": 10,
+        "hook": "Ask a group of women if women in their company are treated unfairly and many say yes. Ask each one if she personally is, and most say no. Both answers cannot be fully true.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Common, yet hard to spot",
+            "body": "Discrimination is widespread, yet one of the biggest obstacles to removing it is surprising: people struggle to **detect it in their own lives**.\n\nIf a job interview goes badly, was it your answers, the interviewer's mood, or your surname? A single event has many possible causes. That uncertainty lets discrimination hide in plain sight.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "search",
+                  "label": "Hard to see"
+                },
+                {
+                  "icon": "person",
+                  "label": "One case"
+                },
+                {
+                  "icon": "people",
+                  "label": "Many cases"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "steps",
+            "heading": "Three reasons it stays hidden",
+            "steps": [
+              {
+                "title": "No control group",
+                "detail": "You cannot rerun your life as a member of a privileged group to compare the treatment you would have got (Fiske, 1998)."
+              },
+              {
+                "title": "Single cases are explained away",
+                "detail": "One incident has many excuses; patterns only show when many cases are pooled (Crosby, 1984)."
+              },
+              {
+                "title": "Denial protects us",
+                "detail": "Admitting mistreatment means feeling wronged and out of control, so people may play it down (Ruggiero & Taylor, 1997)."
+              }
+            ]
+          },
+          {
+            "kind": "check",
+            "question": "Crosby (1984) argued discrimination is easier to detect with:",
+            "options": [
+              "A single dramatic case",
+              "Personal intuition",
+              "Pooled evidence from many cases",
+              "Asking the person who discriminated"
+            ],
+            "answerIndex": 2,
+            "why": "One case can always be explained away; aggregated evidence reveals the pattern."
+          },
+          {
+            "kind": "teach",
+            "heading": "Group yes, me no",
+            "body": "Because of these barriers, women and minority members are **quicker to see their **group** being treated unfairly than to say **they personally** are (Crosby, 1984; Taylor, Wright & Porter, 1994).\n\nThis gap is called the **personal/group discrimination discrepancy**. It does not mean they are wrong about the group; it means each person finds it easier to excuse their own case.",
+            "visual": {
+              "type": "scale",
+              "left": "Group discriminated",
+              "right": "I am discriminated",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "The bank's promotion list",
+            "story": "At a Lagos bank, Halima notices women rarely make branch manager. She tells friends women are held back there. But when she herself is passed over, she tells herself the other candidate had better targets. Only when the union counts promotions over five years does the pattern become undeniable.",
+            "takeaway": "Halima sees group discrimination but excuses her own case; pooled data reveal what single cases hide."
+          },
+          {
+            "kind": "teach",
+            "heading": "The cost to targets' health",
+            "body": "Studying discrimination from the **target's side** shows real harm. Clark and colleagues (1999) described racism as a chronic **stressor**.\n\nWilliams and colleagues (1997) linked the discrimination Black Americans report to poorer **self-rated health**, lower **psychological wellbeing** and more **days off sick**. Like any long-running stress, it wears down mind and body.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Discrimination",
+                "Chronic stress",
+                "Poorer health"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Stereotype threat and blood pressure",
+            "body": "**Stereotype threat** is the worry of confirming a negative stereotype about your group. Steele and Aronson (1995) showed it can lower test performance.\n\nIt also reaches the body. Blascovich and colleagues (2001) found Black participants' **blood pressure rose** under stereotype threat, and McNeilly and colleagues (1995) found similar rises when people faced **racist provocation**.",
+            "visual": {
+              "type": "stat",
+              "value": "BP rises",
+              "label": "Under stereotype threat"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Taylor, Wright and Porter (1994) found minority members tend to report:",
+            "options": [
+              "More personal than group discrimination",
+              "Equal amounts of both",
+              "No discrimination at all",
+              "More group than personal discrimination"
+            ],
+            "answerIndex": 3,
+            "why": "This is the personal/group discrimination discrepancy: people see their group targeted more readily than themselves."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "A common question: 'why is discrimination difficult to detect at the individual level?' Give all three reasons with their authors. Objectives twist it with scenarios of someone denying their own mistreatment. Also expect health consequences with names: Williams et al. (1997), Blascovich et al. (2001).",
+            "sampleQuestion": "Which of the following is NOT a reason individuals find it hard to detect discrimination? (a) they cannot act as their own control group (b) single cases are easily explained away (c) denial protects a sense of control (d) discrimination never affects health",
+            "howToAnswer": "Answer (d): it is false and not a detection barrier. Name Fiske (1998), Crosby (1984) and Ruggiero & Taylor (1997) for the three real reasons.",
+            "scholars": [
+              "Fiske (1998)",
+              "Crosby (1984)",
+              "Ruggiero & Taylor (1997)",
+              "Taylor, Wright & Porter (1994)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Discrimination is common but hard to detect in one's own life.",
+              "No control group, single cases excused, and protective denial hide it.",
+              "People see group discrimination more than personal discrimination.",
+              "Discrimination acts as a stressor that harms health.",
+              "Stereotype threat and racist incidents can raise blood pressure."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "One of the greatest barriers to removing discrimination is that:",
+          "options": [
+            "It is rare",
+            "Laws forbid studying it",
+            "It always involves violence",
+            "It is hard to detect at the individual level"
+          ],
+          "answerIndex": 3,
+          "explanation": "Despite being common, discrimination is hard for individuals to spot in their own lives."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The tendency to see more discrimination against one's group than against oneself is the:",
+          "options": [
+            "Personal/group discrimination discrepancy",
+            "Contact hypothesis",
+            "Minimal group effect",
+            "Basking effect"
+          ],
+          "answerIndex": 0,
+          "explanation": "That gap is the personal/group discrimination discrepancy, linked with Crosby and with Taylor, Wright and Porter."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Stereotype threat refers to:",
+          "options": [
+            "Threatening someone with violence",
+            "A law against stereotypes",
+            "Worry about confirming a negative stereotype of one's group",
+            "Holding a positive stereotype"
+          ],
+          "answerIndex": 2,
+          "explanation": "Stereotype threat is the fear of confirming a negative group stereotype, which can affect performance and the body."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Fiske (1998) noted that individuals cannot easily detect discrimination because they:",
+          "options": [
+            "Cannot serve as their own control group",
+            "Lack intelligence",
+            "Are always in denial",
+            "Never compare themselves to others"
+          ],
+          "answerIndex": 0,
+          "explanation": "You cannot relive events as a member of a privileged group to compare treatment. Denial is a separate reason from Ruggiero and Taylor."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Ruggiero and Taylor (1997) suggested some people deny personal discrimination in order to:",
+          "options": [
+            "Gain sympathy",
+            "Avoid feeling mistreated and lacking control",
+            "Win legal cases",
+            "Protect the discriminator"
+          ],
+          "answerIndex": 1,
+          "explanation": "Denial guards self-esteem and a sense of control over one's life."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Williams and colleagues (1997) linked reported discrimination among Black Americans to:",
+          "options": [
+            "Better health",
+            "Poorer self-rated health and wellbeing",
+            "Higher income",
+            "No measurable effect"
+          ],
+          "answerIndex": 1,
+          "explanation": "They found poorer self-rated health, lower wellbeing and more sick days."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Ngozi believes female engineers in her firm are underpaid, yet insists her own lower salary is due to her negotiating skills. This illustrates:",
+          "options": [
+            "Stereotype threat",
+            "The personal/group discrimination discrepancy",
+            "Institutional discrimination only",
+            "In-group favouritism"
+          ],
+          "answerIndex": 1,
+          "explanation": "She sees discrimination against her group but not against herself, the classic discrepancy."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A union proves discrimination by comparing five years of promotion records across ethnic groups. This approach works because:",
+          "options": [
+            "Single cases are more convincing",
+            "It relies on personal intuition",
+            "It avoids using data",
+            "Aggregated evidence reveals patterns single cases hide"
+          ],
+          "answerIndex": 3,
+          "explanation": "Crosby (1984) noted discrimination is easier to detect with pooled evidence, as individual cases can be explained away."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Before a maths test, students are reminded that 'girls are weak at maths'. The girls' blood pressure rises and scores drop. This reflects:",
+          "options": [
+            "Basking in reflected glory",
+            "The contact hypothesis",
+            "Social mobility",
+            "Stereotype threat"
+          ],
+          "answerIndex": 3,
+          "explanation": "Fear of confirming a negative group stereotype is stereotype threat, which can affect both performance and physiology."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are reasons discrimination is hard to detect individually EXCEPT:",
+          "options": [
+            "No personal control group",
+            "Discrimination always leaves written evidence",
+            "Denial protects a sense of control",
+            "Single cases can be explained away"
+          ],
+          "answerIndex": 1,
+          "explanation": "Discrimination rarely leaves clear written proof; that is part of why it is hard to see. The other three are the recognised barriers."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Blascovich et al. (2001): stereotype threat and blood pressure",
+            "Crosby (1984): blood pressure under threat",
+            "Fiske (1998): denial protects control",
+            "Williams et al. (1997): no control group"
+          ],
+          "answerIndex": 0,
+          "explanation": "Blascovich and colleagues linked stereotype threat with raised blood pressure. Crosby studied denial of personal discrimination and pooled evidence."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Clark and colleagues (1999) describe racism mainly as a:",
+          "options": [
+            "Personality trait",
+            "Cognitive shortcut",
+            "Chronic stressor",
+            "Legal problem only"
+          ],
+          "answerIndex": 2,
+          "explanation": "They modelled racism as a stressor with biological and psychological effects."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. People cannot test how they would be treated as a privileged-group member. II. Pooled data reveal discrimination better than single cases. III. Minority members usually report more personal than group discrimination. Which are correct?",
+          "options": [
+            "II and III only",
+            "I and III only",
+            "I and II only",
+            "I, II and III"
+          ],
+          "answerIndex": 2,
+          "explanation": "I and II are correct. III reverses the finding: people report more group than personal discrimination."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A researcher finds minority employees rate discrimination against their group as high but their own as low. The most likely explanation is:",
+          "options": [
+            "There is no discrimination",
+            "They are exaggerating group discrimination",
+            "Single personal cases are easier to explain away and denial protects control",
+            "Personal discrimination is always institutional"
+          ],
+          "answerIndex": 2,
+          "explanation": "The discrepancy arises because personal incidents can be excused and denial preserves a sense of control. It does not show discrimination is absent."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Why do findings on blood pressure under stereotype threat matter for the study of discrimination?",
+          "options": [
+            "They show bias can harm physical health, not only feelings",
+            "They show discrimination only affects mood",
+            "They prove stereotypes are accurate",
+            "They show targets cause their own stress"
+          ],
+          "answerIndex": 0,
+          "explanation": "Physiological effects show discrimination has bodily costs, supporting the stressor view. They say nothing about stereotypes being accurate."
+        }
+      ]
+    },
+    {
+      "name": "Reducing discrimination",
+      "lesson": {
+        "title": "Four ways to push back",
+        "minutes": 9,
+        "hook": "If humans are so quick to stereotype, is discrimination just human nature? Research says the tendency is real, but so is our power to override it.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Empathy: step into their shoes",
+            "body": "**Empathy** has a big practical advantage: it is fairly **easy to apply**. Becoming empathic towards targets of discrimination means asking simple questions:\n\n- If this happened to me, what would I feel?\n- What might this person be feeling now?\n- What could explain their behaviour?\n\nTaking another person's perspective makes it harder to treat them as just a member of a category.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "heart",
+                  "label": "Feel with them"
+                },
+                {
+                  "icon": "eye",
+                  "label": "See their view"
+                },
+                {
+                  "icon": "person",
+                  "label": "See the person"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Role-play: rehearse the response",
+            "body": "Many people want to object when someone makes a prejudiced remark but freeze in the moment. **Plous (2000)** used **role-playing** exercises so students could practise responding effectively to prejudiced comments.\n\nRehearsing a calm reply, like 'I don't think that's fair to say about a whole group', makes it far more likely you will actually say it when it counts.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "chatbubbles",
+                  "label": "Practise replies"
+                },
+                {
+                  "icon": "repeat",
+                  "label": "Rehearse"
+                },
+                {
+                  "icon": "megaphone",
+                  "label": "Speak up"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Plous (2000) used role-playing mainly to help people:",
+            "options": [
+              "Respond effectively to prejudiced comments",
+              "Detect implicit bias in themselves",
+              "Write anti-discrimination laws",
+              "Measure blood pressure"
+            ],
+            "answerIndex": 0,
+            "why": "His role-play exercise trained people to answer prejudiced remarks well in real situations."
+          },
+          {
+            "kind": "teach",
+            "heading": "Laws, rules and norms",
+            "body": "**Oskamp (2000)** pointed to a structural route: **laws, regulations and social norms that require fair treatment**.\n\nLaws change behaviour even before attitudes catch up. Over time, as fair treatment becomes normal, attitudes often follow. In Nigeria, the **federal character principle** in the Constitution aims to spread public appointments fairly across states, a legal tool against one group dominating.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Fair-treatment law",
+                "Behaviour changes",
+                "Norms shift",
+                "Attitudes follow"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Expose the inconsistency",
+            "body": "Most people see themselves as fair. When shown that their **values, attitudes and behaviour do not match** the ideal of equality they claim, they feel uncomfortable and change.\n\nMilton **Rokeach** (1971) used this 'value confrontation': people shown the gap between valuing freedom and caring little about others' equality were still **backing civil rights more strongly over a year afterwards**. Few methods last that long.",
+            "visual": {
+              "type": "scale",
+              "left": "Values I claim",
+              "right": "What I do",
+              "heavier": "even"
+            }
+          },
+          {
+            "kind": "steps",
+            "heading": "Four routes at a glance",
+            "steps": [
+              {
+                "title": "Empathy",
+                "detail": "Imagine the target's feelings and situation."
+              },
+              {
+                "title": "Role-playing",
+                "detail": "Practise responding to prejudiced remarks (Plous, 2000)."
+              },
+              {
+                "title": "Laws and norms",
+                "detail": "Require fair treatment through rules and social expectations (Oskamp, 2000)."
+              },
+              {
+                "title": "Inconsistency awareness",
+                "detail": "Show people the gap between their values and behaviour for lasting change."
+              }
+            ]
+          },
+          {
+            "kind": "example",
+            "heading": "The class rep's challenge",
+            "story": "In a WhatsApp group, a classmate jokes that students from one region 'only pass by sorting'. Tolu, who practised responses in a workshop, replies calmly: 'We all claim we believe in merit. Is it fair to judge a whole region by a rumour?' The joke stops, and later two people message Tolu to agree.",
+            "takeaway": "Tolu combined a rehearsed response with pointing out the gap between stated values and the remark."
+          },
+          {
+            "kind": "teach",
+            "heading": "Bias can be overcome",
+            "body": "Humans may be '**homo stereotypus**', creatures quick to categorise and stereotype. But the same research shows we can **override** these tendencies when **motivated** (Blair, 2002; Fiske, 2000; Monteith & Voils, 2001).\n\nIt takes **awareness and deliberate effort**. Even automatic stereotypes turn out to be malleable. Bias is a habit, and habits can be changed.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Automatic bias",
+                "Awareness",
+                "Effort",
+                "Fairer response"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Which method produced support for civil rights that lasted more than a year?",
+            "options": [
+              "A single empathy question",
+              "Showing people inconsistencies between their values and behaviour",
+              "Hearing one lecture on prejudice",
+              "Playing a team sport once"
+            ],
+            "answerIndex": 1,
+            "why": "Value confrontation, making people aware their behaviour clashed with their equality ideals, had long-lasting effects."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "'Mention and explain four ways of reducing discrimination' is a classic short essay. Name the four, attach an author, and give a Nigerian example. In objectives, watch for EXCEPT questions where the odd option sounds positive, like 'greater support for civil rights', which is an outcome, not a method.",
+            "sampleQuestion": "All are ways of reducing discrimination EXCEPT: (a) laws mandating fair treatment (b) empathy towards targets (c) awareness of value-behaviour inconsistency (d) greater support for civil rights",
+            "howToAnswer": "Answer (d): support for civil rights is a result of reducing prejudice, not a technique. The other three are methods.",
+            "scholars": [
+              "Plous (2000)",
+              "Oskamp (2000)",
+              "Rokeach (1971)",
+              "Monteith & Voils (2001)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Empathy: easy to apply; imagine how the target feels.",
+              "Role-play helps people answer prejudiced comments (Plous, 2000).",
+              "Laws, regulations and norms mandate fair treatment (Oskamp, 2000).",
+              "Exposing value-behaviour inconsistency brings lasting change.",
+              "Bias can be overcome with awareness, effort and motivation."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Which method of reducing discrimination involves asking 'If I were in their place, what would I feel?'",
+          "options": [
+            "Role-playing",
+            "Empathy",
+            "Legislation",
+            "Segregation"
+          ],
+          "answerIndex": 1,
+          "explanation": "Imagining the target's feelings is empathy. Role-playing rehearses responses to prejudiced remarks."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Oskamp (2000) highlighted reducing discrimination through:",
+          "options": [
+            "Separating groups",
+            "Laws, regulations and norms mandating fair treatment",
+            "Ignoring prejudice",
+            "Basking in reflected glory"
+          ],
+          "answerIndex": 1,
+          "explanation": "Oskamp pointed to rules and norms requiring fair treatment."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The method credited with practising responses to prejudiced comments is:",
+          "options": [
+            "Role-playing",
+            "Empathy",
+            "Value confrontation",
+            "Legislation"
+          ],
+          "answerIndex": 0,
+          "explanation": "Plous (2000) used role-play to help people respond effectively."
+        },
+        {
+          "difficulty": 2,
+          "stem": "A major practical advantage of empathy as a way to reduce discrimination is that it:",
+          "options": [
+            "Requires new laws",
+            "Works only in courts",
+            "Is relatively easy to apply",
+            "Needs expensive training"
+          ],
+          "answerIndex": 2,
+          "explanation": "Empathy can be practised by anyone, any time, by taking the target's perspective."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The longest-lasting reduction in discrimination described came from:",
+          "options": [
+            "Exposure to one advert",
+            "Punishing offenders publicly",
+            "Role-playing once",
+            "Awareness of inconsistencies between values and behaviour"
+          ],
+          "answerIndex": 3,
+          "explanation": "People confronted with the gap between their values and behaviour showed more support for civil rights over a year later."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The idea that humans are 'homo stereotypus' means they are:",
+          "options": [
+            "Incapable of fairness",
+            "Free of all bias",
+            "Predisposed to stereotyping but able to overcome it",
+            "Only biased in childhood"
+          ],
+          "answerIndex": 2,
+          "explanation": "We are prone to stereotyping, but research shows motivation and effort can override it."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A company trains staff by acting out scenes where a customer makes an ethnic slur and staff practise replying. This uses:",
+          "options": [
+            "Role-playing",
+            "Legislation",
+            "Value confrontation",
+            "Segregation"
+          ],
+          "answerIndex": 0,
+          "explanation": "Acting out and rehearsing responses is role-playing, the method used by Plous."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Nigeria's federal character principle, requiring fair spread of public appointments across states, reflects which approach?",
+          "options": [
+            "Empathy",
+            "Basking in reflected glory",
+            "Role-playing",
+            "Laws and regulations mandating fair treatment"
+          ],
+          "answerIndex": 3,
+          "explanation": "It is a legal rule designed to ensure fair representation, matching Oskamp's structural route."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A lecturer shows students that they rate equality highly yet support policies that exclude some groups. The students later show more support for equal rights. This illustrates:",
+          "options": [
+            "Empathy training",
+            "Stereotype threat",
+            "Awareness of inconsistency between values and behaviour",
+            "Social creativity"
+          ],
+          "answerIndex": 2,
+          "explanation": "Exposing the gap between values and actions creates discomfort that motivates change."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are ways of reducing discrimination EXCEPT:",
+          "options": [
+            "Becoming empathic towards targets",
+            "Greater support for civil rights",
+            "Laws mandating fair treatment",
+            "Awareness of value-behaviour inconsistency"
+          ],
+          "answerIndex": 1,
+          "explanation": "Support for civil rights is an outcome of reduced prejudice, not a method. The others are techniques."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Rokeach: value confrontation with lasting effects",
+            "Oskamp (2000): role-playing",
+            "Plous (2000): laws and regulations",
+            "Crosby (1984): empathy training"
+          ],
+          "answerIndex": 0,
+          "explanation": "Rokeach's value confrontation produced long-lasting attitude change. Plous used role-play and Oskamp discussed laws and norms."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Why can laws reduce discrimination even when attitudes have not yet changed?",
+          "options": [
+            "Laws change feelings instantly",
+            "Laws make stereotypes positive",
+            "Laws regulate behaviour, and attitudes often follow as norms shift",
+            "Laws remove all in-group favouritism"
+          ],
+          "answerIndex": 2,
+          "explanation": "Laws act on behaviour first; as fair treatment becomes normal, attitudes tend to follow."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Empathy is relatively easy to apply. II. Automatic stereotypes cannot be changed. III. Motivation and effort can reduce bias. Which are correct?",
+          "options": [
+            "I and III only",
+            "I and II only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 0,
+          "explanation": "I and III are supported. II is wrong: Blair and others show automatic stereotypes are malleable."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A researcher wants a reduction in discrimination that is still visible a year later. The research suggests the best choice is:",
+          "options": [
+            "A single empathy prompt",
+            "Separating groups to avoid conflict",
+            "Reminding people of stereotypes",
+            "Making people aware that their behaviour contradicts their own equality values"
+          ],
+          "answerIndex": 3,
+          "explanation": "Value-behaviour inconsistency produced effects lasting over a year. Separation and stereotype reminders would not reduce discrimination."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which statement best summarises research on overcoming prejudice?",
+          "options": [
+            "Bias is fixed by nature and cannot change",
+            "With awareness, deliberate effort and motivation, bias can be reduced",
+            "Only laws can reduce bias",
+            "Bias disappears once people are educated"
+          ],
+          "answerIndex": 1,
+          "explanation": "Blair, Fiske and Monteith show bias is malleable when people are motivated and aware. Education alone or laws alone are not the whole story."
+        }
+      ]
+    }
+  ]
+}

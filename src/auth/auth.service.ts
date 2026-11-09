@@ -5,6 +5,7 @@ import * as bcrypt from 'bcrypt';
 import { createHash, randomBytes, randomInt } from 'node:crypto';
 
 import type { AccessClaims } from '../common/auth.js';
+import { newShopCode } from '../common/shop-code.js';
 import { MessagingService } from '../messaging/messaging.service.js';
 import { PrismaService } from '../prisma/prisma.service.js';
 import type { LoginDto, RegisterDto, ResetPasswordDto, StudentLoginDto } from './auth.dto.js';
@@ -30,7 +31,10 @@ export class AuthService {
     const user = await this.prisma.user.findUniqueOrThrow({
       where: { id: userId },
       // Staff of a suspended school lose access to it; their other roles keep working.
-      include: { memberships: { where: { status: 'ACTIVE', OR: [{ schoolId: null }, { school: { status: { not: 'SUSPENDED' } } }] }, include: { school: { select: { name: true } } } } },
+      include: {
+        memberships: { where: { status: 'ACTIVE', OR: [{ schoolId: null }, { school: { status: { not: 'SUSPENDED' } } }] }, include: { school: { select: { name: true } } } },
+        studentProfile: { select: { level: true } },
+      },
     });
     return {
       id: user.id,
@@ -40,6 +44,8 @@ export class AuthService {
       phone: user.phone,
       username: user.username,
       photoUrl: user.photoUrl,
+      /** Students only: TERTIARY sends them to the university side of the app. */
+      studentLevel: user.studentProfile?.level ?? null,
       memberships: user.memberships.map((m) => ({ id: m.id, role: m.role, schoolId: m.schoolId, schoolName: m.school?.name ?? null })),
     };
   }
@@ -74,9 +80,13 @@ export class AuthService {
           email: dto.email,
           phone: dto.phone,
           passwordHash: await bcrypt.hash(dto.password, 12),
-          memberships: { create: { role: dto.role } },
+          memberships: { create: { role: dto.role === 'UNI_STUDENT' ? 'STUDENT' : dto.role } },
         },
       });
+      if (dto.role === 'UNI_STUDENT') {
+        // They pick their department and courses next, in the app.
+        await tx.studentProfile.create({ data: { userId: u.id, level: 'TERTIARY', shopCode: await newShopCode(tx, dto.firstName) } });
+      }
       if (dto.role === 'TUTOR') await AuthService.startTutorApplication(tx, u.id);
       return u;
     });

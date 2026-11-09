@@ -1,0 +1,711 @@
+{
+  "unit": 15,
+  "title": "Psychological Disorders I",
+  "summary": "How mental disorders are explained, the classic subtypes of schizophrenia, and the genetic and brain evidence on its causes.",
+  "sections": [
+    {
+      "name": "Explaining disorders; schizophrenia subtypes",
+      "lesson": {
+        "title": "Three accounts and the faces of schizophrenia",
+        "minutes": 10,
+        "hook": "In many Nigerian homes, a relative who suddenly hears voices may be taken to a prayer house before a hospital. How we explain a mental disorder decides how we treat it.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Three ways to explain a disorder",
+            "body": "Psychologists group explanations of mental disorder into three broad accounts.\n\nThe **biological account**, often called the **medical model**, looks to the body, especially the brain: inherited (genetic) factors or physical injury to the brain. The **social account** looks to life experience: unusually harsh events, little support from family and friends, or neglect in early childhood. The **psychological account** looks to faulty patterns of thinking.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "medkit",
+                  "label": "Biological"
+                },
+                {
+                  "icon": "bulb",
+                  "label": "Psychological"
+                },
+                {
+                  "icon": "people",
+                  "label": "Social"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Most disorders need all three",
+            "body": "Few psychologists today defend one account alone. The widely accepted position is that mental disorders usually arise from an **interaction** of biological, psychological and social factors, often called the **biopsychosocial** view.\n\nA person may inherit a vulnerability, think about setbacks in unhelpful ways, and then meet a stressful life event with little support. Each factor alone might not be enough; together they tip the balance.",
+            "visual": {
+              "type": "cycle",
+              "nodes": [
+                "Biological",
+                "Psychological",
+                "Social"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "A psychologist explains a patient's disorder mainly by years of neglect in childhood and lack of support from relatives. This reflects the:",
+            "options": [
+              "Medical model",
+              "Psychological account",
+              "Social account",
+              "Genetic account"
+            ],
+            "answerIndex": 2,
+            "why": "Harsh experiences and missing social support are the focus of the social account. The psychological account would focus on faulty thinking instead."
+          },
+          {
+            "kind": "teach",
+            "heading": "What schizophrenia is",
+            "body": "**Schizophrenia** is a serious psychotic disorder marked by disturbed thinking and perception, disorganised emotions and behaviour, and reduced enjoyment and interest in life.\n\nIt helps to sort symptoms into two groups. **Positive symptoms** are added experiences: **delusions** (false beliefs held firmly) and **hallucinations** (perceiving things that are not there). **Negative symptoms** are losses: flat emotion, withdrawal, loss of pleasure and motivation.",
+            "visual": {
+              "type": "compare-free",
+              "left": "Positive: added",
+              "right": "Negative: lost",
+              "heavier": "even"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Paranoid schizophrenia",
+            "body": "The DSM-IV listed three major subtypes. The first, **paranoid schizophrenia**, centres on delusions that badly distort reality.\n\nOften these are **delusions of grandeur**: the person believes they are uniquely important, perhaps destined to become president or able to end wars. Linked to this are **delusions of persecution**: because they matter so much, others must be plotting against them. Many also hallucinate, hearing, seeing or feeling things that are not there.",
+            "visual": {
+              "type": "brain",
+              "region": "temporal-lobe",
+              "label": "Voices often heard"
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Tobi's mission",
+            "story": "Tobi, a final-year student, stops attending lectures. He tells his roommate he has been chosen to bring peace to the whole of West Africa, and that people in the department are bugging his phone to stop him. At night he answers voices nobody else hears. Yet he speaks clearly and dresses neatly.",
+            "takeaway": "Organised delusions of grandeur and persecution, with hallucinations, point to the paranoid subtype."
+          },
+          {
+            "kind": "teach",
+            "heading": "Disorganised schizophrenia",
+            "body": "**Disorganised schizophrenia** can also involve delusions and hallucinations, but the person's thinking is so broken up that these experiences make little coherent sense.\n\nIts main features are withdrawal from normal human contact, childlike behaviour and **inappropriate emotional reactions**, such as laughing at sad news or showing no feeling at happy news. Speech may be jumbled. Overall the person presents a very bizarre picture to others.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Organised delusions",
+              "right": "Fragmented thought",
+              "marker": 90,
+              "label": "Disorganised subtype"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Catatonic schizophrenia",
+            "body": "**Catatonic schizophrenia** looks very different. Its most striking problems are in **posture, movement and social interaction**.\n\nThe person may fall into long periods of **stupor**, standing or sitting like a statue. If someone moves their limbs into a position, they may hold it for hours (**waxy flexibility**). They may stop speaking, seem not to hear, and need to be fed. The stillness can suddenly give way to bursts of agitation.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "person",
+                  "label": "Statue-like posture"
+                },
+                {
+                  "icon": "close-circle",
+                  "label": "Stops speaking"
+                },
+                {
+                  "icon": "flash",
+                  "label": "Sudden agitation"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "A patient laughs on hearing of a close relative's death, speaks in jumbled fragments and behaves in childlike ways. Which subtype fits best?",
+            "options": [
+              "Paranoid",
+              "Disorganised",
+              "Catatonic",
+              "Undifferentiated"
+            ],
+            "answerIndex": 1,
+            "why": "Inappropriate emotion, fragmented speech and childlike behaviour are hallmarks of the disorganised subtype. Paranoid patients usually keep coherent speech and organised delusions."
+          },
+          {
+            "kind": "compare",
+            "heading": "A fourth group and a later change",
+            "left": {
+              "title": "Undifferentiated type",
+              "points": [
+                "Clear schizophrenia, but no single subtype fits",
+                "Your notes may call it 'indifference' schizophrenia",
+                "A leftover category in DSM-IV"
+              ]
+            },
+            "right": {
+              "title": "DSM-5 (2013)",
+              "points": [
+                "Dropped the subtypes altogether",
+                "Subtypes overlapped and shifted over time",
+                "Now rates the severity of each symptom"
+              ]
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect short case vignettes asking you to name the subtype. The trap: delusions and hallucinations appear in more than one subtype, so they alone do not decide it. Look for the dominant feature: organised delusions (paranoid), fragmented thought and odd emotion (disorganised), or posture and movement (catatonic).",
+            "sampleQuestion": "Identify and describe the three major subtypes of schizophrenia. What feature most clearly separates each one from the others?",
+            "howToAnswer": "Define schizophrenia, then describe paranoid, disorganised and catatonic types with a defining feature and brief example each. Mention the undifferentiated category and that DSM-5 has since dropped subtypes.",
+            "scholars": [
+              "American Psychiatric Association, DSM-IV (1994)",
+              "Crow (1980)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Disorders are explained by biological, psychological and social accounts, usually in interaction.",
+              "Schizophrenia involves delusions, hallucinations, disorganisation and loss of enjoyment.",
+              "Paranoid: delusions of grandeur and persecution.",
+              "Disorganised: fragmented thought, inappropriate emotion, childlike behaviour.",
+              "Catatonic: stupor, fixed postures, mutism, bursts of agitation."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The biological account of mental disorder is also commonly referred to as the:",
+          "options": [
+            "Medical model",
+            "Humanistic model",
+            "Social model",
+            "Cognitive model"
+          ],
+          "answerIndex": 0,
+          "explanation": "The biological account is called the medical model because it treats disorders as physical abnormalities, especially of the brain. The cognitive model is closer to the psychological account."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which of the following is NOT one of the three major subtypes of schizophrenia described in DSM-IV?",
+          "options": [
+            "Paranoid",
+            "Disorganised",
+            "Catatonic",
+            "Bipolar"
+          ],
+          "answerIndex": 3,
+          "explanation": "The three major subtypes were paranoid, disorganised and catatonic. Bipolar refers to a mood disorder, not a type of schizophrenia."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Delusions of grandeur and delusions of persecution are most characteristic of which type of schizophrenia?",
+          "options": [
+            "Catatonic",
+            "Paranoid",
+            "Disorganised",
+            "Undifferentiated"
+          ],
+          "answerIndex": 1,
+          "explanation": "Paranoid schizophrenia centres on delusions of self-importance and of being plotted against. Catatonic schizophrenia centres on posture and movement."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The social account explains mental disorder mainly in terms of:",
+          "options": [
+            "Inherited genes passed down in families",
+            "Physical injury to the brain",
+            "Harsh experiences, lack of support and early neglect",
+            "Faulty patterns of thinking"
+          ],
+          "answerIndex": 2,
+          "explanation": "The social account focuses on a person's experiences in their environment. Genes and brain injury belong to the biological account, and faulty thinking to the psychological account."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The psychological account of mental disorder places the main cause in:",
+          "options": [
+            "Abnormal brain chemistry",
+            "Inherited vulnerability",
+            "Faulty patterns of thinking",
+            "Lack of social support"
+          ],
+          "answerIndex": 2,
+          "explanation": "The psychological account explains disorder through faulty thinking. Brain chemistry and inheritance are biological explanations; lack of support is a social one."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Long periods of statue-like stupor, holding a posture someone else has placed you in, and refusing to speak are typical of:",
+          "options": [
+            "Catatonic schizophrenia",
+            "Paranoid schizophrenia",
+            "Disorganised schizophrenia",
+            "Undifferentiated schizophrenia"
+          ],
+          "answerIndex": 0,
+          "explanation": "Catatonic schizophrenia is defined by abnormalities of posture, movement and interaction, including stupor and waxy flexibility. Paranoid schizophrenia is defined by organised delusions."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Tobi believes he has been chosen to end all wars in Africa and that security agents are trying to stop him. He hears voices at night, but his speech is clear and organised. The most likely subtype is:",
+          "options": [
+            "Disorganised",
+            "Catatonic",
+            "Undifferentiated",
+            "Paranoid"
+          ],
+          "answerIndex": 3,
+          "explanation": "Coherent delusions of grandeur and persecution with hallucinations fit the paranoid subtype. In disorganised schizophrenia, thinking and speech would be fragmented."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A patient laughs on hearing of her mother's death, speaks in jumbled fragments, behaves in childlike ways and avoids people. This best fits which subtype?",
+          "options": [
+            "Paranoid",
+            "Disorganised",
+            "Catatonic",
+            "Undifferentiated"
+          ],
+          "answerIndex": 1,
+          "explanation": "Inappropriate emotion, fragmented speech, childlike behaviour and withdrawal are hallmarks of disorganised schizophrenia. Catatonic patients show stupor and odd postures instead."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A patient clearly meets the criteria for schizophrenia but does not fit the paranoid, disorganised or catatonic pattern. Under DSM-IV, the patient would be classed as:",
+          "options": [
+            "Catatonic",
+            "Undifferentiated",
+            "Bipolar",
+            "Paranoid"
+          ],
+          "answerIndex": 1,
+          "explanation": "The undifferentiated category (called 'indifference' in some notes) held cases that did not fit the three main subtypes. Bipolar disorder is a separate mood disorder."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Both paranoid and disorganised schizophrenia can involve delusions and hallucinations. What chiefly distinguishes the disorganised type?",
+          "options": [
+            "Only the paranoid type involves hallucinations",
+            "The disorganised type is defined by statue-like stupor",
+            "In the disorganised type, thinking is so fragmented that hallucinations carry little recognisable meaning",
+            "The paranoid type never involves delusions"
+          ],
+          "answerIndex": 2,
+          "explanation": "In disorganised schizophrenia, fragmented thought robs delusions and hallucinations of coherent meaning. Stupor describes the catatonic type, a common near-miss."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which of the following is a NEGATIVE symptom of schizophrenia?",
+          "options": [
+            "Hearing voices",
+            "Delusions of persecution",
+            "Believing one is a future president",
+            "Loss of enjoyment and interest in life"
+          ],
+          "answerIndex": 3,
+          "explanation": "Negative symptoms are losses of normal function, such as reduced pleasure and interest. Hallucinations and delusions are positive symptoms because they add abnormal experiences."
+        },
+        {
+          "difficulty": 4,
+          "stem": "In catatonic schizophrenia, the most obvious abnormalities are found in:",
+          "options": [
+            "Posture, body movement and social interaction",
+            "Elaborate delusions of grandeur",
+            "Long-term memory for personal events",
+            "Rapid swings between elation and sadness"
+          ],
+          "answerIndex": 0,
+          "explanation": "Although catatonic patients may have delusions and hallucinations, their most striking problems involve posture, movement and interaction. Mood swings belong to bipolar disorder."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider these statements. I: Catatonic stupor may be broken by periods of agitation. II: Paranoid schizophrenia often includes hallucinations. III: Disorganised schizophrenia features well-organised, meaningful delusions. Which are correct?",
+          "options": [
+            "I only",
+            "I and II only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 1,
+          "explanation": "I and II are correct. III is wrong: in the disorganised type, thinking is so fragmented that delusions and hallucinations have little coherent meaning."
+        },
+        {
+          "difficulty": 5,
+          "stem": "How did DSM-5 (2013) change the treatment of schizophrenia subtypes such as paranoid and catatonic?",
+          "options": [
+            "It kept catatonic as the only official subtype",
+            "It expanded the list to five subtypes",
+            "It moved the subtypes under bipolar disorder",
+            "It dropped the subtypes, partly because they overlapped and changed over time"
+          ],
+          "answerIndex": 3,
+          "explanation": "DSM-5 removed the subtypes because patients often shifted between them and they did not predict outcome well. It did not move them into bipolar disorder."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A lecturer argues that a student's schizophrenia arose from an inherited vulnerability, unhelpful thinking about failure, and a stressful year with no family support. This position is best described as:",
+          "options": [
+            "The medical model",
+            "The social account alone",
+            "An interactionist (biopsychosocial) view",
+            "The psychological account alone"
+          ],
+          "answerIndex": 2,
+          "explanation": "Combining biological, psychological and social causes is the interactionist, biopsychosocial view. Each of the other options picks only one of the three factors."
+        }
+      ]
+    },
+    {
+      "name": "Causes and the schizophrenic brain",
+      "lesson": {
+        "title": "Genes, brain scans and schizophrenia",
+        "minutes": 9,
+        "hook": "If schizophrenia were purely genetic, identical twins would always share it. They do not. That one fact tells you most of what you need to know about its causes.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "It runs in families",
+            "body": "It has long been noticed that schizophrenia **runs in families**. Close relatives of someone with schizophrenia are more likely to develop it than people in the general population.\n\nBut there is a catch. Family members share an **environment** as well as genes: the same home, stresses and ways of talking. So family patterns alone cannot tell us whether genes or upbringing are doing the work.",
+            "visual": {
+              "type": "venn",
+              "left": "Shared genes",
+              "right": "Shared home",
+              "both": "Family resemblance"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "What twin studies add",
+            "body": "Twin studies help separate genes from environment. Identical twins share nearly all their genes; fraternal twins share about half, yet both kinds usually grow up together.\n\nIn Gottesman's (1991) summary, an identical twin of someone with schizophrenia had roughly a one-in-two chance of developing it, against about one in six for a fraternal twin. Genes clearly matter. But if they were everything, identical twins would match every time.",
+            "visual": {
+              "type": "scale",
+              "left": "Identical twins",
+              "right": "Fraternal twins",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The missing gene problem",
+            "body": "The genetic case has one big gap: researchers have **never pinned down a specific gene** responsible. Several research teams announced they had found 'the' gene or gene group for schizophrenia, but their findings were not replicated by other researchers, and sometimes not even by the same team.\n\nToday most researchers think many genes each add a tiny amount of risk, which is why no single gene shows up reliably.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "search",
+                  "label": "Gene claimed"
+                },
+                {
+                  "icon": "repeat",
+                  "label": "Try to repeat"
+                },
+                {
+                  "icon": "close-circle",
+                  "label": "Not replicated"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Why does the fact that schizophrenia runs in families NOT by itself prove a genetic cause?",
+            "options": [
+              "Families rarely share genes",
+              "Families also share the same environment",
+              "Schizophrenia is contagious",
+              "Twin studies show no family pattern"
+            ],
+            "answerIndex": 1,
+            "why": "Relatives share homes and experiences as well as genes, so the two are confounded. Twin studies were developed precisely to tease them apart."
+          },
+          {
+            "kind": "teach",
+            "heading": "Vulnerability plus stress",
+            "body": "The pieces fit together in the **diathesis-stress model** (Zubin and Spring, 1977). A **diathesis** is an inherited or early vulnerability. On its own it may never cause illness. Combined with enough **stress**, such as trauma, loss or heavy drug use, the disorder can emerge.\n\nThis explains why one identical twin may develop schizophrenia and the other may not: same vulnerability, different life pressures.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Inherited vulnerability",
+                "Life stress",
+                "Disorder emerges"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "What CT scans showed",
+            "body": "Studying the brain directly depends on technology. **CT scans** give static pictures of brain structure. Using them, researchers such as Johnstone and colleagues (1976) found **enlarged ventricles** in some people with schizophrenia.\n\nThe ventricles are fluid-filled spaces holding **cerebrospinal fluid**. When they are larger, it usually means surrounding brain tissue has shrunk. Some studies also report **smaller limbic structures**, such as the hippocampus and amygdala.",
+            "visual": {
+              "type": "brain",
+              "region": "whole-brain",
+              "label": "Ventricles can be enlarged"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "PET shows the brain at work",
+            "body": "**Positron emission tomography (PET)** is different: it shows **brain activity over a period of time**, not just structure. A mildly radioactive tracer reveals which areas are busy during a task.\n\nPET studies have often found reduced activity in the frontal lobes of people with schizophrenia during planning tasks, sometimes called **hypofrontality**. Activity changes like this help explain disorganised thinking.",
+            "visual": {
+              "type": "brain",
+              "region": "prefrontal-cortex",
+              "label": "Often underactive"
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "CT versus PET",
+            "left": {
+              "title": "CT scan",
+              "points": [
+                "Static picture of structure",
+                "Shows size and shape",
+                "Revealed enlarged ventricles"
+              ]
+            },
+            "right": {
+              "title": "PET scan",
+              "points": [
+                "Shows activity over time",
+                "Tracks which areas are working",
+                "Revealed reduced frontal activity"
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Chicken or egg?",
+            "story": "Dr Bello at a teaching hospital in Ibadan compares CT scans of 40 long-term patients with those of healthy volunteers. The patients' ventricles are larger on average. A student asks: did the shrinkage cause the illness, did years of illness cause the shrinkage, or could long-term medication play a part? Dr Bello admits the scans alone cannot say.",
+            "takeaway": "Brain differences are correlations; they do not by themselves prove cause and effect."
+          },
+          {
+            "kind": "check",
+            "question": "A researcher wants to see which brain areas are less active while patients plan a task. The most suitable technique is:",
+            "options": [
+              "CT scan",
+              "Post-mortem weighing of the brain",
+              "PET scan",
+              "Skull X-ray"
+            ],
+            "answerIndex": 2,
+            "why": "PET shows activity over time, so it can reveal underactive areas during a task. CT gives only a static structural picture."
+          },
+          {
+            "kind": "teach",
+            "heading": "A chemical clue: dopamine",
+            "body": "Beyond structure, the best-known chemical explanation is the **dopamine hypothesis**. Drugs that block dopamine receptors reduce hallucinations and delusions, while amphetamine, which boosts dopamine, can produce or worsen them.\n\nThis suggests **overactive dopamine transmission** contributes to positive symptoms. It explains less about negative symptoms, which is one of its known limits.",
+            "visual": {
+              "type": "neuron",
+              "part": "synapse",
+              "label": "Too much dopamine signal"
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'evaluate the genetic explanation' and questions on CT versus PET. The trap is presenting family resemblance as proof of genes, or forgetting the replication failure. Another slip is calling PET a structural scan; it shows activity.",
+            "sampleQuestion": "Critically examine the biological explanations of schizophrenia, with reference to genetic and brain imaging evidence.",
+            "howToAnswer": "Present family and twin evidence, then the weaknesses (shared environment, failure to replicate gene findings). Add CT findings on ventricles and limbic structures and PET findings on activity, noting they are correlational, and conclude with the diathesis-stress model.",
+            "scholars": [
+              "Gottesman (1991)",
+              "Johnstone et al. (1976)",
+              "Zubin & Spring (1977)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Schizophrenia runs in families, but families share environments too.",
+              "Twin studies show genes matter but are not the whole story.",
+              "Claims of a specific schizophrenia gene have not been replicated.",
+              "CT shows enlarged ventricles and smaller limbic structures in some patients.",
+              "PET shows activity over time, often reduced in the frontal lobes."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Which observation has long been used to support a genetic cause of schizophrenia?",
+          "options": [
+            "It is caused only by poor parenting",
+            "It tends to run in families",
+            "It occurs only in large cities",
+            "It appears only in old age"
+          ],
+          "answerIndex": 1,
+          "explanation": "Schizophrenia clusters in families, which suggested a genetic link. The other options are false or describe environmental claims."
+        },
+        {
+          "difficulty": 1,
+          "stem": "CT scans of some people with schizophrenia have revealed:",
+          "options": [
+            "Shrunken ventricles",
+            "An enlarged cerebellum",
+            "Enlarged ventricles",
+            "An extra brain hemisphere"
+          ],
+          "answerIndex": 2,
+          "explanation": "Static imaging such as CT has sometimes shown enlarged ventricles. Shrunken ventricles is the reverse of the finding."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Positron emission tomography (PET) differs from a CT scan mainly because PET:",
+          "options": [
+            "Shows only the bones of the skull",
+            "Produces a single static picture of structure",
+            "Cannot be used on the living brain",
+            "Shows brain activity over a period of time"
+          ],
+          "answerIndex": 3,
+          "explanation": "PET tracks brain activity over time, while CT gives a static structural picture. The second option describes CT, not PET."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The major weakness of the genetic explanation of schizophrenia, as discussed in this session, is that:",
+          "options": [
+            "Claimed genes for schizophrenia have not been reliably replicated",
+            "No one has ever studied schizophrenia in families",
+            "Twins have never been studied",
+            "Genes have been shown to explain every case"
+          ],
+          "answerIndex": 0,
+          "explanation": "Researchers who claimed to find the gene or genes responsible could not have their findings replicated. Family and twin studies certainly exist."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Families share environments as well as genes. Why is this a problem for the genetic explanation?",
+          "options": [
+            "It proves that schizophrenia is purely genetic",
+            "It means family resemblance could reflect shared environment rather than genes",
+            "It suggests schizophrenia is contagious",
+            "It shows that families have no influence at all"
+          ],
+          "answerIndex": 1,
+          "explanation": "Because genes and environment are confounded in families, resemblance alone cannot show which one is responsible. It certainly does not prove a purely genetic cause."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The ventricles of the brain, sometimes found enlarged in schizophrenia, are filled with:",
+          "options": [
+            "Blood",
+            "Myelin",
+            "Cerebrospinal fluid",
+            "Grey matter"
+          ],
+          "answerIndex": 2,
+          "explanation": "Ventricles are cavities holding cerebrospinal fluid. Grey matter is brain tissue, which tends to shrink when ventricles enlarge."
+        },
+        {
+          "difficulty": 3,
+          "stem": "In a twin study, identical twins of people with schizophrenia develop it far more often than fraternal twins, but far less than 100% of the time. The best conclusion is that:",
+          "options": [
+            "Environment plays no part in schizophrenia",
+            "Genes play no part in schizophrenia",
+            "Schizophrenia is purely social in origin",
+            "Genes play a role but are not the whole explanation"
+          ],
+          "answerIndex": 3,
+          "explanation": "Higher concordance in identical twins shows a genetic contribution; less than 100% concordance shows non-genetic factors matter too. Each other option ignores half of the evidence."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A researcher wants to find out which brain areas are underactive while patients with schizophrenia plan a task. The most appropriate technique is:",
+          "options": [
+            "PET scan",
+            "CT scan",
+            "Skull X-ray",
+            "Weighing the brain after death"
+          ],
+          "answerIndex": 0,
+          "explanation": "PET shows activity during a task over time. CT shows only structure, so it cannot reveal which areas are underactive."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A study finds that the hippocampus and amygdala are smaller on average in people with schizophrenia. This finding supports:",
+          "options": [
+            "The idea that limbic structures are enlarged in schizophrenia",
+            "The social account of schizophrenia",
+            "Structural brain differences in limbic regions",
+            "The view that brain structure is irrelevant"
+          ],
+          "answerIndex": 2,
+          "explanation": "Smaller hippocampus and amygdala are reduced limbic structures, a structural brain finding. It is the reverse of an enlargement claim."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Enlarged ventricles in the brains of some people with schizophrenia are usually interpreted as a sign of:",
+          "options": [
+            "Extra growth of brain tissue",
+            "Loss of surrounding brain tissue",
+            "Too much blood flow to the brain",
+            "A completely healthy brain"
+          ],
+          "answerIndex": 1,
+          "explanation": "If the fluid-filled spaces are larger, the surrounding tissue has usually shrunk. They do not indicate extra growth."
+        },
+        {
+          "difficulty": 4,
+          "stem": "The main limitation of structural brain findings, such as enlarged ventricles, as evidence about the cause of schizophrenia is that:",
+          "options": [
+            "They are correlational, so the differences could result from the illness or its treatment",
+            "CT scans cannot show the ventricles",
+            "Every patient shows enlarged ventricles",
+            "CT scans show brain activity rather than structure"
+          ],
+          "answerIndex": 0,
+          "explanation": "Finding a difference does not show which came first; long illness or medication might cause it. Only some patients show it, so the third option is wrong too."
+        },
+        {
+          "difficulty": 4,
+          "stem": "The diathesis-stress model explains schizophrenia as the result of:",
+          "options": [
+            "Genes alone, regardless of experience",
+            "Stress alone, regardless of inheritance",
+            "Brain injury alone",
+            "An inherited vulnerability combined with environmental stress"
+          ],
+          "answerIndex": 3,
+          "explanation": "The model holds that a vulnerability (diathesis) leads to disorder only when triggered by enough stress. It rejects single-cause explanations."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider these statements. I: Some claimed schizophrenia genes have failed to replicate. II: CT studies sometimes show enlarged ventricles. III: PET is a static structural imaging technique. Which are correct?",
+          "options": [
+            "I and II only",
+            "I and III only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 0,
+          "explanation": "I and II are correct. III is false: PET shows activity over time; CT is the static structural technique."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Drugs that block dopamine receptors reduce hallucinations, while amphetamine, which boosts dopamine, can worsen them. A researcher would most likely conclude that:",
+          "options": [
+            "Too little dopamine causes hallucinations",
+            "Overactive dopamine transmission contributes to positive symptoms",
+            "Dopamine plays no part in schizophrenia",
+            "Dopamine is the cause of enlarged ventricles"
+          ],
+          "answerIndex": 1,
+          "explanation": "Reducing dopamine helps and increasing it worsens positive symptoms, pointing to overactive dopamine transmission. Too little dopamine is the reverse of what the evidence implies."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which pairing is correctly matched?",
+          "options": [
+            "CT scan: shows changing brain activity during a task",
+            "PET scan: produces a static picture of bone structure",
+            "Johnstone and colleagues (1976): early CT evidence of enlarged ventricles in schizophrenia",
+            "Zubin and Spring (1977): discovery of the schizophrenia gene"
+          ],
+          "answerIndex": 2,
+          "explanation": "Johnstone and colleagues reported enlarged ventricles in an early CT study. CT and PET are swapped in the first two options, and Zubin and Spring proposed the diathesis-stress model, not a gene."
+        }
+      ]
+    }
+  ]
+}

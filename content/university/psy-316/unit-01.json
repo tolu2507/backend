@@ -1,0 +1,695 @@
+{
+  "unit": 1,
+  "title": "Definition of Memory and Description",
+  "summary": "What memory is, how psychologists model it as information processing, and the three steps every memory needs.",
+  "sections": [
+    {
+      "name": "Memory as information processing",
+      "lesson": {
+        "title": "Your mind as an information processor",
+        "minutes": 9,
+        "hook": "You have used your phone's contacts list today without thinking. Psychologists think your memory works in a surprisingly similar way: information comes in, gets filed, and is pulled out when needed.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "What do we mean by memory?",
+            "body": "In everyday talk, memory is 'remembering things'. Psychologists are more precise: **memory** is the mental capacity to take in information, keep it over time and bring it back when it is needed.\n\nThat definition matters because it treats memory as a *process*, not a box. Remembering your matric number, how to ride a bicycle and what happened at your cousin's wedding all depend on that same capacity.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "eye",
+                  "label": "Take it in"
+                },
+                {
+                  "icon": "layers",
+                  "label": "Keep it"
+                },
+                {
+                  "icon": "search",
+                  "label": "Bring it back"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The information-processing approach",
+            "body": "Most modern memory research works inside one framework: the **information-processing approach**. It borrows ideas from computer science. A computer receives input, transforms it, stores it and produces output. The approach asks: what if the mind does something similar?\n\nThis gives psychologists testable models. Instead of vague talk about 'a good memory', they can ask *where* in the system something went wrong.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Input",
+                "Processing",
+                "Storage",
+                "Output"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "The information-processing approach to memory draws its main comparison from which field?",
+            "options": [
+              "Computer science",
+              "Psychoanalysis",
+              "Evolutionary biology",
+              "Behaviourism"
+            ],
+            "answerIndex": 0,
+            "why": "It models the mind like a computer: input, processing, storage and output. Behaviourism, by contrast, avoided talking about inner mental processes at all."
+          },
+          {
+            "kind": "teach",
+            "heading": "Three stores that work together",
+            "body": "The best-known information-processing model is the **Atkinson–Shiffrin model** (1968). It proposes three interacting memory systems.\n\n**Sensory memory** holds a brief, almost raw copy of what your senses pick up. **Short-term memory** holds what you are actively thinking about right now. **Long-term memory** is the vast, lasting store of knowledge and experience.\n\nInformation moves between them; it is not three separate boxes.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Sensory memory",
+                "Short-term memory",
+                "Long-term memory"
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "A danfo conductor's memory",
+            "story": "A danfo conductor at Ojuelegba shouts the route while watching passengers climb in. Faces and voices flash through his senses for a split second. When one passenger says 'Oshodi, I go pay you later', he holds that in mind for the trip. And the fares, the bus stops and the regulars he has known for years? Those sit in long-term memory, ready whenever he needs them.",
+            "takeaway": "One ordinary scene uses all three stores of the Atkinson–Shiffrin model at once."
+          },
+          {
+            "kind": "teach",
+            "heading": "What the processing system is made of",
+            "body": "Information-processing theorists describe the mind's 'architecture' in three parts.\n\n**Memory stores** are where information is held (the three stores you just met). **Cognitive processes** are the operations that move and change information, like paying attention, rehearsing and organising. **Metacognition** is your awareness and control of your own thinking: knowing that you have not really understood a topic, and changing how you study because of it.",
+            "visual": {
+              "type": "pyramid",
+              "levels": [
+                "Metacognition",
+                "Cognitive processes",
+                "Memory stores"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Kemi notices she keeps forgetting definitions, so she switches from rereading to testing herself. Which part of the processing system is she using?",
+            "options": [
+              "Sensory memory",
+              "Metacognition",
+              "Consolidation",
+              "Long-term storage"
+            ],
+            "answerIndex": 1,
+            "why": "She is monitoring and controlling her own learning, which is metacognition. Consolidation is a brain process she cannot consciously switch on."
+          },
+          {
+            "kind": "compare",
+            "heading": "Two ways to explain memory",
+            "left": {
+              "title": "Storage-and-transfer",
+              "points": [
+                "Memory is a series of stores",
+                "Information is passed from store to store",
+                "Forgetting = information lost before or during transfer",
+                "Atkinson–Shiffrin is the classic example"
+              ]
+            },
+            "right": {
+              "title": "Levels of processing",
+              "points": [
+                "Memory depends on how deeply you process",
+                "Thinking about meaning beats noticing appearance",
+                "Deep processing leaves a stronger trace",
+                "Proposed by Craik and Lockhart (1972)"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Why levels of processing matters to you",
+            "body": "Craik and Lockhart argued that the *way* you handle information matters more than which box it lands in. Noticing what a word looks like is **shallow** processing. Thinking about what it means, and linking it to your own life, is **deep** processing.\n\nThis is why cramming definitions word for word fades fast, while explaining a concept to a friend tends to stick.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Shallow: how it looks",
+              "right": "Deep: what it means",
+              "marker": 85,
+              "label": "Best for exams"
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect questions that make you tell the two models apart, or name who proposed what. The common trap is mixing them up: students credit Craik and Lockhart with the three stores, or describe levels of processing as 'moving information between stores'.",
+            "sampleQuestion": "Compare the storage-and-transfer and levels-of-processing explanations of human memory. Which one better explains why understanding a topic helps you remember it?",
+            "howToAnswer": "Define each model with its proposers, give one feature that separates them, then argue that levels of processing better explains it because meaning-based (deep) processing creates more durable memories.",
+            "scholars": [
+              "Atkinson & Shiffrin (1968)",
+              "Craik & Lockhart (1972)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Memory is the capacity to take in, keep and bring back information.",
+              "The information-processing approach models the mind like a computer.",
+              "Atkinson and Shiffrin (1968): sensory, short-term and long-term memory interact.",
+              "The system has memory stores, cognitive processes and metacognition.",
+              "Craik and Lockhart (1972): deeper processing gives stronger memories."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The information-processing approach to memory is best described as an approach that:",
+          "options": [
+            "Compares the mind to a computer that receives, stores and retrieves information",
+            "Explains memory mainly through unconscious wishes and conflicts",
+            "Studies memory only through observable stimulus–response links",
+            "Treats memory as fixed at birth and unchanged by experience"
+          ],
+          "answerIndex": 0,
+          "explanation": "The approach borrows from computer science: input, processing, storage and output. The stimulus–response option describes behaviourism, which avoided inner mental processes."
+        },
+        {
+          "difficulty": 1,
+          "stem": "According to the Atkinson–Shiffrin model, which of the following is NOT one of the three memory systems?",
+          "options": [
+            "Sensory memory",
+            "Working metacognition",
+            "Short-term memory",
+            "Long-term memory"
+          ],
+          "answerIndex": 1,
+          "explanation": "The model has sensory, short-term and long-term memory. Metacognition is part of the wider processing architecture, not one of the three stores."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The three-store model of memory is most closely associated with:",
+          "options": [
+            "Craik and Lockhart",
+            "Atkinson and Shiffrin",
+            "Freud and Breuer",
+            "Pavlov and Watson"
+          ],
+          "answerIndex": 1,
+          "explanation": "Atkinson and Shiffrin (1968) proposed the three interacting stores. Craik and Lockhart are known for levels of processing, a common mix-up."
+        },
+        {
+          "difficulty": 2,
+          "stem": "In information-processing terms, 'metacognition' refers to:",
+          "options": [
+            "The brief storage of raw sensory impressions",
+            "The physical change in the brain that stores a memory",
+            "A person's awareness and control of their own thinking",
+            "The permanent store of knowledge and skills"
+          ],
+          "answerIndex": 2,
+          "explanation": "Metacognition is thinking about your own thinking, such as noticing you have not understood something. The physical brain change is consolidation."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The cognitive architecture described by information-processing theory consists of:",
+          "options": [
+            "Id, ego and superego",
+            "Encoding, storage and forgetting",
+            "Memory stores, cognitive processes and metacognition",
+            "Sensation, perception and emotion"
+          ],
+          "answerIndex": 2,
+          "explanation": "The three components are memory stores, cognitive processes and metacognition. Encoding, storage and retrieval are the steps of remembering, and forgetting is not one of them."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The main idea of the levels-of-processing model is that memory strength depends on:",
+          "options": [
+            "How many times information moves between stores",
+            "How deeply the information is processed",
+            "How long the information stays in sensory memory",
+            "How old the person is when they learn it"
+          ],
+          "answerIndex": 1,
+          "explanation": "Craik and Lockhart argued that deeper, meaning-based processing produces more lasting memories. Moving between stores is the storage-and-transfer view."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A conductor briefly registers the faces of passengers boarding a bus but cannot describe any of them a minute later. According to Atkinson and Shiffrin, the faces most likely reached only:",
+          "options": [
+            "Long-term memory",
+            "Short-term memory, then were consolidated",
+            "Sensory memory",
+            "Metacognition"
+          ],
+          "answerIndex": 2,
+          "explanation": "Information that is registered but never attended to stays in sensory memory and fades within moments. Had he paid attention, it would have moved to short-term memory."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Two students study the term 'consolidation'. Ada counts its letters; Bola explains it to her roommate using her own example. Levels-of-processing theory predicts that:",
+          "options": [
+            "Ada will remember it better because she focused on its form",
+            "Both will remember it equally because they spent the same time",
+            "Bola will remember it better because she processed its meaning",
+            "Neither will remember it unless it reaches sensory memory"
+          ],
+          "answerIndex": 2,
+          "explanation": "Thinking about meaning is deep processing and leaves a stronger memory. Counting letters is shallow processing of appearance."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Tunde realises he cannot explain a topic he has read three times, so he starts making his own diagrams. This change in strategy shows:",
+          "options": [
+            "Sensory memory overload",
+            "Metacognitive control",
+            "Failure of consolidation",
+            "Shallow processing"
+          ],
+          "answerIndex": 1,
+          "explanation": "Monitoring your own understanding and changing how you study is metacognition. Making diagrams also deepens processing, the opposite of shallow processing."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement correctly distinguishes the storage-and-transfer model from the levels-of-processing model?",
+          "options": [
+            "The first stresses where information is held; the second stresses how it is processed",
+            "The first was proposed by Craik and Lockhart; the second by Atkinson and Shiffrin",
+            "The first denies short-term memory; the second denies long-term memory",
+            "The first explains forgetting; the second says forgetting never happens"
+          ],
+          "answerIndex": 0,
+          "explanation": "Storage-and-transfer focuses on stores and movement between them; levels of processing focuses on depth of processing. The second option reverses the proposers, a classic trap."
+        },
+        {
+          "difficulty": 4,
+          "stem": "A lecturer says, 'Memory is not a set of boxes but a by-product of how we handle information.' This statement is closest to:",
+          "options": [
+            "The Atkinson–Shiffrin model",
+            "The levels-of-processing view",
+            "The behaviourist view of learning",
+            "The sensory memory hypothesis"
+          ],
+          "answerIndex": 1,
+          "explanation": "Levels of processing treats memory as a result of processing depth rather than of fixed stores. The Atkinson–Shiffrin model is the 'boxes' view the lecturer is rejecting."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are true of the information-processing approach EXCEPT that it:",
+          "options": [
+            "Uses ideas from computer science",
+            "Breaks memory into stages that can be studied",
+            "Treats memory as directly observable behaviour only",
+            "Underlies the Atkinson–Shiffrin model"
+          ],
+          "answerIndex": 2,
+          "explanation": "The approach is cognitive: it studies inner mental processes inferred from behaviour. Restricting study to observable behaviour is the behaviourist position."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider these statements. I: In the Atkinson–Shiffrin model, the three stores interact. II: Levels of processing holds that deep processing produces stronger memories. III: Metacognition is one of the three stores in the Atkinson–Shiffrin model. Which are correct?",
+          "options": [
+            "I and II only",
+            "I and III only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 0,
+          "explanation": "Statements I and II are correct. Statement III is wrong: the three stores are sensory, short-term and long-term memory; metacognition belongs to the wider processing architecture."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Craik and Lockhart – three interacting memory stores",
+            "Atkinson and Shiffrin – depth of processing",
+            "Metacognition – awareness and control of one's own thinking",
+            "Sensory memory – the permanent store of knowledge"
+          ],
+          "answerIndex": 2,
+          "explanation": "Metacognition is correctly matched. The first two swap the scholars' ideas, and the permanent store is long-term memory, not sensory memory."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A researcher finds that students who relate new words to their own lives recall more of them a week later than students who repeat the words aloud, even though both groups spent equal time. The finding most directly supports:",
+          "options": [
+            "The idea that time spent rehearsing alone decides memory strength",
+            "The levels-of-processing model",
+            "The view that sensory memory is permanent",
+            "The claim that metacognition plays no role in learning"
+          ],
+          "answerIndex": 1,
+          "explanation": "Equal time but better recall after meaningful processing supports levels of processing. If time alone mattered, both groups would recall the same."
+        }
+      ]
+    },
+    {
+      "name": "Encoding, storage and retrieval",
+      "lesson": {
+        "title": "The three steps every memory needs",
+        "minutes": 9,
+        "hook": "Have you ever been sure you 'knew' an answer in the exam hall, yet it would not come out? Somewhere in three small steps, something broke. Let's find out which one.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Remembering takes three steps",
+            "body": "Every memory you have went through three processes. **Encoding** turns what you experience into a form the brain can hold. **Storage** keeps it over time. **Retrieval** brings it back to mind when you need it.\n\nAll three are needed. Miss any one and you cannot remember, which is why the same 'I forgot' can have very different causes.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Encoding",
+                "Storage",
+                "Retrieval"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Encoding: getting it in",
+            "body": "**Encoding** converts an experience into something your brain can hold on to. You do not store a lecture the way a recorder does; you turn it into meanings, images and sounds.\n\nSuppose you witness a phone being snatched at a bus stop. To remember it later, you might form a mental picture of the thief's red cap and the direction he ran. That mental picture is the encoded version.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "eye",
+                  "label": "Images"
+                },
+                {
+                  "icon": "ear",
+                  "label": "Sounds"
+                },
+                {
+                  "icon": "bulb",
+                  "label": "Meanings"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Forming a mental picture of a robbery so you can describe it later is an example of:",
+            "options": [
+              "Retrieval",
+              "Consolidation",
+              "Encoding",
+              "Metacognition"
+            ],
+            "answerIndex": 2,
+            "why": "Turning the event into a form you can store is encoding. Retrieval happens later, when you describe it to the police."
+          },
+          {
+            "kind": "teach",
+            "heading": "Storage and consolidation",
+            "body": "**Storage** means keeping information over time. For encoded information to last, a physical change has to happen in the brain. This stabilising process is called **consolidation**.\n\nConsolidation takes time and is helped by sleep. It is one reason an all-night read before a paper often disappoints: the brain gets little chance to settle what was learnt.",
+            "visual": {
+              "type": "brain",
+              "region": "hippocampus",
+              "label": "Helps consolidate new memories"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Retrieval: getting it out",
+            "body": "**Retrieval** is bringing stored information back to mind. It is often the step that fails under pressure. The memory may be stored perfectly well, but you cannot find the route to it at that moment.\n\nCues help. A smell, a place or the first letter of a word can unlock a memory that seemed gone.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "search",
+                  "label": "Search"
+                },
+                {
+                  "icon": "bulb",
+                  "label": "Cue"
+                },
+                {
+                  "icon": "checkmark-circle",
+                  "label": "Found"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "The name on the tip of your tongue",
+            "story": "Musa meets a former classmate at the Bodija market. He knows her well: they did a group project together in 200 Level. But her name will not come. On the bus home, he passes the faculty building and suddenly says out loud, 'Funmilayo!' Nothing was lost. The memory was stored all along; seeing the building gave him the cue to retrieve it.",
+            "takeaway": "Failing to recall does not always mean the memory is gone; it is often a retrieval failure."
+          },
+          {
+            "kind": "steps",
+            "heading": "Where forgetting can happen",
+            "steps": [
+              {
+                "title": "Encoding failure",
+                "detail": "You never properly took it in, for example because you were distracted in the lecture."
+              },
+              {
+                "title": "Storage failure",
+                "detail": "It was taken in but not kept, for example because it was never consolidated."
+              },
+              {
+                "title": "Retrieval failure",
+                "detail": "It is stored, but you cannot reach it right now without the right cue."
+              }
+            ]
+          },
+          {
+            "kind": "check",
+            "question": "Ngozi was scrolling on her phone throughout the lecture. In the test she cannot answer a question on that topic. The most likely cause is:",
+            "options": [
+              "Retrieval failure",
+              "Encoding failure",
+              "Consolidation during sleep",
+              "Too much rehearsal"
+            ],
+            "answerIndex": 1,
+            "why": "If she never attended, the information was never encoded. You cannot retrieve what was never put in."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Lecturers like scenario questions that ask which step failed. The trap is answering 'retrieval failure' for everything. Ask yourself: was it ever properly taken in? Was it kept? Or is it there but unreachable?",
+            "sampleQuestion": "Explain the three processes involved in remembering. Using an example, show how forgetting can result from a failure at each stage.",
+            "howToAnswer": "Define encoding, storage (with consolidation) and retrieval, then give one short scenario for each kind of failure. Conclude that remembering needs all three steps to succeed.",
+            "scholars": [
+              "Atkinson & Shiffrin (1968)"
+            ]
+          },
+          {
+            "kind": "terms",
+            "heading": "Key terms",
+            "terms": [
+              {
+                "term": "Encoding",
+                "meaning": "Converting an experience into something the brain can hold on to."
+              },
+              {
+                "term": "Storage",
+                "meaning": "Keeping encoded information over time."
+              },
+              {
+                "term": "Consolidation",
+                "meaning": "The brain's physical process of stabilising a new memory."
+              },
+              {
+                "term": "Retrieval",
+                "meaning": "Bringing stored information back to mind."
+              }
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Remembering needs encoding, storage and retrieval.",
+              "Encoding turns experience into a storable form.",
+              "Storage depends on consolidation, a physical change in the brain.",
+              "Retrieval often fails without the right cue, even when the memory is stored.",
+              "Forgetting can happen at any of the three steps."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The three processes required for remembering are:",
+          "options": [
+            "Encoding, storage and retrieval",
+            "Attention, perception and recall",
+            "Sensation, consolidation and forgetting",
+            "Rehearsal, chunking and retrieval"
+          ],
+          "answerIndex": 0,
+          "explanation": "Every memory must be encoded, stored and retrieved. The other lists mix in processes that are not the three core steps."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which process brings stored information back into awareness?",
+          "options": [
+            "Encoding",
+            "Consolidation",
+            "Retrieval",
+            "Storage"
+          ],
+          "answerIndex": 2,
+          "explanation": "Retrieval is bringing information back to mind. Consolidation is what makes it last in storage in the first place."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The physical change in the brain that allows encoded information to be stored is called:",
+          "options": [
+            "Metacognition",
+            "Rehearsal",
+            "Retrieval",
+            "Consolidation"
+          ],
+          "answerIndex": 3,
+          "explanation": "Consolidation is the brain's stabilising of a new memory. Rehearsal is a behaviour that can help, but it is not the physical change itself."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Encoding is best defined as:",
+          "options": [
+            "Keeping information over a long period",
+            "Transforming information into a form that can be stored",
+            "Recognising information when you see it again",
+            "Losing information through disuse"
+          ],
+          "answerIndex": 1,
+          "explanation": "Encoding converts experience into a storable form. Keeping it over time is storage."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Why is consolidation important for memory?",
+          "options": [
+            "It allows information to enter the senses",
+            "It removes unimportant memories immediately",
+            "It makes retrieval unnecessary",
+            "It stabilises encoded information so it can be kept"
+          ],
+          "answerIndex": 3,
+          "explanation": "Without consolidation, encoded information is not kept. Retrieval is still needed afterwards to use the memory."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which of the following is NOT a step in remembering?",
+          "options": [
+            "Projection",
+            "Storage",
+            "Retrieval",
+            "Encoding"
+          ],
+          "answerIndex": 0,
+          "explanation": "Projection is a defence mechanism from psychoanalytic theory, not a memory process. The other three are the steps of remembering."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Chika can name her primary school teacher only when she drives past the old school. Before then she could not recall the name at all. This shows that the memory was:",
+          "options": [
+            "Never encoded",
+            "Stored but not retrievable without a cue",
+            "Lost through failed consolidation",
+            "Held only in sensory memory"
+          ],
+          "answerIndex": 1,
+          "explanation": "The cue brought it back, so the memory had been stored all along: a retrieval failure. If it were never encoded, no cue could bring it back."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A student spends the whole lecture chatting and later cannot recall anything the lecturer said. The best explanation is a failure of:",
+          "options": [
+            "Retrieval",
+            "Long-term storage capacity",
+            "Consolidation during sleep",
+            "Encoding"
+          ],
+          "answerIndex": 3,
+          "explanation": "Information that is not attended to is never encoded. It would be wrong to call it retrieval failure, because there is nothing stored to retrieve."
+        },
+        {
+          "difficulty": 3,
+          "stem": "After a fall, a man remembers events from years ago but cannot form lasting memories of what happens after the accident. The process most clearly disrupted is:",
+          "options": [
+            "Consolidation of new memories",
+            "Retrieval of old memories",
+            "Sensory registration",
+            "Metacognitive monitoring"
+          ],
+          "answerIndex": 0,
+          "explanation": "Old memories are intact, so retrieval works; he cannot make new ones last, which points to consolidation and storage of new information."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement about forgetting is correct?",
+          "options": [
+            "Forgetting always means the memory has been erased",
+            "Forgetting happens only at the retrieval stage",
+            "Forgetting can result from a failure at encoding, storage or retrieval",
+            "Forgetting cannot occur once information is encoded"
+          ],
+          "answerIndex": 2,
+          "explanation": "Any of the three steps can fail. The tip-of-the-tongue experience shows forgetting does not always mean erasure."
+        },
+        {
+          "difficulty": 4,
+          "stem": "A student who reads all night before an exam and sleeps little often remembers less than expected. In memory terms, this is mainly because:",
+          "options": [
+            "Too much information causes retrieval to become automatic",
+            "Little sleep gives the brain less chance to consolidate what was learnt",
+            "Night reading prevents encoding entirely",
+            "Sensory memory lasts longer at night"
+          ],
+          "answerIndex": 1,
+          "explanation": "Consolidation is helped by sleep, so cutting sleep weakens storage. Encoding still happens at night, so 'prevents encoding entirely' overstates it."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following describe retrieval failure EXCEPT:",
+          "options": [
+            "Never having heard the information in the first place",
+            "Recalling a name only after seeing a related place",
+            "Knowing an answer but being unable to recall it in the exam hall",
+            "Remembering a word once someone gives its first letter"
+          ],
+          "answerIndex": 0,
+          "explanation": "Never hearing the information is an encoding failure: it was never put in. The others show stored memories that needed a cue."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider these statements. I: Encoding transforms information into a storable form. II: Consolidation is a conscious strategy a student chooses to use. III: A memory that cannot be recalled may still be stored. Which are correct?",
+          "options": [
+            "I and II only",
+            "I and III only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 1,
+          "explanation": "I and III are correct. II is wrong: consolidation is a physical brain process, not a strategy you consciously decide to use."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Match each case to the memory step that went wrong. Which pairing is right?",
+          "options": [
+            "Distracted in class – retrieval failure",
+            "Tip-of-the-tongue experience – encoding failure",
+            "Unable to form new lasting memories after injury – consolidation problem",
+            "Remembering after a cue – storage failure"
+          ],
+          "answerIndex": 2,
+          "explanation": "Failing to make new memories last points to consolidation. The others are mismatched: distraction is encoding failure, and the tip-of-the-tongue and cue examples are retrieval failures."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A researcher teaches two groups a list of terms. Group A is tested in the same room with the same background music; Group B in a different room without music. Group A recalls more. The best interpretation is that:",
+          "options": [
+            "Group B failed to encode the terms",
+            "Group B's memories were never consolidated",
+            "Music improves sensory memory capacity",
+            "Context acted as a retrieval cue for Group A"
+          ],
+          "answerIndex": 3,
+          "explanation": "Both groups learnt the same way, so encoding and storage were similar; the matching context helped Group A retrieve. This is why familiar cues aid recall."
+        }
+      ]
+    }
+  ]
+}

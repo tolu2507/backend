@@ -84,7 +84,7 @@ export class ExamsService implements OnApplicationBootstrap {
     if (!rules) throw new BadRequestException('We don’t prepare for that exam yet.');
     const student = await this.prisma.studentProfile.findUniqueOrThrow({ where: { id: studentId }, select: { level: true } });
     if (student.level !== rules.level) {
-      const who = { NURSERY: 'nursery pupils', PRIMARY: 'primary school pupils', JUNIOR_SECONDARY: 'junior secondary students', SENIOR_SECONDARY: 'senior secondary students' }[rules.level];
+      const who = { NURSERY: 'nursery pupils', PRIMARY: 'primary school pupils', JUNIOR_SECONDARY: 'junior secondary students', SENIOR_SECONDARY: 'senior secondary students', TERTIARY: 'university students' }[rules.level];
       throw new BadRequestException(`${rules.label} is for ${who}.`);
     }
     const ids = [...new Set(subjectIds)];

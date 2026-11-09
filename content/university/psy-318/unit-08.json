@@ -1,0 +1,979 @@
+{
+  "unit": 8,
+  "title": "Substance Abuse Disorders",
+  "summary": "What counts as a drug, abuse versus dependence (and DSM-5's single substance use disorder), the classes of misused substances, and treatment.",
+  "sections": [
+    {
+      "name": "Drugs, abuse and dependence",
+      "lesson": {
+        "title": "From using a drug to needing it",
+        "minutes": 10,
+        "hook": "Is the kola nut your grandfather chews a drug? What about the coffee you drank to read for this exam? Psychologists say yes, and that is exactly where this topic begins.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "What counts as a drug?",
+            "body": "In psychology, a **drug** is any substance, apart from food, that changes how the body or mind works. It does not have to be a medicine, and it does not have to be illegal.\n\nThat is why psychologists now prefer the word **substance**. Many people never think of **alcohol**, **tobacco** or **caffeine** as drugs, yet each one alters mood, alertness or the body. Humans have used such substances for thousands of years to treat illness, dull pain and ease mental suffering.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {"icon": "medkit", "label": "Medicines"},
+                {"icon": "leaf", "label": "Kola, tobacco"},
+                {"icon": "warning", "label": "Illegal drugs"}
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "What happens when a drug enters",
+            "body": "Whether it is a beer, a cough syrup or cannabis, a swallowed or inhaled substance enters the bloodstream and travels to the **brain**. There its molecules interfere with the chemical messengers neurons use to talk to one another.\n\nThat chain of chemical changes is what produces the 'high', the calm or the alertness. It is also what disturbs normal brain and body functioning, and, with repeated use, can change the brain in lasting ways.",
+            "visual": {
+              "type": "neuron",
+              "part": "synapse",
+              "label": "Drugs act at synapses"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "What 'drug abuse' means here",
+            "body": "Many people take drugs to alter their **awareness, mood and feelings**. When they do so without a qualified doctor's prescription, choosing and taking the drug themselves (**self-medication**), your manual calls this **drug abuse**.\n\nThe danger is the path it can open: from occasional misuse, to **maladaptive behaviour**, to **dependence** and **addiction**. DSM-IV, which your manual follows, separated two stages along that path: **substance abuse** and **substance dependence**.",
+            "visual": {
+              "type": "flow",
+              "nodes": ["Use", "Abuse", "Dependence"]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Substance abuse (DSM-IV)",
+            "body": "**Substance abuse** is a maladaptive pattern of use that causes clinically significant harm or distress. The person leans on the drug so much that relationships, school or work suffer, or they put themselves and others in danger.\n\nDSM-IV required **at least one** of four signs within **12 months**: repeatedly failing major duties at school, work or home; repeatedly using in physically dangerous situations (such as driving); repeated drug-related **legal problems**; and continuing despite ongoing social or relationship problems.",
+            "visual": {
+              "type": "stat",
+              "value": "1 of 4 signs",
+              "label": "within 12 months for abuse"
+            }
+          },
+          {
+            "kind": "terms",
+            "heading": "Two key words for dependence",
+            "terms": [
+              {"term": "Tolerance", "meaning": "Needing more and more of the drug to get the same effect, or getting less effect from the same dose."},
+              {"term": "Withdrawal", "meaning": "Unpleasant, sometimes dangerous symptoms (cramps, anxiety, sweating, nausea) when use suddenly stops or is cut down."},
+              {"term": "Physical dependence", "meaning": "The body has adapted to the drug, shown by tolerance, withdrawal or both."},
+              {"term": "Addiction", "meaning": "Another name for substance dependence: life now centres on the drug."}
+            ]
+          },
+          {
+            "kind": "teach",
+            "heading": "Substance dependence (DSM-IV)",
+            "body": "**Substance dependence** is the more advanced pattern, also called **addiction**. The person not only misuses the drug but organises life around it.\n\nDSM-IV required **at least three** of seven signs in **12 months**: tolerance; withdrawal; taking more, or for longer, than intended; a persistent wish or failed attempts to cut down; lots of time spent getting, using or recovering; giving up important activities; and continuing despite physical or psychological harm. Note: tolerance and withdrawal are not required on their own.",
+            "visual": {
+              "type": "stat",
+              "value": "3 of 7 signs",
+              "label": "within 12 months for dependence"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "A student writes: 'Substance dependence is shown only by tolerance and withdrawal.' Is this correct?",
+            "options": [
+              "Yes, both must be present and nothing else counts",
+              "Yes, but only withdrawal is required",
+              "No, any three of seven signs within a year are needed",
+              "No, dependence needs only one sign"
+            ],
+            "answerIndex": 2,
+            "why": "Tolerance and withdrawal are two of seven possible signs; any three within 12 months meet the DSM-IV threshold. One sign is the threshold for abuse, not dependence."
+          },
+          {
+            "kind": "compare",
+            "heading": "Abuse versus dependence",
+            "left": {
+              "title": "Substance abuse",
+              "points": [
+                "Harmful pattern of use",
+                "At least 1 of 4 signs",
+                "Neglected duties, danger, legal trouble",
+                "No need for tolerance or withdrawal"
+              ]
+            },
+            "right": {
+              "title": "Substance dependence",
+              "points": [
+                "More advanced: addiction",
+                "At least 3 of 7 signs",
+                "Life centres on the drug",
+                "Often tolerance and withdrawal"
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Segun's codeine syrup",
+            "story": "Segun, a 19-year-old apprentice in Kano, first tried codeine cough syrup with friends to 'relax'. A year later, one bottle no longer does anything; he needs two. When he cannot get it, he sweats, aches and cannot sleep. He has stopped going to his shop, borrows money constantly and has tried to quit three times without success.",
+            "takeaway": "Tolerance, withdrawal, failed attempts to stop and neglect of work make well over three signs: dependence in DSM-IV terms, or a severe use disorder in DSM-5."
+          },
+          {
+            "kind": "teach",
+            "heading": "The DSM-5 update",
+            "body": "Your manual follows DSM-IV. In **DSM-5 (2013)**, abuse and dependence were merged into one diagnosis: **substance use disorder**. There are **11 criteria**; meeting **2 or more** within 12 months is enough.\n\nSeverity is graded by count: **mild** (2–3), **moderate** (4–5), **severe** (6 or more). The 'legal problems' criterion was dropped, and **craving** was added. Why the change? Research showed abuse and dependence were not really separate stages but points on one continuum.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Mild (2-3)",
+              "right": "Severe (6+)",
+              "marker": 50,
+              "label": "Moderate: 4-5 criteria"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Under DSM-5, a person meeting five substance use criteria in the past year would be diagnosed with:",
+            "options": [
+              "Substance abuse",
+              "Moderate substance use disorder",
+              "Severe substance use disorder",
+              "Substance dependence"
+            ],
+            "answerIndex": 1,
+            "why": "Four to five criteria is moderate; six or more is severe. 'Abuse' and 'dependence' are DSM-IV labels that DSM-5 replaced."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "'Differentiate between substance abuse and substance dependence' is a favourite essay. Objective papers test the thresholds (one of four versus three of seven) and the true/false trap that dependence equals tolerance plus withdrawal. Strong answers add the DSM-5 merger, showing you know the manual is dated.",
+            "sampleQuestion": "Define a drug and differentiate between substance abuse and substance dependence. How has DSM-5 changed this classification?",
+            "howToAnswer": "Give the broad definition of a drug, set out the DSM-IV criteria for each pattern with their thresholds, then explain DSM-5's single substance use disorder with mild, moderate and severe levels.",
+            "scholars": ["American Psychiatric Association, DSM-IV-TR (2000)", "American Psychiatric Association, DSM-5 (2013)"]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "A drug is any non-food substance that changes body or mind.",
+              "Alcohol, tobacco and caffeine are drugs, hence the word 'substance'.",
+              "DSM-IV abuse: at least 1 of 4 harmful signs within a year.",
+              "DSM-IV dependence (addiction): at least 3 of 7 signs within a year.",
+              "DSM-5 merges both into substance use disorder: mild, moderate, severe."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "In psychology, the best definition of a drug is:",
+          "options": [
+            "Any illegal substance sold on the street",
+            "Any medicine prescribed by a doctor",
+            "Any substance other than food that affects the body and mind",
+            "Any substance that causes hallucinations"
+          ],
+          "answerIndex": 2,
+          "explanation": "A drug is any non-food substance that changes body or mind, whether or not it is legal or a medicine. Limiting it to illegal substances leaves out alcohol, tobacco and caffeine."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The term 'substance' is now often used instead of 'drug' mainly because:",
+          "options": [
+            "Many people do not see alcohol, tobacco and caffeine as drugs",
+            "All drugs are now legal",
+            "The word 'drug' refers only to medicines",
+            "Substances do not affect the brain"
+          ],
+          "answerIndex": 0,
+          "explanation": "The broader word reminds people that everyday substances such as alcohol and caffeine are drugs too. Substances clearly do affect the brain, so the last option is false."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Substance dependence is also commonly known as:",
+          "options": [
+            "Tolerance",
+            "Withdrawal",
+            "Self-medication",
+            "Addiction"
+          ],
+          "answerIndex": 3,
+          "explanation": "Dependence is the advanced pattern also called addiction. Tolerance and withdrawal are signs of dependence, not other names for it."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Needing larger and larger amounts of a drug to achieve the same effect is called:",
+          "options": [
+            "Withdrawal",
+            "Tolerance",
+            "Relapse",
+            "Detoxification"
+          ],
+          "answerIndex": 1,
+          "explanation": "Tolerance is the reduced effect of a drug with repeated use. Withdrawal refers to the unpleasant symptoms when use stops."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Under DSM-IV, how many of the listed signs must occur within 12 months for a diagnosis of substance dependence?",
+          "options": [
+            "At least three of seven",
+            "At least one of four",
+            "All seven",
+            "At least two of eleven"
+          ],
+          "answerIndex": 0,
+          "explanation": "DSM-IV dependence required three or more of seven signs within a year. One of four is the abuse threshold, and two of eleven is the DSM-5 use disorder threshold."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which of the following is NOT one of the DSM-IV signs of substance abuse?",
+          "options": [
+            "Repeatedly failing major duties at school, work or home",
+            "Repeated substance-related legal problems",
+            "Using in physically hazardous situations",
+            "Tolerance to the substance"
+          ],
+          "answerIndex": 3,
+          "explanation": "Tolerance is a sign of dependence, not abuse. The other three are among the four DSM-IV abuse signs."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Ifeanyi drinks heavily every weekend. He has been arrested twice for drunk driving, but shows no tolerance or withdrawal and has no other problems. Under DSM-IV, this pattern best fits:",
+          "options": [
+            "Substance dependence",
+            "Polysubstance-related disorder",
+            "Substance abuse",
+            "No disorder at all"
+          ],
+          "answerIndex": 2,
+          "explanation": "Repeated legal problems and using in hazardous situations meet at least one abuse sign. Without three dependence signs, it does not reach dependence."
+        },
+        {
+          "difficulty": 3,
+          "stem": "After stopping a drug she had used daily for months, Halima experiences cramps, sweating, nausea and anxiety attacks. She is experiencing:",
+          "options": [
+            "Tolerance",
+            "Withdrawal",
+            "Intoxication",
+            "Polysubstance dependence"
+          ],
+          "answerIndex": 1,
+          "explanation": "These are classic withdrawal symptoms, appearing when regular use suddenly stops. Tolerance is about needing more of the drug, not about symptoms on stopping."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Kunle spends most of his day getting and using cannabis, has dropped football and church, keeps using though it worsens his anxiety, and has failed to cut down. Under DSM-IV he would most likely be diagnosed with:",
+          "options": [
+            "Substance dependence",
+            "Substance abuse only",
+            "A hallucinogen-induced psychosis",
+            "No disorder, because he has no tolerance"
+          ],
+          "answerIndex": 0,
+          "explanation": "He shows four dependence signs (time spent, activities given up, continued use despite harm, failed control), which exceeds the threshold of three. Tolerance is not required for dependence."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement correctly describes the change from DSM-IV to DSM-5?",
+          "options": [
+            "DSM-5 added a separate diagnosis for each stage of addiction",
+            "DSM-5 kept abuse and dependence but added 'legal problems'",
+            "DSM-5 removed tolerance and withdrawal as criteria",
+            "DSM-5 merged abuse and dependence into one substance use disorder"
+          ],
+          "answerIndex": 3,
+          "explanation": "DSM-5 combined the two into a single substance use disorder graded mild to severe. It actually dropped legal problems and kept tolerance and withdrawal among its 11 criteria."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Under DSM-5, a person who meets six criteria for alcohol use disorder in the past year has:",
+          "options": [
+            "Mild alcohol use disorder",
+            "Moderate alcohol use disorder",
+            "Severe alcohol use disorder",
+            "Alcohol abuse"
+          ],
+          "answerIndex": 2,
+          "explanation": "Six or more criteria indicates severe; four to five is moderate. 'Alcohol abuse' is an older DSM-IV label no longer used in DSM-5."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which feature most clearly marks dependence as 'more advanced' than abuse?",
+          "options": [
+            "The person's life comes to centre on the substance",
+            "The person has used a drug at least once",
+            "The drug was obtained without a prescription",
+            "The person uses alcohol rather than an illegal drug"
+          ],
+          "answerIndex": 0,
+          "explanation": "In dependence, the substance becomes the focus of life, often with tolerance or withdrawal. Using without a prescription describes self-medication, which may happen at any stage."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider these statements: I. A drug must be illegal to be abused. II. DSM-IV abuse needs at least one of four signs in a year. III. Withdrawal alone is enough to diagnose DSM-IV dependence. IV. DSM-5 added craving as a criterion. Which are correct?",
+          "options": [
+            "I and II only",
+            "II and IV only",
+            "II, III and IV only",
+            "I, III and IV only"
+          ],
+          "answerIndex": 1,
+          "explanation": "Statements II and IV are correct. Legal substances such as alcohol can be abused (I is false), and dependence requires three signs, so withdrawal alone is not enough (III is false)."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Substance abuse: at least three of seven signs",
+            "Withdrawal: needing more of a drug for the same effect",
+            "Mild DSM-5 use disorder: two to three criteria",
+            "Substance dependence: at least one of four signs"
+          ],
+          "answerIndex": 2,
+          "explanation": "Mild use disorder is two to three DSM-5 criteria. The other options swap the abuse and dependence thresholds or confuse withdrawal with tolerance."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A lecturer argues that DSM-5 was right to merge abuse and dependence. Her strongest argument would be that:",
+          "options": [
+            "Research showed they lie on one continuum rather than being separate stages",
+            "Abuse never leads to dependence",
+            "Legal problems are the best sign of addiction",
+            "Only illegal drugs can cause dependence"
+          ],
+          "answerIndex": 0,
+          "explanation": "Evidence suggested abuse and dependence form a single dimension of severity, which a graded diagnosis captures better. DSM-5 actually dropped legal problems because they were a poor indicator."
+        }
+      ]
+    },
+    {
+      "name": "Categories of misused substances",
+      "lesson": {
+        "title": "Depressants, stimulants, hallucinogens, cannabis",
+        "minutes": 10,
+        "hook": "The night-guard chewing kola to stay awake and the man drinking ogogoro to 'calm down' are using drugs from opposite ends of the same scale.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Sorting drugs by what they do",
+            "body": "Psychologists group misused substances by their main effect on the **central nervous system** (CNS): the brain and spinal cord.\n\nYour course uses four groups. **Depressants** slow the CNS down. **Stimulants** speed it up. **Hallucinogens** mainly change perception. **Cannabis** drugs produce a mixture of all three effects. Learning a drug's group tells you what it does, and what withdrawal from it is likely to look like.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {"icon": "trending-down", "label": "Depressants"},
+                {"icon": "trending-up", "label": "Stimulants"},
+                {"icon": "eye", "label": "Hallucinogens"},
+                {"icon": "leaf", "label": "Cannabis"}
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Depressants: slowing the system",
+            "body": "**Depressants** reduce CNS activity, causing relaxation, drowsiness and slowed reactions. Your course names three.\n\n**Alcohol**: any drink containing ethyl alcohol, from beer and palm wine to spirits such as ogogoro. **Sedative-hypnotics** (also called anxiolytics): in low doses they calm anxiety, in higher doses they bring sleep; examples are **barbiturates** and **benzodiazepines** such as diazepam. **Opioids**: highly addictive drugs from the opium poppy, such as **morphine** and **heroin**; codeine and tramadol belong here too.",
+            "visual": {
+              "type": "flow",
+              "nodes": ["Alcohol", "Sedative-hypnotics", "Opioids"]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "A correction about endorphins",
+            "body": "Your manual lists **endorphins** among opium-derived drugs. That is not accurate. Endorphins are the body's **own** natural opioid-like chemicals, released during pain, exercise or stress. They work on the same brain receptors that morphine and heroin act on, which is why opioids relieve pain so strongly.\n\nSo: opium gives us morphine and heroin; the body makes endorphins. Writing this distinction in an exam shows real understanding.",
+            "visual": {
+              "type": "venn",
+              "left": "Poppy opioids",
+              "right": "Endorphins",
+              "both": "Same brain receptors"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "A drug that calms anxiety in small doses and induces sleep in larger doses belongs to which group?",
+            "options": [
+              "Stimulants",
+              "Hallucinogens",
+              "Cannabis drugs",
+              "Sedative-hypnotics"
+            ],
+            "answerIndex": 3,
+            "why": "Sedative-hypnotics (anxiolytics) reduce anxiety at low doses and cause sleep at high doses. Stimulants have the opposite effect, increasing alertness."
+          },
+          {
+            "kind": "teach",
+            "heading": "Stimulants: speeding things up",
+            "body": "**Stimulants** increase CNS activity: blood pressure and heart rate rise, alertness grows, and behaviour and thinking speed up. The four in your course are **cocaine**, **amphetamines**, **caffeine** and **nicotine**.\n\n**Cocaine** comes from the coca plant and is the most powerful natural stimulant known; its smokable form, **crack**, is extremely addictive, and heavy use can cause paranoia and psychosis. **Amphetamines** are made in laboratories. **Nicotine** is the stimulant in tobacco.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {"icon": "pulse", "label": "Heart rate up"},
+                {"icon": "flash", "label": "More alert"},
+                {"icon": "time", "label": "Faster thinking"}
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Caffeine: the everyday stimulant",
+            "body": "**Caffeine** is the most widely used stimulant in the world. Most is drunk as coffee, but it is also in tea, **cola drinks** (originally flavoured with the kola nut), chocolate from the cocoa bean, and many pain and cold medicines.\n\nIn Nigeria, chewing **kola nut** (obi) at ceremonies, or to stay awake on night shifts, is caffeine use. Heavy users who suddenly stop can get headaches and fatigue: a mild withdrawal, proving caffeine is a real drug.",
+            "visual": {
+              "type": "stat",
+              "value": "No. 1",
+              "label": "most used stimulant worldwide: caffeine"
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Exam week in Ibadan",
+            "story": "During exams, Musa drinks three energy drinks and chews kola every night to read until 4 a.m. His heart races and he cannot sleep even when he wants to. His roommate, Dayo, does the opposite: he takes his mother's diazepam tablets to 'calm his nerves' and sleeps through his 8 a.m. paper.",
+            "takeaway": "Musa is overusing stimulants (CNS up); Dayo is misusing a sedative-hypnotic depressant (CNS down), and without a prescription."
+          },
+          {
+            "kind": "teach",
+            "heading": "Hallucinogens",
+            "body": "**Hallucinogens** mainly change **sensory perception**. They can make colours and sounds feel stronger, and produce **illusions** (misperceiving real things) and **hallucinations** (perceiving things that are not there).\n\nThe best-known is **LSD** (lysergic acid diethylamide), made from **ergot alkaloids**, chemicals from a fungus that grows on rye. Swiss chemist **Albert Hofmann** first made it in **1938** and discovered its mind-altering effects in 1943. Other hallucinogens include mescaline and psilocybin ('magic mushrooms').",
+            "visual": {
+              "type": "brain",
+              "region": "occipital-lobe",
+              "label": "Perception is distorted"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Cannabis drugs",
+            "body": "**Cannabis** drugs come from the hemp plant, ***Cannabis sativa*** (known locally as Indian hemp or 'igbo'). Their main active chemical is **THC**. Uniquely, they produce a **mix** of hallucinogenic, depressant and stimulant effects.\n\nThe strongest common form is **hashish**, made from the plant's resin. **Marijuana**, from the dried buds, leaves and flowering tops, is weaker. It is among the most widely used illegal drugs and causes mild perceptual changes and a sense of well-being.",
+            "visual": {
+              "type": "scale",
+              "left": "Hashish",
+              "right": "Marijuana",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Why is cannabis placed in a category of its own rather than with depressants or stimulants?",
+            "options": [
+              "It is legal everywhere",
+              "It produces a mixture of hallucinogenic, depressant and stimulant effects",
+              "It has no effect on the brain",
+              "It is made in laboratories"
+            ],
+            "answerIndex": 1,
+            "why": "Cannabis combines effects from all three other groups, so it does not fit neatly into one. It is a plant product, not a laboratory drug like amphetamines."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'list the categories of misused substances' and 'give examples of stimulants'. Objective items love odd-one-out questions (caffeine is a stimulant, not a depressant; alcohol is a depressant, despite making people lively). Traps: putting nicotine with depressants, calling hashish weaker than marijuana, or crediting LSD to the wrong person or year.",
+            "sampleQuestion": "Which of the following is NOT a stimulant? A. Nicotine B. Caffeine C. Amphetamine D. Barbiturate",
+            "howToAnswer": "Barbiturates are sedative-hypnotics, which are depressants. Nicotine, caffeine and amphetamines all speed up the central nervous system.",
+            "scholars": ["Albert Hofmann (LSD, 1938)"]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Depressants slow the CNS: alcohol, sedative-hypnotics, opioids.",
+              "Stimulants speed it up: cocaine, amphetamines, caffeine, nicotine.",
+              "Hallucinogens alter perception; LSD comes from ergot alkaloids (Hofmann, 1938).",
+              "Cannabis mixes all three effects; hashish is stronger than marijuana.",
+              "Endorphins are the body's own opioids, not drugs from opium."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Substances that slow down the activity of the central nervous system are called:",
+          "options": [
+            "Stimulants",
+            "Hallucinogens",
+            "Depressants",
+            "Cannabis drugs"
+          ],
+          "answerIndex": 2,
+          "explanation": "Depressants reduce CNS activity. Stimulants do the opposite by speeding the system up."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which of the following is NOT a stimulant?",
+          "options": [
+            "Nicotine",
+            "Caffeine",
+            "Amphetamine",
+            "Benzodiazepine"
+          ],
+          "answerIndex": 3,
+          "explanation": "Benzodiazepines are sedative-hypnotics, which are depressants. Nicotine, caffeine and amphetamines all speed up the CNS."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The world's most widely used stimulant is:",
+          "options": [
+            "Caffeine",
+            "Cocaine",
+            "Nicotine",
+            "Amphetamine"
+          ],
+          "answerIndex": 0,
+          "explanation": "Caffeine, found in coffee, tea, cola and chocolate, is used more widely than any other stimulant. Cocaine is the most powerful natural stimulant, not the most widely used."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Heroin and morphine belong to which group of substances?",
+          "options": [
+            "Stimulants",
+            "Opioids",
+            "Hallucinogens",
+            "Cannabis drugs"
+          ],
+          "answerIndex": 1,
+          "explanation": "Heroin and morphine are opioids derived from the opium poppy, part of the depressant family. They do not speed up the CNS as stimulants do."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The most powerful of the cannabis drugs, made from the plant's resin, is:",
+          "options": [
+            "Marijuana",
+            "Hashish",
+            "Crack",
+            "Mescaline"
+          ],
+          "answerIndex": 1,
+          "explanation": "Hashish is the strongest common cannabis product; marijuana is weaker. Crack is a form of cocaine, not cannabis."
+        },
+        {
+          "difficulty": 2,
+          "stem": "LSD is derived from:",
+          "options": [
+            "The coca plant",
+            "The opium poppy",
+            "Ergot alkaloids",
+            "The hemp plant"
+          ],
+          "answerIndex": 2,
+          "explanation": "LSD is made from ergot alkaloids, chemicals from a fungus that grows on rye. The coca plant gives cocaine and the poppy gives opioids."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Yemi takes a drug at a party and reports that colours seem brighter, the walls appear to breathe, and he hears music no one else hears. The drug most likely belongs to which group?",
+          "options": [
+            "Depressants",
+            "Stimulants",
+            "Opioids",
+            "Hallucinogens"
+          ],
+          "answerIndex": 3,
+          "explanation": "Strengthened perceptions, illusions and hallucinations are the hallmark of hallucinogens such as LSD. Opioids mainly cause drowsiness and pain relief."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A night-watchman chews kola nuts throughout his shift to stay awake. He is using:",
+          "options": [
+            "A stimulant, caffeine",
+            "A depressant, alcohol",
+            "A hallucinogen",
+            "An opioid"
+          ],
+          "answerIndex": 0,
+          "explanation": "Kola nut contains caffeine, a stimulant that increases alertness. A depressant would make him drowsier, the opposite of what he wants."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A man's heart rate and blood pressure rise sharply, he talks rapidly and later becomes suspicious that people are plotting against him. Which drug is most likely?",
+          "options": [
+            "Diazepam",
+            "Cocaine",
+            "Alcohol",
+            "Morphine"
+          ],
+          "answerIndex": 1,
+          "explanation": "Raised heart rate, speeded-up behaviour and paranoia fit a powerful stimulant such as cocaine. Diazepam, alcohol and morphine are depressants that slow the system."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Your manual lists endorphins among drugs derived from opium. The correct position is that endorphins are:",
+          "options": [
+            "Synthetic stimulants made in laboratories",
+            "A form of hashish",
+            "The body's own natural opioid-like chemicals",
+            "Hallucinogens derived from ergot"
+          ],
+          "answerIndex": 2,
+          "explanation": "Endorphins are produced naturally by the body and act on the same receptors as morphine and heroin. They are not extracted from the opium poppy."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement about Albert Hofmann and LSD is accurate?",
+          "options": [
+            "He first made LSD in 1938 and later found its mind-altering effects",
+            "He discovered cocaine in the coca plant in 1938",
+            "He showed that LSD is a depressant",
+            "He extracted LSD from the hemp plant"
+          ],
+          "answerIndex": 0,
+          "explanation": "Hofmann synthesised LSD in 1938 and discovered its hallucinogenic effects in 1943. LSD comes from ergot, not hemp, and it is a hallucinogen."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Alcohol often makes people loud and lively at parties, yet it is classed as a depressant. The best explanation is that:",
+          "options": [
+            "It is misclassified and is really a stimulant",
+            "It slows CNS activity, reducing inhibitions so behaviour appears livelier",
+            "It is a hallucinogen in small doses",
+            "It only affects the stomach, not the brain"
+          ],
+          "answerIndex": 1,
+          "explanation": "Alcohol depresses brain activity, including the systems that normally hold behaviour in check, so people seem livelier. The underlying action is still slowing, not speeding up."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which pairing of substance and category is correctly matched in every case?",
+          "options": [
+            "Nicotine: depressant; Barbiturate: stimulant",
+            "Marijuana: opioid; LSD: stimulant",
+            "Caffeine: hallucinogen; Heroin: cannabis drug",
+            "Amphetamine: stimulant; Benzodiazepine: sedative-hypnotic"
+          ],
+          "answerIndex": 3,
+          "explanation": "Amphetamine is a laboratory-made stimulant and benzodiazepines are sedative-hypnotics. Every other option misplaces at least one drug."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider these statements: I. Sedative-hypnotics are also called anxiolytics. II. Crack is a potent form of cocaine. III. Marijuana is stronger than hashish. IV. Cannabis has mixed hallucinogenic, depressant and stimulant effects. Which are correct?",
+          "options": [
+            "I, II and III only",
+            "II, III and IV only",
+            "I, II and IV only",
+            "I and III only"
+          ],
+          "answerIndex": 2,
+          "explanation": "Statements I, II and IV are correct. Statement III is reversed: hashish is the more powerful cannabis drug and marijuana the weaker."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A student classifies tramadol and codeine syrup as stimulants because young people use them to 'feel high'. The best correction is that they are:",
+          "options": [
+            "Hallucinogens, because they cause illusions",
+            "Opioids, a depressant group, despite producing euphoria",
+            "Cannabis drugs, because they are smoked",
+            "Not drugs at all, because they can be prescribed"
+          ],
+          "answerIndex": 1,
+          "explanation": "Tramadol and codeine act on opioid receptors and slow CNS activity, so they belong with the opioid depressants. Being prescribable does not stop a substance from being a drug."
+        }
+      ]
+    },
+    {
+      "name": "Risks, pathways and treatment",
+      "lesson": {
+        "title": "Why young people misuse, and recovery",
+        "minutes": 9,
+        "hook": "Most teenagers who try alcohol never become addicts. So what makes the minority who do so different?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Polysubstance-related disorder",
+            "body": "Many users do not stick to one drug. **Polysubstance-related disorder** is a long-term pattern of abuse of, or dependence on, a **combination** of drugs. Your manual notes it is becoming as common as single-substance disorders.\n\nMixing is especially dangerous. Combining two depressants (alcohol with sedatives or opioids) can stop breathing. Some people try to 'balance' stimulants with depressants, a pattern that has killed many people, including well-known celebrities.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {"icon": "layers", "label": "Many drugs"},
+                {"icon": "warning", "label": "Dangerous mixing"},
+                {"icon": "repeat", "label": "Long-term pattern"}
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Risk factors: three levels",
+            "body": "Substance use disorders grow from **biological**, **psychological** and **social** factors together.\n\n**Biological**: genes can increase vulnerability, which is why addiction runs in some families. **Psychological**: a diagnosis of **antisocial personality disorder** is a known risk factor for drug and alcohol addiction, and drugs may be used to escape painful feelings. **Social**: peer pressure, easy availability and family patterns all play a part.",
+            "visual": {
+              "type": "venn",
+              "left": "Biology (genes)",
+              "right": "Psychology & society",
+              "both": "Addiction risk"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Comorbidity: rarely alone",
+            "body": "**Comorbidity** means having two or more disorders at the same time. Substance misuse shows high comorbidity with **personality disorders**, **depression**, **anxiety** and **schizophrenia**.\n\nThis matters for treatment. Someone using alcohol to drown depression may relapse unless the depression is treated too. And clinicians must ask which came first: did the drug use cause the mood problem, or did the mood problem drive the drug use?",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {"icon": "sad", "label": "Depression"},
+                {"icon": "warning", "label": "Anxiety"},
+                {"icon": "person", "label": "Personality disorder"}
+              ]
+            }
+          },
+          {
+            "kind": "steps",
+            "heading": "A common developmental pathway",
+            "steps": [
+              {"title": "Conduct disorder", "detail": "Childhood rule-breaking, defiance and aggression."},
+              {"title": "Experimentation", "detail": "Early use, usually starting with a legal drug such as alcohol or tobacco."},
+              {"title": "Illegal drugs", "detail": "Moving on to substances such as cannabis."},
+              {"title": "Adult outcome", "detail": "For a minority: antisocial personality disorder and addiction."}
+            ]
+          },
+          {
+            "kind": "check",
+            "question": "According to the pathway, which childhood disorder often precedes early drug experimentation?",
+            "options": [
+              "Enuresis",
+              "Conduct disorder",
+              "Stuttering",
+              "Anorexia nervosa"
+            ],
+            "answerIndex": 1,
+            "why": "Children with conduct disorder often begin experimenting with drugs early, and a minority progress to antisocial personality disorder and addiction. The other disorders are not part of this pathway."
+          },
+          {
+            "kind": "example",
+            "heading": "Mary's story, retold",
+            "story": "In your manual's case study, Mary is a happy, award-winning young dancer. At 13 she defies her parents to attend a party with an older boy, sneaking home at 2 a.m. Over the next two years her grades fall, she breaks curfew, comes home smelling of alcohol, steals money from her parents and starts smoking marijuana. Punishments do not change her behaviour.",
+            "takeaway": "Defiance and rule-breaking come first, a legal drug (alcohol) precedes an illegal one (marijuana): the typical developmental pattern."
+          },
+          {
+            "kind": "teach",
+            "heading": "The hopeful part of Mary's story",
+            "body": "Your manual stresses that this pattern is typical, but so is the ending for **most** young people: behaviour problems fade in **late adolescence**, and they do not go on to adult substance abuse. Only a **minority** progress to addiction.\n\nThe pathway is more common in **males**, but it also occurs in females, as Mary shows. For parents and teachers, the lesson is to act early and stay connected, not to assume the child is lost.",
+            "visual": {
+              "type": "scale",
+              "left": "Problems fade",
+              "right": "Progress to addiction",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "How substance disorders are treated",
+            "body": "Many approaches are used: **psychodynamic**, **behavioural**, **cognitive-behavioural**, **biological** (for example medicines for withdrawal) and **socio-cultural** (self-help groups, community programmes). Today they are usually **combined**, on an out-patient or in-patient basis.\n\nOutcomes vary. Some people recover with no treatment at all; some recover and then **relapse**; others do not improve. Relapse is common, so treatment should plan for it rather than treat it as total failure.",
+            "visual": {
+              "type": "cycle",
+              "nodes": ["Treatment", "Recovery", "Relapse risk", "Re-engage"]
+            }
+          },
+          {
+            "kind": "steps",
+            "heading": "Adejumo's (2007) treatment suggestions",
+            "steps": [
+              {"title": "Reassure", "detail": "Tell the patient that stopping is genuinely possible."},
+              {"title": "Connect to groups", "detail": "Link the patient with self-help groups for alcohol or narcotics users."},
+              {"title": "Consider admission", "detail": "Some patients need a residential (in-patient) treatment centre."},
+              {"title": "Detoxify", "detail": "Support supervised detoxification, about two weeks."},
+              {"title": "Address problems", "detail": "Identify and tackle the psychosocial problems the drug use has created."}
+            ]
+          },
+          {
+            "kind": "check",
+            "question": "Which of these is one of Adejumo's (2007) suggestions for treating drug abuse?",
+            "options": [
+              "Punish the patient until they stop",
+              "Avoid discussing the patient's social problems",
+              "Encourage detoxification for about two weeks",
+              "Increase the dose gradually to build tolerance"
+            ],
+            "answerIndex": 2,
+            "why": "Supervised detoxification of about two weeks is on Adejumo's list. He also recommends dealing with psychosocial problems, not avoiding them."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "'State some suggested treatments for drug abuse' usually expects Adejumo's five points, so learn them in order. Lecturers also test the developmental pathway (conduct disorder to drugs to antisocial personality) and true/false items on treatment. Trap: claiming that most teenagers who experiment become addicts; only a minority do.",
+            "sampleQuestion": "Using a case example, describe the developmental pathway from childhood behaviour problems to adult substance dependence, and outline Adejumo's (2007) suggestions for treatment.",
+            "howToAnswer": "Trace conduct problems, legal then illegal drug use, and for a minority antisocial personality and addiction (using Mary's case); then list the five treatment steps.",
+            "scholars": ["Adejumo (2007)"]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Polysubstance disorder: abuse of or dependence on several drugs together.",
+              "Risks: genes, antisocial personality disorder, and social factors.",
+              "High comorbidity with depression, anxiety, personality disorders, schizophrenia.",
+              "Pathway: conduct disorder, legal then illegal drugs; only a minority become addicted.",
+              "Adejumo (2007): reassure, groups, admission, detox, psychosocial problems."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "A long-term pattern of abuse of, or dependence on, a combination of drugs is called:",
+          "options": [
+            "Polysubstance-related disorder",
+            "Substance intoxication",
+            "Tolerance",
+            "Comorbidity"
+          ],
+          "answerIndex": 0,
+          "explanation": "Polysubstance-related disorder involves several drugs together. Comorbidity is the presence of two or more different disorders, not multiple drugs."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which personality disorder is named in your course as a risk factor for drug and alcohol addiction?",
+          "options": [
+            "Avoidant personality disorder",
+            "Dependent personality disorder",
+            "Antisocial personality disorder",
+            "Schizoid personality disorder"
+          ],
+          "answerIndex": 2,
+          "explanation": "Antisocial personality disorder is a recognised risk factor and lies at the end of the conduct disorder pathway. The other personality disorders are not the ones the course links to addiction."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Having a substance use disorder together with another disorder such as depression is known as:",
+          "options": [
+            "Tolerance",
+            "Withdrawal",
+            "Relapse",
+            "Comorbidity"
+          ],
+          "answerIndex": 3,
+          "explanation": "Comorbidity means two or more disorders occurring together. Relapse is a return to drug use after a period of recovery."
+        },
+        {
+          "difficulty": 2,
+          "stem": "In the typical developmental pattern described in your course, a young person's first drug is usually:",
+          "options": [
+            "Heroin",
+            "A legal drug such as alcohol",
+            "LSD",
+            "Crack cocaine"
+          ],
+          "answerIndex": 1,
+          "explanation": "Use of a legal drug such as alcohol typically comes before an illegal one such as marijuana, as in Mary's case. Harder drugs like heroin come later, if at all."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which statement about teenagers who show behaviour problems and early drug use is correct according to your course?",
+          "options": [
+            "All of them become adult addicts",
+            "Most progress to heroin dependence",
+            "For most, problems subside in late adolescence",
+            "None of them ever develops a disorder"
+          ],
+          "answerIndex": 2,
+          "explanation": "For most young people the problems fade in late adolescence; only a minority progress to addiction. Saying none develop a disorder ignores that minority."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which of the following is NOT among the treatment approaches named in your course?",
+          "options": [
+            "Psychodynamic therapy",
+            "Cognitive-behavioural therapy",
+            "Socio-cultural therapy",
+            "Punishment by flogging"
+          ],
+          "answerIndex": 3,
+          "explanation": "The course names psychodynamic, behavioural, cognitive-behavioural, biological and socio-cultural approaches. Punishment is not a treatment approach."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Uche, 14, has a long history of fighting, truancy and stealing. He has recently started drinking and smoking. According to the developmental pathway, his greatest long-term risk is:",
+          "options": [
+            "Antisocial personality disorder and addiction",
+            "Anorexia nervosa",
+            "Childhood-onset fluency disorder",
+            "Enuresis"
+          ],
+          "answerIndex": 0,
+          "explanation": "Conduct problems followed by early substance use can progress, for a minority, to antisocial personality disorder and addiction. The other disorders are unrelated to this pathway."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A counsellor tells a young man, 'Many people have stopped, and you can too,' before anything else. Which of Adejumo's suggestions is she applying?",
+          "options": [
+            "Detoxification",
+            "Reassuring the patient that stopping is possible",
+            "Referring to an in-patient centre",
+            "Linking to self-help groups"
+          ],
+          "answerIndex": 1,
+          "explanation": "Telling the patient that recovery is achievable is Adejumo's first suggestion, reassurance. Detoxification involves supervised withdrawal from the drug, which she has not started."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A woman who stopped drinking for a year starts again after losing her job. This illustrates:",
+          "options": [
+            "Tolerance",
+            "Detoxification",
+            "Relapse",
+            "Polysubstance dependence"
+          ],
+          "answerIndex": 2,
+          "explanation": "Returning to substance use after a period of recovery is relapse, which the course notes is common. Tolerance describes needing more of a drug for the same effect."
+        },
+        {
+          "difficulty": 4,
+          "stem": "A clinician treats a patient's alcohol misuse but ignores his severe depression. Based on the comorbidity evidence, the most likely outcome is:",
+          "options": [
+            "Guaranteed full recovery",
+            "Immediate onset of schizophrenia",
+            "Development of tolerance to depression",
+            "A higher risk of relapse because the depression remains"
+          ],
+          "answerIndex": 3,
+          "explanation": "If drinking was a way of coping with depression, untreated depression keeps the motive alive and raises relapse risk. Recovery is never guaranteed, especially when a comorbid disorder is ignored."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement about the conduct disorder to addiction pathway is accurate?",
+          "options": [
+            "It occurs only in females",
+            "It is more common in males but also occurs in females",
+            "It always begins with illegal drugs",
+            "It is unrelated to antisocial personality disorder"
+          ],
+          "answerIndex": 1,
+          "explanation": "The pattern is more common in males, but Mary's case shows it in a female. It usually starts with legal drugs and can end in antisocial personality disorder."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Combining alcohol with sedatives is especially dangerous mainly because:",
+          "options": [
+            "Two depressants together can dangerously slow breathing",
+            "Alcohol cancels out the sedative completely",
+            "Sedatives turn alcohol into a hallucinogen",
+            "The mixture produces stimulant effects only"
+          ],
+          "answerIndex": 0,
+          "explanation": "Both drugs slow the CNS, and together they can suppress breathing to a fatal degree. They add to each other rather than cancelling out."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider these statements: I. Some people recover from substance disorders without any intervention. II. Treatments today are usually used in combination. III. Relapse means treatment has completely failed and should stop. IV. Genetic factors may influence vulnerability to addiction. Which are correct?",
+          "options": [
+            "I, II and III only",
+            "II, III and IV only",
+            "I, III and IV only",
+            "I, II and IV only"
+          ],
+          "answerIndex": 3,
+          "explanation": "Statements I, II and IV are correct. Statement III is false: relapse is common and is a reason to re-engage with treatment, not to abandon it."
+        },
+        {
+          "difficulty": 5,
+          "stem": "In Mary's case study, which sequence best matches the typical developmental pattern?",
+          "options": [
+            "Marijuana, then alcohol, then defiance",
+            "Defiance and curfew violations, then alcohol, then marijuana",
+            "Heroin, then dance awards, then alcohol",
+            "Alcohol, then dance awards, then conduct problems"
+          ],
+          "answerIndex": 1,
+          "explanation": "Mary's noncompliance came first, followed by a legal drug (alcohol) and then an illegal drug (marijuana). Starting with marijuana reverses the typical order."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which option lists only items from Adejumo's (2007) suggestions for treating drug abuse?",
+          "options": [
+            "Reassurance, flogging, detoxification",
+            "Self-help groups, building tolerance, admission",
+            "Reassurance, self-help groups, detoxification of about two weeks",
+            "Detoxification, ignoring social problems, punishment"
+          ],
+          "answerIndex": 2,
+          "explanation": "Reassurance, linking to self-help groups and about two weeks of detoxification are all on Adejumo's list. The other options include harmful or opposite actions such as punishment or ignoring social problems."
+        }
+      ]
+    }
+  ]
+}

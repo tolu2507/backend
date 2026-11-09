@@ -1,0 +1,624 @@
+{
+  "unit": 4,
+  "title": "Long-Term Memory (LTM)",
+  "summary": "What long-term memory is, how it is organised, and its subsystems: declarative (episodic and semantic) and non-declarative memory.",
+  "sections": [
+    {
+      "name": "The organised storehouse",
+      "lesson": {
+        "title": "Long-term memory and its two branches",
+        "minutes": 9,
+        "hook": "You cannot remember learning to ride a bicycle, yet you can still ride one. You can remember your first day at secondary school, yet you could not 'do' it again. Both are long-term memories, but are they the same kind?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "A vast, lasting store",
+            "body": "**Long-term memory (LTM)** is your huge store of permanent or relatively permanent memories. No limit to its capacity has ever been found, and its contents can last for years, some for a whole lifetime.\n\nMost of what sits in LTM is stored in **semantic** form, by meaning. But it can also hold **visual images**, **sounds** and **smells**: the face of a childhood friend, a song, the aroma of jollof rice at a party.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                { "icon": "book", "label": "Meanings" },
+                { "icon": "eye", "label": "Images" },
+                { "icon": "ear", "label": "Sounds" },
+                { "icon": "leaf", "label": "Smells" }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Organisation is everything",
+            "body": "Return to the carpenter's shelves from the last session. They have unlimited space, but if tools are thrown on haphazardly, the right one cannot be found when needed. Arrange them by a system and retrieval becomes easy.\n\nThat is why LTM is often compared to a **library card catalogue**, a **filing system** or the **index** of a textbook. What matters is not only that something is stored, but **how** it is filed.",
+            "visual": {
+              "type": "scale",
+              "left": "Organised storage",
+              "right": "Haphazard storage",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Why is LTM compared to a library catalogue or a book index?",
+            "options": [
+              "Because it holds only written information",
+              "Because it has a fixed number of slots",
+              "Because organised storage makes later retrieval easier",
+              "Because it loses information quickly"
+            ],
+            "answerIndex": 2,
+            "why": "The comparison stresses that well-filed memories are easier to find. LTM holds images, sounds and smells as well as words, and has no fixed slots."
+          },
+          {
+            "kind": "example",
+            "heading": "Two students, same textbook",
+            "story": "Tunde and Zainab both read the same psychology chapter. Tunde reads straight through and closes the book. Zainab sorts what she reads under headings: 'stores', 'processes', 'scholars', and links each to an example from hostel life. In the exam both have the facts in memory, but Zainab finds hers quickly while Tunde keeps saying, 'I know it, I just can't remember.'",
+            "takeaway": "Organised encoding is like shelving tools by a system: it makes retrieval from LTM far easier."
+          },
+          {
+            "kind": "teach",
+            "heading": "Declarative memory: what you can state",
+            "body": "Many researchers divide LTM into two main subsystems. The first is **declarative memory**, also called **explicit memory**. It stores facts, information and personal events that you can bring to mind in words or images and then **declare**: say out loud or write down.\n\nDeclarative memories are recalled **intentionally and consciously**. 'Abuja became the capital in 1991' and 'I wore a blue dress to my cousin's wedding' are both declarative.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                { "icon": "chatbubbles", "label": "Can be stated" },
+                { "icon": "bulb", "label": "Conscious recall" }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Non-declarative memory: what you can do",
+            "body": "The second subsystem is **non-declarative memory**, also called **implicit memory**. It works without conscious recollection. You show it through performance, not by stating it.\n\nThe classic example is **procedural memory**: the automatic know-how for motor actions such as typing, swimming or tying a gele. Other implicit forms include **priming** (an earlier exposure making later processing easier without your awareness) and simple **classical conditioning**.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                { "icon": "fitness", "label": "Skills" },
+                { "icon": "repeat", "label": "Automatic habits" }
+              ]
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Declarative vs non-declarative",
+            "left": {
+              "title": "Declarative (explicit)",
+              "points": ["Knowing that", "Conscious, intentional recall", "Can be put into words", "Episodic and semantic memory"]
+            },
+            "right": {
+              "title": "Non-declarative (implicit)",
+              "points": ["Knowing how", "Unconscious, automatic", "Shown through performance", "Procedural memory, priming, conditioning"]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "A typist can type 70 words a minute but cannot say where the letter Q is on the keyboard without moving her fingers. Her typing skill depends mainly on:",
+            "options": [
+              "Episodic memory",
+              "Semantic memory",
+              "Sensory memory",
+              "Procedural memory"
+            ],
+            "answerIndex": 3,
+            "why": "The skill shows itself in performance without conscious access: that is procedural (non-declarative) memory. Semantic memory would let her simply state the key's position."
+          },
+          {
+            "kind": "steps",
+            "heading": "The family tree of LTM",
+            "steps": [
+              { "title": "Long-term memory", "detail": "The permanent or relatively permanent store." },
+              { "title": "Declarative (explicit)", "detail": "Conscious facts and events; splits into episodic and semantic." },
+              { "title": "Non-declarative (implicit)", "detail": "Unconscious memory shown in behaviour; includes procedural memory." }
+            ]
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect classification questions: you are given a behaviour and must name the memory system. The usual trap is labelling a skill as semantic because it is 'knowledge', or forgetting that explicit means declarative and implicit means non-declarative.",
+            "sampleQuestion": "Distinguish between declarative and non-declarative memory, giving one Nigerian everyday example of each.",
+            "howToAnswer": "Define each with its alternative name (explicit/implicit), stress conscious versus automatic recall, then give one clear example, such as recalling a date versus riding a okada-free bicycle.",
+            "scholars": ["Squire (1992)", "Tulving (1972)"]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "LTM is a vast, relatively permanent store with no known capacity limit.",
+              "It stores mostly by meaning, but also images, sounds and smells.",
+              "Good organisation, like a catalogue or index, makes retrieval easier.",
+              "Declarative (explicit) memory: conscious facts and events.",
+              "Non-declarative (implicit) memory: automatic skills, such as procedural memory."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Information in long-term memory is usually stored in which form?",
+          "options": [
+            "Semantic (meaning-based)",
+            "Acoustic (sound-based)",
+            "Raw sensory traces",
+            "Chunks of seven"
+          ],
+          "answerIndex": 0,
+          "explanation": "LTM mostly stores meaning, though it can also hold images, sounds and smells. Acoustic coding is typical of short-term memory."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Declarative memory is also known as:",
+          "options": [
+            "Implicit memory",
+            "Procedural memory",
+            "Explicit memory",
+            "Sensory memory"
+          ],
+          "answerIndex": 2,
+          "explanation": "Declarative and explicit mean the same thing: memory you can consciously state. Implicit is the other name for non-declarative memory."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which of these is the standard example of non-declarative memory?",
+          "options": [
+            "Episodic memory",
+            "Semantic memory",
+            "Working memory",
+            "Procedural memory"
+          ],
+          "answerIndex": 3,
+          "explanation": "Procedural memory, the automatic memory for motor skills, is non-declarative. Episodic and semantic memory are the two declarative types."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The comparison of long-term memory to a library catalogue mainly emphasises that:",
+          "options": [
+            "LTM holds only verbal material",
+            "How information is organised affects how easily it is retrieved",
+            "LTM has a small, fixed capacity",
+            "Memories in LTM fade within minutes"
+          ],
+          "answerIndex": 1,
+          "explanation": "A catalogue is useful because it is organised. LTM capacity is virtually unlimited, so a fixed capacity is wrong."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which statement about the contents of long-term memory is correct?",
+          "options": [
+            "It can store images, sounds and smells as well as meanings",
+            "It stores meanings only",
+            "It stores sounds only",
+            "It stores only what has been rehearsed by rote"
+          ],
+          "answerIndex": 0,
+          "explanation": "Meaning is the main code, but sensory forms such as smells and images are also stored. Rote rehearsal is not the only route in."
+        },
+        {
+          "difficulty": 2,
+          "stem": "A defining feature of declarative memory is that it:",
+          "options": [
+            "Operates without awareness",
+            "Is shown only through motor performance",
+            "Can be consciously recalled and put into words or images",
+            "Lasts less than 30 seconds"
+          ],
+          "answerIndex": 2,
+          "explanation": "Declarative memories are deliberately recalled and can be stated. Working without awareness describes non-declarative memory."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Musa, a tailor, operates his sewing machine perfectly while chatting, but struggles to explain the steps to his apprentice. His sewing skill is best described as:",
+          "options": [
+            "Semantic memory",
+            "Episodic memory",
+            "Explicit memory",
+            "Implicit (procedural) memory"
+          ],
+          "answerIndex": 3,
+          "explanation": "The skill runs automatically and is hard to put into words, the mark of procedural memory. Explicit memory would be easy to state."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Ifeoma knows that the Niger and Benue rivers meet at Lokoja. This knowledge is part of:",
+          "options": [
+            "Declarative memory",
+            "Procedural memory",
+            "Non-declarative memory",
+            "Sensory memory"
+          ],
+          "answerIndex": 0,
+          "explanation": "It is a fact she can consciously state, so it is declarative (specifically semantic). Procedural memory covers skills, not facts."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Two students know the same facts, but one has filed them under clear headings with examples and recalls them faster. This difference is best explained by:",
+          "options": [
+            "A larger short-term memory capacity",
+            "Better organisation of information in long-term memory",
+            "Stronger procedural memory",
+            "Longer-lasting iconic memory"
+          ],
+          "answerIndex": 1,
+          "explanation": "Like tools shelved by a system, organised memories are easier to find. STM capacity does not explain faster retrieval of stored facts."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are forms of non-declarative memory EXCEPT:",
+          "options": [
+            "Procedural memory",
+            "Priming",
+            "Semantic memory",
+            "Classical conditioning"
+          ],
+          "answerIndex": 2,
+          "explanation": "Semantic memory is declarative. Procedural memory, priming and classical conditioning operate without conscious recall."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair of terms means the same thing?",
+          "options": [
+            "Declarative and implicit",
+            "Non-declarative and explicit",
+            "Procedural and semantic",
+            "Non-declarative and implicit"
+          ],
+          "answerIndex": 3,
+          "explanation": "Non-declarative memory is also called implicit memory. Declarative pairs with explicit, so the first two options are crossed."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement about long-term memory is NOT accurate?",
+          "options": [
+            "Some memories last a lifetime",
+            "Its capacity has a known upper limit",
+            "Most material is stored by meaning",
+            "It is described as relatively permanent"
+          ],
+          "answerIndex": 1,
+          "explanation": "No limit to LTM capacity is known. The other three statements are accurate."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider: I. Declarative memory is recalled intentionally. II. Procedural memory can usually be fully described in words. III. LTM can store smells. Which is correct?",
+          "options": [
+            "I and III only",
+            "I and II only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 0,
+          "explanation": "I and III are true. Procedural memory is automatic and often hard to put into words, so II is false."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A man with severe amnesia cannot remember any of his piano lessons, yet his playing improves session by session. This dissociation shows that:",
+          "options": [
+            "Declarative memory is intact but procedural memory is damaged",
+            "Procedural learning can occur even when declarative memory fails",
+            "Semantic memory controls motor skills",
+            "His short-term memory capacity has expanded"
+          ],
+          "answerIndex": 1,
+          "explanation": "Improving without recalling the lessons means implicit, procedural learning survives loss of explicit memory. The first option reverses the pattern."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which row correctly matches each example to its memory system?",
+          "options": [
+            "Riding a bicycle: semantic; knowing 5 × 5 = 25: procedural",
+            "Riding a bicycle: declarative; knowing 5 × 5 = 25: implicit",
+            "Riding a bicycle: procedural; knowing 5 × 5 = 25: declarative",
+            "Riding a bicycle: explicit; knowing 5 × 5 = 25: non-declarative"
+          ],
+          "answerIndex": 2,
+          "explanation": "Cycling is an automatic motor skill (procedural), and a multiplication fact can be consciously stated (declarative). The other rows swap the systems."
+        }
+      ]
+    },
+    {
+      "name": "Episodic and semantic memory",
+      "lesson": {
+        "title": "Your mental diary and mental dictionary",
+        "minutes": 9,
+        "hook": "You know that Lagos was once Nigeria's capital, but you cannot remember when or where you learned it. You remember your WAEC results day in detail: who was with you and how you felt. Two very different kinds of knowing.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Two kinds of declarative memory",
+            "body": "**Endel Tulving (1972)**, a Canadian psychologist, split declarative memory into two types.\n\n**Episodic memory** stores events as **you personally experienced them**, tied to a time and place. **Semantic memory** stores **general knowledge**: facts, meanings and concepts that are true regardless of when or how you learned them.",
+            "visual": {
+              "type": "venn",
+              "left": "Episodic",
+              "right": "Semantic",
+              "both": "Declarative, consciously recalled"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Episodic memory: a mental diary",
+            "body": "Episodic memory works like a **personal diary**: the people you have met, places you have visited and things that happened to you. It is **subjective**, coloured by how you saw and felt events.\n\nTulving described it as letting you **travel back in time** mentally, becoming aware again that *you* were there. 'I remember the NYSC camp in Iseyin, the dust during the parade and my platoon singing at night' is episodic.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                { "icon": "time", "label": "When" },
+                { "icon": "globe", "label": "Where" },
+                { "icon": "person", "label": "I was there" }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Semantic memory: a mental encyclopaedia",
+            "body": "Semantic memory is your **mental dictionary or encyclopaedia**. It holds objective facts: how to spell 'psychology', that 10 times 10 is 100, that the naira is Nigeria's currency, what the word 'justice' means.\n\nYou rarely remember *when* you learned these facts. They have been stripped of their personal context and simply 'known'.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                { "icon": "book", "label": "Facts" },
+                { "icon": "bulb", "label": "Concepts" },
+                { "icon": "chatbubbles", "label": "Word meanings" }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Which of these is an episodic memory?",
+            "options": [
+              "Knowing that a triangle has three sides",
+              "Remembering the day you collected your admission letter",
+              "Knowing how to spell 'necessary'",
+              "Being able to swim"
+            ],
+            "answerIndex": 1,
+            "why": "It is a personal event tied to a time and place. The triangle and spelling are semantic facts, and swimming is procedural."
+          },
+          {
+            "kind": "compare",
+            "heading": "Episodic vs semantic",
+            "left": {
+              "title": "Episodic",
+              "points": ["Personal events", "Tied to time and place", "Subjective, as experienced", "Mental time travel"]
+            },
+            "right": {
+              "title": "Semantic",
+              "points": ["General knowledge", "Free of time and place", "Objective facts", "Mental dictionary"]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "From episode to fact",
+            "story": "In JSS1, Chinedu's teacher brought a jar of ants into class and explained that insects have six legs. For years Chinedu could picture that morning: the jar, the teacher's red pen, his deskmate laughing. Now, as a 300 Level student, he still knows insects have six legs, but the classroom scene has almost faded.",
+            "takeaway": "Repeated or old episodes can leave behind semantic facts even when the original episode is forgotten."
+          },
+          {
+            "kind": "teach",
+            "heading": "How the two depend on each other",
+            "body": "The two systems are **interdependent**. **Semantic memory helps you form new episodes**: to remember 'I met the Vice-Chancellor at convocation', you need to know what a Vice-Chancellor and a convocation are.\n\nIn turn, **episodic memory feeds the semantic store**: facts often start as experiences and, once repeated, become general knowledge, as in Chinedu's case.",
+            "visual": {
+              "type": "cycle",
+              "nodes": ["Semantic knowledge", "Makes sense of events", "Episodic memory", "Adds new facts"]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Two models of the relationship",
+            "body": "**Tulving's (1995) model** places episodic memory as dependent on semantic memory: information reaches the episodic system through the semantic system.\n\n**Graham and colleagues (2000)** proposed that episodic memory can also draw directly on **perceptual input**, not only on semantic memory. Their work with people whose semantic knowledge was damaged showed they could still recognise recently seen items when the perceptual details matched. So episodic memory relies on both routes.",
+            "visual": {
+              "type": "flow",
+              "nodes": ["Perceptual input", "Semantic memory", "Episodic memory"]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "How does the model of Graham and colleagues (2000) differ from Tulving's (1995) model?",
+            "options": [
+              "It says semantic memory depends entirely on episodic memory",
+              "It denies that episodic memory exists",
+              "It adds a direct route from perceptual input to episodic memory",
+              "It places procedural memory at the centre"
+            ],
+            "answerIndex": 2,
+            "why": "Graham and colleagues allowed episodic memory to rely on perceptual input as well as semantic memory. Tulving's model routes episodic memory through semantic memory."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Classifying examples as episodic or semantic is a staple, often with tricky items like 'remembering your own date of birth' (semantic: a fact, not a re-lived event). Essays ask about the interdependence or the two models. Do not swap which model adds perceptual input.",
+            "sampleQuestion": "Distinguish between episodic and semantic memory and discuss how each depends on the other, with reference to Tulving (1995) and Graham et al. (2000).",
+            "howToAnswer": "Define both with examples, explain two-way dependence, then contrast Tulving's semantic-to-episodic route with Graham's added perceptual route.",
+            "scholars": ["Tulving (1972)", "Tulving (1995)", "Graham et al. (2000)"]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Tulving divided declarative memory into episodic and semantic.",
+              "Episodic: personal events, tied to time and place; mental time travel.",
+              "Semantic: general facts and meanings; a mental encyclopaedia.",
+              "Semantic memory helps form episodes; episodes add to semantic knowledge.",
+              "Tulving (1995): episodic depends on semantic; Graham et al. (2000): also on perceptual input."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The two types of declarative memory are:",
+          "options": [
+            "Procedural and episodic",
+            "Semantic and procedural",
+            "Implicit and explicit",
+            "Episodic and semantic"
+          ],
+          "answerIndex": 3,
+          "explanation": "Declarative memory divides into episodic and semantic. Procedural memory is non-declarative."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Semantic memory is best compared to a:",
+          "options": [
+            "Mental encyclopaedia of general knowledge",
+            "Personal diary of life events",
+            "Video recording of the senses",
+            "Habit that runs automatically"
+          ],
+          "answerIndex": 0,
+          "explanation": "Semantic memory holds objective facts, like a dictionary or encyclopaedia. A personal diary describes episodic memory."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The distinction between episodic and semantic memory is most closely associated with:",
+          "options": [
+            "George Miller",
+            "Endel Tulving",
+            "Saul Sternberg",
+            "Roberta Klatzky"
+          ],
+          "answerIndex": 1,
+          "explanation": "Tulving introduced the distinction. Klatzky is known for the workbench analogy of STM and LTM."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Episodic memory differs from semantic memory mainly because it:",
+          "options": [
+            "Is non-declarative",
+            "Cannot be consciously recalled",
+            "Is tied to a personal time and place",
+            "Stores only motor skills"
+          ],
+          "answerIndex": 2,
+          "explanation": "Episodic memories carry their personal 'when and where'. Both types are declarative and consciously recalled."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Tulving described episodic memory as allowing a kind of:",
+          "options": [
+            "Automatic motor performance",
+            "Unconscious priming",
+            "Parallel search",
+            "Mental time travel into one's personal past"
+          ],
+          "answerIndex": 3,
+          "explanation": "Episodic memory lets you mentally re-live past events and know you were there. Priming is an implicit process."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Semantic memory facilitates new episodic memories because:",
+          "options": [
+            "General knowledge helps us interpret and make sense of new events",
+            "It stores the exact time and place of events",
+            "It replaces episodic memory after one day",
+            "It operates without consciousness"
+          ],
+          "answerIndex": 0,
+          "explanation": "To encode an event you must understand its parts, which uses semantic knowledge. Time and place are features of episodic, not semantic, memory."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Kelechi recalls the evening Nigeria won the 1996 Olympic football gold: where he watched, who was screaming beside him. This is:",
+          "options": [
+            "Semantic memory",
+            "Episodic memory",
+            "Procedural memory",
+            "Implicit memory"
+          ],
+          "answerIndex": 1,
+          "explanation": "A personally experienced event with its setting is episodic. Merely knowing that Nigeria won in 1996 would be semantic."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Ruth knows that the chemical symbol for sodium is Na but cannot recall the lesson where she learned it. This knowledge is:",
+          "options": [
+            "Episodic",
+            "Procedural",
+            "Semantic",
+            "Sensory"
+          ],
+          "answerIndex": 2,
+          "explanation": "A general fact without personal context is semantic. If she recalled the lesson itself, that would be episodic."
+        },
+        {
+          "difficulty": 3,
+          "stem": "After many visits to the same market, Hassan no longer recalls individual trips but simply knows where every trader sits. This shows that:",
+          "options": [
+            "Episodic memories can contribute to semantic knowledge",
+            "Semantic memory blocks episodic memory",
+            "Procedural memory replaces semantic memory",
+            "Episodic memory has a fixed capacity"
+          ],
+          "answerIndex": 0,
+          "explanation": "Repeated episodes have built general knowledge of the market layout. This is episodic memory feeding the semantic store."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Remembering your own date of birth is best classified as:",
+          "options": [
+            "Episodic, because it concerns your own life",
+            "Procedural, because it is automatic",
+            "Implicit, because you never think about it",
+            "Semantic, because it is a known fact rather than a re-lived event"
+          ],
+          "answerIndex": 3,
+          "explanation": "You do not re-experience your birth; you simply know the date as a fact. Being about yourself does not make a memory episodic."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Tulving's (1995) model of the relationship between episodic and semantic memory holds that:",
+          "options": [
+            "Semantic memory depends on episodic memory",
+            "The two systems are completely independent",
+            "Episodic memory depends on semantic memory",
+            "Both depend only on procedural memory"
+          ],
+          "answerIndex": 2,
+          "explanation": "In Tulving's model, information reaches episodic memory through the semantic system. The reverse direction is a common slip."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement about episodic memory is NOT correct?",
+          "options": [
+            "It is a type of declarative memory",
+            "It records events as objectively true facts",
+            "It is tied to personal time and place",
+            "It has been likened to a mental diary"
+          ],
+          "answerIndex": 1,
+          "explanation": "Episodic memory records events as subjectively experienced; objective facts belong to semantic memory. The other statements are correct."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Patients with damaged semantic memory could still recognise items they had recently seen when the perceptual details matched. This finding most directly supports:",
+          "options": [
+            "Tulving's view that episodic memory relies only on semantic memory",
+            "The claim that episodic and semantic memory are identical",
+            "The view that procedural memory stores episodes",
+            "The model of Graham and colleagues, with a perceptual route to episodic memory"
+          ],
+          "answerIndex": 3,
+          "explanation": "Recognition without intact semantic memory implies a direct perceptual input to episodic memory. A semantic-only route would predict failure."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider: I. Semantic memory helps us acquire new episodic memories. II. Episodic memory can add information to the semantic store. III. Episodic and semantic memory are both non-declarative. Which is correct?",
+          "options": [
+            "I and II only",
+            "I and III only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 0,
+          "explanation": "I and II describe their two-way dependence. Both are declarative, so III is false."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Episodic memory: knowing how to drive",
+            "Semantic memory: recalling your first day in the hostel",
+            "Episodic memory: recalling your sister's wedding reception",
+            "Semantic memory: tying shoelaces without thinking"
+          ],
+          "answerIndex": 2,
+          "explanation": "A personally experienced event is episodic. Driving and tying laces are procedural, and recalling your first day in the hostel is episodic, not semantic."
+        }
+      ]
+    }
+  ]
+}

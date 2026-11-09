@@ -22,3 +22,6 @@ npm-debug.log*
 
 # past papers mirrored for internal analysis — never commit
 /data/past-papers/raw
+
+# university course manuals (copyrighted, internal only) and their extracted text: never commit
+/data/university

@@ -1,0 +1,668 @@
+{
+  "unit": 11,
+  "title": "Memory and Culture",
+  "summary": "How culture shapes what we remember and how: cultural memory, Bartlett's Swazi herdsmen, oral historians, and why familiar-culture stories are recalled better.",
+  "sections": [
+    {
+      "name": "Culture shapes memory feats",
+      "lesson": {
+        "title": "Remembering what your world needs",
+        "minutes": 10,
+        "hook": "A babalawo can recite long Ifá verses from memory, word for word. Does that mean he has a better memory than you, or a different one, trained by what his culture values?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Recall, briefly",
+            "body": "Recall is retrieving past information or events, often without a specific cue. With **encoding** and **storage**, **retrieval** is one of memory's three core processes. Recall comes in three main types: **free**, **cued** and **serial**.\n\nBut memory is not only a private process inside one head. What we recall, and how we recall it, is also shaped by the **social and cultural world** around us.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Encoding",
+                "Storage",
+                "Retrieval"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Cultural memory",
+            "body": "**Cultural memory** is a group's constructed understanding of its past, handed from one generation to the next through **texts, oral traditions, monuments, rites and other symbols**.\n\nThink of the Ojude Oba festival, oríkì praise poetry, Igbo proverbs, or the Benin bronzes: each carries a community's memory forward long after the original witnesses are gone.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "book",
+                  "label": "Texts"
+                },
+                {
+                  "icon": "chatbubbles",
+                  "label": "Oral tradition"
+                },
+                {
+                  "icon": "flag",
+                  "label": "Monuments, rites"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Culture shapes childhood memory",
+            "body": "Researchers believe **enculturation** and **cultural values** shape what children remember. How parents and other adults **talk, or do not talk**, about events in a child's life affects how that child later remembers them.\n\nA family that often retells and discusses past events with a child gives that child richer, more detailed memories of them.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Adults talk about events",
+                "Child rehearses",
+                "Richer memories later"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Bartlett and the Swazi herdsmen",
+            "body": "**Sir Frederick Bartlett (1932)** argued that both the **manner and matter of recall** are largely shaped by **social influences**.\n\nHe described a Swazi herdsman who could describe, cow by cow, the small markings of a whole herd he had looked after a year earlier. Remarkable? Cattle were central to traditional Swazi life and livelihood. When Bartlett tested young Swazi and European men on a **25-word message**, the Swazi did **no better**. Their memory was not super; it was **specialised** by culture.",
+            "visual": {
+              "type": "scale",
+              "left": "Cattle details",
+              "right": "25-word message",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "When Bartlett tested Swazi and European young men on a 25-word message, he found:",
+            "options": [
+              "The Swazi recalled far more",
+              "The Europeans recalled far more",
+              "The Swazi did no better than the Europeans",
+              "Neither group recalled anything"
+            ],
+            "answerIndex": 2,
+            "why": "The Swazi advantage applied to culturally important material (cattle), not to memory in general."
+          },
+          {
+            "kind": "teach",
+            "heading": "Keepers of the past",
+            "body": "In many African societies, tribal history has been preserved **orally by specialists** who encode, store and retrieve huge amounts of historical detail (D'Azevedo, 1982). Among the **Iatmul** of New Guinea, elders memorised clan lines of descent stretching back many generations (Bateson, 1982), and their memory was used to **settle property disputes** (Mistry & Rogoff, 1994).\n\nIn Nigeria, Ifá priests memorise a vast body of verses, and court historians and praise singers keep lineage histories alive.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "person",
+                  "label": "Specialist"
+                },
+                {
+                  "icon": "time",
+                  "label": "Generations"
+                },
+                {
+                  "icon": "scale",
+                  "label": "Settles disputes"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Rogoff: feats in context",
+            "body": "**Barbara Rogoff**, a cultural psychologist, argues these prodigious feats are best understood **in their cultural context** (Rogoff & Mistry, 1985).\n\nThe elders remember so much because it is a **vital part of their culture**: meaningful, practised daily, and socially important. Their memory for **meaningless** material would probably be no better than yours.",
+            "visual": {
+              "type": "scale",
+              "left": "Cultural meaning",
+              "right": "General memory power",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "The Asur and the dark",
+            "story": "The Asur, a tribal group in India, live without artificial lighting. To move safely at night, they must know exactly where things are. Mishra and Singh (1992) predicted they would remember locations better than word pairs, and the results confirmed it: their environment had trained memory for space.",
+            "takeaway": "Culture and environment shape which kinds of memory get trained and become strong."
+          },
+          {
+            "kind": "check",
+            "question": "Rogoff's explanation of tribal elders' memory feats is that they reflect:",
+            "options": [
+              "Genetically superior memory",
+              "Use of written records",
+              "Lack of formal schooling",
+              "Memory skills rooted in what their culture values and practises"
+            ],
+            "answerIndex": 3,
+            "why": "Rogoff ties such feats to cultural context and importance, not to an innate general advantage."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Bartlett's Swazi study is a favourite: students remember the cattle but forget the 25-word control test, which is the real point. Expect true/false on Bartlett's quote about 'manner and matter', and scenario questions on oral historians or the Asur. Always conclude that cultural feats are specialised, not general memory superiority.",
+            "sampleQuestion": "What does Bartlett's 25-word message test show about the Swazi herdsmen's memory for cattle?",
+            "howToAnswer": "It shows their skill was culture-specific: equal performance on neutral material means the cattle memory reflected cultural importance and practice, not a general memory advantage.",
+            "scholars": [
+              "Bartlett (1932)",
+              "Rogoff & Mistry (1985)",
+              "Mishra & Singh (1992)",
+              "Bateson (1982)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Cultural memory passes the past on through texts, oral tradition, monuments and rites.",
+              "How adults discuss events shapes children's memories.",
+              "Bartlett (1932): Swazi cattle memory was culture-specific, not general.",
+              "Oral historians and elders hold huge cultural records (D'Azevedo; Bateson).",
+              "Rogoff: memory feats make sense in their cultural context."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Cultural memory is passed between generations through all of the following EXCEPT:",
+          "options": [
+            "Oral traditions",
+            "Monuments",
+            "Rites",
+            "Genetic inheritance"
+          ],
+          "answerIndex": 3,
+          "explanation": "Cultural memory is transmitted socially through symbols, texts and practices, not genes."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Who described the Swazi herdsmen's memory for cattle?",
+          "options": [
+            "Bartlett",
+            "Ebbinghaus",
+            "Paivio",
+            "Rogoff"
+          ],
+          "answerIndex": 0,
+          "explanation": "Sir Frederick Bartlett described it in 1932."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Bartlett argued that the manner and matter of recall are largely determined by:",
+          "options": [
+            "Social influences",
+            "Genetics",
+            "Brain size",
+            "Diet"
+          ],
+          "answerIndex": 0,
+          "explanation": "Bartlett stressed the social and cultural shaping of recall."
+        },
+        {
+          "difficulty": 2,
+          "stem": "On a 25-word message, Bartlett found that young Swazi men performed:",
+          "options": [
+            "Much better than Europeans",
+            "No better than Europeans",
+            "Much worse than Europeans",
+            "Perfectly"
+          ],
+          "answerIndex": 1,
+          "explanation": "Equal performance on neutral material showed the cattle memory was culture-specific."
+        },
+        {
+          "difficulty": 2,
+          "stem": "According to Rogoff, prodigious memory feats of tribal elders are best understood:",
+          "options": [
+            "As signs of genius",
+            "As genetic gifts",
+            "In their cultural context",
+            "As tricks"
+          ],
+          "answerIndex": 2,
+          "explanation": "Rogoff and Mistry linked these feats to their cultural importance."
+        },
+        {
+          "difficulty": 2,
+          "stem": "How might adults' conversations with children affect the children's memories?",
+          "options": [
+            "They have no effect",
+            "They erase memories",
+            "How events are discussed shapes how they are later remembered",
+            "They only affect motor skills"
+          ],
+          "answerIndex": 2,
+          "explanation": "Discussing events helps children encode and rehearse them, shaping later memory."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A village griot can recite 15 generations of a ruling family, but struggles to remember a random list of phone numbers. This supports the view that:",
+          "options": [
+            "Griots have weak memories",
+            "Memory feats are specialised by cultural importance",
+            "Oral cultures cannot remember numbers",
+            "Memory is purely genetic"
+          ],
+          "answerIndex": 1,
+          "explanation": "Strong memory for culturally meaningful material does not imply strong memory for everything."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A people with no artificial lighting remember locations better than word pairs. This was found among the:",
+          "options": [
+            "Swazi",
+            "Aboriginal Australians",
+            "Iatmul",
+            "Asur"
+          ],
+          "answerIndex": 3,
+          "explanation": "Mishra and Singh (1992) studied the Asur of India."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Elders' memory of clan lineages is used to settle land disputes. This example comes from the:",
+          "options": [
+            "Iatmul of New Guinea",
+            "Asur of India",
+            "Swazi of southern Africa",
+            "Inuit of Canada"
+          ],
+          "answerIndex": 0,
+          "explanation": "Iatmul elders memorised lines of descent used to resolve property claims."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which conclusion is NOT supported by Bartlett's Swazi research?",
+          "options": [
+            "Culture shapes what is remembered well",
+            "Cattle were central to Swazi life",
+            "The Swazi have generally superior memory",
+            "Memory skill can be domain-specific"
+          ],
+          "answerIndex": 2,
+          "explanation": "The 25-word test showed no general superiority, so that conclusion is not supported."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Mishra & Singh (1992): Swazi cattle",
+            "Bateson (1982): Iatmul lineages",
+            "D'Azevedo (1982): Asur locations",
+            "Bartlett (1932): Aboriginal stories"
+          ],
+          "answerIndex": 1,
+          "explanation": "Bateson described the Iatmul elders' lineage memory. Mishra and Singh studied the Asur; Bartlett the Swazi."
+        },
+        {
+          "difficulty": 4,
+          "stem": "The Asur study best illustrates that:",
+          "options": [
+            "All memory types are equally strong in every culture",
+            "Environmental demands shape which memory skills develop",
+            "Word memory is always better than location memory",
+            "Light improves memory"
+          ],
+          "answerIndex": 1,
+          "explanation": "Living without artificial light made location memory especially important and strong."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Cultural memory is constructed and transmitted socially. II. Tribal elders would likely excel at remembering meaningless material. III. Bartlett saw recall as largely shaped by social influence. Which are correct?",
+          "options": [
+            "I and II only",
+            "II and III only",
+            "I and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 2,
+          "explanation": "I and III are correct. II is wrong: Rogoff suggests their memory for meaningless material would be ordinary."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A researcher claims a group 'has a better memory' because its herders recall every animal. The strongest methodological criticism, following Bartlett, is that the researcher:",
+          "options": [
+            "Did not test the group on neutral, culturally unimportant material",
+            "Used too many animals",
+            "Did not measure brain size",
+            "Tested too few herders"
+          ],
+          "answerIndex": 0,
+          "explanation": "Bartlett's control test with neutral material is what showed the skill was specialised, not general."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which statement best captures the cultural view of memory?",
+          "options": [
+            "Memory is identical across cultures",
+            "Memory is a process that can be fully understood without context",
+            "Culture affects only childhood memory",
+            "Some memory abilities only make sense within the social and cultural context that trains them"
+          ],
+          "answerIndex": 3,
+          "explanation": "Bartlett and Rogoff hold that memory feats operate within, and are explained by, their cultural context."
+        }
+      ]
+    },
+    {
+      "name": "Stories from your own culture",
+      "lesson": {
+        "title": "Familiar stories stick",
+        "minutes": 8,
+        "hook": "Read a folk tale about a tortoise at a feast in the sky, and you will remember it easily. Read one built on customs you have never heard of, and details slip away. Why?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Own-culture advantage",
+            "body": "A story set in **your own culture** is easier to remember than one set somewhere unfamiliar, a finding repeated in several studies.\n\nFamiliar settings fit the mental frameworks we already have, so details slot in easily. Unfamiliar settings leave details with nowhere to attach.",
+            "visual": {
+              "type": "scale",
+              "left": "Own-culture story",
+              "right": "Foreign story",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "steps",
+            "heading": "The sick child study",
+            "steps": [
+              {
+                "title": "Participants",
+                "detail": "American women and Aboriginal Australian women (Steffensen & Calker, 1982)."
+              },
+              {
+                "title": "Story",
+                "detail": "A girl falls ill. Groups were randomly given different endings."
+              },
+              {
+                "title": "Version A",
+                "detail": "The girl recovers after a doctor treats her."
+              },
+              {
+                "title": "Version B",
+                "detail": "A traditional native healer is called and she recovers."
+              },
+              {
+                "title": "Result",
+                "detail": "Each group recalled more accurately the version that matched its own culture."
+              }
+            ]
+          },
+          {
+            "kind": "check",
+            "question": "In the sick child study, Aboriginal participants recalled best the version in which:",
+            "options": [
+              "A traditional native healer treated the girl",
+              "A physician treated the girl",
+              "No one treated the girl",
+              "The girl was treated abroad"
+            ],
+            "answerIndex": 0,
+            "why": "The healer version fitted Aboriginal cultural knowledge, so it was recalled more accurately. American women did best with the physician version."
+          },
+          {
+            "kind": "teach",
+            "heading": "Schemas: the hidden framework",
+            "body": "Bartlett explained this with **schemas**: organised mental frameworks built from experience and culture. In his classic study, English participants retold a Native American folk tale, '**The War of the Ghosts**'.\n\nOver retellings, the story became **shorter**, unfamiliar parts were **dropped**, and odd details were **changed to fit English expectations**. Memory, Bartlett concluded, is **reconstructive**, not a recording.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Unfamiliar story",
+                "Filtered by schema",
+                "Shortened, changed recall"
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "The wedding retold",
+            "story": "Bisi, from Ibadan, attends a friend's traditional wedding in a culture she does not know. Retelling it a week later, she describes the ceremony as if it followed Yoruba customs: she 'remembers' an engagement list and a prostration that never happened. Her schema filled the gaps.",
+            "takeaway": "Cultural schemas both help us recall familiar events and distort unfamiliar ones to fit what we expect."
+          },
+          {
+            "kind": "teach",
+            "heading": "What we notice differs too",
+            "body": "Culture also shapes **what we pay attention to**, and so what gets encoded. Research comparing Western and East Asian participants suggests Westerners often focus on **central objects and details**, while East Asians attend more to **context and relationships**.\n\nTwo people at the same birthday party might later recall the colour of the cake's icing, or who sat beside whom: both accurate, each shaped by culture.",
+            "visual": {
+              "type": "venn",
+              "left": "Central details",
+              "right": "Context",
+              "both": "Same party"
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Two focuses at one party",
+            "left": {
+              "title": "Detail focus",
+              "points": [
+                "Colour of decorations",
+                "Icing on the cake",
+                "Central objects"
+              ]
+            },
+            "right": {
+              "title": "Context focus",
+              "points": [
+                "Who was with whom",
+                "The mood of the room",
+                "Relationships"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Bartlett's 'War of the Ghosts' study showed that unfamiliar story details were often:",
+            "options": [
+              "Recalled perfectly",
+              "Added to and lengthened",
+              "Remembered better than familiar ones",
+              "Dropped or changed to fit the reader's culture"
+            ],
+            "answerIndex": 3,
+            "why": "Participants shortened the story and reshaped strange details to fit their own expectations, showing reconstructive memory."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'explain the relationship between culture and memory' as an essay. Cover cultural memory, childhood conversations, Bartlett's Swazi study, oral historians, the Asur, and the sick child study. Objectives test which group recalled which version. Trap: mixing up who did best with the physician story; it was the American women.",
+            "sampleQuestion": "In Steffensen and Calker's (1982) study, American women recalled most accurately the version in which the sick girl was treated by: (a) a native healer (b) a physician (c) her mother (d) a priest",
+            "howToAnswer": "Answer (b). Then explain the own-culture advantage: familiar settings fit existing schemas.",
+            "scholars": [
+              "Steffensen & Calker (1982)",
+              "Bartlett (1932)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "People recall stories set in their own culture more easily.",
+              "Sick child study: each group recalled its own-culture version better.",
+              "Schemas are cultural frameworks that guide recall.",
+              "War of the Ghosts: unfamiliar details dropped or changed; memory is reconstructive.",
+              "Culture shapes what we attend to and so what we encode."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "People tend to remember stories more easily when they are set in:",
+          "options": [
+            "A foreign culture",
+            "Their own culture",
+            "The future",
+            "No particular culture"
+          ],
+          "answerIndex": 1,
+          "explanation": "Own-culture stories fit existing knowledge and are recalled better."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The sick child story study was carried out by:",
+          "options": [
+            "Rogoff and Mistry",
+            "Mishra and Singh",
+            "Steffensen and Calker",
+            "Glanzer and Cunitz"
+          ],
+          "answerIndex": 2,
+          "explanation": "Steffensen and Calker (1982) compared American and Aboriginal women."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Bartlett's 'War of the Ghosts' study showed that memory is:",
+          "options": [
+            "A perfect recording",
+            "Unaffected by culture",
+            "Reconstructive",
+            "Only visual"
+          ],
+          "answerIndex": 2,
+          "explanation": "Recall was reshaped by schemas, showing memory reconstructs rather than records."
+        },
+        {
+          "difficulty": 2,
+          "stem": "In the sick child study, participants were assigned to story versions:",
+          "options": [
+            "By their own choice",
+            "Randomly",
+            "By age",
+            "By education"
+          ],
+          "answerIndex": 1,
+          "explanation": "Random assignment let researchers compare recall of each ending fairly."
+        },
+        {
+          "difficulty": 2,
+          "stem": "A schema is best described as:",
+          "options": [
+            "An organised mental framework built from experience",
+            "A type of brain cell",
+            "A memory test",
+            "A cultural monument"
+          ],
+          "answerIndex": 0,
+          "explanation": "Schemas organise knowledge and expectations, guiding encoding and recall."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Over repeated retellings in Bartlett's study, the story generally became:",
+          "options": [
+            "Longer and more detailed",
+            "Completely forgotten",
+            "Identical to the original",
+            "Shorter and more culturally familiar"
+          ],
+          "answerIndex": 3,
+          "explanation": "Retellings shrank and shifted towards the participants' own cultural expectations."
+        },
+        {
+          "difficulty": 3,
+          "stem": "American women in the sick child study recalled most accurately the version with:",
+          "options": [
+            "A physician",
+            "A native healer",
+            "A herbalist",
+            "A prayer meeting"
+          ],
+          "answerIndex": 0,
+          "explanation": "The physician version fitted American cultural expectations."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A Nigerian student retells a Japanese folk tale and replaces an unfamiliar ritual with a naming ceremony. This illustrates:",
+          "options": [
+            "Priming",
+            "Dual coding",
+            "The recency effect",
+            "Reconstruction guided by cultural schemas"
+          ],
+          "answerIndex": 3,
+          "explanation": "Changing unfamiliar details to fit one's own culture is schema-driven reconstruction, as Bartlett showed."
+        },
+        {
+          "difficulty": 3,
+          "stem": "After the same party, one guest recalls the cake's icing while another recalls who sat together. Cultural research suggests this may reflect:",
+          "options": [
+            "Poor memory in one guest",
+            "The serial position effect",
+            "Different brain sizes",
+            "Cultural differences in what people attend to"
+          ],
+          "answerIndex": 3,
+          "explanation": "Culture influences attention to detail versus context, shaping what is encoded."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Why are own-culture stories easier to remember, according to schema theory?",
+          "options": [
+            "They are always shorter",
+            "Their details fit existing frameworks and are easier to encode and retrieve",
+            "They are told more loudly",
+            "They avoid long-term memory"
+          ],
+          "answerIndex": 1,
+          "explanation": "Familiar settings match schemas, so details have something to attach to."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "War of the Ghosts: Steffensen and Calker",
+            "Sick child story: Bartlett",
+            "Sick child story: Steffensen and Calker",
+            "Asur location memory: Bartlett"
+          ],
+          "answerIndex": 2,
+          "explanation": "Steffensen and Calker ran the sick child study; Bartlett ran War of the Ghosts; Mishra and Singh studied the Asur."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following happened in Bartlett's War of the Ghosts retellings EXCEPT:",
+          "options": [
+            "Recall became more accurate with each retelling",
+            "Unfamiliar details were dropped",
+            "Details were changed to fit expectations",
+            "The story became shorter"
+          ],
+          "answerIndex": 0,
+          "explanation": "Accuracy fell, not rose, as the story was reconstructed over retellings."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Each cultural group recalled its own-culture version better. II. Story endings were assigned randomly. III. The study showed one culture has better memory overall. Which are correct?",
+          "options": [
+            "I and II only",
+            "I and III only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 0,
+          "explanation": "I and II are correct. III is wrong: each group did better on its own version, so neither is better overall."
+        },
+        {
+          "difficulty": 5,
+          "stem": "An exam board writes comprehension passages only about European settings. Based on memory and culture research, Nigerian candidates may be disadvantaged because:",
+          "options": [
+            "They lack intelligence",
+            "Unfamiliar settings fit their schemas less well, making recall harder",
+            "European stories are always longer",
+            "Recognition questions are harder"
+          ],
+          "answerIndex": 1,
+          "explanation": "Culturally unfamiliar material is harder to encode and recall, which can bias results."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A crime witness from one culture describes a foreign-culture ceremony with details that never occurred. The most likely explanation is that:",
+          "options": [
+            "The witness is lying",
+            "Priming erased the memory",
+            "Schemas filled gaps with culturally expected details",
+            "The memory was stored in implicit memory"
+          ],
+          "answerIndex": 2,
+          "explanation": "Reconstructive memory fills gaps with schema-consistent details without any intent to deceive."
+        }
+      ]
+    }
+  ]
+}

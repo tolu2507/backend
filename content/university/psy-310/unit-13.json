@@ -1,0 +1,600 @@
+{
+  "unit": 13,
+  "title": "Learning and Memory I",
+  "summary": "How the way you learn shapes long-term memory: levels of processing, two kinds of rehearsal, and the main types of long-term memory.",
+  "sections": [
+    {
+      "name": "Learning and depth of processing",
+      "lesson": {
+        "title": "Why how you study decides what stays",
+        "minutes": 10,
+        "hook": "Two students read the same handout for the same hour. A month later one can explain it and the other remembers nothing. The difference was not the time spent but what their brains did with the words.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "What psychologists mean by learning",
+            "body": "To a psychologist, **learning** is a relatively lasting change in behaviour that comes from experience, from dealing with the world around us. Changes caused by tiredness, drugs or simple growing up do not count.\n\nOften we learn from **consequences**: if something you did paid off, you are more likely to do it again. But this session focuses on a quieter point: what happens in your head *at the moment of learning* strongly decides what you can recall later.",
+            "visual": {
+              "type": "flow",
+              "nodes": ["Experience", "Processing", "Lasting change"]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Organised learning lasts longer",
+            "body": "Material learnt in an **organised** way, grouped into categories, linked into a story or connected to what you already know, is retained far better than material crammed as a loose heap of facts.\n\nOrganisation gives the brain hooks. When you later search for one item, the structure leads you to its neighbours. **Mental imagery** helps for a similar reason: a vivid picture gives a second route back to the information.",
+            "visual": {
+              "type": "scale",
+              "left": "Organised learning",
+              "right": "Disorganised learning",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Craik and Lockhart's big idea",
+            "body": "In 1972, **Fergus Craik and Robert Lockhart** proposed the **levels of processing** framework. Their claim: memory is a by-product of the attention and perceptual analysis you give a stimulus when you meet it.\n\nAt the **shallow** end you notice physical features, such as whether a word is in capitals or small letters. In the middle you notice sound, such as what it rhymes with. At the **deep** end you work out what it *means*. Depth here simply means how much meaning you extract.",
+            "visual": {
+              "type": "pyramid",
+              "levels": ["Meaning (deep)", "Sound (middle)", "Appearance (shallow)"]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Deep processing leaves stronger traces",
+            "body": "Craik and Lockhart argued that deep, meaning-based analysis produces memory traces that are **more elaborate, stronger and longer lasting** than shallow analysis.\n\nCraik and Tulving (1975) tested this. People answered quick questions about words: Is it in capitals? Does it rhyme with X? Does it fit this sentence? Nobody was told to memorise anything. On a surprise test, words judged for meaning were remembered best, and words judged for print case were remembered worst.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Shallow: print case",
+              "right": "Deep: meaning",
+              "marker": 90,
+              "label": "Best later recall"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Deciding whether the word 'GOAT' is written in capital letters is an example of:",
+            "options": ["Deep semantic processing", "Elaborative rehearsal", "Shallow processing", "Episodic encoding"],
+            "answerIndex": 2,
+            "why": "Judging print case looks only at physical appearance, the shallowest level. Semantic processing would ask what a goat is or does."
+          },
+          {
+            "kind": "compare",
+            "heading": "Two kinds of rehearsal",
+            "left": {
+              "title": "Maintenance rehearsal",
+              "points": [
+                "Repeats an analysis already done",
+                "Keeps an item 'alive' for now",
+                "Adds little new meaning",
+                "Weak for long-term memory"
+              ]
+            },
+            "right": {
+              "title": "Elaborative rehearsal",
+              "points": [
+                "Analyses the item more deeply",
+                "Links it to meaning and prior knowledge",
+                "Builds a richer trace",
+                "Needed for better long-term memory"
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Two ways to learn 'synapse'",
+            "story": "In a hostel room at Ibadan, Tunde mutters 'synapse, the junction between neurons' twenty times while scrolling his phone. Chiamaka instead asks herself why a gap would be useful, pictures a message being passed across it like a baton in a relay race at the sports field, and connects it to drugs she has heard affect the brain. A week later only Chiamaka can explain it.",
+            "takeaway": "Tunde used maintenance rehearsal; Chiamaka used elaborative rehearsal, which Craik and Lockhart said is what improves long-term memory."
+          },
+          {
+            "kind": "teach",
+            "heading": "The test matters too",
+            "body": "Depth is not the whole story. Long-term memory also depends on how well **what you stored matches what the test asks for**. You show what you know best when the retention test draws on the same kind of information you processed.\n\nMorris, Bransford and Franks (1977) showed this: people who judged words by rhyme did better on a rhyme-based test than people who judged meaning. This idea is called **transfer-appropriate processing**.",
+            "visual": {
+              "type": "venn",
+              "left": "What you encoded",
+              "right": "What the test asks",
+              "both": "Best performance"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Amaka repeats a phone number over and over until she dials it, without thinking about the digits at all. She is using:",
+            "options": ["Elaborative rehearsal", "Maintenance rehearsal", "Deep processing", "Semantic organisation"],
+            "answerIndex": 1,
+            "why": "Simply repeating what has already been analysed is maintenance rehearsal. Elaborative rehearsal would involve linking the digits to meaning, such as a birth year."
+          },
+          {
+            "kind": "teach",
+            "heading": "A fair criticism",
+            "body": "Levels of processing changed how we think about study, but it has a known weakness. **Depth** is hard to measure on its own. If we say a task was 'deep' because people remembered it well, and that they remembered it well because it was deep, the argument goes in a circle.\n\nAlso, as the transfer-appropriate research shows, shallow processing can win when the test is about surface features. Depth helps most when the test asks for meaning.",
+            "visual": {
+              "type": "cycle",
+              "nodes": ["Good recall", "So 'deep'", "Deep explains recall"]
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect scenarios where you must label the rehearsal type or predict who remembers best. The classic trap is assuming any repetition builds lasting memory. Repetition without new analysis is maintenance rehearsal, and Craik and Lockhart said it does little for long-term retention.",
+            "sampleQuestion": "Distinguish between maintenance and elaborative rehearsal. Using the levels of processing framework, explain why one is better for examination revision.",
+            "howToAnswer": "Define each type, link elaborative rehearsal to deep (meaning-based) processing and stronger traces, then add that performance also depends on the match between encoding and the test.",
+            "scholars": ["Craik & Lockhart (1972)", "Craik & Tulving (1975)", "Morris, Bransford & Franks (1977)"]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Learning is a lasting change in behaviour that comes from experience.",
+              "Organised learning and imagery produce better long-term memory.",
+              "Craik and Lockhart (1972): deeper, meaning-based processing gives stronger traces.",
+              "Maintenance rehearsal repeats; elaborative rehearsal deepens, and only the second really helps.",
+              "Memory also depends on the match between what was encoded and what the test asks."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Which of the following best captures how psychologists define learning?",
+          "options": [
+            "A relatively lasting change in behaviour that comes from experience",
+            "Any change in behaviour, including those caused by fatigue or drugs",
+            "A temporary change in behaviour caused by physical maturation",
+            "Inborn reflexes that are triggered automatically by stimuli"
+          ],
+          "answerIndex": 0,
+          "explanation": "Learning is a lasting behaviour change brought about by experience with the environment. Changes from fatigue, drugs or maturation are excluded because they are not the product of experience."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Craik and Lockhart (1972) argued that how well information is remembered depends mainly on:",
+          "options": [
+            "The number of memory stores it passes through",
+            "The fixed capacity of short-term memory",
+            "The depth at which it is processed during learning",
+            "The age of the learner at the time of learning"
+          ],
+          "answerIndex": 2,
+          "explanation": "Their levels of processing framework ties memory to the depth of analysis at encoding. Passing through stores is the language of the multi-store model, a common mix-up."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which of these tasks involves the SHALLOWEST level of processing?",
+          "options": [
+            "Linking a new word to an event in your own life",
+            "Deciding whether a word is printed in capital letters",
+            "Judging whether a word makes sense in a sentence",
+            "Explaining the meaning of a word to a classmate"
+          ],
+          "answerIndex": 1,
+          "explanation": "Print case concerns only physical appearance, the shallowest level. The other three all require thinking about meaning, which is deep processing."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Maintenance rehearsal differs from elaborative rehearsal in that maintenance rehearsal:",
+          "options": [
+            "Builds new links between an item and its meaning",
+            "Is the form Craik and Lockhart said improves long-term memory",
+            "Involves a deeper analysis of the stimulus",
+            "Repeats analyses of the item that have already been carried out"
+          ],
+          "answerIndex": 3,
+          "explanation": "Maintenance rehearsal just recycles analysis already done. Deeper analysis and meaningful links describe elaborative rehearsal, which is the form needed for better long-term memory."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Compared with disorganised learning, learning that is organised tends to:",
+          "options": [
+            "Fade faster because it takes more effort",
+            "Produce better long-term retention",
+            "Affect only sensory memory",
+            "Matter only for implicit memory"
+          ],
+          "answerIndex": 1,
+          "explanation": "Organisation gives structure and retrieval routes, so organised learning yields better long-term memory. It is not restricted to sensory or implicit memory."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Processing a word in terms of what it rhymes with is classified in the levels of processing framework as:",
+          "options": [
+            "Shallow (sound-based) processing",
+            "Deep semantic processing",
+            "Elaborative rehearsal",
+            "Episodic encoding"
+          ],
+          "answerIndex": 0,
+          "explanation": "Sound and rhyme are surface features, so this counts as shallow processing. Deep processing is reserved for analysis of meaning."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Shown the word PALM, Ada is asked 'Is it in capitals?', Tunde 'Does it rhyme with calm?' and Bola 'Is it a type of tree?'. None is told to memorise it. On a surprise recall test, who is most likely to remember it?",
+          "options": [
+            "Ada, because visual features are easiest to store",
+            "Tunde, because sound is the most durable code",
+            "All three equally, since none tried to memorise",
+            "Bola, because the question required analysis of meaning"
+          ],
+          "answerIndex": 3,
+          "explanation": "Bola's question demanded semantic (deep) processing, which Craik and Tulving found gives the best incidental recall. Intention to learn is not necessary; depth of processing is what matters."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Kemi repeats 'the mitochondrion is the powerhouse of the cell' twenty times without thinking about what it means. Kemi is using:",
+          "options": [
+            "Elaborative rehearsal",
+            "Mental imagery",
+            "Maintenance rehearsal",
+            "Transfer-appropriate processing"
+          ],
+          "answerIndex": 2,
+          "explanation": "Repetition with no further analysis is maintenance rehearsal. Elaborative rehearsal would mean asking why or how, and connecting the idea to what she already knows."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Emeka sorts his 40 revision terms into themed groups and links each group to a picture. His roommate reads the same list in random order for the same time. Which prediction fits this session best?",
+          "options": [
+            "Both will remember equally because study time was the same",
+            "The roommate will do better because random order avoids confusion",
+            "Emeka will retain more over the long term because his learning is organised",
+            "Emeka will do better on the day but worse after a week"
+          ],
+          "answerIndex": 2,
+          "explanation": "Organised learning and imagery both support long-term memory, so Emeka should retain more. Equal time does not mean equal processing, which is the trap in the first option."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which of the following statements about the levels of processing framework is FALSE?",
+          "options": [
+            "Depth refers to how much meaning is extracted from a stimulus",
+            "Deep processing yields more elaborate and longer-lasting traces",
+            "Long-term memory depends heavily on processing at the time of learning",
+            "Repeating an item long enough guarantees durable long-term memory"
+          ],
+          "answerIndex": 3,
+          "explanation": "Mere repetition is maintenance rehearsal, which Craik and Lockhart said adds little to long-term memory. The other three statements are core claims of the framework."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Students who judged words by rhyme did better on a rhyme-based recognition test than students who judged meaning. This finding mainly supports the idea that:",
+          "options": [
+            "Memory depends on the match between what was encoded and what the test demands",
+            "Shallow processing is always superior to deep processing",
+            "Forgetting is caused mainly by decay over time",
+            "Information must pass through three separate stores"
+          ],
+          "answerIndex": 0,
+          "explanation": "This is transfer-appropriate processing (Morris, Bransford & Franks, 1977): performance depends on encoding-test match. It does not show shallow processing is always better, only that it suits a surface-based test."
+        },
+        {
+          "difficulty": 4,
+          "stem": "The major weakness usually raised against the levels of processing framework is that:",
+          "options": [
+            "It ignores the role of meaning in memory",
+            "Depth is often defined by how well items are remembered, which makes the argument circular",
+            "It was never tested in any experiment",
+            "It denies that long-term memory exists"
+          ],
+          "answerIndex": 1,
+          "explanation": "Without an independent measure of depth, saying deep items are remembered because they are deep becomes circular. The framework was tested (for example by Craik and Tulving) and is all about meaning, so the other options are wrong."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider these statements. I: Maintenance rehearsal repeats analyses already carried out. II: Elaborative rehearsal is needed for improved long-term memory. III: Processing words by their sound is deep processing. Which are correct?",
+          "options": [
+            "I only",
+            "II and III only",
+            "I, II and III",
+            "I and II only"
+          ],
+          "answerIndex": 3,
+          "explanation": "I and II are both Craik and Lockhart's claims. III is wrong because sound and rhyme are shallow; only meaning-based analysis counts as deep."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Students who understood a theory deeply scored poorly on a test asking for the exact spelling of the theorists' names. The most defensible conclusion is that:",
+          "options": [
+            "Deep processing actually harms long-term memory",
+            "Retention shows best when the test matches what was encoded",
+            "Spelling is stored only in sensory memory",
+            "The students must have used maintenance rehearsal"
+          ],
+          "answerIndex": 1,
+          "explanation": "Deep processing captured meaning, but the test asked for surface detail, so encoding and test did not match. This does not mean depth harms memory; it shows memory depends on the encoding-test relationship."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which pairing of researcher and contribution is correctly matched?",
+          "options": [
+            "Craik and Lockhart (1972): episodic versus semantic memory",
+            "Tulving (1972): the levels of processing framework",
+            "Craik and Tulving (1975): testing depth with case, rhyme and sentence questions",
+            "Sperling (1960): the distinction between two kinds of rehearsal"
+          ],
+          "answerIndex": 2,
+          "explanation": "Craik and Tulving (1975) tested depth using case, rhyme and sentence-fit questions. The first two options swap the contributions: Tulving proposed episodic versus semantic memory and Craik and Lockhart proposed levels of processing."
+        }
+      ]
+    },
+    {
+      "name": "Types of long-term memory",
+      "lesson": {
+        "title": "Not one memory but several",
+        "minutes": 9,
+        "hook": "You know that Abuja is Nigeria's capital, but can you remember the day you learnt it? Probably not. That gap tells psychologists that 'knowing' and 'remembering' are not the same kind of memory.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Tulving's split of long-term memory",
+            "body": "In 1972 the Canadian psychologist **Endel Tulving** proposed that long-term memory holds two different kinds of knowledge.\n\n**Episodic memory** is your personal diary: events you lived through, stamped with a time and a place. **Semantic memory** is your encyclopaedia: general knowledge of the world that does not depend on remembering when you learnt it.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                { "icon": "time", "label": "Episodic: my events" },
+                { "icon": "book", "label": "Semantic: world facts" }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Episodic memory up close",
+            "body": "Episodic memory is **autobiographical**. Remembering your cousin's wedding last December, who sat beside you, the music and the jollof, is episodic. It answers 'what happened, where and when?'.\n\nBecause each episode is tied to its context, episodic memories are rich but also fragile. Similar events, like many lectures in the same hall, can blur together over time.",
+            "visual": {
+              "type": "brain",
+              "region": "hippocampus",
+              "label": "Binds events to context"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Semantic memory up close",
+            "body": "Semantic memory holds organised knowledge: words and their meanings, symbols, concepts, rules and formulas, and how all of these relate to one another.\n\nIts **organisation** shows in speed. Asked whether a goat has four legs, you answer in a split second without recalling any particular goat. That quick access is possible only because knowledge is stored as a connected network, not as a loose pile.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                { "icon": "chatbubbles", "label": "Word meanings" },
+                { "icon": "git-network", "label": "Linked concepts" },
+                { "icon": "layers", "label": "Rules and formulas" }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Which of these is an example of semantic memory?",
+            "options": ["Knowing that the naira is Nigeria's currency", "Recalling your first day at secondary school", "Remembering where you parked this morning", "Recalling the argument at last week's tutorial"],
+            "answerIndex": 0,
+            "why": "General knowledge with no personal time and place attached is semantic. The other three are personal events located in time, so they are episodic."
+          },
+          {
+            "kind": "teach",
+            "heading": "They work as a team",
+            "body": "Tulving's two systems are distinct but **interdependent**. Your semantic knowledge of what a wedding is shapes how you encode a particular wedding. In turn, many repeated episodes gradually become general knowledge: after dozens of lectures you simply *know* how a lecture runs, without recalling any single one.\n\nSo exam answers should say the systems interact, not that they are sealed boxes.",
+            "visual": {
+              "type": "venn",
+              "left": "Episodic",
+              "right": "Semantic",
+              "both": "Shape each other"
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Explicit versus implicit memory",
+            "left": {
+              "title": "Explicit memory",
+              "points": [
+                "Needs conscious recollection",
+                "You know you are remembering",
+                "Conceptually driven, started by you",
+                "Includes episodic and semantic memory"
+              ]
+            },
+            "right": {
+              "title": "Implicit memory",
+              "points": [
+                "No conscious recollection needed",
+                "Past experience shows in performance",
+                "Data-driven, cued by the stimulus",
+                "Includes skills and priming"
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "The jingle you never noticed",
+            "story": "Musa insists he never pays attention to radio adverts in the danfo. Yet when a friend hums three notes of a detergent jingle, Musa finishes the tune instantly. He cannot recall a single moment he heard it. Meanwhile he can deliberately recall, step by step, the day he lost his phone at Oshodi market.",
+            "takeaway": "Completing the jingle is implicit memory; recalling the lost-phone day is explicit (episodic) memory."
+          },
+          {
+            "kind": "teach",
+            "heading": "Data-driven and conceptually driven",
+            "body": "Implicit memory is called **data-driven**: it is set off largely by the physical features of the stimulus in front of you, such as the shape of a word or the first notes of a tune.\n\nExplicit memory is **conceptually driven**: it is started by you, guided by your goals and by meaning, as when you search your mind for a definition. A neat note: some study guides list driving a car as explicit, but once a skill is automatic it is usually classed as implicit (procedural) memory.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Data-driven (implicit)",
+              "right": "Concept-driven (explicit)",
+              "marker": 50,
+              "label": "Two routes to memory"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "A patient with amnesia cannot recall practising a puzzle yesterday, yet solves it faster today. This best shows that:",
+            "options": ["Semantic memory is fully intact", "Implicit memory can survive when explicit memory fails", "Practice has no lasting effect", "Episodic memory has improved"],
+            "answerIndex": 1,
+            "why": "Improvement without conscious recollection is implicit memory. The patient's explicit (episodic) memory of practising is what has failed."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Two splits are examined together: episodic versus semantic, and explicit versus implicit. The trap is treating them as the same split. Episodic and semantic are both explicit. Another trap: swapping 'data-driven' and 'conceptually driven'. Remember: data comes from outside, concepts come from you.",
+            "sampleQuestion": "Distinguish between episodic and semantic memory, and explain why implicit memory is described as data-driven while explicit memory is conceptually driven.",
+            "howToAnswer": "Define both of Tulving's systems with one example each and note that they interact. Then define explicit and implicit memory, explaining that implicit memory is triggered by stimulus features and explicit memory by the person's own goals.",
+            "scholars": ["Tulving (1972)", "Graf & Schacter (1985)"]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Tulving (1972) split long-term memory into episodic and semantic.",
+              "Episodic is personal and tied to time and place; semantic is organised world knowledge.",
+              "The two systems are interdependent, not sealed off.",
+              "Explicit memory needs conscious recollection; implicit memory does not.",
+              "Implicit memory is data-driven; explicit memory is conceptually driven."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Remembering your 18th birthday party, where it was held and who came, is an example of:",
+          "options": ["Semantic memory", "Episodic memory", "Implicit priming", "Sensory memory"],
+          "answerIndex": 1,
+          "explanation": "A personal event tied to a specific time and place is episodic. Semantic memory would be general knowledge, such as knowing what a birthday is."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The distinction between episodic and semantic memory is most closely associated with:",
+          "options": ["Craik and Lockhart", "George Sperling", "Endel Tulving", "Atkinson and Shiffrin"],
+          "answerIndex": 2,
+          "explanation": "Tulving proposed the episodic-semantic distinction in 1972. Craik and Lockhart, from the same year, are known for levels of processing."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Knowing that Abuja is the capital of Nigeria, without recalling when you learnt it, draws on:",
+          "options": ["Semantic memory", "Episodic memory", "Implicit priming", "Sensory memory"],
+          "answerIndex": 0,
+          "explanation": "General facts about the world, detached from the moment of learning, are semantic. Episodic memory would require recalling the occasion itself."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Implicit memory is revealed when:",
+          "options": [
+            "A person deliberately recalls a past event",
+            "A person describes a holiday in detail",
+            "A person answers a quiz about state capitals",
+            "Past experience improves performance without conscious recollection"
+          ],
+          "answerIndex": 3,
+          "explanation": "Implicit memory shows in performance without awareness of remembering. The other options all involve deliberate, conscious recall, which is explicit memory."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The speed with which we can decide that a goat is a four-legged animal is taken as evidence that semantic memory is:",
+          "options": [
+            "Held in sensory memory",
+            "Highly organised",
+            "Entirely autobiographical",
+            "Independent of all other memory"
+          ],
+          "answerIndex": 1,
+          "explanation": "Rapid retrieval is possible because semantic knowledge is stored in an organised network. It is not autobiographical; that describes episodic memory."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which statement best describes the relationship between episodic and semantic memory?",
+          "options": [
+            "They function interdependently rather than in isolation",
+            "They are completely separate and never interact",
+            "Semantic memory is a subtype of sensory memory",
+            "Episodic memory disappears once semantic memory develops"
+          ],
+          "answerIndex": 0,
+          "explanation": "Tulving's two systems are distinct but work together: knowledge shapes how events are encoded, and repeated events become knowledge. Treating them as sealed boxes is the trap."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Ngozi cannot recall ever hearing a radio jingle, yet when a friend hums the opening notes she completes it faster than anyone else. This best illustrates:",
+          "options": ["Explicit episodic memory", "Semantic memory", "Implicit memory", "Maintenance rehearsal"],
+          "answerIndex": 2,
+          "explanation": "Her past exposure shapes performance without conscious recollection, which is implicit memory. If she could recall hearing it, that would be explicit episodic memory."
+        },
+        {
+          "difficulty": 3,
+          "stem": "While writing a definition in an exam, Musa recalls 'the lecturer explained this in week three, in the big theatre, while it was raining'. Recalling that occasion draws mainly on:",
+          "options": ["Implicit memory", "Semantic memory", "Procedural memory", "Episodic memory"],
+          "answerIndex": 3,
+          "explanation": "Recalling the time, place and circumstances of learning is episodic. The definition itself is semantic, which is the near-miss option."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Over many years, Halima has attended dozens of church harvest bazaars. She can now describe what usually happens at one but recalls few individual bazaars. This shows that:",
+          "options": [
+            "Episodic memory never contributes to semantic memory",
+            "Repeated episodes can gradually feed into semantic knowledge",
+            "Her implicit memory has replaced her explicit memory",
+            "Semantic memory is tied to one time and place"
+          ],
+          "answerIndex": 1,
+          "explanation": "Many similar episodes blend into general knowledge, showing the two systems are interdependent. Semantic memory is not tied to a single time and place; that is episodic."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Implicit memory is described as data-driven mainly because it:",
+          "options": [
+            "Is triggered largely by the physical features of the external stimulus",
+            "Is started by the person's own goals and search",
+            "Depends on deep analysis of meaning",
+            "Requires a deliberate, conscious search of memory"
+          ],
+          "answerIndex": 0,
+          "explanation": "Data-driven means set off by incoming stimulus features. Being started by the person's own goals is what makes explicit memory conceptually driven."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which of the following is NOT a feature of explicit memory?",
+          "options": [
+            "It requires conscious recollection",
+            "It is conceptually driven",
+            "It is initiated by the individual",
+            "It is triggered mainly by stimulus features without awareness"
+          ],
+          "answerIndex": 3,
+          "explanation": "Being triggered by stimulus features without awareness describes implicit, data-driven memory. The other three are defining features of explicit memory."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Episodic memory: knowing the meanings of words",
+            "Semantic memory: recalling last year's Sallah celebration",
+            "Implicit memory: completing word fragments faster after earlier exposure",
+            "Explicit memory: a skill improving without any awareness"
+          ],
+          "answerIndex": 2,
+          "explanation": "Faster fragment completion after exposure (priming) is classic implicit memory. The first two options swap episodic and semantic, and the last describes implicit, not explicit, memory."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider these statements. I: Episodic memory is tied to a particular time and place. II: Semantic memory includes rules, formulas and concepts. III: Implicit memory is conceptually driven. Which are correct?",
+          "options": ["I and II only", "I and III only", "II and III only", "I, II and III"],
+          "answerIndex": 0,
+          "explanation": "I and II are accurate descriptions of Tulving's systems. III is wrong: implicit memory is data-driven, while explicit memory is conceptually driven."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Amnesic patients shown a word list cannot recognise the words later, yet complete word fragments using those words more often than chance. The most likely conclusion is that:",
+          "options": [
+            "Their semantic memory has been completely erased",
+            "Their implicit memory is spared while explicit memory is impaired",
+            "Both explicit and implicit memory are equally impaired",
+            "Episodic memory must be data-driven"
+          ],
+          "answerIndex": 1,
+          "explanation": "Failing recognition shows impaired explicit memory, while fragment completion shows intact implicit memory. The two dissociate, so they cannot be equally impaired."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which combination correctly describes how each memory type is driven?",
+          "options": [
+            "Implicit: conceptually driven; explicit: data-driven",
+            "Implicit and explicit: both conceptually driven",
+            "Implicit and explicit: both data-driven",
+            "Implicit: data-driven; explicit: conceptually driven"
+          ],
+          "answerIndex": 3,
+          "explanation": "Implicit memory is set off by external stimulus features, so it is data-driven; explicit memory is started by the person, so it is conceptually driven. The first option is the classic reversal."
+        }
+      ]
+    }
+  ]
+}

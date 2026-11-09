@@ -1,0 +1,898 @@
+{
+  "unit": 3,
+  "title": "Short Term Memory",
+  "summary": "Short-term memory in depth: why it fades, how rehearsal and chunking help, how we search it, and how it works with long-term memory.",
+  "sections": [
+    {
+      "name": "What forgetting a number teaches",
+      "lesson": {
+        "title": "Four lessons from a forgotten number",
+        "minutes": 9,
+        "hook": "You read a recharge PIN off a scratch card, repeat it twice, and a friend says 'Ah, how far?' By the time you look back at your phone, the PIN is gone. That tiny annoyance reveals almost everything about short-term memory.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Only what you attend to gets in",
+            "body": "Your senses deliver far more than you can handle. Out of everything in sensory memory, only the stimuli you **attend to** move into short-term memory. The rest is simply lost.\n\nShort-term memory is your **working memory**: the active space holding what you are using right now. The scratch-card PIN is a perfect case. It got in because you looked at it on purpose, and it stayed only while you kept working on it.",
+            "visual": {
+              "type": "flow",
+              "nodes": ["Many stimuli", "Selective attention", "Working memory"]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Lesson 1: it fades fast",
+            "body": "If you had not repeated the PIN to yourself, it would have disappeared within **seconds**. When rehearsal is blocked, short-term memory fades rapidly.\n\nThis is the core reason students forget a definition they 'just read'. Reading once places it in short-term memory, but nothing keeps it there once your eyes move to the next line.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                { "icon": "time", "label": "Seconds pass" },
+                { "icon": "trending-down", "label": "Trace fades" }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Lesson 2: rehearsal holds it",
+            "body": "Simple repetition, called **rote** or **maintenance rehearsal**, lets you hold material beyond about **20 seconds**, for as long as you keep repeating.\n\nBut rote repetition is a poor way to get information into long-term memory. Far better is **meaningful** (elaborative) rehearsal, where you link the new material to something you already know. Repeating 'hippocampus' ten times does less than connecting it to a seahorse, which is what its Greek name means.",
+            "visual": {
+              "type": "scale",
+              "left": "Rote rehearsal",
+              "right": "Meaningful rehearsal",
+              "heavier": "right"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Which strategy is MOST likely to move a new term into long-term memory?",
+            "options": [
+              "Repeating it aloud twenty times",
+              "Copying it out five times",
+              "Linking it to a familiar idea or example",
+              "Reading it once very slowly"
+            ],
+            "answerIndex": 2,
+            "why": "Meaningful rehearsal ties new material to what is already in long-term memory. Repetition and copying are rote methods that mainly keep items in short-term memory."
+          },
+          {
+            "kind": "teach",
+            "heading": "Lesson 3: it is like your attention span",
+            "body": "Get distracted and whatever was in short-term memory goes. That sounds like a flaw, but it protects you. Imagine remembering every trivial thing from your whole day: every price you were quoted, every number plate you saw.\n\nAll that clutter would **interfere** with handling new information. Clearing out what you no longer need keeps the working space free for the task in front of you.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                { "icon": "flash", "label": "Distraction" },
+                { "icon": "close-circle", "label": "Item cleared" },
+                { "icon": "checkmark-circle", "label": "Space freed" }
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "The buka attendant",
+            "story": "At a busy buka near Sango, Funmi takes orders all afternoon: 'amala, two meat', 'rice and dodo', 'eba with egusi'. Once a table pays and leaves, she lets their order go completely. If she kept every past order in mind, the new ones would collide with them and she would bring ewedu to the person who asked for ogbono.",
+            "takeaway": "Losing finished information from short-term memory prevents old items from interfering with new ones."
+          },
+          {
+            "kind": "teach",
+            "heading": "Lesson 4: capacity is small",
+            "body": "Miller's (1956) **magical number seven, plus or minus two** sets the usual limit. An item is any **meaningful unit**, whether a single digit or a whole phrase. On a bad day a person may hold only five; on a good day, nine.\n\n**Chunking** stretches this limit, as in splitting a phone number into a few groups. But chunking cannot expand STM forever. Once the limit is reached, new information **displaces** the old, unless the old has already been stored in long-term memory.",
+            "visual": {
+              "type": "stat",
+              "value": "5 to 9",
+              "label": "Range of STM capacity"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Which statement about chunking is correct?",
+            "options": [
+              "It expands short-term memory without any limit",
+              "It helps, but beyond the limit new items still displace old ones",
+              "It works only on numbers",
+              "It is the same as rote rehearsal"
+            ],
+            "answerIndex": 1,
+            "why": "Chunking raises effective capacity, but STM still has a ceiling. Once full, new items push out old ones unless those are already in long-term memory."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "A common essay asks you to 'use an everyday example to describe the features of STM'. Students list features without explaining them, or forget that rote rehearsal is weak for long-term storage. Show both the cost and the benefit of rapid forgetting.",
+            "sampleQuestion": "Using the example of looking up a phone number, state and explain four characteristics of short-term memory.",
+            "howToAnswer": "Name the four features (rapid fading, rehearsal maintains it, attention-span-like, small capacity), explain each briefly, and add that meaningful rather than rote rehearsal aids transfer.",
+            "scholars": ["Miller (1956)", "Atkinson & Shiffrin (1968)"]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Attention decides what enters short-term (working) memory.",
+              "STM fades within seconds if rehearsal is blocked.",
+              "Rote rehearsal keeps items in STM; meaningful rehearsal moves them to LTM.",
+              "Forgetting finished items protects against interference.",
+              "Capacity is 7 ± 2; chunking helps but has a ceiling."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "What chiefly determines which sensory information enters short-term memory?",
+          "options": [
+            "The loudness of the stimulus alone",
+            "Whether we pay attention to it",
+            "How long ago it occurred",
+            "Whether it has been consolidated"
+          ],
+          "answerIndex": 1,
+          "explanation": "Selective attention is the gateway into STM. Consolidation concerns long-term storage, not entry to STM."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Short-term memory is often called working memory because it:",
+          "options": [
+            "Stores skills such as cycling",
+            "Holds information for a lifetime",
+            "Contains information we are actively using now",
+            "Works without any need for attention"
+          ],
+          "answerIndex": 2,
+          "explanation": "STM is the active space for current mental work. Lifelong storage and skills belong to long-term memory."
+        },
+        {
+          "difficulty": 1,
+          "stem": "In Miller's 'magical number seven plus or minus two', an 'item' refers to:",
+          "options": [
+            "A meaningful unit such as a digit, word or phrase",
+            "A single letter only",
+            "One second of storage time",
+            "One brain cell"
+          ],
+          "answerIndex": 0,
+          "explanation": "An item is any meaningful unit, which is why chunking works. Limiting it to single letters misses the point."
+        },
+        {
+          "difficulty": 2,
+          "stem": "With rote rehearsal, material can be held in short-term memory for:",
+          "options": [
+            "No more than two seconds",
+            "Exactly 30 seconds, then it is lost",
+            "Only until it is chunked",
+            "Longer than about 20 seconds, as long as repetition continues"
+          ],
+          "answerIndex": 3,
+          "explanation": "Repetition keeps items active beyond the usual fading time. Two seconds is closer to the duration of echoic memory."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Why is rote rehearsal considered a weak route into long-term memory?",
+          "options": [
+            "It does not link the material to existing knowledge",
+            "It destroys the sensory trace",
+            "It reduces the capacity of short-term memory",
+            "It causes displacement of older memories in LTM"
+          ],
+          "answerIndex": 0,
+          "explanation": "Rote repetition keeps an item active but adds no meaning. Linking to existing knowledge is what makes long-term storage likely."
+        },
+        {
+          "difficulty": 2,
+          "stem": "How does the rapid loss of information from short-term memory benefit us?",
+          "options": [
+            "It increases the capacity of long-term memory",
+            "It speeds up consolidation",
+            "It prevents trivial old items from interfering with new ones",
+            "It strengthens sensory memory"
+          ],
+          "answerIndex": 2,
+          "explanation": "Clearing used information keeps the workspace free and reduces interference. It does not change long-term capacity, which is already virtually unlimited."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Ibrahim reads a recharge PIN, starts repeating it, then a friend greets him. He has to look at the card again. What does this best show?",
+          "options": [
+            "Long-term memory is easily disrupted",
+            "Distraction ends rehearsal and the item fades from STM",
+            "The PIN was displaced by sensory memory",
+            "Motivated forgetting removed the PIN"
+          ],
+          "answerIndex": 1,
+          "explanation": "The greeting interrupted rehearsal, so the PIN faded from STM. It was never in long-term memory to begin with."
+        },
+        {
+          "difficulty": 3,
+          "stem": "To remember 'amygdala', Tola links it to 'a-MIG-dala', imagining a fighter jet (MiG) setting off alarms of fear. This is an example of:",
+          "options": [
+            "Rote rehearsal",
+            "Displacement",
+            "Maintenance rehearsal",
+            "Meaningful rehearsal"
+          ],
+          "answerIndex": 3,
+          "explanation": "Tola is building links to existing knowledge, which is meaningful (elaborative) rehearsal. Rote and maintenance rehearsal are simple repetition."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A waiter who could not forget the orders of the last ten customers would most likely suffer from:",
+          "options": [
+            "Interference with the orders of current customers",
+            "Improved recall of the current orders",
+            "Loss of sensory memory",
+            "Greater short-term memory capacity"
+          ],
+          "answerIndex": 0,
+          "explanation": "Old orders would compete with new ones. Holding more old items would not increase the limited capacity; it would crowd it."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are lessons from the 'phone number' example of short-term memory EXCEPT that:",
+          "options": [
+            "STM fades rapidly without rehearsal",
+            "Rehearsal helps retain material in STM",
+            "STM has an unlimited capacity",
+            "STM behaves like an attention span"
+          ],
+          "answerIndex": 2,
+          "explanation": "STM capacity is small (7 ± 2). The other three statements are the lessons drawn from the example."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Once short-term memory is at its limit, adding new information will cause old information to be lost UNLESS:",
+          "options": [
+            "The new information is louder",
+            "The old information has already been stored in long-term memory",
+            "The person stops paying attention",
+            "The old information is held in sensory memory"
+          ],
+          "answerIndex": 1,
+          "explanation": "Information already transferred to LTM survives even if it leaves STM. Sensory memory lasts only seconds and cannot protect it."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement about rehearsal is FALSE?",
+          "options": [
+            "Rote rehearsal involves simple repetition",
+            "Meaningful rehearsal links new material to existing knowledge",
+            "Rote rehearsal can hold items beyond 20 seconds",
+            "Rote rehearsal is the best route into long-term memory"
+          ],
+          "answerIndex": 3,
+          "explanation": "Meaningful rehearsal, not rote, is the better route into LTM. The other three statements are true."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider: I. Some people can hold only about five items at times. II. Chunking can expand STM indefinitely. III. Forgetting from STM can be adaptive. Which is correct?",
+          "options": [
+            "I and III only",
+            "I and II only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 0,
+          "explanation": "I and III are true. Chunking helps but cannot expand STM without limit, so II is false."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Two students study a list of drug names. Ada repeats each name ten times; Obi links each name to what the drug treats. A week later, Obi recalls far more. The best explanation is that:",
+          "options": [
+            "Ada's rehearsal displaced the names from LTM",
+            "Obi used rote rehearsal more efficiently",
+            "Meaningful rehearsal tied the names to existing knowledge, aiding long-term storage",
+            "Ada's STM capacity was smaller than Obi's"
+          ],
+          "answerIndex": 2,
+          "explanation": "Linking to meaning favours long-term retention, while rote repetition mainly maintains items briefly. There is no evidence that Ada's capacity differed."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A lecturer says, 'If STM kept everything, you would be worse off.' Which argument best supports her?",
+          "options": [
+            "Long-term memory would overflow and stop working",
+            "Sensory memory would no longer receive input",
+            "Rehearsal would become impossible",
+            "Trivial old items would clutter the limited space and interfere with new material"
+          ],
+          "answerIndex": 3,
+          "explanation": "The benefit of fast forgetting is a clear workspace with less interference. Long-term memory has no practical limit, so overflow is not the issue."
+        }
+      ]
+    },
+    {
+      "name": "Searching short-term memory",
+      "lesson": {
+        "title": "How we find what is in STM",
+        "minutes": 8,
+        "hook": "If someone asks, 'Was 7 among the digits I just told you?', you answer almost instantly. But how does your mind check: one digit at a time, or all at once? A clever experiment measured the answer in thousandths of a second.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Getting things out of STM",
+            "body": "Information in short-term memory can be reached very quickly. But speed hides a real question: what exactly does the mind do when it checks STM?\n\nIn 1966, **Saul Sternberg** designed experiments to find out. He was not asking whether people could remember. He was asking *how* the search is carried out, using **reaction time** as his window into the mind.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                { "icon": "search", "label": "Search STM" },
+                { "icon": "time", "label": "Time the answer" }
+              ]
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Two questions Sternberg asked",
+            "left": {
+              "title": "Serial or parallel?",
+              "points": ["Serial: check items one after another", "Parallel: check all items at once"]
+            },
+            "right": {
+              "title": "Self-terminating or exhaustive?",
+              "points": ["Self-terminating: stop once the item is found", "Exhaustive: check every item before answering"]
+            }
+          },
+          {
+            "kind": "steps",
+            "heading": "The memory-scanning task",
+            "steps": [
+              { "title": "Memory set", "detail": "Show a short list of digits, from one to about six." },
+              { "title": "Probe digit", "detail": "Then present a single test digit." },
+              { "title": "Yes or no", "detail": "The person presses a button: was the probe in the set?" },
+              { "title": "Measure time", "detail": "Record how long the answer takes as the set size changes." }
+            ]
+          },
+          {
+            "kind": "teach",
+            "heading": "What the predictions were",
+            "body": "If search were **parallel**, a set of six would take no longer than a set of one, since all items are checked together.\n\nIf search were **serial**, each extra item would add a little time. And if serial search were **self-terminating**, 'yes' answers should be faster than 'no' answers, because on average you find the target halfway through. If search were **exhaustive**, 'yes' and 'no' would grow at the same rate.",
+            "visual": {
+              "type": "flow",
+              "nodes": ["Bigger set", "Longer time?", "Yes = serial"]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "If reaction time stayed the same whether the memory set had one digit or six, this would suggest the search is:",
+            "options": [
+              "Serial",
+              "Exhaustive",
+              "Self-terminating",
+              "Parallel"
+            ],
+            "answerIndex": 3,
+            "why": "Checking all items at once means extra items add no time. Serial search would show time growing with set size."
+          },
+          {
+            "kind": "teach",
+            "heading": "What Sternberg found",
+            "body": "Reaction time rose steadily with each extra digit, by roughly **40 milliseconds per item**. So the search is **serial**.\n\nAnd the rise was about the same for 'yes' and 'no' trials. Even when the probe matched the first digit, people seemed to keep checking to the end. So the search is **exhaustive**, not self-terminating. Above all, it is **extremely fast**: dozens of items per second.",
+            "visual": {
+              "type": "stat",
+              "value": "≈ 40 ms",
+              "label": "Extra time per item"
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Checking the shopping list in your head",
+            "story": "Mama Ngozi sends Daniel to Bodija market with five items to remember: pepper, onions, tomatoes, crayfish, palm oil. A trader asks, 'Did she say tomatoes?' Daniel answers instantly. Sternberg's work suggests that, even in that blink, Daniel ran through all five items one by one, rather than stopping as soon as he hit 'tomatoes'.",
+            "takeaway": "STM search seems instant, but it is serial and exhaustive, just very quick."
+          },
+          {
+            "kind": "teach",
+            "heading": "Why exhaustive is not silly",
+            "body": "Checking everything after you have already found a match sounds wasteful. But the scan is so fast that stopping to decide 'have I found it yet?' after each item could cost more time than finishing the run. It may be quicker to scan the whole set and make a single decision at the end.\n\nThis is a good example of how timing data can reveal mental steps we cannot observe directly.",
+            "visual": {
+              "type": "scale",
+              "left": "Stop and decide",
+              "right": "Finish the scan",
+              "heavier": "right"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "'Yes' and 'no' reaction times increased at the same rate with set size. This is evidence that STM search is:",
+            "options": [
+              "Exhaustive",
+              "Self-terminating",
+              "Parallel",
+              "Random"
+            ],
+            "answerIndex": 0,
+            "why": "A self-terminating search would make 'yes' answers rise more slowly. Equal slopes mean every item is checked regardless."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect paired-term questions: Sternberg concluded serial AND exhaustive. Students often pick 'serial and self-terminating' because it sounds more sensible, or credit the work to Sperling, who studied sensory memory.",
+            "sampleQuestion": "Sternberg (1966) concluded that retrieval from short-term memory is: A. parallel and exhaustive B. serial and self-terminating C. serial and exhaustive D. parallel and self-terminating",
+            "howToAnswer": "C. Reaction time rose with set size (serial) and rose equally for yes and no trials (exhaustive).",
+            "scholars": ["Sternberg (1966)"]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Sternberg (1966) used reaction time to study how STM is searched.",
+              "Serial means one by one; parallel means all at once.",
+              "Self-terminating stops at a match; exhaustive checks everything.",
+              "Results: serial, exhaustive and extremely rapid (about 40 ms per item)."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The memory-scanning experiments on retrieval from short-term memory are associated with:",
+          "options": [
+            "Sperling (1960)",
+            "Miller (1956)",
+            "Sternberg (1966)",
+            "Klatzky (1980)"
+          ],
+          "answerIndex": 2,
+          "explanation": "Sternberg studied how STM is searched. Sperling's work concerned sensory memory, a frequent mix-up because the names look alike."
+        },
+        {
+          "difficulty": 1,
+          "stem": "In Sternberg's terms, examining items in short-term memory one after another is called:",
+          "options": [
+            "Parallel processing",
+            "Serial processing",
+            "Chunking",
+            "Self-terminating storage"
+          ],
+          "answerIndex": 1,
+          "explanation": "Serial processing means one at a time. Parallel processing means all items are checked simultaneously."
+        },
+        {
+          "difficulty": 1,
+          "stem": "A search of STM that stops as soon as the target is found is described as:",
+          "options": [
+            "Exhaustive",
+            "Parallel",
+            "Serial",
+            "Self-terminating"
+          ],
+          "answerIndex": 3,
+          "explanation": "Self-terminating search ends at the match. Exhaustive search continues through every item."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Sternberg's main dependent measure was:",
+          "options": [
+            "Reaction time to say whether a probe was in the memory set",
+            "The number of items recalled after a delay",
+            "Accuracy of reporting a cued row",
+            "The number of chunks formed"
+          ],
+          "answerIndex": 0,
+          "explanation": "He timed yes/no answers. Reporting a cued row was Sperling's partial-report measure."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Sternberg concluded that retrieval from short-term memory is:",
+          "options": [
+            "Parallel and self-terminating",
+            "Serial and self-terminating",
+            "Serial and exhaustive",
+            "Parallel and exhaustive"
+          ],
+          "answerIndex": 2,
+          "explanation": "Time rose with set size (serial) and equally for yes and no trials (exhaustive). Serial and self-terminating is the tempting but wrong pairing."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which finding showed that search of short-term memory is serial?",
+          "options": [
+            "Yes and no responses took equal time",
+            "Reaction time increased with each extra item in the set",
+            "People made almost no errors",
+            "Reaction time was the same for all set sizes"
+          ],
+          "answerIndex": 1,
+          "explanation": "Each added item adding time indicates one-by-one checking. Equal yes/no times speak to exhaustiveness, not seriality."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Amaka holds the digits 3, 8, 1, 6 in mind. Asked whether 3 was among them, she still takes as long as when asked about 9. This pattern supports:",
+          "options": [
+            "Self-terminating search",
+            "Parallel search",
+            "Chunking",
+            "Exhaustive search"
+          ],
+          "answerIndex": 3,
+          "explanation": "Even though 3 was first, she took as long as for an absent digit, so she checked every item. A self-terminating search would have stopped at 3."
+        },
+        {
+          "difficulty": 3,
+          "stem": "If a researcher found that adding digits to the memory set did not change reaction time at all, she would conclude that the search is:",
+          "options": [
+            "Parallel",
+            "Serial",
+            "Exhaustive",
+            "Rote"
+          ],
+          "answerIndex": 0,
+          "explanation": "A flat line means all items are checked at once. Serial search predicts longer times with more items."
+        },
+        {
+          "difficulty": 3,
+          "stem": "In a self-terminating serial search, which result would you expect?",
+          "options": [
+            "No change in time with set size",
+            "Faster 'no' answers than 'yes' answers",
+            "'Yes' answers rising more slowly with set size than 'no' answers",
+            "Equal slopes for 'yes' and 'no' answers"
+          ],
+          "answerIndex": 2,
+          "explanation": "On 'yes' trials the target is found partway through on average, so the search stops early. 'No' trials always need a full scan."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which of the following is NOT one of Sternberg's conclusions about short-term memory retrieval?",
+          "options": [
+            "It is serial",
+            "It is exhaustive",
+            "It is very rapid",
+            "It stops when the target is found"
+          ],
+          "answerIndex": 3,
+          "explanation": "Stopping at the target describes a self-terminating search, which Sternberg rejected. He concluded serial, exhaustive and rapid."
+        },
+        {
+          "difficulty": 4,
+          "stem": "One reason an exhaustive search might actually be efficient is that:",
+          "options": [
+            "The scan is so fast that deciding after each item could cost more time",
+            "Exhaustive search uses long-term memory instead",
+            "It allows all items to be checked simultaneously",
+            "It prevents displacement in STM"
+          ],
+          "answerIndex": 0,
+          "explanation": "With very fast scanning, one decision at the end can beat a decision after every item. Simultaneous checking would be parallel, not serial exhaustive."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Sternberg's two research questions concerned:",
+          "options": [
+            "Capacity and duration of STM",
+            "Serial versus parallel, and self-terminating versus exhaustive search",
+            "Rote versus meaningful rehearsal",
+            "Iconic versus echoic memory"
+          ],
+          "answerIndex": 1,
+          "explanation": "He asked how items are examined and whether the search stops early. Capacity and duration were studied by Miller and the Petersons."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider: I. Reaction time increased with set size. II. 'Yes' trials were much faster than 'no' trials at every set size. III. Retrieval from STM is extremely fast. Which describe Sternberg's findings?",
+          "options": [
+            "I and II only",
+            "II and III only",
+            "I, II and III",
+            "I and III only"
+          ],
+          "answerIndex": 3,
+          "explanation": "Times rose with set size and the scan was very quick. Yes and no slopes were similar, which is why the search was judged exhaustive, so II is false."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A student claims, 'Since we answer so fast, Sternberg must have found that we check all STM items at once.' The best correction is that:",
+          "options": [
+            "Speed shows the search is self-terminating",
+            "The search is serial but each comparison takes only a few hundredths of a second",
+            "Speed shows the items were in long-term memory",
+            "Sternberg did not measure speed at all"
+          ],
+          "answerIndex": 1,
+          "explanation": "Being fast does not mean being parallel: time still grew with each item, just by roughly 40 milliseconds. Sternberg's whole method relied on measuring speed."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Sperling: serial exhaustive search of STM",
+            "Sternberg: partial-report method",
+            "Sternberg: serial exhaustive search of STM",
+            "Miller: reaction time per item in STM"
+          ],
+          "answerIndex": 2,
+          "explanation": "Sternberg showed serial exhaustive search. Sperling devised partial report, and Miller described the 7 ± 2 capacity."
+        }
+      ]
+    },
+    {
+      "name": "STM and LTM working together",
+      "lesson": {
+        "title": "The workbench and the shelves",
+        "minutes": 9,
+        "hook": "A carpenter at a workshop in Oke-Ado pulls wood, a saw and nails from his shelves. Soon his small bench is so cluttered that tools start falling off. That cluttered bench is a picture of your short-term memory.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Klatzky's analogy",
+            "body": "**Roberta Klatzky (1980)** offered a memorable picture. The **workbench** is short-term (working) memory: small, holding only what is in use. The **shelves** are long-term memory: large, holding materials you are not using right now but have stored.\n\nSTM contains a limited amount of **activated** material. LTM contains a vast amount of **encoded but currently inactive** material.",
+            "visual": {
+              "type": "scale",
+              "left": "Workbench = STM",
+              "right": "Shelves = LTM",
+              "heavier": "right"
+            }
+          },
+          {
+            "kind": "steps",
+            "heading": "What happens at the bench",
+            "steps": [
+              { "title": "Take from shelves", "detail": "You pull stored knowledge from LTM onto the bench to use it." },
+              { "title": "Bench fills up", "detail": "New items crowd the small space." },
+              { "title": "Things fall off", "detail": "Without room, items drop to the floor and are swept away: forgotten." },
+              { "title": "Return to shelves", "detail": "Items you finish with and want to keep go back into LTM." }
+            ]
+          },
+          {
+            "kind": "teach",
+            "heading": "Magic shelves: in both places at once",
+            "body": "Stretch the analogy: imagine the shelves **refill themselves** whenever you take something down. Then the same item can sit on the bench and on the shelf at the same time.\n\nThat is how memory works. When you recall your home address to fill a form, it is active in STM, yet it has not left LTM. **Something can be in STM and LTM simultaneously.**",
+            "visual": {
+              "type": "venn",
+              "left": "STM",
+              "right": "LTM",
+              "both": "Activated stored knowledge"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "In Klatzky's analogy, items that fall off the workbench onto the floor represent:",
+            "options": [
+              "Information retrieved from LTM",
+              "Information that is forgotten without reaching LTM",
+              "Information distorted over time in LTM",
+              "Information held in sensory memory"
+            ],
+            "answerIndex": 1,
+            "why": "Fallen items are swept away, not shelved: they never made it to LTM. Distortion over time is what happens to items on the shelves."
+          },
+          {
+            "kind": "teach",
+            "heading": "Everything passes through the bench",
+            "body": "In this model, everything you learn must go through **STM before reaching LTM**. And whatever you want to use from LTM must come back through **STM** first. The bench is the only place where work gets done.\n\nPicking things up from the bench is easy and nearly automatic. Finding things on the shelves takes **search**, which is why recalling a stored fact can take effort while a fact you are already thinking about is instantly available.",
+            "visual": {
+              "type": "flow",
+              "nodes": ["Learn", "STM", "LTM", "STM", "Use"]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Stable but not perfect",
+            "body": "Once something is on a shelf, it does not easily fall off, even if you are distracted. That is a key difference from STM, where one interruption can wipe an item.\n\nBut materials left on shelves a long time can **warp**. Memories do the same: over the years they can become **distorted**, blending details or filling gaps. Your memory of a childhood event may feel vivid yet differ from what really happened.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                { "icon": "shield", "label": "Resists distraction" },
+                { "icon": "warning", "label": "May distort" }
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "A life without transfer",
+            "story": "The famous patient H.M. had parts of both medial temporal lobes, including much of the hippocampus, removed in 1953 to control epilepsy. He could hold a conversation and repeat a number for a short while. But he could not form lasting new memories. He met the same researchers for decades and greeted them as strangers each time, and he would reread the same magazine as if it were new.",
+            "takeaway": "Without transfer from STM to LTM, everything must be relearned again and again."
+          },
+          {
+            "kind": "check",
+            "question": "Why is transfer from STM to LTM so important?",
+            "options": [
+              "It increases the capacity of sensory memory",
+              "It allows STM to hold more than nine items",
+              "Without it, we would have to relearn the same information endlessly",
+              "It stops memories from ever being distorted"
+            ],
+            "answerIndex": 2,
+            "why": "Because STM is small and brief, nothing would last without transfer. Storage in LTM does not protect memories from distortion."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Lecturers ask you to explain the workbench analogy, matching each part to a memory concept. The traps: saying STM and LTM cannot hold the same item, or claiming LTM memories never change. Mention the 'refilling shelves' and the 'warping' points.",
+            "sampleQuestion": "With the aid of Klatzky's workbench analogy, describe how short-term and long-term memory work together.",
+            "howToAnswer": "Map bench to STM and shelves to LTM, explain transfer and retrieval through STM, note items can be in both, and contrast easy access in STM with searching and distortion in LTM.",
+            "scholars": ["Klatzky (1980)", "Atkinson & Shiffrin (1968)", "Scoville & Milner (1957)"]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Klatzky (1980): workbench = STM, shelves = LTM.",
+              "STM holds a little active material; LTM holds a lot of inactive material.",
+              "Everything learned or retrieved passes through STM.",
+              "An item can be active in STM while still stored in LTM.",
+              "LTM resists distraction but can distort over time; without transfer, we would relearn everything."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "In Klatzky's (1980) analogy, the workbench represents:",
+          "options": [
+            "Short-term memory",
+            "Long-term memory",
+            "Sensory memory",
+            "The hippocampus"
+          ],
+          "answerIndex": 0,
+          "explanation": "The small bench is working (short-term) memory. The shelves stand for long-term memory."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Long-term memory is described as containing a great deal of material that is:",
+          "options": [
+            "Activated and in current use",
+            "Encoded but currently inactive",
+            "Held for under 30 seconds",
+            "Coded mainly as raw sensory images"
+          ],
+          "answerIndex": 1,
+          "explanation": "LTM stores lots of material that is not being used now. Activated material in current use is what STM holds."
+        },
+        {
+          "difficulty": 1,
+          "stem": "According to the storage-and-transfer view, information we want to use from long-term memory must first:",
+          "options": [
+            "Return to sensory memory",
+            "Be rehearsed by rote",
+            "Be chunked into seven items",
+            "Pass through short-term memory"
+          ],
+          "answerIndex": 3,
+          "explanation": "Retrieved information is brought onto the 'workbench' of STM before use. It does not go back to sensory memory."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The idea of shelves that 'refill themselves' in Klatzky's analogy is used to show that:",
+          "options": [
+            "LTM has a limited capacity",
+            "STM capacity can be increased indefinitely",
+            "The same information can be in STM and LTM at once",
+            "Memories never distort"
+          ],
+          "answerIndex": 2,
+          "explanation": "Taking an item to the bench does not remove it from the shelf. LTM's capacity is virtually unlimited, not limited."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Compared with retrieving from long-term memory, picking up information already in short-term memory is:",
+          "options": [
+            "Slower, because STM is searched exhaustively",
+            "Easy and almost automatic",
+            "Impossible without a retrieval cue",
+            "Dependent on consolidation"
+          ],
+          "answerIndex": 1,
+          "explanation": "Items on the bench are right at hand, while shelf items need searching. Though STM search is exhaustive, it is extremely fast."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Klatzky's analogy notes that materials stored on shelves for a long time may warp. This corresponds to:",
+          "options": [
+            "Displacement in STM",
+            "Decay in sensory memory",
+            "Rote rehearsal",
+            "Distortion of long-term memories over time"
+          ],
+          "answerIndex": 3,
+          "explanation": "Warping is a picture of memories changing over the years. Displacement happens on the crowded bench, not the shelves."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Bola recalls her bank account number to fill a withdrawal slip. In terms of the analogy, the account number is now:",
+          "options": [
+            "On the bench and still on the shelf",
+            "On the floor, waiting to be swept away",
+            "Only on the shelf",
+            "Removed from the shelf and placed on the bench"
+          ],
+          "answerIndex": 0,
+          "explanation": "Retrieval activates the number in STM while it remains stored in LTM. It is not removed from the shelf."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A man with damage to the hippocampus holds a short conversation normally, but the next day does not remember meeting you. His main problem is:",
+          "options": [
+            "A reduced capacity of sensory memory",
+            "Failure to transfer information from STM to LTM",
+            "Inability to search STM",
+            "Excessive chunking"
+          ],
+          "answerIndex": 1,
+          "explanation": "His bench (STM) works, but nothing gets placed on the shelves. This is the pattern seen in the famous patient H.M."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Emeka's memory of his primary school sports day feels vivid, but his old classmates insist several details are wrong. This best illustrates that:",
+          "options": [
+            "STM is easily disrupted by distraction",
+            "The memory never entered LTM",
+            "Memories stored in LTM can become distorted over time",
+            "The memory was displaced from the workbench"
+          ],
+          "answerIndex": 2,
+          "explanation": "Long-stored memories can 'warp' like old shelf materials. The memory clearly reached LTM, since he still recalls it decades later."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement about STM and LTM is NOT consistent with the storage-and-transfer model?",
+          "options": [
+            "Everything learned passes through STM first",
+            "Retrieved information passes through STM before use",
+            "Not all information in STM reaches LTM",
+            "Information can enter LTM directly without passing through STM"
+          ],
+          "answerIndex": 3,
+          "explanation": "The model routes all learning through STM. The other three statements fit it."
+        },
+        {
+          "difficulty": 4,
+          "stem": "In the workbench analogy, distraction would most likely cause loss of items:",
+          "options": [
+            "On the bench, but not on the shelves",
+            "On the shelves, but not on the bench",
+            "On both the bench and the shelves equally",
+            "On neither, since both are stable"
+          ],
+          "answerIndex": 0,
+          "explanation": "STM is fragile, but items stored in LTM do not fall off when you are distracted. The shelves are stable even if contents can warp slowly."
+        },
+        {
+          "difficulty": 4,
+          "stem": "If no information were ever transferred from STM to LTM, a person would MOST likely:",
+          "options": [
+            "Have an unusually large working memory",
+            "Remember everything but be unable to use it",
+            "Need to relearn new people's names and routes every day",
+            "Lose all sensory memory"
+          ],
+          "answerIndex": 2,
+          "explanation": "Without transfer, new information never lasts, so it must be learned afresh repeatedly. Sensory memory would still operate."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider: I. STM holds a small amount of activated material. II. Once in LTM, information cannot be distorted. III. An item can be active in STM while stored in LTM. Which is correct?",
+          "options": [
+            "I and II only",
+            "I and III only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 1,
+          "explanation": "I and III are true. LTM memories can warp or distort over time, so II is false."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which pairing of analogy element and memory concept is INCORRECT?",
+          "options": [
+            "Workbench: short-term memory",
+            "Shelves: long-term memory",
+            "Swept-up floor items: information never stored in LTM",
+            "Warped shelf items: displacement in STM"
+          ],
+          "answerIndex": 3,
+          "explanation": "Warping represents distortion of long-term memories, not displacement. Displacement is items falling off a crowded bench."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A student argues that searching long-term memory should be as effortless as using STM. The best counter-argument from the analogy is that:",
+          "options": [
+            "LTM items must be located on large shelves, while bench items are already at hand",
+            "LTM holds less information than STM, so there is less to find",
+            "LTM is searched in parallel, so it must be slower",
+            "Bench items are permanently stored, while shelf items fade"
+          ],
+          "answerIndex": 0,
+          "explanation": "Retrieving from the vast store requires a search, while active STM items are immediately available. LTM holds far more than STM, not less."
+        }
+      ]
+    }
+  ]
+}

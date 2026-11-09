@@ -1,0 +1,452 @@
+{
+  "unit": 2,
+  "title": "Further Concepts in Ethnicity",
+  "summary": "How ethnic and group consciousness form, ethnicity as a social theory, and the debate over ethnicity and intelligence testing.",
+  "sections": [
+    {
+      "name": "Group consciousness and ethnic theory",
+      "lesson": {
+        "title": "Why strangers abroad become kin",
+        "minutes": 10,
+        "hook": "Two Nigerians who would never greet each other in Lagos may hug like siblings when they meet in London. What turns 'not my people' into 'my people' the moment you leave home?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Ethnic consciousness starts early",
+            "body": "Children are thought to begin noticing ethnic differences around **age 3 or 4**. At first this is simple awareness: 'we speak this way, they speak that way'.\n\nIn this session, **ethnic consciousness** means a person's awareness of belonging to an ethnic group. But scholars such as McCall (1955) and Kasfir (1979) stress that it goes beyond awareness. It shows up in **concrete action**: whom you choose as friends, partners, business allies or political candidates.",
+            "visual": {
+              "type": "flow",
+              "nodes": ["Age 3-4 awareness", "Sense of belonging", "Deliberate affiliation"]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Why it is so visible in Nigeria",
+            "body": "Nigeria has three large groups, the **Hausa-Fulani, Yoruba and Igbo**, and roughly 250 smaller groups. Modern cities such as Lagos, Kano and Port Harcourt grew by drawing migrants from everywhere.\n\nWhen many groups suddenly share streets, markets and jobs, people notice difference more, and they lean on ethnic networks for housing, credit and protection. That is why ethnic consciousness in Nigerian cities is hard to overstate.",
+            "visual": {
+              "type": "stat",
+              "value": "3 + about 250",
+              "label": "Major and minority groups"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "According to Kasfir and McCall, ethnic consciousness is more than awareness because it:",
+            "options": ["Is fixed at birth", "Shows itself in deliberate affiliations and actions", "Depends only on skin colour", "Disappears in cities"],
+            "answerIndex": 1,
+            "why": "These scholars argue that ethnic consciousness turns into concrete choices of association. Skin colour points to race, not ethnic consciousness."
+          },
+          {
+            "kind": "terms",
+            "heading": "Broader meanings in this session",
+            "terms": [
+              { "term": "Ethnicity", "meaning": "Also used for the group consciousness that excluded or subordinated groups express" },
+              { "term": "Ethnic culture", "meaning": "A shared heritage: ancestry, origin myths, homeland, language, religion, cuisine, dress, art" },
+              { "term": "Group consciousness", "meaning": "Members' awareness of the group, its people and what they have in common" }
+            ]
+          },
+          {
+            "kind": "teach",
+            "heading": "Ethnicity as a social theory",
+            "body": "As a **social theory**, ethnicity rejects the idea that the **physical body** explains why people differ. It argues against the claim that conflicts between groups are permanent because they spring from unchangeable physical differences.\n\n**Ethnic theory** both describes how intergroup conflicts arise and prescribes ways of overcoming them. Those remedies were applied to racial exclusion between white and non-white people.",
+            "visual": {
+              "type": "scale",
+              "left": "Culture explains difference",
+              "right": "Body explains difference",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "An unintended twist",
+            "body": "There is an irony examiners like. In the United States, applying ethnic theory to race sometimes **reformulated and reinforced** the white-black divide instead of dissolving it.\n\nWhy? European immigrant groups were treated as 'ethnic' groups who could blend in over time, while Black Americans were still seen through the lens of race. So a theory meant to downplay the body ended up drawing a sharper line between the two categories.",
+            "visual": {
+              "type": "flow",
+              "nodes": ["Ethnic theory applied", "Immigrants seen as ethnic", "Black Americans as racial", "Divide reinforced"]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Which statement best captures ethnicity as a social theory?",
+            "options": ["Group differences come from fixed physical traits", "Conflicts between groups can never be resolved", "Differences between people are social and can be addressed", "Race and ethnicity are identical"],
+            "answerIndex": 2,
+            "why": "Ethnic theory rejects body-based explanations and prescribes ways of overcoming conflict. The first two options describe the very view it argues against."
+          },
+          {
+            "kind": "teach",
+            "heading": "How group consciousness forms abroad",
+            "body": "**Group consciousness** is to a group what self-consciousness is to a person: awareness of 'us'. It often becomes sharpest when migrants are **excluded by their host society**.\n\nPeople who at home identified with a village or clan begin to feel close to anyone from the same country or region. Being lumped together by outsiders, plus a new sense of being 'from the same place', makes them see each other as compatriots.",
+            "visual": {
+              "type": "flow",
+              "nodes": ["Leave homeland", "Face exclusion", "Wider solidarity", "Shared institutions"]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Sabo in Ibadan",
+            "story": "Hausa traders who settled in Ibadan built the Sabo quarter, a community with its own mosques, leaders and trade in cattle and kola. Back home, these traders came from different towns and families. In Ibadan they became one community: they housed newcomers, shared trade information and settled disputes among themselves. The anthropologist Abner Cohen (1969) studied how this ethnic network protected their long-distance trade.",
+            "takeaway": "Commonality in a strange land creates trade networks, enclaves and institutions, not just nostalgia."
+          },
+          {
+            "kind": "steps",
+            "heading": "What draws migrants together",
+            "steps": [
+              { "title": "Exclusion", "detail": "Hostility or nativism from the host society" },
+              { "title": "Wider solidarity", "detail": "Village ties widen into regional or national ties" },
+              { "title": "Networks", "detail": "Trade, credit and social links form" },
+              { "title": "Enclaves", "detail": "Geographic and language communities appear" },
+              { "title": "Nostalgia", "detail": "Shared longing for home binds people" }
+            ]
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "A favourite is an EXCEPT question listing factors that create group consciousness, with one odd option such as 'controlling extraneous differences', which belongs to intelligence testing. Another trap: thinking group consciousness abroad is only a reaction to hostility. It also builds trade networks and institutions.",
+            "sampleQuestion": "Explain how group consciousness is formed among migrants, using a named Nigerian example.",
+            "howToAnswer": "Define group consciousness, then list exclusion, widened solidarity, networks of trade, enclaves and nostalgia. Illustrate with the Hausa Sabo quarters in southern cities.",
+            "scholars": ["McCall (1955)", "Kasfir (1979)", "Cohen (1969)"]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Ethnic awareness is thought to begin around age 3 or 4.",
+              "Ethnic consciousness moves from awareness to deliberate affiliation.",
+              "Ethnic theory rejects body-based explanations and prescribes remedies.",
+              "In the US it ironically reinforced the white-black distinction.",
+              "Exclusion abroad creates solidarity, networks, enclaves and institutions."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "From a developmental view, children are often said to begin noticing their ethnicity at about age:",
+          "options": ["3 or 4", "10 or 11", "15 or 16", "18 or above"],
+          "answerIndex": 0,
+          "explanation": "Awareness of ethnic difference is commonly placed around 3 to 4 years. By adolescence it is already well established, so the later ages are too late."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which three groups are usually described as Nigeria's dominant ethnic groups?",
+          "options": ["Tiv, Ijaw and Kanuri", "Hausa-Fulani, Yoruba and Igbo", "Efik, Ibibio and Nupe", "Edo, Urhobo and Itsekiri"],
+          "answerIndex": 1,
+          "explanation": "The Hausa-Fulani, Yoruba and Igbo are the three largest groups. The others named are among the roughly 250 smaller groups."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Group consciousness is best described as members' awareness of:",
+          "options": ["Their own personality traits", "Their physical appearance", "The group, its members and what they share", "The laws of the host country"],
+          "answerIndex": 2,
+          "explanation": "Group consciousness parallels self-consciousness but is directed at the group. Awareness of one's own traits would be self-consciousness."
+        },
+        {
+          "difficulty": 2,
+          "stem": "As a social theory, ethnicity mainly argues against the view that:",
+          "options": ["Culture shapes behaviour", "Group differences are learned", "Conflicts between groups can be reduced", "Physical bodies explain differences between people"],
+          "answerIndex": 3,
+          "explanation": "Ethnic theory rejects body-based explanations of group difference. The other options are positions it actually supports."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Kasfir (1979) and McCall (1955) are cited for the view that ethnic consciousness:",
+          "options": ["Is purely genetic", "Goes beyond awareness into deliberate affiliations", "Is weaker in cities than in villages", "Ends in adolescence"],
+          "answerIndex": 1,
+          "explanation": "Both stress that ethnic consciousness becomes concrete action and chosen affinities. Nothing in their view makes it genetic."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Group consciousness among migrants is said to become most obvious when they experience:",
+          "options": ["Wealth in their homeland", "Full acceptance by locals", "Exclusion from their host society", "Return to their villages"],
+          "answerIndex": 2,
+          "explanation": "Being excluded by the host society pushes migrants together. Full acceptance would weaken the need for a separate group identity."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Students from different Igbo towns, who never mixed at home, form a close union while studying in Moscow and share accommodation tips. This best illustrates:",
+          "options": ["Pseudosubspeciation", "Ethnic culture", "Assimilation", "Formation of group consciousness abroad"],
+          "answerIndex": 3,
+          "explanation": "Local ties widen into a broader solidarity in a foreign land, creating networks. Assimilation would mean blending into Russian society instead."
+        },
+        {
+          "difficulty": 3,
+          "stem": "The Sabo quarters found in several south-western Nigerian towns are an example of:",
+          "options": ["Geographic and linguistic enclaves formed by migrants", "Government-planned military barracks", "Colonial European residential areas", "Religious pilgrimage camps"],
+          "answerIndex": 0,
+          "explanation": "Sabo settlements are Hausa migrant communities that grew into enclaves with their own trade networks and institutions."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A politician in a cosmopolitan city appoints mostly people from his home area to key posts. Kasfir would see this as ethnic consciousness:",
+          "options": ["Remaining a private feeling", "Turning into concrete affiliation", "Being replaced by class interest", "Reflecting biological race"],
+          "answerIndex": 1,
+          "explanation": "Kasfir stresses that ethnic consciousness shows itself in deliberate affiliations and action. Here it moves from feeling into choices."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following draw migrants together to create institutions EXCEPT:",
+          "options": ["Solidarity among groups who were not close at home", "Ties to a village or region of origin", "Controlling extraneous differences in testing", "A sense of commonality in a foreign land"],
+          "answerIndex": 2,
+          "explanation": "Controlling extraneous differences is a concern of fair intelligence testing, not a force behind group formation. The rest all bind migrants together."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement about group consciousness in a foreign land is CORRECT?",
+          "options": ["It is only a reaction to nativism", "It prevents trade between migrants", "It requires all members to share one village", "It also produces trade networks and social institutions"],
+          "answerIndex": 3,
+          "explanation": "The course stresses that it is not merely a response to nativism; it builds trade, sociality and enclaves. Members often come from different villages."
+        },
+        {
+          "difficulty": 4,
+          "stem": "In the United States, the application of ethnic theory to race had which unintended result?",
+          "options": ["It reinforced the distinction between whites and blacks", "It ended all racial classification", "It proved racial differences are genetic", "It made ethnicity a purely biological idea"],
+          "answerIndex": 0,
+          "explanation": "Although it aimed to downplay the body, it reformulated and reinforced the white-black line. It did not prove genetic differences."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider: I. Migrants see each other as compatriots partly because outsiders lump them together. II. Nostalgia for home can bind migrants. III. Group consciousness abroad depends on shared physical ancestry. Which are correct?",
+          "options": ["I and III only", "II and III only", "I, II and III", "I and II only"],
+          "answerIndex": 3,
+          "explanation": "I and II are both causes given in the course. III is wrong: group consciousness abroad de-emphasises physical ancestry and rests on shared origin and experience."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which pairing of concept and description is accurate?",
+          "options": ["Ethnic theory: explains differences through physical bodies", "Ethnic culture: shared heritage including origin myths, cuisine and dress", "Group consciousness: an individual's awareness of personal traits", "Ethnic consciousness: a feeling that never shapes action"],
+          "answerIndex": 1,
+          "explanation": "Ethnic culture includes heritage, myths, cuisine and dress. Ethnic theory rejects body explanations, and ethnic consciousness does shape action."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A researcher finds that Yoruba and Igbo traders in Accra, rivals in Lagos, form a joint 'Nigerian traders' union' after local hostility. She would most likely conclude that:",
+          "options": ["Ethnic identities are fixed and cannot widen", "Physical similarity explains the alliance", "Exclusion by a host society can widen the circle of solidarity", "Ethnic theory has no use outside Nigeria"],
+          "answerIndex": 2,
+          "explanation": "Hostility abroad pushed former rivals into a broader national solidarity, showing group boundaries widen under exclusion. Physical similarity plays no part in the explanation."
+        }
+      ]
+    },
+    {
+      "name": "Ethnicity and intelligence testing",
+      "lesson": {
+        "title": "Are IQ gaps really about genes?",
+        "minutes": 9,
+        "hook": "If a test written in Boston is given to a child in a village near Makurdi, and the child scores low, has the test measured intelligence or measured Boston?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "The Bell Curve argument",
+            "body": "In 1994, Richard Herrnstein and Charles Murray published **The Bell Curve**. They argued that differences in average IQ scores between ethnic and racial groups are **largely genetic**.\n\nThey went further, linking low IQ to social problems such as **low income, unemployment** and poor parenting. In their view, intelligence drove social position, not the other way round.",
+            "visual": {
+              "type": "flow",
+              "nodes": ["Genes", "IQ score", "Income and jobs"]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Why psychologists pushed back",
+            "body": "Critics pointed out that **environment** shapes IQ heavily: nutrition, schooling, poverty, language of testing and familiarity with test formats.\n\nThe **Flynn effect** showed IQ scores rising across generations in many countries, far too fast for genetic change. An American Psychological Association task force (Neisser and colleagues, 1996) concluded there was no direct evidence for a genetic explanation of group differences in average scores.",
+            "visual": {
+              "type": "scale",
+              "left": "Environment",
+              "right": "Genes alone",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "The authors of The Bell Curve argued that ethnic group differences in IQ are mainly:",
+            "options": ["Caused by poor test design", "Genetically based", "Due to the Flynn effect", "Non-existent"],
+            "answerIndex": 1,
+            "why": "Herrnstein and Murray claimed a largely genetic basis. Test design and environment are the critics' explanations."
+          },
+          {
+            "kind": "teach",
+            "heading": "The old mistake in mental testing",
+            "body": "Early in the **mental measurement movement**, testers largely ignored ethnic and cultural background. They gave the same tests to everyone and then used the results to rank one ethnic group above others.\n\nThe flaw is obvious now. A test built around one culture's words, objects and school habits measures familiarity with that culture as much as raw ability.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                { "icon": "book", "label": "One culture's test" },
+                { "icon": "people", "label": "Many groups tested" },
+                { "icon": "warning", "label": "Biased ranking" }
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "The snow question",
+            "story": "Imagine a test item asking, 'What do you wear when it snows?' Kelechi from Owerri hesitates, not because he cannot reason, but because he has never seen snow. Ask him which rainy-season farm task comes after planting yam and he answers instantly. His classmate from Canada would struggle on that one.",
+            "takeaway": "Test items carry cultural content, so equal scores require equal familiarity, which is why fairness criteria exist."
+          },
+          {
+            "kind": "teach",
+            "heading": "Making tests fair today",
+            "body": "Modern testing uses specific **criteria for fairness** when one test is used with different ethnic groups. Items are checked for bias, norms are built for each population, and test makers try to **control extraneous differences** such as language, schooling and test experience.\n\nSome tests, like **Raven's Progressive Matrices**, use patterns instead of words to reduce cultural loading, though no test is completely culture-free.",
+            "visual": {
+              "type": "flow",
+              "nodes": ["Check items", "Local norms", "Control extraneous", "Fairer scores"]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "When the same test is used across ethnic groups, modern practice tries to control extraneous differences in order to ensure:",
+            "options": ["Fairness", "Speed", "Higher average scores", "Genetic accuracy"],
+            "answerIndex": 0,
+            "why": "Fairness criteria aim to make sure scores reflect ability, not language or schooling. Raising scores is not the goal."
+          },
+          {
+            "kind": "teach",
+            "heading": "Variability within groups",
+            "body": "Even where group averages differ, scores **vary widely within every group**. Some members do poorly, many do very well, and the ranges overlap heavily.\n\nThis matters: an average tells you almost nothing about the individual in front of you. Judging a student by their group's average is exactly the stereotyping this course warns against.",
+            "visual": {
+              "type": "venn",
+              "left": "Group A scores",
+              "right": "Group B scores",
+              "both": "Large overlap"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Why study ethnicity in psychology?",
+            "body": "Ethnicity shapes food, language, religion and customs, and through them, how people **see, interpret and respond** to the world. It is also the channel through which culture is **passed on**.\n\nSo any psychologist studying perception, motivation, intelligence or mental health must ask how ethnic background shapes the results. Ignoring it, as early testers did, produces misleading science and unfair policies.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                { "icon": "eye", "label": "Perception" },
+                { "icon": "bulb", "label": "Intelligence" },
+                { "icon": "heart", "label": "Wellbeing" },
+                { "icon": "scale", "label": "Fair policy" }
+              ]
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect attribution questions on The Bell Curve and essays on why ethnicity matters to research. The trap is presenting Herrnstein and Murray's view as established fact. Present it as a contested claim and give the environmental counter-arguments and fairness criteria.",
+            "sampleQuestion": "'Ethnic differences in intelligence scores are essentially genetic.' Critically examine this claim.",
+            "howToAnswer": "Attribute the claim to Herrnstein and Murray (1994), then counter with environmental factors, the Flynn effect, test bias, fairness criteria and wide within-group variability.",
+            "scholars": ["Herrnstein & Murray (1994)", "Flynn (1987)", "Neisser et al. (1996)"]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "The Bell Curve (1994) claimed IQ gaps between groups are largely genetic.",
+              "It also linked low IQ to low income, unemployment and poor parenting.",
+              "Early testers ignored culture and ranked groups unfairly.",
+              "Modern tests use fairness criteria and control extraneous differences.",
+              "Scores vary widely within every group, so averages mislead about individuals."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The Bell Curve, which argued for a genetic basis of group IQ differences, was written by:",
+          "options": ["Herrnstein and Murray", "Kasfir and McCall", "Gilovich and Nisbett", "Atkinson and Shiffrin"],
+          "answerIndex": 0,
+          "explanation": "Richard Herrnstein and Charles Murray wrote The Bell Curve (1994). Kasfir and McCall wrote on ethnic consciousness."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Modern intelligence testing across ethnic groups uses specific criteria mainly to promote:",
+          "options": ["Speed of testing", "Fairness", "Higher scores for all", "Fewer test items"],
+          "answerIndex": 1,
+          "explanation": "Fairness criteria ensure the same test does not disadvantage some groups. Raising everyone's scores is not their purpose."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which of the following did The Bell Curve link to low IQ scores?",
+          "options": ["High income", "Strong family ties", "Unemployment and low income", "Ethnic consciousness"],
+          "answerIndex": 2,
+          "explanation": "Herrnstein and Murray connected low IQ to low income, unemployment and poor parenting. High income is the opposite of their claim."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The main weakness of early mental measurement, as described in the course, was that it:",
+          "options": ["Used too few test items", "Was only given to children", "Relied on brain scans", "Ignored ethnic background and ranked groups using the same tests"],
+          "answerIndex": 3,
+          "explanation": "Early testers disregarded cultural differences and used uniform results to place some groups over others."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The finding that IQ scores in many countries rose substantially over a few generations is known as the:",
+          "options": ["Bell Curve effect", "Pygmalion effect", "Flynn effect", "Halo effect"],
+          "answerIndex": 2,
+          "explanation": "The Flynn effect describes rising scores over generations, too fast for genetic change. The Pygmalion effect concerns teacher expectations."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The idea of variability in IQ scores across groups means that:",
+          "options": ["Within each group, some score low while many score high", "All members of a group score the same", "Group averages predict each person's score", "Only one group shows a range of scores"],
+          "answerIndex": 0,
+          "explanation": "Every group shows wide variation, so averages say little about individuals. The idea that averages predict individuals is the error it corrects."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A test asks Nigerian pupils to name winter sports, and rural pupils score poorly. A psychologist would most likely say the test is:",
+          "options": ["A fair measure of reasoning", "Culturally loaded", "Proof of genetic difference", "Free of extraneous factors"],
+          "answerIndex": 1,
+          "explanation": "Items tied to unfamiliar cultural content measure exposure, not ability. Treating the result as genetic proof repeats the Bell Curve error."
+        },
+        {
+          "difficulty": 3,
+          "stem": "To reduce language bias when testing children from many Nigerian groups, a researcher would most likely choose a test that:",
+          "options": ["Uses long English passages", "Relies on local proverbs from one group", "Uses non-verbal patterns, like Raven's Progressive Matrices", "Measures general knowledge of world capitals"],
+          "answerIndex": 2,
+          "explanation": "Pattern-based tests reduce dependence on language and specific knowledge. Proverbs from one group would favour that group."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A school head refuses to admit a bright applicant because 'her group scores lower on average'. This decision ignores:",
+          "options": ["Within-group variability", "The Flynn effect", "Ethnic consciousness", "Endogamy"],
+          "answerIndex": 0,
+          "explanation": "Wide variation within groups means an average says little about an individual. Using group averages this way is stereotyping."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement about The Bell Curve is CORRECT?",
+          "options": ["It argued that environment fully explains IQ gaps", "It was written by the APA task force", "It denied any link between IQ and income", "It claimed group IQ differences are essentially genetic"],
+          "answerIndex": 3,
+          "explanation": "Herrnstein and Murray argued for a largely genetic basis. The APA task force (Neisser et al., 1996) actually found no direct evidence for that view."
+        },
+        {
+          "difficulty": 4,
+          "stem": "'Controlling extraneous differences' in cross-ethnic testing refers to:",
+          "options": ["Removing low scorers from the sample", "Accounting for factors like language and schooling that are not the ability measured", "Testing only one ethnic group", "Making tests harder"],
+          "answerIndex": 1,
+          "explanation": "Extraneous differences are influences other than the ability being tested. Removing low scorers would distort results, not control bias."
+        },
+        {
+          "difficulty": 4,
+          "stem": "The Flynn effect is a problem for a purely genetic account of group IQ differences because:",
+          "options": ["Scores changed too quickly for genes to explain", "It shows IQ never changes", "It occurred only in one ethnic group", "It proves tests are perfectly fair"],
+          "answerIndex": 0,
+          "explanation": "Large gains within a few generations point to environmental causes, since gene pools change slowly. It does not show IQ is fixed."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider: I. The Bell Curve linked low IQ to poor parental behaviour. II. Early testers carefully adjusted for culture. III. Modern fairness criteria apply when the same test is used across groups. Which are correct?",
+          "options": ["I and II only", "II and III only", "I, II and III", "I and III only"],
+          "answerIndex": 3,
+          "explanation": "I and III are correct. II is false: early mental measurement ignored ethnic differences, which is why fairness criteria were later developed."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which pairing of name and idea is accurate?",
+          "options": ["Flynn: IQ gaps are fixed by genes", "Neisser et al. (1996): no direct evidence for a genetic explanation of group differences", "Herrnstein and Murray: tests are always culture-free", "Kasfir: IQ predicts ethnic consciousness"],
+          "answerIndex": 1,
+          "explanation": "The APA task force led by Neisser found no direct support for genetic explanations of group gaps. Flynn's work points the other way, towards environment."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A study finds that urban and rural children of the same ethnic group differ more in test scores than urban children of two different ethnic groups. This most strongly supports the view that:",
+          "options": ["Ethnic genes determine IQ", "Rural children are less intelligent by nature", "Environmental conditions shape test performance", "Tests should only be given in cities"],
+          "answerIndex": 2,
+          "explanation": "If setting matters more than ethnicity, environment (schooling, exposure) is the stronger influence. Calling rural children naturally less intelligent ignores that conclusion."
+        }
+      ]
+    }
+  ]
+}

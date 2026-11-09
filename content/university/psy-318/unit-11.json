@@ -1,0 +1,713 @@
+{
+  "unit": 11,
+  "title": "Suicide in Children",
+  "summary": "What suicide is, why people attempt it, how it affects children, the warning signs that often come first, and how treatment and prevention work.",
+  "sections": [
+    {
+      "name": "Understanding suicide and warning signs",
+      "lesson": {
+        "title": "Hearing the cry before it is too late",
+        "minutes": 9,
+        "hook": "We like to think of childhood as carefree. That is exactly why a child's suicidal thoughts are so often missed. The signs are usually there; adults just are not expecting them.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Defining suicide",
+            "body": "**Edwin Shneidman** defined suicide as an **intentioned death**: a **direct, conscious and deliberate** effort to end one's own life.\n\nSuicide is often described as the **most disastrous consequence of depression**. Your course notes it is common among young people and a leading cause of death among college students. Most people facing hardship **never** attempt suicide, which is why researchers ask what makes some people more vulnerable.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "person",
+                  "label": "Intentional"
+                },
+                {
+                  "icon": "warning",
+                  "label": "Direct"
+                },
+                {
+                  "icon": "bulb",
+                  "label": "Conscious"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Two fundamental motivations",
+            "left": {
+              "title": "Surcease",
+              "points": [
+                "Desire to end it all",
+                "Escape from unbearable pain",
+                "Seeing no other way out"
+              ]
+            },
+            "right": {
+              "title": "Manipulation",
+              "points": [
+                "Desire to change the world or other people",
+                "The attempt as a message",
+                "A cry to be heard"
+              ]
+            }
+          },
+          {
+            "kind": "steps",
+            "heading": "Common triggers",
+            "steps": [
+              {
+                "title": "Stressful events",
+                "detail": "Loss, conflict, failure, abuse."
+              },
+              {
+                "title": "Mood and thought changes",
+                "detail": "Hopelessness and rigid, despairing thinking."
+              },
+              {
+                "title": "Alcohol and drug use",
+                "detail": "Lowers inhibitions and deepens low mood."
+              },
+              {
+                "title": "Mental disorder",
+                "detail": "Especially depression."
+              },
+              {
+                "title": "Modelling",
+                "detail": "Exposure to suicide by others, including in the media."
+              }
+            ]
+          },
+          {
+            "kind": "check",
+            "question": "The two fundamental motivations for suicide are:",
+            "options": [
+              "Surcease and manipulation",
+              "Anger and jealousy",
+              "Boredom and curiosity",
+              "Greed and revenge"
+            ],
+            "answerIndex": 0,
+            "why": "Surcease is the wish to end it all; manipulation is the wish to change others or the world through the act."
+          },
+          {
+            "kind": "teach",
+            "heading": "Theories and their limits",
+            "body": "The leading explanations come from **psychodynamic**, **socio-cultural** and **biological** perspectives. Each has some support, but research backing is **limited**, and none explains the **full range** of suicidal acts.\n\nRisk also **changes across the lifespan**, so children deserve focused attention of their own.",
+            "visual": {
+              "type": "venn",
+              "left": "Psychological",
+              "right": "Social and biological",
+              "both": "Partial explanations"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Children and suicide",
+            "body": "Suicide in children is **infrequent**, but it has been **increasing** over recent decades. US figures in the course cite about **500 children under 14** dying by suicide each year, with **boys outnumbering girls** by as much as **5 to 1**.\n\nAbout **1 in 100** children is estimated to try to harm themselves. One study found many child attempters had **attempted before**, and **half** lived with **only one parent**.",
+            "visual": {
+              "type": "stat",
+              "value": "5 to 1",
+              "label": "Boys to girls (deaths)"
+            }
+          },
+          {
+            "kind": "terms",
+            "heading": "Warning signs in young people",
+            "terms": [
+              {
+                "term": "Running away and accident-proneness",
+                "meaning": "Repeated running away or unusual numbers of 'accidents'"
+              },
+              {
+                "term": "Tantrums and low frustration tolerance",
+                "meaning": "Acting out, explosive anger, giving up easily"
+              },
+              {
+                "term": "Self-depreciation",
+                "meaning": "Calling oneself useless, stupid or a burden"
+              },
+              {
+                "term": "Withdrawal and sensitivity",
+                "meaning": "Loneliness, isolation, extreme sensitivity to criticism"
+              },
+              {
+                "term": "Death preoccupation",
+                "meaning": "Dark fantasies, marked personality change, strong interest in death"
+              }
+            ]
+          },
+          {
+            "kind": "example",
+            "heading": "A letter home",
+            "story": "A ten-year-old boy left a note telling his parents he loved them, that he could not cope with school any more, and that he wanted to die, ending with 'Help me'. Reported by Pfeiffer (1986), the letter shows both motivations at once: wanting the pain to end, and desperately asking to be rescued.",
+            "takeaway": "Children's suicidal messages often mix despair with a plea for help; every such message must be taken seriously."
+          },
+          {
+            "kind": "check",
+            "question": "Which of the following is a recognised warning sign of suicide risk in a child?",
+            "options": [
+              "Increased interest in hobbies",
+              "Marked personality change and preoccupation with death",
+              "Making new friends",
+              "Improved grades"
+            ],
+            "answerIndex": 1,
+            "why": "Personality change and preoccupation with death are important warning signs."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'define suicide' (Shneidman), 'list the two motivations' (surcease, manipulation) and 'mention five behavioural patterns that precede suicide attempts'. Note the 5 to 1 boy-girl ratio for completed child suicides. Trap: treating childhood suicidal talk as attention-seeking to be ignored. Always respond seriously.",
+            "sampleQuestion": "Mention five behavioural patterns that commonly precede suicide attempts by young people.",
+            "howToAnswer": "Any five of: running away, accident-proneness, temper tantrums, self-depreciation, withdrawal and loneliness, extreme sensitivity to criticism, low frustration tolerance, dark fantasies, marked personality change, preoccupation with death.",
+            "scholars": [
+              "Shneidman (2001)",
+              "Pfeiffer (1986)",
+              "Comer (2004)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Suicide: intentional, direct, conscious effort to end one's life (Shneidman).",
+              "Motivations: surcease (end it all) and manipulation (change others).",
+              "Triggers: stress, mood and thought changes, drugs, mental disorder, modelling.",
+              "Child suicide is rare but rising; boys outnumber girls up to 5 to 1.",
+              "Warning signs include withdrawal, self-depreciation and death preoccupation."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Edwin Shneidman defined suicide as:",
+          "options": [
+            "An accidental death",
+            "A form of depression",
+            "Any risky behaviour",
+            "An intentioned death involving a direct, conscious effort to end one's life"
+          ],
+          "answerIndex": 3,
+          "explanation": "Shneidman stressed intention, directness and consciousness."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Suicide is often described as the most disastrous consequence of:",
+          "options": [
+            "Phobias",
+            "Depression",
+            "Dyslexia",
+            "ADHD"
+          ],
+          "answerIndex": 1,
+          "explanation": "Depression is strongly linked to suicide."
+        },
+        {
+          "difficulty": 1,
+          "stem": "'Surcease' as a motivation for suicide means:",
+          "options": [
+            "Desire to end it all",
+            "Desire to change others",
+            "Desire for money",
+            "Desire for fame"
+          ],
+          "answerIndex": 0,
+          "explanation": "Surcease is the wish to end suffering by ending life."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Among children who die by suicide, boys outnumber girls by as much as:",
+          "options": [
+            "1 to 1",
+            "2 to 1",
+            "5 to 1",
+            "20 to 1"
+          ],
+          "answerIndex": 2,
+          "explanation": "The course cites ratios up to 5 to 1."
+        },
+        {
+          "difficulty": 2,
+          "stem": "'Manipulation' as a motivation refers to:",
+          "options": [
+            "Wanting to end all pain",
+            "Wanting to change the world or other people through the attempt",
+            "Wanting to sleep",
+            "Wanting to travel"
+          ],
+          "answerIndex": 1,
+          "explanation": "Manipulation uses the act to affect others."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which of the following is a recognised trigger for suicidal acts?",
+          "options": [
+            "Modelling others' suicidal behaviour",
+            "Winning a prize",
+            "Regular exercise",
+            "Good sleep"
+          ],
+          "answerIndex": 0,
+          "explanation": "Exposure to others' suicide can trigger suicidal acts."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A 12-year-old who used to be cheerful becomes withdrawn, gives away her favourite things and keeps talking about death. The best response is to:",
+          "options": [
+            "Ignore it as a phase",
+            "Punish her",
+            "Take it seriously, talk with her and get professional help",
+            "Wait until she is older"
+          ],
+          "answerIndex": 2,
+          "explanation": "These are warning signs; prompt, caring action and professional help are needed."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A boy constantly calls himself 'useless' and 'a burden'. This warning sign is:",
+          "options": [
+            "Accident-proneness",
+            "Running away",
+            "Self-depreciation",
+            "Tantrums"
+          ],
+          "answerIndex": 2,
+          "explanation": "Putting oneself down persistently is self-depreciation."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A teenager makes a suicide attempt partly hoping her divorcing parents will reunite. This reflects which motivation?",
+          "options": [
+            "Manipulation",
+            "Surcease",
+            "Modelling",
+            "Accident"
+          ],
+          "answerIndex": 0,
+          "explanation": "Seeking to change others' behaviour reflects manipulation."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following commonly precede suicide attempts by young people EXCEPT:",
+          "options": [
+            "Running away from home",
+            "Sudden increase in long-term goal planning with friends",
+            "Social withdrawal",
+            "Extreme sensitivity to criticism"
+          ],
+          "answerIndex": 1,
+          "explanation": "Future-oriented planning with friends is not a listed warning sign."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement about theories of suicide is correct?",
+          "options": [
+            "One theory fully explains all suicides",
+            "Suicide has no causes",
+            "Only biological theories exist",
+            "Psychodynamic, socio-cultural and biological theories have limited support and miss the full range of acts"
+          ],
+          "answerIndex": 3,
+          "explanation": "Each perspective explains part of the picture but none is complete."
+        },
+        {
+          "difficulty": 4,
+          "stem": "One study of child suicide attempters found that half were:",
+          "options": [
+            "Top of their class",
+            "Living with grandparents",
+            "Living with only one parent",
+            "Only children"
+          ],
+          "answerIndex": 2,
+          "explanation": "Half lived with one parent; a quarter had attempted before."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Suicide in children has been increasing over recent decades. II. Most people facing difficulty attempt suicide. III. Previous attempts raise future risk. Which are correct?",
+          "options": [
+            "I and III only",
+            "I and II only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 0,
+          "explanation": "I and III are correct. Most people facing hardship never attempt suicide."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Why is childhood suicide often overlooked?",
+          "options": [
+            "It never happens",
+            "It only affects girls",
+            "Children never show signs",
+            "Adults assume childhood is carefree and miss warning signs"
+          ],
+          "answerIndex": 3,
+          "explanation": "Beliefs about a happy childhood make adults less alert to warning signs."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A child's note expresses both a wish to die and the words 'Help me'. This shows that:",
+          "options": [
+            "The child is only seeking attention",
+            "Suicidal communication can combine despair with a genuine plea for rescue",
+            "The note should be ignored",
+            "Children cannot understand death"
+          ],
+          "answerIndex": 1,
+          "explanation": "Surcease and manipulation can coexist; such messages demand serious response."
+        }
+      ]
+    },
+    {
+      "name": "Understanding death, treatment and prevention",
+      "lesson": {
+        "title": "Responding and preventing",
+        "minutes": 9,
+        "hook": "In 1953, a London vicar began answering phone calls from people in despair. That simple idea, someone to talk to at the worst moment, grew into one of the world's largest suicide prevention networks.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Contributing conditions",
+            "body": "Child suicide has been linked to the **recent or expected loss** of a loved one and to **family stress**. Wider conditions such as **poverty** and parental **unemployment** can lead to depression that eventually contributes to suicide attempts.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Loss or family stress",
+                "Depression",
+                "Suicidal risk"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Do children understand death?",
+            "body": "Many people assume young children cannot fully grasp death, placing them in Shneidman's category of '**death ignorers**', who believe they will continue to exist, like a boy who hoped to **join his mother in heaven**.\n\nYet many child suicides seem to rest on a **clear understanding** of death and a real **wish to die**. Interviews with schoolchildren found **6 to 33%** had **thought about suicide** (Culp et al., 1995).",
+            "visual": {
+              "type": "spectrum",
+              "left": "Death ignorer",
+              "right": "Clear understanding",
+              "marker": 65,
+              "label": "Many children"
+            }
+          },
+          {
+            "kind": "terms",
+            "heading": "Shneidman's categories",
+            "terms": [
+              {
+                "term": "Death seekers",
+                "meaning": "Clearly intend to end their lives at the time they act"
+              },
+              {
+                "term": "Death initiators",
+                "meaning": "Believe they are already dying and hasten the process"
+              },
+              {
+                "term": "Death ignorers",
+                "meaning": "Believe death will not end their existence"
+              },
+              {
+                "term": "Death darers",
+                "meaning": "Feel mixed about dying and take risks that may or may not end their life"
+              }
+            ]
+          },
+          {
+            "kind": "check",
+            "question": "A child who believes he will go to heaven and still be with his mother after death fits which of Shneidman's categories?",
+            "options": [
+              "Death seeker",
+              "Death darer",
+              "Death initiator",
+              "Death ignorer"
+            ],
+            "answerIndex": 3,
+            "why": "Death ignorers believe their existence will continue after death."
+          },
+          {
+            "kind": "compare",
+            "heading": "Two categories of treatment",
+            "left": {
+              "title": "After an attempt",
+              "points": [
+                "Medical care for injuries",
+                "Psychotherapy, inpatient or outpatient",
+                "Support for family and friends"
+              ]
+            },
+            "right": {
+              "title": "Prevention",
+              "points": [
+                "Crisis intervention",
+                "Long-term therapy",
+                "Public education and safer environments"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Suicide prevention programmes",
+            "body": "The first prevention programme in **England**, the **Samaritans**, began in **1953**; the first in the **United States** was founded in **Los Angeles** (your course gives 1955). Today, many **mental health centres, hospital emergency units and pastoral counselling centres** include prevention services.\n\nThey offer **crisis intervention**: helping people see their situation more **accurately**, make **better decisions**, act **constructively** and get through the crisis, followed by **longer-term therapy**.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Crisis call",
+                "Calm and listen",
+                "Clearer view",
+                "Ongoing therapy"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Wider prevention",
+            "body": "Prevention also means **reducing access to common means** of suicide, through measures such as **firearm control**, **safer medication packaging** and **storage**.\n\nMany experts see **public education** as the ultimate form of prevention: teaching parents, teachers and young people the warning signs and how to respond. If you or someone you know is struggling, talk to a trusted adult, your university counselling unit or a doctor.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "shield",
+                  "label": "Restrict means"
+                },
+                {
+                  "icon": "book",
+                  "label": "Public education"
+                },
+                {
+                  "icon": "chatbubbles",
+                  "label": "Talk to someone"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "The school that listened",
+            "story": "After a pupil's death shook a secondary school in Enugu, staff trained all teachers to recognise warning signs and set up a confidential counsellor's room. Months later, a teacher noticed a JSS3 girl withdrawing and writing about death. A gentle conversation led to counselling and family support. She is now in SS2, doing well.",
+            "takeaway": "Education and early, caring intervention can prevent child suicide."
+          },
+          {
+            "kind": "check",
+            "question": "Crisis intervention in suicide prevention aims mainly to:",
+            "options": [
+              "Punish the person",
+              "Leave the person alone",
+              "Help the person see their situation more accurately and get through the crisis",
+              "Replace all long-term therapy"
+            ],
+            "answerIndex": 2,
+            "why": "Crisis intervention offers immediate support to clarify thinking and survive the crisis, then links to longer therapy."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'state the two categories of suicide treatment' (after an attempt, and prevention) and questions on the Samaritans (1953), crisis intervention and public education. Know Shneidman's 'death ignorer' and the 6 to 33% figure. Trap: assuming children cannot understand death; many do.",
+            "sampleQuestion": "State and explain the two major categories of treatment for suicidal people.",
+            "howToAnswer": "Treatment after an attempt: medical care, then inpatient or outpatient therapy, with support for family. Prevention: crisis intervention, long-term therapy, restricting means and public education.",
+            "scholars": [
+              "Shneidman (2001)",
+              "Culp et al. (1995)",
+              "Comer (2004)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Loss, family stress, poverty and unemployment contribute to child suicide.",
+              "Some children are 'death ignorers'; many understand death clearly.",
+              "6 to 33% of schoolchildren report suicidal thoughts.",
+              "Treatment: care after an attempt, and prevention.",
+              "Prevention: crisis intervention, therapy, restricting means, public education."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The two major categories of suicide treatment are:",
+          "options": [
+            "Medication and surgery",
+            "Punishment and reward",
+            "Treatment after an attempt and suicide prevention",
+            "Diet and exercise"
+          ],
+          "answerIndex": 2,
+          "explanation": "Treatment divides into care after attempts and prevention."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The first suicide prevention programme in England was called:",
+          "options": [
+            "The Red Cross",
+            "The Samaritans",
+            "The Guardians",
+            "Lifeline Africa"
+          ],
+          "answerIndex": 1,
+          "explanation": "The Samaritans started in 1953."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Shneidman's 'death ignorers' believe that:",
+          "options": [
+            "They are already dying",
+            "They should take risks",
+            "Death will not end their existence",
+            "They want to die immediately"
+          ],
+          "answerIndex": 2,
+          "explanation": "Death ignorers expect to continue existing after death."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Interviews with schoolchildren found that what percentage had thought about suicide?",
+          "options": [
+            "0 to 1%",
+            "50 to 60%",
+            "6 to 33%",
+            "90%"
+          ],
+          "answerIndex": 2,
+          "explanation": "Culp and colleagues (1995) found 6 to 33%."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Crisis intervention is a key service of:",
+          "options": [
+            "Schools' sports departments",
+            "Suicide prevention programmes",
+            "Banks",
+            "Libraries"
+          ],
+          "answerIndex": 1,
+          "explanation": "Prevention programmes offer crisis intervention."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which measure reduces access to common means of suicide?",
+          "options": [
+            "Longer school days",
+            "Safer medication packaging and firearm control",
+            "More television",
+            "Higher taxes"
+          ],
+          "answerIndex": 1,
+          "explanation": "Restricting access to means is a proven prevention approach."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A boy says he wants to die so he can be with his late grandmother in heaven. Shneidman would classify him as a:",
+          "options": [
+            "Death seeker",
+            "Death initiator",
+            "Death darer",
+            "Death ignorer"
+          ],
+          "answerIndex": 3,
+          "explanation": "Believing existence continues after death marks a death ignorer."
+        },
+        {
+          "difficulty": 3,
+          "stem": "After a teenager survives an attempt, she receives medical care and then weekly therapy, while her parents get support. This is:",
+          "options": [
+            "Treatment after a suicide attempt",
+            "Suicide prevention only",
+            "Public education",
+            "Crisis hotline only"
+          ],
+          "answerIndex": 0,
+          "explanation": "Medical and psychological care after an attempt falls in the first category."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A state trains all teachers to recognise suicide warning signs. Many experts see this kind of public education as:",
+          "options": [
+            "The ultimate form of prevention",
+            "Useless",
+            "Only for adults",
+            "A form of punishment"
+          ],
+          "answerIndex": 0,
+          "explanation": "Public education is often called the ultimate prevention."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement about children's understanding of death is MOST accurate?",
+          "options": [
+            "No child understands death",
+            "Understanding death prevents suicide",
+            "All children see death as temporary",
+            "Some children are death ignorers, but many child suicides reflect a clear understanding of death"
+          ],
+          "answerIndex": 3,
+          "explanation": "Both patterns exist; many children do understand death."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Why is long-term therapy needed after crisis intervention?",
+          "options": [
+            "The underlying problems that led to the crisis still need treatment",
+            "Crisis intervention is harmful",
+            "To punish the person",
+            "Because hotlines close"
+          ],
+          "answerIndex": 0,
+          "explanation": "Crisis help gets people through the moment; therapy addresses root causes."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following can contribute to child suicide EXCEPT:",
+          "options": [
+            "Recent loss of a loved one",
+            "Secure, supportive relationships",
+            "Poverty and parental unemployment",
+            "Family stress"
+          ],
+          "answerIndex": 1,
+          "explanation": "Supportive relationships protect against suicide."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Crisis intervention helps people see their situation more accurately. II. Treatment can also benefit relatives and friends. III. Restricting access to means plays no role in prevention. Which are correct?",
+          "options": [
+            "I, II and III",
+            "I and III only",
+            "II and III only",
+            "I and II only"
+          ],
+          "answerIndex": 3,
+          "explanation": "I and II are correct. Restricting access to means is an important prevention strategy."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A classmate tells you she has been thinking about ending her life. The most helpful first response is to:",
+          "options": [
+            "Laugh it off",
+            "Keep it secret forever",
+            "Listen calmly, take it seriously and help her reach a counsellor or trusted adult",
+            "Tell everyone on social media"
+          ],
+          "answerIndex": 2,
+          "explanation": "Taking it seriously and connecting her with help is the right first step."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which pairing of person and contribution is correct?",
+          "options": [
+            "Shneidman: defined suicide as intentioned death",
+            "Culp: founded the Samaritans",
+            "Pfeiffer: invented crisis hotlines",
+            "Comer: coined 'death ignorer'"
+          ],
+          "answerIndex": 0,
+          "explanation": "Shneidman defined suicide and described death ignorers; Culp and colleagues surveyed schoolchildren."
+        }
+      ]
+    }
+  ]
+}

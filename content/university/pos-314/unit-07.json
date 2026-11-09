@@ -1,0 +1,665 @@
+{
+  "unit": 7,
+  "title": "Structuralism",
+  "summary": "How structuralists explain world politics through an unequal capitalist world economy of core and periphery, classes and captured states.",
+  "sections": [
+    {
+      "name": "The world as an unequal structure",
+      "lesson": {
+        "title": "Core, periphery and the global class system",
+        "minutes": 9,
+        "hook": "Nigeria sells crude oil abroad and then buys back petrol refined from it at a higher price. Structuralists say that is not bad luck: it is how the world economy is built.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "What structuralism is about",
+            "body": "**Structuralism** is an approach to International Relations that explains what happens between and inside countries by looking at the **structure of the world economy**.\n\nIts starting point is simple: the global capitalist system shapes the politics, culture, society and economy of every country in it. If you want to know why some states stay poor, do not look only at their leaders. Look at the place their economy occupies in the larger system.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                { "icon": "globe", "label": "World economy" },
+                { "icon": "git-network", "label": "Linked relations" },
+                { "icon": "scale", "label": "Built-in inequality" }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "A theory on the side of the poor",
+            "body": "Structuralism openly takes the standpoint of the **poor, the marginalised and the oppressed**. It argues that global economic relations are arranged so that certain classes gain at the expense of others.\n\nThe result, a **world-system**, is judged to be **fundamentally unjust**. So structuralism is not only describing the world; it is also passing a moral verdict on it. That makes it a critical theory, unlike realism, which mostly claims to describe how power works.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Describe the system",
+              "right": "Condemn the system",
+              "marker": 80,
+              "label": "Where structuralism sits"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Cousin of Marxism, not a twin",
+            "body": "Structuralism grows out of **Marxist** thinking, so it is sometimes called **structural Marxism**, **scientific Marxism** or **neo-Marxism**. But it is not identical to classical Marxism.\n\nCritics often brush Marxism aside as ideology. Structuralists answer by claiming a **scientific** basis: they insist that exploitation, the piling up of capital and the taking of surplus value are things you can **measure objectively**. That claim to science is a key exam point.",
+            "visual": {
+              "type": "venn",
+              "left": "Classical Marxism",
+              "right": "Structuralism",
+              "both": "Class, exploitation, capitalism"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Structuralists defend their approach against the charge of being 'mere ideology' mainly by claiming that:",
+            "options": [
+              "States always pursue a genuine national interest",
+              "Exploitation and surplus extraction can be objectively measured",
+              "Anarchy, not economics, drives world politics",
+              "International institutions treat all states equally"
+            ],
+            "answerIndex": 1,
+            "why": "Their claim to be 'scientific' rests on the idea that accumulation, surplus value and exploitation are measurable. The anarchy option is a realist idea, not a structuralist one."
+          },
+          {
+            "kind": "teach",
+            "heading": "Haves and have-nots: core and periphery",
+            "body": "Structuralists divide the world into the **haves** and the **have-nots**. Relations between states form a **vertical hierarchy**.\n\nAt the top is the **core**: rich, industrialised and powerful states. At the bottom is the **periphery**: poor states with little influence, usually exporting raw materials and importing finished goods. Immanuel **Wallerstein**, the best-known world-systems theorist, added a middle layer, the **semi-periphery**, for states that are both exploited and exploiters.",
+            "visual": {
+              "type": "pyramid",
+              "levels": [
+                "Core",
+                "Semi-periphery",
+                "Periphery"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The horizontal link between elites",
+            "body": "There is a second, less obvious structure. Running **horizontally** across the hierarchy is a **class alliance between elites** in the core and elites in the periphery.\n\nWhy would a rich minister in a poor country support a system that keeps the country poor? Because that elite **benefits personally** from it: contracts, foreign accounts, imported comforts. Both sets of elites share an interest in keeping the present order, since both profit from exploiting other social groups.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Core elites",
+                "Shared interest",
+                "Periphery elites"
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "The crude-for-petrol loop",
+            "story": "Tunde, a fuel attendant in Ibadan, sells petrol that was refined abroad from Nigerian crude. The crude left cheaply; the petrol came back dear. Meanwhile a few well-connected importers in Lagos grew rich on the import licences, and partner firms abroad earned refining profits. Tunde and his customers bear the cost at the pump.",
+            "takeaway": "Core firms and periphery elites both gain while ordinary citizens of the periphery lose: the vertical and horizontal structures at work together."
+          },
+          {
+            "kind": "check",
+            "question": "A structuralist explains why some elites in poor countries defend the global economic order. The best explanation is that these elites:",
+            "options": [
+              "Are forced by the United Nations to do so",
+              "Believe in complex interdependence",
+              "Share interests with core elites and profit from the system",
+              "Represent the genuine national interest of their people"
+            ],
+            "answerIndex": 2,
+            "why": "The horizontal class structure links core and periphery elites who both benefit from exploitation. Structuralists reject the idea that the state or its elites express a real national interest."
+          },
+          {
+            "kind": "teach",
+            "heading": "Classes first, states second",
+            "body": "Following Marx, many structuralists treat **classes** as the dominant actors in world politics, although states still matter.\n\nThe state is seen in one of three ways: as an **instrument** through which the dominant class rules; as a **channel of class oppression**; or as a **relatively autonomous** body that still helps capitalism expand and props up an unjust order. Either way, the question is not 'what does Nigeria want?' but 'which class is using the Nigerian state, and for what?'",
+            "visual": {
+              "type": "icons",
+              "items": [
+                { "icon": "briefcase", "label": "Instrument of class" },
+                { "icon": "hand-left", "label": "Channel of oppression" },
+                { "icon": "layers", "label": "Relatively autonomous" }
+              ]
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect questions on the core–periphery hierarchy, the horizontal elite alliance and the structuralist view of the state. The usual trap is to treat structuralism and Marxism as exactly the same, or to forget that structuralists say the state serves dominant classes rather than the whole nation.",
+            "sampleQuestion": "'The state in the periphery is a servant of the dominant class, not of the nation.' Explain this structuralist claim with reference to the vertical and horizontal structures of the world-system.",
+            "howToAnswer": "Define core and periphery (vertical structure), then explain the elite class alliance across them (horizontal structure), and show how the periphery state protects elite interests rather than a national interest. Use a real case such as raw-material exports.",
+            "scholars": [
+              "Immanuel Wallerstein (1974)",
+              "Johan Galtung (1971)",
+              "Steans & Pettiford (2005)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Structuralism explains world politics through the structure of the global capitalist economy.",
+              "It sides with the poor and calls the world-system fundamentally unjust.",
+              "It is Marxist-inspired but claims to be scientific: also called neo-Marxism.",
+              "Vertical structure: rich core over poor periphery (Wallerstein adds semi-periphery).",
+              "Horizontal structure: core and periphery elites share an interest in the system.",
+              "The state reflects dominant class interests, not a genuine national interest."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "In structuralist analysis, the main force shaping the political, social and economic life of countries is:",
+          "options": [
+            "The anarchic distribution of military power",
+            "The moral quality of national leaders",
+            "The structure of the world capitalist economy",
+            "The spread of shared international norms"
+          ],
+          "answerIndex": 2,
+          "explanation": "Structuralism stresses the impact of world economic structures on every area of national life. Military power under anarchy is the realist focus, not the structuralist one."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which label is NOT commonly used as another name for structuralism in International Relations?",
+          "options": [
+            "Structural Marxism",
+            "Neo-Marxism",
+            "Scientific Marxism",
+            "Classical realism"
+          ],
+          "answerIndex": 3,
+          "explanation": "Structuralism is also called structural, scientific or neo-Marxism because of its Marxist roots. Classical realism is a rival theory centred on power and human nature."
+        },
+        {
+          "difficulty": 1,
+          "stem": "In the structuralist picture of the world, the 'periphery' refers to states that are:",
+          "options": [
+            "Poor and lacking much influence in the system",
+            "Wealthy, industrialised and powerful",
+            "Neutral in great-power conflicts",
+            "Members of regional security alliances"
+          ],
+          "answerIndex": 0,
+          "explanation": "The periphery is the poor, low-influence part of the hierarchy. The wealthy and powerful states make up the core."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Structuralists judge the world-system to be 'fundamentally unjust' chiefly because:",
+          "options": [
+            "No world government exists to punish aggression",
+            "Global economic relations are arranged to benefit certain classes over others",
+            "States refuse to cooperate through international institutions",
+            "Cultural differences make conflict between civilisations unavoidable"
+          ],
+          "answerIndex": 1,
+          "explanation": "The injustice lies in an economic structure that favours some classes at others' expense. The absence of world government is the realist anarchy argument, which structuralists play down."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The 'horizontal' structure in structuralist analysis describes:",
+          "options": [
+            "The ranking of states from core to periphery",
+            "Military alliances between neighbouring states",
+            "The equal sovereignty of all states under international law",
+            "A shared class interest between elites in core and periphery countries"
+          ],
+          "answerIndex": 3,
+          "explanation": "Horizontal relations are the class ties linking elites across rich and poor states. The ranking from core to periphery is the vertical structure, a common mix-up."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Structuralism's claim to be a 'scientific' approach rests mainly on the belief that:",
+          "options": [
+            "Capital accumulation, surplus extraction and exploitation can be measured objectively",
+            "Human nature is fixed and can be studied like physics",
+            "States behave rationally to maximise security",
+            "Laboratory experiments can reproduce international crises"
+          ],
+          "answerIndex": 0,
+          "explanation": "Structuralists argue that the economic processes behind inequality are objectively measurable, which separates them from purely ideological Marxism. Rational security maximisation is a neo-realist assumption."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Country X exports raw cocoa and imports chocolate, while its ruling elite keeps overseas accounts and lucrative import licences. A structuralist would most likely describe Country X's elite as:",
+          "options": [
+            "Victims of the global system who oppose it",
+            "Guardians of a genuine national interest",
+            "Beneficiaries allied with core interests in maintaining the system",
+            "Neutral actors with no stake in world trade"
+          ],
+          "answerIndex": 2,
+          "explanation": "Periphery elites who profit from raw-material exports and imports share interests with core elites, so they support the order. Structuralists deny that such elites express a genuine national interest."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A student argues that Nigeria's foreign economic policy is best explained by asking which social class controls the state and gains from its decisions. This reasoning is closest to:",
+          "options": [
+            "Classical realism",
+            "Liberal institutionalism",
+            "Structuralism",
+            "Functionalism"
+          ],
+          "answerIndex": 2,
+          "explanation": "Asking which class uses the state reflects the structuralist view of the state as an instrument of dominant classes. Realism would instead treat the state as a unitary actor pursuing national interest."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Which statement would a structuralist be LEAST likely to make?",
+          "options": [
+            "The state often serves the interests of the dominant class",
+            "Poor countries are poor partly because of their place in the world economy",
+            "Classes are important actors in international relations",
+            "The state represents the united will and interest of all its citizens"
+          ],
+          "answerIndex": 3,
+          "explanation": "Structuralists reject the idea of a genuine national interest shared by all citizens; they see the state as reflecting dominant class interests. The other three statements are standard structuralist claims."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Vertical structure – class alliance of elites across states",
+            "Horizontal structure – hierarchy of rich over poor states",
+            "Semi-periphery – states both exploited and exploiting",
+            "Core – states exporting mainly unprocessed raw materials"
+          ],
+          "answerIndex": 2,
+          "explanation": "Wallerstein's semi-periphery sits between core and periphery, exploited by the core while exploiting the periphery. The first two options swap the vertical and horizontal structures, and raw-material exporters are typically periphery, not core."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Structuralists hold several views of the state. Which of these is NOT one of them?",
+          "options": [
+            "An instrument used by dominant classes to rule",
+            "A neutral referee balancing all group interests equally",
+            "A channel through which class oppression operates",
+            "A relatively autonomous body that still aids capitalist expansion"
+          ],
+          "answerIndex": 1,
+          "explanation": "All structuralist views tie the state to class domination, even the 'relatively autonomous' one. A neutral referee balancing all groups is closer to a liberal pluralist view."
+        },
+        {
+          "difficulty": 4,
+          "stem": "The view that the world is split between 'haves' and 'have-nots', with poor states locked at the bottom of a hierarchy, is most closely associated with:",
+          "options": [
+            "Structuralism",
+            "Neo-realism",
+            "Complex interdependence",
+            "Idealism"
+          ],
+          "answerIndex": 0,
+          "explanation": "The core–periphery hierarchy of haves and have-nots is the signature of structuralism. Neo-realism also speaks of structure, but it means the distribution of power under anarchy, not economic hierarchy."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider these statements about structuralism: I. It is identical to classical Marxism in every respect. II. It sees classes as dominant actors while still recognising states. III. It claims its analysis is scientific rather than merely ideological. IV. It holds that periphery elites oppose the system that impoverishes their countries. Which are correct?",
+          "options": [
+            "I and IV only",
+            "II and III only",
+            "I, II and III only",
+            "II, III and IV only"
+          ],
+          "answerIndex": 1,
+          "explanation": "Structuralism is Marxist-inspired but not identical to Marxism (I is false), and it holds that periphery elites benefit from and support the system (IV is false). II and III are correct."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A researcher finds that ministers in a poor state and executives of foreign firms jointly blocked a policy that would have raised local wages. A structuralist would most likely conclude that:",
+          "options": [
+            "Anarchy forced the state to protect its security first",
+            "Interdependence made both sides equally vulnerable",
+            "The episode proves the state pursued its national interest",
+            "A transnational elite alliance used the state to protect its gains"
+          ],
+          "answerIndex": 3,
+          "explanation": "Joint action by periphery officials and core business to suppress wages fits the horizontal elite alliance using the state for class interest. Interdependence implies balance and mutual vulnerability, which structuralists deny."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which combination best captures the structuralist case that the world-system is unjust?",
+          "options": [
+            "Anarchy plus the security dilemma",
+            "Mutual dependence plus shared institutions",
+            "Hierarchy between states plus class exploitation within and across them",
+            "Human selfishness plus the lack of world government"
+          ],
+          "answerIndex": 2,
+          "explanation": "Structuralists combine a vertical hierarchy of core over periphery with class exploitation linking elites across states. Anarchy, the security dilemma and human selfishness belong to realist arguments."
+        }
+      ]
+    },
+    {
+      "name": "Rival theories and core assumptions",
+      "lesson": {
+        "title": "Structuralism against realism and liberalism",
+        "minutes": 9,
+        "hook": "Realists, liberals and structuralists can stare at the same IMF loan to Nigeria and tell three completely different stories about it. Which story you tell depends on the theory in your head.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Where structuralism looks like realism",
+            "body": "At first glance structuralism resembles **realism**: both put **conflict** at the centre of international relations.\n\nThe resemblance is closest with **neo-realism**. Both say conflict is **structural**: it comes from the framework within which states operate, not just from bad leaders. But they mean different structures. For neo-realists the structure is **anarchy** and the distribution of power. For structuralists it is the **capitalist world economy** with its domination and dependence.",
+            "visual": {
+              "type": "venn",
+              "left": "Neo-realism",
+              "right": "Structuralism",
+              "both": "Conflict is structural"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Where it looks like liberalism",
+            "body": "Structuralism also overlaps with **liberal pluralism**. Both stress that international economic relations are **deeply interconnected**, and both take **non-state actors** such as multinational corporations seriously.\n\nThe difference is the tone. Liberals see connection as producing **complex interdependence**, mutual gains and reasons to cooperate. Structuralists see the same connection as a web of **domination and dependence**, where some gain because others lose.",
+            "visual": {
+              "type": "venn",
+              "left": "Liberal pluralism",
+              "right": "Structuralism",
+              "both": "Interconnection, non-state actors"
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Same world, different structure",
+            "left": {
+              "title": "Realism / neo-realism",
+              "points": [
+                "Main actor: the sovereign state",
+                "Structure: anarchy and power",
+                "State pursues national interest",
+                "Conflict over security"
+              ]
+            },
+            "right": {
+              "title": "Structuralism",
+              "points": [
+                "Actors: states, MNCs, transnational classes",
+                "Structure: capitalist world economy",
+                "State serves dominant classes",
+                "Conflict over exploitation"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Structuralism and liberal pluralism agree on which point?",
+            "options": [
+              "Interdependence produces fair and balanced relations",
+              "The state is the only actor that matters",
+              "Non-state actors and economic interconnection are important",
+              "Anarchy is the main cause of conflict"
+            ],
+            "answerIndex": 2,
+            "why": "Both theories stress interconnected economic relations and non-state actors. Structuralists reject the liberal belief that interdependence is balanced and fair."
+          },
+          {
+            "kind": "teach",
+            "heading": "Why structuralists reject interdependence",
+            "body": "Structuralists dismiss the liberal idea of **interdependence** because it suggests **balance and fairness**. In their view, a farmer in the periphery and a bank in the core are not 'mutually dependent' in any equal sense. One depends far more than the other.\n\nThey also point to state institutions, such as **courts, police, the military and the economic system**, which they argue mainly protect people who are already powerful.",
+            "visual": {
+              "type": "scale",
+              "left": "Core gains",
+              "right": "Periphery gains",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The IMF and World Bank under the microscope",
+            "body": "Structuralists pay close attention to **international financial institutions** such as the **World Bank** and the **International Monetary Fund (IMF)**. They ask how these bodies help to **legitimise and maintain** the existing structure.\n\nA loan can look like help. A structuralist asks who set the conditions, whose debts get paid first, and whether the policy opens a poor economy to firms from the core.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                { "icon": "cash", "label": "Loans with conditions" },
+                { "icon": "shield", "label": "Protects the order" },
+                { "icon": "search", "label": "Who really gains?" }
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "SAP in the 1980s",
+            "story": "Chiamaka's father remembers the Structural Adjustment Programme Nigeria adopted in 1986 under IMF and World Bank influence. The naira was devalued, subsidies were cut and imports became expensive. Families in Ibadan struggled, while foreign creditors were repaid and some local traders with the right connections did well.",
+            "takeaway": "A structuralist reads SAP as international institutions maintaining an unequal structure, not as neutral economic advice."
+          },
+          {
+            "kind": "check",
+            "question": "A structuralist examining an IMF programme in a poor country would mainly ask:",
+            "options": [
+              "Whether it reduces the risk of military attack",
+              "How it helps legitimise and maintain the existing unequal structure",
+              "Whether it reflects a universal moral law",
+              "How it strengthens collective security"
+            ],
+            "answerIndex": 1,
+            "why": "Structuralists study institutions like the IMF to see how they sustain existing structures. Military threats and collective security are concerns of realism and idealism."
+          },
+          {
+            "kind": "steps",
+            "heading": "Six assumptions to memorise",
+            "steps": [
+              { "title": "World-system shapes IR", "detail": "The capitalist world economy profoundly shapes international relations." },
+              { "title": "Economics drives politics", "detail": "Politics is shaped, even determined, by economic factors." },
+              { "title": "Several kinds of actors", "detail": "States, multinational and transnational corporations, and transnational classes." },
+              { "title": "No real national interest", "detail": "The state reflects dominant class interests." },
+              { "title": "Capitalism is unjust", "detail": "It breeds conflict and disharmony." },
+              { "title": "Contradictions and crises", "detail": "Capitalism contains internal contradictions and suffers periodic crises." }
+            ]
+          },
+          {
+            "kind": "teach",
+            "heading": "Crises built into the system",
+            "body": "The last assumption is easy to forget. Structuralists, like Marx, believe capitalism has **internal contradictions**: for example, firms push wages down to raise profit, yet workers on low wages cannot buy what the firms produce.\n\nSuch tensions produce **periodic crises**. The Great Depression of the 1930s and the global financial crisis of 2008 are often cited as examples of the system shaking itself.",
+            "visual": {
+              "type": "cycle",
+              "nodes": [
+                "Profit drive",
+                "Low wages",
+                "Weak demand",
+                "Crisis"
+              ]
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Lecturers love the 'list the assumptions' essay and the 'compare with realism and liberalism' objective. The trap is saying structuralism and neo-realism mean the same thing by 'structure', or listing only states as actors and forgetting MNCs and transnational classes.",
+            "sampleQuestion": "Structuralism shares something with both realism and liberalism yet differs from each. Discuss, and state the basic assumptions of structuralism.",
+            "howToAnswer": "Show the overlap with neo-realism (structural conflict) and liberal pluralism (interconnection, non-state actors), then explain the difference (domination and dependence, not anarchy or interdependence). Close with the six assumptions from Steans and Pettiford.",
+            "scholars": [
+              "Steans & Pettiford (2005)",
+              "Immanuel Wallerstein (1974)",
+              "Kenneth Waltz (1979)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Like neo-realism, structuralism sees conflict as structural, but the structure is economic.",
+              "Like liberalism, it stresses interconnection and non-state actors, but sees domination, not interdependence.",
+              "Structuralists study how the IMF and World Bank maintain existing structures.",
+              "Actors: states, multinational and transnational corporations, transnational classes.",
+              "Capitalism is unjust, full of contradictions and prone to periodic crises."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Structuralism superficially resembles realism because both theories:",
+          "options": [
+            "Treat conflict as a central process in international relations",
+            "See interdependence as the key to peace",
+            "Regard classes as unimportant",
+            "Believe international law ends war"
+          ],
+          "answerIndex": 0,
+          "explanation": "Both theories put conflict at the centre, though they explain its source differently. Interdependence as a route to peace is a liberal idea."
+        },
+        {
+          "difficulty": 1,
+          "stem": "According to structuralist assumptions, international politics is shaped, or even determined, by:",
+          "options": [
+            "Religious beliefs",
+            "Military alliances",
+            "Economic factors",
+            "Individual personalities of leaders"
+          ],
+          "answerIndex": 2,
+          "explanation": "One of the core structuralist assumptions is that economic factors shape or determine international politics. Military alliances matter more in realist analysis."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which international institutions do structuralists examine closely for their role in maintaining existing structures?",
+          "options": [
+            "FIFA and the International Olympic Committee",
+            "The World Bank and the IMF",
+            "Amnesty International and the Red Cross",
+            "The African Union Peace and Security Council and ECOMOG"
+          ],
+          "answerIndex": 1,
+          "explanation": "Structuralists scrutinise the World Bank and IMF for how they legitimise and sustain the capitalist order. The other bodies are not central to structuralist economic analysis."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Structuralists reject the liberal concept of interdependence mainly because it:",
+          "options": [
+            "Ignores the role of the military",
+            "Overstates the power of the United Nations",
+            "Denies that states exist",
+            "Implies a balance and fairness that does not exist"
+          ],
+          "answerIndex": 3,
+          "explanation": "Interdependence suggests mutual and balanced dependence, while structuralists see domination and unequal dependence. Liberals do not deny that states exist."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The structuralist list of main actors in international politics includes all of the following EXCEPT:",
+          "options": [
+            "States",
+            "Multinational and transnational corporations",
+            "Transnational social classes",
+            "A world government"
+          ],
+          "answerIndex": 3,
+          "explanation": "Structuralists name states, multinational and transnational corporations and transnational classes. No world government exists, and none of the main theories treats one as an actor."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Neo-realism and structuralism agree that conflict is 'structural'. They differ because for structuralists the relevant structure is:",
+          "options": [
+            "The capitalist world economy",
+            "The anarchic state system",
+            "The balance of military power",
+            "The pattern of shared norms"
+          ],
+          "answerIndex": 0,
+          "explanation": "For structuralists, conflict comes from the capitalist world economy and its domination and dependence. Anarchy and the balance of power are the neo-realist structure."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A debt-relief package forces a poor country to cut food subsidies while guaranteeing repayment to foreign banks. A structuralist would interpret this mainly as:",
+          "options": [
+            "Neutral technical advice that benefits all parties equally",
+            "Evidence of balanced complex interdependence",
+            "An institution maintaining a structure that favours the core",
+            "A security measure against military threats"
+          ],
+          "answerIndex": 2,
+          "explanation": "Structuralists see such conditions as institutions legitimising an order that protects core interests. Calling it balanced interdependence is the liberal reading they reject."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Firms keep cutting wages to raise profits, and soon workers cannot afford to buy the goods produced, leading to a slump. Which structuralist assumption does this best illustrate?",
+          "options": [
+            "The state reflects dominant class interests",
+            "Capitalism has internal contradictions and periodic crises",
+            "Multinational corporations are key actors",
+            "Conflict comes from international anarchy"
+          ],
+          "answerIndex": 1,
+          "explanation": "The tension between pushing wages down and needing buyers is a classic internal contradiction that produces crisis. Anarchy as the source of conflict is a neo-realist claim."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Musa says that the police and courts in his country mostly protect the property of the rich. Which theory supports his reading of state institutions?",
+          "options": [
+            "Liberal institutionalism",
+            "Classical realism",
+            "Structuralism",
+            "Idealism"
+          ],
+          "answerIndex": 2,
+          "explanation": "Structuralists say state institutions such as courts, police and the army mainly shield those who already hold power. Liberal institutionalism sees institutions as aids to cooperation."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement correctly distinguishes structuralism from liberal pluralism?",
+          "options": [
+            "Only liberal pluralism recognises non-state actors",
+            "Only structuralism sees economic relations as interconnected",
+            "Structuralism stresses domination and dependence; liberal pluralism stresses complex interdependence",
+            "Structuralism treats states as unitary actors; liberal pluralism does not"
+          ],
+          "answerIndex": 2,
+          "explanation": "Both recognise interconnection and non-state actors; what divides them is how they read that interconnection. Treating states as unitary actors is a realist trait, not a structuralist one."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are listed among the basic assumptions of structuralism EXCEPT:",
+          "options": [
+            "Capitalism is a fundamentally unjust order",
+            "The state reflects the interests of dominant classes",
+            "The capitalist world-system shapes international relations",
+            "States pursue a genuine national interest defined as power"
+          ],
+          "answerIndex": 3,
+          "explanation": "Structuralists deny the existence of a genuine national interest; national interest defined as power is a realist idea associated with Morgenthau. The other three are structuralist assumptions."
+        },
+        {
+          "difficulty": 4,
+          "stem": "The six basic assumptions of structuralism discussed in this course are drawn from which authors?",
+          "options": [
+            "Keohane and Nye",
+            "Steans and Pettiford",
+            "Morgenthau and Carr",
+            "Mitrany and Haas"
+          ],
+          "answerIndex": 1,
+          "explanation": "The summary of structuralist assumptions is taken from Steans and Pettiford (2005). Keohane and Nye are known for complex interdependence, Mitrany and Haas for functionalism."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider: I. Structuralism shares with neo-realism the view that conflict is structural. II. Structuralism shares with liberalism a focus on non-state actors. III. Structuralism accepts the liberal idea of interdependence. IV. Structuralism sees anarchy as the root of conflict. Which are correct?",
+          "options": [
+            "I and II only",
+            "I and III only",
+            "II and IV only",
+            "I, II and IV only"
+          ],
+          "answerIndex": 0,
+          "explanation": "Structuralism rejects interdependence (III) and locates conflict in the capitalist economy rather than anarchy (IV). It does share structural conflict with neo-realism and attention to non-state actors with liberalism."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A scholar argues that the state is 'relatively autonomous': it is not simply a puppet of the capitalist class, yet it still plays a central role in supporting capitalist expansion. Which reading is correct?",
+          "options": [
+            "This is a realist view, because it gives the state autonomy",
+            "This is a liberal view, because the state balances interests",
+            "This is inconsistent with structuralism, which sees no role for the state",
+            "This is one structuralist view of the state, still linking it to an unjust order"
+          ],
+          "answerIndex": 3,
+          "explanation": "Structuralists include the relatively autonomous state among their views, but it still facilitates capitalism and an unjust order. Structuralism does give the state a role, so the third option is wrong."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which pairing correctly matches each theory to its reading of global economic connection?",
+          "options": [
+            "Realism – complex interdependence; Structuralism – anarchy",
+            "Liberalism – domination; Structuralism – mutual gain",
+            "Liberalism – complex interdependence; Structuralism – domination and dependence",
+            "Structuralism – balance and fairness; Liberalism – exploitation"
+          ],
+          "answerIndex": 2,
+          "explanation": "Liberals read interconnection as complex interdependence with mutual gains, while structuralists read it as domination and dependence. The other options reverse or misplace the theories."
+        }
+      ]
+    }
+  ]
+}

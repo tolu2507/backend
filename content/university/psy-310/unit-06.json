@@ -1,0 +1,1355 @@
+{
+  "unit": 6,
+  "title": "Vision II: Colour Vision and Perception",
+  "summary": "From sensation to perception: how colour varies, the trichromatic and opponent-process theories, common visual problems, Gestalt grouping, constancy and depth.",
+  "sections": [
+    {
+      "name": "Sensation, perception and colour",
+      "lesson": {
+        "title": "From light to meaning",
+        "minutes": 9,
+        "hook": "How do you know a mango is ripe before you touch it? Its colour. Colour is not a luxury of vision; it helps you survive, choose food and even tell a shadow from a stain.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Why colour matters",
+            "body": "Colour shapes how we enjoy art, nature and people, and it carries meaning: in some traditions yellow suggests sickness or fear and reddish purple suggests liveliness (Herrera, 1983).\n\nIt is also practical. Colour helps us tell a **shadow** cast by an object from a real change in how a surface **reflects light** (Kingdom et al., 2004), and helps us judge ripeness and danger.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "leaf",
+                  "label": "Ripe or not"
+                },
+                {
+                  "icon": "eye",
+                  "label": "Shadow or stain"
+                },
+                {
+                  "icon": "heart",
+                  "label": "Beauty"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Sensation versus perception",
+            "left": {
+              "title": "Sensation",
+              "points": [
+                "Receptors are stimulated",
+                "Enough energy triggers nerve impulses",
+                "Registers basic properties"
+              ]
+            },
+            "right": {
+              "title": "Perception",
+              "points": [
+                "Organises and interprets input",
+                "Recognises objects and events",
+                "Gives meaning"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Receptors as locks",
+            "body": "**Sensation** happens when enough physical energy reaches a sense organ for **receptor** cells to send impulses to the brain. Receptors are like **locks**: only the right **key**, the right kind of energy or molecule, opens them.\n\nIn vision, the whole cell that responds to light counts as the receptor. Visual sensation arises in the eye and the first brain areas that register visual input.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Energy (key)",
+                "Receptor (lock)",
+                "Nerve impulse",
+                "Brain"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Two phases of perception",
+            "body": "Perception unfolds in two broad phases (Marr, 1982).\n\nFirst, **organisation**: patches of colour, texture and edges are grouped into **surfaces and objects**, and their size and position are registered.\n\nSecond, **identification**: we recognise **what** the object is, a haystack rather than a honeycomb, and **where** it is, so we can step into our own car but dodge the moving ones.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Features",
+                "Organised objects",
+                "What and where"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Recognising that the object you see is your phone and that it is on the table belongs to which phase of perception?",
+            "options": [
+              "Sensation",
+              "Organisation into coherent units",
+              "Identifying what and where",
+              "Transduction"
+            ],
+            "answerIndex": 2,
+            "why": "Organisation groups features into objects; identification recognises what the object is and where it is."
+          },
+          {
+            "kind": "terms",
+            "heading": "Three dimensions of colour",
+            "terms": [
+              {
+                "term": "Hue",
+                "meaning": "The colour itself, set by the wavelength of light"
+              },
+              {
+                "term": "Saturation",
+                "meaning": "How pure or deep the colour is, set by the purity of the light"
+              },
+              {
+                "term": "Lightness (brightness)",
+                "meaning": "How much light there is, set by the amplitude of the light waves"
+              }
+            ]
+          },
+          {
+            "kind": "example",
+            "heading": "Three kinds of 'red'",
+            "story": "At Balogun market, Kemi compares three wrappers. One is bright scarlet, one is a washed-out pink, one is a dark maroon. All share roughly the same hue, red. The pink has low saturation; the maroon has low lightness. Combining the three dimensions gives a palette richer than any painter's.",
+            "takeaway": "Hue, saturation and lightness combine to produce the huge range of colours we see."
+          },
+          {
+            "kind": "check",
+            "question": "The purity of light determines which dimension of colour?",
+            "options": [
+              "Hue",
+              "Saturation",
+              "Lightness",
+              "Contrast"
+            ],
+            "answerIndex": 1,
+            "why": "Saturation reflects purity. Wavelength sets hue; amplitude sets lightness."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect matching: wavelength-hue, purity-saturation, amplitude-lightness. Also 'explain visual sensation and perception', so define each and give the two phases of perception. Trap: confusing saturation with lightness. A pale pastel is low saturation; a dark shade is low lightness.",
+            "sampleQuestion": "The amplitude of light waves produces the perception of: (a) hue (b) saturation (c) lightness (d) wavelength",
+            "howToAnswer": "Answer (c). Learn all three pairings and give a clothing or market example in essays.",
+            "scholars": [
+              "Marr (1982)",
+              "Kingdom et al. (2004)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Colour aids survival, beauty and telling shadows from surfaces.",
+              "Sensation registers properties; perception organises and interprets them.",
+              "Receptors are like locks opened by the right energy.",
+              "Perception: organise into objects, then identify what and where.",
+              "Hue (wavelength), saturation (purity), lightness (amplitude)."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The aspect of colour determined by wavelength is:",
+          "options": [
+            "Lightness",
+            "Saturation",
+            "Hue",
+            "Contrast"
+          ],
+          "answerIndex": 2,
+          "explanation": "Different wavelengths give different hues."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Sensation occurs when:",
+          "options": [
+            "Receptors are stimulated by enough physical energy",
+            "The brain interprets meaning",
+            "Objects are recognised",
+            "Memories are recalled"
+          ],
+          "answerIndex": 0,
+          "explanation": "Sensation is receptor stimulation sending impulses to the brain."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Perception involves:",
+          "options": [
+            "Organising and interpreting sensory input",
+            "Only receptor activity",
+            "Producing light",
+            "Moving the eyes"
+          ],
+          "answerIndex": 0,
+          "explanation": "Perception organises and interprets sensations into meaningful objects."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Receptors are compared to locks because:",
+          "options": [
+            "They keep light out",
+            "Only the appropriate energy or molecule activates them",
+            "They are found in doors",
+            "They never respond"
+          ],
+          "answerIndex": 1,
+          "explanation": "Each receptor type responds only to its right 'key'."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Lightness of a colour is determined by:",
+          "options": [
+            "Wavelength",
+            "Purity",
+            "Number of cones",
+            "Amplitude of light waves"
+          ],
+          "answerIndex": 3,
+          "explanation": "Amplitude sets how much light is present, perceived as lightness."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which is a practical function of colour vision noted by Kingdom and colleagues (2004)?",
+          "options": [
+            "Hearing",
+            "Balance",
+            "Distinguishing shadows from changes in surface reflectance",
+            "Smell"
+          ],
+          "answerIndex": 2,
+          "explanation": "Colour helps separate shadows from real surface differences."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A tailor describes a fabric as 'a dull, washed-out blue'. The washed-out quality refers to low:",
+          "options": [
+            "Saturation",
+            "Hue",
+            "Wavelength",
+            "Transduction"
+          ],
+          "answerIndex": 0,
+          "explanation": "Washed-out means less pure colour, which is low saturation."
+        },
+        {
+          "difficulty": 3,
+          "stem": "You see a group of edges and patches and realise they form a chair. This step is:",
+          "options": [
+            "Sensation",
+            "Colour mixing",
+            "Organisation into coherent units",
+            "Dark adaptation"
+          ],
+          "answerIndex": 2,
+          "explanation": "Grouping basic features into a surface or object is the organisation phase."
+        },
+        {
+          "difficulty": 3,
+          "stem": "You recognise a moving object as a danfo and judge it is close enough to avoid. This involves identifying:",
+          "options": [
+            "Only hue",
+            "Only saturation",
+            "Only sensation",
+            "What and where"
+          ],
+          "answerIndex": 3,
+          "explanation": "The final phase identifies what an object is and where it is in space."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are dimensions along which colour varies EXCEPT:",
+          "options": [
+            "Hue",
+            "Accommodation",
+            "Lightness",
+            "Saturation"
+          ],
+          "answerIndex": 1,
+          "explanation": "Accommodation is lens focusing, not a colour dimension."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Hue: amplitude",
+            "Saturation: purity",
+            "Lightness: wavelength",
+            "Hue: purity"
+          ],
+          "answerIndex": 1,
+          "explanation": "Saturation corresponds to purity of the input."
+        },
+        {
+          "difficulty": 4,
+          "stem": "In vision, the term 'receptor' refers to:",
+          "options": [
+            "Only the part that registers input",
+            "The entire cell that responds to physical stimulation",
+            "The optic nerve",
+            "The visual cortex"
+          ],
+          "answerIndex": 1,
+          "explanation": "The whole responsive cell is called the receptor."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Sensation precedes perception. II. Perception organises input then identifies it. III. Lightness is set by wavelength. Which are correct?",
+          "options": [
+            "I and II only",
+            "I and III only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 0,
+          "explanation": "I and II are correct. Lightness is set by amplitude, not wavelength."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A patient sees edges and colours normally but cannot tell that they form a cup. Which phase of perception is impaired?",
+          "options": [
+            "Sensation",
+            "Accommodation",
+            "Transduction",
+            "Organisation and identification"
+          ],
+          "answerIndex": 3,
+          "explanation": "Sensation works, but the organising and recognising phases fail."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Why do psychologists say colour is not merely a 'luxury feature' of vision?",
+          "options": [
+            "It has no use",
+            "It replaces depth perception",
+            "It supports practical judgements such as ripeness and separating shadows from surfaces",
+            "It controls blinking"
+          ],
+          "answerIndex": 2,
+          "explanation": "Colour supplies information with real survival value."
+        }
+      ]
+    },
+    {
+      "name": "Theories of colour vision",
+      "lesson": {
+        "title": "Three cones and opposing pairs",
+        "minutes": 9,
+        "hook": "Stare at a green flag for thirty seconds, then look at a white wall. A red ghost appears. Where did the red come from?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Colour mixing",
+            "body": "In the nineteenth century, **Thomas Young** and **Hermann von Helmholtz** studied how colours mix to make new ones: blue and yellow paint make green.\n\nThey proposed that the brain registers colour by **combining responses** from **three kinds of sensors**, each most sensitive to a range of wavelengths: **long, medium or short**.",
+            "visual": {
+              "type": "venn",
+              "left": "Blue",
+              "right": "Yellow",
+              "both": "Green"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Trichromatic theory",
+            "body": "The **trichromatic theory** says colour vision comes from combining signals from **three types of receptor**, each responding most to a different wavelength.\n\nWe now know these are the three types of **cones** (often called S, M and L for short, medium and long wavelengths). The theory explains colour **mixing** well.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "eye",
+                  "label": "Short (blue)"
+                },
+                {
+                  "icon": "eye",
+                  "label": "Medium (green)"
+                },
+                {
+                  "icon": "eye",
+                  "label": "Long (red)"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Colours that cannot mix",
+            "body": "**Ewald Hering**, a German physiologist of the late nineteenth century, noticed something trichromatic theory could not explain: some colours **never mix**. You cannot see a **reddish-green** or a **yellowish-blue**.\n\nThis led him to the **opponent-process theory**: colours come in **opposing pairs**. When one member is registered, cells inhibit perception of its partner.",
+            "visual": {
+              "type": "scale",
+              "left": "Red",
+              "right": "Green",
+              "heavier": "even"
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Two theories",
+            "left": {
+              "title": "Trichromatic (Young-Helmholtz)",
+              "points": [
+                "Three receptor types",
+                "Explains colour mixing",
+                "Works at the cones"
+              ]
+            },
+            "right": {
+              "title": "Opponent process (Hering)",
+              "points": [
+                "Opposing pairs: red/green, blue/yellow",
+                "Explains afterimages and 'impossible' colours",
+                "Works in later cells"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Which theory best explains why we cannot see a reddish-green?",
+            "options": [
+              "Trichromatic theory",
+              "Transduction theory",
+              "Gestalt theory",
+              "Opponent-process theory"
+            ],
+            "answerIndex": 3,
+            "why": "Red and green are an opponent pair: seeing one inhibits the other."
+          },
+          {
+            "kind": "teach",
+            "heading": "Afterimages",
+            "body": "An **afterimage** is an image that lingers after the original stimulus is gone. Stare at green and the green-sensitive opponent cells tire while they **inhibit red**. When you look away, the inhibition is released and **red overshoots**, so you see a red afterimage.\n\nOpponent cells also help us tell apart colours with similar wavelengths, such as **green and yellow**.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Stare at green",
+                "Red inhibited",
+                "Look away",
+                "Red afterimage"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Both theories are right",
+            "body": "Modern research shows the two theories describe **different stages**. **Trichromatic** coding happens in the **three cone types**. **Opponent** coding happens later, in **retinal ganglion cells** and the **thalamus**, which compare cone signals.\n\nSo colour vision works in two steps: register three wavelengths, then set them against each other.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Three cones",
+                "Opponent cells",
+                "Colour experience"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Modern research places trichromatic coding and opponent coding at:",
+            "options": [
+              "The same stage in the cones",
+              "The visual cortex only",
+              "Cones first, then later cells such as ganglion cells",
+              "The lens and cornea"
+            ],
+            "answerIndex": 2,
+            "why": "The three cone types code wavelength; later cells compare their signals in opponent pairs."
+          },
+          {
+            "kind": "teach",
+            "heading": "Colour blindness",
+            "body": "**Colour blindness** is an inability to perceive certain hues, either **inherited** or **acquired** through brain damage. Most cases are **present from birth**, and specific genes have been identified (Tanabe et al., 2001).\n\nMost colour-blind people are not blind to all hue; they mainly cannot tell **red from green**. Because the key genes sit on the **X chromosome**, it is far more common in **males**.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "close-circle",
+                  "label": "Red-green confusion"
+                },
+                {
+                  "icon": "people",
+                  "label": "More common in males"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "The traffic light",
+            "story": "Ibrahim, a commercial driver, learns at a medical check that he is red-green colour blind. He has always read traffic lights by position: top means stop, bottom means go. He never knew the colours looked almost the same to him. His brother, who had a head injury, lost some colour vision only later in life.",
+            "takeaway": "Colour blindness is usually inherited and red-green, but it can also be acquired through brain damage."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'explain colour vision' using both theories, and objectives on afterimages. Know who proposed what: Young and Helmholtz (trichromatic), Hering (opponent process). Strong answers say both are correct at different stages. Trap: explaining afterimages with trichromatic theory; they need opponent processes.",
+            "sampleQuestion": "After staring at a yellow square, a person sees a blue afterimage on a white wall. Which theory best explains this? (a) trichromatic (b) opponent process (c) Gestalt (d) dual coding",
+            "howToAnswer": "Answer (b): blue and yellow are an opponent pair; releasing inhibition produces the afterimage.",
+            "scholars": [
+              "Young & Helmholtz (19th century)",
+              "Hering (1878)",
+              "Tanabe et al. (2001)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Trichromatic theory: three receptor types, explains mixing.",
+              "Opponent-process theory: red/green and blue/yellow pairs inhibit each other.",
+              "Afterimages arise when inhibition is released and the opponent overshoots.",
+              "Both theories hold: cones are trichromatic, later cells are opponent.",
+              "Colour blindness: mostly inherited, mostly red-green, more common in males."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The trichromatic theory of colour vision is associated with:",
+          "options": [
+            "Hering",
+            "Young and Helmholtz",
+            "Marr",
+            "Wertheimer"
+          ],
+          "answerIndex": 1,
+          "explanation": "Young and Helmholtz proposed three types of colour sensors."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The opponent-process theory was proposed by:",
+          "options": [
+            "Hubel and Wiesel",
+            "Thomas Young",
+            "Ewald Hering",
+            "Koffka"
+          ],
+          "answerIndex": 2,
+          "explanation": "Hering proposed opposing colour pairs."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The most common form of colour blindness involves difficulty distinguishing:",
+          "options": [
+            "Red from green",
+            "Blue from yellow",
+            "Black from white",
+            "All colours"
+          ],
+          "answerIndex": 0,
+          "explanation": "Red-green confusion is by far the most common type."
+        },
+        {
+          "difficulty": 2,
+          "stem": "An afterimage is:",
+          "options": [
+            "A memory of an old photograph",
+            "A blind spot",
+            "An image left behind after a previous perception",
+            "A colour mixture"
+          ],
+          "answerIndex": 2,
+          "explanation": "Afterimages linger after the stimulus is removed."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which pairs are the classic opponent colours?",
+          "options": [
+            "Red/blue and green/yellow",
+            "Red/green and blue/yellow",
+            "Red/yellow and blue/green",
+            "Black/red and white/blue"
+          ],
+          "answerIndex": 1,
+          "explanation": "Red versus green and blue versus yellow are the opponent pairs."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Colour blindness can be:",
+          "options": [
+            "Inherited or acquired through brain damage",
+            "Only acquired",
+            "Only inherited",
+            "Caused only by old age"
+          ],
+          "answerIndex": 0,
+          "explanation": "Most cases are inherited, but brain damage can also cause it."
+        },
+        {
+          "difficulty": 3,
+          "stem": "After staring at a red logo, Amaka looks at a white page and sees a green shape. This is explained by:",
+          "options": [
+            "Trichromatic theory",
+            "Size constancy",
+            "Accommodation",
+            "Opponent-process theory"
+          ],
+          "answerIndex": 3,
+          "explanation": "Red inhibited green; releasing the inhibition produces a green afterimage."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A painter mixes blue and yellow to make green. The theory most directly built on such observations is:",
+          "options": [
+            "Trichromatic theory",
+            "Opponent-process theory",
+            "Gestalt theory",
+            "Signal detection theory"
+          ],
+          "answerIndex": 0,
+          "explanation": "Young and Helmholtz's trichromatic theory grew from colour-mixing observations."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Why is red-green colour blindness more common in males?",
+          "options": [
+            "Males have fewer cones",
+            "Males use rods more",
+            "The relevant genes are on the X chromosome",
+            "It is caused by sunlight"
+          ],
+          "answerIndex": 2,
+          "explanation": "Males have one X chromosome, so a single faulty gene produces the condition."
+        },
+        {
+          "difficulty": 4,
+          "stem": "How do modern findings reconcile the trichromatic and opponent-process theories?",
+          "options": [
+            "Only trichromatic theory is correct",
+            "Only opponent theory is correct",
+            "Trichromatic coding occurs in cones; opponent coding occurs in later cells",
+            "Both are wrong"
+          ],
+          "answerIndex": 2,
+          "explanation": "They describe successive stages of colour processing."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are explained better by opponent-process theory than trichromatic theory EXCEPT:",
+          "options": [
+            "Afterimages",
+            "Inability to see reddish-green",
+            "Inability to see yellowish-blue",
+            "Mixing three primary lights to match any colour"
+          ],
+          "answerIndex": 3,
+          "explanation": "Colour matching with three lights is the core evidence for trichromatic theory."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Hering: three cone types",
+            "Young-Helmholtz: opponent pairs",
+            "Hering: colour mixing",
+            "Tanabe et al.: genes for colour blindness"
+          ],
+          "answerIndex": 3,
+          "explanation": "Tanabe and colleagues identified genes linked to colour blindness."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Trichromatic theory proposes three sensors for long, medium and short wavelengths. II. Opponent cells help distinguish green from yellow. III. Most colour-blind people see no colour at all. Which are correct?",
+          "options": [
+            "I and III only",
+            "I and II only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 1,
+          "explanation": "I and II are correct. Most colour-blind people can see colour but confuse red and green."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A theory that could explain colour mixing but not afterimages would be incomplete because:",
+          "options": [
+            "Afterimages show opponent interactions that a pure three-receptor account does not predict",
+            "Afterimages do not exist",
+            "Mixing is impossible",
+            "Afterimages are caused by rods"
+          ],
+          "answerIndex": 0,
+          "explanation": "Afterimages reveal opponent processing beyond three independent receptors."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A man had normal colour vision until a stroke, after which he saw the world in shades of grey. This is best described as:",
+          "options": [
+            "Inherited colour blindness",
+            "Acquired colour blindness from brain damage",
+            "An afterimage",
+            "Dark adaptation"
+          ],
+          "answerIndex": 1,
+          "explanation": "Loss of colour after brain injury is acquired, not inherited."
+        }
+      ]
+    },
+    {
+      "name": "When vision goes wrong",
+      "lesson": {
+        "title": "Common visual problems",
+        "minutes": 10,
+        "hook": "Fewer than a third of people worldwide have perfect vision. Look around your lecture hall: glasses, squints, someone sitting in front to see the board. What is going wrong in all those eyes?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Imperfect by default",
+            "body": "The visual system is so complex that it often works **imperfectly**. By one estimate, **fewer than a third** of the world's people have perfect vision (Seuling, 1986).\n\nProblems can affect how sensitive we are to light, distort the image reaching the retina, or damage how the brain processes what is seen.",
+            "visual": {
+              "type": "stat",
+              "value": "< 1/3",
+              "label": "Have perfect vision"
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Short sight versus long sight",
+            "left": {
+              "title": "Myopia (short-sighted)",
+              "points": [
+                "Trouble seeing distant objects",
+                "Eyeball too long",
+                "Image falls in front of retina"
+              ]
+            },
+            "right": {
+              "title": "Hypermetropia (long-sighted)",
+              "points": [
+                "Trouble seeing near objects",
+                "Eyeball too short or lens too thin",
+                "Image falls behind retina"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Correcting focus",
+            "body": "**Myopia** can be corrected with **glasses**, **contact lenses** or **laser surgery**. Time spent reading **correlates** with myopia (Young, 1981), but remember: **correlation does not prove causation**.\n\nA person can be short-sighted in one eye and long-sighted in the other. **Astigmatism**, a faulty **curve** in the cornea or lens, blurs vision and is also corrected with lenses.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "eye",
+                  "label": "Glasses"
+                },
+                {
+                  "icon": "medkit",
+                  "label": "Surgery"
+                },
+                {
+                  "icon": "search",
+                  "label": "Check curvature"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Myopia is usually caused by:",
+            "options": [
+              "An eyeball that is too short",
+              "An eyeball that is too long",
+              "A cloudy lens",
+              "Damage to the macula"
+            ],
+            "answerIndex": 1,
+            "why": "A long eyeball focuses distant images in front of the retina. A short eyeball causes long sight."
+          },
+          {
+            "kind": "teach",
+            "heading": "Cataract and macular degeneration",
+            "body": "A **cataract** is a **cloudy lens**, causing blur, distortion, glare sensitivity and even blindness. It is very common in old age and causes **at least half** of all blindness worldwide. Surgery **replaces** the clouded lens.\n\nThe **macula** surrounds and includes the fovea, giving sharp central vision. **Macular degeneration**, linked to age and **smoking**, causes **irreversible** loss of central vision."
+          },
+          {
+            "kind": "teach",
+            "heading": "Lazy eye and blindness",
+            "body": "In **amblyopia** (lazy eye), one eye cannot focus properly. If untreated in childhood, the brain learns to **ignore** that eye and **binocular depth perception** is lost permanently.\n\n**Blindness** can arise at several points along the visual pathway. When the problem lies in the **eye or optic nerve**, it may be helped by treatments that improve input. Damage to the **visual cortex** can leave a **scotoma**, a blind region whose position depends on where the damage is.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Eye",
+                "Optic nerve",
+                "Visual cortex"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Visual agnosia and prosopagnosia",
+            "body": "In **visual agnosia** (Greek: 'without knowledge'), a person **sees** a stimulus but **cannot recognise** it.\n\nIn **prosopagnosia**, people can tell faces apart and judge gender, yet cannot **recognise familiar faces**, sometimes not even their own in a mirror. It is usually linked to damage in the **fusiform face area** of the temporal lobe. Oliver Sacks (1985) described such cases vividly.",
+            "visual": {
+              "type": "brain",
+              "region": "temporal-lobe",
+              "label": "Fusiform face area"
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "The stranger at the door",
+            "story": "After a stroke, Mr Adebayo's eyesight tests normal. Yet when his daughter visits, he greets her politely as a stranger, until she speaks and he recognises her voice at once. He can describe her eyes, nose and hair perfectly, but the face does not 'click' as hers.",
+            "takeaway": "Prosopagnosia leaves vision intact but destroys recognition of familiar faces, showing seeing and recognising are separate."
+          },
+          {
+            "kind": "check",
+            "question": "A person who sees clearly but cannot recognise the faces of family members most likely has:",
+            "options": [
+              "Myopia",
+              "Amblyopia",
+              "Cataract",
+              "Prosopagnosia"
+            ],
+            "answerIndex": 3,
+            "why": "Prosopagnosia is a face-recognition agnosia; vision itself is intact."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'identify visual problems' with causes and corrections. Objectives use scenarios: can't read the board (myopia), can't read a book (hypermetropia), cloudy lens (cataract), loses central vision (macular degeneration), can't recognise faces (prosopagnosia). Trap: mixing up which eyeball shape causes which problem.",
+            "sampleQuestion": "A child whose untreated lazy eye leads the brain to ignore its input is at risk of permanently losing: (a) colour vision (b) binocular depth perception (c) night vision (d) peripheral vision",
+            "howToAnswer": "Answer (b): amblyopia, if untreated, destroys binocular depth perception. Mention that early treatment matters.",
+            "scholars": [
+              "Seuling (1986)",
+              "Sacks (1985)",
+              "Young (1981)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Fewer than a third of people have perfect vision.",
+              "Myopia: long eyeball, far objects blurred; hypermetropia: short eyeball, near objects blurred.",
+              "Astigmatism: faulty curvature; cataract: cloudy lens.",
+              "Macular degeneration: loss of central vision; amblyopia: lazy eye.",
+              "Agnosia and prosopagnosia: seeing without recognising."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Short-sightedness is also called:",
+          "options": [
+            "Myopia",
+            "Hypermetropia",
+            "Astigmatism",
+            "Amblyopia"
+          ],
+          "answerIndex": 0,
+          "explanation": "Myopia means difficulty seeing distant objects."
+        },
+        {
+          "difficulty": 1,
+          "stem": "A cataract is:",
+          "options": [
+            "A long eyeball",
+            "A damaged macula",
+            "A cloudy lens",
+            "A blind spot"
+          ],
+          "answerIndex": 2,
+          "explanation": "Cataract is clouding of the lens."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Inability to recognise familiar faces despite normal vision is:",
+          "options": [
+            "Amblyopia",
+            "Prosopagnosia",
+            "Myopia",
+            "Astigmatism"
+          ],
+          "answerIndex": 1,
+          "explanation": "Prosopagnosia is face blindness."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Hypermetropia usually results from:",
+          "options": [
+            "A shortened eyeball or an overly thin lens",
+            "An eyeball that is too long",
+            "A cloudy lens",
+            "Damaged rods"
+          ],
+          "answerIndex": 0,
+          "explanation": "A short eyeball or thin lens focuses near images behind the retina."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Astigmatism is caused by:",
+          "options": [
+            "Optic nerve damage",
+            "Loss of cones",
+            "A long eyeball",
+            "Uneven curving of the cornea or lens"
+          ],
+          "answerIndex": 3,
+          "explanation": "Uneven curvature blurs images."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Macular degeneration causes loss of:",
+          "options": [
+            "Peripheral vision",
+            "Colour vision only",
+            "Night vision only",
+            "Central vision"
+          ],
+          "answerIndex": 3,
+          "explanation": "The macula supports sharp central vision."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A student sees the whiteboard clearly but struggles to read her textbook. She most likely has:",
+          "options": [
+            "Myopia",
+            "Prosopagnosia",
+            "Hypermetropia",
+            "Colour blindness"
+          ],
+          "answerIndex": 2,
+          "explanation": "Difficulty with near objects is long-sightedness."
+        },
+        {
+          "difficulty": 3,
+          "stem": "An elderly woman's vision becomes blurred with glare around lights; doctors replace her lens. Her condition was:",
+          "options": [
+            "Cataract",
+            "Amblyopia",
+            "Macular degeneration",
+            "Myopia"
+          ],
+          "answerIndex": 0,
+          "explanation": "Cataract surgery replaces the clouded lens."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A man after a stroke can name parts of a key but cannot say what the object is. He has:",
+          "options": [
+            "Dark adaptation failure",
+            "Myopia",
+            "Astigmatism",
+            "Visual agnosia"
+          ],
+          "answerIndex": 3,
+          "explanation": "Seeing without recognising is visual agnosia."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Young (1981) found reading time correlates with myopia. The correct conclusion is that:",
+          "options": [
+            "Reading causes myopia",
+            "There is an association, but causation is not proven",
+            "Myopia causes reading",
+            "There is no link"
+          ],
+          "answerIndex": 1,
+          "explanation": "Correlation alone cannot establish cause."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following can be corrected with lenses or surgery EXCEPT:",
+          "options": [
+            "Macular degeneration",
+            "Hypermetropia",
+            "Cataract",
+            "Myopia"
+          ],
+          "answerIndex": 0,
+          "explanation": "Macular degeneration causes irreversible central blindness."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Prosopagnosia is usually associated with damage to the:",
+          "options": [
+            "Cerebellum",
+            "Medulla",
+            "Fusiform face area",
+            "Choroid"
+          ],
+          "answerIndex": 2,
+          "explanation": "The fusiform face area in the temporal lobe supports face recognition."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Amblyopia can permanently destroy binocular depth perception if untreated. II. Cataracts cause at least half of blindness. III. A person cannot be myopic in one eye and hypermetropic in the other. Which are correct?",
+          "options": [
+            "II and III only",
+            "I and III only",
+            "I and II only",
+            "I, II and III"
+          ],
+          "answerIndex": 2,
+          "explanation": "I and II are correct. III is false: different errors in each eye are possible."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A patient with cortical damage has a blind patch in the upper left of his visual field. This patch is called a:",
+          "options": [
+            "Cataract",
+            "Scotoma",
+            "Fovea",
+            "Afterimage"
+          ],
+          "answerIndex": 1,
+          "explanation": "A scotoma is a region of blindness whose location depends on cortical damage."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Why might improving input to the eye restore vision in some blind patients but not others?",
+          "options": [
+            "All blindness is the same",
+            "If blindness comes from eye or nerve damage, a working cortex can use better input; cortical damage cannot be fixed this way",
+            "Lenses fix cortical damage",
+            "The retina has no role"
+          ],
+          "answerIndex": 1,
+          "explanation": "Treatment helps only when the visual cortex still works."
+        }
+      ]
+    },
+    {
+      "name": "Organisation, constancy and depth",
+      "lesson": {
+        "title": "How the brain builds a stable world",
+        "minutes": 10,
+        "hook": "As a friend walks away down the street, the image of her on your retina shrinks to the size of an ant. Yet she never seems to shrink. Your brain is quietly correcting what your eyes report.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Figure and ground",
+            "body": "The first step in organising a scene is separating **figure** from **ground**. A **figure** is a set of features (shape, colour, texture) that corresponds to an object. The **ground** is the background it stands out from.\n\nA key part of this is turning scattered sensory fragments into **edges**. **Gestalt** psychologists (Wertheimer, 1923; Koffka, 1935) described the rules the brain uses.",
+            "visual": {
+              "type": "venn",
+              "left": "Figure",
+              "right": "Ground",
+              "both": "Edge"
+            }
+          },
+          {
+            "kind": "terms",
+            "heading": "Gestalt laws of grouping",
+            "terms": [
+              {
+                "term": "Proximity",
+                "meaning": "Marks close together are grouped: xxx xxx looks like two groups"
+              },
+              {
+                "term": "Good continuation",
+                "meaning": "Marks along a smooth line or curve are grouped as one"
+              },
+              {
+                "term": "Similarity",
+                "meaning": "Marks that look alike, including in colour, are grouped"
+              },
+              {
+                "term": "Closure",
+                "meaning": "We fill gaps, so a broken circle still looks like a circle"
+              },
+              {
+                "term": "Good form",
+                "meaning": "Marks forming a single shape are grouped together"
+              }
+            ]
+          },
+          {
+            "kind": "check",
+            "question": "You see a circle with a small gap as a complete circle. Which Gestalt law is this?",
+            "options": [
+              "Closure",
+              "Similarity",
+              "Proximity",
+              "Good continuation"
+            ],
+            "answerIndex": 0,
+            "why": "Closure is the tendency to fill gaps and see complete shapes."
+          },
+          {
+            "kind": "example",
+            "heading": "Reading a crowd",
+            "story": "At a football match, Segun spots his friends' section instantly: they all wear green jerseys and sit together. Similarity of colour and proximity of seats group them as one unit. When one friend moves to buy suya, Segun still sees him as 'with them' because he wears the same colour.",
+            "takeaway": "Gestalt principles like similarity and proximity let us group scattered elements into meaningful units."
+          },
+          {
+            "kind": "teach",
+            "heading": "Ambiguous figures",
+            "body": "Sometimes a figure can be organised in **more than one way**: a drawing that flips between a vase and two faces, or a cube that seems to face two directions.\n\nAmbiguous figures show that perception is an **active** process: the brain chooses an interpretation of the same unchanging input.",
+            "visual": {
+              "type": "cycle",
+              "nodes": [
+                "Vase",
+                "Two faces",
+                "Vase"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Perceptual constancy",
+            "body": "**Perceptual constancy** means objects look the same even when the image on the eye changes.\n\n- **Size constancy**: a car looks the same size near or far.\n- **Shape constancy**: a door looks rectangular even when half open.\n- **Colour constancy**: green stays green under different lighting, partly through **experience**.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "trending-down",
+                  "label": "Size"
+                },
+                {
+                  "icon": "layers",
+                  "label": "Shape"
+                },
+                {
+                  "icon": "bulb",
+                  "label": "Colour"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Colour contrast",
+            "body": "Perception never happens in a vacuum. In **colour contrast**, the same colour can look **very different** depending on the colours around it. A grey square looks lighter on black and darker on white.\n\nThis is why designers choose strong contrast between text and background.",
+            "visual": {
+              "type": "scale",
+              "left": "Grey on black",
+              "right": "Grey on white",
+              "heavier": "even"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Depth: two eyes, two views",
+            "body": "Some depth cues are **monocular** (one eye). The strongest are **binocular**. Because our eyes face forward, each sees a slightly different view: this difference is **retinal disparity**. It is **larger for nearer objects** and shrinks with distance, so the brain uses it as a depth cue.\n\n**Binocular cells** in the cortex respond to input from both eyes (Hubel & Wiesel, 1962). **Disparity-selective cells** fire when features fall on different parts of the two retinas.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Two eye views",
+                "Retinal disparity",
+                "Binocular cells",
+                "Depth"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Retinal disparity is:",
+            "options": [
+              "The blind spot in each eye",
+              "The difference between the images on the two retinas",
+              "Loss of colour in dim light",
+              "Clouding of the lens"
+            ],
+            "answerIndex": 1,
+            "why": "Each eye sees a slightly different view; that difference is a strong depth cue."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Gestalt laws are tested with simple patterns: decide which law groups them. Constancy questions use scenarios: a car far away, a door at an angle, a shirt under yellow light. Depth: know retinal disparity, binocular cells and disparity-selective cells. Note: some course notes say disparity increases with distance; it is actually greater for near objects.",
+            "sampleQuestion": "You see a white shirt as white both in sunlight and under a yellow bulb. This is: (a) size constancy (b) shape constancy (c) colour constancy (d) colour contrast",
+            "howToAnswer": "Answer (c). Contrast it with colour contrast, where surrounding colours change how a colour looks.",
+            "scholars": [
+              "Wertheimer (1923)",
+              "Koffka (1935)",
+              "Hubel & Wiesel (1962)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Figure stands out from ground; edges are key.",
+              "Gestalt laws: proximity, continuation, similarity, closure, good form.",
+              "Ambiguous figures show perception is active.",
+              "Constancy keeps size, shape and colour stable; context changes colour appearance.",
+              "Binocular depth: retinal disparity, binocular and disparity-selective cells."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "In perception, the background against which an object stands out is the:",
+          "options": [
+            "Ground",
+            "Figure",
+            "Fovea",
+            "Contrast"
+          ],
+          "answerIndex": 0,
+          "explanation": "The ground is the background; the figure is the object."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Seeing a car as the same size whether it is near or far is:",
+          "options": [
+            "Shape constancy",
+            "Size constancy",
+            "Colour constancy",
+            "Closure"
+          ],
+          "answerIndex": 1,
+          "explanation": "Size constancy keeps perceived size stable despite changing retinal image."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Gestalt laws of organisation were developed by psychologists such as:",
+          "options": [
+            "Marr and Nakayama",
+            "Hubel and Wiesel",
+            "Young and Helmholtz",
+            "Wertheimer and Koffka"
+          ],
+          "answerIndex": 3,
+          "explanation": "Wertheimer and Koffka were leading Gestalt psychologists."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Seeing 'xx xx xx' as three groups illustrates:",
+          "options": [
+            "Similarity",
+            "Closure",
+            "Proximity",
+            "Good form"
+          ],
+          "answerIndex": 2,
+          "explanation": "Marks close together are grouped by proximity."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Binocular cells respond to:",
+          "options": [
+            "Input from one eye only",
+            "Sound",
+            "Input from both eyes",
+            "Colour only"
+          ],
+          "answerIndex": 2,
+          "explanation": "They combine input from both eyes and support depth perception."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Colour contrast refers to:",
+          "options": [
+            "Colours staying the same under any light",
+            "Colours looking different depending on surrounding colours",
+            "Mixing two colours",
+            "Colour blindness"
+          ],
+          "answerIndex": 1,
+          "explanation": "Context changes how a colour appears."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A half-open classroom door still looks rectangular to you. This is:",
+          "options": [
+            "Shape constancy",
+            "Size constancy",
+            "Colour constancy",
+            "Closure"
+          ],
+          "answerIndex": 0,
+          "explanation": "Shape constancy keeps an object's shape stable from different angles."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A drawing switches between a vase and two faces as you look at it. This is an example of:",
+          "options": [
+            "Retinal disparity",
+            "Size constancy",
+            "An ambiguous figure",
+            "Closure"
+          ],
+          "answerIndex": 2,
+          "explanation": "The same figure can be organised in more than one way."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Students in matching red shirts are seen as one group among a crowd. Which Gestalt law applies most clearly?",
+          "options": [
+            "Similarity",
+            "Closure",
+            "Good continuation",
+            "Good form"
+          ],
+          "answerIndex": 0,
+          "explanation": "Elements that look alike, here in colour, are grouped by similarity."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Retinal disparity is greatest for objects that are:",
+          "options": [
+            "Very far away",
+            "Seen with one eye",
+            "On the horizon",
+            "Close to the viewer"
+          ],
+          "answerIndex": 3,
+          "explanation": "Near objects produce bigger differences between the two eyes' views; disparity shrinks with distance."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Disparity-selective cells fire when:",
+          "options": [
+            "Both eyes see features at exactly the same retinal position",
+            "Only one eye is open",
+            "Preferred features fall on different parts of the two retinas",
+            "Light is dim"
+          ],
+          "answerIndex": 2,
+          "explanation": "They respond to differences between the eyes' images, signalling depth."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are Gestalt laws of grouping EXCEPT:",
+          "options": [
+            "Proximity",
+            "Accommodation",
+            "Closure",
+            "Similarity"
+          ],
+          "answerIndex": 1,
+          "explanation": "Accommodation is lens focusing, not a grouping law."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Colour constancy arises partly through experience. II. Binocular depth cues are generally stronger than monocular ones. III. Ambiguous figures show perception is passive. Which are correct?",
+          "options": [
+            "I and II only",
+            "I and III only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 0,
+          "explanation": "I and II are correct. Ambiguous figures show perception is active, not passive."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A person with amblyopia since childhood would most likely struggle with which perceptual task?",
+          "options": [
+            "Colour constancy",
+            "Recognising hue",
+            "Closure",
+            "Binocular depth perception using retinal disparity"
+          ],
+          "answerIndex": 3,
+          "explanation": "Without input from both eyes, retinal disparity cannot be used for depth."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Why does a friend walking away not appear to shrink, even though her retinal image gets smaller?",
+          "options": [
+            "The retina enlarges the image",
+            "Size constancy: the brain uses distance cues to keep perceived size stable",
+            "Colour contrast",
+            "Closure fills the gap"
+          ],
+          "answerIndex": 1,
+          "explanation": "The brain combines image size with distance to keep size perception constant."
+        }
+      ]
+    }
+  ]
+}

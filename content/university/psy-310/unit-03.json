@@ -1,0 +1,1009 @@
+{
+  "unit": 3,
+  "title": "The Synaptic Transmission",
+  "summary": "How neurons pass messages across synapses, what neurotransmitters do, and the glial and support cells that keep the brain working.",
+  "sections": [
+    {
+      "name": "Electrical and chemical synapses",
+      "lesson": {
+        "title": "Crossing the gap between neurons",
+        "minutes": 9,
+        "hook": "Your brain has tens of billions of neurons, and none of them actually touch. Every thought you have depends on messages leaping across tiny gaps.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Neurons do not touch",
+            "body": "Neurons are separated by tiny gaps. The junction where one neuron passes a message to another is the **synapse**. It is often called the smallest basic **information-processing unit** of the nervous system, because this is where signals are passed on, boosted or blocked.\n\nThe numbers are staggering. The human brain has roughly 100 billion neurons (recent counts say about 86 billion), and a typical neuron forms around a thousand synapses. During development, these connections are wired into circuits that do the nervous system's different jobs.",
+            "visual": {
+              "type": "neuron",
+              "part": "synapse",
+              "label": "Where messages cross"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Two kinds of synapse",
+            "body": "Synapses come in two forms.\n\nAt an **electrical synapse**, current passes **directly** from one cell to the next through protein channels that join them.\n\nAt a **chemical synapse**, the first cell releases a **chemical messenger** that drifts across the gap and acts on the second cell.\n\nThe cell sending the message is the **presynaptic** neuron; the one receiving is the **postsynaptic** neuron.",
+            "visual": {
+              "type": "venn",
+              "left": "Electrical: direct current",
+              "right": "Chemical: messenger molecules",
+              "both": "Pass signals between cells"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Electrical synapses: built for speed",
+            "body": "At an electrical synapse the gap is extremely narrow, about **3.5 nanometres**, compared with about **20 nanometres** at a chemical synapse. Special protein channels (gap junctions) bridge the two cells so positive current flows straight into the next neuron.\n\nThe big advantage is **speed**: transmission is almost **instantaneous**. A chemical synapse needs from about 0.3 of a millisecond to several milliseconds. Electrical synapses are found in plants as well as animals, which suggests they are very ancient in evolution.",
+            "visual": {
+              "type": "scale",
+              "left": "Electrical: speed",
+              "right": "Chemical: flexibility",
+              "heavier": "even"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "What is the main advantage of an electrical synapse over a chemical one?",
+            "options": [
+              "It can send inhibitory messages",
+              "It is almost instantaneous",
+              "A tiny cell can drive a huge one",
+              "It offers more kinds of response"
+            ],
+            "answerIndex": 1,
+            "why": "Current flows straight through, so there is almost no delay. Variety of response and small-cell influence are advantages of chemical synapses."
+          },
+          {
+            "kind": "teach",
+            "heading": "Why chemical synapses dominate",
+            "body": "If electrical synapses are faster, why are most synapses in our brain chemical? Because chemical synapses are more **flexible**.\n\nFirst, an electrical synapse essentially sends only **excitatory** messages: it can push the next cell towards firing, but not hold it back. Chemical synapses can **excite or inhibit**, and even produce longer-lasting changes. Second, at a chemical synapse a **small presynaptic neuron can influence a large postsynaptic one**, because the chemical does the work. Electrically, a big cell is needed to drive even a small one.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "trending-up",
+                  "label": "Excite"
+                },
+                {
+                  "icon": "trending-down",
+                  "label": "Inhibit"
+                },
+                {
+                  "icon": "layers",
+                  "label": "Small drives large"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Electrical versus chemical",
+            "left": {
+              "title": "Electrical synapse",
+              "points": [
+                "Gap about 3.5 nm",
+                "Direct current through protein channels",
+                "Almost instant",
+                "Excitatory only"
+              ]
+            },
+            "right": {
+              "title": "Chemical synapse",
+              "points": [
+                "Gap about 20 nm",
+                "Neurotransmitter crosses the cleft",
+                "Delay of 0.3 ms or more",
+                "Excitatory, inhibitory or modulatory"
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Phone call or courier?",
+            "story": "Halima needs to reach her brother in Kano. A phone call connects them instantly, but she can only say a few things before the network drops. A courier parcel from Ibadan takes longer, yet she can send food, a letter, money and a photo, each producing a different reaction when it arrives.",
+            "takeaway": "Electrical synapses are the quick phone call; chemical synapses are the slower parcel that can carry many kinds of message."
+          },
+          {
+            "kind": "check",
+            "question": "A small presynaptic neuron strongly affects a much larger postsynaptic neuron. The synapse is most likely:",
+            "options": [
+              "Electrical, because current flows directly",
+              "Chemical, because a messenger molecule does the work",
+              "Electrical, because the gap is narrow",
+              "Neither, because small cells cannot affect large ones"
+            ],
+            "answerIndex": 1,
+            "why": "Chemical messengers let a small cell drive a large one. Electrically, a large cell is needed to drive even a small one."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'advantage of electrical over chemical' and the reverse, with options deliberately swapped. Students often think electrical synapses can inhibit, or that chemical ones are faster. Some printed notes write the gap widths in millimetres; the correct unit is nanometres.",
+            "sampleQuestion": "Compare electrical and chemical synapses. Why do you think most synapses in the human brain are chemical?",
+            "howToAnswer": "Contrast gap size, mechanism, speed and type of message, then argue that chemical synapses win on flexibility: they can excite or inhibit and let small cells influence large ones.",
+            "scholars": [
+              "Kandel & Siegelbaum (1995)",
+              "Freberg (2006)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "The synapse is the junction where neurons pass messages; they never touch.",
+              "Electrical synapses: narrow gap, direct current, almost instant, excitatory only.",
+              "Chemical synapses: wider cleft, neurotransmitters, slower but flexible.",
+              "Chemical synapses can excite or inhibit and let small cells drive large ones.",
+              "Electrical synapses also occur in plants, so they are evolutionarily ancient."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Which statement about how neurons are arranged is correct?",
+          "options": [
+            "Neurons are fused into one continuous net",
+            "Neurons touch each other at their cell bodies",
+            "Neurons are separated by tiny gaps called synapses",
+            "Neurons connect only through blood vessels"
+          ],
+          "answerIndex": 2,
+          "explanation": "Neurons do not come into direct contact; they communicate across synapses. The continuous-net view was the reticular theory Cajal rejected."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The two forms of synapse are:",
+          "options": [
+            "Electrical and chemical",
+            "Sensory and motor",
+            "Afferent and efferent",
+            "Unipolar and bipolar"
+          ],
+          "answerIndex": 0,
+          "explanation": "Synapses are either electrical or chemical. The other pairs classify neurons, not synapses."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The neuron that sends a message across a synapse is called the:",
+          "options": [
+            "Postsynaptic neuron",
+            "Interneuron",
+            "Effector neuron",
+            "Presynaptic neuron"
+          ],
+          "answerIndex": 3,
+          "explanation": "The presynaptic neuron sits before the gap and sends; the postsynaptic neuron receives."
+        },
+        {
+          "difficulty": 2,
+          "stem": "At an electrical synapse, the two cells are joined by:",
+          "options": [
+            "Synaptic vesicles",
+            "Special protein channels",
+            "Myelin sheaths",
+            "Receptor enzymes"
+          ],
+          "answerIndex": 1,
+          "explanation": "Protein channels (gap junctions) connect the cells so current passes directly. Vesicles belong to chemical synapses."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The fact that electrical synapses are also found in plants suggests that they:",
+          "options": [
+            "Appeared only recently in evolution",
+            "Are unique to humans",
+            "Are very ancient in evolutionary terms",
+            "Cannot pass any signal"
+          ],
+          "answerIndex": 2,
+          "explanation": "Sharing a feature with plants points to a very old origin. If they were recent, they would not be spread across such distant life forms."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The gap at a chemical synapse is about how wide compared with an electrical synapse?",
+          "options": [
+            "About 20 nm versus about 3.5 nm",
+            "About 3.5 nm versus about 20 nm",
+            "Exactly the same width",
+            "About 20 mm versus about 3.5 mm"
+          ],
+          "answerIndex": 0,
+          "explanation": "The chemical cleft is the wider one, around 20 nanometres. Millimetres would be visible to the naked eye, far too large for a synapse."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A fish must flick its tail away from a predator in the shortest possible time. The neurons controlling this escape would benefit most from:",
+          "options": [
+            "Chemical synapses, because they are flexible",
+            "Electrical synapses, because they are almost instant",
+            "Chemical synapses, because they can inhibit",
+            "Electrical synapses, because they can inhibit"
+          ],
+          "answerIndex": 1,
+          "explanation": "Speed is the electrical synapse's great advantage, ideal for escape reflexes. Electrical synapses cannot inhibit, so the last option is doubly wrong."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A researcher finds that a synapse can make the next cell less likely to fire. This synapse must be:",
+          "options": [
+            "Electrical",
+            "Made of gap junctions",
+            "Purely excitatory",
+            "Chemical"
+          ],
+          "answerIndex": 3,
+          "explanation": "Inhibition requires a chemical synapse; electrical synapses only pass excitation. Gap junctions are the electrical type."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Comparing a phone call with a courier parcel, the parcel best represents a chemical synapse because it:",
+          "options": [
+            "Arrives instantly",
+            "Is slower but can carry many different kinds of message",
+            "Can only carry one kind of message",
+            "Needs no gap to cross"
+          ],
+          "answerIndex": 1,
+          "explanation": "Chemical synapses trade speed for variety of response. Instant arrival describes the electrical synapse."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are advantages of chemical synapses EXCEPT that they:",
+          "options": [
+            "Allow a small neuron to influence a large one",
+            "Can produce excitatory or inhibitory effects",
+            "Transmit messages almost instantaneously",
+            "Provide a greater variety of responses"
+          ],
+          "answerIndex": 2,
+          "explanation": "Near-instant transmission is the electrical synapse's advantage. Chemical synapses take 0.3 ms or more."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Why does an electrical synapse need a large presynaptic neuron to influence even a small postsynaptic neuron?",
+          "options": [
+            "Because of the electrical demands of passing current directly",
+            "Because electrical synapses use more neurotransmitter",
+            "Because the gap is wider than at chemical synapses",
+            "Because electrical synapses lack protein channels"
+          ],
+          "answerIndex": 0,
+          "explanation": "Current must flow directly, so the sending cell must supply enough of it. The gap is actually narrower, and electrical synapses use no neurotransmitter."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Electrical synapse: excitatory and inhibitory messages",
+            "Chemical synapse: almost no delay",
+            "Electrical synapse: gap of about 20 nm",
+            "Chemical synapse: messenger crosses to receptors"
+          ],
+          "answerIndex": 3,
+          "explanation": "At chemical synapses a neurotransmitter crosses to receptors on the next cell. The other options attach features to the wrong synapse."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider these statements. I. Electrical synapses are faster than chemical synapses. II. Electrical synapses can send only excitatory messages. III. Chemical synapses let a small cell influence a large one. Which are correct?",
+          "options": [
+            "I and II only",
+            "II and III only",
+            "I, II and III",
+            "I and III only"
+          ],
+          "answerIndex": 2,
+          "explanation": "All three are true. Speed belongs to electrical synapses, while flexibility and small-to-large influence belong to chemical ones."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A student argues: 'Since electrical synapses are faster, the brain would work better if all its synapses were electrical.' The strongest objection is that the brain would:",
+          "options": [
+            "Lose the ability to inhibit activity and to vary responses",
+            "Become too slow to function",
+            "Need more neurotransmitters",
+            "Stop using action potentials"
+          ],
+          "answerIndex": 0,
+          "explanation": "Without chemical synapses there would be no inhibition and little variety, so activity could not be controlled. The brain would be faster, not slower."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which statement about synapses is FALSE?",
+          "options": [
+            "The synapse is a fundamental information-processing unit of the nervous system",
+            "A typical neuron forms around a thousand synapses",
+            "Synaptic circuits are formed during development",
+            "At a chemical synapse, current flows directly from cell to cell"
+          ],
+          "answerIndex": 3,
+          "explanation": "Direct current flow is the electrical mechanism; chemical synapses use messenger molecules. The other three statements are true."
+        }
+      ]
+    },
+    {
+      "name": "Neurotransmitters at work",
+      "lesson": {
+        "title": "Chemical keys and receptor locks",
+        "minutes": 10,
+        "hook": "Many drugs, from painkillers to antidepressants to the caffeine in your Nescafé, work by meddling with the chemicals neurons use to talk. So what are these chemicals, and how do they work?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "What is a neurotransmitter?",
+            "body": "A **neurotransmitter** is a specialised chemical that carries information from one neuron to the next. Neurotransmitters act **locally**, on cells right next to them across a synapse. This is what separates them from hormones, which travel in the blood.\n\nBefore release, neurotransmitter molecules are stored in tiny sacs called **synaptic vesicles** in the terminal buttons.",
+            "visual": {
+              "type": "neuron",
+              "part": "terminals",
+              "label": "Vesicles store transmitter"
+            }
+          },
+          {
+            "kind": "steps",
+            "heading": "Transmission at a chemical synapse",
+            "steps": [
+              {
+                "title": "Action potential arrives",
+                "detail": "The impulse reaches the terminal button of the presynaptic neuron."
+              },
+              {
+                "title": "Vesicles release",
+                "detail": "Vesicles move to the membrane, fuse with it and spill their contents into the cleft. This is exocytosis."
+              },
+              {
+                "title": "Diffusion",
+                "detail": "The transmitter drifts through the fluid of the synaptic cleft to the postsynaptic membrane."
+              },
+              {
+                "title": "Binding",
+                "detail": "It attaches to receptor proteins on the postsynaptic cell, changing that cell's activity."
+              },
+              {
+                "title": "Deactivation",
+                "detail": "The transmitter is broken down by an enzyme or taken back into the presynaptic terminal (reuptake)."
+              }
+            ]
+          },
+          {
+            "kind": "check",
+            "question": "The process by which vesicles release their contents into the synaptic cleft is called:",
+            "options": [
+              "Reuptake",
+              "Exocytosis",
+              "Diffusion",
+              "Myelination"
+            ],
+            "answerIndex": 1,
+            "why": "Exocytosis is the release of vesicle contents by fusion with the membrane. Reuptake is the opposite: taking transmitter back in."
+          },
+          {
+            "kind": "teach",
+            "heading": "Why deactivation matters",
+            "body": "If a transmitter stayed in the cleft forever, the receiving cell would be stimulated non-stop and could not tell one message from the next. So the signal must be cleared quickly.\n\nThere are two routes. The transmitter can be **destroyed by an enzyme** in the cleft (acetylcholine, for example, is broken down by acetylcholinesterase), or it can be **taken back into the terminal** it came from, to be reused or broken down. Many drugs act by blocking this clean-up, which keeps the transmitter active for longer.",
+            "visual": {
+              "type": "cycle",
+              "nodes": [
+                "Store in vesicle",
+                "Release",
+                "Bind receptor",
+                "Reuptake or breakdown"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Lock and key",
+            "body": "Picture the neurotransmitter as a **key** and the receptor as a **lock**. Only the right key fits. But one type of key can open several different types of lock, so the same transmitter may do different things at different receptors.\n\nReceptors are broadly **excitatory** (they raise the firing rate of the receiving cell), **inhibitory** (they lower it) or **modulatory** (they produce longer-lasting changes not tied directly to firing rate). That is why one neuron releasing one transmitter can excite some targets and inhibit others.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "trending-up",
+                  "label": "Excitatory"
+                },
+                {
+                  "icon": "trending-down",
+                  "label": "Inhibitory"
+                },
+                {
+                  "icon": "time",
+                  "label": "Modulatory"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "A receptor that produces slow, long-lasting changes in a cell, not directly linked to its firing rate, is:",
+            "options": [
+              "Excitatory",
+              "Inhibitory",
+              "Modulatory",
+              "Electrical"
+            ],
+            "answerIndex": 2,
+            "why": "Modulatory receptors cause lasting changes rather than simply raising or lowering firing. Excitatory and inhibitory receptors change the firing rate."
+          },
+          {
+            "kind": "terms",
+            "heading": "Major neurotransmitters",
+            "terms": [
+              {
+                "term": "Acetylcholine (ACh)",
+                "meaning": "Triggers muscle contraction at the nerve–muscle junction; also involved in memory"
+              },
+              {
+                "term": "Noradrenaline (norepinephrine, NE)",
+                "meaning": "Involved in arousal and alertness"
+              },
+              {
+                "term": "Serotonin (5-HT, 5-hydroxytryptamine)",
+                "meaning": "Involved in mood, sleep and appetite"
+              },
+              {
+                "term": "Dopamine (DA)",
+                "meaning": "Involved in movement and reward"
+              },
+              {
+                "term": "GABA (gamma-aminobutyric acid)",
+                "meaning": "The brain's main inhibitory transmitter"
+              }
+            ]
+          },
+          {
+            "kind": "example",
+            "heading": "Sleepy after the tablet",
+            "story": "Segun cannot sleep before his final-year defence, and a doctor prescribes a short course of a sedative. Within an hour he feels calm and drowsy. The doctor explains that the drug boosts the effect of GABA, the brain's chief 'brake' chemical, so many neurons fire less.",
+            "takeaway": "GABA is inhibitory: strengthening it quietens brain activity, which is how many sedatives and anti-anxiety drugs work."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect questions on the order of events at a chemical synapse, on the two ways a transmitter is deactivated, and on which transmitter is inhibitory. The commonest trap is listing GABA among the excitatory transmitters, or confusing exocytosis with reuptake. Know the full names behind abbreviations like 5-HT.",
+            "sampleQuestion": "Describe the sequence of events by which a message crosses a chemical synapse, and explain why the neurotransmitter must be deactivated.",
+            "howToAnswer": "Trace storage, release by exocytosis, diffusion, receptor binding and deactivation, then explain that clearing the transmitter lets the cell receive fresh signals.",
+            "scholars": [
+              "Söllner & Rothman (1994)",
+              "Freberg (2006)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Neurotransmitters are chemicals that carry messages across synapses.",
+              "They are stored in vesicles and released by exocytosis.",
+              "They bind receptors like keys in locks, then are broken down or taken back.",
+              "Receptors can be excitatory, inhibitory or modulatory.",
+              "Major transmitters: ACh, noradrenaline, serotonin, dopamine and GABA (inhibitory)."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Before release, neurotransmitter molecules are stored in:",
+          "options": [
+            "The nucleus",
+            "Synaptic vesicles",
+            "The myelin sheath",
+            "The dendrites"
+          ],
+          "answerIndex": 1,
+          "explanation": "Vesicles in the terminal buttons hold the transmitter until an impulse arrives. Myelin insulates axons and stores nothing."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which of these neurotransmitters is mainly inhibitory?",
+          "options": [
+            "Dopamine",
+            "Acetylcholine",
+            "Noradrenaline",
+            "GABA"
+          ],
+          "answerIndex": 3,
+          "explanation": "GABA is the brain's main inhibitory transmitter. The others are generally described as excitatory in the course."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Neurotransmitters cross from one neuron to another through the:",
+          "options": [
+            "Synaptic cleft",
+            "Cell body",
+            "Bloodstream",
+            "Myelin"
+          ],
+          "answerIndex": 0,
+          "explanation": "They diffuse through the fluid of the synaptic cleft. Travelling in the blood is what hormones do."
+        },
+        {
+          "difficulty": 2,
+          "stem": "In the lock-and-key comparison, the receptor is the:",
+          "options": [
+            "Key",
+            "Door",
+            "Lock",
+            "Keyholder"
+          ],
+          "answerIndex": 2,
+          "explanation": "The receptor is the lock and the transmitter is the key that fits it."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Serotonin is also known as:",
+          "options": [
+            "Norepinephrine",
+            "5-hydroxytryptamine (5-HT)",
+            "Gamma-aminobutyric acid",
+            "Acetylcholine"
+          ],
+          "answerIndex": 1,
+          "explanation": "Serotonin's chemical name is 5-hydroxytryptamine, shortened to 5-HT. Norepinephrine is another name for noradrenaline."
+        },
+        {
+          "difficulty": 2,
+          "stem": "An excitatory receptor, when activated, causes the receiving neuron to:",
+          "options": [
+            "Stop firing permanently",
+            "Release hormones into the blood",
+            "Lose its resting potential forever",
+            "Increase its firing rate"
+          ],
+          "answerIndex": 3,
+          "explanation": "Excitatory receptors push the cell to fire more. Lowering the rate is what inhibitory receptors do."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A drug blocks the reuptake of a neurotransmitter into the presynaptic terminal. The most likely effect is that the transmitter:",
+          "options": [
+            "Stays in the synaptic cleft longer and keeps acting",
+            "Is never released at all",
+            "Is immediately destroyed",
+            "Is converted into myelin"
+          ],
+          "answerIndex": 0,
+          "explanation": "If it cannot be taken back, the transmitter lingers and keeps stimulating receptors. Release is not affected by blocking reuptake."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Aisha takes a medicine that strengthens the action of GABA. She is most likely to feel:",
+          "options": [
+            "More alert and restless",
+            "Calmer and drowsier",
+            "Stronger muscle spasms",
+            "No change, since GABA is excitatory"
+          ],
+          "answerIndex": 1,
+          "explanation": "Boosting an inhibitory transmitter quietens neural activity. The last option is a trap: GABA is inhibitory, not excitatory."
+        },
+        {
+          "difficulty": 3,
+          "stem": "One neuron releases a single transmitter that excites some target cells but inhibits others. This is possible because:",
+          "options": [
+            "The transmitter changes its chemistry on the way",
+            "Electrical synapses reverse the signal",
+            "Different targets carry different types of receptor",
+            "The neuron releases it from both ends"
+          ],
+          "answerIndex": 2,
+          "explanation": "The effect depends on the receptor, just as one key can open different locks. The transmitter itself stays the same."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which sequence of events at a chemical synapse is correct?",
+          "options": [
+            "Binding, exocytosis, diffusion, deactivation",
+            "Exocytosis, binding, diffusion, deactivation",
+            "Diffusion, exocytosis, binding, deactivation",
+            "Exocytosis, diffusion, binding, deactivation"
+          ],
+          "answerIndex": 3,
+          "explanation": "The transmitter is released, drifts across, binds and is then cleared. It cannot bind before it has diffused across the cleft."
+        },
+        {
+          "difficulty": 4,
+          "stem": "What chiefly distinguishes a neurotransmitter from a hormone?",
+          "options": [
+            "A neurotransmitter acts locally across a synapse, while a hormone travels in the blood",
+            "A neurotransmitter is a protein, while a hormone is a fat",
+            "A neurotransmitter works only in muscles",
+            "A hormone is stored in synaptic vesicles"
+          ],
+          "answerIndex": 0,
+          "explanation": "Neurotransmitters act on nearby cells at synapses; hormones are carried in the bloodstream to distant targets. Vesicles store neurotransmitters, not hormones."
+        },
+        {
+          "difficulty": 4,
+          "stem": "The two ways a neurotransmitter is removed from the synaptic cleft are:",
+          "options": [
+            "Exocytosis and diffusion",
+            "Myelination and reuptake",
+            "Enzyme breakdown and reuptake",
+            "Binding and exocytosis"
+          ],
+          "answerIndex": 2,
+          "explanation": "Enzymes destroy it or the terminal takes it back. Exocytosis is release, the opposite of removal."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider these statements. I. Receptors may be excitatory, inhibitory or modulatory. II. A single transmitter can only ever have one effect. III. Deactivation allows the postsynaptic cell to respond to new signals. Which are correct?",
+          "options": [
+            "I and II only",
+            "I and III only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 1,
+          "explanation": "I and III are true. II is false because the same transmitter can excite one target and inhibit another, depending on the receptor."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which pairing of neurotransmitter and abbreviation or role is NOT correct?",
+          "options": [
+            "Noradrenaline: NE",
+            "Serotonin: 5-HT",
+            "GABA: main excitatory transmitter",
+            "Acetylcholine: ACh"
+          ],
+          "answerIndex": 2,
+          "explanation": "GABA is the main inhibitory transmitter. The abbreviations in the other options are all correct."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A poison blocks the enzyme that breaks down acetylcholine at the junctions between nerves and muscles. What would you predict?",
+          "options": [
+            "Muscles would relax completely because no acetylcholine is released",
+            "Vesicles would stop forming",
+            "The synapse would become electrical",
+            "Acetylcholine would build up, causing excessive muscle stimulation"
+          ],
+          "answerIndex": 3,
+          "explanation": "Without breakdown, acetylcholine lingers and over-stimulates the muscle. Release still happens, so the first option has the logic backwards."
+        }
+      ]
+    },
+    {
+      "name": "Glia and support structures",
+      "lesson": {
+        "title": "The brain's support team",
+        "minutes": 10,
+        "hook": "Neurons get all the attention, but they would die within minutes without a crowd of helper cells, a private blood supply and a fluid cushion.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Glia: more than glue",
+            "body": "The spaces between neurons are filled with support cells called **glia**, from the Greek word for **glue**. Early scientists thought they simply held neurons together. We now know they do far more.\n\nUnlike most mature neurons, glia **can divide** and form new cells. Older textbooks put the ratio at 10 to 50 glia per neuron; more recent careful counts suggest the numbers are closer to equal. Either way, glia are a huge part of the brain.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "shield",
+                  "label": "Support"
+                },
+                {
+                  "icon": "layers",
+                  "label": "Insulate"
+                },
+                {
+                  "icon": "medkit",
+                  "label": "Clean up"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Large glia and small glia",
+            "body": "Glia are grouped by size. The **macroglia** are the larger types: **astrocytes**, **oligodendrocytes** and **Schwann cells**. The **microglia** are small cells that act as the brain's clean-up and defence crew.\n\nBe careful: some study notes list astrocytes, oligodendrocytes and Schwann cells under microglia. Standard textbooks treat them as macroglia; microglia are a separate, smaller cell type.",
+            "visual": {
+              "type": "pyramid",
+              "levels": [
+                "Glia",
+                "Macroglia",
+                "Astrocytes, oligodendrocytes, Schwann",
+                "Microglia: clean-up"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Astrocytes: the star helpers",
+            "body": "**Astrocytes** are named for their **star shape** and are the most common glia in the brain. They are thought to:\n\n- mop up excess transmitter and ions, keeping the space around neurons free of chemical 'noise';\n- supply glucose to very active neurons;\n- redirect blood flow, and so oxygen, to busy brain regions;\n- help regulate synapses.\n\nWhat is certain is that after minor brain damage, astrocytes clear away dying neurons, helping to limit the spread of toxic substances.",
+            "visual": {
+              "type": "brain",
+              "region": "whole-brain",
+              "label": "Astrocytes everywhere"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Which glial cell is the most common in the brain and helps keep the space around neurons free of excess transmitter?",
+            "options": [
+              "Schwann cell",
+              "Oligodendrocyte",
+              "Astrocyte",
+              "Microglia"
+            ],
+            "answerIndex": 2,
+            "why": "Astrocytes are the most common glia and clear excess transmitter and ions. Schwann cells and oligodendrocytes make myelin."
+          },
+          {
+            "kind": "teach",
+            "heading": "Myelin makers",
+            "body": "**Myelin** is a fatty wrapping of tightly packed membrane layers around some axons. It insulates them so impulses travel much faster.\n\n**Oligodendrocytes** make myelin in the **central nervous system** (brain and spinal cord). One oligodendrocyte sends out several arms, each wrapping a segment of a different axon, so a single cell can myelinate many axons.\n\n**Schwann cells** make myelin in the **peripheral nervous system**. Each Schwann cell wraps just one segment of **one axon**, so a peripheral nerve needs very many of them.",
+            "visual": {
+              "type": "neuron",
+              "part": "myelin",
+              "label": "Insulation speeds signals"
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Oligodendrocytes versus Schwann cells",
+            "left": {
+              "title": "Oligodendrocytes",
+              "points": [
+                "Central nervous system",
+                "One cell myelinates many axons",
+                "Do not guide axon regrowth"
+              ]
+            },
+            "right": {
+              "title": "Schwann cells",
+              "points": [
+                "Peripheral nervous system",
+                "One cell myelinates one axon",
+                "Help guide regrowth of damaged axons"
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "When myelin breaks down",
+            "story": "Mrs Adeyemi, a teacher in Ibadan, first notices blurred vision and tingling in her legs. Months later she tires very easily and struggles on the stairs. Tests show patches of damaged myelin in her brain and spinal cord: she has multiple sclerosis. Her neurons are alive, but their signals now travel slowly and unreliably.",
+            "takeaway": "Multiple sclerosis shows how vital myelin is: losing it disrupts signalling and causes symptoms from fatigue to serious mobility problems."
+          },
+          {
+            "kind": "check",
+            "question": "A man injures a nerve in his forearm and slowly regains feeling. Which glial cell most helped the damaged axons regrow?",
+            "options": [
+              "Oligodendrocytes",
+              "Schwann cells",
+              "Astrocytes",
+              "Microglia"
+            ],
+            "answerIndex": 1,
+            "why": "The forearm nerve is peripheral, and Schwann cells guide axon regrowth there. Oligodendrocytes in the CNS lack this ability, one reason spinal cord injuries heal so poorly."
+          },
+          {
+            "kind": "teach",
+            "heading": "Microglia, blood and cushions",
+            "body": "**Microglia** are the brain's clean-up crew. They move to sites of injury and digest the debris left by dying cells.\n\nThe brain also gets a **privileged blood supply**: it is about 2% of body weight yet uses roughly a fifth of the body's oxygen. Its blood vessels are special, because they will not let large molecules pass through their walls (the **blood–brain barrier**).\n\nFinally, the CNS is wrapped in membranes called the **meninges**, filled with **cerebrospinal fluid**. Together they act as a **shock absorber** against bumps and jolts.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "medkit",
+                  "label": "Microglia clean"
+                },
+                {
+                  "icon": "heart",
+                  "label": "Rich blood supply"
+                },
+                {
+                  "icon": "shield",
+                  "label": "Meninges and CSF"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Matching questions are common: which glia makes myelin where, which guides regrowth, which cleans debris. Traps: swapping oligodendrocytes (CNS) with Schwann cells (PNS), and forgetting that meninges and CSF protect the brain mechanically. Use the correct spelling 'oligodendrocyte' in essays.",
+            "sampleQuestion": "Describe the types of glial cells and their functions. Why is myelin important for behaviour?",
+            "howToAnswer": "Cover astrocytes, oligodendrocytes, Schwann cells and microglia with one function each, then use multiple sclerosis to show that losing myelin disrupts signalling and behaviour.",
+            "scholars": [
+              "Freberg (2006)",
+              "Bloom et al. (2001)",
+              "Peters, Palay & Webster (1991)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Glia ('glue') support neurons and, unlike most neurons, can divide.",
+              "Astrocytes: most common; clear chemical noise, feed neurons, clean up damage.",
+              "Oligodendrocytes myelinate CNS axons; Schwann cells myelinate PNS axons.",
+              "Schwann cells guide axon regrowth; oligodendrocytes do not.",
+              "Microglia clean debris; blood vessels, meninges and CSF protect the brain."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The name 'glia' comes from a Greek word meaning:",
+          "options": [
+            "Star",
+            "Tree",
+            "Glue",
+            "Shield"
+          ],
+          "answerIndex": 2,
+          "explanation": "Glia means glue, reflecting the old belief that they just held neurons together. 'Star' is the root of astrocyte."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which glial cells make myelin in the peripheral nervous system?",
+          "options": [
+            "Schwann cells",
+            "Oligodendrocytes",
+            "Astrocytes",
+            "Microglia"
+          ],
+          "answerIndex": 0,
+          "explanation": "Schwann cells myelinate peripheral axons. Oligodendrocytes do the same job inside the brain and spinal cord."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The main job of microglia is to:",
+          "options": [
+            "Produce neurotransmitters",
+            "Make myelin",
+            "Carry action potentials",
+            "Clean up debris from dying cells"
+          ],
+          "answerIndex": 3,
+          "explanation": "Microglia are the brain's clean-up crew. Myelin is made by oligodendrocytes and Schwann cells."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which statement about glia and neurons is correct?",
+          "options": [
+            "Neurons divide readily, but glia cannot",
+            "Glia can divide and form new cells, unlike most mature neurons",
+            "Neither glia nor neurons can ever divide",
+            "Glia are found only in the peripheral nervous system"
+          ],
+          "answerIndex": 1,
+          "explanation": "Glia keep the ability to divide, while most mature neurons do not. Glia are found throughout the nervous system."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The main function of myelin is to:",
+          "options": [
+            "Store neurotransmitters",
+            "Supply glucose to neurons",
+            "Insulate axons so impulses travel faster",
+            "Digest dead cells"
+          ],
+          "answerIndex": 2,
+          "explanation": "Myelin is insulation that speeds conduction. Supplying glucose is thought to be an astrocyte role."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The meninges and cerebrospinal fluid mainly serve to:",
+          "options": [
+            "Cushion the brain and spinal cord against shocks",
+            "Transmit nerve impulses",
+            "Produce myelin",
+            "Store memories"
+          ],
+          "answerIndex": 0,
+          "explanation": "They form a fluid-filled shock absorber around the CNS. Producing myelin is a glial job."
+        },
+        {
+          "difficulty": 3,
+          "stem": "After a mild head injury, cells move to the damaged area and remove dying neurons, helping to stop toxic substances spreading. Which cells are most likely responsible?",
+          "options": [
+            "Schwann cells and oligodendrocytes",
+            "Sensory and motor neurons",
+            "Astrocytes and microglia",
+            "Synaptic vesicles"
+          ],
+          "answerIndex": 2,
+          "explanation": "Astrocytes scavenge dying neurons and microglia digest debris. Schwann cells and oligodendrocytes make myelin."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Chukwudi's doctor says his symptoms come from progressive loss of myelin in his brain and spinal cord. The condition is most likely:",
+          "options": [
+            "Epilepsy",
+            "Multiple sclerosis",
+            "Stroke",
+            "Hypertension"
+          ],
+          "answerIndex": 1,
+          "explanation": "Multiple sclerosis is a progressive demyelinating disease. A stroke results from interrupted blood supply, not myelin loss."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A drug in the blood is made of very large molecules. Why might it fail to reach the brain?",
+          "options": [
+            "The brain receives very little blood",
+            "Astrocytes digest all drugs",
+            "Myelin blocks every chemical",
+            "Brain blood vessels do not let large molecules cross their walls"
+          ],
+          "answerIndex": 3,
+          "explanation": "The blood vessels of the CNS block large molecules (the blood–brain barrier). The brain actually gets a privileged share of blood."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which of the following is a key difference between oligodendrocytes and Schwann cells?",
+          "options": [
+            "One oligodendrocyte can myelinate many axons, but one Schwann cell myelinates only one",
+            "Oligodendrocytes work in the PNS and Schwann cells in the CNS",
+            "Only oligodendrocytes help damaged axons regrow",
+            "Schwann cells do not make myelin"
+          ],
+          "answerIndex": 0,
+          "explanation": "An oligodendrocyte sends arms to several axons, while a Schwann cell wraps one. The locations and regrowth roles in the other options are reversed."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are proposed functions of astrocytes EXCEPT:",
+          "options": [
+            "Removing excess transmitter and ions",
+            "Supplying glucose to active neurons",
+            "Making myelin around peripheral axons",
+            "Redirecting blood flow to busy regions"
+          ],
+          "answerIndex": 2,
+          "explanation": "Peripheral myelin is made by Schwann cells. The other three are suggested astrocyte roles."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Damage to the spinal cord tends to heal far worse than damage to a peripheral nerve. Which fact best explains this?",
+          "options": [
+            "The spinal cord has no myelin",
+            "Oligodendrocytes in the CNS lack the Schwann cells' ability to guide axon regrowth",
+            "Peripheral nerves have no glia",
+            "Microglia only work in the spinal cord"
+          ],
+          "answerIndex": 1,
+          "explanation": "Schwann cells guide regrowth in the PNS, but CNS oligodendrocytes cannot. The spinal cord does have myelin, made by oligodendrocytes."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider these statements. I. Astrocytes are named for their star shape. II. Schwann cells myelinate axons in the brain. III. Microglia can move to sites of injury. Which are correct?",
+          "options": [
+            "I and II only",
+            "II and III only",
+            "I, II and III",
+            "I and III only"
+          ],
+          "answerIndex": 3,
+          "explanation": "I and III are true. II is false: Schwann cells work in the peripheral nervous system, while oligodendrocytes myelinate brain axons."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which pairing of support element and function is correctly matched?",
+          "options": [
+            "Cerebrospinal fluid: guides axon regrowth",
+            "Oligodendrocyte: digests cell debris",
+            "Astrocyte: keeps the space around neurons free of chemical noise",
+            "Schwann cell: forms the blood–brain barrier"
+          ],
+          "answerIndex": 2,
+          "explanation": "Astrocytes clear excess transmitter and ions. Regrowth is guided by Schwann cells, and debris is digested by microglia."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A researcher notes that the brain is about 2% of body weight but uses about a fifth of the body's oxygen. The best conclusion is that:",
+          "options": [
+            "Brain tissue is highly active and depends on a privileged blood supply",
+            "The brain stores oxygen for the rest of the body",
+            "Muscles need no oxygen when the brain is active",
+            "The brain's vessels let every molecule pass freely"
+          ],
+          "answerIndex": 0,
+          "explanation": "Such high demand shows how metabolically active neurons are and why the brain receives a privileged share of blood. Its vessels actually restrict large molecules."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,485 @@
+{
+  "unit": 1,
+  "title": "Ethnicity and Race",
+  "summary": "What ethnicity and race mean, how ethnic consciousness, culture and identity form, and the key differences between ethnicity and race.",
+  "sections": [
+    {
+      "name": "Ethnicity and ethnic consciousness",
+      "lesson": {
+        "title": "What makes a people a people?",
+        "minutes": 10,
+        "hook": "Nigeria has well over 250 ethnic groups living inside one passport. So what exactly makes someone Igbo, Tiv, Ijaw or Kanuri: blood, language, food, or simply believing you belong?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Where the word comes from",
+            "body": "**Ethnicity** comes from Greek. *Ethnos* meant a people, nation or tribe, and its adjective *ethnikos* meant 'of the nation'. So from the start, the word was about belonging to a people.\n\nToday, ethnicity means a person's **affiliation with a group** that is usually believed to share common ancestry. Notice the word *believed*: the shared origin is often presumed rather than proven, yet it still binds people together.",
+            "visual": {
+              "type": "flow",
+              "nodes": ["Ethnos: a people", "Ethnikos: of nation", "Ethnicity"]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "What members of an ethnic group share",
+            "body": "Members of an ethnic group usually share some mix of **culture, language, religion and customs**, and they form a recognisable group inside a bigger country.\n\nBecause people have often married within their own group, a practice called **endogamy**, some physical resemblance can also build up over generations. Family expectations and the comfort of a shared culture keep that pattern going.\n\nEthnicity also shapes food, music and ceremonies, and through them, how members see and respond to the world.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                { "icon": "chatbubbles", "label": "Language" },
+                { "icon": "book", "label": "Customs" },
+                { "icon": "people", "label": "Shared ancestry" },
+                { "icon": "heart", "label": "Marrying within" }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "A community where people mostly marry within their own ethnic group is practising:",
+            "options": ["Exogamy", "Endogamy", "Assimilation", "Pseudosubspeciation"],
+            "answerIndex": 1,
+            "why": "Endogamy means marrying within your own group. Exogamy is the opposite: marrying outside it."
+          },
+          {
+            "kind": "compare",
+            "heading": "Two dimensions of ethnicity",
+            "left": {
+              "title": "Attributional dimension",
+              "points": [
+                "What the group is like",
+                "Its culture, diet, dress, language",
+                "The usual focus of social science",
+                "Basis for personal ethnic identity"
+              ]
+            },
+            "right": {
+              "title": "Relational dimension",
+              "points": [
+                "How the group relates to society",
+                "Majority or minority position",
+                "Power, inclusion or exclusion",
+                "Often left out of definitions"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Why the relational side matters",
+            "body": "Most definitions describe only the **attributional** side: the traits that mark a group out. But a group's experience also depends on its **relational** position: is it large or small, powerful or marginal, welcomed or excluded in the wider society?\n\nThe same cultural group can live very differently depending on where it sits. Being a minority in one state and a majority in another changes daily life, even if food and language stay the same.",
+            "visual": {
+              "type": "venn",
+              "left": "Group traits",
+              "right": "Place in society",
+              "both": "Ethnicity"
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Same culture, different position",
+            "story": "Ngozi's family speaks Igbo, eats ofe onugbu and celebrates the New Yam festival in Enugu, where most neighbours share these ways. Her cousin Obinna lives in Sokoto, where the family is a small minority. Same language, same food, same festival. Yet Obinna is more often reminded that he is 'from somewhere else', and his family is more careful about how they present themselves.",
+            "takeaway": "The attributes are identical; the relational dimension, the group's position in its society, is what differs."
+          },
+          {
+            "kind": "terms",
+            "heading": "Three terms students mix up",
+            "terms": [
+              { "term": "Ethnic consciousness", "meaning": "The process by which a person or community comes to see itself as distinct from others" },
+              { "term": "Ethnic culture", "meaning": "The material objects a particular ethnic group uses in its own way, until those objects come to stand for the group" },
+              { "term": "Ethnic identity", "meaning": "An individual's belief that he or she belongs to one or more ethnic groups" }
+            ]
+          },
+          {
+            "kind": "teach",
+            "heading": "How ethnic consciousness grows",
+            "body": "**Ethnic consciousness** is not a fixed fact; it is a *process*. A group gradually comes to understand itself as different from its neighbours.\n\nRituals, festivals, dress and other shared behaviour carry that awareness. Taken together, these patterns of behaviour form the content of the group's ethnic culture. Each time a naming ceremony or masquerade is performed, members are reminded: *this is who we are, and those others are not quite like us*.",
+            "visual": {
+              "type": "cycle",
+              "nodes": ["Shared rituals", "Sense of difference", "Group culture", "Stronger identity"]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Adamu says: 'I am Hausa through my father and Fulani through my mother, and I feel both.' He is describing his:",
+            "options": ["Ethnic culture", "Relational dimension", "Ethnic identity", "Endogamy"],
+            "answerIndex": 2,
+            "why": "Ethnic identity is a person's belief that he belongs to one or more ethnic groups, so it can be plural. Ethnic culture refers to the objects and practices of the group, not his personal belief."
+          },
+          {
+            "kind": "teach",
+            "heading": "When objects become the people",
+            "body": "**Ethnic culture** in this course has a specific meaning: the set of material objects that a group uses in its own distinctive way. Over time the object and the people become linked in everyone's mind.\n\nThink of aso-oke, the akwete cloth, or the babban riga. When you see the object, you think of the group. That is why material culture is so powerful in ethnic relations: it makes identity visible.",
+            "visual": {
+              "type": "flow",
+              "nodes": ["Object used", "Linked to group", "Symbol of people"]
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Lecturers love giving a definition and asking you to name the term. The trap is confusing ethnic consciousness (a process of seeing yourself as different) with ethnic culture (material objects) and ethnic identity (one person's sense of belonging). They also test the Greek origin and the two dimensions.",
+            "sampleQuestion": "'The process involving rituals and patterns of behaviour by which a community comes to see itself as distinct' is: A. Ethnic culture B. Ethnicity C. Ethnic consciousness D. Race",
+            "howToAnswer": "Look for the key word 'process' and 'distinct from others': that points to ethnic consciousness (C). Ethnic culture is about objects; race is about physical traits.",
+            "scholars": ["Johnson (2000), Blackwell Dictionary of Sociology"]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Ethnicity comes from Greek ethnos (a people) and ethnikos (of the nation).",
+              "It means affiliation with a group believed to share ancestry and culture.",
+              "Endogamy keeps cultural and some physical similarity within a group.",
+              "Attributional dimension = group traits; relational = its position in society.",
+              "Consciousness is a process; culture is objects; identity is personal belief."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The Greek word from which 'ethnicity' is derived refers mainly to:",
+          "options": ["A people or nation", "A skin colour", "A religious order", "A trading guild"],
+          "answerIndex": 0,
+          "explanation": "Ethnos meant a people, nation or tribe, and ethnikos was its adjective. Skin colour is linked to the idea of race, not to the root of ethnicity."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Ethnicity is best described as a person's affiliation with a group that is usually based on:",
+          "options": ["Proven identical genes", "Presumed common ancestry", "Citizenship of one country", "Membership of a political party"],
+          "answerIndex": 1,
+          "explanation": "Ethnic groups are usually bound by a belief in shared ancestry, which may not be proven. Citizenship is a legal status and can cut across many ethnic groups."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which of the following is NOT usually something members of an ethnic group share?",
+          "options": ["Language", "Customs and festivals", "A single blood group", "Food traditions"],
+          "answerIndex": 2,
+          "explanation": "Ethnic groups commonly share language, customs and foods. Blood groups vary within every human population, so no ethnic group shares just one."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The attributional dimension of ethnicity focuses on:",
+          "options": ["The group's power relative to other groups", "The group's position in the wider society", "Laws that govern relations between groups", "The distinctive sociocultural traits of the group"],
+          "answerIndex": 3,
+          "explanation": "Attributional means the traits a group has, such as culture and diet. Power and position in society belong to the relational dimension."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Why does the course argue that most social science definitions of ethnicity are incomplete?",
+          "options": ["They ignore language entirely", "They describe group traits but neglect the group's relationship with society", "They define ethnicity purely in biological terms", "They treat ethnicity as identical to nationality"],
+          "answerIndex": 1,
+          "explanation": "Most definitions capture only the attributional side. The two-dimensional view adds the relational side: how the group stands within its society."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Over many generations, endogamy within an ethnic group tends to:",
+          "options": ["Erase the group's cultural distinctiveness", "Make the group a separate biological race", "Increase shared physical features and cultural familiarity", "Prevent any form of ethnic identity"],
+          "answerIndex": 2,
+          "explanation": "Marrying within the group keeps some physical resemblance and cultural familiarity. It does not create a separate race; humans remain one species."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Whenever people see the akwete cloth at a wedding in Lagos, they think of a particular group from Abia State. This best illustrates:",
+          "options": ["Ethnic culture", "Ethnic identity", "The relational dimension", "Ethnic consciousness"],
+          "answerIndex": 0,
+          "explanation": "Ethnic culture refers to material objects used distinctively by a group until they come to stand for the group. Ethnic identity would be an individual's own sense of belonging."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Over decades of annual festivals and masquerades, a small community begins to see itself as clearly different from its neighbours. This process is called:",
+          "options": ["Endogamy", "Ethnic culture", "Pseudosubspeciation", "Ethnic consciousness"],
+          "answerIndex": 3,
+          "explanation": "Ethnic consciousness is the process of coming to see oneself as distinct, carried by rituals and shared behaviour. Ethnic culture refers to the group's distinctive material objects."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Two families share the same language, food and festivals, but one lives as a small minority in another region and faces more exclusion. The difference between them lies mainly in the:",
+          "options": ["Attributional dimension", "Relational dimension", "Ethnic culture", "Ethnic origin"],
+          "answerIndex": 1,
+          "explanation": "Their traits (attributional side) are identical; what differs is their position in the society around them, the relational dimension."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement about ethnic identity is CORRECT?",
+          "options": ["It must match the ethnic group of one's father", "It is the same thing as ethnic culture", "It can involve belonging to more than one ethnic group", "It is decided by physical features alone"],
+          "answerIndex": 2,
+          "explanation": "Ethnic identity is an individual's belief in belonging to one or more groups, so a child of mixed parentage can hold two. It is personal belief, not material objects (ethnic culture) or physical traits."
+        },
+        {
+          "difficulty": 4,
+          "stem": "A student defines ethnic consciousness as 'the set of objects distinctively used by an ethnic group'. The lecturer marks it wrong because the student has actually defined:",
+          "options": ["Ethnic identity", "Ethnicity", "The relational dimension", "Ethnic culture"],
+          "answerIndex": 3,
+          "explanation": "Distinctive material objects are ethnic culture. Ethnic consciousness is the process by which a group comes to see itself as different from others."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are true of ethnicity as described in this course EXCEPT that it:",
+          "options": ["Is defined strictly by proven biological descent", "Shapes how a group interprets the world", "Can form an identifiable group within a nation-state", "Influences food, music and religion"],
+          "answerIndex": 0,
+          "explanation": "Ethnicity rests on presumed, not proven, common ancestry and is largely cultural. The other options are all features the course attributes to ethnicity."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider these statements: I. Ethnic consciousness is a process. II. Ethnic culture refers to an individual's sense of belonging. III. The relational dimension concerns a group's position in society. Which are correct?",
+          "options": ["I and II only", "II and III only", "I and III only", "I, II and III"],
+          "answerIndex": 2,
+          "explanation": "I and III are correct. Statement II is wrong because an individual's sense of belonging is ethnic identity; ethnic culture is the group's distinctive material objects."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which pair is correctly matched?",
+          "options": ["Attributional dimension: majority or minority status", "Ethnic identity: rituals that define group culture", "Endogamy: marriage outside one's group", "Ethnic consciousness: coming to see one's community as distinct"],
+          "answerIndex": 3,
+          "explanation": "Ethnic consciousness is the process of seeing one's group as distinct. Majority status is relational, rituals belong to consciousness, and endogamy means marriage within the group."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A researcher compares Yoruba communities in Oyo and in a northern city. Cultural practices are almost identical, but levels of felt ethnic distinctiveness differ sharply. She would most likely conclude that:",
+          "options": ["Ethnicity is purely attributional", "The relational setting shapes ethnic experience", "Ethnic culture has disappeared in one group", "Endogamy explains the whole difference"],
+          "answerIndex": 1,
+          "explanation": "Same attributes but different felt distinctiveness points to the relational dimension: the group's position in its society. A purely attributional view would predict no difference."
+        }
+      ]
+    },
+    {
+      "name": "Race, racism and the difference",
+      "lesson": {
+        "title": "Race: one species, many labels",
+        "minutes": 10,
+        "hook": "Genetic studies show that most human genetic variation lies within populations, not between so-called races. So why does skin colour still shape how we treat each other?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "How race is usually defined",
+            "body": "**Race** has traditionally been defined by visible physical traits: **skin colour, hair texture and facial features**. The old assumption was that these differences had a biological basis and even extended to behaviour and ability.\n\nThat assumption is the problem. Physical traits are real, but sorting people into fixed races and attaching abilities to each has been widely criticised as an **arbitrary social construction**.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                { "icon": "person", "label": "Skin colour" },
+                { "icon": "eye", "label": "Facial features" },
+                { "icon": "warning", "label": "Assumed abilities" }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "One human race",
+            "body": "The scientific evidence points to **one human race** with many variations. Most genetic variation exists *within* so-called racial groups, not between them, a finding associated with Lewontin's 1972 analysis.\n\nTreating these variations as if they were separate sub-species is called **pseudosubspeciation**: 'pseudo' because it is false. The categories feel natural because skin colour is the most visible difference among us, but visibility is not the same as deep biological division.",
+            "visual": {
+              "type": "stat",
+              "value": "1",
+              "label": "Human race, many variations"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Treating human physical variations as if they marked separate biological sub-species is called:",
+            "options": ["Endogamy", "Ethnic consciousness", "Anti-racism", "Pseudosubspeciation"],
+            "answerIndex": 3,
+            "why": "Pseudosubspeciation means falsely dividing one species into sub-species. Endogamy is marrying within a group, not a way of classifying people."
+          },
+          {
+            "kind": "teach",
+            "heading": "From labels to racism",
+            "body": "Race is rarely a neutral label. It usually travels with **stereotypes**: fixed, oversimplified beliefs about what members are like.\n\n**Racism and prejudice** involve forming unfounded, often inaccurate opinions about a group and then acting with bias against its members. Racism rests on two mistaken ideas: that humans fall into clear-cut races, and that those races differ in abilities. Once accepted, these ideas seem to give people permission to treat groups differently.",
+            "visual": {
+              "type": "flow",
+              "nodes": ["Racial label", "Stereotype", "Prejudice", "Biased treatment"]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Race, power and history",
+            "body": "Because skin colour is so visible, it has been used to rank people. **Colonialism** and the Atlantic slave trade built systems where one racial group held power and others were placed beneath them, creating a **dominant group and a subordinate group**.\n\nThat is why race often signals **status** and brings power differences into everyday interaction. The response to this is **anti-racism**: working to remove prejudiced attitudes against people because of their race.",
+            "visual": {
+              "type": "scale",
+              "left": "Dominant group",
+              "right": "Subordinate group",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Being 'Yoruba' in the 1800s",
+            "story": "In the nineteenth century, many freed Africans resettled in Freetown and Lagos. Someone whose ancestors came from Yorubaland could be called Yoruba, even if that person had been born abroad and had never set foot in Oyo or Abeokuta. Belonging was traced through descent and inherited stock, not personal experience of the land.",
+            "takeaway": "The older use of 'race' meant inherited stock plus culture, which shows how loosely and socially the term has been applied."
+          },
+          {
+            "kind": "check",
+            "question": "Forming unfounded opinions about a group and then acting with bias against its members best describes:",
+            "options": ["Ethnic culture", "Racism and prejudice", "Pseudosubspeciation", "Ethnic identity"],
+            "answerIndex": 1,
+            "why": "Racism and prejudice combine inaccurate beliefs with biased behaviour. Pseudosubspeciation is the false classification that racism often relies on, not the biased behaviour itself."
+          },
+          {
+            "kind": "compare",
+            "heading": "Ethnicity versus race",
+            "left": {
+              "title": "Ethnicity",
+              "points": [
+                "Based on shared culture and history",
+                "Norms, values, language, customs",
+                "Can exist despite physical differences",
+                "Learned and shared through interaction"
+              ]
+            },
+            "right": {
+              "title": "Race",
+              "points": [
+                "Based on visible physical traits",
+                "Assumes biological difference",
+                "Often tied to status and power",
+                "Frequently carries stereotypes"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Why the terms get blurred",
+            "body": "Inside and outside psychology, people use **ethnicity, culture and race** almost interchangeably. Because race is controversial, writers often say 'ethnicity' when they mean broad groups such as people of African, Asian or European descent.\n\nKeep them apart in exams. Ethnicity is about **shared culture**: norms, values, attitudes and meanings rooted in common history. When members interact, ethnicity becomes the channel through which **culture is passed on**. Race is about presumed **physical** difference.",
+            "visual": {
+              "type": "venn",
+              "left": "Ethnicity: culture",
+              "right": "Race: physical traits",
+              "both": "Group boundaries"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Ethnic theory and anti-racism",
+            "body": "**Ethnic theory** does two jobs. It explains how social conflicts between groups arise, and it suggests ways of overcoming those divisions.\n\nThose suggestions were later applied to racial discrimination, for instance exclusion between white and non-white people. So ideas developed for ethnic relations fed directly into anti-racist thinking: if prejudice is learned, it can be challenged and unlearned.",
+            "visual": {
+              "type": "flow",
+              "nodes": ["Explain conflict", "Prescribe remedies", "Apply to racism"]
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'distinguish between ethnicity and race' as a short essay worth four points, and objectives on pseudosubspeciation and racism. The trap is saying race is a proven biological category, or writing that ethnicity is about skin colour. Give clear contrasting pairs.",
+            "sampleQuestion": "Mention four basic differences between ethnicity and race, and explain why the concept of race is considered controversial.",
+            "howToAnswer": "Contrast culture vs physical traits, learned vs presumed biological, shared history vs status/power, identity vs stereotype. Then explain that evidence shows one human race, so racial categories are social constructions.",
+            "scholars": ["Lewontin (1972)", "Zuckerman (1990)", "Gilovich, Keltner & Nisbett (2006)"]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Race is defined by visible traits with presumed biological basis.",
+              "Evidence points to one human race; racial categories are social constructions.",
+              "Pseudosubspeciation falsely treats variations as sub-species.",
+              "Racism and prejudice: unfounded opinions leading to biased treatment.",
+              "Ethnicity = shared culture; race = presumed physical difference and status."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Race has generally been defined with reference to:",
+          "options": ["Shared festivals and rituals", "Language and dialect", "Physical traits such as skin colour and hair type", "Religious beliefs"],
+          "answerIndex": 2,
+          "explanation": "Race is traditionally tied to visible physical features with a presumed biological basis. Festivals, language and religion are markers of ethnicity."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Current scientific evidence suggests that humanity is best described as:",
+          "options": ["One human race with many variations", "Three distinct biological races", "Five sub-species with different abilities", "Many races separated by language"],
+          "answerIndex": 0,
+          "explanation": "The evidence points to a single human race, with most genetic variation found within groups. The idea of fixed sub-species is pseudosubspeciation."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Anti-racism refers to:",
+          "options": ["Separating racial groups to avoid conflict", "Studying genetic differences between races", "Encouraging marriage only within one's race", "Eliminating prejudiced attitudes against people because of their race"],
+          "answerIndex": 3,
+          "explanation": "Anti-racism aims to remove race-based prejudice. Separating groups would maintain the very divisions anti-racism challenges."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The classification of people into races has been criticised mainly because it is:",
+          "options": ["Too recent to be studied", "An arbitrary social construction", "Based only on language", "Supported by all genetic evidence"],
+          "answerIndex": 1,
+          "explanation": "Critics argue that the lines between 'races' are drawn arbitrarily by society, not by clear biology. Genetic evidence actually undermines sharp racial divisions."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Why does race often carry power differences in social interaction?",
+          "options": ["Because races differ in intelligence", "Because skin colour determines culture", "Because history, such as colonialism, ranked groups into dominant and subordinate positions", "Because ethnic groups always share the same race"],
+          "answerIndex": 2,
+          "explanation": "Colonial and slave-trade histories built hierarchies around visible difference, so race came to signal status. The claim that races differ in intelligence is the mistaken premise of racism."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The prefix 'pseudo' in pseudosubspeciation signals that the division of humans into sub-species is:",
+          "options": ["False", "Ancient", "Cultural", "Partial"],
+          "answerIndex": 0,
+          "explanation": "Pseudo means false. The term criticises treating human variation as if it marked real sub-species."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A landlord in Abuja refuses tenants of a particular skin colour, believing they are 'naturally untidy', without ever meeting them. This best illustrates:",
+          "options": ["Ethnic consciousness", "Anti-racism", "Endogamy", "Racism and prejudice"],
+          "answerIndex": 3,
+          "explanation": "An unfounded belief about a group followed by biased action is racism and prejudice. Ethnic consciousness is a group's own sense of being distinct, not hostility to others."
+        },
+        {
+          "difficulty": 3,
+          "stem": "In the nineteenth century a person born in Freetown to parents from Yorubaland was described as Yoruba despite never visiting the area. This reflects the older idea of race as:",
+          "options": ["Skin colour alone", "Inherited stock together with culture", "Place of birth", "Present citizenship"],
+          "answerIndex": 1,
+          "explanation": "The older usage traced race through descent and inherited stock plus culture, not personal residence. Place of birth was clearly not the deciding factor here."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A writer refers to 'people of African descent' as an ethnic group, avoiding the word race. According to the course, writers often do this because:",
+          "options": ["Ethnicity and race mean exactly the same", "Race has been abolished in law", "The concept of race is controversial", "Ethnicity refers only to skin colour"],
+          "answerIndex": 2,
+          "explanation": "Because race is contested, 'ethnicity' is often used for broad groups. The terms are not truly identical, which is why the course separates them."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which of the following is NOT a valid difference between ethnicity and race?",
+          "options": ["Ethnicity rests on culture; race on presumed physical difference", "Race often signals status; ethnicity signals shared heritage", "Ethnicity is biological; race is cultural", "Race tends to attract stereotypes based on appearance"],
+          "answerIndex": 2,
+          "explanation": "This reverses the distinction: ethnicity is mainly cultural, while race assumes biological difference. The other options are accurate contrasts."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Racism, according to the course, rests on which pair of mistaken assumptions?",
+          "options": ["Humans fall into clear races, and these races differ in ability", "Culture is learned, and language is inherited", "All groups are equal, and all should be integrated", "Ethnicity is cultural, and race is social"],
+          "answerIndex": 0,
+          "explanation": "Racism assumes clear-cut races and different abilities among them, which together seem to justify unequal treatment. The last option is close to the course's own view, not racism's."
+        },
+        {
+          "difficulty": 4,
+          "stem": "When members of an ethnic group interact with one another, ethnicity becomes the means through which ______ is transmitted.",
+          "options": ["Race", "Pseudosubspeciation", "Prejudice", "Culture"],
+          "answerIndex": 3,
+          "explanation": "Interaction within the group passes on its culture: norms, values and customs. Race is about physical traits and is not transmitted through interaction."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider: I. Ethnic theory explains how intergroup conflicts arise. II. Ethnic theory prescribes ways of overcoming divisions. III. Ethnic theory proves that races differ biologically. Which are correct?",
+          "options": ["I only", "I and II only", "II and III only", "I, II and III"],
+          "answerIndex": 1,
+          "explanation": "Ethnic theory both describes conflict and prescribes remedies, which were later applied to racial discrimination. It does not prove biological racial differences; III is false."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A researcher finds that genetic differences among people within one Nigerian state exceed the average differences between Nigerians and Europeans. She would most likely conclude that:",
+          "options": ["Racial categories capture deep biological divisions", "Ethnicity is purely genetic", "Racial categories are largely social constructions", "Skin colour predicts behaviour"],
+          "answerIndex": 2,
+          "explanation": "Greater variation within groups than between them undermines race as a deep biological category, supporting the social-construction view. It says nothing about ethnicity being genetic."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which concept is correctly paired with its description in race studies?",
+          "options": ["Race: shared norms and values from common history", "Stereotyping: often accompanies racial labels", "Anti-racism: belief that races should be kept apart", "Ethnic culture: physical features inherited from ancestors"],
+          "answerIndex": 1,
+          "explanation": "Race is socially linked with, and often accompanied by, stereotypes. Shared norms describe ethnicity, anti-racism opposes separation, and ethnic culture is about material objects."
+        }
+      ]
+    }
+  ]
+}

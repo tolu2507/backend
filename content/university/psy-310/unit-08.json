@@ -1,0 +1,701 @@
+{
+  "unit": 8,
+  "title": "The Body Senses",
+  "summary": "Senses beyond Aristotle's five: balance, limb position, touch, temperature and pain, plus the disputed magnetic sense and ESP.",
+  "sections": [
+    {
+      "name": "Balance and limb position",
+      "lesson": {
+        "title": "Knowing where your body is",
+        "minutes": 9,
+        "hook": "Close your eyes and touch your nose. You just did it perfectly without seeing your hand. Which sense told you where your finger was?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "More than five senses",
+            "body": "Aristotle listed five senses more than 2,000 years ago: sight, hearing, smell, taste and touch. Modern science counts at least nine or ten.\n\nThe extra ones are mostly **somasthetic** (body) senses: they tell you about your own body and where it is in space. They include the **kinaesthetic sense** (limb position and movement), the **vestibular sense** (balance), **touch**, **temperature** and **pain**. Some researchers add a possible **magnetic sense**, and a few argue for **ESP**, which remains disputed.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                { "icon": "fitness", "label": "Kinaesthetic" },
+                { "icon": "repeat", "label": "Vestibular" },
+                { "icon": "hand-left", "label": "Touch, temperature" },
+                { "icon": "warning", "label": "Pain" }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The somatosensory system",
+            "body": "The **somatosensory system** carries information about touch, body movement, pain and temperature from receptors all over the body to the brain. Its main cortical target is the **somatosensory cortex** in the **parietal lobe**, just behind the central sulcus.\n\nEach body part has its own patch of that cortex. Areas with fine sensitivity, like the lips and fingertips, get far more cortex than the back or thigh, which is why a tiny pimple on your lip feels huge.",
+            "visual": { "type": "brain", "region": "parietal-lobe", "label": "Somatosensory cortex" }
+          },
+          {
+            "kind": "teach",
+            "heading": "The vestibular system: balance",
+            "body": "The **vestibular system** tells the brain about the **position and movement of the head**, which is the basis of balance. Its organ sits in the inner ear: three **semicircular canals** (one for each plane of rotation) plus the utricle and saccule.\n\nFluid moves inside the canals when your head turns, bending hair cells that signal the movement. If the system is disturbed by infection, injury, a bad cold, motion sickness or long spells of weightlessness in space, the result is dizziness, nausea and trouble staying upright.",
+            "visual": {
+              "type": "flow",
+              "nodes": ["Head turns", "Canal fluid moves", "Hair cells bend", "Balance signal"]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "After returning from months on a space station, an astronaut struggles to stand steadily. The system most likely disrupted is the:",
+            "options": ["Kinaesthetic system", "Vestibular system", "Thermoreceptive system", "Auditory system"],
+            "answerIndex": 1,
+            "why": "Long weightlessness disturbs the vestibular organs that signal head position and balance. Kinaesthesia concerns limb position, not head orientation."
+          },
+          {
+            "kind": "example",
+            "heading": "Sade on the Lagos ferry",
+            "story": "Sade takes the ferry from Ikorodu to CMS for the first time. Inside the cabin she sees still walls and seats, but the boat keeps rocking. Within twenty minutes she is pale and sweating. Her eyes say 'we are still'; her vestibular system says 'we are moving'. Once she goes on deck and watches the horizon, the nausea eases.",
+            "takeaway": "Motion sickness is a mismatch between vestibular and visual signals; aligning them reduces the discomfort."
+          },
+          {
+            "kind": "teach",
+            "heading": "The kinaesthetic sense",
+            "body": "The **kinaesthetic sense** registers the **position and movement of your limbs**. It is why you can walk up stairs in darkness or type without looking.\n\nTwo kinds of specialised receptors supply it (Pinel, 1993). One type lies in the **tendons**, which join muscle to bone, and responds to **tension** (these are the Golgi tendon organs). The other lies within the **muscles** themselves and responds to whether the muscle is **stretched or contracted** (muscle spindles).",
+            "visual": {
+              "type": "venn",
+              "left": "Tendon receptors",
+              "right": "Muscle receptors",
+              "both": "Limb position"
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Two receptors for limb position",
+            "left": {
+              "title": "In the tendons",
+              "points": ["Tendons link muscle to bone", "Triggered by tension", "Known as Golgi tendon organs"]
+            },
+            "right": {
+              "title": "In the muscles",
+              "points": ["Lie within the muscle itself", "Triggered by stretch or contraction", "Known as muscle spindles"]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Ibrahim can button his shirt in the dark without looking at his fingers. Which sense makes this possible?",
+            "options": ["Vestibular sense", "Magnetic sense", "Kinaesthetic sense", "Thermal sense"],
+            "answerIndex": 2,
+            "why": "Knowing where your fingers are and how they move is kinaesthesia. The vestibular sense deals with head position and balance."
+          },
+          {
+            "kind": "compare",
+            "heading": "Vestibular versus kinaesthetic",
+            "left": {
+              "title": "Vestibular",
+              "points": ["Head position and movement", "Inner ear: semicircular canals", "Balance", "Upset by motion, infection, weightlessness"]
+            },
+            "right": {
+              "title": "Kinaesthetic",
+              "points": ["Limb position and movement", "Tendons and muscles", "Coordinated action", "Lets you move without looking"]
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "The classic trap is confusing vestibular with kinaesthetic: one is head and balance, the other is limbs. Lecturers also ask which receptors serve kinaesthesia and set scenarios about astronauts, ferries or spinning. Some ask you to list the body senses, so learn all of them.",
+            "sampleQuestion": "Distinguish between the vestibular and kinaesthetic senses, stating the receptor location for each.",
+            "howToAnswer": "Vestibular: head position and movement, semicircular canals in the inner ear, basis of balance. Kinaesthetic: limb position and movement, tendon receptors (tension) and muscle receptors (stretch).",
+            "scholars": ["Aristotle (five senses)", "Pinel (1993)"]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Science now recognises at least nine or ten senses, not Aristotle's five.",
+              "Somasthetic senses: kinaesthetic, vestibular, touch, temperature, pain.",
+              "Somatosensory system carries touch, movement, pain, temperature to the parietal cortex.",
+              "Vestibular: head position and balance via the semicircular canals.",
+              "Kinaesthetic: limb position via tendon (tension) and muscle (stretch) receptors."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The sense that registers the position and movement of the limbs is the:",
+          "options": ["Vestibular sense", "Kinaesthetic sense", "Cutaneous sense", "Magnetic sense"],
+          "answerIndex": 1,
+          "explanation": "Kinaesthesia tracks limb position and movement. The vestibular sense tracks head position and balance."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The original list of five senses is credited to:",
+          "options": ["Pinel", "Freberg", "Galen", "Aristotle"],
+          "answerIndex": 3,
+          "explanation": "Aristotle described the five traditional senses over 2,000 years ago. Pinel and Freberg are modern textbook authors."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The organ of the vestibular sense is located in the:",
+          "options": ["Inner ear", "Skin", "Tendons", "Cerebellum"],
+          "answerIndex": 0,
+          "explanation": "The semicircular canals, utricle and saccule lie in the inner ear. Tendons serve kinaesthesia."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which of the following is NOT usually classed as a somasthetic sense?",
+          "options": ["Pain", "Temperature", "Vision", "Kinaesthesia"],
+          "answerIndex": 2,
+          "explanation": "Somasthetic senses concern the body itself: kinaesthesia, balance, touch, temperature and pain. Vision is one of the traditional distance senses."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Kinaesthetic receptors found in tendons respond mainly to:",
+          "options": ["Tension", "Temperature", "Head rotation", "Light pressure on the skin"],
+          "answerIndex": 0,
+          "explanation": "Tendon receptors fire to tension; muscle receptors fire to stretch or contraction. Head rotation is vestibular."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The main cortical destination of somatosensory information is the:",
+          "options": ["Occipital lobe", "Temporal lobe", "Frontal pole", "Parietal lobe"],
+          "answerIndex": 3,
+          "explanation": "The somatosensory cortex lies in the parietal lobe behind the central sulcus. The occipital lobe processes vision."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Bola has a severe ear infection and complains that the room spins whenever she stands. Her symptoms point to disruption of the:",
+          "options": ["Kinaesthetic receptors in her legs", "Vestibular system", "Somatosensory cortex", "Thermoreceptors"],
+          "answerIndex": 1,
+          "explanation": "Inner-ear infection can upset the semicircular canals, causing dizziness and imbalance. Her leg receptors are not the problem."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A traveller feels sick in a closed cabin of a rocking boat but better when watching the horizon. The best explanation is a conflict between:",
+          "options": ["Vestibular and visual signals", "Kinaesthetic and thermal signals", "Pain and touch signals", "Auditory and magnetic signals"],
+          "answerIndex": 0,
+          "explanation": "The vestibular system detects motion while the eyes see a still cabin; matching them by watching the horizon reduces the conflict."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A dancer performs a routine perfectly with her eyes closed. The receptors chiefly supplying information about her limbs are in her:",
+          "options": ["Semicircular canals", "Retina", "Free nerve endings for cold", "Muscles and tendons"],
+          "answerIndex": 3,
+          "explanation": "Muscle spindles and tendon receptors provide kinaesthetic information. Semicircular canals signal head movement, not limb position."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Muscle receptors for kinaesthesia differ from tendon receptors in that muscle receptors respond chiefly to:",
+          "options": ["Tension where muscle joins bone", "Whether the muscle is stretched or contracted", "Changes in skin temperature", "Rotation of the head"],
+          "answerIndex": 1,
+          "explanation": "Muscle receptors (spindles) signal stretch or contraction; tendon receptors signal tension at the muscle–bone link."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following can disrupt the vestibular system EXCEPT:",
+          "options": ["Prolonged weightlessness", "Inner-ear infection", "Motion sickness", "Cutting a tendon in the finger"],
+          "answerIndex": 3,
+          "explanation": "A cut finger tendon affects kinaesthesia in that finger, not the inner-ear balance organ. The other three disturb the vestibular system."
+        },
+        {
+          "difficulty": 4,
+          "stem": "The lips and fingertips feel touch more finely than the back mainly because:",
+          "options": ["They are served by the vestibular system", "Their skin is thicker", "They have more receptors and a larger share of somatosensory cortex", "They contain no free nerve endings"],
+          "answerIndex": 2,
+          "explanation": "Sensitive areas have dense receptors and large cortical representation. Thicker skin would reduce, not increase, sensitivity."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider: I. The vestibular sense signals head position. II. Kinaesthesia relies partly on receptors in tendons. III. Somatosensory information goes mainly to the occipital lobe. IV. Weightlessness can impair balance. Which are correct?",
+          "options": ["I, II and IV", "I and III only", "II and III only", "I, II, III and IV"],
+          "answerIndex": 0,
+          "explanation": "I, II and IV are correct. Somatosensory information goes to the parietal lobe, not the occipital lobe."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A patient loses all sensation from muscles and tendons below the neck but has a healthy inner ear and eyes. Which is the most likely result?",
+          "options": ["Severe dizziness when turning the head", "Inability to hear speech", "Total loss of balance even when watching the floor", "Difficulty knowing limb position without looking at the limbs"],
+          "answerIndex": 3,
+          "explanation": "Loss of kinaesthetic input means limb position must be checked by sight. With vision and vestibular organs intact, head-related dizziness is not expected."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which pair is correctly matched?",
+          "options": ["Semicircular canals – limb position", "Tendon receptors – tension", "Muscle spindles – head rotation", "Somatosensory cortex – frontal lobe"],
+          "answerIndex": 1,
+          "explanation": "Tendon receptors respond to tension. Semicircular canals signal head rotation, spindles signal muscle stretch, and somatosensory cortex is parietal."
+        }
+      ]
+    },
+    {
+      "name": "Touch, temperature and pain",
+      "lesson": {
+        "title": "What your skin tells you",
+        "minutes": 10,
+        "hook": "Stub your toe on the bed frame and you feel two pains: a sharp 'ouch' and then, a second later, a deep throbbing ache. Why does one injury hurt twice?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "The skin: an organ that senses",
+            "body": "The **skin** is the body's largest and heaviest organ. It keeps water in, keeps dirt and bacteria out, cushions blows, helps control temperature, makes vitamin D and triggers some hormones.\n\nIt is also a giant sense organ, packed with millions of receptors. Which feeling you get depends on the particular **combination** of receptors that fire together (Kosslyn & Rosenberg, 2006). Tickle, itch and wetness, for example, have no single receptor of their own.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                { "icon": "shield", "label": "Protects" },
+                { "icon": "leaf", "label": "Makes vitamins" },
+                { "icon": "hand-left", "label": "Senses" }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Layers of the skin",
+            "body": "In cross-section the skin has an outer **epidermis** and an inner **dermis**. Beneath the dermis lies **subcutaneous tissue**, made of connective tissue and fat.\n\nThickness varies a lot: about half a millimetre on the face but roughly twenty times thicker on the sole of the foot (Freberg, 2006). Different touch receptors sit at different depths: some near the surface for fine detail, others deep for vibration and pressure.",
+            "visual": {
+              "type": "pyramid",
+              "levels": ["Epidermis", "Dermis", "Subcutaneous tissue"]
+            }
+          },
+          {
+            "kind": "terms",
+            "heading": "Well-known touch receptors",
+            "terms": [
+              { "term": "Meissner's corpuscles", "meaning": "Light touch, near the surface" },
+              { "term": "Merkel's discs", "meaning": "Steady pressure and fine texture" },
+              { "term": "Pacinian corpuscles", "meaning": "Deep pressure and vibration" },
+              { "term": "Ruffini endings", "meaning": "Skin stretch" },
+              { "term": "Free nerve endings", "meaning": "Temperature and pain" }
+            ]
+          },
+          {
+            "kind": "teach",
+            "heading": "Separate spots for hot and cold",
+            "body": "The skin has **separate systems for warmth and cold**. There are distinct spots, each about 1 millimetre across, that register only warm or only cold (Hensel, 1982).\n\nThe receptors are **thermoreceptors**: free nerve endings that respond to skin-surface temperature. One set responds to warming, another to cooling, and **neither responds to mechanical pressure** (Duclaux & Kenshalo, 1980). Strangely, if you touch a cold spot with something hot, you feel cold. This is **paradoxical cold**.",
+            "visual": {
+              "type": "venn",
+              "left": "Warm receptors",
+              "right": "Cold receptors",
+              "both": "Free nerve endings"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "A hot pin touches one of Kemi's cold spots and she reports feeling cold. This is known as:",
+            "options": ["Phantom limb", "Double pain", "Paradoxical cold", "Sensory adaptation"],
+            "answerIndex": 2,
+            "why": "A cold spot can only signal cold, so even a hot stimulus is felt as cold. Double pain refers to the two phases of pain."
+          },
+          {
+            "kind": "teach",
+            "heading": "Double pain and two fibre types",
+            "body": "Pain comes from stimulating two kinds of nerve fibre that differ in **size and speed** (Rollman, 1991). That is why you feel **double pain**.\n\nThin myelinated **A-delta fibres** conduct fast and give the **sharp, first pain** at the moment of injury. Even thinner unmyelinated **C fibres** conduct slowly and give the **dull, aching second pain** that follows. Myelin speeds up conduction, which is why the sharp pain wins the race.",
+            "visual": { "type": "neuron", "part": "myelin", "label": "Myelin makes A-delta fast" }
+          },
+          {
+            "kind": "steps",
+            "heading": "Stubbing your toe, step by step",
+            "steps": [
+              { "title": "Injury", "detail": "Toe hits the bed frame; pain receptors fire." },
+              { "title": "Fast signal", "detail": "A-delta fibres carry a sharp, well-located pain." },
+              { "title": "You react", "detail": "You pull back and grab the toe." },
+              { "title": "Slow signal", "detail": "C fibres deliver a dull, spreading ache." }
+            ]
+          },
+          {
+            "kind": "teach",
+            "heading": "Why we need pain",
+            "body": "Chronic pain is miserable, so life without pain sounds like a blessing. It is not. People born unable to feel pain often **die young**, largely from damage to joints and the spine, because nothing tells them to stop, rest or protect an injury (Freberg, 2006).\n\nStill, pain is an imperfect alarm. Some cancers grow without pain until late, while a trivial paper cut can sting fiercely.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                { "icon": "warning", "label": "Stop and assess" },
+                { "icon": "medkit", "label": "Allow healing" },
+                { "icon": "close-circle", "label": "Not perfect" }
+              ]
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Threshold versus tolerance",
+            "left": {
+              "title": "Pain threshold",
+              "points": ["Lowest stimulation felt as painful", "Similar in athletes and non-athletes", "More about the sensory system"]
+            },
+            "right": {
+              "title": "Pain tolerance",
+              "points": ["How much pain a person will endure", "Higher in athletes", "Shaped by attitude and experience"]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Femi on the football pitch",
+            "story": "Femi and his roommate Obi both register pain at the same pressure when a nurse tests them with a device. But in the inter-hall final, Femi takes a hard knock to the shin and keeps playing until the whistle, while Obi, a non-athlete, would have limped off. Femi is not built differently; he has learned to push on.",
+            "takeaway": "Athletes and non-athletes share similar pain thresholds but differ in pain tolerance (Scott & Gijsbers, 1981)."
+          },
+          {
+            "kind": "teach",
+            "heading": "The body's own painkillers",
+            "body": "The brain produces **endorphins**, natural chemicals with morphine-like painkilling effects. They help explain why soldiers or athletes sometimes feel little pain in the heat of the moment.\n\nPsychological factors also matter. Melzack and Wall's **gate control theory** (1965) proposed that signals in the spinal cord can be 'gated', so rubbing a bumped elbow or being distracted can reduce felt pain. People genuinely differ in how much pain they can bear.",
+            "visual": {
+              "type": "flow",
+              "nodes": ["Injury signal", "Spinal gate", "Brain", "Endorphins dampen"]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Athletes and non-athletes tend to differ most in their:",
+            "options": ["Pain threshold", "Pain tolerance", "Number of C fibres", "Number of cold spots"],
+            "answerIndex": 1,
+            "why": "Research shows similar thresholds but higher tolerance in athletes. Threshold is the point at which pain is first felt."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Favourite questions: explain double pain, define paradoxical cold, and the threshold versus tolerance distinction. The trap is saying athletes have a higher pain threshold; the research says threshold is similar and tolerance differs. Also, thermoreceptors do not respond to mechanical pressure.",
+            "sampleQuestion": "'A world without pain would be a better world.' Discuss with reference to the functions of pain and the evidence from people born without pain sensation.",
+            "howToAnswer": "Explain pain's warning role, cite early death from joint and spine damage in people who feel no pain, then note pain's imperfections (painless cancers, sharp paper cuts) and endorphins.",
+            "scholars": ["Hensel (1982)", "Rollman (1991)", "Scott & Gijsbers (1981)", "Melzack & Wall (1965)"]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Skin is the largest organ; patterns of receptor firing create touch sensations.",
+              "Epidermis, dermis, then subcutaneous tissue; thickness varies widely.",
+              "Separate warm and cold spots; a stimulated cold spot gives paradoxical cold.",
+              "Double pain: fast A-delta sharp pain, then slow C-fibre dull pain.",
+              "Pain is protective; threshold is similar across people, tolerance varies; endorphins relieve pain."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The largest and heaviest organ of the human body is the:",
+          "options": ["Liver", "Brain", "Skin", "Small intestine"],
+          "answerIndex": 2,
+          "explanation": "The skin is the largest and heaviest organ. The liver is the largest internal organ, a common mix-up."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Natural painkilling substances produced in the brain are called:",
+          "options": ["Endorphins", "Histamines", "Androgens", "Prostaglandins"],
+          "answerIndex": 0,
+          "explanation": "Endorphins have morphine-like painkilling effects. Prostaglandins actually help produce pain and inflammation."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Thermoreceptors in the skin are:",
+          "options": ["Pacinian corpuscles", "Hair cells", "Muscle spindles", "Free nerve endings"],
+          "answerIndex": 3,
+          "explanation": "Thermoreceptors are free nerve endings responding to skin temperature. Pacinian corpuscles detect deep pressure and vibration."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The layer of skin found directly beneath the epidermis is the:",
+          "options": ["Subcutaneous tissue", "Dermis", "Periosteum", "Cuticle"],
+          "answerIndex": 1,
+          "explanation": "The order is epidermis, dermis, then subcutaneous tissue of connective tissue and fat."
+        },
+        {
+          "difficulty": 2,
+          "stem": "'Double pain' occurs because:",
+          "options": ["Pain signals travel along two fibre types at different speeds", "Both sides of the brain feel the pain one after the other", "Endorphins wear off and the pain returns", "Warm and cold spots fire together"],
+          "answerIndex": 0,
+          "explanation": "Fast fibres bring a sharp first pain and slow fibres a dull second pain. It has nothing to do with the two hemispheres."
+        },
+        {
+          "difficulty": 2,
+          "stem": "According to the research described, warm and cold spots on the skin are each about:",
+          "options": ["1 centimetre across", "0.01 millimetre across", "1 millimetre across", "10 millimetres across"],
+          "answerIndex": 2,
+          "explanation": "Hensel (1982) described distinct hot and cold spots about 1 millimetre across."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A child is born unable to feel pain. Based on research, the greatest long-term risk is:",
+          "options": ["Inability to feel temperature", "Loss of balance", "Damage to joints and spine leading to early death", "Blindness"],
+          "answerIndex": 2,
+          "explanation": "Without pain as a warning, injuries go unprotected; people without pain sensation often die young from joint and spinal degeneration."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Two students register pain at the same pressure in a lab test, but one keeps playing football after a hard tackle. They differ in:",
+          "options": ["Pain threshold", "Number of thermoreceptors", "Paradoxical cold", "Pain tolerance"],
+          "answerIndex": 3,
+          "explanation": "The same pressure was painful to both, so their threshold matches; carrying on reflects higher tolerance."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Seconds after touching a hot pot, Halima first feels a sharp sting, then a slow burning ache. The sharp sting is carried by:",
+          "options": ["Unmyelinated C fibres", "Fast A-delta fibres", "Muscle spindles", "Vestibular hair cells"],
+          "answerIndex": 1,
+          "explanation": "Myelinated A-delta fibres conduct fast and carry the sharp first pain; slow C fibres carry the later ache."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement about thermoreceptors is correct?",
+          "options": ["One receptor type signals both warm and cold", "They respond strongly to mechanical pressure", "They are found only in the subcutaneous fat", "Separate sets respond to warmth and cold, and neither responds to pressure"],
+          "answerIndex": 3,
+          "explanation": "Duclaux and Kenshalo (1980) found separate warm and cold sets that do not respond to mechanical stimulation."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Pain is described as an imperfect warning system because:",
+          "options": ["It never signals real injury", "Some serious conditions cause little early pain while minor injuries can hurt a lot", "Endorphins always block it completely", "Only athletes feel it accurately"],
+          "answerIndex": 1,
+          "explanation": "Some cancers develop painlessly while paper cuts sting, so pain intensity does not always match danger."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pairing of researcher and finding is correct?",
+          "options": ["Hensel (1982) – separate hot and cold spots on the skin", "Rollman (1991) – paradoxical cold", "Scott & Gijsbers (1981) – skin thickness differences", "Pinel (1993) – athletes' pain tolerance"],
+          "answerIndex": 0,
+          "explanation": "Hensel described the hot and cold spots. Rollman is linked with double pain, Scott and Gijsbers with athletes' pain, and Pinel with kinaesthetic receptors."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider: I. A cold spot touched by a hot object signals cold. II. Athletes have higher pain thresholds than non-athletes. III. C fibres carry the dull second pain. IV. The skin on the sole is about twenty times thicker than on the face. Which are correct?",
+          "options": ["I and II only", "II and III only", "I, III and IV", "I, II, III and IV"],
+          "answerIndex": 2,
+          "explanation": "I, III and IV are correct. Athletes share similar thresholds with non-athletes; it is tolerance that differs, so II is false."
+        },
+        {
+          "difficulty": 5,
+          "stem": "If a drug blocked conduction only in myelinated pain fibres, a person who cut a finger would most likely feel:",
+          "options": ["Only the slow, dull aching pain", "Only the sharp, immediate pain", "No pain at all", "Paradoxical cold"],
+          "answerIndex": 0,
+          "explanation": "Blocking myelinated A-delta fibres removes the sharp first pain, leaving the slow C-fibre ache. C fibres are unmyelinated, so they are spared."
+        },
+        {
+          "difficulty": 5,
+          "stem": "All of the following are true of the skin EXCEPT that it:",
+          "options": ["Helps prevent dehydration", "Produces sensations through combinations of receptors firing", "Has a single receptor type responsible for every touch sensation", "Helps make vitamins and trigger hormone release"],
+          "answerIndex": 2,
+          "explanation": "Touch sensations come from patterns across many receptor types, not one receptor for everything. The other statements are true."
+        }
+      ]
+    },
+    {
+      "name": "Magnetic sense and ESP",
+      "lesson": {
+        "title": "The disputed senses",
+        "minutes": 8,
+        "hook": "Your phone rings and before you look you think 'that's Mum', and it is. Was that a sixth sense, or just that Mum always calls at 8 pm on Sundays?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Two controversial senses",
+            "body": "Beyond the body senses, two more are debated. The **magnetic sense** may exist in humans in a weak form. **Extrasensory perception (ESP)** may not exist at all (Kosslyn & Rosenberg, 2006).\n\nWhy the controversy? For both, strong physical and physiological evidence is thin. The magnetic sense at least has a plausible mechanism in animals. ESP has neither a mechanism nor a measurable signal.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Well established",
+              "right": "Unsupported",
+              "marker": 45,
+              "label": "Magnetic sense sits mid-way"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The magnetic sense in animals",
+            "body": "Many birds migrate thousands of kilometres each year, guided partly by the **earth's magnetic field**. Tiny particles of **iron** (magnetite) in certain neurons seem to play a part (Gould, 1998; Kirschvink and colleagues, 2001).\n\nExperiments with mice add support: exposure to a magnetic field briefly upset their **spatial learning** (Levine & Bluni, 1994). So in animals there is a believable physical basis.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                { "icon": "globe", "label": "Earth's field" },
+                { "icon": "git-network", "label": "Iron in neurons" },
+                { "icon": "flag", "label": "Migration route" }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "And in humans?",
+            "body": "Baker (1980) reported evidence that humans may have a **weak** magnetic sense, for example in orienting after being driven somewhere blindfolded. The findings have been hard to repeat reliably, so most textbooks treat the human magnetic sense as possible but unproven.\n\nWhat is clear is that, if it exists in us, it is far weaker than in migrating birds.",
+            "visual": {
+              "type": "scale",
+              "left": "Birds",
+              "right": "Humans",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "The physical basis proposed for the magnetic sense in migrating birds is:",
+            "options": ["Extra semicircular canals", "Tiny iron particles in certain neurons", "Special thermoreceptors", "Enlarged pinnae"],
+            "answerIndex": 1,
+            "why": "Iron particles in some neurons appear to respond to the earth's magnetic field. Semicircular canals serve balance, not magnetic sensing."
+          },
+          {
+            "kind": "terms",
+            "heading": "Claimed forms of ESP (psi)",
+            "terms": [
+              { "term": "Telepathy", "meaning": "Passing thoughts directly from mind to mind" },
+              { "term": "Clairvoyance", "meaning": "Knowing distant events without senses or mind-reading" },
+              { "term": "Precognition", "meaning": "Knowing future events before they happen" },
+              { "term": "Psychokinesis (PK)", "meaning": "Moving objects without physical contact" }
+            ]
+          },
+          {
+            "kind": "example",
+            "heading": "Aunty Rose's dream",
+            "story": "Aunty Rose dreams that her brother in Kano is ill. Two days later he calls to say he has malaria. The family is amazed. Nobody mentions the dozens of dreams about relatives that never came true, or that malaria in rainy season is very common. They also forget he had sounded tired on the phone the week before.",
+            "takeaway": "Selective memory and ordinary cues often explain 'psychic' experiences, which is one reason psychologists are sceptical."
+          },
+          {
+            "kind": "teach",
+            "heading": "Why psychologists are sceptical",
+            "body": "Four main reasons:\n\n**Failure to replicate**: ESP and PK effects disappear when other labs repeat the studies. **No brain mechanism**: nobody knows how a brain could send or receive such signals. **No measurable signal**: no ESP signal has ever been detected, and we cannot say what form it would take. **Alternative explanations**: known facts about memory, coincidence and cueing explain the reports without new forces.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                { "icon": "repeat", "label": "Not replicated" },
+                { "icon": "close-circle", "label": "No mechanism" },
+                { "icon": "search", "label": "No signal" },
+                { "icon": "bulb", "label": "Other explanations" }
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "A researcher's ESP result vanishes when three other laboratories repeat the study. Which reason for scepticism does this illustrate?",
+            "options": ["Lack of a brain mechanism", "Lack of a measurable signal", "Failure to replicate", "Paradoxical perception"],
+            "answerIndex": 2,
+            "why": "Results that disappear in repeated studies show a failure to replicate. The other options are separate criticisms."
+          },
+          {
+            "kind": "compare",
+            "heading": "Magnetic sense versus ESP",
+            "left": {
+              "title": "Magnetic sense",
+              "points": ["Clear evidence in birds and mice", "Plausible mechanism: iron in neurons", "Weak, unproven in humans"]
+            },
+            "right": {
+              "title": "ESP",
+              "points": ["No reliable evidence", "No known mechanism", "No measurable signal"]
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect matching of ESP forms to definitions (telepathy versus clairvoyance is the usual trap) and a question on the reasons for scepticism. Students also wrongly treat ESP and the magnetic sense as equally doubtful; the magnetic sense has real animal evidence and a mechanism.",
+            "sampleQuestion": "Why are most psychologists sceptical of extrasensory perception? Contrast this with the status of the magnetic sense.",
+            "howToAnswer": "Give the four reasons (replication, mechanism, signal, alternative explanations), then show that the magnetic sense has animal evidence and an iron-based mechanism, though human evidence is weak.",
+            "scholars": ["Baker (1980)", "Kirschvink et al. (2001)", "Levine & Bluni (1994)", "Kosslyn & Rosenberg (2006)"]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Magnetic sense: strong in birds, weak or unproven in humans.",
+              "Iron particles in neurons are the proposed mechanism.",
+              "ESP forms: telepathy, clairvoyance, precognition; PK moves objects.",
+              "Scepticism: no replication, no mechanism, no signal, better explanations exist."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The claimed ability to know about future events before they happen is called:",
+          "options": ["Telepathy", "Clairvoyance", "Psychokinesis", "Precognition"],
+          "answerIndex": 3,
+          "explanation": "Precognition means foreknowing the future. Clairvoyance concerns present events known without the senses."
+        },
+        {
+          "difficulty": 1,
+          "stem": "ESP is sometimes also referred to as:",
+          "options": ["Psi or anomalous cognition", "Kinaesthesia", "Paradoxical cold", "Proprioception"],
+          "answerIndex": 0,
+          "explanation": "Psi and anomalous cognition are other names for ESP. Kinaesthesia is the real sense of limb position."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Which animals provide the strongest evidence for a magnetic sense?",
+          "options": ["Humans", "Migrating birds", "Bats", "Fish in still ponds"],
+          "answerIndex": 1,
+          "explanation": "Migrating birds navigate partly using the earth's magnetic field. Human evidence is weak."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Telepathy is best described as the claimed ability to:",
+          "options": ["Move objects with the mind", "Foretell the future", "Transmit thoughts directly from one mind to another", "Feel heat through a cold spot"],
+          "answerIndex": 2,
+          "explanation": "Telepathy is mind-to-mind transmission. Moving objects is psychokinesis, and foretelling is precognition."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Levine and Bluni (1994) found that magnetic fields:",
+          "options": ["Improved memory in humans", "Disrupted spatial learning in mice for a short time", "Guided fish to food", "Had no effect on any animal"],
+          "answerIndex": 1,
+          "explanation": "They reported brief disruption of spatial learning in mice, supporting magnetic effects on the nervous system."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which of these is NOT one of the reasons psychologists give for doubting ESP?",
+          "options": ["ESP effects are hard to replicate", "No brain mechanism for ESP is known", "ESP signals have never been measured", "ESP has been proven by brain scans"],
+          "answerIndex": 3,
+          "explanation": "No brain scan has demonstrated ESP; that option is false. The other three are the standard reasons for scepticism."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A man claims he can 'see' what is happening in his village in Enugu while sitting in Lagos, without anyone telling him. He is claiming:",
+          "options": ["Telepathy", "Precognition", "Clairvoyance", "Psychokinesis"],
+          "answerIndex": 2,
+          "explanation": "Knowing distant present events without the senses or reading minds is clairvoyance. Telepathy would require reading another person's thoughts."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A pastor says he can make a cup slide across a table by concentrating. If true, this would be an example of:",
+          "options": ["Psychokinesis", "Clairvoyance", "Telepathy", "Magnetic sense"],
+          "answerIndex": 0,
+          "explanation": "Moving objects without physical contact is psychokinesis (PK)."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A student 'predicts' a classmate's call, but it turns out the classmate always calls at that hour. This illustrates which reason for scepticism about ESP?",
+          "options": ["Lack of measurable signals", "Alternative explanations based on known processes", "Lack of a brain mechanism", "Failure of magnetic orientation"],
+          "answerIndex": 1,
+          "explanation": "A known routine explains the 'prediction' without any new sense. That is the alternative-explanation argument."
+        },
+        {
+          "difficulty": 4,
+          "stem": "The main reason the magnetic sense is treated as more plausible than ESP is that the magnetic sense:",
+          "options": ["Has been proven strong in all humans", "Has a proposed physical mechanism and clear animal evidence", "Uses the same receptors as hearing", "Has been replicated in every ESP lab"],
+          "answerIndex": 1,
+          "explanation": "Iron particles in neurons and bird and mouse studies give it a physical basis, unlike ESP. Human evidence remains weak, so the first option overstates it."
+        },
+        {
+          "difficulty": 4,
+          "stem": "The evidence that humans may have a weak magnetic sense is most associated with:",
+          "options": ["Kirschvink", "Hensel", "Rollman", "Baker"],
+          "answerIndex": 3,
+          "explanation": "Baker (1980) reported a weak human magnetic sense. Kirschvink is linked with iron particles in animal neurons."
+        },
+        {
+          "difficulty": 4,
+          "stem": "The criticism that 'nobody knows what form an ESP signal would take, and none has been detected' refers specifically to:",
+          "options": ["Lack of signals", "Failure to replicate", "Lack of a brain mechanism", "Selective memory"],
+          "answerIndex": 0,
+          "explanation": "That is the lack-of-signals argument. Lack of a brain mechanism concerns how the brain could send or receive such signals."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Of the following claimed psychic abilities, which one is described accurately?",
+          "options": ["Clairvoyance – moving objects by thought", "Precognition – reading another person's mind", "Telepathy – thought transmission between minds", "Psychokinesis – knowing the future"],
+          "answerIndex": 2,
+          "explanation": "Telepathy is mind-to-mind thought transmission. The other pairs are shuffled: PK moves objects, precognition foretells, clairvoyance knows distant events."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider: I. Iron particles in neurons may underlie birds' magnetic sense. II. ESP has a well-mapped brain centre. III. Magnetic fields can briefly disrupt spatial learning in mice. IV. Human magnetic sense is stronger than birds'. Which are correct?",
+          "options": ["I and II only", "I and III only", "II and IV only", "I, III and IV"],
+          "answerIndex": 1,
+          "explanation": "I and III are supported. No brain centre for ESP is known (II), and any human magnetic sense is far weaker than birds' (IV)."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A researcher argues that ESP should be accepted because many people report psychic dreams. The strongest scientific reply is that:",
+          "options": ["Dreams never contain accurate information", "Reports alone are not evidence; coincidence and selective memory explain them, and controlled studies fail to replicate", "ESP is proven but only works at night", "Dreams are controlled by the magnetic sense"],
+          "answerIndex": 1,
+          "explanation": "Anecdotes are vulnerable to selective memory and coincidence, and controlled replication fails. Saying dreams are never accurate is too absolute."
+        }
+      ]
+    }
+  ]
+}

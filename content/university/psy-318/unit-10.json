@@ -1,0 +1,673 @@
+{
+  "unit": 10,
+  "title": "Childhood Indicators of Schizophrenia",
+  "summary": "What schizophrenia is, its delusions and hallucinations, how rare it is in childhood, the early signs that can precede it, its causes and how treatment has changed.",
+  "sections": [
+    {
+      "name": "Schizophrenia and its symptoms",
+      "lesson": {
+        "title": "Losing touch with reality",
+        "minutes": 9,
+        "hook": "A first-year student begins to believe the radio is sending her secret messages, hears voices criticising her, and stops attending lectures. Her friends think she is 'just stressed'. What is happening is far more serious.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "What schizophrenia is",
+            "body": "**Schizophrenia** is a profound disorder affecting **thought, perception and mood**. The name was coined by Swiss psychiatrist **Eugen Bleuler** (1857–1939) from Greek words meaning '**split mind**'.\n\nComer (2004) describes it as a **psychotic** disorder in which **personal, social and work functioning deteriorate** because of strange perceptions, disturbed thinking, unusual emotions and motor abnormalities.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "bulb",
+                  "label": "Thought"
+                },
+                {
+                  "icon": "eye",
+                  "label": "Perception"
+                },
+                {
+                  "icon": "heart",
+                  "label": "Mood"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Split mind, not split personality",
+            "body": "'Split mind' refers to a split between **thought, emotion and reality**, **not** to multiple personalities. That popular confusion is a myth.\n\nThe core experience is **psychosis**, in which the person's **grip on reality slips**. They may be unable to function at home, school, work or with friends, and may **withdraw** into a private world.",
+            "visual": {
+              "type": "scale",
+              "left": "Inner experience",
+              "right": "Shared reality",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Psychosis is best described as:",
+            "options": [
+              "Having two personalities",
+              "A learning disorder",
+              "Feeling sad",
+              "A loss of contact with reality"
+            ],
+            "answerIndex": 3,
+            "why": "Psychosis means losing touch with reality. Schizophrenia is not multiple personality."
+          },
+          {
+            "kind": "teach",
+            "heading": "DSM-IV criteria",
+            "body": "Under **DSM-IV (1994)**, symptoms must last **at least six months**, and there must be **marked deterioration** from the person's earlier level of functioning in **work, social relationships and self-care**.\n\nClinicians often group symptoms as **positive** (added experiences, such as delusions and hallucinations) and **negative** (missing functions, such as flat emotion, poverty of speech and withdrawal).",
+            "visual": {
+              "type": "venn",
+              "left": "Positive symptoms",
+              "right": "Negative symptoms",
+              "both": "Schizophrenia"
+            }
+          },
+          {
+            "kind": "terms",
+            "heading": "Five kinds of delusion",
+            "terms": [
+              {
+                "term": "Grandeur",
+                "meaning": "Believing one is great, famous or powerful, such as a prophet or president"
+              },
+              {
+                "term": "Control",
+                "meaning": "Believing outside forces control one's thoughts or actions"
+              },
+              {
+                "term": "Persecution",
+                "meaning": "Believing one is being plotted against, spied on or harmed"
+              },
+              {
+                "term": "Reference",
+                "meaning": "Believing unrelated events, like a radio song, carry special messages for oneself"
+              },
+              {
+                "term": "Somatic",
+                "meaning": "False beliefs about one's body, such as organs rotting"
+              }
+            ]
+          },
+          {
+            "kind": "teach",
+            "heading": "Delusions",
+            "body": "**Delusions** are ideas a person believes **wholeheartedly** that have **no basis in fact**. Evidence against them does not shake them.\n\nThe person may find the ideas **enlightening**, as if they suddenly understand everything, or may feel **confused** and frightened by them.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "False belief",
+                "Firmly held",
+                "Unmoved by evidence"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Hallucinations",
+            "body": "**Hallucinations** are **perceptions without external stimuli**: seeing, hearing or sensing things that are not there. They feel **completely real**, and are the **perceptual** signs of psychosis.\n\nIn schizophrenia they are usually **auditory**, often voices commenting or giving orders, but can also be **visual** or involve **taste or smell**.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "ear",
+                  "label": "Voices (most common)"
+                },
+                {
+                  "icon": "eye",
+                  "label": "Visions"
+                },
+                {
+                  "icon": "leaf",
+                  "label": "Smell, taste"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Messages in the music",
+            "story": "Kola, 19, becomes convinced that songs on a local radio station are written about him, and that his neighbours have placed a device in his head to steal his thoughts. At night he hears a man's voice calling him worthless. He stops eating food his mother cooks, sure it is poisoned.",
+            "takeaway": "Kola shows delusions of reference, control and persecution, plus auditory hallucinations, classic positive symptoms of schizophrenia."
+          },
+          {
+            "kind": "check",
+            "question": "A man believes newspaper headlines are secretly written about him. This is a delusion of:",
+            "options": [
+              "Grandeur",
+              "Reference",
+              "Somatic type",
+              "Control"
+            ],
+            "answerIndex": 1,
+            "why": "Believing unrelated events carry personal messages is a delusion of reference."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'define schizophrenia' (use Comer's definition and Bleuler's 'split mind') and 'explain delusion and hallucination'. Learn the five delusions with an example each. Trap: confusing delusions (false beliefs) with hallucinations (false perceptions); the manual's notes print both as 'false sensory perceptions' in one place, but only hallucinations are perceptions.",
+            "sampleQuestion": "Distinguish between a delusion and a hallucination, giving an example of each.",
+            "howToAnswer": "A delusion is a firmly held false belief, such as believing neighbours are plotting to kill you. A hallucination is a perception without a stimulus, such as hearing voices when no one is there.",
+            "scholars": [
+              "Bleuler",
+              "Comer (2004)",
+              "APA DSM-IV (1994)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Schizophrenia affects thought, perception and mood; Bleuler named it 'split mind'.",
+              "It involves psychosis, not multiple personality.",
+              "DSM-IV: at least six months, with marked deterioration.",
+              "Five delusions: grandeur, control, persecution, reference, somatic.",
+              "Hallucinations are false perceptions, usually auditory."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The term 'schizophrenia' was coined by:",
+          "options": [
+            "Sigmund Freud",
+            "Eugen Bleuler",
+            "Leo Kanner",
+            "Alfred Binet"
+          ],
+          "answerIndex": 1,
+          "explanation": "Bleuler coined the term from Greek words meaning split mind."
+        },
+        {
+          "difficulty": 1,
+          "stem": "A delusion is:",
+          "options": [
+            "A firmly held false belief with no basis in fact",
+            "A false sensory perception",
+            "A memory loss",
+            "A mood swing"
+          ],
+          "answerIndex": 0,
+          "explanation": "Delusions are false beliefs; hallucinations are false perceptions."
+        },
+        {
+          "difficulty": 1,
+          "stem": "In schizophrenia, hallucinations are most commonly:",
+          "options": [
+            "Visual",
+            "Taste",
+            "Auditory",
+            "Touch"
+          ],
+          "answerIndex": 2,
+          "explanation": "Hearing voices is the most common form."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Under DSM-IV, schizophrenia symptoms must last at least:",
+          "options": [
+            "Six months",
+            "One month",
+            "One week",
+            "Five years"
+          ],
+          "answerIndex": 0,
+          "explanation": "Six months, with marked deterioration in functioning."
+        },
+        {
+          "difficulty": 2,
+          "stem": "'Split mind' in schizophrenia refers to:",
+          "options": [
+            "A split between thought, emotion and reality",
+            "Multiple personalities",
+            "A brain cut in half",
+            "Two separate people"
+          ],
+          "answerIndex": 0,
+          "explanation": "It is not multiple personality but a split from reality and coherent functioning."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Psychosis means:",
+          "options": [
+            "Mild anxiety",
+            "Loss of contact with reality",
+            "Strong memory",
+            "Good mood"
+          ],
+          "answerIndex": 1,
+          "explanation": "Psychosis is losing touch with reality."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A woman insists she is the true queen of England sent to rule Nigeria. This is a delusion of:",
+          "options": [
+            "Grandeur",
+            "Persecution",
+            "Reference",
+            "Control"
+          ],
+          "answerIndex": 0,
+          "explanation": "Believing oneself to be exceptionally important is a delusion of grandeur."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A student believes his lecturer and classmates are secretly plotting to poison him. This is a delusion of:",
+          "options": [
+            "Grandeur",
+            "Persecution",
+            "Somatic type",
+            "Reference"
+          ],
+          "answerIndex": 1,
+          "explanation": "Believing others are plotting harm is persecution."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A man believes his intestines have turned to stone. This is a:",
+          "options": [
+            "Delusion of grandeur",
+            "Delusion of reference",
+            "Hallucination",
+            "Somatic delusion"
+          ],
+          "answerIndex": 3,
+          "explanation": "False beliefs about the body are somatic delusions."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are kinds of delusion EXCEPT:",
+          "options": [
+            "Grandeur",
+            "Control",
+            "Echolalia",
+            "Reference"
+          ],
+          "answerIndex": 2,
+          "explanation": "Echolalia is a speech feature of autism, not a delusion."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which is a negative symptom of schizophrenia?",
+          "options": [
+            "Hearing voices",
+            "Delusions of grandeur",
+            "Flat emotion and social withdrawal",
+            "Delusions of persecution"
+          ],
+          "answerIndex": 2,
+          "explanation": "Negative symptoms are missing functions such as flat affect and withdrawal."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Hallucination: false belief",
+            "Delusion: false perception",
+            "Somatic delusion: radio messages",
+            "Delusion of control: outside forces control thoughts"
+          ],
+          "answerIndex": 3,
+          "explanation": "Delusions of control involve beliefs that outside forces direct one's thoughts or actions."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Hallucinations feel real despite no external stimulus. II. Schizophrenia means multiple personality. III. Deterioration in functioning is part of the diagnosis. Which are correct?",
+          "options": [
+            "I and II only",
+            "II and III only",
+            "I and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 2,
+          "explanation": "I and III are correct. Schizophrenia is not multiple personality."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A person hears a voice commanding them to leave home, though no one is speaking, and believes the voice comes from a satellite controlling their mind. This shows:",
+          "options": [
+            "A hallucination only",
+            "A delusion only",
+            "Neither",
+            "Both an auditory hallucination and a delusion of control"
+          ],
+          "answerIndex": 3,
+          "explanation": "Hearing the voice is a hallucination; believing a satellite controls the mind is a delusion of control."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Why do clinicians require symptoms to last six months before diagnosing schizophrenia?",
+          "options": [
+            "Because it always lasts exactly six months",
+            "To distinguish it from brief psychotic episodes caused by stress or drugs",
+            "To save money",
+            "Because children cannot be diagnosed"
+          ],
+          "answerIndex": 1,
+          "explanation": "The duration criterion separates schizophrenia from short-lived psychotic reactions."
+        }
+      ]
+    },
+    {
+      "name": "Childhood signs, causes and treatment",
+      "lesson": {
+        "title": "Early warning signs",
+        "minutes": 9,
+        "hook": "Researchers watched old home videos of children who later developed schizophrenia as adults. Long before any voices or delusions, something was already subtly different. What did they see?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Rare in childhood",
+            "body": "Schizophrenia is **very rare in children**: about **2 cases per 100,000** under age **12**. In **late adolescence and early adulthood**, rates rise sharply, approaching the **lifetime rate of about 1 in 100**.\n\nThe risk of onset is strongly tied to **developmental changes**, especially the brain maturation of the teenage years.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Under 12: 2 in 100,000",
+              "right": "Adult lifetime: 1 in 100",
+              "marker": 80,
+              "label": "Risk rises in late teens"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "A silent vulnerability",
+            "body": "In most cases, clear symptoms do not appear until **early adulthood**, so the vulnerability seems to stay '**silent**' through childhood.\n\nYet many parents report noticing unusual features long before: **motor delays**, **emotional instability**, **academic problems**, and even subtle **temperamental** oddities in **infancy**.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Hidden vulnerability",
+                "Subtle childhood signs",
+                "Adolescent problems",
+                "Adult onset"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Among children under 12, the prevalence of schizophrenia is about:",
+            "options": [
+              "1 in 100",
+              "2 in 100,000",
+              "1 in 10",
+              "5 in 1,000"
+            ],
+            "answerIndex": 1,
+            "why": "It is very rare in childhood; the 1 in 100 figure is the adult lifetime rate."
+          },
+          {
+            "kind": "steps",
+            "heading": "Patterns in pre-schizophrenic children",
+            "steps": [
+              {
+                "title": "Motor differences",
+                "detail": "More delays and abnormalities in the first two years, such as weakness or unusual positioning of the left arm and leg."
+              },
+              {
+                "title": "Several domains",
+                "detail": "Early signs appear in motor, interpersonal and cognitive behaviour."
+              },
+              {
+                "title": "Adolescent peak",
+                "detail": "Adjustment problems are most pronounced on entering adolescence."
+              },
+              {
+                "title": "Severity predicts onset",
+                "detail": "The more severe the childhood problems, the earlier and more severe the illness."
+              }
+            ]
+          },
+          {
+            "kind": "example",
+            "heading": "The home videos",
+            "story": "Psychologist Elaine Walker and colleagues studied family home videos of people who later developed schizophrenia, comparing them with their healthy siblings. Without knowing who was who, raters spotted more unusual movements and less positive emotion in the children who would later become ill, sometimes from infancy.",
+            "takeaway": "Subtle motor and emotional differences can appear years before schizophrenia's clinical symptoms."
+          },
+          {
+            "kind": "teach",
+            "heading": "Causes",
+            "body": "Vulnerability can be **inherited**. Events during **pregnancy and delivery**, such as **obstetric complications**, also raise the risk of adult schizophrenia.\n\nPsychological explanations come from **psychodynamic, behavioural and cognitive** models, alongside **socio-cultural** views. The **diathesis-stress** model combines them: an inherited **vulnerability (diathesis)** plus **stress** triggers the disorder.",
+            "visual": {
+              "type": "venn",
+              "left": "Vulnerability (diathesis)",
+              "right": "Life stress",
+              "both": "Onset"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "How treatment changed",
+            "body": "For years, treatment brought frustration. The main approach was **institutionalisation** and **custodial care** in overcrowded public hospitals.\n\nThe discovery of **antipsychotic drugs** in the **1950s** revolutionised treatment. **Psychotherapy** combined with medication helps further, and **community** approaches grew from the **1960s**. In Nigeria, Thomas **Adeoye Lambo** pioneered community care at **Aro**, Abeokuta, in the 1950s, housing patients with families in nearby villages.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Custodial hospitals",
+                "Antipsychotics (1950s)",
+                "Psychotherapy",
+                "Community care (1960s)"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "What revolutionised the treatment of schizophrenia in the 1950s?",
+            "options": [
+              "Larger mental hospitals",
+              "Psychoanalysis alone",
+              "The discovery of antipsychotic drugs",
+              "Electroconvulsive therapy only"
+            ],
+            "answerIndex": 2,
+            "why": "Antipsychotic medication transformed treatment, allowing many patients to leave institutions."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'the early signs of schizophrenia fall into three domains: what are they?' (motor, interpersonal, cognitive) and questions on prevalence by age. Know that obstetric complications and inheritance raise risk, and the treatment timeline: custodial care, antipsychotics in the 1950s, community care in the 1960s. Trap: giving the 1 in 100 adult figure for children.",
+            "sampleQuestion": "Discuss the early indicators of schizophrenia in childhood and explain why clinical symptoms usually appear later.",
+            "howToAnswer": "Describe motor delays (especially left-side), emotional instability, interpersonal and cognitive problems, and adolescent adjustment difficulties; explain the silent vulnerability and the developmental rise in risk in late adolescence.",
+            "scholars": [
+              "Walker & Lewine (1990)",
+              "Comer (2004)",
+              "Lambo (Aro, 1954)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Childhood schizophrenia is very rare: about 2 in 100,000 under 12.",
+              "Risk rises in late adolescence towards the adult lifetime 1 in 100.",
+              "Early signs: motor, interpersonal and cognitive; worse in adolescence.",
+              "Causes: inherited vulnerability, obstetric complications, stress (diathesis-stress).",
+              "Treatment: antipsychotics from the 1950s, psychotherapy, community care."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Schizophrenia in children under 12 is:",
+          "options": [
+            "Very rare",
+            "Very common",
+            "Impossible",
+            "More common than in adults"
+          ],
+          "answerIndex": 0,
+          "explanation": "It affects about 2 per 100,000 children under 12."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The early signs of schizophrenia fall into which three domains?",
+          "options": [
+            "Visual, auditory and taste",
+            "Motor, interpersonal and cognitive",
+            "Diet, sleep and exercise",
+            "Reading, writing and maths"
+          ],
+          "answerIndex": 1,
+          "explanation": "Early signs appear in motor, interpersonal and cognitive behaviour."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Antipsychotic drugs were discovered in the:",
+          "options": [
+            "1850s",
+            "1950s",
+            "1990s",
+            "2010s"
+          ],
+          "answerIndex": 1,
+          "explanation": "The 1950s brought antipsychotic medication."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The lifetime prevalence of schizophrenia is approximately:",
+          "options": [
+            "1 in 100",
+            "1 in 10",
+            "1 in 100,000",
+            "1 in 2"
+          ],
+          "answerIndex": 0,
+          "explanation": "Lifetime prevalence approaches 1 in 100."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which pregnancy-related factor can raise the risk of schizophrenia?",
+          "options": [
+            "Regular check-ups",
+            "Healthy diet",
+            "Obstetric complications",
+            "Breastfeeding"
+          ],
+          "answerIndex": 2,
+          "explanation": "Complications during pregnancy and delivery increase risk."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Children who will later develop schizophrenia usually struggle most with adjustment at which point?",
+          "options": [
+            "Are born",
+            "Reach old age",
+            "Start walking",
+            "Enter adolescence"
+          ],
+          "answerIndex": 3,
+          "explanation": "Problems peak as they enter adolescence."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Raters watching old home videos spot unusual movements in a child who later developed schizophrenia but not in the sibling. This supports the idea that:",
+          "options": [
+            "Schizophrenia appears suddenly without warning",
+            "Siblings always develop it too",
+            "Home videos cause schizophrenia",
+            "Subtle motor signs can precede the illness by many years"
+          ],
+          "answerIndex": 3,
+          "explanation": "Early motor abnormalities can be detected long before onset."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A young man with a family history of schizophrenia develops it after a period of severe stress at university. This best fits the:",
+          "options": [
+            "Opponent-process theory",
+            "Refrigerator-mother theory",
+            "Diathesis-stress model",
+            "Trichromatic theory"
+          ],
+          "answerIndex": 2,
+          "explanation": "An inherited vulnerability plus stress triggering onset is diathesis-stress."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Dr Lambo's work at Aro, Abeokuta, is known for pioneering:",
+          "options": [
+            "Custodial hospital wards",
+            "Community-based care with patients living in villages",
+            "Brain surgery",
+            "Isolation of patients"
+          ],
+          "answerIndex": 1,
+          "explanation": "The Aro village system placed patients in community settings with families."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement about childhood indicators is correct?",
+          "options": [
+            "The milder the childhood problems, the earlier the onset",
+            "Only cognitive signs matter",
+            "Childhood problems never predict schizophrenia",
+            "The more severe the childhood problems, the earlier and more severe the illness"
+          ],
+          "answerIndex": 3,
+          "explanation": "Greater childhood severity predicts earlier, more severe illness."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are early signs reported in pre-schizophrenic children EXCEPT:",
+          "options": [
+            "Motor delays",
+            "Emotional instability",
+            "Exceptional social popularity",
+            "Academic problems"
+          ],
+          "answerIndex": 2,
+          "explanation": "Social difficulties, not popularity, are typical."
+        },
+        {
+          "difficulty": 4,
+          "stem": "In the past, the main treatment for schizophrenia was:",
+          "options": [
+            "Institutionalisation and custodial care",
+            "Antipsychotic medication",
+            "Community programmes",
+            "Cognitive therapy"
+          ],
+          "answerIndex": 0,
+          "explanation": "Before the 1950s, custodial care in overcrowded hospitals dominated."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Vulnerability to schizophrenia can be inherited. II. Clinical symptoms usually appear in early childhood. III. Community approaches grew from the 1960s. Which are correct?",
+          "options": [
+            "I and III only",
+            "I and II only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 0,
+          "explanation": "I and III are correct. Clinical symptoms usually appear in early adulthood."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Why is schizophrenia's vulnerability described as 'silent' in childhood?",
+          "options": [
+            "It does not exist in children",
+            "Children cannot speak about it",
+            "Clear clinical symptoms usually do not appear until early adulthood, though subtle signs may exist",
+            "It is cured before adulthood"
+          ],
+          "answerIndex": 2,
+          "explanation": "The vulnerability is present but mostly unexpressed until later."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Which combination reflects the modern approach to treating schizophrenia?",
+          "options": [
+            "Custodial care alone",
+            "Antipsychotic medication combined with psychotherapy and community support",
+            "Isolation",
+            "Punishment"
+          ],
+          "answerIndex": 1,
+          "explanation": "Medication plus psychotherapy and community care gives the best outcomes."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,634 @@
+{
+  "unit": 8,
+  "title": "Causal Attributions in Prejudice Formation",
+  "summary": "How the way groups explain each other's behaviour feeds prejudice: just-world beliefs, the fundamental attribution error and the ultimate attribution error.",
+  "sections": [
+    {
+      "name": "Attributions and just-world beliefs",
+      "lesson": {
+        "title": "Explaining behaviour, building prejudice",
+        "minutes": 9,
+        "hook": "A beggar sits at the Ojota bus stop. One passer-by mutters 'lazy', another thinks 'maybe he lost his job'. The same scene, two explanations, and only one of them breeds prejudice.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "What is a causal attribution?",
+            "body": "Every day we ask 'why did they do that?' The answer we give is a **causal attribution**: our explanation of the cause of someone's behaviour.\n\nIn intergroup relations, causal attribution refers to how members of an **in-group** and an **out-group** explain each other's actions. Fritz Heider (1958), the father of attribution theory, described ordinary people as 'naive scientists' who are always looking for causes.",
+            "visual": {
+              "type": "flow",
+              "nodes": ["See behaviour", "Ask why", "Choose a cause"]
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Two kinds of cause",
+            "left": {
+              "title": "Dispositional (internal)",
+              "points": [
+                "Inside the person",
+                "Laziness, character, ability",
+                "'That is just who they are'"
+              ]
+            },
+            "right": {
+              "title": "Situational (external)",
+              "points": [
+                "Outside the person",
+                "Job loss, violence, bad luck",
+                "'Anyone could end up there'"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Symptom and source of prejudice",
+            "body": "Attributions work in both directions. They are a **symptom** of prejudice, because prejudiced people choose unkind explanations. They are also a **source** of prejudice, because unkind explanations keep the negative view alive.\n\nTake a homeless single mother. Blame her character or ability, and prejudice against single mothers persists. Recognise that she lost her job or fled an abusive partner, and the prejudice weakens or never forms.",
+            "visual": {
+              "type": "cycle",
+              "nodes": ["Prejudice", "Unkind explanation", "Negative view confirmed"]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Explaining a homeless woman's situation by pointing to job lay-offs is an example of:",
+            "options": [
+              "A dispositional attribution",
+              "The fundamental attribution error",
+              "A situational attribution",
+              "The ultimate attribution error"
+            ],
+            "answerIndex": 2,
+            "why": "Lay-offs are forces outside the person, so this is a situational explanation. The two attribution errors both involve leaning too heavily on dispositional causes."
+          },
+          {
+            "kind": "teach",
+            "heading": "Three routes to negative attributions",
+            "body": "The session names three ways people arrive at negative explanations for out-group behaviour.\n\nThe first is **just-world thinking** in a world that is not actually just. The second is the **fundamental attribution error**. The third is the **ultimate attribution error**. The first one is our focus now; the two errors come in the next class.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                { "icon": "scale", "label": "Just-world belief" },
+                { "icon": "person", "label": "Fundamental error" },
+                { "icon": "people", "label": "Ultimate error" }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The belief in a just world",
+            "body": "Melvin **Lerner** (1980) described the **just-world belief**: the comforting idea that outcomes in life are earned: good people are rewarded, and those who suffer must have brought it on themselves. Lerner and Montada (1998) later explored how this belief shapes reactions to victims.\n\nThe belief feels safe. If good things come to good people, then I can protect myself by being good. But it has a dark side: when something bad happens to someone, the believer quietly concludes they must have earned it.",
+            "visual": {
+              "type": "scale",
+              "left": "What you do",
+              "right": "What you get",
+              "heavier": "even"
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Blaming the flood victims",
+            "story": "After heavy flooding displaces families in a riverside community, Kunle scrolls through the news and says, 'Why did they build there? They brought it on themselves.' He never asks whether those families could afford land elsewhere, or whether drainage was ever provided. His friend Hauwa reminds him that many of them were born there.",
+            "takeaway": "Just-world thinking shifts blame from circumstances to victims, overlooking the situational forces that put them at risk."
+          },
+          {
+            "kind": "teach",
+            "heading": "Why the just world is a trap",
+            "body": "The world is **not** always just. People are born into poverty, caught in conflicts or struck by events beyond their control.\n\nJust-world thinking **downplays situational factors**, so it locates the problem of injustice inside the victims rather than in society. That is why people with strong just-world beliefs are more likely to **blame women** who have been battered or raped. The belief protects the believer's comfort at the victim's expense.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Blame society",
+              "right": "Blame the victim",
+              "marker": 85,
+              "label": "Just-world thinking"
+            }
+          },
+          {
+            "kind": "check",
+            "question": "A person who believes in a just world hears that a student was robbed on campus. What reaction does the theory predict?",
+            "options": [
+              "Calling for better campus security",
+              "Assuming the student must have done something careless",
+              "Concluding that robbery is purely random",
+              "Feeling no reaction at all"
+            ],
+            "answerIndex": 1,
+            "why": "Just-world believers protect their sense of order by finding fault in the victim. Calling for better security would be a situational explanation, the opposite tendency."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect a definition question on causal attribution, a gap-fill naming the three routes, and a scenario on just-world thinking. The trap: students describe the just-world belief as 'believing the world should be fair'. It is the belief that the world already *is* fair, which is why it leads to victim blaming.",
+            "sampleQuestion": "Explain 'just-world attribution in an unjust world' and show how it maintains prejudice against disadvantaged groups.",
+            "howToAnswer": "Define the belief (Lerner, 1980) that people get what they deserve, explain that it downplays situational causes, give a victim-blaming example, and conclude that it moves the problem of injustice from society to the victims.",
+            "scholars": ["Heider (1958)", "Lerner (1980)", "Montada & Lerner (1998)"]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Causal attribution: the reasons groups give for one another's actions.",
+              "Attributions can be dispositional (inside the person) or situational (outside).",
+              "Attributions are both a symptom and a source of prejudice.",
+              "Lerner (1980): the just-world belief says people get what they deserve.",
+              "It downplays situations and blames victims for injustice."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The reasons members of one group give for the actions of another group's members are referred to as:",
+          "options": [
+            "Social categorisation",
+            "Causal attribution",
+            "Out-group homogeneity",
+            "Social dominance"
+          ],
+          "answerIndex": 1,
+          "explanation": "Causal attribution is the explanation people give for behaviour, including across groups. Categorisation is the sorting of people into groups, not the explaining of their actions."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The just-world belief rests on the assumption that:",
+          "options": [
+            "Society is responsible for all suffering",
+            "Luck decides most of what happens in life",
+            "People generally get what they deserve",
+            "Victims should always be compensated"
+          ],
+          "answerIndex": 2,
+          "explanation": "Lerner's just-world belief holds that outcomes match deserts. Seeing luck as decisive is exactly what the belief denies."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Explaining someone's failure in terms of their laziness is an example of a:",
+          "options": [
+            "Situational attribution",
+            "Dispositional attribution",
+            "Random attribution",
+            "Collective attribution"
+          ],
+          "answerIndex": 1,
+          "explanation": "Laziness is a trait inside the person, so it is a dispositional cause. A situational attribution would point to something outside the person, like losing a job."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The session describes causal attributions as both a symptom and a source of prejudice. This means that attributions:",
+          "options": [
+            "Reflect existing prejudice and also help keep it alive",
+            "Are unrelated to prejudice in most cases",
+            "Only appear after prejudice has disappeared",
+            "Can only reduce prejudice, never cause it"
+          ],
+          "answerIndex": 0,
+          "explanation": "Prejudiced people choose unkind explanations (symptom), and those explanations sustain the negative view (source). The relationship runs both ways."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The main problem with just-world thinking, according to the session, is that it:",
+          "options": [
+            "Gives too much weight to situational factors",
+            "Downplays situational factors in people's misfortune",
+            "Makes people more generous to victims",
+            "Applies only to natural disasters"
+          ],
+          "answerIndex": 1,
+          "explanation": "By assuming outcomes are deserved, the belief ignores circumstances beyond a person's control. It tends to make people less, not more, sympathetic to victims."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The belief in a just world is most closely associated with:",
+          "options": [
+            "Lee Ross",
+            "Edward Jones",
+            "Gordon Allport",
+            "Melvin Lerner"
+          ],
+          "answerIndex": 3,
+          "explanation": "Lerner (1980) developed the just-world idea. Ross coined the term fundamental attribution error, and Jones co-authored the essay study on it."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Bisi says a neighbour's son failed WAEC because the school had no science teacher for two years. Her explanation is:",
+          "options": [
+            "Situational, and less likely to fuel prejudice",
+            "Dispositional, and more likely to fuel prejudice",
+            "Situational, and more likely to fuel prejudice",
+            "Dispositional, and less likely to fuel prejudice"
+          ],
+          "answerIndex": 0,
+          "explanation": "A missing teacher is an outside cause, so the attribution is situational. Situational explanations tend to reduce rather than feed prejudice."
+        },
+        {
+          "difficulty": 3,
+          "stem": "After a market fire destroys traders' stalls, Yemi remarks that the traders 'must have been doing something wrong to deserve it'. Yemi's remark best reflects:",
+          "options": [
+            "Out-group homogeneity",
+            "Situational attribution",
+            "Just-world thinking",
+            "Self-esteem protection"
+          ],
+          "answerIndex": 2,
+          "explanation": "Assuming misfortune must be deserved is the hallmark of the just-world belief. A situational attribution would blame faulty wiring or poor fire services instead."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Research on just-world beliefs suggests that people who hold them strongly are more likely to:",
+          "options": [
+            "Support victims of domestic violence",
+            "Blame women who have been battered or raped",
+            "Reject all dispositional explanations",
+            "Believe the world is generally unfair"
+          ],
+          "answerIndex": 1,
+          "explanation": "Strong just-world believers protect their view of a fair world by blaming victims. Believing the world is unfair is the opposite of their outlook."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which statement about the just-world belief is NOT correct?",
+          "options": [
+            "It holds that people deserve what they get",
+            "It tends to place the cause of injustice in the victims",
+            "It is accurate because the world is basically fair",
+            "It can sustain prejudice against disadvantaged groups"
+          ],
+          "answerIndex": 2,
+          "explanation": "The belief is flawed precisely because the world is not always fair; people suffer through birth, chance and forces beyond their control. The other statements are correct."
+        },
+        {
+          "difficulty": 4,
+          "stem": "A student says 'the just-world belief means wanting the world to be fair'. The best correction is that the belief is:",
+          "options": [
+            "A wish for future fairness rather than a current view",
+            "The view that the world already is fair, so outcomes are deserved",
+            "A situational explanation of social problems",
+            "A form of out-group homogeneity"
+          ],
+          "answerIndex": 1,
+          "explanation": "The belief claims fairness already exists, which is why it leads to blaming victims. Wanting fairness would push people to fix situations, not blame victims."
+        },
+        {
+          "difficulty": 4,
+          "stem": "The session lists three ways in which negative attributions about out-group behaviour are made. Which of the following is NOT one of them?",
+          "options": [
+            "Just-world attribution in an unjust world",
+            "Fundamental attribution error",
+            "Ultimate attribution error",
+            "Out-group homogeneity effect"
+          ],
+          "answerIndex": 3,
+          "explanation": "Out-group homogeneity is a perception bias from the previous session, not one of the three attribution routes. The three are the just-world belief and the two attribution errors."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider: I. Attributions can be both a cause and a result of prejudice. II. Just-world thinking highlights situational causes of misfortune. III. Attributing homelessness to domestic violence may reduce prejudice towards single mothers. IV. Lerner is credited with the just-world concept. Which are correct?",
+          "options": [
+            "I, III and IV only",
+            "I and II only",
+            "II and III only",
+            "I, II, III and IV"
+          ],
+          "answerIndex": 0,
+          "explanation": "Statement II is wrong: just-world thinking downplays situational causes. The other three statements are correct."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A policy-maker argues that poverty in some communities persists 'because the people there do not want to work'. If you wanted to weaken the prejudice behind this view, the MOST effective argument from attribution theory would be to:",
+          "options": [
+            "Agree, but point out that other communities are equally lazy",
+            "Stress that the world is fair so effort is always rewarded",
+            "Highlight situational causes such as job losses and lack of infrastructure",
+            "Show that the people are all alike in their attitudes"
+          ],
+          "answerIndex": 2,
+          "explanation": "Shifting from dispositional to situational explanations is what weakens attribution-based prejudice. Stressing a fair world is the just-world belief and would strengthen it."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Why does the just-world belief remain attractive even though it often leads to unfair judgements?",
+          "options": [
+            "It is supported by evidence that all outcomes are earned",
+            "It increases sympathy for people in difficulty",
+            "It is only held by people who have suffered misfortune",
+            "It gives believers a sense that they can control their own fate"
+          ],
+          "answerIndex": 3,
+          "explanation": "If outcomes are deserved, then being good feels like protection, which is comforting. The belief tends to reduce sympathy for victims rather than increase it."
+        }
+      ]
+    },
+    {
+      "name": "Fundamental and ultimate attribution errors",
+      "lesson": {
+        "title": "Two errors that keep prejudice alive",
+        "minutes": 10,
+        "hook": "When your friend arrives late, it is Lagos traffic. When a stranger arrives late, they are 'unserious'. That everyday double standard has a name, and at group level it can trap entire communities.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "The fundamental attribution error",
+            "body": "People tend to explain others' behaviour by their **dispositions** even when the **situation** clearly caused it. Lee **Ross** (1977) named this the **fundamental attribution error**.\n\nIt is 'fundamental' because it is so common. We see the person in front of us; we do not see the pressures, rules or circumstances pushing on them. So we credit or blame their character.",
+            "visual": {
+              "type": "scale",
+              "left": "Disposition",
+              "right": "Situation",
+              "heavier": "left"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "The forced essay study",
+            "body": "**Jones and Harris (1967)** gave participants an essay taking a position on a political figure. Some were told the writer chose that position freely; others were told the writer had been **assigned** it.\n\nEven when participants knew the position had been forced, they still believed the writer truly held that view. The situation fully explained the essay, yet people still read it as a window into the writer's mind.",
+            "visual": {
+              "type": "flow",
+              "nodes": ["Writer assigned side", "Reader told so", "Still blames writer"]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "In Jones and Harris (1967), what was most surprising about participants' judgements?",
+            "options": [
+              "They ignored essays from writers who chose freely",
+              "They inferred the writer's true attitude even when told the position was assigned",
+              "They refused to judge the writer at all",
+              "They believed only essays they agreed with"
+            ],
+            "answerIndex": 1,
+            "why": "Knowing the writer had no choice should have stopped them inferring an attitude, but it did not. That is the fundamental attribution error in action."
+          },
+          {
+            "kind": "example",
+            "heading": "The 'rude' bank cashier",
+            "story": "Ifeoma waits two hours in a crowded Lagos banking hall. When the cashier snaps at her, she concludes he is simply a rude person. She does not see that the network has been down all day, his supervisor has been shouting, and he has served two hundred angry customers since morning.",
+            "takeaway": "Blaming his character while ignoring the obvious pressure on him is the fundamental attribution error."
+          },
+          {
+            "kind": "teach",
+            "heading": "From individuals to groups",
+            "body": "Thomas **Pettigrew** (1979) extended the idea to group relations as the **ultimate attribution error**. It is a group-serving double standard.\n\nFirst, when an **out-group** member behaves badly, in-group members blame disposition more than they would for the same act by one of their own. Second, when an out-group member does something **good**, they explain it away.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                { "icon": "close-circle", "label": "Bad act: their nature" },
+                { "icon": "checkmark-circle", "label": "Good act: explained away" }
+              ]
+            }
+          },
+          {
+            "kind": "steps",
+            "heading": "Four ways good out-group behaviour is explained away",
+            "steps": [
+              { "title": "A one-off exception", "detail": "A one-off or chance event: 'she is not like the rest of them'." },
+              { "title": "Luck or unfair help", "detail": "Unfair help or good fortune: 'he only got in through connections'." },
+              { "title": "Unusual effort and drive", "detail": "Extraordinary striving, implying it is not their normal ability." },
+              { "title": "Motivational or situational factors", "detail": "The setting pushed them: 'anybody would do well with that support'." }
+            ]
+          },
+          {
+            "kind": "check",
+            "question": "An out-group student tops the class and an in-group member says 'she must have had special help from the lecturer'. This is the ultimate attribution error explaining good behaviour as:",
+            "options": [
+              "An exceptional case",
+              "Luck or an unfair advantage",
+              "High motivation and effort",
+              "A dispositional strength"
+            ],
+            "answerIndex": 1,
+            "why": "Claiming she had unfair help is the 'special advantage' route. Crediting her ability would be a dispositional strength, which is precisely what the error avoids."
+          },
+          {
+            "kind": "compare",
+            "heading": "Fundamental versus ultimate error",
+            "left": {
+              "title": "Fundamental attribution error",
+              "points": [
+                "About individuals in general",
+                "Over-uses dispositional causes",
+                "Applies to anyone we observe",
+                "Ross (1977); Jones & Harris (1967)"
+              ]
+            },
+            "right": {
+              "title": "Ultimate attribution error",
+              "points": [
+                "About in-group versus out-group",
+                "Bad out-group acts: disposition",
+                "Good out-group acts: explained away",
+                "Pettigrew (1979)"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Why the double standard traps people",
+            "body": "Put the two halves together and the out-group cannot win. Its members' **failures** are taken as proof of their nature, while their **successes** are dismissed as luck, exceptions or special treatment.\n\nThis makes it almost impossible for out-group members to escape prejudice through their own achievements. In a diverse country like Nigeria, any group can be on either side of this error, depending on who is doing the judging.",
+            "visual": {
+              "type": "cycle",
+              "nodes": ["Failure: 'their nature'", "Success: 'just luck'", "Prejudice unchanged"]
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'mention the major attribution errors and discuss one', plus scenarios asking which form of explaining away is shown. The trap is mixing the two errors: the fundamental error concerns anyone, while the ultimate error is specifically an in-group versus out-group double standard.",
+            "sampleQuestion": "Distinguish between the fundamental attribution error and the ultimate attribution error, and explain why the latter makes it hard for out-group members to overcome prejudice.",
+            "howToAnswer": "Define the fundamental error (Ross, 1977) with the Jones and Harris essay study, then define the ultimate error (Pettigrew, 1979) with its two parts and four ways of explaining away success, and conclude that it discounts successes while blaming failures.",
+            "scholars": ["Ross (1977)", "Jones & Harris (1967)", "Pettigrew (1979)"]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Fundamental attribution error: over-blaming disposition, ignoring the situation (Ross, 1977).",
+              "Jones and Harris (1967): people inferred attitudes even from assigned essays.",
+              "Ultimate attribution error: a group double standard (Pettigrew, 1979).",
+              "Bad out-group acts are put down to disposition; good ones are explained away.",
+              "Explained away as exception, luck or advantage, effort, or the situation."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "The tendency to explain other people's behaviour by their dispositions even when situational causes are obvious is called the:",
+          "options": [
+            "Fundamental attribution error",
+            "Just-world belief",
+            "Ultimate attribution error",
+            "Out-group homogeneity effect"
+          ],
+          "answerIndex": 0,
+          "explanation": "This is Ross's fundamental attribution error. The ultimate error is its group-level extension, focused on in-group versus out-group judgements."
+        },
+        {
+          "difficulty": 1,
+          "stem": "The term 'fundamental attribution error' was introduced by:",
+          "options": [
+            "Melvin Lerner",
+            "Thomas Pettigrew",
+            "Lee Ross",
+            "Fritz Heider"
+          ],
+          "answerIndex": 2,
+          "explanation": "Lee Ross named the error in 1977. Pettigrew is linked to the ultimate attribution error and Lerner to the just-world belief."
+        },
+        {
+          "difficulty": 1,
+          "stem": "In the ultimate attribution error, negative behaviour by out-group members is usually attributed to:",
+          "options": [
+            "Bad luck",
+            "Their disposition",
+            "The situation they were in",
+            "An exceptional case"
+          ],
+          "answerIndex": 1,
+          "explanation": "Out-group failures are blamed on character. Luck, exceptions and situations are the excuses reserved for explaining away their successes."
+        },
+        {
+          "difficulty": 2,
+          "stem": "In the Jones and Harris (1967) study, participants who were told an essay writer had been assigned a position still:",
+          "options": [
+            "Refused to say anything about the writer",
+            "Believed the writer must have opposed the position",
+            "Concluded the writer was being honest about the situation",
+            "Believed the writer truly held the position"
+          ],
+          "answerIndex": 3,
+          "explanation": "Participants inferred a genuine attitude despite knowing the writer had no choice, showing the pull of dispositional explanations."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which statement best explains why the ultimate attribution error makes prejudice so hard to overcome?",
+          "options": [
+            "Out-group members' successes are dismissed while their failures are held against them",
+            "Out-group members are never observed by in-group members",
+            "In-group members always attribute out-group failures to bad luck",
+            "It only operates in small laboratory groups"
+          ],
+          "answerIndex": 0,
+          "explanation": "The double standard means good deeds do not count and bad deeds confirm the stereotype. In-group members put out-group failures down to character, not luck."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Who extended attribution errors to intergroup relations under the name 'ultimate attribution error'?",
+          "options": [
+            "Lee Ross",
+            "Edward Jones",
+            "Melvin Lerner",
+            "Thomas Pettigrew"
+          ],
+          "answerIndex": 3,
+          "explanation": "Pettigrew (1979) proposed the ultimate attribution error. Ross named the fundamental error and Jones co-ran the forced-essay study."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A classmate from an out-group wins a national quiz, and Olu says 'he must have been very lucky with the questions'. Olu is explaining away the success as:",
+          "options": [
+            "Luck or special advantage",
+            "High motivation and effort",
+            "An exceptional case",
+            "Dispositional ability"
+          ],
+          "answerIndex": 0,
+          "explanation": "Attributing the win to lucky questions is the luck or special advantage route. Crediting his ability would be dispositional, which the error avoids."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Grace sees a stranger trip and drop his phone, and she thinks 'what a clumsy man', without noticing the broken pavement. This illustrates:",
+          "options": [
+            "The just-world belief",
+            "The ultimate attribution error",
+            "The fundamental attribution error",
+            "Out-group homogeneity"
+          ],
+          "answerIndex": 2,
+          "explanation": "She blames his character and ignores the situational cause, the broken pavement. No in-group versus out-group comparison is involved, so it is not the ultimate error."
+        },
+        {
+          "difficulty": 3,
+          "stem": "An out-group trader is praised for honesty, but an in-group member insists 'she is different from the rest of her people'. This is the ultimate attribution error treating the good behaviour as:",
+          "options": [
+            "Luck or special advantage",
+            "An exceptional case",
+            "A dispositional trait of her group",
+            "High motivation and effort"
+          ],
+          "answerIndex": 1,
+          "explanation": "Calling her 'different from the rest' treats her as an exception, so the stereotype of the group stays intact. Crediting her group's character would contradict the error."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which of the following is NOT one of the ways the ultimate attribution error explains away positive out-group behaviour?",
+          "options": [
+            "High motivation and effort",
+            "Luck or special advantage",
+            "Stable, admirable character of the group",
+            "A chance occurrence or exceptional case"
+          ],
+          "answerIndex": 2,
+          "explanation": "Crediting the group's good character is exactly what the error avoids. The other three are listed ways of explaining success away."
+        },
+        {
+          "difficulty": 4,
+          "stem": "The key difference between the fundamental and the ultimate attribution errors is that the ultimate error:",
+          "options": [
+            "Involves situational rather than dispositional explanations",
+            "Applies a double standard depending on group membership",
+            "Was demonstrated in the forced-essay study",
+            "Is limited to explaining positive behaviour"
+          ],
+          "answerIndex": 1,
+          "explanation": "The ultimate error is specifically about treating in-group and out-group behaviour differently. The forced-essay study demonstrated the fundamental error."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Jones and Harris (1967) – ultimate attribution error",
+            "Pettigrew (1979) – just-world belief",
+            "Ross (1977) – fundamental attribution error",
+            "Lerner (1980) – forced-essay study"
+          ],
+          "answerIndex": 2,
+          "explanation": "Ross named the fundamental attribution error. Jones and Harris ran the forced-essay study, Pettigrew proposed the ultimate error and Lerner the just-world belief."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Consider: I. In the ultimate error, negative out-group acts get more dispositional blame than identical in-group acts. II. The fundamental error applies only to out-group members. III. High effort is one way of explaining away out-group success. IV. Jones and Harris showed people discount situational pressure. Which are correct?",
+          "options": [
+            "I and II only",
+            "II and IV only",
+            "I, II and III only",
+            "I, III and IV only"
+          ],
+          "answerIndex": 3,
+          "explanation": "Statement II is false: the fundamental error applies to anyone we observe, not just out-groups. The other three are correct."
+        },
+        {
+          "difficulty": 5,
+          "stem": "An in-group member says of an out-group graduate's first-class degree, 'she must have worked twice as hard as everyone else'. Why might a lecturer still count this as part of the ultimate attribution error?",
+          "options": [
+            "Because it credits her group's normal ability",
+            "Because it implies the success came from unusual effort rather than ordinary ability",
+            "Because it blames the situation for her failure",
+            "Because it treats her as typical of her group"
+          ],
+          "answerIndex": 1,
+          "explanation": "Attributing success to extraordinary effort implies it does not reflect the group's usual ability, so the stereotype survives. It sounds like praise but still explains the success away."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A researcher compares how two ethnic groups explain identical acts of littering by members of each group. Which result would BEST demonstrate the ultimate attribution error?",
+          "options": [
+            "Each group blames the other group's litterers' character but excuses its own as due to no bins",
+            "Both groups blame all litterers' character equally",
+            "Both groups blame the lack of bins for all littering",
+            "Each group blames its own litterers more harshly"
+          ],
+          "answerIndex": 0,
+          "explanation": "The error shows as a double standard: dispositional blame for the out-group, situational excuses for the in-group. Equal blame across groups would show only the fundamental error."
+        }
+      ]
+    }
+  ]
+}

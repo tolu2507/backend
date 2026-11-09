@@ -1,0 +1,704 @@
+{
+  "unit": 16,
+  "title": "Psychological Disorders II: Mood Disorders",
+  "summary": "Major depression and bipolar disorder: their symptoms, course and risk factors, the cognitive patterns behind depression, and how mania differs.",
+  "sections": [
+    {
+      "name": "Major depression and its causes",
+      "lesson": {
+        "title": "More than sadness",
+        "minutes": 10,
+        "hook": "Everyone feels low after a bad result or a break-up. But for some people, the darkness does not lift for weeks: food loses its taste, sleep breaks down, and the future looks empty. That is not ordinary sadness.",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "Two kinds of mood disorder",
+            "body": "**Affective (mood) disorders** take two main forms: **depression** and **mania**. When depression occurs **alone**, it is **major depression**. Mania almost always **alternates** with depression, which is **bipolar affective disorder**.\n\nBoth bring great misery to the person and those close to them, and both are **treatable**.",
+            "visual": {
+              "type": "spectrum",
+              "left": "Depression",
+              "right": "Mania",
+              "marker": 50,
+              "label": "Mood can swing either way"
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "What major depression looks like",
+            "body": "In **major depression**, a person is **deeply unhappy** and takes little **pleasure** in life. The future looks bleak; they hold **negative views of themselves and others** and may see no reason to live.\n\nIt brings changes in **sleep** and **appetite** (too much or too little), loss of **sexual interest**, loss of **energy**, poor **concentration**, and sometimes **suicidal** thoughts.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "sad",
+                  "label": "Deep unhappiness"
+                },
+                {
+                  "icon": "time",
+                  "label": "Sleep changes"
+                },
+                {
+                  "icon": "trending-down",
+                  "label": "Low energy"
+                },
+                {
+                  "icon": "warning",
+                  "label": "Suicidal thoughts"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "An episodic disorder",
+            "body": "Major depression is **episodic**: it lasts for a period, then the person recovers. Many recover within **12 to 20 weeks** of an episode starting (Eaton et al., 1997; Solomon et al., 1997, 2000).\n\nFor some, episodes **recur**, lasting weeks or months, separated by periods of normal mood. Most cases are **mild**; severe depression is less common but more disabling and can include **psychotic** distortions of reality.",
+            "visual": {
+              "type": "cycle",
+              "nodes": [
+                "Normal mood",
+                "Depressive episode",
+                "Recovery",
+                "Possible recurrence"
+              ]
+            }
+          },
+          {
+            "kind": "check",
+            "question": "Many people with major depression recover within about:",
+            "options": [
+              "1 to 2 weeks",
+              "12 to 20 weeks",
+              "5 to 10 years",
+              "Never"
+            ],
+            "answerIndex": 1,
+            "why": "Depression is episodic; many recover within 12 to 20 weeks of an episode beginning."
+          },
+          {
+            "kind": "steps",
+            "heading": "Who is at risk",
+            "steps": [
+              {
+                "title": "Age",
+                "detail": "First onset is rare before puberty, rises to a peak around 45 to 55, then falls in old age."
+              },
+              {
+                "title": "Sex",
+                "detail": "Risk is about twice as high for women as for men, especially in middle age (Eaton et al., 1997)."
+              },
+              {
+                "title": "Stress",
+                "detail": "Risk rises sharply under high levels of stress."
+              },
+              {
+                "title": "Genes",
+                "detail": "Some people are genetically more vulnerable (Kendler & Prescott, 1999)."
+              }
+            ]
+          },
+          {
+            "kind": "teach",
+            "heading": "The thinking behind depression",
+            "body": "People are more likely to become depressed when they hold **negative views** of **themselves, the world and the future**, what Aaron Beck called the **cognitive triad**.\n\nAlloy, Abramson and Francis (1999) found that people who believe they fall **far short of who they want to be** are more prone to depression. Often the gap exists because their standards are **perfectionist**.",
+            "visual": {
+              "type": "pyramid",
+              "levels": [
+                "Negative self",
+                "Negative world",
+                "Negative future"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Perfectionism and interpretation",
+            "body": "**Hewitt and Flett (1993)** found that people who believe they must be **perfect** at work are likely to become depressed after even **small failures**. The same can apply to relationships.\n\nThe key point: it is not bad events themselves that upset us, but **how we interpret** them. A **positive view of oneself** makes depression less likely after stress.",
+            "visual": {
+              "type": "flow",
+              "nodes": [
+                "Event",
+                "Interpretation",
+                "Mood"
+              ]
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "Two students, one grade",
+            "story": "Kunle and Bimpe both get a B in a course they hoped to ace. Kunle thinks, 'Anything below an A means I'm a failure,' and spends weeks unable to sleep or enjoy anything. Bimpe thinks, 'Disappointing, but I know what to fix next time.' Same grade; very different outcomes.",
+            "takeaway": "Perfectionist beliefs and negative interpretations, not events alone, raise the risk of depression."
+          },
+          {
+            "kind": "check",
+            "question": "Hewitt and Flett (1993) found that depression after small failures was more likely in people who were:",
+            "options": [
+              "Relaxed about mistakes",
+              "Physically active",
+              "Highly sociable",
+              "Perfectionist about their work"
+            ],
+            "answerIndex": 3,
+            "why": "Perfectionists experience even minor failures as falling short, which raises depression risk."
+          },
+          {
+            "kind": "teach",
+            "heading": "Thinking changes during depression",
+            "body": "Once depressed, people's thinking shifts further: they become more **pessimistic**, more **self-critical** and more likely to **blame themselves** for everything bad. When the episode ends, their thinking becomes more **positive** again.\n\nIf you or someone you know feels this way for weeks, especially with thoughts of self-harm, speak to a doctor, counsellor or the university health centre. Depression is treatable.",
+            "visual": {
+              "type": "cycle",
+              "nodes": [
+                "Low mood",
+                "Self-blame",
+                "Pessimism",
+                "Lower mood"
+              ]
+            }
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'give a vivid explanation of major depression' and 'what are the cognitive factors in depression?'. List symptoms, course (episodic, 12 to 20 weeks), risk factors (age peak 45 to 55, women twice men, stress, genes) and cognitive factors (pessimism, self-criticism, self-blame, perfectionism). Trap: thinking depression peaks in adolescence.",
+            "sampleQuestion": "The risk of major depression is about how many times higher in women than men? (a) the same (b) twice (c) five times (d) ten times",
+            "howToAnswer": "Answer (b), especially in middle age (Eaton et al., 1997). Then add the age and stress risk factors.",
+            "scholars": [
+              "Eaton et al. (1997)",
+              "Kendler & Prescott (1999)",
+              "Hewitt & Flett (1993)",
+              "Alloy et al. (1999)",
+              "Beck (1967)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Major depression: deep unhappiness, lost pleasure, sleep and appetite changes.",
+              "It is episodic; many recover within 12 to 20 weeks.",
+              "Risk peaks at 45 to 55; women about twice men; stress and genes matter.",
+              "Negative views of self, world and future; perfectionism raises risk.",
+              "Interpretation of events, not events alone, shapes mood."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "When depression occurs alone without mania, it is called:",
+          "options": [
+            "Bipolar disorder",
+            "Schizophrenia",
+            "Cyclothymia",
+            "Major depression"
+          ],
+          "answerIndex": 3,
+          "explanation": "Depression alone is major depression; alternating with mania is bipolar disorder."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Major depression is described as episodic because it:",
+          "options": [
+            "Lasts a lifetime without change",
+            "Occurs for a period, after which the person recovers",
+            "Only happens at night",
+            "Only affects children"
+          ],
+          "answerIndex": 1,
+          "explanation": "Episodes come and go, with recovery in between."
+        },
+        {
+          "difficulty": 1,
+          "stem": "Compared with men, women's risk of major depression is about:",
+          "options": [
+            "Twice as high",
+            "The same",
+            "Half",
+            "Ten times higher"
+          ],
+          "answerIndex": 0,
+          "explanation": "Women's risk is roughly double, especially in middle age."
+        },
+        {
+          "difficulty": 2,
+          "stem": "The risk of a first episode of major depression peaks at about age:",
+          "options": [
+            "5 to 10",
+            "15 to 20",
+            "45 to 55",
+            "75 to 85"
+          ],
+          "answerIndex": 2,
+          "explanation": "It rises after puberty to a peak between 45 and 55, then declines."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Kendler and Prescott (1999) provided evidence that vulnerability to depression is partly:",
+          "options": [
+            "Caused by diet only",
+            "Genetic",
+            "Caused by colour vision",
+            "Unrelated to biology"
+          ],
+          "answerIndex": 1,
+          "explanation": "Some people are genetically more vulnerable."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Which of these is a cognitive change commonly seen during depression?",
+          "options": [
+            "Unrealistic optimism",
+            "Increased self-blame",
+            "Grandiose plans",
+            "Reduced self-criticism"
+          ],
+          "answerIndex": 1,
+          "explanation": "Depressed people become pessimistic, self-critical and self-blaming."
+        },
+        {
+          "difficulty": 3,
+          "stem": "For six weeks, Ajenifunja has lost interest in everything, sleeps poorly, eats little, feels worthless and has thought of ending his life. This most likely indicates:",
+          "options": [
+            "Ordinary sadness",
+            "Mania",
+            "Major depression",
+            "Narcolepsy"
+          ],
+          "answerIndex": 2,
+          "explanation": "Persistent loss of pleasure with sleep, appetite and suicidal symptoms points to major depression; he should seek help."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A nurse who believes any small error makes her a failure becomes deeply depressed after a minor mistake. This supports the findings of:",
+          "options": [
+            "Hewitt and Flett",
+            "Ekman",
+            "LeDoux",
+            "Webb"
+          ],
+          "answerIndex": 0,
+          "explanation": "Hewitt and Flett linked perfectionism to depression after small failures."
+        },
+        {
+          "difficulty": 3,
+          "stem": "Two people lose their jobs; one becomes depressed and the other does not. The course's explanation is that:",
+          "options": [
+            "Their interpretations of the event differed",
+            "Only one really lost a job",
+            "Job loss never causes depression",
+            "Depression is purely genetic"
+          ],
+          "answerIndex": 0,
+          "explanation": "How we interpret events, not the events alone, makes the difference."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are symptoms of major depression EXCEPT:",
+          "options": [
+            "Changes in sleep",
+            "Grandiose, unrealistic optimism",
+            "Difficulty concentrating",
+            "Loss of sexual interest"
+          ],
+          "answerIndex": 1,
+          "explanation": "Grandiose optimism is a feature of mania."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Alloy, Abramson and Francis (1999) found depression more likely in people who:",
+          "options": [
+            "Sleep too little",
+            "Have very low standards",
+            "Feel they fall far short of their ideal self",
+            "Are always optimistic"
+          ],
+          "answerIndex": 2,
+          "explanation": "A large gap between actual and ideal self raises depression risk."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Severe major depression differs from mild depression in that it:",
+          "options": [
+            "Is more common",
+            "Always lasts one day",
+            "Has no symptoms",
+            "Is more disabling and can include psychotic distortions"
+          ],
+          "answerIndex": 3,
+          "explanation": "Severe depression is less common but more disabling, sometimes with psychotic features."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Major depression is rare before puberty. II. High stress lowers depression risk. III. A positive self-view protects against depression after stress. Which are correct?",
+          "options": [
+            "I and III only",
+            "I and II only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 0,
+          "explanation": "I and III are correct. High stress raises, not lowers, depression risk."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Beck's cognitive triad refers to negative views of:",
+          "options": [
+            "Parents, teachers and friends",
+            "Past, present and dreams",
+            "Self, world and future",
+            "Body, mind and spirit"
+          ],
+          "answerIndex": 2,
+          "explanation": "The triad is negative thinking about oneself, the world and the future."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Why do cognitive theorists say perfectionists are vulnerable to depression?",
+          "options": [
+            "They fail more often",
+            "They sleep less",
+            "They have more genes for depression",
+            "Their impossible standards turn ordinary setbacks into evidence of failure"
+          ],
+          "answerIndex": 3,
+          "explanation": "Unrealistic standards make normal shortfalls feel like personal failure."
+        }
+      ]
+    },
+    {
+      "name": "Bipolar disorder and mania",
+      "lesson": {
+        "title": "Highs that hurt",
+        "minutes": 9,
+        "hook": "A man who barely slept for a week says he feels fantastic, quits his job, spends his savings on a 'brilliant' business and is sure he will be a billionaire by Christmas. Is this confidence, or illness?",
+        "slides": [
+          {
+            "kind": "teach",
+            "heading": "What mania is",
+            "body": "**Mania** is a period of remarkably **elevated mood**. Sensory pleasures feel heightened, **self-esteem** soars, the person needs **little sleep**, and **unrealistic optimism** takes over.\n\nAt first it can feel wonderful. Over time, though, the choices made while manic often cause **serious harm** to the person and the people around them.",
+            "visual": {
+              "type": "icons",
+              "items": [
+                {
+                  "icon": "trending-up",
+                  "label": "Soaring mood"
+                },
+                {
+                  "icon": "time",
+                  "label": "Little sleep"
+                },
+                {
+                  "icon": "cash",
+                  "label": "Reckless spending"
+                }
+              ]
+            }
+          },
+          {
+            "kind": "terms",
+            "heading": "Common features of a manic episode",
+            "terms": [
+              {
+                "term": "Grandiosity",
+                "meaning": "Inflated self-esteem and grand, unrealistic plans"
+              },
+              {
+                "term": "Reckless spending",
+                "meaning": "Buying sprees and financially damaging schemes"
+              },
+              {
+                "term": "Impulsive life decisions",
+                "meaning": "Suddenly quitting jobs or ending marriages"
+              },
+              {
+                "term": "Risky sexual behaviour",
+                "meaning": "Sexual activity far beyond the person's usual pattern"
+              },
+              {
+                "term": "Psychotic features",
+                "meaning": "In severe cases, distorted perceptions of reality"
+              }
+            ]
+          },
+          {
+            "kind": "check",
+            "question": "Which of the following is a typical feature of mania?",
+            "options": [
+              "Needing much more sleep",
+              "Very low self-esteem",
+              "Loss of interest in everything",
+              "Grandiose, financially damaging schemes"
+            ],
+            "answerIndex": 3,
+            "why": "Mania brings inflated self-esteem and reckless plans; the other options describe depression."
+          },
+          {
+            "kind": "teach",
+            "heading": "Bipolar affective disorder",
+            "body": "Mania may occur once, but it usually **returns**. When it does, it **alternates irregularly** with episodes of **severe depression**. This pattern is **bipolar affective disorder**.\n\nBipolar disorder is **uncommon**, is **equally common in women and men**, and can be **treated effectively with medication**, such as lithium and other mood stabilisers.",
+            "visual": {
+              "type": "cycle",
+              "nodes": [
+                "Mania",
+                "Normal mood",
+                "Severe depression",
+                "Normal mood"
+              ]
+            }
+          },
+          {
+            "kind": "compare",
+            "heading": "Major depression versus bipolar disorder",
+            "left": {
+              "title": "Major depression",
+              "points": [
+                "Depression only",
+                "Women about twice men",
+                "Persistent sadness, worthlessness",
+                "Suicidal feelings"
+              ]
+            },
+            "right": {
+              "title": "Bipolar disorder",
+              "points": [
+                "Mania alternating with depression",
+                "Equal in women and men",
+                "Uncommon",
+                "Highs and lows"
+              ]
+            }
+          },
+          {
+            "kind": "teach",
+            "heading": "Biology and treatment",
+            "body": "Mood disorders have strong **biological** links. Genetic vulnerability is especially clear in **bipolar disorder**. Many antidepressants act on brain chemicals such as **serotonin** and **noradrenaline**, which supports a role for these neurotransmitters in mood.\n\n**Lithium**, introduced by John **Cade** in 1949, remains a key mood stabiliser for bipolar disorder. Talking therapies, especially **cognitive therapy**, help with depression.",
+            "visual": {
+              "type": "neuron",
+              "part": "synapse",
+              "label": "Mood chemicals act here"
+            }
+          },
+          {
+            "kind": "example",
+            "heading": "The week without sleep",
+            "story": "Femi, a usually careful accountant, stops sleeping, talks rapidly, buys three cars on credit and announces he will be governor next year. His family takes him to a psychiatric hospital. Three months after starting treatment he is stable, but later he falls into a deep depression and needs help again. His diagnosis is bipolar disorder.",
+            "takeaway": "Bipolar disorder involves irregular swings between damaging highs and severe lows, and responds to treatment."
+          },
+          {
+            "kind": "check",
+            "question": "Bipolar affective disorder is:",
+            "options": [
+              "Much more common in women",
+              "Much more common in men",
+              "Equally common in women and men",
+              "Found only in children"
+            ],
+            "answerIndex": 2,
+            "why": "Unlike major depression, bipolar disorder affects women and men equally."
+          },
+          {
+            "kind": "lecturer",
+            "heading": "How your lecturer will ask this",
+            "body": "Expect 'what are the distinguishing features of bipolar affective disorder?' and 'distinguish between major depression and bipolar disorder'. List manic features and the alternating pattern. Objectives test sex ratios: depression twice as common in women, bipolar equal. Trap: describing mania as purely pleasant; it is damaging in the long run.",
+            "sampleQuestion": "Which statement best distinguishes bipolar disorder from major depression? (a) bipolar involves only sadness (b) bipolar involves periods of mania alternating irregularly with depression (c) major depression is equally common in men and women (d) mania never recurs",
+            "howToAnswer": "Answer (b). Add that bipolar is uncommon, equal across sexes and treatable with medication.",
+            "scholars": [
+              "Cade (1949)",
+              "Kendler & Prescott (1999)"
+            ]
+          },
+          {
+            "kind": "recap",
+            "points": [
+              "Mania: soaring mood, high self-esteem, little sleep, unrealistic optimism.",
+              "Features: grandiose schemes, spending sprees, impulsive decisions, risky sex.",
+              "Bipolar disorder: mania alternating irregularly with severe depression.",
+              "Bipolar is uncommon and equally common in women and men.",
+              "Treatable with medication such as lithium; therapy helps depression."
+            ]
+          }
+        ]
+      },
+      "questions": [
+        {
+          "difficulty": 1,
+          "stem": "Mania is best described as:",
+          "options": [
+            "A sleep disorder",
+            "Deep sadness",
+            "A period of remarkably elevated mood",
+            "A visual problem"
+          ],
+          "answerIndex": 2,
+          "explanation": "Mania involves abnormally high mood and energy."
+        },
+        {
+          "difficulty": 1,
+          "stem": "In bipolar affective disorder, mania alternates with:",
+          "options": [
+            "Episodes of severe depression",
+            "Normal sleep only",
+            "Night terrors",
+            "Hallucinations only"
+          ],
+          "answerIndex": 0,
+          "explanation": "Bipolar disorder swings irregularly between mania and depression."
+        },
+        {
+          "difficulty": 1,
+          "stem": "A well-known mood stabiliser used to treat bipolar disorder is:",
+          "options": [
+            "Insulin",
+            "Melatonin",
+            "Lithium",
+            "Caffeine"
+          ],
+          "answerIndex": 2,
+          "explanation": "Lithium, introduced by Cade in 1949, stabilises mood."
+        },
+        {
+          "difficulty": 2,
+          "stem": "How common is bipolar disorder in women compared with men?",
+          "options": [
+            "Twice as common in women",
+            "Twice as common in men",
+            "Equally common",
+            "Only in women"
+          ],
+          "answerIndex": 2,
+          "explanation": "It occurs equally in both sexes."
+        },
+        {
+          "difficulty": 2,
+          "stem": "During mania, a person typically needs:",
+          "options": [
+            "Much more sleep",
+            "Little sleep",
+            "No food at all",
+            "Constant reassurance"
+          ],
+          "answerIndex": 1,
+          "explanation": "Reduced need for sleep is a hallmark of mania."
+        },
+        {
+          "difficulty": 2,
+          "stem": "Why is mania described as damaging despite feeling enjoyable?",
+          "options": [
+            "It causes blindness",
+            "Its reckless decisions harm the person and others in the long run",
+            "It lowers self-esteem",
+            "It increases sleep"
+          ],
+          "answerIndex": 1,
+          "explanation": "Spending sprees, quitting jobs and risky behaviour cause lasting harm."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A trader who usually saves carefully suddenly spends all her capital on luxury goods, sleeps two hours a night and says she is destined to be the richest woman in Africa. This most likely indicates:",
+          "options": [
+            "Major depression",
+            "Normal confidence",
+            "Narcolepsy",
+            "A manic episode"
+          ],
+          "answerIndex": 3,
+          "explanation": "Spending sprees, little sleep and grandiosity point to mania."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A patient has had two manic episodes and three severe depressive episodes over five years. The diagnosis is most likely:",
+          "options": [
+            "Major depression",
+            "Bipolar affective disorder",
+            "Schizophrenia",
+            "Insomnia"
+          ],
+          "answerIndex": 1,
+          "explanation": "Alternating mania and depression is bipolar disorder."
+        },
+        {
+          "difficulty": 3,
+          "stem": "A man in a manic state abruptly divorces his wife and quits his job. These actions reflect:",
+          "options": [
+            "Narcolepsy",
+            "Careful planning",
+            "Depressive withdrawal",
+            "Impulsive, damaging decisions typical of mania"
+          ],
+          "answerIndex": 3,
+          "explanation": "Mania commonly brings sudden, harmful life decisions."
+        },
+        {
+          "difficulty": 4,
+          "stem": "All of the following are features of mania EXCEPT:",
+          "options": [
+            "Heightened sensory pleasure",
+            "Inflated self-esteem",
+            "Persistent feelings of worthlessness",
+            "Unrealistic optimism"
+          ],
+          "answerIndex": 2,
+          "explanation": "Worthlessness belongs to depression."
+        },
+        {
+          "difficulty": 4,
+          "stem": "Which pair is correctly matched?",
+          "options": [
+            "Major depression: equal in both sexes",
+            "Major depression: women about twice men",
+            "Bipolar disorder: women twice men",
+            "Bipolar disorder: very common"
+          ],
+          "answerIndex": 1,
+          "explanation": "Depression is about twice as common in women; bipolar is equal and uncommon."
+        },
+        {
+          "difficulty": 4,
+          "stem": "In severe mania, a person may show:",
+          "options": [
+            "Psychotic distortion of reality",
+            "Complete loss of energy",
+            "Excessive sleep",
+            "Loss of appetite for pleasure"
+          ],
+          "answerIndex": 0,
+          "explanation": "Severe mania can include psychotic features."
+        },
+        {
+          "difficulty": 5,
+          "stem": "I. Mania usually recurs. II. Bipolar disorder can be treated effectively with medication. III. Bipolar disorder is more common than major depression. Which are correct?",
+          "options": [
+            "I and II only",
+            "I and III only",
+            "II and III only",
+            "I, II and III"
+          ],
+          "answerIndex": 0,
+          "explanation": "I and II are correct. Bipolar disorder is uncommon, much rarer than major depression."
+        },
+        {
+          "difficulty": 5,
+          "stem": "Why might a person in a manic episode resist treatment?",
+          "options": [
+            "The elevated mood can feel enjoyable, so they may not see a problem",
+            "Mania feels unpleasant",
+            "They sleep too much to attend",
+            "They have low self-esteem"
+          ],
+          "answerIndex": 0,
+          "explanation": "The short-term pleasure of mania can hide its long-term harm from the person."
+        },
+        {
+          "difficulty": 5,
+          "stem": "A psychiatrist sees a patient in a first depressive episode. Why would the psychiatrist ask about past periods of unusually high mood?",
+          "options": [
+            "To rule out narcolepsy",
+            "To measure intelligence",
+            "To test colour vision",
+            "To check whether the person has bipolar disorder rather than major depression"
+          ],
+          "answerIndex": 3,
+          "explanation": "Past mania would change the diagnosis to bipolar disorder, which needs different treatment."
+        }
+      ]
+    }
+  ]
+}
